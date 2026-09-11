@@ -1,0 +1,38 @@
+{
+  "revision": "figure5_ng_cc_celltype_patient_connection_20260822",
+  "authority": "approved archived compositor output",
+  "composite_order": [
+    "B",
+    "D",
+    "E",
+    "F",
+    "G"
+  ],
+  "standalone_panels": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G"
+  ],
+  "composite_pixels": [
+    2125,
+    2692
+  ],
+  "canvas_mm": [
+    180,
+    900
+  ],
+  "sha256": {
+    "outputs/Figure_S5.png": "21e17b1a1e4e0f4e27a730f36120a19cde565f11f8fd683d93804196d04b80c3",
+    "outputs/panels/Figure_5_supplementary_A.png": "06b47aeedcc1c2ba7b7f0b16cb23d04863967974264802b9ece5282bb32d6960",
+    "outputs/panels/Figure_5_supplementary_B.png": "a4bdae553202fecd43f242bfb12374e8205f126773192b0224eed4bc87e1cc59",
+    "outputs/panels/Figure_5_supplementary_C.png": "671445cecd8dd048d9fcaa8f3b990e34c639399ecdda8d671f0d632dc7b442bf",
+    "outputs/panels/Figure_5_supplementary_D.png": "b0e674576501158c373e1bb690de335fce070aa7b5b9bd6c95231cb57c90737d",
+    "outputs/panels/Figure_5_supplementary_E.png": "b8cf769bbf1e9d53379ce0cbce39386c510aaeaec3740bfbbcaa26517ddccc06",
+    "outputs/panels/Figure_5_supplementary_F.png": "5aacdde3f9f920d3b671ccb7f392c6bca950b3a43f538b6d88825bdc0e6b1f1c",
+    "outputs/panels/Figure_5_supplementary_G.png": "686c47e126a6f8f662305f6637db077b3085735d7f8a7a5b600764bad27238f2"
+  }
+}

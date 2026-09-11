@@ -1,0 +1,112 @@
+{
+  "cell_level_selection_audit.csv": {
+    "bytes": 372385,
+    "sha256": "1c63f825d912f91ba24250eaad11b393c45f69eecba0b1ca4dce2d4acf9f012b",
+    "source": "data/Figure_3_v7/selection_audit.csv"
+  },
+  "de/bassez_A_knife.csv": {
+    "bytes": 546660,
+    "sha256": "821a47773196962b5b928cc2cbb7059bfa0e25fe56d9ada0e614a28a984a3c1d",
+    "source": "benchmarking_may/bassez_cohort_A_final_run/data/de/DE_bassez_A_combined.csv"
+  },
+  "de/bassez_B_knife.csv": {
+    "bytes": 583311,
+    "sha256": "c253c89a7eca6b74425d635b60935bc6266738322cc7dc957758ecd5692191a3",
+    "source": "data/Figure_3/de/bassez_B/DE_bassez_B_combined.csv"
+  },
+  "de/bassez_B_sccellfie_NR.csv": {
+    "bytes": 242719,
+    "sha256": "5670048a585d044c839452411edd8434fea6361889773cec802d3fdbdea8d863",
+    "source": "data/Figure_3/de/sccellfie/bc2NR/DE-Bc2_NR.csv"
+  },
+  "de/bassez_B_sccellfie_R.csv": {
+    "bytes": 289620,
+    "sha256": "20b256e1f03af10e020dcb64bc2089443b6476ef14c80782e719c817bb56ce1b",
+    "source": "data/Figure_3/de/sccellfie/bc2R/DE-Bc2_R.csv"
+  },
+  "de/shiao_knife_NR.csv": {
+    "bytes": 313442,
+    "sha256": "f9333fdeb4f4fdfa64a6f8ec505d2e0d0144deffb4c63603d4d40454258978fc",
+    "source": "data/Figure_3/de/shiao/aim2/Base_vs_PD1/DE_knife_NR.csv"
+  },
+  "de/shiao_knife_R.csv": {
+    "bytes": 363139,
+    "sha256": "3dea0807df1f289b5178d532f85f9acee1e98d9a9d6473aea771c6af77f6dda8",
+    "source": "data/Figure_3/de/shiao/aim2/Base_vs_PD1/DE_knife_R.csv"
+  },
+  "de/shiao_sccellfie_NR.csv": {
+    "bytes": 350893,
+    "sha256": "92dfa14cb7a3b08c9e658e7ac9ed15fc2024ef7c6a60ea7f3a6a1766aeb2e7fd",
+    "source": "data/Figure_3/de/shiao/aim2/Base_vs_PD1/DE_sccellfie_NR.csv"
+  },
+  "de/shiao_sccellfie_R.csv": {
+    "bytes": 395687,
+    "sha256": "812b9feb9b78f0e3af64f1674e996480e78d16cdb4656f921b36df79296cfb8e",
+    "source": "data/Figure_3/de/shiao/aim2/Base_vs_PD1/DE_sccellfie_R.csv"
+  },
+  "eligible_patient_scores.csv.gz": {
+    "bytes": 702637,
+    "sha256": "02092a51c8c6c65ee7a9d50818dd7a2360baca6812916f2efe5ed5afa8bf239d",
+    "source": "data/Figure_3_v8/eligible_patient_scores.csv.gz"
+  },
+  "literature_supported_effects_reference.csv": {
+    "bytes": 4411,
+    "sha256": "22658220ff24a1e9c88f3e78ae59e36eabe4eafd71e1588055edd8c5a564c532",
+    "source": "data/Figure_3_v9/literature_supported_effects.csv"
+  },
+  "literature_supported_tasks.csv": {
+    "bytes": 1893,
+    "sha256": "ff11d4add73e32620bfec01d7c014f56b57b18fb72ee8c8ec6e4348ef4383fc5",
+    "source": "data/Figure_3_v9/literature_supported_tasks.csv"
+  },
+  "task_umap_activity.parquet": {
+    "bytes": 5346079,
+    "sha256": "9af0d5030f1c2141caeea9ab6962c03753e1b28b702ba0de90e36bf0e89bc8fb",
+    "source": "data/Figure_3_v9/task_umap_activity.parquet"
+  },
+  "task_umap_background.parquet": {
+    "bytes": 7393743,
+    "sha256": "f565082a781c92df3c90fba4e39cc9c9298d825d7ec0e5ccef884e33911c9672",
+    "source": "data/Figure_3_v9/task_umap_background.parquet"
+  },
+  "task_umap_metadata.csv": {
+    "bytes": 2981,
+    "sha256": "ce0c313e06c1b1f2a4e2075331f581e87ccc0f3a79129a81191b1d2bc64aa45f",
+    "source": "data/Figure_3_v9/task_umap_metadata.csv"
+  },
+  "task_umap_render_audit.csv": {
+    "bytes": 4487,
+    "sha256": "f355efc3a6418c8a05ac389a0243f90fd3ff32fe3fede53b352b12fb0178d0ab",
+    "source": "data/Figure_3_v9/task_umap_render_audit.csv"
+  },
+  "task_umap_validation.csv": {
+    "bytes": 1260,
+    "sha256": "23e5729750f4496dcea832cf14ec03310ab3be8f82a8c9aab03148565f6c7749",
+    "source": "data/Figure_3_v9/task_umap_validation.csv"
+  },
+  "treatment_panel_statistics_reference.csv": {
+    "bytes": 2892,
+    "sha256": "54611a2fc37ce0db59d2879869efe75f55e69423fb296955a3ddbe09b9024ffa",
+    "source": "data/Figure_3_v9/treatment_panel_statistics.csv"
+  },
+  "treatment_patient_scores.csv.gz": {
+    "bytes": 2077,
+    "sha256": "4d55fcfb88611cb017219b52aaa943fa4228be25ecd38bec38338c920ecc0906",
+    "source": "data/Figure_3_v9/treatment_patient_scores.csv.gz"
+  },
+  "bassez_go_cell_de_results.csv.gz": {
+    "bytes": 10990858,
+    "sha256": "a96317e123793847705f040a00a3c4598207250bedceea8dfcea9d5b2b70e9bc",
+    "role": "complete cell-level GO DE"
+  },
+  "bassez_go_cell_de_display.csv": {
+    "bytes": 32710,
+    "sha256": "c11696bc82349176999f8f73b8d86d3984ee8a914eef0c375fcfd65c48faec88",
+    "role": "cohort-specific GO DE display"
+  },
+  "bassez_go_cell_de_audit.json": {
+    "bytes": 1733,
+    "sha256": "f3fdd84a49311e48a073f85a2d6123f83c5067e3f80fecbe75c517f174440463",
+    "role": "GO cell-level methods and provenance"
+  }
+}

@@ -1,0 +1,9 @@
+panel,contrast,feature,display_name,putative_native_metabolite,inchikey,formula,native_database,native_score,precursor_ppm_error,rt_error_seconds,confidence_label,optilcms_blank_retained,optilcms_sample_to_blank_cutoff,median_technical_replicate_CV_percent,technical_replicate_CV_lt_30_percent_fraction
+C,surgery_vs_biopsy,pos_174.9854_1689.69,"Selenoamino acid metabolism
+m/z 174.9854 • RT 1689.69 s",,,,,,,,Unannotated LC-MS feature,True,26.98,28.9486891407726,0.5
+C,surgery_vs_biopsy,pos_250.0920_262.79,"Aspartate/asparagine metabolism
+m/z 250.0920 • RT 262.79 s",,,,,,,,Unannotated LC-MS feature,True,26.98,36.2348549499444,0.357142857142857
+C,surgery_vs_biopsy,neg_246.9429_242.71,"Glycolysis/gluconeogenesis
+m/z 246.9429 • RT 242.71 s",,,,,,,,Unannotated LC-MS feature,True,13.78,59.706152991329,0.181818181818182
+SC,surgery_vs_biopsy,neg_315.0589_415.29,Isorhamnetin,Isorhamnetin,IZQSVPBOUDKVDZ-UHFFFAOYSA-N,C16H12O7,biology,42.56,27.182939714308,0.51314014419205,Putative native MS/MS library match; MSI level-2 candidate pending mirror/manual review,True,13.78,97.9510930768211,0.285714285714286
+SC,surgery_vs_biopsy,pos_120.0613_397.07,L-threonine,L-Threonine,AYFVYJQAPQTCCC-STHAYSLISA-N,C4H9NO3,biology,39.44,97.0300445562399,0.14269456968799,Putative native MS/MS library match; MSI level-2 candidate pending mirror/manual review,True,26.98,46.2293489290756,0.285714285714286

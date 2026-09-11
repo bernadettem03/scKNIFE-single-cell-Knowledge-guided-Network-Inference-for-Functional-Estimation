@@ -1,0 +1,7 @@
+filename,contrast,n,pearson_r,pearson_p,spearman_rho,spearman_p
+gpr_gpa_vs_scknife_effects.csv,metastatic_vs_nonmetastatic,828,0.9714493085221396,0.0,0.9745845844899971,0.0
+gpr_gpa_vs_scknife_effects.csv,surgery_vs_biopsy,828,0.9010066569859733,7.834036678805574e-302,0.9235847446625718,0.0
+meia_vs_scknife_effects.csv,metastatic_vs_nonmetastatic,2136,0.659632441402515,5.742837413047099e-267,0.5893693866675733,5.321007644012422e-200
+meia_vs_scknife_effects.csv,surgery_vs_biopsy,2136,0.6036039201420434,3.153689156950152e-212,0.6580557075752901,2.893280307583831e-265
+meia_pathway_vs_gpr_gpa_effects.csv,metastatic_vs_nonmetastatic,828,0.9646236640347895,0.0,0.9741579085964432,0.0
+meia_pathway_vs_gpr_gpa_effects.csv,surgery_vs_biopsy,828,0.9454784553855724,0.0,0.94267282556323,0.0

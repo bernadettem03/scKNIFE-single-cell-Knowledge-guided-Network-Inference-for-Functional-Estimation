@@ -1,0 +1,4 @@
+endpoint,cohort,cell_type,task,group_a,group_b,n_group_a,n_group_b,eligible,delta_group_b_vs_a,ci_low,ci_high,exact_permutation_p,n_patient_concordant,n_patients,patient_concordance_rate,exact_permutation_q,abs_delta,concordance_pass,effect_top_tier,literature_rank
+R/NR,Shiao,Myeloid,N-glycan processing (ER),Favorable,Unfavorable,9,4,True,-0.7777777777777778,-1.0,-0.3333333333333333,0.0951048951048951,12,13,0.9230769230769231,1.0,0.7777777777777778,True,True,5
+R/NR,Shiao,Tumor/epithelial,Phosphatidyl-inositol synthesis,Favorable,Unfavorable,10,6,True,0.6666666666666666,0.2,1.0,0.032092907092907096,15,16,0.9375,1.0,0.6666666666666666,True,True,5
+R/NR,Shiao,T cell,Glycogen biosynthesis,Favorable,Unfavorable,10,5,True,0.64,-0.04,1.0,0.20812520812520813,14,15,0.9333333333333333,1.0,0.64,True,True,5

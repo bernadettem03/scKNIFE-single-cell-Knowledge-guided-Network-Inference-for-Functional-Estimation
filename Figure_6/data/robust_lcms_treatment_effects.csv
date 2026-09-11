@@ -1,0 +1,2 @@
+display_order,scKNIFE_metabolite,display_name,identity_confidence,identity_rule,Feature,Polarity,log2_fold_change,nominal_p_value,joint_BH_FDR,t_score,treatment_FDR_supported,confidence_label
+0,threonine,L-threonine,Putative native MS/MS library match,Native library candidate,pos_120.0613_397.07,positive,1.90635987104434,0.0021269885727728,0.0535329298394484,3.81863748501991,False,Putative native MS/MS library match; MSI level-2 candidate pending mirror/manual review

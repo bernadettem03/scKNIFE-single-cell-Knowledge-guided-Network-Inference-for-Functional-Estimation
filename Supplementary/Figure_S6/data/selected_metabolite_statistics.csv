@@ -1,0 +1,9 @@
+panel,contrast,feature,display_name,selection_tier,putative_native_metabolite,inchikey,formula,polarity,mz,rt_seconds,log2_fold_change,t_score,nominal_p_value,joint_BH_FDR,native_score,precursor_ppm_error,rt_error_seconds,native_database,confidence_label
+C,surgery_vs_biopsy,pos_174.9854_1689.69,"Selenoamino acid metabolism
+m/z 174.9854 • RT 1689.69 s",Corrected pathway driver; pathway BH-FDR < 0.05,,,,positive,174.98535323278,1689.68566350692,1.01909311523085,4.37778861384957,0.0007459454226199,0.0299467168529185,,,,,Unannotated LC-MS feature
+C,surgery_vs_biopsy,pos_250.0920_262.79,"Aspartate/asparagine metabolism
+m/z 250.0920 • RT 262.79 s",Corrected pathway driver; pathway BH-FDR < 0.05,,,,positive,250.091980686093,262.79073768691,1.49770272398684,4.10234556126229,0.0012451776271532,0.0407897165427658,,,,,Unannotated LC-MS feature
+C,surgery_vs_biopsy,neg_246.9429_242.71,"Glycolysis/gluconeogenesis
+m/z 246.9429 • RT 242.71 s",Corrected pathway driver; pathway BH-FDR < 0.05,,,,negative,246.942913474222,242.707348227384,-2.86512120886758,-4.29782493045981,0.0008673814757699,0.0318762692345453,,,,,Unannotated LC-MS feature
+SC,surgery_vs_biopsy,neg_315.0589_415.29,Isorhamnetin,Blank-corrected putative native candidate,Isorhamnetin,IZQSVPBOUDKVDZ-UHFFFAOYSA-N,C16H12O7,negative,315.058913994671,415.293140144192,3.57720943529781,4.37096803640239,0.0007576777867794,0.0300722313572769,42.56,27.182939714308,0.51314014419205,biology,Putative native MS/MS library match; MSI level-2 candidate pending mirror/manual review
+SC,surgery_vs_biopsy,pos_120.0613_397.07,L-threonine,Blank-corrected putative native candidate,L-Threonine,AYFVYJQAPQTCCC-STHAYSLISA-N,C4H9NO3,positive,120.06134931146,397.067694569688,1.90635987104434,3.81863748501991,0.0021269885727728,0.0535329298394484,39.44,97.0300445562399,0.14269456968799,biology,Putative native MS/MS library match; MSI level-2 candidate pending mirror/manual review

@@ -1,0 +1,137 @@
+{
+  "created_utc": "2026-08-31T17:21:37.093392+00:00",
+  "analysis": "Cross-dataset linear CKA and within-dataset factor diagnostics",
+  "interpretation": "Concordant cross-cohort W-space structure with limited within-cohort factor redundancy",
+  "datasets": [
+    "Bassez_A",
+    "Bassez_B",
+    "Shiao",
+    "Wu"
+  ],
+  "n_nodes": 22951,
+  "node_order_validated": true,
+  "node_names_sha256": "817a3d6afe44e8adb0b6e6c11594687de1adb1e43b3c8fac726f51d7f7ce8be3",
+  "normalization": "Column z-score; divide by sqrt(n_factors); row L2 normalize; column-center for CKA",
+  "seed": 42,
+  "renderer": "matplotlib fallback; cnsplots unavailable under Python 3.9",
+  "python": "3.9.21",
+  "numpy": "1.26.4",
+  "pandas": "2.2.3",
+  "matplotlib": "3.9.2",
+  "sources": [
+    {
+      "dataset": "Bassez_A",
+      "w_path": "PRIVATE_ARCHIVE_ROOT/source_snapshot/benchmarking_may/bassez_cohort_A_final_run/data/pipeline/bassez_A_W_graph.parquet",
+      "w_sha256": "1f07476dbb319fc457965575e6553366c178f957d1387f8c45c31102b98e5844",
+      "adata_path": "PRIVATE_ARCHIVE_ROOT/source_snapshot/benchmarking_may/bassez_cohort_A_final_run/data/pipeline/scKNIFE_results_bassez_A.h5ad",
+      "node_names_sha256": "817a3d6afe44e8adb0b6e6c11594687de1adb1e43b3c8fac726f51d7f7ce8be3"
+    },
+    {
+      "dataset": "Bassez_B",
+      "w_path": "PRIVATE_ARCHIVE_ROOT/source_snapshot/benchmarking_may/bassez_cohort_B_final_run/data/pipeline/bassez_B_W_graph.parquet",
+      "w_sha256": "95e8a2a07df81addaaf4c47afa8936f52ca3a43dd0547d8c80ac25907288931b",
+      "adata_path": "PRIVATE_ARCHIVE_ROOT/source_snapshot/benchmarking_may/bassez_cohort_B_final_run/data/pipeline/scKNIFE_results_bassez_B.h5ad",
+      "node_names_sha256": "817a3d6afe44e8adb0b6e6c11594687de1adb1e43b3c8fac726f51d7f7ce8be3"
+    },
+    {
+      "dataset": "Shiao",
+      "w_path": "PRIVATE_ARCHIVE_ROOT/source_snapshot/benchmarking_may/shiao_final_run/data/pipeline/shiao_W_graph.parquet",
+      "w_sha256": "d3a05f1216df1bad13f776a1f8934e3867e326b219f91de297e8f240461d376b",
+      "adata_path": "PRIVATE_ARCHIVE_ROOT/source_snapshot/benchmarking_may/shiao_final_run/data/pipeline/scKNIFE_results_shiao.h5ad",
+      "node_names_sha256": "817a3d6afe44e8adb0b6e6c11594687de1adb1e43b3c8fac726f51d7f7ce8be3"
+    },
+    {
+      "dataset": "Wu",
+      "w_path": "PRIVATE_ARCHIVE_ROOT/source_snapshot/benchmarking_may/wu_final_run/data/pipeline/wu_W_graph.parquet",
+      "w_sha256": "600afb9c64738a1829c8aef74ed960742734bcc56109adfbfaba9ff63669923a",
+      "adata_path": "PRIVATE_ARCHIVE_ROOT/source_snapshot/benchmarking_may/wu_final_run/data/pipeline/scKNIFE_results_wu.h5ad",
+      "node_names_sha256": "817a3d6afe44e8adb0b6e6c11594687de1adb1e43b3c8fac726f51d7f7ce8be3"
+    }
+  ],
+  "diagnostics": {
+    "Bassez_A": {
+      "n_nodes": 22951,
+      "n_factors": 40,
+      "effective_rank": 22.21162040736667,
+      "effective_rank_fraction": 0.5552905101841668,
+      "median_abs_factor_correlation": 0.16746129892847406,
+      "p95_abs_factor_correlation": 0.46697013786291364,
+      "max_abs_factor_correlation": 0.8438063168265056,
+      "condition_number": 10.233770761391815
+    },
+    "Bassez_B": {
+      "n_nodes": 22951,
+      "n_factors": 40,
+      "effective_rank": 22.900131546910583,
+      "effective_rank_fraction": 0.5725032886727646,
+      "median_abs_factor_correlation": 0.14847906043473316,
+      "p95_abs_factor_correlation": 0.4664700501353681,
+      "max_abs_factor_correlation": 0.8079759637932621,
+      "condition_number": 8.903584478150572
+    },
+    "Shiao": {
+      "n_nodes": 22951,
+      "n_factors": 80,
+      "effective_rank": 56.799289132599824,
+      "effective_rank_fraction": 0.7099911141574978,
+      "median_abs_factor_correlation": 0.033820213382277135,
+      "p95_abs_factor_correlation": 0.28336152736515885,
+      "max_abs_factor_correlation": 0.7374513073135892,
+      "condition_number": 7.353243797243804
+    },
+    "Wu": {
+      "n_nodes": 22951,
+      "n_factors": 30,
+      "effective_rank": 15.776315694564655,
+      "effective_rank_fraction": 0.5258771898188218,
+      "median_abs_factor_correlation": 0.23851689851193322,
+      "p95_abs_factor_correlation": 0.5514667691821911,
+      "max_abs_factor_correlation": 0.7787086024066855,
+      "condition_number": 7.867560386411143
+    }
+  },
+  "cka_matrix": {
+    "Bassez_A": {
+      "Bassez_A": 1.0,
+      "Bassez_B": 0.8954232627655824,
+      "Shiao": 0.6691250955884085,
+      "Wu": 0.8255330753348376
+    },
+    "Bassez_B": {
+      "Bassez_A": 0.8954232627655824,
+      "Bassez_B": 1.0,
+      "Shiao": 0.6906767941482703,
+      "Wu": 0.8072538198186981
+    },
+    "Shiao": {
+      "Bassez_A": 0.6691250955884085,
+      "Bassez_B": 0.6906767941482703,
+      "Shiao": 1.0,
+      "Wu": 0.7188202325947323
+    },
+    "Wu": {
+      "Bassez_A": 0.8255330753348376,
+      "Bassez_B": 0.8072538198186981,
+      "Shiao": 0.7188202325947323,
+      "Wu": 1.0
+    }
+  },
+  "outputs": {
+    "data/w_pooled_concordance_metrics.csv": {
+      "bytes": 906,
+      "sha256": "4d6c2a369b006f27731713509526e9ed32e1beca9e0a7e1f46e09b5acbab37f2"
+    },
+    "figs/w_pooled_concordance_matrix.png": {
+      "bytes": 252825,
+      "sha256": "e635d44ca26aeecaad3d020f6b3bc07b07c2bd00de2f573276d7400364f2ef19"
+    },
+    "figs/w_pooled_concordance_matrix.pdf": {
+      "bytes": 28883,
+      "sha256": "736fae79255156a7e8ef045dfedda9a904b0b6be25a8c98bdf4be1199795d6dc"
+    },
+    "figs/w_pooled_concordance_matrix.svg": {
+      "bytes": 21305,
+      "sha256": "4d14f6f7256eb1a77568de22090517dd956c7982e94650da43ab4feb2453ae80"
+    }
+  }
+}

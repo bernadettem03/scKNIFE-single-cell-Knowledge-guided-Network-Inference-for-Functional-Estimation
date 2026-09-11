@@ -1,0 +1,240 @@
+{
+  "panels": {
+    "A": {
+      "mode": "standalone_data_driven_figure",
+      "renderer": "matplotlib_fallback",
+      "matplotlib_version": "3.9.2",
+      "python_version": "3.9.21",
+      "font_family": "Arial/Helvetica/DejaVu Sans",
+      "pdf_font_type": 42,
+      "pdf_text_mode": "editable_truetype",
+      "svg_font_type": "none",
+      "svg_text_mode": "editable_text",
+      "svg_raster_images": 0,
+      "saved_in_individual_notebook_cell": true,
+      "compiled_canvas_crop": false,
+      "fixed_canvas_export": false,
+      "export_bounds": "content_aware_tight",
+      "data_lineage_kind": "schematic",
+      "intermediate_inputs": [],
+      "data_extractor": "extractor_scripts/extract_figure_7_data.py",
+      "extraction_mode": "schematic"
+    },
+    "B": {
+      "mode": "standalone_data_driven_figure",
+      "renderer": "matplotlib_fallback",
+      "matplotlib_version": "3.9.2",
+      "python_version": "3.9.21",
+      "font_family": "Arial/Helvetica/DejaVu Sans",
+      "pdf_font_type": 42,
+      "pdf_text_mode": "editable_truetype",
+      "svg_font_type": "none",
+      "svg_text_mode": "editable_text",
+      "svg_raster_images": 0,
+      "saved_in_individual_notebook_cell": true,
+      "compiled_canvas_crop": false,
+      "fixed_canvas_export": false,
+      "export_bounds": "content_aware_tight",
+      "data_lineage_kind": "data",
+      "intermediate_inputs": [
+        {
+          "path": "pathway_overlap.csv"
+        }
+      ],
+      "data_extractor": "extractor_scripts/extract_figure_7_data.py",
+      "extraction_mode": "derived_and_staged"
+    },
+    "C": {
+      "mode": "standalone_data_driven_figure",
+      "renderer": "matplotlib_fallback",
+      "matplotlib_version": "3.9.2",
+      "python_version": "3.9.21",
+      "font_family": "Arial/Helvetica/DejaVu Sans",
+      "pdf_font_type": 42,
+      "pdf_text_mode": "editable_truetype",
+      "svg_font_type": "none",
+      "svg_text_mode": "editable_text",
+      "svg_raster_images": 0,
+      "saved_in_individual_notebook_cell": true,
+      "compiled_canvas_crop": false,
+      "fixed_canvas_export": false,
+      "export_bounds": "content_aware_tight",
+      "data_lineage_kind": "data",
+      "intermediate_inputs": [
+        {
+          "path": "lr_harmonized_overlap.csv"
+        }
+      ],
+      "data_extractor": "extractor_scripts/extract_figure_7_data.py",
+      "extraction_mode": "derived_and_staged"
+    },
+    "D": {
+      "mode": "standalone_data_driven_figure",
+      "renderer": "matplotlib_fallback",
+      "matplotlib_version": "3.9.2",
+      "python_version": "3.9.21",
+      "font_family": "Arial/Helvetica/DejaVu Sans",
+      "pdf_font_type": 42,
+      "pdf_text_mode": "editable_truetype",
+      "svg_font_type": "none",
+      "svg_text_mode": "editable_text",
+      "svg_raster_images": 0,
+      "saved_in_individual_notebook_cell": true,
+      "compiled_canvas_crop": false,
+      "fixed_canvas_export": false,
+      "export_bounds": "content_aware_tight",
+      "data_lineage_kind": "data",
+      "intermediate_inputs": [
+        {
+          "path": "strength_correlation.csv.gz"
+        }
+      ],
+      "data_extractor": "extractor_scripts/extract_figure_7_data.py",
+      "extraction_mode": "derived_and_staged"
+    },
+    "E": {
+      "mode": "standalone_data_driven_figure",
+      "renderer": "matplotlib_fallback",
+      "matplotlib_version": "3.9.2",
+      "python_version": "3.9.21",
+      "font_family": "Arial/Helvetica/DejaVu Sans",
+      "pdf_font_type": 42,
+      "pdf_text_mode": "editable_truetype",
+      "svg_font_type": "none",
+      "svg_text_mode": "editable_text",
+      "svg_raster_images": 0,
+      "saved_in_individual_notebook_cell": true,
+      "compiled_canvas_crop": false,
+      "fixed_canvas_export": false,
+      "export_bounds": "content_aware_tight",
+      "data_lineage_kind": "data",
+      "intermediate_inputs": [
+        {
+          "path": "vegf_communication_matrix.csv"
+        }
+      ],
+      "data_extractor": "extractor_scripts/extract_figure_7_data.py",
+      "extraction_mode": "derived_and_staged"
+    },
+    "F": {
+      "mode": "standalone_data_driven_figure",
+      "renderer": "matplotlib_fallback",
+      "matplotlib_version": "3.9.2",
+      "python_version": "3.9.21",
+      "font_family": "Arial/Helvetica/DejaVu Sans",
+      "pdf_font_type": 42,
+      "pdf_text_mode": "editable_truetype",
+      "svg_font_type": "none",
+      "svg_text_mode": "editable_text",
+      "svg_raster_images": 1,
+      "saved_in_individual_notebook_cell": true,
+      "compiled_canvas_crop": false,
+      "fixed_canvas_export": false,
+      "export_bounds": "content_aware_tight",
+      "data_lineage_kind": "data",
+      "intermediate_inputs": [
+        {
+          "path": "vegf_communication_matrix.csv"
+        }
+      ],
+      "data_extractor": "extractor_scripts/extract_figure_7_data.py",
+      "extraction_mode": "derived_and_staged"
+    },
+    "G": {
+      "mode": "standalone_data_driven_figure",
+      "renderer": "matplotlib_fallback",
+      "matplotlib_version": "3.9.2",
+      "python_version": "3.9.21",
+      "font_family": "Arial/Helvetica/DejaVu Sans",
+      "pdf_font_type": 42,
+      "pdf_text_mode": "editable_truetype",
+      "svg_font_type": "none",
+      "svg_text_mode": "editable_text",
+      "svg_raster_images": 0,
+      "saved_in_individual_notebook_cell": true,
+      "compiled_canvas_crop": false,
+      "fixed_canvas_export": false,
+      "export_bounds": "content_aware_tight",
+      "data_lineage_kind": "data",
+      "intermediate_inputs": [
+        {
+          "path": "vegf_top_interactions.csv.gz"
+        }
+      ],
+      "data_extractor": "extractor_scripts/extract_figure_7_data.py",
+      "extraction_mode": "derived_and_staged"
+    },
+    "H": {
+      "mode": "standalone_data_driven_figure",
+      "renderer": "matplotlib_fallback",
+      "matplotlib_version": "3.9.2",
+      "python_version": "3.9.21",
+      "font_family": "Arial/Helvetica/DejaVu Sans",
+      "pdf_font_type": 42,
+      "pdf_text_mode": "editable_truetype",
+      "svg_font_type": "none",
+      "svg_text_mode": "editable_text",
+      "svg_raster_images": 1,
+      "saved_in_individual_notebook_cell": true,
+      "compiled_canvas_crop": false,
+      "fixed_canvas_export": false,
+      "export_bounds": "content_aware_tight",
+      "data_lineage_kind": "data",
+      "intermediate_inputs": [
+        {
+          "path": "h_graph_umap_scores.parquet"
+        }
+      ],
+      "data_extractor": "extractor_scripts/extract_figure_7_data.py",
+      "extraction_mode": "derived_and_staged"
+    },
+    "I": {
+      "mode": "standalone_data_driven_figure",
+      "renderer": "matplotlib_fallback",
+      "matplotlib_version": "3.9.2",
+      "python_version": "3.9.21",
+      "font_family": "Arial/Helvetica/DejaVu Sans",
+      "pdf_font_type": 42,
+      "pdf_text_mode": "editable_truetype",
+      "svg_font_type": "none",
+      "svg_text_mode": "editable_text",
+      "svg_raster_images": 1,
+      "saved_in_individual_notebook_cell": true,
+      "compiled_canvas_crop": false,
+      "fixed_canvas_export": false,
+      "export_bounds": "content_aware_tight",
+      "data_lineage_kind": "data",
+      "intermediate_inputs": [
+        {
+          "path": "h_graph_umap_scores.parquet"
+        }
+      ],
+      "data_extractor": "extractor_scripts/extract_figure_7_data.py",
+      "extraction_mode": "derived_and_staged"
+    },
+    "J": {
+      "mode": "standalone_data_driven_figure",
+      "renderer": "matplotlib_fallback",
+      "matplotlib_version": "3.9.2",
+      "python_version": "3.9.21",
+      "font_family": "Arial/Helvetica/DejaVu Sans",
+      "pdf_font_type": 42,
+      "pdf_text_mode": "editable_truetype",
+      "svg_font_type": "none",
+      "svg_text_mode": "editable_text",
+      "svg_raster_images": 1,
+      "saved_in_individual_notebook_cell": true,
+      "compiled_canvas_crop": false,
+      "fixed_canvas_export": false,
+      "export_bounds": "content_aware_tight",
+      "data_lineage_kind": "data",
+      "intermediate_inputs": [
+        {
+          "path": "h_graph_umap_scores.parquet"
+        }
+      ],
+      "data_extractor": "extractor_scripts/extract_figure_7_data.py",
+      "extraction_mode": "derived_and_staged"
+    }
+  }
+}

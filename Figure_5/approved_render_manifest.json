@@ -1,0 +1,27 @@
+{
+  "revision": "figure5_ng_cc_celltype_patient_connection_20260822",
+  "authority": "approved archived compositor output",
+  "composite_order": [
+    "A",
+    "C",
+    "E",
+    "G",
+    "H"
+  ],
+  "composite_pixels": [
+    2125,
+    7322
+  ],
+  "canvas_mm": [
+    180,
+    620
+  ],
+  "sha256": {
+    "outputs/Figure_5.png": "74a8e757f3bd08f19f00d261c42bede6db3bf56abd28f2b9b6b1979556f96c14",
+    "outputs/panels/Figure_5_A.png": "bc640a0466f4f466c505c7b7cfbb92e2f9a9a32ca3bca25541f18d797f2f39c9",
+    "outputs/panels/Figure_5_C.png": "99c39f274023a5984c0a6925c2025e610b7a66b6f218365d1e0793b8187d8856",
+    "outputs/panels/Figure_5_E.png": "e48e4e8b70581f5ca63638e7eae06055d51f37560a5cbd2ee29547640da9a4c9",
+    "outputs/panels/Figure_5_G.png": "f7937cc1dec41ca4eb158315c97c791c3209717ae7b52acbef8f7a30c17580ee",
+    "outputs/panels/Figure_5_H.png": "9387723c3d926cba42ab7ff66fd2907bc7a9a727d62d061399d01e2f01bf909f"
+  }
+}

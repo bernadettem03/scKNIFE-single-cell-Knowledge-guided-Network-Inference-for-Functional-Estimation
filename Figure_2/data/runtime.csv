@@ -1,0 +1,9 @@
+method,dataset,seconds
+bgNMF,Bassez c1,5184.97
+bgNMF,Bassez c2,7662.84
+Spectra,Bassez c1,44970.52
+Spectra,Bassez c2,47312.88
+ExpiMap,Bassez c1,52989.46
+ExpiMap,Bassez c2,55620.43
+Slalom,Bassez c1,26357.98
+Slalom,Bassez c2,41150.61

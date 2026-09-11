@@ -1,0 +1,11 @@
+record_type,dataset_a,dataset_b,linear_cka,n_nodes,n_factors,effective_rank,effective_rank_fraction,median_abs_factor_correlation,p95_abs_factor_correlation,max_abs_factor_correlation,condition_number
+dataset,Bassez_A,,,22951,40,22.2116204074,0.555290510184,0.167461298928,0.466970137863,0.843806316827,10.2337707614
+dataset,Bassez_B,,,22951,40,22.9001315469,0.572503288673,0.148479060435,0.466470050135,0.807975963793,8.90358447815
+dataset,Shiao,,,22951,80,56.7992891326,0.709991114157,0.0338202133823,0.283361527365,0.737451307314,7.35324379724
+dataset,Wu,,,22951,30,15.7763156946,0.525877189819,0.238516898512,0.551466769182,0.778708602407,7.86756038641
+pair,Bassez_A,Bassez_B,0.895423262766,,,,,,,,
+pair,Bassez_A,Shiao,0.669125095588,,,,,,,,
+pair,Bassez_A,Wu,0.825533075335,,,,,,,,
+pair,Bassez_B,Shiao,0.690676794148,,,,,,,,
+pair,Bassez_B,Wu,0.807253819819,,,,,,,,
+pair,Shiao,Wu,0.718820232595,,,,,,,,

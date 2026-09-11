@@ -1,0 +1,28 @@
+# Figure 2 — benchmarking and external validation
+
+This directory reproduces the main Figure 2 from frozen, plot-ready inputs.
+The public `Figure_2.ipynb` will be plotting-only. Computation of agreement
+metrics and correlation annotations is isolated under `analysis/`.
+
+## Panels
+
+- A: benchmarking workflow.
+- B: prior-knowledge capacity.
+- C: training runtime.
+- D: scKNIFE clustering across four cohorts.
+- E: clustering agreement with author labels.
+- F: author cell-type labels on the same embeddings.
+- G: TP53/Doxorubicin Hallmark comparison.
+- H: PIK3R1/Afatinib Hallmark comparison.
+
+## Layout
+
+- `Figure_2.ipynb`: migrated authoritative notebook; it will be reduced to the
+  plotting-only main workflow after baseline validation.
+- `analysis/`: deterministic derivation of small annotation tables.
+- `data/`: frozen inputs required by the main figure.
+- `outputs/`: approved PDF and PNG preview.
+
+Supplementary Figure 2 is maintained separately under
+`../Supplementary/Figure_S2/`.
+

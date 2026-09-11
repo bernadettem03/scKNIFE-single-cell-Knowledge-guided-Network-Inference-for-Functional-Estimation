@@ -1,0 +1,105 @@
+{
+  "notebook": "Figure_4.ipynb",
+  "mode": "plot_only",
+  "analysis_recomputed": false,
+  "source": "data/fig4_supplementary_plot_data.h5",
+  "panel_order": [
+    "T",
+    "R",
+    "S",
+    "Q",
+    "N",
+    "P",
+    "M"
+  ],
+  "fields": {
+    "T": [
+      "atlas/patient_site",
+      "atlas/patient_site_counts"
+    ],
+    "R": [
+      "atlas/composition_counts"
+    ],
+    "S": [
+      "marker_dotplots/genes",
+      "marker_dotplots/fraction_expressing"
+    ],
+    "Q": [
+      "atlas/umap",
+      "atlas/celltype"
+    ],
+    "N": [
+      "cnv_qc/umap",
+      "cnv_qc/cnv_leiden"
+    ],
+    "P": [
+      "cnv_qc/umap",
+      "cnv_qc/celltype"
+    ],
+    "M": [
+      "cnv_provisional/umap",
+      "cnv_provisional/status"
+    ]
+  },
+  "renderers": {
+    "T": "matplotlib",
+    "R": "matplotlib",
+    "S": "matplotlib",
+    "Q": "scanpy",
+    "N": "scanpy",
+    "P": "scanpy",
+    "M": "scanpy"
+  },
+  "export": {
+    "svg_text": "editable",
+    "rasterized_panels": [
+      "Q",
+      "N",
+      "P",
+      "M"
+    ],
+    "raster_dpi": 300
+  },
+  "individual_outputs": {
+    "T": {
+      "png": "outputs/panels/S4_T_patient_site_composition.png",
+      "pdf": "outputs/panels/S4_T_patient_site_composition.pdf"
+    },
+    "R": {
+      "png": "outputs/panels/S4_R_overall_composition.png",
+      "pdf": "outputs/panels/S4_R_overall_composition.pdf"
+    },
+    "S": {
+      "png": "outputs/panels/S4_S_canonical_marker_expression.png",
+      "pdf": "outputs/panels/S4_S_canonical_marker_expression.pdf"
+    },
+    "Q": {
+      "png": "outputs/panels/S4_Q_celltype_umap.png",
+      "pdf": "outputs/panels/S4_Q_celltype_umap.pdf"
+    },
+    "N": {
+      "png": "outputs/panels/S4_N_cnv_clusters.png",
+      "pdf": "outputs/panels/S4_N_cnv_clusters.pdf"
+    },
+    "P": {
+      "png": "outputs/panels/S4_P_cnv_celltype.png",
+      "pdf": "outputs/panels/S4_P_cnv_celltype.pdf"
+    },
+    "M": {
+      "png": "outputs/panels/S4_M_cnv_shortlist.png",
+      "pdf": "outputs/panels/S4_M_cnv_shortlist.pdf"
+    }
+  },
+  "compiled_outputs": {
+    "png": "outputs/Figure_S4.png",
+    "pdf": "outputs/Figure_S4.pdf"
+  },
+  "checks": {
+    "cells": 69391,
+    "specimens": 15,
+    "markers": 59,
+    "cnv_clusters": 26,
+    "cnv_low": 27421,
+    "cnv_high": 41970
+  }
+}

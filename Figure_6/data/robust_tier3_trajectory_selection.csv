@@ -1,0 +1,4 @@
+display_order,global_rank,metabolite,display_name,celltype,tier,tier1_replicated_treatment,tier2_recurrence_rebound,tier3_baseline_like_recurrence,selection_rule
+1,7,2E_heptenoyl_CoA,(2E)-heptenoyl-CoA,CAFs,3,True,True,True,Predefined representative strict Tier-3 candidate for each eligible cell type
+2,16,5_ppPur_mRNA,(5)ppPur-mRNA,Epithelial,3,True,True,True,Predefined representative strict Tier-3 candidate for each eligible cell type
+3,6,heparan_sulfate_degradation_product_18,"heparan sulfate, degradation product 18",T cells,3,True,True,True,Predefined representative strict Tier-3 candidate for each eligible cell type

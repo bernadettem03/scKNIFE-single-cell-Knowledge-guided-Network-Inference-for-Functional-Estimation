@@ -1,0 +1,4 @@
+stage_order,stage,metabolite_count
+0,Tier-3 inferred metabolites,68
+1,Putative LC-MS matches,4
+2,FDR-supported treatment effect,1

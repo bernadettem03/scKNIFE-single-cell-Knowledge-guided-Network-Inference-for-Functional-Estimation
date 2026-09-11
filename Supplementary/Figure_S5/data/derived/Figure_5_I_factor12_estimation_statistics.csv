@@ -1,0 +1,4 @@
+patient,factor,display_group,difference,ci_low,ci_high,standardized_difference,n_per_group,interpretation,bootstrap_resamples,random_seed,comparison
+P3,factor 12 / NG5*,All epithelial,3.1085775042782124,2.895297967325574,3.327373288591508,1.2827626339411504,1017,cell-resampling sensitivity; not independent-patient inference,2000,42,recurrence minus pooled biopsy/surgery
+P3,factor 12 / NG5*,Luminal,2.889451303989053,1.849454016697585,3.978495008901205,1.111294330882795,46,cell-resampling sensitivity; not independent-patient inference,2000,42,recurrence minus pooled biopsy/surgery
+P3,factor 12 / NG5*,Progenitor,3.2954527648431085,2.8338243054560324,3.767293692194361,1.336417305066855,206,cell-resampling sensitivity; not independent-patient inference,2000,42,recurrence minus pooled biopsy/surgery

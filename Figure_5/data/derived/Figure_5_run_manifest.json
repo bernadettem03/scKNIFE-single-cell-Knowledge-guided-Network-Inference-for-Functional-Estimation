@@ -1,0 +1,148 @@
+{
+  "revision": "figure5_supplementary_ef_side_by_side_20260828",
+  "random_seed": 42,
+  "selected_k": 8,
+  "raw_w_nodes": 39247,
+  "excluded_node_kinds": [
+    "cell_type",
+    "cell_state"
+  ],
+  "excluded_node_kind_counts": {
+    "cell_state": 83,
+    "cell_type": 95
+  },
+  "eligible_w_nodes": 39035,
+  "selected_nodes": 160,
+  "excluded_annotation_nodes_absent": true,
+  "program_alignment": [
+    {
+      "raw_cluster": 7,
+      "program": 0,
+      "shared_factors": 6,
+      "new_cluster_size": 6,
+      "reference_cluster_size": 6,
+      "factor_membership_jaccard": 1.0
+    },
+    {
+      "raw_cluster": 4,
+      "program": 1,
+      "shared_factors": 3,
+      "new_cluster_size": 3,
+      "reference_cluster_size": 3,
+      "factor_membership_jaccard": 1.0
+    },
+    {
+      "raw_cluster": 3,
+      "program": 2,
+      "shared_factors": 2,
+      "new_cluster_size": 2,
+      "reference_cluster_size": 2,
+      "factor_membership_jaccard": 1.0
+    },
+    {
+      "raw_cluster": 5,
+      "program": 3,
+      "shared_factors": 28,
+      "new_cluster_size": 28,
+      "reference_cluster_size": 28,
+      "factor_membership_jaccard": 1.0
+    },
+    {
+      "raw_cluster": 1,
+      "program": 4,
+      "shared_factors": 1,
+      "new_cluster_size": 1,
+      "reference_cluster_size": 1,
+      "factor_membership_jaccard": 1.0
+    },
+    {
+      "raw_cluster": 2,
+      "program": 5,
+      "shared_factors": 3,
+      "new_cluster_size": 3,
+      "reference_cluster_size": 3,
+      "factor_membership_jaccard": 1.0
+    },
+    {
+      "raw_cluster": 6,
+      "program": 6,
+      "shared_factors": 2,
+      "new_cluster_size": 2,
+      "reference_cluster_size": 2,
+      "factor_membership_jaccard": 1.0
+    },
+    {
+      "raw_cluster": 0,
+      "program": 7,
+      "shared_factors": 5,
+      "new_cluster_size": 5,
+      "reference_cluster_size": 5,
+      "factor_membership_jaccard": 1.0
+    }
+  ],
+  "analysis_grouping": "scknife_final_celltype",
+  "patient_id_metadata": {
+    "source": "data/Figure_4/patient_id_mapping.csv",
+    "visual_labels": "P1-P7",
+    "mapping": [
+      {
+        "display_id": "P1",
+        "patient_id": "P1"
+      },
+      {
+        "display_id": "P2",
+        "patient_id": "P2"
+      },
+      {
+        "display_id": "P3",
+        "patient_id": "P3"
+      },
+      {
+        "display_id": "P4",
+        "patient_id": "P4"
+      },
+      {
+        "display_id": "P5",
+        "patient_id": "P5"
+      },
+      {
+        "display_id": "P6",
+        "patient_id": "P6"
+      },
+      {
+        "display_id": "P7",
+        "patient_id": "P7"
+      }
+    ]
+  },
+  "patient_program_panel": {
+    "panel": "Supplementary F",
+    "cell_score": "mean assigned H factors",
+    "patient_score": "cell-weighted mean",
+    "display_scale": "column z-score across seven patients; ddof=0"
+  },
+  "connection_panel": {
+    "panel": "Main E",
+    "layers": [
+      "NG",
+      "CC",
+      "epithelial cell type",
+      "patient"
+    ],
+    "association_edge_count": 104,
+    "observed_count_edge_count": 25,
+    "observed_cell_total": 43574,
+    "count_width_transform": "log10(n + 1)",
+    "count_labels": "exact n",
+    "interpretation": "association layers are not literal cell flow; observed cell counts enter only at cell type to patient",
+    "inferential_tests": false
+  },
+  "violin_presentation": "descriptive cell-level distributions; no inferential tests",
+  "vector_text": {
+    "font_family": "DejaVu Sans",
+    "pdf_font_type": 42,
+    "pdf_text_mode": "editable_truetype",
+    "svg_font_type": "none",
+    "svg_text_mode": "editable_text"
+  }
+}

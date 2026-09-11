@@ -1,0 +1,31 @@
+# Large/private archive material
+private_archive/
+zenodo_staging/
+*.svg
+*.tif
+*.tiff
+
+# Download and partial files
+downloads/
+*.part
+*.tmp
+
+# Python and notebook caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Execution debris
+.execution_staging/
+logs/
+*.log
+*.orig
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo

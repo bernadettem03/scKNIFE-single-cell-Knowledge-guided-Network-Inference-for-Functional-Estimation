@@ -1,0 +1,270 @@
+{
+  "format_version": 2,
+  "scope": "Figure 2 main plotting inputs",
+  "files": [
+    {
+      "name": "README.md",
+      "bytes": 3657,
+      "sha256": "c688a68451569aab30ded544b08dce056d974f24666174631644d4d2f33b33c0"
+    },
+    {
+      "name": "agreement_metrics.csv",
+      "bytes": 1071,
+      "sha256": "497d2c2121c2824aa0b442df67014e6bf583886e2269d6296a6bb1408f39f0fb"
+    },
+    {
+      "name": "agreement_metrics_from_frozen_labels.csv",
+      "bytes": 1030,
+      "sha256": "a933b842ab1931751738188ad8b71c2a2c25303153c1743db8897e593b0985be"
+    },
+    {
+      "name": "expimap_bassez_c1_umap.csv.gz",
+      "bytes": 1343498,
+      "sha256": "07244d2b0094e9146da0451e305129296be5f7e8cbb2cbf5d95ef84c9c1cb69a"
+    },
+    {
+      "name": "expimap_bassez_c2_umap.csv.gz",
+      "bytes": 605521,
+      "sha256": "332dbbc185d563a374bf68cc0256a375127e5b21d645afaed078a6baef3298a3"
+    },
+    {
+      "name": "expimap_wu_tnbc_umap.csv.gz",
+      "bytes": 639404,
+      "sha256": "e69972a18e4037200013fa30a5b9cac90861f8e6b5f7de401a1ce192ee581bf8"
+    },
+    {
+      "name": "hallmark_correlations.csv",
+      "bytes": 266,
+      "sha256": "a10cbdd08dac5cc5bc1cf88b51c28ab68bfa3932c76f973bb404b0a10701dc96"
+    },
+    {
+      "name": "knowledge_feature_counts.csv",
+      "bytes": 251,
+      "sha256": "2010cc47e3ab1a67a2c2d18445077dea1af499a6b639b6828da05a779ab49ab2"
+    },
+    {
+      "name": "runtime.csv",
+      "bytes": 231,
+      "sha256": "641be96561e33f7286f8549a46ef4183d7d2a219e8d6d8476ca60d0622e9d305"
+    },
+    {
+      "name": "scknife_bassez_c1_umap.csv.gz",
+      "bytes": 1389961,
+      "sha256": "55eceef834942de552ca1e3204b4ad8bbd7fbad4a1db512919d97820d8ec476c"
+    },
+    {
+      "name": "scknife_bassez_c2_umap.csv.gz",
+      "bytes": 625070,
+      "sha256": "78d823522c3f4d432d8d93592ae6788d40edc106e12120e5a232fd75c9840367"
+    },
+    {
+      "name": "scknife_shiao_umap.csv.gz",
+      "bytes": 4225497,
+      "sha256": "bf1de53e1c2fbdfbeffb782579bde0136a446f90c12e858f76a5f69729946412"
+    },
+    {
+      "name": "scknife_wu_tnbc_umap.csv.gz",
+      "bytes": 694974,
+      "sha256": "186bb964166a0e8e270069475cc3a43f1ce6802e07181c2f6e41c93d3b306084"
+    },
+    {
+      "name": "slalom_bassez_c1_umap.csv.gz",
+      "bytes": 1389873,
+      "sha256": "fc1c14025dcc8009f4a9398ede921d7900c19a0a13b9bcf177543580db243287"
+    },
+    {
+      "name": "slalom_bassez_c2_umap.csv.gz",
+      "bytes": 617104,
+      "sha256": "f4551b29e951f216940d5a7ddefb0463bf22931650ca05d232db3c4de6448bed"
+    },
+    {
+      "name": "slalom_wu_tnbc_umap.csv.gz",
+      "bytes": 633478,
+      "sha256": "9f2311b58fd7d748f2ca9c59d5d512eaf0f25ffa0d70a48a0e10426ac27dda4f"
+    },
+    {
+      "name": "spectra_bassez_c1_umap.csv.gz",
+      "bytes": 1369876,
+      "sha256": "e1fdeabec6338a1a8072e76844bb2ac6ed5622ff9af72c96bced0f0c17a89b97"
+    },
+    {
+      "name": "spectra_bassez_c2_umap.csv.gz",
+      "bytes": 616365,
+      "sha256": "a27a653ed644ee450755db9001494eecb1e75e61e6a71c4aaa9ebba57d6f7b99"
+    },
+    {
+      "name": "spectra_wu_tnbc_umap.csv.gz",
+      "bytes": 627389,
+      "sha256": "99d5a2d68ebd8909f2aad0fb1faaaada736a207355e5c7c407648de91a1b71e5"
+    },
+    {
+      "name": "tahoe_plot_data.h5",
+      "bytes": 4421297,
+      "sha256": "8193140c986625dde9eb8cfb1e9aa928333bca6d2d97ea3c52b144a384792c57"
+    },
+    {
+      "name": "tuning_final_parameters.csv",
+      "bytes": 160,
+      "sha256": "936cec0fb1d86ca7e0fae3f7c49640427f0464d3e7c336d38279b158f7584506"
+    },
+    {
+      "name": "tuning_selections.csv",
+      "bytes": 1612,
+      "sha256": "bef2d0b856a6569ec1df465a96dca471dec61a8f91d7586e0d931dd476e75623"
+    },
+    {
+      "name": "tuning_sweeps.csv",
+      "bytes": 12080,
+      "sha256": "8393470d3984af6d1446bcccbda0d9fb2f2d1438de57d497d0ebdc2410677351"
+    },
+    {
+      "name": "upstream_provenance.md",
+      "bytes": 9366,
+      "sha256": "52c932365d3b87bddb79734fe768dbe5530e88ff2ea2185cbf4d541fb9464376"
+    }
+  ],
+  "panels": {
+    "A": {
+      "title": "Benchmarking workflow",
+      "kind": "schematic",
+      "inputs": [],
+      "extraction_mode": "frozen_plot_ready"
+    },
+    "B": {
+      "title": "Prior knowledge",
+      "kind": "data",
+      "inputs": [
+        {
+          "path": "knowledge_feature_counts.csv"
+        }
+      ],
+      "extraction_mode": "frozen_plot_ready"
+    },
+    "C": {
+      "title": "Training runtime",
+      "kind": "data",
+      "inputs": [
+        {
+          "path": "runtime.csv"
+        }
+      ],
+      "extraction_mode": "frozen_plot_ready"
+    },
+    "D": {
+      "title": "Clustering",
+      "kind": "data",
+      "inputs": [
+        {
+          "path": "scknife_bassez_c1_umap.csv.gz"
+        },
+        {
+          "path": "scknife_bassez_c2_umap.csv.gz"
+        },
+        {
+          "path": "scknife_shiao_umap.csv.gz"
+        },
+        {
+          "path": "scknife_wu_tnbc_umap.csv.gz"
+        }
+      ],
+      "extraction_mode": "frozen_plot_ready"
+    },
+    "E": {
+      "title": "Agreement metrics",
+      "kind": "data",
+      "inputs": [
+        {
+          "path": "scknife_bassez_c1_umap.csv.gz"
+        },
+        {
+          "path": "scknife_bassez_c2_umap.csv.gz"
+        },
+        {
+          "path": "scknife_wu_tnbc_umap.csv.gz"
+        },
+        {
+          "path": "spectra_bassez_c1_umap.csv.gz"
+        },
+        {
+          "path": "spectra_bassez_c2_umap.csv.gz"
+        },
+        {
+          "path": "spectra_wu_tnbc_umap.csv.gz"
+        },
+        {
+          "path": "expimap_bassez_c1_umap.csv.gz"
+        },
+        {
+          "path": "expimap_bassez_c2_umap.csv.gz"
+        },
+        {
+          "path": "expimap_wu_tnbc_umap.csv.gz"
+        },
+        {
+          "path": "slalom_bassez_c1_umap.csv.gz"
+        },
+        {
+          "path": "slalom_bassez_c2_umap.csv.gz"
+        },
+        {
+          "path": "slalom_wu_tnbc_umap.csv.gz"
+        },
+        {
+          "path": "agreement_metrics_from_frozen_labels.csv"
+        }
+      ],
+      "extraction_mode": "frozen_plot_ready"
+    },
+    "F": {
+      "title": "Cell type",
+      "kind": "data",
+      "inputs": [
+        {
+          "path": "scknife_bassez_c1_umap.csv.gz"
+        },
+        {
+          "path": "scknife_bassez_c2_umap.csv.gz"
+        },
+        {
+          "path": "scknife_shiao_umap.csv.gz"
+        },
+        {
+          "path": "scknife_wu_tnbc_umap.csv.gz"
+        }
+      ],
+      "extraction_mode": "frozen_plot_ready"
+    },
+    "G": {
+      "title": "TP53",
+      "kind": "data",
+      "inputs": [
+        {
+          "path": "tahoe_plot_data.h5",
+          "selectors": [
+            "TP53",
+            "TP53/expression",
+            "TP53/bgnmf_score",
+            "TP53/scanpy_score"
+          ]
+        }
+      ],
+      "extraction_mode": "frozen_plot_ready"
+    },
+    "H": {
+      "title": "PIK3R1",
+      "kind": "data",
+      "inputs": [
+        {
+          "path": "tahoe_plot_data.h5",
+          "selectors": [
+            "PIK3R1",
+            "PIK3R1/expression",
+            "PIK3R1/bgnmf_score",
+            "PIK3R1/scanpy_score"
+          ]
+        }
+      ],
+      "extraction_mode": "frozen_plot_ready"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+Site,mean_activity,median_activity,n_cells,patient,factor
+Bx,0.5724955302476235,0.424319912966301,137,P3,factor 12 / NG5*
+Surgery,0.2029114825828812,0.005018026785634337,880,P3,factor 12 / NG5*
+Recurrence,3.4149139540456868,2.0298302036158873,4338,P3,factor 12 / NG5*

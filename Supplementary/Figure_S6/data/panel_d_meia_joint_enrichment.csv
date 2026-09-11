@@ -1,0 +1,3 @@
+contrast,method,mechanism,universe_n,top_n,mechanism_features,top_hits,odds_ratio,p_value,fdr,contrast_order,contrast_display,fdr_supported
+surgery_vs_biopsy,MEIA,M2,356,50,29,14,7.544444444444444,3.232114281766591e-06,6.464228563533182e-06,0,Surgery–Biopsy,True
+metastatic_vs_nonmetastatic,MEIA,M2,356,50,29,3,0.6873977086743044,0.8060816679187506,0.9893687244236932,1,Metastatic–Non-metastatic,False

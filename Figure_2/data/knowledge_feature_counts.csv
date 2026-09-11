@@ -1,0 +1,6 @@
+method,scope,feature_type,count
+SPECTRA,Benchmarking,Gene sets/factors,184
+ExpiMap,Benchmarking,Gene sets,843
+Slalom,Benchmarking,Gene sets,118
+scKNIFE,Benchmarking graph,Unified graph nodes,22951
+scKNIFE,Full in-house graph,Unified graph nodes,39247

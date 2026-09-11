@@ -1,0 +1,25 @@
+comparison,cell_type,Shared,scKNIFE only,scCellFie only
+Bassez B · E,B cell,106,84,19
+Bassez B · E,Cancer cell,136,31,28
+Bassez B · E,Endothelial cell,96,104,8
+Bassez B · E,Fibroblast,123,44,40
+Bassez B · E,Myeloid cell,146,57,9
+Bassez B · E,T cell,159,54,5
+Bassez B · NE,Cancer cell,98,53,55
+Bassez B · NE,Endothelial cell,43,84,50
+Bassez B · NE,Fibroblast,136,54,11
+Bassez B · NE,Myeloid cell,111,44,48
+Bassez B · NE,T cell,145,54,12
+Shiao · R,B cell,49,146,10
+Shiao · R,Endothelial cell,186,29,3
+Shiao · R,Epithelial,168,27,16
+Shiao · R,Fibroblast,191,22,5
+Shiao · R,PVL,116,78,20
+Shiao · R,T cell,117,76,13
+Shiao · R,Mast cell,36,61,48
+Shiao · NR,B cell,156,55,4
+Shiao · NR,Endothelial cell,123,85,5
+Shiao · NR,Epithelial,182,22,12
+Shiao · NR,Fibroblast,204,14,0
+Shiao · NR,PVL,154,49,10
+Shiao · NR,T cell,165,42,7

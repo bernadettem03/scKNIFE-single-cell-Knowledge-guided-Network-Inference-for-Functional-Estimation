@@ -1,0 +1,7 @@
+node_name,Site,cells,mean_z,median_z,q25_z,q75_z,node_kind,display_label,mechanistic_arm,selection_rationale
+ACGAM2E,Bx,137,-0.6588835130619752,-0.7239049281333747,-1.2311111502795709,-0.1609400046513996,reaction,GlcNAc 2-epimerase reaction,Predicted amino-sugar interconversion,Top-ranked NG5* glycan reaction; recurrence-enriched in P3
+ACGAM2E,Recurrence,4338,0.8888665842642617,0.6070625934843914,-0.570504800520121,2.2872406011031536,reaction,GlcNAc 2-epimerase reaction,Predicted amino-sugar interconversion,Top-ranked NG5* glycan reaction; recurrence-enriched in P3
+ACGAM2E,Surgery,880,-0.3709797739798333,-0.38520211180918285,-0.8261490184858855,0.08041020619685804,reaction,GlcNAc 2-epimerase reaction,Predicted amino-sugar interconversion,Top-ranked NG5* glycan reaction; recurrence-enriched in P3
+MMP14,Bx,137,-0.2582538960269584,-0.2920366123351947,-1.1140703558241232,0.5025687663606656,cellchat_entity,MMP14 interaction node,Predicted matrix-remodelling capacity,NG5* matrix-interaction node; recurrence-enriched in P3
+MMP14,Recurrence,4338,0.3074170530892904,0.2024363282109573,-0.4797548533726415,1.0493253500833553,cellchat_entity,MMP14 interaction node,Predicted matrix-remodelling capacity,NG5* matrix-interaction node; recurrence-enriched in P3
+MMP14,Surgery,880,-0.58453568651454,-0.6326545393141465,-1.3660704990249029,0.2384597534667428,cellchat_entity,MMP14 interaction node,Predicted matrix-remodelling capacity,NG5* matrix-interaction node; recurrence-enriched in P3

@@ -1,0 +1,31 @@
+{
+  "analysis": "descriptive pooled-cell scKNIFE GO differential activity",
+  "contrast": "On versus Pre separately within E and NE",
+  "test": "Scanpy Wilcoxon rank-sum, two-sided normal approximation",
+  "fdr": "BH globally across GO terms and cell types within cohort x expansion group",
+  "thresholds": {
+    "q": 0.05,
+    "absolute_cohens_d": 0.3,
+    "absolute_log2FC": 0.25
+  },
+  "minimum_cells_per_timepoint": 20,
+  "go_universe": 6036,
+  "selection": "top 3 qualifying terms per cell type x expansion group, independently per cohort",
+  "unit_warning": "Cells are nested within patients; inferential p-values are descriptive.",
+  "sources": {
+    "Bassez A": {
+      "activity_scores": "PRIVATE_ARCHIVE_ROOT/source_snapshot/benchmarking_may/bassez_cohort_A_final_run/data/pipeline/bassez_A_activity_scores.parquet",
+      "activity_sha256": "7b3e99728aaa8e80067f8610738fdb529129d12bf77e141d58464a7a0943e5e9",
+      "metadata_h5ad": "PRIVATE_ARCHIVE_ROOT/source_snapshot/benchmarking_may/bassez_cohort_A_final_run/data/pipeline/scKNIFE_results_bassez_A.h5ad",
+      "metadata_sha256": "5ee337c2c27f53e2b0ef60476eb32589d86434a2b12ef8eb3ee66739be9b054b",
+      "cells": 71720
+    },
+    "Bassez B": {
+      "activity_scores": "PRIVATE_ARCHIVE_ROOT/source_snapshot/benchmarking_may/bassez_cohort_B_final_run/data/pipeline/bassez_B_activity_scores.parquet",
+      "activity_sha256": "70fd48f94f3cb90ffe117332fdc94b334b5a5a5d3ab3e8a4cdbd8e1c698c9747",
+      "metadata_h5ad": "PRIVATE_ARCHIVE_ROOT/source_snapshot/benchmarking_may/bassez_cohort_B_final_run/data/pipeline/scKNIFE_results_bassez_B.h5ad",
+      "metadata_sha256": "1e7880be38cf42d517c0256c0cbd35fcddf19bceb6957c1971dbbdb2893c0372",
+      "cells": 36527
+    }
+  }
+}

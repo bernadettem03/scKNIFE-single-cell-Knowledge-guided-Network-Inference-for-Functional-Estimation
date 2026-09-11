@@ -1,0 +1,41 @@
+program,comparison,analysis,difference,ci_low,ci_high,standardized_difference,n_per_group,interpretation
+NG1,recurrence_vs_pre,all_epithelial_cells_downsampled,-0.23171106200412978,-0.2507374741246407,-0.21207997163063147,-1.0178743332629172,1017,cell-resampling sensitivity; not independent-patient inference
+NG1,recurrence_vs_pre,within_Epithelial basal,-0.06298673639261751,-0.28137607761105604,0.15293832939013913,-0.25783474775613285,9,cell-resampling sensitivity; not independent-patient inference
+NG1,recurrence_vs_pre,within_Epithelial cycling,0.07041222649881818,0.03862877014167647,0.09600566618517994,2.6591416804253183,5,cell-resampling sensitivity; not independent-patient inference
+NG1,recurrence_vs_pre,within_Epithelial luminal,-0.21431694963834086,-0.3017422602900195,-0.13066146842003878,-0.9742864804584093,46,cell-resampling sensitivity; not independent-patient inference
+NG1,recurrence_vs_pre,within_Epithelial progenitor,-0.2006114013241374,-0.2486030631877971,-0.15475471542345282,-0.8484303405405397,206,cell-resampling sensitivity; not independent-patient inference
+NG2,recurrence_vs_pre,all_epithelial_cells_downsampled,-0.30537096394637386,-0.3623662523492044,-0.24860927451852288,-0.4667465284970598,1017,cell-resampling sensitivity; not independent-patient inference
+NG2,recurrence_vs_pre,within_Epithelial basal,-0.25439114473423774,-1.0276317385267553,0.454320854052947,-0.29706223698684636,9,cell-resampling sensitivity; not independent-patient inference
+NG2,recurrence_vs_pre,within_Epithelial cycling,0.1208334394468249,-0.11686834047881692,0.37928161546162126,0.5504026695470992,5,cell-resampling sensitivity; not independent-patient inference
+NG2,recurrence_vs_pre,within_Epithelial luminal,0.18090896141401774,0.004780679006806687,0.37993747283612245,0.38355176063228025,46,cell-resampling sensitivity; not independent-patient inference
+NG2,recurrence_vs_pre,within_Epithelial progenitor,-0.011656122001682256,-0.10334002369091028,0.07239426803758738,-0.025599050073010336,206,cell-resampling sensitivity; not independent-patient inference
+NG3,recurrence_vs_pre,all_epithelial_cells_downsampled,-0.1537065007318556,-0.18061010577504336,-0.12602219221715577,-0.48374690135525195,1017,cell-resampling sensitivity; not independent-patient inference
+NG3,recurrence_vs_pre,within_Epithelial basal,0.21997975276704534,-0.07905775041901894,0.49643121433771753,0.6512463212085872,9,cell-resampling sensitivity; not independent-patient inference
+NG3,recurrence_vs_pre,within_Epithelial cycling,0.07360098451072594,-0.08418307036732507,0.2145785496251166,0.5397263483498754,5,cell-resampling sensitivity; not independent-patient inference
+NG3,recurrence_vs_pre,within_Epithelial luminal,0.06369496334694297,-0.03074793449499497,0.16093068967644825,0.26587863447785365,46,cell-resampling sensitivity; not independent-patient inference
+NG3,recurrence_vs_pre,within_Epithelial progenitor,-0.00625248879965315,-0.0510787706244883,0.03918688220953021,-0.026455794723922055,206,cell-resampling sensitivity; not independent-patient inference
+NG4,recurrence_vs_pre,all_epithelial_cells_downsampled,-0.8042443428178483,-0.851238793989564,-0.7594132426120321,-1.523535494840293,1017,cell-resampling sensitivity; not independent-patient inference
+NG4,recurrence_vs_pre,within_Epithelial basal,-0.3491204493040132,-0.8745345640145425,0.190254301592702,-0.5619561991018694,9,cell-resampling sensitivity; not independent-patient inference
+NG4,recurrence_vs_pre,within_Epithelial cycling,-0.5083375727147998,-0.8464419546592918,-0.14397730338099549,-1.6287825040689468,5,cell-resampling sensitivity; not independent-patient inference
+NG4,recurrence_vs_pre,within_Epithelial luminal,0.01996554042416987,-0.13293216602039787,0.17078259192719303,0.05387047902919253,46,cell-resampling sensitivity; not independent-patient inference
+NG4,recurrence_vs_pre,within_Epithelial progenitor,-0.12794002597985066,-0.2025171055164691,-0.055463368039296426,-0.32173145363668665,206,cell-resampling sensitivity; not independent-patient inference
+NG5,recurrence_vs_pre,all_epithelial_cells_downsampled,3.1085775042782124,2.895297967325574,3.327373288591508,1.2827626339411504,1017,cell-resampling sensitivity; not independent-patient inference
+NG5,recurrence_vs_pre,within_Epithelial basal,5.4571386871071805,2.997383057264502,7.753043197987294,1.9766178924382256,9,cell-resampling sensitivity; not independent-patient inference
+NG5,recurrence_vs_pre,within_Epithelial cycling,9.142139428226823,8.390065977213093,9.860945911744567,13.599419226923313,5,cell-resampling sensitivity; not independent-patient inference
+NG5,recurrence_vs_pre,within_Epithelial luminal,2.889451303989053,1.849454016697585,3.978495008901205,1.111294330882795,46,cell-resampling sensitivity; not independent-patient inference
+NG5,recurrence_vs_pre,within_Epithelial progenitor,3.2954527648431085,2.8338243054560324,3.767293692194361,1.336417305066855,206,cell-resampling sensitivity; not independent-patient inference
+NG6,recurrence_vs_pre,all_epithelial_cells_downsampled,-0.05348243050801442,-0.0672511034946237,-0.04083955044479158,-0.36729582383411136,1017,cell-resampling sensitivity; not independent-patient inference
+NG6,recurrence_vs_pre,within_Epithelial basal,-0.0338603559046953,-0.18489727086197966,0.1094574301184653,-0.19494238479727624,9,cell-resampling sensitivity; not independent-patient inference
+NG6,recurrence_vs_pre,within_Epithelial cycling,-0.0552673293351848,-0.26875538903082036,0.12010889634831337,-0.31589614204808053,5,cell-resampling sensitivity; not independent-patient inference
+NG6,recurrence_vs_pre,within_Epithelial luminal,0.03519858489906895,-0.015414489980208293,0.09250745416477005,0.2657639664064583,46,cell-resampling sensitivity; not independent-patient inference
+NG6,recurrence_vs_pre,within_Epithelial progenitor,0.015350455625172774,-0.005224810278725205,0.03731964078805058,0.14248699131520998,206,cell-resampling sensitivity; not independent-patient inference
+NG7,recurrence_vs_pre,all_epithelial_cells_downsampled,-0.020771186664477387,-0.03208941095161728,-0.009774928896895498,-0.1604457541941237,1017,cell-resampling sensitivity; not independent-patient inference
+NG7,recurrence_vs_pre,within_Epithelial basal,-0.028065278691079443,-0.20826113381708414,0.1567230522705469,-0.13849357698825934,9,cell-resampling sensitivity; not independent-patient inference
+NG7,recurrence_vs_pre,within_Epithelial cycling,0.06904170395534673,-0.06368155797328344,0.19358419091318688,0.5950161884402951,5,cell-resampling sensitivity; not independent-patient inference
+NG7,recurrence_vs_pre,within_Epithelial luminal,0.041769794282284764,-0.0076383973407899595,0.09113202950474072,0.34503083685129704,46,cell-resampling sensitivity; not independent-patient inference
+NG7,recurrence_vs_pre,within_Epithelial progenitor,-0.04000088562646045,-0.0682007157340207,-0.011805008569260367,-0.2776408514608948,206,cell-resampling sensitivity; not independent-patient inference
+NG8,recurrence_vs_pre,all_epithelial_cells_downsampled,-0.003004640400121189,-0.012251043800974169,0.006284423277751947,-0.027592385149190962,1017,cell-resampling sensitivity; not independent-patient inference
+NG8,recurrence_vs_pre,within_Epithelial basal,0.005862820796006835,-0.09615106459188985,0.09912638475830182,0.05101185824747159,9,cell-resampling sensitivity; not independent-patient inference
+NG8,recurrence_vs_pre,within_Epithelial cycling,-0.0774582915472955,-0.17122079903429308,0.026379077867639524,-0.8742356881592893,5,cell-resampling sensitivity; not independent-patient inference
+NG8,recurrence_vs_pre,within_Epithelial luminal,-0.020698568781247845,-0.08323779338494323,0.03306175669322817,-0.14353442424617277,46,cell-resampling sensitivity; not independent-patient inference
+NG8,recurrence_vs_pre,within_Epithelial progenitor,-0.03786670924391321,-0.06182164671966539,-0.01594022836420118,-0.32952847497598553,206,cell-resampling sensitivity; not independent-patient inference

@@ -1,0 +1,5 @@
+metabolite,display_name,celltype,display_order,tier,activity_measure,aggregation
+2_aminoethylphosphonate,2-Aminoethylphosphonate,T cells,0,3,direct scKNIFE metabolite-node activity,median within patient x timepoint x cell type
+5_6_Dihydrouracil,"5,6-Dihydrouracil",T cells,1,3,direct scKNIFE metabolite-node activity,median within patient x timepoint x cell type
+Glutaryl_Carnitine,Glutarylcarnitine,CAFs,2,3,direct scKNIFE metabolite-node activity,median within patient x timepoint x cell type
+malonate,Malonate,T cells,3,3,direct scKNIFE metabolite-node activity,median within patient x timepoint x cell type

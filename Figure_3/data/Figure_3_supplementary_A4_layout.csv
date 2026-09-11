@@ -1,0 +1,3 @@
+panel,source,source_sha256,x_mm,y_mm,width_mm,height_mm
+S3A,figs/panel/Figure_3_version_2/Figure_3_version_2_S3_1_unbiased_audit.png,12515869d530334efb3f5bd3a0ecdb9c8986c466ade06a60fbf4a7be2313bae6,27.824057450628374,151.0,154.35188509874325,138.0
+S3B,figs/panel/Figure_3_version_2/Figure_3_version_2_S3_4_longitudinal_task_umaps.png,d21b18fe123ed7d126c527f2f792d15e83fb8006863c49d26da6e11dd48ef8ca,49.887602688573566,8.0,110.22479462285287,138.0

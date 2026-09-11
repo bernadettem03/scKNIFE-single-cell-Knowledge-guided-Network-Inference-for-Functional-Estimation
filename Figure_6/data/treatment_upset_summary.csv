@@ -1,0 +1,2 @@
+contrast,p_value_rule,lcms_candidate_rows,lcms_source_pathways,lcms_mapped_source_pathways,lcms_unmatched_source_pathways,lcms_mapped_unique_targets,level1_pathways,level2_pathways,lcms_level2_unique_targets,lcms_only,lcms_level1_only,lcms_level2_only,lcms_level1_level2
+surgery_vs_biopsy,raw p < 0.05 in at least one Surgery-vs-Bx cell-type test; no direction filter,54,54,48,6,41,138,34,23,6,20,0,28

@@ -1,0 +1,7 @@
+limitation,statement
+blank_correction,LC-MS inputs use the blank-corrected Part 2 branch.
+sample_size,LC-MS comparisons use seven patients and 14 paired biopsy/surgery specimens.
+pathway_significance,Three treatment pathways pass pathway BH-FDR; no metastatic-status pathway does.
+panel_d,"Panel D combines Figure 5 graph seeds and joint MEIA enrichment with all-cell T-cell distributions, P1-P7 patient medians, exact patient-level tests, and contextual GPR-GPA support."
+threonine,L-threonine is exploratory after correction (joint BH-FDR approximately 0.0535).
+single_cell,"MEIA, GPR-GPA and scKnife cellwise effects are exploratory because cells are nested within patients."

@@ -1,0 +1,149 @@
+{
+  "B": {
+    "mode": "standalone_data_driven_figure",
+    "renderer": "matplotlib_fallback",
+    "matplotlib_version": "3.9.2",
+    "axis_count": 2,
+    "figure_text_count": 1,
+    "svg_text_mode": "editable_text",
+    "svg_raster_images": 0,
+    "saved_in_individual_notebook_cell": true,
+    "compiled_canvas_crop": false,
+    "fixed_canvas_export": false,
+    "export_bounds": "content_aware_tight",
+    "notebook_display": "matplotlib.pyplot.show",
+    "data_lineage_kind": "data",
+    "intermediate_inputs": [
+      {
+        "path": "fig4_plot_data.h5",
+        "selectors": [
+          "panel_g/patient",
+          "panel_g/subtype",
+          "panel_g/subtype_correlation_matrix",
+          "panel_g/subtype_correlation_subtypes"
+        ]
+      },
+      {
+        "path": "patient_id_mapping.csv"
+      }
+    ],
+    "data_extractor": "extractor_scripts/extract_figure_4_data.py",
+    "extraction_mode": "staged_frozen"
+  },
+  "C": {
+    "mode": "standalone_data_driven_figure",
+    "renderer": "matplotlib_fallback",
+    "matplotlib_version": "3.9.2",
+    "axis_count": 2,
+    "figure_text_count": 1,
+    "svg_text_mode": "editable_text",
+    "svg_raster_images": 0,
+    "saved_in_individual_notebook_cell": true,
+    "compiled_canvas_crop": false,
+    "fixed_canvas_export": false,
+    "export_bounds": "content_aware_tight",
+    "notebook_display": "matplotlib.pyplot.show",
+    "data_lineage_kind": "data",
+    "intermediate_inputs": [
+      {
+        "path": "fig4_plot_data.h5",
+        "selectors": [
+          "shared/umap",
+          "panel_a/celltype"
+        ]
+      }
+    ],
+    "data_extractor": "extractor_scripts/extract_figure_4_data.py",
+    "extraction_mode": "staged_frozen"
+  },
+  "D": {
+    "mode": "standalone_data_driven_figure",
+    "renderer": "matplotlib_fallback",
+    "matplotlib_version": "3.9.2",
+    "axis_count": 16,
+    "figure_text_count": 1,
+    "svg_text_mode": "editable_text",
+    "svg_raster_images": 0,
+    "saved_in_individual_notebook_cell": true,
+    "compiled_canvas_crop": false,
+    "fixed_canvas_export": false,
+    "export_bounds": "content_aware_tight",
+    "notebook_display": "matplotlib.pyplot.show",
+    "data_lineage_kind": "data",
+    "intermediate_inputs": [
+      {
+        "path": "fig4_plot_data.h5",
+        "selectors": [
+          "shared/umap",
+          "panel_f/marker_expression",
+          "panel_f/marker_genes",
+          "panel_f/marker_h_clusters",
+          "panel_f/marker_labels"
+        ]
+      }
+    ],
+    "data_extractor": "extractor_scripts/extract_figure_4_data.py",
+    "extraction_mode": "staged_frozen"
+  },
+  "E": {
+    "mode": "standalone_data_driven_figure",
+    "renderer": "matplotlib_fallback",
+    "matplotlib_version": "3.9.2",
+    "axis_count": 3,
+    "figure_text_count": 1,
+    "svg_text_mode": "editable_text",
+    "svg_raster_images": 0,
+    "saved_in_individual_notebook_cell": true,
+    "compiled_canvas_crop": false,
+    "fixed_canvas_export": false,
+    "export_bounds": "content_aware_tight",
+    "notebook_display": "matplotlib.pyplot.show",
+    "data_lineage_kind": "data",
+    "intermediate_inputs": [
+      {
+        "path": "fig4_plot_data.h5",
+        "selectors": [
+          "shared/umap",
+          "panel_e/cnv_status",
+          "panel_e/cnv_score"
+        ]
+      }
+    ],
+    "data_extractor": "extractor_scripts/extract_figure_4_data.py",
+    "extraction_mode": "staged_frozen"
+  },
+  "F": {
+    "mode": "standalone_data_driven_figure",
+    "renderer": "matplotlib_fallback",
+    "matplotlib_version": "3.9.2",
+    "axis_count": 10,
+    "figure_text_count": 1,
+    "svg_text_mode": "editable_text",
+    "svg_raster_images": 0,
+    "saved_in_individual_notebook_cell": true,
+    "compiled_canvas_crop": false,
+    "fixed_canvas_export": false,
+    "export_bounds": "content_aware_tight",
+    "notebook_display": "matplotlib.pyplot.show",
+    "data_lineage_kind": "data",
+    "intermediate_inputs": [
+      {
+        "path": "fig4_plot_data.h5",
+        "selectors": [
+          "panel_c/heatmap",
+          "panel_c/display_genes",
+          "panel_c/h_cluster",
+          "panel_c/boundaries",
+          "panel_c/marker_groups",
+          "panel_c/patient",
+          "panel_c/site",
+          "panel_c/metastatic",
+          "panel_c/library",
+          "panel_c/scknife_final_celltype"
+        ]
+      }
+    ],
+    "data_extractor": "extractor_scripts/extract_figure_4_data.py",
+    "extraction_mode": "staged_frozen"
+  }
+}

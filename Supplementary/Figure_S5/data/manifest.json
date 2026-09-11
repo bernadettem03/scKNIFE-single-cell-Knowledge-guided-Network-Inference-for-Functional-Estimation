@@ -1,0 +1,308 @@
+{
+  "package": "Figure 5 plot-ready data",
+  "format_version": 2,
+  "created_utc": "2026-08-17T05:46:23.048948+00:00",
+  "source_description": "Canonical corrected 43,574-cell epithelial scKNIFE W/H run",
+  "sources": [
+    {
+      "source": "PRIVATE_ARCHIVE_ROOT/source_snapshot/inhouse_rerun/scknife_run/epithelial_only/scknife_final_rerun/data/pipeline/inhouse_epithelial_W_graph.parquet",
+      "packaged_as": "inhouse_epithelial_W_graph.parquet",
+      "source_sha256": "0c445af19cef300af996c5786760b9e0fb19990d1d06e9a2e9dcf653fbd657ca"
+    },
+    {
+      "source": "PRIVATE_ARCHIVE_ROOT/source_snapshot/inhouse_rerun/scknife_run/epithelial_only/scknife_final_rerun/data/pipeline/node_metadata.csv",
+      "packaged_as": "node_metadata.csv",
+      "source_sha256": "42dc12f7bee1a3ca59d04c75ba42bc38485ac8a616452a7abcfa1ecf2550d9fe"
+    },
+    {
+      "source": "PRIVATE_ARCHIVE_ROOT/source_snapshot/inhouse_rerun/scknife_run/epithelial_only/scknife_final_rerun/data/clustering/epithelial_H_cell_metadata.parquet",
+      "packaged_as": "epithelial_H_cell_metadata.parquet",
+      "source_sha256": "e30173085ede44c48239a58094a54574328cb100c62641a24271df0a45e14d36"
+    },
+    {
+      "source": "PRIVATE_ARCHIVE_ROOT/source_snapshot/main_figure/data/fig5_data/README.md",
+      "packaged_as": "upstream_provenance.md",
+      "source_sha256": "46f7960b6c520e014761c2c8afa49382f95d866f8c6f9429355b3744018131d2"
+    }
+  ],
+  "panels": {
+    "A": {
+      "title": "Full decay-selected W-node enrichment after cell-type graph-node exclusion",
+      "kind": "data",
+      "inputs": [
+        {
+          "path": "inhouse_epithelial_W_graph.parquet"
+        },
+        {
+          "path": "node_metadata.csv"
+        }
+      ],
+      "extractor": "extractor_scripts/extract_figure_5_data.py",
+      "extraction_mode": "canonical_result_copy"
+    },
+    "B": {
+      "title": "H-factor activity by retained epithelial cell type, ordered by factor-group cluster",
+      "kind": "data",
+      "inputs": [
+        {
+          "path": "epithelial_H_cell_metadata.parquet"
+        },
+        {
+          "path": "inhouse_epithelial_W_graph.parquet"
+        },
+        {
+          "path": "node_metadata.csv"
+        }
+      ],
+      "extractor": "extractor_scripts/extract_figure_5_data.py",
+      "extraction_mode": "canonical_result_copy"
+    },
+    "C": {
+      "title": "K=8 W-node definitions ordered by program cluster after cell-type graph-node exclusion",
+      "kind": "data",
+      "inputs": [
+        {
+          "path": "inhouse_epithelial_W_graph.parquet"
+        },
+        {
+          "path": "node_metadata.csv"
+        }
+      ],
+      "extractor": "extractor_scripts/extract_figure_5_data.py",
+      "extraction_mode": "canonical_result_copy"
+    },
+    "D": {
+      "title": "W-program to shared W/H factor-group to epithelial-cell-type heatmaps",
+      "kind": "data",
+      "inputs": [
+        {
+          "path": "inhouse_epithelial_W_graph.parquet"
+        },
+        {
+          "path": "node_metadata.csv"
+        },
+        {
+          "path": "epithelial_H_cell_metadata.parquet"
+        }
+      ],
+      "extractor": "extractor_scripts/extract_figure_5_data.py",
+      "extraction_mode": "canonical_result_copy"
+    },
+    "E": {
+      "title": "W-program to shared W/H factor-group to epithelial-cell-type association network",
+      "kind": "data",
+      "inputs": [
+        {
+          "path": "inhouse_epithelial_W_graph.parquet"
+        },
+        {
+          "path": "node_metadata.csv"
+        },
+        {
+          "path": "epithelial_H_cell_metadata.parquet"
+        }
+      ],
+      "extractor": "extractor_scripts/extract_figure_5_data.py",
+      "extraction_mode": "canonical_result_copy"
+    },
+    "F": {
+      "title": "Reconstructed K=8 program activity by epithelial cell type",
+      "kind": "data",
+      "inputs": [
+        {
+          "path": "inhouse_epithelial_W_graph.parquet"
+        },
+        {
+          "path": "node_metadata.csv"
+        },
+        {
+          "path": "epithelial_H_cell_metadata.parquet"
+        }
+      ],
+      "extractor": "extractor_scripts/extract_figure_5_data.py",
+      "extraction_mode": "canonical_result_copy"
+    },
+    "G": {
+      "title": "Program activity across cells ordered by epithelial cell type",
+      "kind": "data",
+      "inputs": [
+        {
+          "path": "inhouse_epithelial_W_graph.parquet"
+        },
+        {
+          "path": "node_metadata.csv"
+        },
+        {
+          "path": "epithelial_H_cell_metadata.parquet"
+        }
+      ],
+      "extractor": "extractor_scripts/extract_figure_5_data.py",
+      "extraction_mode": "canonical_result_copy"
+    },
+    "H": {
+      "title": "Literature-prioritized reconstructed graph-node scores across epithelial cell types",
+      "kind": "data",
+      "inputs": [
+        {
+          "path": "inhouse_epithelial_W_graph.parquet"
+        },
+        {
+          "path": "node_metadata.csv"
+        },
+        {
+          "path": "epithelial_H_cell_metadata.parquet"
+        }
+      ],
+      "extractor": "extractor_scripts/extract_figure_5_data.py",
+      "extraction_mode": "canonical_result_copy"
+    }
+  },
+  "auxiliary_inputs": [
+    {
+      "path": "upstream_provenance.md",
+      "purpose": "retained upstream provenance notes"
+    }
+  ],
+  "lineage_summary": {
+    "panel_count": 8,
+    "data_panel_count": 8,
+    "schematic_panel_count": 0,
+    "referenced_files": [
+      "epithelial_H_cell_metadata.parquet",
+      "inhouse_epithelial_W_graph.parquet",
+      "node_metadata.csv"
+    ]
+  },
+  "generated_files": [
+    "README.md"
+  ],
+  "checks": {
+    "W_shape_39247x50": true,
+    "W_unique_nodes": true,
+    "W_finite": true,
+    "node_metadata_aligned": true,
+    "H_shape_43574x50": true,
+    "H_finite": true,
+    "cell_join_key_unique": true,
+    "five_retained_epithelial_identities": true,
+    "panel_lineage_valid": true
+  },
+  "python": "3.9.21",
+  "files": [
+    {
+      "name": "README.md",
+      "bytes": 2092,
+      "sha256": "05577797cac1b79449ace71c9987a40ae2a5093e64e98f1920732cd840624adb"
+    },
+    {
+      "name": "derived/Figure_5_CC_provenance_classification.csv",
+      "bytes": 483,
+      "sha256": "243b1493ee0aa239efddc32654c10a43e9aba38b59a6f4a50172803f9278ad1e"
+    },
+    {
+      "name": "derived/Figure_5_CF30117_main_node_violin_summary.csv",
+      "bytes": 1492,
+      "sha256": "03f7f3a45fbfa40f2c3f55abda302968120782aab1d7908cf30dc9ea011da11d"
+    },
+    {
+      "name": "derived/Figure_5_I_factor12_estimation_statistics.csv",
+      "bytes": 805,
+      "sha256": "e7d940080ffc2d757a17d957e338f29b84c2409057e4671ee36b7617d0716ed3"
+    },
+    {
+      "name": "derived/Figure_5_I_factor12_specimen_means.csv",
+      "bytes": 268,
+      "sha256": "450d5ac86492d5cd1fbf8fac90c565b340dd61b99fd16b3eada511e9af3b8a65"
+    },
+    {
+      "name": "derived/Figure_5_NG_CC_celltype_patient_edges.csv",
+      "bytes": 11429,
+      "sha256": "beb4949d78d5fccee492e8b82b93364e70fe3a029d5fb0717c0f18151bb9bf25"
+    },
+    {
+      "name": "derived/Figure_5_W_program_dictionary_nodes.csv",
+      "bytes": 28699,
+      "sha256": "f11c27f387948fe7d47ef0d4d73dec00d34271a0004be1eeea87572cb909be24"
+    },
+    {
+      "name": "derived/Figure_5_W_program_dictionary_visible_nodes.csv",
+      "bytes": 6858,
+      "sha256": "6a778bb2f05c4b6bbe3c47ba273a0f9546ffc4cbbdeebb9cafa4c07c42b63f92"
+    },
+    {
+      "name": "derived/Figure_5_W_program_review_manifest.json",
+      "bytes": 2560,
+      "sha256": "5b432a0da33dbe85316c2c78a4513cf7da96b68df49d78172cc4b67d72fd0e69"
+    },
+    {
+      "name": "derived/Figure_5_cell_vs_equal_patient_sensitivity.csv",
+      "bytes": 928,
+      "sha256": "3172dbefa3d11847863dae5934fd0e4d82e0be657c4bbc855498902700095bd6"
+    },
+    {
+      "name": "derived/Figure_5_component_assignments.csv",
+      "bytes": 985,
+      "sha256": "5d8127848e366e2d5ad084943c1c3c3821deaec86ad82d343bd24fcfd14176bb"
+    },
+    {
+      "name": "derived/Figure_5_consensus_metrics.csv",
+      "bytes": 904,
+      "sha256": "2b281f37556c7ec4105972878933c63a76a464d58e51999d25d86608ef45f95c"
+    },
+    {
+      "name": "derived/Figure_5_equal_patient_NG_activity_z.csv",
+      "bytes": 924,
+      "sha256": "f36e034734e874c2fc65b673b8298f0f43ffd0995685b681868617847a556735"
+    },
+    {
+      "name": "derived/Figure_5_patient_H_program_means_and_z.csv",
+      "bytes": 2386,
+      "sha256": "4ef5344ffd279e6531fb03628831e70f44739888c606d64819918603570b9999"
+    },
+    {
+      "name": "derived/Figure_5_patient_celltype_census.csv",
+      "bytes": 242,
+      "sha256": "77f6b7f80d69da84ab9ace91a4d43b587f8a60559991b75ce091763af485104c"
+    },
+    {
+      "name": "derived/Figure_5_representative_non_gene_nodes.csv",
+      "bytes": 1746,
+      "sha256": "8293ec2ffa9d50800a024f6cbdf98b2f4643ec7bece114ad83ed00091e5e9038"
+    },
+    {
+      "name": "derived/Figure_5_run_manifest.json",
+      "bytes": 3579,
+      "sha256": "042af118d251fd10354c375788324f200d1c180724391e3acad64fce8232df8b"
+    },
+    {
+      "name": "derived/Figure_5_top10_literature_rationale.csv",
+      "bytes": 1746,
+      "sha256": "8293ec2ffa9d50800a024f6cbdf98b2f4643ec7bece114ad83ed00091e5e9038"
+    },
+    {
+      "name": "derived/Figure_5_top10_reconstructed_score_correlations.csv",
+      "bytes": 889,
+      "sha256": "7c7cc25d45d49d524f27eceedf79824765d9e97ea1b34674788baa10e6144e46"
+    },
+    {
+      "name": "epithelial_H_cell_metadata.parquet",
+      "bytes": 24503902,
+      "sha256": "8fafc902dd80d7d73b584573fb7856d958a2ad611e8981efd86bb958391d6b46"
+    },
+    {
+      "name": "inhouse_epithelial_W_graph.parquet",
+      "bytes": 16933895,
+      "sha256": "0c445af19cef300af996c5786760b9e0fb19990d1d06e9a2e9dcf653fbd657ca"
+    },
+    {
+      "name": "node_metadata.csv",
+      "bytes": 1174205,
+      "sha256": "42dc12f7bee1a3ca59d04c75ba42bc38485ac8a616452a7abcfa1ecf2550d9fe"
+    },
+    {
+      "name": "upstream_provenance.md",
+      "bytes": 118,
+      "sha256": "46f7960b6c520e014761c2c8afa49382f95d866f8c6f9429355b3744018131d2"
+    }
+  ]
+}

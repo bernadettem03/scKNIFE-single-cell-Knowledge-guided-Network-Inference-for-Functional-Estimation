@@ -1,0 +1,41 @@
+program,program_id,program_name,factor_count,singleton,singleton_factor,cluster_rank,node_kind,node_name,enrichment_delta_z,decay_weight,selection_reason,decay_tau,decay_cumulative_mass,maximum_per_cluster_kind,program_node_budget
+0,P1,MHC-I antigen presentation / interferon-immune signaling,6,False,,1,cellchat_entity,CD74,2.654744215204227,1.0,strongest_cluster_decay_prefix,5.0,0.95,20,20
+0,P1,MHC-I antigen presentation / interferon-immune signaling,6,False,,2,gene,IGKC,2.51729965131437,1.0,strongest_cluster_decay_prefix,5.0,0.95,20,20
+0,P1,MHC-I antigen presentation / interferon-immune signaling,6,False,,3,metabolite,1a_11b_dihydro_4_9_dimethylbenz_a_anthra_3_4_b_oxirene,2.319676807129182,1.0,strongest_cluster_decay_prefix,5.0,0.95,20,20
+0,P1,MHC-I antigen presentation / interferon-immune signaling,6,False,,4,GO_term,antigen processing and presentation of endogenous peptide antigen via MHC class I (GO:0019885),2.141294789151882,1.0,strongest_cluster_decay_prefix,5.0,0.95,20,20
+0,P1,MHC-I antigen presentation / interferon-immune signaling,6,False,,5,reaction,microsomal_epoxide_hydrolase,2.107984825692132,1.0,strongest_cluster_decay_prefix,5.0,0.95,20,20
+1,P2,RNA processing / glycosylation precursor metabolism,3,False,,1,gene,HMOX2,3.2013521585544282,1.0,strongest_cluster_decay_prefix,5.0,0.95,20,20
+1,P2,RNA processing / glycosylation precursor metabolism,3,False,,2,metabolite,pseudouridine_5_phosphate,2.4316924804311264,1.0,strongest_cluster_decay_prefix,5.0,0.95,20,20
+1,P2,RNA processing / glycosylation precursor metabolism,3,False,,3,GO_term,tRNA thio-modification (GO:0034227),2.3220812049222412,1.0,strongest_cluster_decay_prefix,5.0,0.95,20,20
+1,P2,RNA processing / glycosylation precursor metabolism,3,False,,4,reaction,PMANM,2.260119560647731,1.0,strongest_cluster_decay_prefix,5.0,0.95,20,20
+1,P2,RNA processing / glycosylation precursor metabolism,3,False,,5,task,GDP-mannose synthesis,2.0526667129483362,1.0,strongest_cluster_decay_prefix,5.0,0.95,20,20
+2,P3,RNA splicing / chromatin and mitotic regulation,2,False,,1,gene,CLK1,4.728628750763788,1.0,strongest_cluster_decay_prefix,5.0,0.95,20,20
+2,P3,RNA splicing / chromatin and mitotic regulation,2,False,,2,metabolite,G_5_pppR_RNA,3.9372093959772148,1.0,strongest_cluster_decay_prefix,5.0,0.95,20,20
+2,P3,RNA splicing / chromatin and mitotic regulation,2,False,,3,GO_term,histone H3-K36 methylation (GO:0010452),3.9108848118586312,1.0,strongest_cluster_decay_prefix,5.0,0.95,20,20
+2,P3,RNA splicing / chromatin and mitotic regulation,2,False,,4,cellchat_entity,DSG2,3.8056852031292534,1.0,strongest_cluster_decay_prefix,5.0,0.95,20,20
+2,P3,RNA splicing / chromatin and mitotic regulation,2,False,,5,reaction,N3Tg,3.412416783117462,1.0,strongest_cluster_decay_prefix,5.0,0.95,20,20
+3,P4,Mitotic spindle assembly / chromosome segregation,28,False,,1,cellchat_entity,ADM,0.36027422268058007,1.0,strongest_cluster_decay_prefix,5.0,0.95,20,20
+3,P4,Mitotic spindle assembly / chromosome segregation,28,False,,2,gene,ATF3,0.31623955148285343,1.0,cluster_local_decay_prefix,5.0,0.95,20,20
+3,P4,Mitotic spindle assembly / chromosome segregation,28,False,,3,gene,AURKB,0.3016336404233147,1.0,strongest_cluster_decay_prefix,5.0,0.95,20,20
+3,P4,Mitotic spindle assembly / chromosome segregation,28,False,,4,gene,TPX2,0.2896385058022126,0.8187307530779818,strongest_cluster_decay_prefix,5.0,0.95,20,20
+3,P4,Mitotic spindle assembly / chromosome segregation,28,False,,5,cellchat_entity,CXCL10,0.16010669750385176,0.8187307530779818,cluster_local_decay_prefix,5.0,0.95,20,20
+4,P5*,Stem-like epithelial plasticity / matrix remodeling,1,True,12,1,gene,RENBP,6.119913021375183,1.0,strongest_cluster_decay_prefix,5.0,0.95,20,20
+4,P5*,Stem-like epithelial plasticity / matrix remodeling,1,True,12,2,reaction,ACGAM2E,5.3750010735310525,1.0,strongest_cluster_decay_prefix,5.0,0.95,20,20
+4,P5*,Stem-like epithelial plasticity / matrix remodeling,1,True,12,3,cellchat_entity,COL2A1,5.278328964946875,1.0,strongest_cluster_decay_prefix,5.0,0.95,20,20
+4,P5*,Stem-like epithelial plasticity / matrix remodeling,1,True,12,4,metabolite,activated_methyl_group,3.181892727934483,1.0,strongest_cluster_decay_prefix,5.0,0.95,20,20
+4,P5*,Stem-like epithelial plasticity / matrix remodeling,1,True,12,5,GO_term,positive regulation of voltage-gated calcium channel activity (GO:1901387),2.572142013543578,1.0,strongest_cluster_decay_prefix,5.0,0.95,20,20
+5,P6,FGFR-associated developmental morphogenesis,3,False,,1,gene,FAM107A,3.9942001942482617,1.0,strongest_cluster_decay_prefix,5.0,0.95,20,20
+5,P6,FGFR-associated developmental morphogenesis,3,False,,2,cellchat_entity,FGFR3,3.7191107062672004,1.0,strongest_cluster_decay_prefix,5.0,0.95,20,20
+5,P6,FGFR-associated developmental morphogenesis,3,False,,3,GO_term,salivary gland morphogenesis (GO:0007435),3.2082375082615346,1.0,strongest_cluster_decay_prefix,5.0,0.95,20,20
+5,P6,FGFR-associated developmental morphogenesis,3,False,,4,metabolite,S_2_aminobutanoate,3.111241403889685,1.0,strongest_cluster_decay_prefix,5.0,0.95,20,20
+5,P6,FGFR-associated developmental morphogenesis,3,False,,5,reaction,HIBDm,3.0162025578713627,1.0,strongest_cluster_decay_prefix,5.0,0.95,20,20
+6,P7,Folate-lipid metabolism / TNF-Notch survival signaling,2,False,,1,gene,STAG3,4.972328207537653,1.0,strongest_cluster_decay_prefix,5.0,0.95,20,20
+6,P7,Folate-lipid metabolism / TNF-Notch survival signaling,2,False,,2,cellchat_entity,TNFRSF14,4.043686190739607,1.0,strongest_cluster_decay_prefix,5.0,0.95,20,20
+6,P7,Folate-lipid metabolism / TNF-Notch survival signaling,2,False,,3,metabolite,2_aminoethylphosphonate,3.9246097938438456,1.0,strongest_cluster_decay_prefix,5.0,0.95,20,20
+6,P7,Folate-lipid metabolism / TNF-Notch survival signaling,2,False,,4,GO_term,folate transmembrane transport (GO:0098838),3.4215123222638173,1.0,strongest_cluster_decay_prefix,5.0,0.95,20,20
+6,P7,Folate-lipid metabolism / TNF-Notch survival signaling,2,False,,5,reaction,MAR04872,3.3376151212854617,1.0,strongest_cluster_decay_prefix,5.0,0.95,20,20
+7,P8,Mitochondrial redox / transsulfuration stress response,5,False,,1,gene,NDUFA13,2.927135838150361,1.0,strongest_cluster_decay_prefix,5.0,0.95,20,20
+7,P8,Mitochondrial redox / transsulfuration stress response,5,False,,2,metabolite,selenocystathionine,2.375025268683162,1.0,strongest_cluster_decay_prefix,5.0,0.95,20,20
+7,P8,Mitochondrial redox / transsulfuration stress response,5,False,,3,GO_term,intermediate filament bundle assembly (GO:0045110),2.368840882726885,1.0,strongest_cluster_decay_prefix,5.0,0.95,20,20
+7,P8,Mitochondrial redox / transsulfuration stress response,5,False,,4,reaction,CYSTS,2.3496863993250146,1.0,strongest_cluster_decay_prefix,5.0,0.95,20,20
+7,P8,Mitochondrial redox / transsulfuration stress response,5,False,,5,cellchat_entity,CD72,2.2317667910917134,1.0,strongest_cluster_decay_prefix,5.0,0.95,20,20

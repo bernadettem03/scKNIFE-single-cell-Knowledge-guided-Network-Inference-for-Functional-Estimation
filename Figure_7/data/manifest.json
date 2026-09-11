@@ -1,0 +1,242 @@
+{
+  "package": "Figure 7 plot-ready data",
+  "format_version": 2,
+  "created_utc": "2026-08-21T08:53:22.342342+00:00",
+  "source_description": "Current corrected SCKNIFE/CellChat signaling analysis",
+  "sources": [
+    {
+      "role": "pathway",
+      "source": "PRIVATE_ARCHIVE_ROOT/source_snapshot/inhouse_rerun/scknife_run/figures/cellsignaling/cellchatoverlap/data/pathway_overlap_all103.csv",
+      "source_sha256": "9cd9d7e9e3ac47a4d540b5cbdef1777181fb398f0226e18f33c234267e80ce77"
+    },
+    {
+      "role": "lr",
+      "source": "PRIVATE_ARCHIVE_ROOT/source_snapshot/inhouse_rerun/scknife_run/figures/cellsignaling/cellchatoverlap/data/lr_harmonized_overlap.csv",
+      "source_sha256": "aba0ada63e197def04a635a670fa8c55abf87f778c5e37c50830b493845e48f2"
+    },
+    {
+      "role": "correlation",
+      "source": "PRIVATE_ARCHIVE_ROOT/source_snapshot/inhouse_rerun/scknife_run/figures/cellsignaling/cellchatoverlap/data/correlation_results.csv",
+      "source_sha256": "c2512f2a188bdd93259f4a8fd65aa579a1e30ec61835b64a44f2ab1937d22ce8"
+    },
+    {
+      "role": "correlation_stats",
+      "source": "PRIVATE_ARCHIVE_ROOT/source_snapshot/inhouse_rerun/scknife_run/figures/cellsignaling/cellchatoverlap/data/correlation_statistics.csv",
+      "source_sha256": "1c5a9c3eb1a2984e6c80176573d062d13285e9f8a410ea2734d13277be1da4c0"
+    },
+    {
+      "role": "vegf_matrix",
+      "source": "PRIVATE_ARCHIVE_ROOT/source_snapshot/inhouse_rerun/scknife_run/data/cellsignaling/pathways/VEGF_communication_matrix.csv",
+      "source_sha256": "dc7b16bbf25507924aca7165a8c86b92f90bc0440f5920ed5667bfa20b1f10eb"
+    },
+    {
+      "role": "interaction_details",
+      "source": "PRIVATE_ARCHIVE_ROOT/source_snapshot/inhouse_rerun/scknife_run/data/cellsignaling/interaction_details.csv.gz",
+      "source_sha256": "f067481bc23e7ec485ba1860ad6f14e5131e2c819c834aaa556fb81cdbd71606"
+    },
+    {
+      "role": "final_h5ad",
+      "source": "PRIVATE_ARCHIVE_ROOT/source_snapshot/inhouse_rerun/scknife_run/data/celltype/inhouse_scknife_final_celltype.h5ad",
+      "source_sha256": "e81babab8dd5bd9c62c017ce5a8b5931d20c03a9058e2923fe785cdd941c820e"
+    },
+    {
+      "role": "full_h5ad",
+      "source": "PRIVATE_ARCHIVE_ROOT/source_snapshot/inhouse_rerun/primary_analysis/data/adata_processed_with_doublets_20th_feb_qc_done_with_metadata_harmony_integrated_scvi_clustering_annotated.h5ad",
+      "source_sha256": "e5019ced97a3a1a534719fcbbca04a493472fd34d3f3f7c92bc73d4d366f7910"
+    },
+    {
+      "role": "w_graph",
+      "source": "PRIVATE_ARCHIVE_ROOT/source_snapshot/inhouse_rerun/scknife_run/data/pipeline/inhouse_W_graph.parquet",
+      "source_sha256": "7588af177c5d455130254f9ccf8161caf5e5250b05ba2ceb4932ce4f18ad373f"
+    },
+    {
+      "role": "activity",
+      "source": "PRIVATE_ARCHIVE_ROOT/source_snapshot/inhouse_rerun/scknife_run/data/pipeline/inhouse_activity_scores.parquet",
+      "source_sha256": "665b95ff2bfdf758afb350d4a4f23c624bff6861041932c366f28b40047e6b1b"
+    }
+  ],
+  "panels": {
+    "A": {
+      "title": "CellChat and SCKNIFE signaling comparison workflow",
+      "kind": "schematic",
+      "inputs": [],
+      "extractor": "extractor_scripts/extract_figure_7_data.py",
+      "extraction_mode": "schematic"
+    },
+    "B": {
+      "title": "Pathway overlap",
+      "kind": "data",
+      "inputs": [
+        {
+          "path": "pathway_overlap.csv"
+        }
+      ],
+      "extractor": "extractor_scripts/extract_figure_7_data.py",
+      "extraction_mode": "derived_and_staged"
+    },
+    "C": {
+      "title": "Harmonized ligand-receptor overlap",
+      "kind": "data",
+      "inputs": [
+        {
+          "path": "lr_harmonized_overlap.csv"
+        }
+      ],
+      "extractor": "extractor_scripts/extract_figure_7_data.py",
+      "extraction_mode": "derived_and_staged"
+    },
+    "D": {
+      "title": "CellChat-SCKNIFE signaling-strength agreement",
+      "kind": "data",
+      "inputs": [
+        {
+          "path": "strength_correlation.csv.gz"
+        }
+      ],
+      "extractor": "extractor_scripts/extract_figure_7_data.py",
+      "extraction_mode": "derived_and_staged"
+    },
+    "E": {
+      "title": "VEGF cell-type communication network",
+      "kind": "data",
+      "inputs": [
+        {
+          "path": "vegf_communication_matrix.csv"
+        }
+      ],
+      "extractor": "extractor_scripts/extract_figure_7_data.py",
+      "extraction_mode": "derived_and_staged"
+    },
+    "F": {
+      "title": "VEGF sender-receiver communication",
+      "kind": "data",
+      "inputs": [
+        {
+          "path": "vegf_communication_matrix.csv"
+        }
+      ],
+      "extractor": "extractor_scripts/extract_figure_7_data.py",
+      "extraction_mode": "derived_and_staged"
+    },
+    "G": {
+      "title": "Aggregated VEGF ligand-receptor scores",
+      "kind": "data",
+      "inputs": [
+        {
+          "path": "vegf_top_interactions.csv.gz"
+        }
+      ],
+      "extractor": "extractor_scripts/extract_figure_7_data.py",
+      "extraction_mode": "derived_and_staged"
+    },
+    "H": {
+      "title": "KDR activity on the H-graph UMAP",
+      "kind": "data",
+      "inputs": [
+        {
+          "path": "h_graph_umap_scores.parquet"
+        }
+      ],
+      "extractor": "extractor_scripts/extract_figure_7_data.py",
+      "extraction_mode": "derived_and_staged"
+    },
+    "I": {
+      "title": "HALLMARK_HYPOXIA activity on the H-graph UMAP",
+      "kind": "data",
+      "inputs": [
+        {
+          "path": "h_graph_umap_scores.parquet"
+        }
+      ],
+      "extractor": "extractor_scripts/extract_figure_7_data.py",
+      "extraction_mode": "derived_and_staged"
+    },
+    "J": {
+      "title": "FLT1 activity on the H-graph UMAP",
+      "kind": "data",
+      "inputs": [
+        {
+          "path": "h_graph_umap_scores.parquet"
+        }
+      ],
+      "extractor": "extractor_scripts/extract_figure_7_data.py",
+      "extraction_mode": "derived_and_staged"
+    }
+  },
+  "auxiliary_inputs": [],
+  "lineage_summary": {
+    "panel_count": 10,
+    "data_panel_count": 9,
+    "schematic_panel_count": 1,
+    "referenced_files": [
+      "h_graph_umap_scores.parquet",
+      "lr_harmonized_overlap.csv",
+      "pathway_overlap.csv",
+      "strength_correlation.csv.gz",
+      "vegf_communication_matrix.csv",
+      "vegf_top_interactions.csv.gz"
+    ]
+  },
+  "extraction": {
+    "n_cells": 69391,
+    "n_h_factors": 150,
+    "umap": "X_umap computed from the H-graph factor representation",
+    "KDR": "log1p_norm expression from the full 16,456-gene annotated ancestor",
+    "activities": "exact KDR, HALLMARK_HYPOXIA, and FLT1 W_graph rows multiplied by the 150 H_graph factors; verified against canonical activity parquet",
+    "VEGF_interactions": "all 1,134 VEGF rows filtered from interaction_details.csv.gz before ligand-receptor aggregation; no top-row truncation"
+  },
+  "checks": {
+    "ten_panels": true,
+    "pathway_counts_8_79_171": true,
+    "lr_counts_14_551_1710": true,
+    "correlation_4405_complete": true,
+    "vegf_matrix_9x9_ordered": true,
+    "umap_69391_unique": true,
+    "umap_columns": true,
+    "umap_scores_finite": true,
+    "nine_final_celltypes": true,
+    "kdr_expression_nonconstant": true,
+    "activity_scores_nonconstant": true,
+    "panel_lineage_valid": true,
+    "vegf_interactions_1134_complete": true,
+    "vegf_eight_lr_pair_totals": true
+  },
+  "python": "3.9.21",
+  "files": [
+    {
+      "name": "README.md",
+      "bytes": 1419,
+      "sha256": "15e27b6ec78d2ba9dc1f3e7adcfbaa0af86752eb1f00e1271fe509eb5c90f3e8"
+    },
+    {
+      "name": "h_graph_umap_scores.parquet",
+      "bytes": 2813179,
+      "sha256": "c10520efb1f032d3248989fefe04ef81f4a051f591ccaf3cffcdd61220a9fb54"
+    },
+    {
+      "name": "lr_harmonized_overlap.csv",
+      "bytes": 77900,
+      "sha256": "aba0ada63e197def04a635a670fa8c55abf87f778c5e37c50830b493845e48f2"
+    },
+    {
+      "name": "pathway_overlap.csv",
+      "bytes": 7059,
+      "sha256": "9c89f86beb7bffd7f7593e5853619f23ea920ff8beef768bdac5dbece01e4c6a"
+    },
+    {
+      "name": "strength_correlation.csv.gz",
+      "bytes": 126680,
+      "sha256": "8fb8921c8d0e0eb82e3e25b688acb005a3ed1c4c4c93c816e06598d804ced78c"
+    },
+    {
+      "name": "vegf_communication_matrix.csv",
+      "bytes": 1769,
+      "sha256": "dc7b16bbf25507924aca7165a8c86b92f90bc0440f5920ed5667bfa20b1f10eb"
+    },
+    {
+      "name": "vegf_top_interactions.csv.gz",
+      "bytes": 33147,
+      "sha256": "64728c7709c81669131561aa3491b17c10d5b0cc7bdff061a5a41e41a436541d"
+    }
+  ]
+}

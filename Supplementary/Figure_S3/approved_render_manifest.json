@@ -1,0 +1,17 @@
+{
+  "authority": "Figure_3_version_2 canonical S3B compositor output",
+  "layout": [
+    "Bassez A metabolic tasks",
+    "Bassez A GO biological processes",
+    "Bassez B metabolic tasks",
+    "Bassez B GO biological processes"
+  ],
+  "selection": "top 25 global-BH-significant terms by mean log2FC separately for E and NE; raw log2FC; independently clustered by cohort",
+  "s3b_pixels": [
+    4800,
+    6600
+  ],
+  "sha256": {
+    "outputs/Figure_S3_B.png": "6369dc1296f17fcf9ff644e28f36632b2378b8ce36737b301df6f601ac311df3"
+  }
+}

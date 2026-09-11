@@ -1,0 +1,15 @@
+map_id,cohort,embedding_cells,eligible_patients,overlay_cells,max_abs_patient_log2_error,coordinates_finite,activity_finite,max_abs_display_transform_error,frozen_embedding
+G_Bassez_A_Pre,Bassez A,82120,12,3081,1.6765399060147956e-06,True,True,0.0,True
+H_Bassez_A_Pre,Bassez A,82120,12,10363,2.8487296077628343e-07,True,True,0.0,True
+I_Bassez_A_Pre,Bassez A,82120,12,3081,2.118776595949612e-06,True,True,0.0,True
+I_Bassez_A_On,Bassez A,82120,12,4843,1.7298728582915146e-06,True,True,0.0,True
+G_Bassez_B_Pre,Bassez B,36721,4,1672,1.4711325242444673e-06,True,True,0.0,True
+H_Bassez_B_Pre,Bassez B,36721,6,4725,5.197806638435054e-07,True,True,0.0,True
+J_Bassez_B_Pre,Bassez B,36721,6,4725,7.791541527524259e-07,True,True,0.0,True
+J_Bassez_B_On,Bassez B,36721,6,7151,6.066291415862679e-07,True,True,0.0,True
+E_Shiao_Base,Shiao,262070,16,15237,1.0697046359808837e-06,True,True,0.0,True
+F_Shiao_Base,Shiao,262070,15,20121,1.0027058934269917e-06,True,True,0.0,True
+K_Shiao_Base,Shiao,262070,12,11200,7.740113741050436e-07,True,True,0.0,True
+K_Shiao_RTPD1,Shiao,262070,12,8945,7.03395622636549e-07,True,True,0.0,True
+L_Shiao_Base,Shiao,262070,16,15237,8.992702085208748e-07,True,True,0.0,True
+L_Shiao_PD1,Shiao,262070,16,38070,7.817375156093931e-07,True,True,0.0,True
