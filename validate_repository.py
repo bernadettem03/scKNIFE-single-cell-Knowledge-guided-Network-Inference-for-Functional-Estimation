@@ -8,6 +8,7 @@ ROOT=Path(__file__).resolve().parent
 EXPECTED=[*[ROOT/f"Figure_{n}"/f"Figure_{n}.ipynb" for n in range(2,8)],*[ROOT/"Supplementary"/f"Figure_S{n}"/f"Figure_S{n}.ipynb" for n in range(2,7)]]
 FORBIDDEN_CALLS={"pearsonr","spearmanr","mannwhitneyu","multipletests","permutation_test","consensus_sweep","fit","fit_transform"}
 MAIN_PANEL_SETS={2:list("ABCDEFGH"),3:list("ABCDEFGHIJ"),4:list("BCDEF"),5:list("ACEGH"),6:list("ABCDEF"),7:list("ABCDEFGHIJ")}
+REQUIRED_AUDITS=(2,3,4,5,7)
 def sha(path):
  h=hashlib.sha256()
  with path.open("rb") as f:
@@ -24,6 +25,12 @@ def calls(source):
  return names
 def main():
  errors=[]
+ for number in range(2,8):
+  plotting=ROOT/f"Figure_{number}"/"plotting.py"
+  if not plotting.is_file():errors.append(f"missing plotting module: {plotting.relative_to(ROOT)}")
+ for number in REQUIRED_AUDITS:
+  audit=ROOT/f"Figure_{number}"/"NOTEBOOK_AUDIT.md"
+  if not audit.is_file():errors.append(f"missing notebook audit: {audit.relative_to(ROOT)}")
  for p in EXPECTED:
   if not p.is_file():errors.append(f"missing notebook: {p.relative_to(ROOT)}");continue
   nb=nbformat.read(p,4);code="\n".join(c.source for c in nb.cells if c.cell_type=="code")
@@ -36,8 +43,10 @@ def main():
   bad=calls(code)&FORBIDDEN_CALLS
   if bad:errors.append(f"analysis calls {sorted(bad)} in {p.relative_to(ROOT)}")
  for p in [*ROOT.glob("Figure_*/plotting.py"),*ROOT.glob("Supplementary/Figure_*/plotting.py")]:
-  bad=calls(p.read_text())&FORBIDDEN_CALLS
+  module_text=p.read_text()
+  bad=calls(module_text)&FORBIDDEN_CALLS
   if bad:errors.append(f"analysis calls {sorted(bad)} in {p.relative_to(ROOT)}")
+  if "/storage/" in module_text:errors.append(f"absolute storage path in plotting module: {p.relative_to(ROOT)}")
  for number,labels in MAIN_PANEL_SETS.items():
   panel_dir=ROOT/f"Figure_{number}"/"outputs"/"panels"
   manifest_path=panel_dir/f"Figure_{number}_panel_export_manifest.json"

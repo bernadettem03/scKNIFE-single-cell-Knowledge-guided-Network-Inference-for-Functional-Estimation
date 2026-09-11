@@ -59,3 +59,12 @@
 - Removed obsolete Figure 5 B/D/F standalone exports because those panels are not part of the authoritative main Figure 5 composite.
 - Extended repository validation to require all expected standalone outputs and verify their formats and manifest checksums.
 - The protected May submission source and unpublished private archive were not modified.
+
+## Figure audit and Figure 4 module completion (2026-09-11)
+
+- Added notebook audits for Figures 3, 4, 5, and 7; Figure 6 remains outside the requested audit scope.
+- Extracted the authoritative Figure 4 B–F and compiled-page rendering into `Figure_4/plotting.py`.
+- Reduced the Figure 4 root notebook to validation, rendering, export, and provenance orchestration while retaining live inline figures.
+- Restored the private Figure 4 bundle only for local validation and explicitly excluded it from Git tracking.
+- Added repository checks for all main plotting modules and the agreed notebook-audit set.
+- No files in the protected May submission or unpublished private archive were modified.
