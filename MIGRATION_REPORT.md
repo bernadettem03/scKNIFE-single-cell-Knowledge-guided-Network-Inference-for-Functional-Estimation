@@ -91,3 +91,10 @@
 - Preserved the remaining reference panels pixel-for-pixel and retained the original canvas width.
 - Left the executable S3 notebook, plotting module, plot-ready data, and active outputs unchanged.
 - No other figure directories, the protected May submission, or the unpublished private archive were modified.
+
+## Supplementary Figure S4 UMAP visibility adjustment (2026-09-11)
+
+- Increased the shared Q/N/P/M UMAP marker size from 0.12 to 0.20 and opacity from 0.72 to 0.90 for improved print and preview visibility.
+- Preserved all frozen coordinates, category assignments, palettes, labels, legends, panel dimensions, and 300-DPI rasterization.
+- Re-executed the plotting-only S4 notebook and refreshed the standalone UMAP panels, compiled PNG/PDF, inline figures, and render manifest.
+- Verified T/R/S and every non-S4 figure asset remained byte-identical; no protected source or private archive was modified.

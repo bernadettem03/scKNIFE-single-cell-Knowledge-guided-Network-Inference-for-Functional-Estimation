@@ -32,8 +32,8 @@ S4_AXIS_TITLE_PT = 8
 S4_TICK_PT = 6.5
 S4_LEGEND_PT = 6.2
 S4_GENE_PT = 5.8
-S4_UMAP_POINT_SIZE = 0.12
-S4_UMAP_ALPHA = 0.72
+S4_UMAP_POINT_SIZE = 0.20
+S4_UMAP_ALPHA = 0.90
 S4_DOT_MIN_SIZE = 3.0
 S4_DOT_MAX_SIZE = 48.0
 S4_DPI = 300
@@ -314,7 +314,7 @@ def write_s4_manifest(panel_outputs, compiled_outputs):
         "panel_order":list(PANEL_ORDER),
         "fields":{"T":["atlas/patient_site","atlas/patient_site_counts"],"R":["atlas/composition_counts"],"S":["marker_dotplots/genes","marker_dotplots/fraction_expressing"],"Q":["atlas/umap","atlas/celltype"],"N":["cnv_qc/umap","cnv_qc/cnv_leiden"],"P":["cnv_qc/umap","cnv_qc/celltype"],"M":["cnv_provisional/umap","cnv_provisional/status"]},
         "renderers":{"T":"matplotlib","R":"matplotlib","S":"matplotlib","Q":"scanpy","N":"scanpy","P":"scanpy","M":"scanpy"},
-        "export":{"svg_text":"editable" if S4_EDITABLE_SVG_TEXT else "paths","rasterized_panels":["Q","N","P","M"] if S4_RASTERIZE_UMAPS else [],"raster_dpi":S4_DPI},
+        "export":{"svg_text":"editable" if S4_EDITABLE_SVG_TEXT else "paths","rasterized_panels":["Q","N","P","M"] if S4_RASTERIZE_UMAPS else [],"raster_dpi":S4_DPI,"umap_point_size":S4_UMAP_POINT_SIZE,"umap_alpha":S4_UMAP_ALPHA},
         "individual_outputs":panel_outputs,"compiled_outputs":compiled_outputs,
         "checks":{"cells":69391,"specimens":15,"markers":59,"cnv_clusters":26,"cnv_low":27421,"cnv_high":41970},
     }

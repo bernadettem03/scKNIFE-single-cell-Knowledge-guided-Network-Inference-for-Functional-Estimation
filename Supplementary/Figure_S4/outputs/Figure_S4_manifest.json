@@ -59,7 +59,9 @@
       "P",
       "M"
     ],
-    "raster_dpi": 300
+    "raster_dpi": 300,
+    "umap_point_size": 0.2,
+    "umap_alpha": 0.9
   },
   "individual_outputs": {
     "T": {
