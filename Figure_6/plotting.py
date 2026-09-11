@@ -2,6 +2,7 @@
 """Publication plotting for biology-first Figure 6 panels A–G."""
 from __future__ import annotations
 
+import json
 from pathlib import Path
 import textwrap
 
@@ -756,13 +757,34 @@ def _render_panel_files(label,filenames,registry,panel_group):
     _panel_manifest[label]={"mode":"standalone_data_driven_figure","renderer":"matplotlib_fallback","matplotlib_version":mpl.__version__,"axis_count":len(fig.axes),"saved_in_individual_notebook_cell":True,"data_lineage_kind":lineage["kind"],"intermediate_inputs":lineage["inputs"],"data_extractor":lineage["extractor"],"extraction_mode":lineage["extraction_mode"]}
     (_individual_dir/'Figure_6_panel_export_manifest.json').write_text(json.dumps(_panel_manifest,indent=2)+'\n');plt.figure(fig.number);plt.show();plt.close(fig)
 
-# Blank-corrected notebook contract: render all panels inline, export nothing.
+# Blank-corrected notebook contract: render inline and export main A-F panels.
+_individual_dir = MODULE_ROOT / "outputs" / "panels"
+_individual_dir.mkdir(parents=True, exist_ok=True)
+_panel_manifest = {}
+_standalone_export_pad_inches = 0.04
+
+def _export_main_panel(label, fig, lineage):
+    outputs = {}
+    for suffix in ("png", "pdf"):
+        path = _individual_dir / f"Figure_6_{label}.{suffix}"
+        fig.savefig(path, format=suffix, dpi=OUTPUT_DPI, facecolor="white", bbox_inches="tight", pad_inches=_standalone_export_pad_inches)
+        outputs[suffix] = path
+    _panel_manifest[label] = {
+        "mode": "standalone_data_driven_figure", "renderer": "matplotlib_fallback",
+        "matplotlib_version": mpl.__version__, "axis_count": len(fig.axes),
+        "saved_in_individual_notebook_cell": True, "formats": ["png", "pdf"],
+        "data_lineage_kind": lineage["kind"], "intermediate_inputs": lineage["inputs"],
+        "data_extractor": lineage["extractor"], "extraction_mode": lineage["extraction_mode"],
+    }
+    (_individual_dir / "Figure_6_panel_export_manifest.json").write_text(json.dumps(_panel_manifest, indent=2) + "\n")
+    return outputs
+
 def _render_extension_panel(label,filename,registry,panel_group):
- lineage=DATA_MANIFEST[panel_group][label];_verify_staged_file(filename);table=pd.read_csv(DATA_ROOT/filename);tables={filename:table};_audit_panel_data(label,tables,panel_group);registry[label]=tables;fig=_standalone(label,tables);plt.figure(fig.number);plt.show();plt.close(fig)
+ lineage=DATA_MANIFEST[panel_group][label];_verify_staged_file(filename);table=pd.read_csv(DATA_ROOT/filename);tables={filename:table};_audit_panel_data(label,tables,panel_group);registry[label]=tables;fig=_standalone(label,tables);_export_main_panel(label,fig,lineage);plt.figure(fig.number);plt.show();plt.close(fig)
 def _render_panel_files(label,filenames,registry,panel_group):
- tables={}
+ lineage=DATA_MANIFEST[panel_group][label];tables={}
  for filename in filenames:_verify_staged_file(filename);tables[filename]=pd.read_csv(DATA_ROOT/filename)
- _audit_panel_data(label,tables,panel_group);registry[label]=tables;fig=_standalone(label,tables);plt.figure(fig.number);plt.show();plt.close(fig)
+ _audit_panel_data(label,tables,panel_group);registry[label]=tables;fig=_standalone(label,tables);_export_main_panel(label,fig,lineage);plt.figure(fig.number);plt.show();plt.close(fig)
 
 def _draw_panel_d_graph_guided(container,data,label="D"):
     seeds=data["panel_d_graph_seeds.csv"].copy().sort_values("display_order")

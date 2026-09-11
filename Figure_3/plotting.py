@@ -225,9 +225,13 @@ def prepare_v8_data(root=None, force=False):
     return V8_PATHS
 
 
-def _upset(ax, root):
+def _upset(ax, root, selected_comparison=None):
     ax.set_axis_off()
     comparisons = PANEL_A_SUMMARY.comparison.drop_duplicates().tolist()
+    if selected_comparison is not None:
+        if selected_comparison not in comparisons:
+            raise ValueError(f"Unknown method-overlap comparison: {selected_comparison}")
+        comparisons = [selected_comparison]
     panel_titles = {'Bassez B · E': 'A  Bassez B · E', 'Bassez B · NE': 'B  Bassez B · NE', 'Shiao · R': 'C  Shiao · R', 'Shiao · NR': 'D  Shiao · NR'}
     intersections = ['Shared', 'scKNIFE only', 'scCellFie only']
     memberships = np.array([[True, True, False], [True, False, True]])
@@ -239,7 +243,7 @@ def _upset(ax, root):
     legend_handles = [Patch(facecolor=UPSET_CELLTYPE_COLORS[cell_type], label=cell_type) for cell_type in displayed_celltypes]
     ax.legend(handles=legend_handles, loc='upper center', bbox_to_anchor=(0.5, 1.01), ncol=len(legend_handles), frameon=False, fontsize=UPSET_LEGEND_SIZE_PT, handlelength=0.9, columnspacing=0.75, borderaxespad=0)
     for (index, comparison) in enumerate(comparisons):
-        container = ax.inset_axes([0.006 + index * 0.249, 0.0, 0.236, 0.8])
+        container = ax.inset_axes([0.02, 0.0, 0.96, 0.8] if len(comparisons) == 1 else [0.006 + index * 0.249, 0.0, 0.236, 0.8])
         container.set_axis_off()
         block = PANEL_A_SUMMARY.loc[PANEL_A_SUMMARY.comparison.eq(comparison)].copy()
         totals = block[intersections].sum().astype(int)
@@ -808,12 +812,22 @@ def render_main_longitudinal(letter, association_id):
     return fig
 
 
+def render_main_method_overlap_single(letter):
+    comparisons = dict(zip("ABCD", PANEL_A_SUMMARY.comparison.drop_duplicates().tolist()))
+    if letter not in comparisons:
+        raise ValueError(letter)
+    fig, ax = plt.subplots(figsize=(48 * MM, 68 * MM))
+    fig.subplots_adjust(left=0.03, right=0.99, bottom=0.12, top=0.96)
+    _upset(ax, ROOT, selected_comparison=comparisons[letter])
+    return fig
+
 def render_all_main_panels():
-    figures = {
+    figures = {letter: render_main_method_overlap_single(letter) for letter in "ABCD"}
+    figures.update({
       "A-D": render_main_method_overlap(),
       "E": render_main_baseline("E", "RNR_TCELL_ERAD", "R/NR"),
       "F": render_main_baseline("F", "ENE_MYELOID_GLYCOGEN", "E/NE"),
-    }
+    })
     for letter, item in zip("GHIJ", TREATMENT_PANELS):
         figures[letter] = render_main_longitudinal(letter, item["association_id"])
     return figures

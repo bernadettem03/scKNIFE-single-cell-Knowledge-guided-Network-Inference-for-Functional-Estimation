@@ -50,3 +50,12 @@
 - Local absolute paths were removed from notebook outputs and HDF5 provenance metadata.
 - All 11 plotting notebooks were re-executed successfully with inline figures.
 - The unpublished Figure 4 bundle was pseudonymized separately and remains private; no Zenodo record was published.
+
+## Standalone main-panel exports (2026-09-11)
+
+- Added 300-DPI PNG and vector PDF exports for every authoritative main panel: Figure 2 A–H, Figure 3 A–J, Figure 4 B–F, Figure 5 A/C/E/G/H, Figure 6 A–F, and Figure 7 A–J.
+- Added per-figure JSON manifests recording panel order, relative paths, byte sizes, and SHA-256 checksums.
+- Retained the Figure 3 A–D compound export for layout provenance while also providing A, B, C, and D separately.
+- Removed obsolete Figure 5 B/D/F standalone exports because those panels are not part of the authoritative main Figure 5 composite.
+- Extended repository validation to require all expected standalone outputs and verify their formats and manifest checksums.
+- The protected May submission source and unpublished private archive were not modified.

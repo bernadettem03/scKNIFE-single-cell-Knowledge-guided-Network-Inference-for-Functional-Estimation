@@ -26,3 +26,8 @@ metrics and correlation annotations is isolated under `analysis/`.
 Supplementary Figure 2 is maintained separately under
 `../Supplementary/Figure_S2/`.
 
+## Standalone panel outputs
+
+The plotting notebook writes each authoritative main panel as a 300-DPI PNG and
+a vector PDF under `outputs/panels/`. `Figure_2_panel_export_manifest.json`
+records the expected panel order, file sizes, and SHA-256 checksums.

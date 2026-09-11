@@ -600,3 +600,16 @@ def make_figure2_panel(label):
     finally:
         PAGE_W_MM, PAGE_H_MM = previous_size
 
+PANEL_OUTPUT_DIR = Path(__file__).resolve().parent / "outputs" / "panels"
+
+def export_figure2_panel(fig, label):
+    """Export one live Figure 2 panel as publication PNG and vector PDF."""
+    if label not in FIGURE2_PANEL_SIZES_MM:
+        raise ValueError(label)
+    PANEL_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    outputs = {}
+    for suffix in ("png", "pdf"):
+        path = PANEL_OUTPUT_DIR / f"Figure_2_{label}.{suffix}"
+        fig.savefig(path, format=suffix, dpi=OUTPUT_DPI, facecolor="white", bbox_inches="tight", pad_inches=0.04)
+        outputs[suffix] = path
+    return outputs
