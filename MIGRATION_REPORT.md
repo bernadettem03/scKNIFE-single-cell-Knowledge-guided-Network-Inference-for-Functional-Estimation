@@ -84,3 +84,10 @@
 - Expanded the S4 README with its caption, panel definitions, input contract, execution instructions, analysis boundary, and output inventory.
 - All regenerated S4 PNGs are checksum-identical to the approved files; other supplementary figures were not modified.
 - The protected May submission and unpublished private archive were not modified.
+
+## Supplementary Figure S3 reference cleanup (2026-09-11)
+
+- Removed the Wu TNBC UMAP and Wu patient-level boxplot row from the legacy S3 reference composite.
+- Preserved the remaining reference panels pixel-for-pixel and retained the original canvas width.
+- Left the executable S3 notebook, plotting module, plot-ready data, and active outputs unchanged.
+- No other figure directories, the protected May submission, or the unpublished private archive were modified.
