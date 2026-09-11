@@ -68,3 +68,11 @@
 - Restored the private Figure 4 bundle only for local validation and explicitly excluded it from Git tracking.
 - Added repository checks for all main plotting modules and the agreed notebook-audit set.
 - No files in the protected May submission or unpublished private archive were modified.
+
+## Supplementary Figure S1/S2 reassignment (2026-09-11)
+
+- Created Supplementary Figure S1 from the cross-dataset W-concordance block, node-kind t-SNE, and pooled-cluster t-SNE formerly compiled into Figure S2.
+- Restricted Supplementary Figure S2 to the nine frozen no-match UMAPs for Bassez C1, Bassez C2, and Wu TNBC across ExpiMap, Slalom, and SPECTRA.
+- Moved the unchanged pooled-W assets into the S1 figure directory and added an asset checksum manifest.
+- Updated repository-local captions, figure references, data inventory, and validation rules.
+- Supplementary Figures S3–S6, the protected May submission, and the unpublished private archive were not modified.

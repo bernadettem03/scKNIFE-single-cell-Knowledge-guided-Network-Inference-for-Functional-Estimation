@@ -23,8 +23,8 @@ metrics and correlation annotations is isolated under `analysis/`.
 - `data/`: frozen inputs required by the main figure.
 - `outputs/`: approved PDF and PNG preview.
 
-Supplementary Figure 2 is maintained separately under
-`../Supplementary/Figure_S2/`.
+Pooled W-space diagnostics are maintained under `../Supplementary/Figure_S1/`;
+no-match comparator UMAPs are maintained under `../Supplementary/Figure_S2/`.
 
 ## Standalone panel outputs
 

@@ -5,7 +5,7 @@ This repository contains code and plot-ready data for reproducing Figures 2–7 
 ## Layout
 
 - `Figure_2/`–`Figure_7/`: main figures, analysis provenance, inputs, and outputs.
-- `Supplementary/Figure_S2/`–`Figure_S6/`: supplementary figure workflows.
+- `Supplementary/Figure_S1/`–`Figure_S6/`: supplementary figure workflows.
 - `data_manifest.tsv`: checksummed public-file inventory.
 - `validate_repository.py`: portability and submission checks.
 

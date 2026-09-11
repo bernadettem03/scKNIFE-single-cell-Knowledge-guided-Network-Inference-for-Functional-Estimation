@@ -1,0 +1,47 @@
+{
+  "schema_version": "supplementary_figure_s1_v1",
+  "panel_order": [
+    "A",
+    "B",
+    "C"
+  ],
+  "panels": {
+    "A": {
+      "title": "Cross-dataset W concordance",
+      "inputs": [
+        "pooled_w/w_pooled_concordance_metrics.csv",
+        "pooled_w/w_pooled_concordance_manifest.json"
+      ]
+    },
+    "B": {
+      "title": "t-SNE node kinds across independently normalized W blocks",
+      "inputs": [
+        "pooled_w/w_pooled_tsne_node_kinds_corrected.png"
+      ]
+    },
+    "C": {
+      "title": "t-SNE pooled clusters across independently normalized W blocks",
+      "inputs": [
+        "pooled_w/w_pooled_tsne_dataset_panels.png"
+      ]
+    }
+  },
+  "assets": {
+    "w_pooled_concordance_manifest.json": {
+      "bytes": 5551,
+      "sha256": "932787d8ef630ea66ab0a2e455e3f60188527dd2410deb0c3e15bedac7eb0dcd"
+    },
+    "w_pooled_concordance_metrics.csv": {
+      "bytes": 906,
+      "sha256": "4d6c2a369b006f27731713509526e9ed32e1beca9e0a7e1f46e09b5acbab37f2"
+    },
+    "w_pooled_tsne_dataset_panels.png": {
+      "bytes": 2816191,
+      "sha256": "e5f2a8c87df80820087dc81a7bdaf68401041385983f046a5ae10a433d571d16"
+    },
+    "w_pooled_tsne_node_kinds_corrected.png": {
+      "bytes": 2531275,
+      "sha256": "234c3de09752b122d8837f095d929013dbca0767f955e5659cba33a3af33a191"
+    }
+  }
+}

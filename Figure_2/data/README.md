@@ -30,10 +30,10 @@ Frozen benchmarking and Tahoe plot tables, with validated frozen no-match UMAP r
 - `supplementary_umap_no_match/spectra_bassez_c1_points.png` — Supplementary Figure 2 validated frozen no-match UMAP raster
 - `supplementary_umap_no_match/spectra_bassez_c2_points.png` — Supplementary Figure 2 validated frozen no-match UMAP raster
 - `supplementary_umap_no_match/spectra_wu_tnbc_points.png` — Supplementary Figure 2 validated frozen no-match UMAP raster
-- `supplementary_w_pooled/w_pooled_concordance_metrics.csv` — Supplementary Figure 2 pooled W-space input
-- `supplementary_w_pooled/w_pooled_concordance_manifest.json` — Supplementary Figure 2 pooled W-space input
-- `supplementary_w_pooled/w_pooled_tsne_dataset_panels.png` — Supplementary Figure 2 pooled W-space input
-- `supplementary_w_pooled/w_pooled_tsne_node_kinds_corrected.png` — Supplementary Figure 2 pooled W-space input
+- `supplementary_w_pooled/w_pooled_concordance_metrics.csv` — Supplementary Figure 1 pooled W-space input
+- `supplementary_w_pooled/w_pooled_concordance_manifest.json` — Supplementary Figure 1 pooled W-space input
+- `supplementary_w_pooled/w_pooled_tsne_dataset_panels.png` — Supplementary Figure 1 pooled W-space input
+- `supplementary_w_pooled/w_pooled_tsne_node_kinds_corrected.png` — Supplementary Figure 1 pooled W-space input
 
 The authoritative machine-readable mapping is `manifest.json` under `panels`.
 All hashes and source provenance are recorded in that manifest.

@@ -23,12 +23,11 @@ render time.
 
 The plotting notebook will consume the resulting checked CSV annotations.
 
-## Move to Supplementary Figure S2
+## Supplementary figure assignment
 
-- The complete no-match UMAP grid.
-- Pooled W-space CKA and factor diagnostics.
-- Pooled W-space t-SNE panels.
-- Supplementary A4 composition and export.
+- Supplementary Figure S1 contains pooled W-space CKA, factor diagnostics, and the two pooled W-space t-SNE panels.
+- Supplementary Figure S2 contains only the complete no-match UMAP grid for Bassez C1, Bassez C2, and Wu TNBC.
+- Each supplementary figure has an independent plotting-only A4 composition and export.
 
 ## Remove from the public notebook
 

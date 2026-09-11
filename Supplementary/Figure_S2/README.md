@@ -1,11 +1,12 @@
 # Supplementary Figure 2
 
-Supplementary Figure 2 contains the comparator no-match UMAP grid and pooled
-W-space concordance diagnostics. Its notebook and data are separated from the
-main Figure 2 workflow.
+Supplementary Figure 2 contains only the comparator no-match UMAP grid for Bassez C1, Bassez C2, and Wu TNBC.
 
-- `Figure_S2.ipynb`: supplementary plotting workflow.
+## Caption
+
+**Supplementary Figure 2 | Frozen no-match UMAPs across external datasets.** Rows show ExpiMap, Slalom, and SPECTRA; columns show Bassez C1, Bassez C2, and Wu TNBC. Each comparison displays frozen Leiden clusters beside the corresponding author cell-type labels.
+
+- `Figure_S2.ipynb`: plotting-only entrypoint.
+- `plotting.py`: validation and 3×3 A4 rendering.
 - `data/no_match_umaps/`: frozen comparator UMAP assets and provenance.
-- `data/pooled_w/`: pooled W-space concordance inputs.
-- `outputs/`: approved PDF and PNG preview.
-
+- `outputs/`: compiled PDF and 300-DPI PNG preview.

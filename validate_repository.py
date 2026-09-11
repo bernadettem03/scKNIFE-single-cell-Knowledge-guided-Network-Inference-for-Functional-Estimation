@@ -5,7 +5,7 @@ import ast,hashlib,json,re,sys
 from pathlib import Path
 import nbformat
 ROOT=Path(__file__).resolve().parent
-EXPECTED=[*[ROOT/f"Figure_{n}"/f"Figure_{n}.ipynb" for n in range(2,8)],*[ROOT/"Supplementary"/f"Figure_S{n}"/f"Figure_S{n}.ipynb" for n in range(2,7)]]
+EXPECTED=[*[ROOT/f"Figure_{n}"/f"Figure_{n}.ipynb" for n in range(2,8)],*[ROOT/"Supplementary"/f"Figure_S{n}"/f"Figure_S{n}.ipynb" for n in range(1,7)]]
 FORBIDDEN_CALLS={"pearsonr","spearmanr","mannwhitneyu","multipletests","permutation_test","consensus_sweep","fit","fit_transform"}
 MAIN_PANEL_SETS={2:list("ABCDEFGH"),3:list("ABCDEFGHIJ"),4:list("BCDEF"),5:list("ACEGH"),6:list("ABCDEF"),7:list("ABCDEFGHIJ")}
 REQUIRED_AUDITS=(2,3,4,5,7)
@@ -47,6 +47,16 @@ def main():
   bad=calls(module_text)&FORBIDDEN_CALLS
   if bad:errors.append(f"analysis calls {sorted(bad)} in {p.relative_to(ROOT)}")
   if "/storage/" in module_text:errors.append(f"absolute storage path in plotting module: {p.relative_to(ROOT)}")
+ s1=ROOT/"Supplementary/Figure_S1"
+ s2=ROOT/"Supplementary/Figure_S2"
+ if not (s1/"data/pooled_w").is_dir():errors.append("S1 pooled-W data directory is missing")
+ if (s2/"data/pooled_w").exists():errors.append("pooled-W content remains assigned to S2")
+ if not (s2/"data/no_match_umaps").is_dir():errors.append("S2 no-match UMAP directory is missing")
+ s1_text=(s1/"plotting.py").read_text() if (s1/"plotting.py").is_file() else ""
+ s2_text=(s2/"plotting.py").read_text() if (s2/"plotting.py").is_file() else ""
+ for title in ("Cross-dataset W concordance","t-SNE node kinds across independently normalized W blocks","t-SNE pooled clusters across independently normalized W blocks"):
+  if title not in s1_text:errors.append(f"S1 panel title missing: {title}")
+ if "POOLED_ROOT" in s2_text or "concordance" in s2_text.lower():errors.append("S2 plotting module still contains pooled-W rendering")
  for number,labels in MAIN_PANEL_SETS.items():
   panel_dir=ROOT/f"Figure_{number}"/"outputs"/"panels"
   manifest_path=panel_dir/f"Figure_{number}_panel_export_manifest.json"
