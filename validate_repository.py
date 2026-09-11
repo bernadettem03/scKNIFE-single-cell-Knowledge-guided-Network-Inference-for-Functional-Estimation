@@ -28,6 +28,9 @@ def main():
  for number in range(2,8):
   plotting=ROOT/f"Figure_{number}"/"plotting.py"
   if not plotting.is_file():errors.append(f"missing plotting module: {plotting.relative_to(ROOT)}")
+ for number in range(1,7):
+  plotting=ROOT/"Supplementary"/f"Figure_S{number}"/"plotting.py"
+  if not plotting.is_file():errors.append(f"missing supplementary plotting module: {plotting.relative_to(ROOT)}")
  for number in REQUIRED_AUDITS:
   audit=ROOT/f"Figure_{number}"/"NOTEBOOK_AUDIT.md"
   if not audit.is_file():errors.append(f"missing notebook audit: {audit.relative_to(ROOT)}")
@@ -47,6 +50,17 @@ def main():
   bad=calls(module_text)&FORBIDDEN_CALLS
   if bad:errors.append(f"analysis calls {sorted(bad)} in {p.relative_to(ROOT)}")
   if "/storage/" in module_text:errors.append(f"absolute storage path in plotting module: {p.relative_to(ROOT)}")
+ s4_manifest_path=ROOT/"Supplementary/Figure_S4/outputs/Figure_S4_manifest.json"
+ if not s4_manifest_path.is_file():errors.append("missing Supplementary Figure S4 output manifest")
+ else:
+  s4_manifest=json.loads(s4_manifest_path.read_text())
+  if s4_manifest.get("panel_order")!=list("TRSQNPM"):errors.append("incorrect Supplementary Figure S4 panel order")
+  for section in ("individual_outputs","compiled_outputs"):
+   def check_paths(value):
+    if isinstance(value,dict):
+     for nested in value.values():check_paths(nested)
+    elif isinstance(value,str) and not (ROOT/"Supplementary/Figure_S4"/value).is_file():errors.append(f"missing S4 output: {value}")
+   check_paths(s4_manifest.get(section,{}))
  s1=ROOT/"Supplementary/Figure_S1"
  s2=ROOT/"Supplementary/Figure_S2"
  if not (s1/"data/pooled_w").is_dir():errors.append("S1 pooled-W data directory is missing")

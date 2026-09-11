@@ -1,8 +1,9 @@
 {
-  "notebook": "Figure_4.ipynb",
+  "notebook": "Figure_S4.ipynb",
   "mode": "plot_only",
   "analysis_recomputed": false,
   "source": "data/fig4_supplementary_plot_data.h5",
+  "source_sha256": "b2ca27415a56577aa1193fc12c7a027099bab8e4083628cc4eaab0170bef6969",
   "panel_order": [
     "T",
     "R",

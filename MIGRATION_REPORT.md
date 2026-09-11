@@ -76,3 +76,11 @@
 - Moved the unchanged pooled-W assets into the S1 figure directory and added an asset checksum manifest.
 - Updated repository-local captions, figure references, data inventory, and validation rules.
 - Supplementary Figures S3–S6, the protected May submission, and the unpublished private archive were not modified.
+
+## Supplementary Figure S4 module completion (2026-09-11)
+
+- Extracted S4 input validation, T/R/S/Q/N/P/M renderers, standalone exports, compiled layout, and manifest creation into `Supplementary/Figure_S4/plotting.py`.
+- Reduced the root S4 notebook from 424 to 24 code lines while retaining seven standalone panels and the compiled page inline.
+- Expanded the S4 README with its caption, panel definitions, input contract, execution instructions, analysis boundary, and output inventory.
+- All regenerated S4 PNGs are checksum-identical to the approved files; other supplementary figures were not modified.
+- The protected May submission and unpublished private archive were not modified.
