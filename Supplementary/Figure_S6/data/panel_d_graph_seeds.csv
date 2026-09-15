@@ -1,7 +1,0 @@
-program_id,program_name,node_kind,node_name,enrichment_delta_z,decay_weight,source_panel,graph_role,display_order
-P2,RNA processing / glycosylation precursor metabolism,reaction,PMANM,2.260119560647731,1.0,Figure 5 W program dictionary,mannose-precursor interconversion,0
-P2,RNA processing / glycosylation precursor metabolism,task,GDP-mannose synthesis,2.052666712948336,1.0,Figure 5 W program dictionary,nucleotide-sugar supply,1
-P2,RNA processing / glycosylation precursor metabolism,reaction,MAN1PT2,2.087963354303842,0.8187307530779818,Figure 5 W program dictionary,mannose-precursor interconversion,2
-P2,RNA processing / glycosylation precursor metabolism,gene,DPAGT1,2.895361809879047,0.5488116360940265,Figure 5 W program dictionary,dolichol-linked glycan initiation,3
-P6,FGFR-associated developmental morphogenesis,task,UDP-galactose synthesis,1.7952311901351574,0.8187307530779818,Figure 5 W program dictionary,nucleotide-sugar supply,4
-NG5*,Recurrence-linked glycan reaction,reaction,ACGAM2E,,,Figure 5 P3 graph-node panel,amino-sugar interconversion,5

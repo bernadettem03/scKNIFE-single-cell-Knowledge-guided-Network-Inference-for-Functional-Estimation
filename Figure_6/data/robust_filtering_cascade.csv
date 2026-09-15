@@ -1,5 +1,0 @@
-stage_order,stage,pair_count,definition
-0,Tested in all contrasts,20650,All tested pairs
-1,Tier 1: treatment replicated,4607,Concordant Surgery-vs-Bx effect in discovery and P3
-2,Tier 2: recurrence rebound,599,Tier 1 plus opposite Recurrence-vs-Surgery effect
-3,Tier 3: baseline-like recurrence,70,Tier 2 plus Recurrence-vs-Bx below the predefined effect threshold

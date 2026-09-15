@@ -1,422 +1,59 @@
 {
-  "format_version": 2,
-  "created_utc": "2026-09-10T15:32:32.800060+00:00",
-  "python": "3.9.21",
-  "panels": {
-    "A": {
-      "title": "Treatment four-set metabolic overlap",
-      "kind": "data",
-      "inputs": [
-        {
-          "path": "treatment_four_set_membership.csv"
-        }
-      ],
-      "extractor": "extractor_scripts/extract_figure_6_blank_corrected_data.py",
-      "extraction_mode": "blank_corrected_restage"
-    },
-    "B": {
-      "title": "Treatment-associated pathway enrichment",
-      "kind": "data",
-      "inputs": [
-        {
-          "path": "surgery_pathway_scatter.csv"
-        }
-      ],
-      "extractor": "extractor_scripts/extract_figure_6_blank_corrected_data.py",
-      "extraction_mode": "blank_corrected_restage"
-    },
-    "C": {
-      "title": "GPR-GPA versus scKnife: Surgery versus Biopsy",
-      "kind": "data",
-      "inputs": [
-        {
-          "path": "gpr_gpa_vs_scknife_effects.csv"
-        }
-      ],
-      "extractor": "extractor_scripts/extract_figure_6_blank_corrected_data.py",
-      "extraction_mode": "blank_corrected_restage"
-    },
-    "D": {
-      "title": "T-cell glycoconjugate activity: longitudinal decrease and postoperative convergence",
-      "kind": "data",
-      "inputs": [
-        {
-          "path": "panel_d_graph_seeds.csv"
-        },
-        {
-          "path": "panel_d_meia_joint_enrichment.csv"
-        },
-        {
-          "path": "panel_d_meia_tcell_reversal.csv"
-        },
-        {
-          "path": "panel_d_gpr_context_reversal.csv"
-        },
-        {
-          "path": "panel_d_mechanism_cell_scores.csv.gz"
-        },
-        {
-          "path": "panel_d_mechanism_patient_medians.csv"
-        },
-        {
-          "path": "panel_d_mechanism_patient_tests.csv"
-        }
-      ],
-      "extractor": "extractor_scripts/extract_figure_6_blank_corrected_data.py",
-      "extraction_mode": "blank_corrected_restage"
-    },
-    "E": {
-      "title": "Representative baseline-restoration trajectories",
-      "kind": "data",
-      "inputs": [
-        {
-          "path": "robust_tier3_trajectory_selection.csv"
-        },
-        {
-          "path": "robust_tier3_trajectory_values.csv.gz"
-        }
-      ],
-      "extractor": "extractor_scripts/extract_figure_6_blank_corrected_data.py",
-      "extraction_mode": "blank_corrected_restage"
-    },
-    "F": {
-      "title": "L-threonine across modalities",
-      "kind": "data",
-      "inputs": [
-        {
-          "path": "robust_four_lcms_paired_abundance.csv"
-        },
-        {
-          "path": "robust_lcms_treatment_effects.csv"
-        },
-        {
-          "path": "robust_dhu_cf30117_t_cells.csv.gz"
-        }
-      ],
-      "extractor": "extractor_scripts/extract_figure_6_blank_corrected_data.py",
-      "extraction_mode": "blank_corrected_restage"
-    }
-  },
-  "supplementary_panels": {
-    "SA": {
-      "title": "Metastatic-status four-set metabolic overlap",
-      "kind": "data",
-      "inputs": [
-        {
-          "path": "status_four_set_membership.csv"
-        }
-      ],
-      "extractor": "extractor_scripts/extract_figure_6_blank_corrected_data.py",
-      "extraction_mode": "blank_corrected_restage"
-    },
-    "SB": {
-      "title": "Metastatic-status pathway enrichment",
-      "kind": "data",
-      "inputs": [
-        {
-          "path": "status_pathway_scatter.csv"
-        }
-      ],
-      "extractor": "extractor_scripts/extract_figure_6_blank_corrected_data.py",
-      "extraction_mode": "blank_corrected_restage"
-    },
-    "SC": {
-      "title": "GPR-GPA versus scKnife: metastatic status",
-      "kind": "data",
-      "inputs": [
-        {
-          "path": "gpr_gpa_vs_scknife_effects.csv"
-        }
-      ],
-      "extractor": "extractor_scripts/extract_figure_6_blank_corrected_data.py",
-      "extraction_mode": "blank_corrected_restage"
-    },
-    "SD": {
-      "title": "Whole-atlas scKnife activity",
-      "kind": "data",
-      "inputs": [
-        {
-          "path": "robust_activity_umap.csv.gz"
-        }
-      ],
-      "extractor": "extractor_scripts/extract_figure_6_blank_corrected_data.py",
-      "extraction_mode": "blank_corrected_restage"
-    },
-    "SE": {
-      "title": "Corrected named LC-MS candidates",
-      "kind": "data",
-      "inputs": [
-        {
-          "path": "selected_metabolite_statistics.csv"
-        },
-        {
-          "path": "selected_metabolite_values.csv"
-        }
-      ],
-      "extractor": "extractor_scripts/extract_figure_6_blank_corrected_data.py",
-      "extraction_mode": "blank_corrected_restage"
-    },
-    "SF": {
-      "title": "MEIA versus scKnife: Surgery versus Biopsy",
-      "kind": "data",
-      "inputs": [
-        {
-          "path": "meia_vs_scknife_effects.csv"
-        }
-      ],
-      "extractor": "extractor_scripts/extract_figure_6_blank_corrected_data.py",
-      "extraction_mode": "blank_corrected_restage"
-    },
-    "SG": {
-      "title": "MEIA versus scKnife: metastatic status",
-      "kind": "data",
-      "inputs": [
-        {
-          "path": "meia_vs_scknife_effects.csv"
-        }
-      ],
-      "extractor": "extractor_scripts/extract_figure_6_blank_corrected_data.py",
-      "extraction_mode": "blank_corrected_restage"
-    },
-    "SH": {
-      "title": "MEIA-Pathway versus GPR-GPA: Surgery versus Biopsy",
-      "kind": "data",
-      "inputs": [
-        {
-          "path": "meia_pathway_vs_gpr_gpa_effects.csv"
-        }
-      ],
-      "extractor": "extractor_scripts/extract_figure_6_blank_corrected_data.py",
-      "extraction_mode": "blank_corrected_restage"
-    },
-    "SI": {
-      "title": "MEIA-Pathway versus GPR-GPA: metastatic status",
-      "kind": "data",
-      "inputs": [
-        {
-          "path": "meia_pathway_vs_gpr_gpa_effects.csv"
-        }
-      ],
-      "extractor": "extractor_scripts/extract_figure_6_blank_corrected_data.py",
-      "extraction_mode": "blank_corrected_restage"
-    }
-  },
-  "checks": {
-    "pathways_22_34": true,
-    "pathway_discoveries_3_0": true,
-    "upset_22_18_4": true,
-    "upset_34_31_3": true,
-    "panel_d_graph_guided_reversal_complete": true,
-    "supplement_two_complete_pairs": true,
-    "threonine_exploratory": true,
-    "threonine_three_timepoints": true
-  },
   "files": [
     {
-      "name": "README.md",
-      "bytes": 114,
-      "sha256": "6f3395367362f9a435d63f8d5d8540c24d3b1e8b3ec768d33b815b6661f45559"
+      "path": "gpr_gpa_vs_scknife_entity_correlations.csv",
+      "bytes": 20486,
+      "sha256": "d2655755d3605cc2057db1b4349cef62a34a788ac7f8f57fe0fcb4204f8d0d4b"
     },
     {
-      "name": "analysis_limitations.csv",
-      "bytes": 679,
-      "sha256": "8e010f2d802ab8974c1b7d9b1fac57677b1d92e7e8552a926eee8503993d4c3b"
+      "path": "review_whole_profile_concordance_summary.csv",
+      "bytes": 4143,
+      "sha256": "4047001086d0a560f562d7d0e634d1c18ff8d5426a83697e50c5e63e14f429cb"
     },
     {
-      "name": "analysis_summary.json",
-      "bytes": 1309,
-      "sha256": "16fb52786b43b50005b90df222451dc95148daa617b3a9afcc7fd40ec7ca25fe"
+      "path": "review_whole_profile_patient_summary.csv",
+      "bytes": 2289,
+      "sha256": "502efaf2afd60670d595287b120af09d777a856c4f1eab97b8f582edd7211359"
     },
     {
-      "name": "gpr_gpa_vs_scknife_effects.csv",
-      "bytes": 217264,
-      "sha256": "b11f32cb46bb5ff31804189aa8415c5dadb7d23d80b3db572758cf96edb6c05b"
+      "path": "robust_metabolite_filtering_funnel.csv",
+      "bytes": 371,
+      "sha256": "032e8378c3fbeaae3eef891e290727b4594cba0cb4587946274d5fc95e1cae71"
     },
     {
-      "name": "literature_provenance.csv",
-      "bytes": 1142,
-      "sha256": "e953a2801736d41dde9b9c38df72f8306fc2f4aa1c586a213593cfec7092f341"
-    },
-    {
-      "name": "meia_pathway_vs_gpr_gpa_effects.csv",
-      "bytes": 224831,
-      "sha256": "14699a6175499329b12a611ef2b8404d4b04823e82a9cc655b7816d37f961afc"
-    },
-    {
-      "name": "meia_vs_scknife_effects.csv",
-      "bytes": 616374,
-      "sha256": "1904292b847ef483731cebe5a4dbdc5fcab065f277c0ac7b4f27f1de8c6e3422"
-    },
-    {
-      "name": "metabolite_annotation_qa.csv",
-      "bytes": 1395,
-      "sha256": "fe3acf93ae2eb9505e14fb3836398fee64b7b3156a8df45669cee000ca4105cb"
-    },
-    {
-      "name": "panel_d_gpr_context_reversal.csv",
-      "bytes": 2795,
-      "sha256": "50e8407d750d26d16b465deee3f0d0496e20b9a89dd73ce771826ea1e86a8d67"
-    },
-    {
-      "name": "panel_d_graph_seeds.csv",
-      "bytes": 1064,
-      "sha256": "5157b18161caf30bd35d68698dccfa20d8cef461f0d15dc5aca8a500a475c430"
-    },
-    {
-      "name": "panel_d_mechanism_cell_scores.csv.gz",
-      "bytes": 249473,
-      "sha256": "9542868e38fcf135bb2472160964731cf175d57cf36b69b2303b5330b047e091"
-    },
-    {
-      "name": "panel_d_mechanism_patient_medians.csv",
-      "bytes": 1576,
-      "sha256": "fe01eb3d7ea39c7c7104fe0ab61e98a5ac839da946bc138b4e78ed2ce0e70177"
-    },
-    {
-      "name": "panel_d_mechanism_patient_tests.csv",
-      "bytes": 1404,
-      "sha256": "db33ffff2b409113b0f6cccf75cf3f6a360dfca903d633b64b1c0b7203160d60"
-    },
-    {
-      "name": "panel_d_meia_joint_enrichment.csv",
-      "bytes": 406,
-      "sha256": "7319a10aa29e228b6af30758f4b509bf1373f6f6aba0d5acdc493d4ebbc3d982"
-    },
-    {
-      "name": "panel_d_meia_tcell_reversal.csv",
-      "bytes": 8189,
-      "sha256": "2cb6d3058b0386e8b9376e683646bb45941748a7f984b74aa143d9744a635d66"
-    },
-    {
-      "name": "robust_activity_umap.csv.gz",
-      "bytes": 2237081,
-      "sha256": "5fb32543a4f6f0ba5422d8bb824890e3794351ad7f9a5166483a3bb157b0b172"
-    },
-    {
-      "name": "robust_dhu_cf30117_t_cells.csv.gz",
-      "bytes": 14785,
-      "sha256": "b34012070024610f9c8eeb85ffa81c198def9a4e2a5e9d14e412db967a534324"
-    },
-    {
-      "name": "robust_dhu_paired_abundance.csv",
-      "bytes": 1638,
-      "sha256": "c74d400109d61ffdd26af88b8ce25c4e2fc874960099826048011fae7f6d32ee"
-    },
-    {
-      "name": "robust_dhu_six_patient_all_cells.csv.gz",
-      "bytes": 993372,
-      "sha256": "fb0f0bef75d11728d71c77694d10e25b2f60e1646b3e651b28b46b4ce7c3612a"
-    },
-    {
-      "name": "robust_filtering_cascade.csv",
-      "bytes": 365,
-      "sha256": "acf7b593bef64535ee359d5ecb92e2d8a89684570ad2cbd3f984c228628bd41e"
-    },
-    {
-      "name": "robust_four_lcms_paired_abundance.csv",
-      "bytes": 1412,
-      "sha256": "c17b6341abab1bc653554d19342a209266690ef01f36260613f8991512c17564"
-    },
-    {
-      "name": "robust_four_metabolite_specs.csv",
-      "bytes": 611,
-      "sha256": "0ae57f2d7942ee37fa1bd42e16445f542486c389204b66352895d971538f5bcf"
-    },
-    {
-      "name": "robust_four_metastatic_statistics.csv",
-      "bytes": 2934,
-      "sha256": "c15ef0fbbb1a0a17b58868f6bf77b65d5c859abc9a1bc04f72de1fbc8f87e624"
-    },
-    {
-      "name": "robust_four_scknife_patient_activity.csv",
-      "bytes": 7148,
-      "sha256": "b8bc95fca70e0b2a2e015a9e87eada59f2cf0b6b9241a2acfbe65b09d444308b"
-    },
-    {
-      "name": "robust_lcms_matching_summary.csv",
-      "bytes": 130,
-      "sha256": "d8f73fbe1bb18cda7358820001f2a4623948bf396b51bdd636fab1d1ce4f0e11"
-    },
-    {
-      "name": "robust_lcms_treatment_effects.csv",
-      "bytes": 472,
-      "sha256": "b80755d24c220438842400887172a12e48dc0c633c86cf69c60e9cb869feeabf"
-    },
-    {
-      "name": "robust_tier3_trajectory_selection.csv",
-      "bytes": 628,
-      "sha256": "2f8f1f346b97164ab5336ab06204a9be6e4409b2e7bc80455c3ad081dc664af6"
-    },
-    {
-      "name": "robust_tier3_trajectory_values.csv.gz",
-      "bytes": 97145,
-      "sha256": "5f24943adf0c97c4dba4372ec088dd50bf5e57293c14a86a0c0ae23f1a45d620"
-    },
-    {
-      "name": "selected_metabolite_statistics.csv",
-      "bytes": 1934,
-      "sha256": "785924e15238aa988460b26670dd48a4980bd40e6bcd2da039beb6c325668fc9"
-    },
-    {
-      "name": "selected_metabolite_values.csv",
-      "bytes": 10557,
-      "sha256": "3bb75d2d5581649c5a28d2525cd5e2ff1efe615b35a8ae5cec931398745d3e97"
-    },
-    {
-      "name": "status_four_set_membership.csv",
+      "path": "status_four_set_membership.csv",
       "bytes": 2199,
       "sha256": "2cebd3055b3b8156649ca35f07e6b34a13c677e09a4b8bbec94b005398e9c81f"
     },
     {
-      "name": "status_pathway_enrichment.csv",
+      "path": "status_pathway_enrichment.csv",
       "bytes": 4523,
       "sha256": "47bd41c60931b1e071ebbbc6b9aa3a6b3c0d98f4537c7fb89cb1340742eda98a"
     },
     {
-      "name": "status_pathway_scatter.csv",
-      "bytes": 8194,
-      "sha256": "31977f0c584c24217502c6b82879e7baee1ffd1e7965688cb720a2f328adcde6"
+      "path": "status_pathway_scatter.csv",
+      "bytes": 8636,
+      "sha256": "940225c60d521804f5cbfe90ec31748384d6d0cf5b2ed651cb00ba4ba88b73e9"
     },
     {
-      "name": "status_upset_membership.csv",
-      "bytes": 54762,
-      "sha256": "27847460733728de652d09c17bd0c6865941a1a809448de9018765f1ca61bb2c"
+      "path": "sulfur_cohort_patient_values.csv",
+      "bytes": 48399,
+      "sha256": "27441367483911eab22e9c734982e93ca92f2d1d2a18f785add5087626161f37"
     },
     {
-      "name": "status_upset_summary.csv",
-      "bytes": 337,
-      "sha256": "788dffba0f4d9e38b77fc3df5f308018ab420600f51f965ef3062384396b8778"
+      "path": "sulfur_cohort_treatment_statistics.csv",
+      "bytes": 11010,
+      "sha256": "a2add934868987ee277629460e5f8e5725ab40f09309f7a65ff5b29da2a84fac"
     },
     {
-      "name": "surgery_pathway_enrichment.csv",
-      "bytes": 2746,
-      "sha256": "25a80d83f0471f5345d8d8a6bcbea1c91a7ef9dc3b9532f4ef312cbc1e80b173"
+      "path": "sulfur_p3_all_score_cells.csv.gz",
+      "bytes": 1022574,
+      "sha256": "45b096eee5afbf21063c436309c56a3039b5b2f6e96667dd41445dc77b98af9b"
     },
     {
-      "name": "surgery_pathway_scatter.csv",
-      "bytes": 5077,
-      "sha256": "9a2ac435be8f04b5a34cdb59a9b98dd99d192d4f4de1c6f7f2873e27da3a4917"
-    },
-    {
-      "name": "treatment_four_set_membership.csv",
-      "bytes": 1312,
-      "sha256": "9d43c41386496656fb34dba97de9cd5c6f777bb9c8dc57b4cf7997011b470bde"
-    },
-    {
-      "name": "treatment_upset_membership.csv",
-      "bytes": 8291,
-      "sha256": "46e33d40dc3e025657cee77653a446a957710df75f35830c6bf928b1acdf9b94"
-    },
-    {
-      "name": "treatment_upset_summary.csv",
-      "bytes": 402,
-      "sha256": "0ad7a9aacebc8d1ba39fc86be254c401b58b1e5efe0f12cc15785cf7e3994cb6"
-    },
-    {
-      "name": "correlation_statistics.csv",
-      "bytes": 786,
-      "sha256": "5c6f2300586411a7b4ebdba6d4c7441b97dfa708c846794cafb37039ef745142",
-      "role": "precomputed plotting annotation"
+      "path": "sulfur_p3_task_statistics.csv",
+      "bytes": 22873,
+      "sha256": "713aab13615943b76fc13dbd22e8d8613b9c78209ab01400b44281a6007fc375"
     }
   ]
 }

@@ -1,0 +1,7 @@
+display_order,stage,count,unit
+0,Tested metabolite-cell-type pairs,20650,metabolite-cell-type pairs
+1,Replicated treatment effect,4607,metabolite-cell-type pairs
+2,Recurrence rebound,599,metabolite-cell-type pairs
+3,Baseline-like recurrence,70,metabolite-cell-type pairs
+4,Unique Tier-3 metabolites,68,unique metabolites
+5,Representatives shown in D,3,unique metabolites

@@ -1,3 +1,3 @@
-# Figure 6 blank-corrected staged data
+# Figure 6 plot-ready data
 
-Plug-compatible package for the authoritative Figure 6 plotting notebook.
+Checksummed inputs for the public plotting notebook. Inferential tables are frozen by `../analysis/derive_blank_corrected_statistics.py`; the notebook performs visualization only.

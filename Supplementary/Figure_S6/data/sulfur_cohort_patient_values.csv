@@ -1,0 +1,316 @@
+PatientID,metastatic_status,cell_type_analysis,Bx,Surgery,score_label,method,feature_class,source_column,is_longitudinal_case
+11F2023/10819,Non-metastatic,CAFs,0.0044694934,0.0029670557,MEIA | Sulfur metabolism,MEIA,Shared pathway,HumanGEM::Sulfur_metabolism,False
+11F2023/10819,Non-metastatic,Endothelial,0.0042589456,0.0038067615,MEIA | Sulfur metabolism,MEIA,Shared pathway,HumanGEM::Sulfur_metabolism,False
+11F2023/10819,Non-metastatic,Epithelial,0.00599321,0.0033798323,MEIA | Sulfur metabolism,MEIA,Shared pathway,HumanGEM::Sulfur_metabolism,False
+11F2023/10819,Non-metastatic,Macrophages,0.0041843457,0.0036138482,MEIA | Sulfur metabolism,MEIA,Shared pathway,HumanGEM::Sulfur_metabolism,False
+11F2023/10819,Non-metastatic,T cells,0.004390694,0.003725829,MEIA | Sulfur metabolism,MEIA,Shared pathway,HumanGEM::Sulfur_metabolism,False
+CF/06685,Non-metastatic,CAFs,0.0053844014,0.0057358188,MEIA | Sulfur metabolism,MEIA,Shared pathway,HumanGEM::Sulfur_metabolism,False
+CF/06685,Non-metastatic,Endothelial,0.00430072,0.00441322,MEIA | Sulfur metabolism,MEIA,Shared pathway,HumanGEM::Sulfur_metabolism,False
+CF/06685,Non-metastatic,Epithelial,0.004831556,0.0052691773,MEIA | Sulfur metabolism,MEIA,Shared pathway,HumanGEM::Sulfur_metabolism,False
+CF/06685,Non-metastatic,Macrophages,0.0039289207,0.004468279,MEIA | Sulfur metabolism,MEIA,Shared pathway,HumanGEM::Sulfur_metabolism,False
+CF/06685,Non-metastatic,T cells,0.0046351966,0.0050411727,MEIA | Sulfur metabolism,MEIA,Shared pathway,HumanGEM::Sulfur_metabolism,False
+CF/16980,Metastatic,CAFs,0.005028484,0.004848305,MEIA | Sulfur metabolism,MEIA,Shared pathway,HumanGEM::Sulfur_metabolism,False
+CF/16980,Metastatic,Endothelial,0.004340388,0.004576553,MEIA | Sulfur metabolism,MEIA,Shared pathway,HumanGEM::Sulfur_metabolism,False
+CF/16980,Metastatic,Epithelial,0.0056598405,0.0059083346,MEIA | Sulfur metabolism,MEIA,Shared pathway,HumanGEM::Sulfur_metabolism,False
+CF/16980,Metastatic,Macrophages,0.003997144,0.0037674352,MEIA | Sulfur metabolism,MEIA,Shared pathway,HumanGEM::Sulfur_metabolism,False
+CF/16980,Metastatic,T cells,0.004650209,0.005120701,MEIA | Sulfur metabolism,MEIA,Shared pathway,HumanGEM::Sulfur_metabolism,False
+CF/30117,Metastatic,CAFs,0.0042275996,0.0050138626,MEIA | Sulfur metabolism,MEIA,Shared pathway,HumanGEM::Sulfur_metabolism,True
+CF/30117,Metastatic,Endothelial,0.004137256,0.0044270614,MEIA | Sulfur metabolism,MEIA,Shared pathway,HumanGEM::Sulfur_metabolism,True
+CF/30117,Metastatic,Epithelial,0.004639974,0.0049904473,MEIA | Sulfur metabolism,MEIA,Shared pathway,HumanGEM::Sulfur_metabolism,True
+CF/30117,Metastatic,Macrophages,0.004035391,0.0038118756,MEIA | Sulfur metabolism,MEIA,Shared pathway,HumanGEM::Sulfur_metabolism,True
+CF/30117,Metastatic,T cells,0.0048367316,0.0042122714,MEIA | Sulfur metabolism,MEIA,Shared pathway,HumanGEM::Sulfur_metabolism,True
+CN/12872,Metastatic,CAFs,0.0054957476,0.00538739,MEIA | Sulfur metabolism,MEIA,Shared pathway,HumanGEM::Sulfur_metabolism,False
+CN/12872,Metastatic,Endothelial,0.0044871327,0.004367688,MEIA | Sulfur metabolism,MEIA,Shared pathway,HumanGEM::Sulfur_metabolism,False
+CN/12872,Metastatic,Epithelial,0.005711063,0.004411353,MEIA | Sulfur metabolism,MEIA,Shared pathway,HumanGEM::Sulfur_metabolism,False
+CN/12872,Metastatic,Macrophages,0.0042866645,0.0035287025,MEIA | Sulfur metabolism,MEIA,Shared pathway,HumanGEM::Sulfur_metabolism,False
+CN/12872,Metastatic,T cells,0.005057272,0.0043221894,MEIA | Sulfur metabolism,MEIA,Shared pathway,HumanGEM::Sulfur_metabolism,False
+CV/03060,Non-metastatic,CAFs,0.0053745448,0.0049337405,MEIA | Sulfur metabolism,MEIA,Shared pathway,HumanGEM::Sulfur_metabolism,False
+CV/03060,Non-metastatic,Endothelial,0.0046937214,0.004184229,MEIA | Sulfur metabolism,MEIA,Shared pathway,HumanGEM::Sulfur_metabolism,False
+CV/03060,Non-metastatic,Epithelial,0.0064116046,0.0050780373,MEIA | Sulfur metabolism,MEIA,Shared pathway,HumanGEM::Sulfur_metabolism,False
+CV/03060,Non-metastatic,Macrophages,0.0039902427,0.003709054,MEIA | Sulfur metabolism,MEIA,Shared pathway,HumanGEM::Sulfur_metabolism,False
+CV/03060,Non-metastatic,T cells,0.0039965194,0.0045935065,MEIA | Sulfur metabolism,MEIA,Shared pathway,HumanGEM::Sulfur_metabolism,False
+CV/03602,Metastatic,CAFs,0.0050275954,0.005669814,MEIA | Sulfur metabolism,MEIA,Shared pathway,HumanGEM::Sulfur_metabolism,False
+CV/03602,Metastatic,Endothelial,0.004302514,0.0043265466,MEIA | Sulfur metabolism,MEIA,Shared pathway,HumanGEM::Sulfur_metabolism,False
+CV/03602,Metastatic,Epithelial,0.005581678,0.0048032855,MEIA | Sulfur metabolism,MEIA,Shared pathway,HumanGEM::Sulfur_metabolism,False
+CV/03602,Metastatic,Macrophages,0.003604689,0.003008633,MEIA | Sulfur metabolism,MEIA,Shared pathway,HumanGEM::Sulfur_metabolism,False
+CV/03602,Metastatic,T cells,0.0038033365,0.004324252,MEIA | Sulfur metabolism,MEIA,Shared pathway,HumanGEM::Sulfur_metabolism,False
+11F2023/10819,Non-metastatic,CAFs,0.78035724,0.6456331,GPR-GPA | Sulfur metabolism,GPR-GPA,Shared pathway,Sulfur_metabolism,False
+11F2023/10819,Non-metastatic,Endothelial,0.7411159,0.6937701,GPR-GPA | Sulfur metabolism,GPR-GPA,Shared pathway,Sulfur_metabolism,False
+11F2023/10819,Non-metastatic,Epithelial,1.0416294,0.7185852,GPR-GPA | Sulfur metabolism,GPR-GPA,Shared pathway,Sulfur_metabolism,False
+11F2023/10819,Non-metastatic,Macrophages,0.7384357,0.7277058,GPR-GPA | Sulfur metabolism,GPR-GPA,Shared pathway,Sulfur_metabolism,False
+11F2023/10819,Non-metastatic,T cells,0.7805783,0.74634886,GPR-GPA | Sulfur metabolism,GPR-GPA,Shared pathway,Sulfur_metabolism,False
+CF/06685,Non-metastatic,CAFs,0.8798389,0.89273053,GPR-GPA | Sulfur metabolism,GPR-GPA,Shared pathway,Sulfur_metabolism,False
+CF/06685,Non-metastatic,Endothelial,0.7697998,0.75549835,GPR-GPA | Sulfur metabolism,GPR-GPA,Shared pathway,Sulfur_metabolism,False
+CF/06685,Non-metastatic,Epithelial,0.8810638,0.8554468,GPR-GPA | Sulfur metabolism,GPR-GPA,Shared pathway,Sulfur_metabolism,False
+CF/06685,Non-metastatic,Macrophages,0.73635525,0.7713596,GPR-GPA | Sulfur metabolism,GPR-GPA,Shared pathway,Sulfur_metabolism,False
+CF/06685,Non-metastatic,T cells,0.82457745,0.83182025,GPR-GPA | Sulfur metabolism,GPR-GPA,Shared pathway,Sulfur_metabolism,False
+CF/16980,Metastatic,CAFs,0.82030624,0.80116045,GPR-GPA | Sulfur metabolism,GPR-GPA,Shared pathway,Sulfur_metabolism,False
+CF/16980,Metastatic,Endothelial,0.75922215,0.7740733,GPR-GPA | Sulfur metabolism,GPR-GPA,Shared pathway,Sulfur_metabolism,False
+CF/16980,Metastatic,Epithelial,0.8771867,0.8962636,GPR-GPA | Sulfur metabolism,GPR-GPA,Shared pathway,Sulfur_metabolism,False
+CF/16980,Metastatic,Macrophages,0.73272645,0.70773494,GPR-GPA | Sulfur metabolism,GPR-GPA,Shared pathway,Sulfur_metabolism,False
+CF/16980,Metastatic,T cells,0.8110665,0.8303187,GPR-GPA | Sulfur metabolism,GPR-GPA,Shared pathway,Sulfur_metabolism,False
+CF/30117,Metastatic,CAFs,0.77041185,0.8372298,GPR-GPA | Sulfur metabolism,GPR-GPA,Shared pathway,Sulfur_metabolism,True
+CF/30117,Metastatic,Endothelial,0.73194444,0.76482284,GPR-GPA | Sulfur metabolism,GPR-GPA,Shared pathway,Sulfur_metabolism,True
+CF/30117,Metastatic,Epithelial,0.8485407,0.850377,GPR-GPA | Sulfur metabolism,GPR-GPA,Shared pathway,Sulfur_metabolism,True
+CF/30117,Metastatic,Macrophages,0.7376865,0.71752447,GPR-GPA | Sulfur metabolism,GPR-GPA,Shared pathway,Sulfur_metabolism,True
+CF/30117,Metastatic,T cells,0.81483966,0.77626276,GPR-GPA | Sulfur metabolism,GPR-GPA,Shared pathway,Sulfur_metabolism,True
+CN/12872,Metastatic,CAFs,0.86081696,0.8866934,GPR-GPA | Sulfur metabolism,GPR-GPA,Shared pathway,Sulfur_metabolism,False
+CN/12872,Metastatic,Endothelial,0.79426116,0.753754,GPR-GPA | Sulfur metabolism,GPR-GPA,Shared pathway,Sulfur_metabolism,False
+CN/12872,Metastatic,Epithelial,1.0207729,0.9217777,GPR-GPA | Sulfur metabolism,GPR-GPA,Shared pathway,Sulfur_metabolism,False
+CN/12872,Metastatic,Macrophages,0.76324725,0.6955442,GPR-GPA | Sulfur metabolism,GPR-GPA,Shared pathway,Sulfur_metabolism,False
+CN/12872,Metastatic,T cells,0.84472454,0.8065584,GPR-GPA | Sulfur metabolism,GPR-GPA,Shared pathway,Sulfur_metabolism,False
+CV/03060,Non-metastatic,CAFs,0.8643932,0.83021164,GPR-GPA | Sulfur metabolism,GPR-GPA,Shared pathway,Sulfur_metabolism,False
+CV/03060,Non-metastatic,Endothelial,0.7893361,0.7381975,GPR-GPA | Sulfur metabolism,GPR-GPA,Shared pathway,Sulfur_metabolism,False
+CV/03060,Non-metastatic,Epithelial,1.0924752,0.9115952,GPR-GPA | Sulfur metabolism,GPR-GPA,Shared pathway,Sulfur_metabolism,False
+CV/03060,Non-metastatic,Macrophages,0.7270577,0.6863016,GPR-GPA | Sulfur metabolism,GPR-GPA,Shared pathway,Sulfur_metabolism,False
+CV/03060,Non-metastatic,T cells,0.7818131,0.7914889,GPR-GPA | Sulfur metabolism,GPR-GPA,Shared pathway,Sulfur_metabolism,False
+CV/03602,Metastatic,CAFs,0.825515,0.8721758,GPR-GPA | Sulfur metabolism,GPR-GPA,Shared pathway,Sulfur_metabolism,False
+CV/03602,Metastatic,Endothelial,0.7496097,0.7427594,GPR-GPA | Sulfur metabolism,GPR-GPA,Shared pathway,Sulfur_metabolism,False
+CV/03602,Metastatic,Epithelial,0.88257533,0.84401226,GPR-GPA | Sulfur metabolism,GPR-GPA,Shared pathway,Sulfur_metabolism,False
+CV/03602,Metastatic,Macrophages,0.6843693,0.6152911,GPR-GPA | Sulfur metabolism,GPR-GPA,Shared pathway,Sulfur_metabolism,False
+CV/03602,Metastatic,T cells,0.73810023,0.76539063,GPR-GPA | Sulfur metabolism,GPR-GPA,Shared pathway,Sulfur_metabolism,False
+11F2023/10819,Non-metastatic,CAFs,0.0067073866,0.005982294,MEIA | Cysteine/methionine metabolism,MEIA,Shared pathway,HumanGEM::Cysteine_and_methionine_metabolism,False
+11F2023/10819,Non-metastatic,Endothelial,0.006604853,0.006928064,MEIA | Cysteine/methionine metabolism,MEIA,Shared pathway,HumanGEM::Cysteine_and_methionine_metabolism,False
+11F2023/10819,Non-metastatic,Epithelial,0.0072914204,0.0052006543,MEIA | Cysteine/methionine metabolism,MEIA,Shared pathway,HumanGEM::Cysteine_and_methionine_metabolism,False
+11F2023/10819,Non-metastatic,Macrophages,0.007366964,0.0070412275,MEIA | Cysteine/methionine metabolism,MEIA,Shared pathway,HumanGEM::Cysteine_and_methionine_metabolism,False
+11F2023/10819,Non-metastatic,T cells,0.006530641,0.006133971,MEIA | Cysteine/methionine metabolism,MEIA,Shared pathway,HumanGEM::Cysteine_and_methionine_metabolism,False
+CF/06685,Non-metastatic,CAFs,0.0074510695,0.0070846435,MEIA | Cysteine/methionine metabolism,MEIA,Shared pathway,HumanGEM::Cysteine_and_methionine_metabolism,False
+CF/06685,Non-metastatic,Endothelial,0.0068542706,0.0067386506,MEIA | Cysteine/methionine metabolism,MEIA,Shared pathway,HumanGEM::Cysteine_and_methionine_metabolism,False
+CF/06685,Non-metastatic,Epithelial,0.007858977,0.0075127245,MEIA | Cysteine/methionine metabolism,MEIA,Shared pathway,HumanGEM::Cysteine_and_methionine_metabolism,False
+CF/06685,Non-metastatic,Macrophages,0.007074118,0.0074284226,MEIA | Cysteine/methionine metabolism,MEIA,Shared pathway,HumanGEM::Cysteine_and_methionine_metabolism,False
+CF/06685,Non-metastatic,T cells,0.007325223,0.0072956514,MEIA | Cysteine/methionine metabolism,MEIA,Shared pathway,HumanGEM::Cysteine_and_methionine_metabolism,False
+CF/16980,Metastatic,CAFs,0.007126514,0.006957109,MEIA | Cysteine/methionine metabolism,MEIA,Shared pathway,HumanGEM::Cysteine_and_methionine_metabolism,False
+CF/16980,Metastatic,Endothelial,0.0067544263,0.006586666,MEIA | Cysteine/methionine metabolism,MEIA,Shared pathway,HumanGEM::Cysteine_and_methionine_metabolism,False
+CF/16980,Metastatic,Epithelial,0.007656203,0.0074400585,MEIA | Cysteine/methionine metabolism,MEIA,Shared pathway,HumanGEM::Cysteine_and_methionine_metabolism,False
+CF/16980,Metastatic,Macrophages,0.00693904,0.006548432,MEIA | Cysteine/methionine metabolism,MEIA,Shared pathway,HumanGEM::Cysteine_and_methionine_metabolism,False
+CF/16980,Metastatic,T cells,0.007082196,0.007340471,MEIA | Cysteine/methionine metabolism,MEIA,Shared pathway,HumanGEM::Cysteine_and_methionine_metabolism,False
+CF/30117,Metastatic,CAFs,0.006594138,0.0071843574,MEIA | Cysteine/methionine metabolism,MEIA,Shared pathway,HumanGEM::Cysteine_and_methionine_metabolism,True
+CF/30117,Metastatic,Endothelial,0.006534921,0.0070670163,MEIA | Cysteine/methionine metabolism,MEIA,Shared pathway,HumanGEM::Cysteine_and_methionine_metabolism,True
+CF/30117,Metastatic,Epithelial,0.0061689666,0.007545318,MEIA | Cysteine/methionine metabolism,MEIA,Shared pathway,HumanGEM::Cysteine_and_methionine_metabolism,True
+CF/30117,Metastatic,Macrophages,0.007227038,0.0069897296,MEIA | Cysteine/methionine metabolism,MEIA,Shared pathway,HumanGEM::Cysteine_and_methionine_metabolism,True
+CF/30117,Metastatic,T cells,0.007579507,0.0066671707,MEIA | Cysteine/methionine metabolism,MEIA,Shared pathway,HumanGEM::Cysteine_and_methionine_metabolism,True
+CN/12872,Metastatic,CAFs,0.00673028,0.0081842095,MEIA | Cysteine/methionine metabolism,MEIA,Shared pathway,HumanGEM::Cysteine_and_methionine_metabolism,False
+CN/12872,Metastatic,Endothelial,0.006227798,0.007596028,MEIA | Cysteine/methionine metabolism,MEIA,Shared pathway,HumanGEM::Cysteine_and_methionine_metabolism,False
+CN/12872,Metastatic,Epithelial,0.006343821,0.0067379987,MEIA | Cysteine/methionine metabolism,MEIA,Shared pathway,HumanGEM::Cysteine_and_methionine_metabolism,False
+CN/12872,Metastatic,Macrophages,0.006626358,0.0066812253,MEIA | Cysteine/methionine metabolism,MEIA,Shared pathway,HumanGEM::Cysteine_and_methionine_metabolism,False
+CN/12872,Metastatic,T cells,0.0068668174,0.0070070373,MEIA | Cysteine/methionine metabolism,MEIA,Shared pathway,HumanGEM::Cysteine_and_methionine_metabolism,False
+CV/03060,Non-metastatic,CAFs,0.0074279816,0.0068055084,MEIA | Cysteine/methionine metabolism,MEIA,Shared pathway,HumanGEM::Cysteine_and_methionine_metabolism,False
+CV/03060,Non-metastatic,Endothelial,0.0073045874,0.006549437,MEIA | Cysteine/methionine metabolism,MEIA,Shared pathway,HumanGEM::Cysteine_and_methionine_metabolism,False
+CV/03060,Non-metastatic,Epithelial,0.007738949,0.007334687,MEIA | Cysteine/methionine metabolism,MEIA,Shared pathway,HumanGEM::Cysteine_and_methionine_metabolism,False
+CV/03060,Non-metastatic,Macrophages,0.0070229946,0.006558262,MEIA | Cysteine/methionine metabolism,MEIA,Shared pathway,HumanGEM::Cysteine_and_methionine_metabolism,False
+CV/03060,Non-metastatic,T cells,0.006594713,0.0074364524,MEIA | Cysteine/methionine metabolism,MEIA,Shared pathway,HumanGEM::Cysteine_and_methionine_metabolism,False
+CV/03602,Metastatic,CAFs,0.008037051,0.008348276,MEIA | Cysteine/methionine metabolism,MEIA,Shared pathway,HumanGEM::Cysteine_and_methionine_metabolism,False
+CV/03602,Metastatic,Endothelial,0.00735176,0.0077058095,MEIA | Cysteine/methionine metabolism,MEIA,Shared pathway,HumanGEM::Cysteine_and_methionine_metabolism,False
+CV/03602,Metastatic,Epithelial,0.009445716,0.009528949,MEIA | Cysteine/methionine metabolism,MEIA,Shared pathway,HumanGEM::Cysteine_and_methionine_metabolism,False
+CV/03602,Metastatic,Macrophages,0.007119265,0.0064950916,MEIA | Cysteine/methionine metabolism,MEIA,Shared pathway,HumanGEM::Cysteine_and_methionine_metabolism,False
+CV/03602,Metastatic,T cells,0.0068814633,0.0072775846,MEIA | Cysteine/methionine metabolism,MEIA,Shared pathway,HumanGEM::Cysteine_and_methionine_metabolism,False
+11F2023/10819,Non-metastatic,CAFs,0.9396829,0.8888786,GPR-GPA | Cysteine/methionine metabolism,GPR-GPA,Shared pathway,Cysteine_and_methionine_metabolism,False
+11F2023/10819,Non-metastatic,Endothelial,0.92484087,0.925925,GPR-GPA | Cysteine/methionine metabolism,GPR-GPA,Shared pathway,Cysteine_and_methionine_metabolism,False
+11F2023/10819,Non-metastatic,Epithelial,1.0001698,0.8678955,GPR-GPA | Cysteine/methionine metabolism,GPR-GPA,Shared pathway,Cysteine_and_methionine_metabolism,False
+11F2023/10819,Non-metastatic,Macrophages,0.9236785,0.9154327,GPR-GPA | Cysteine/methionine metabolism,GPR-GPA,Shared pathway,Cysteine_and_methionine_metabolism,False
+11F2023/10819,Non-metastatic,T cells,0.9161378,0.90532196,GPR-GPA | Cysteine/methionine metabolism,GPR-GPA,Shared pathway,Cysteine_and_methionine_metabolism,False
+CF/06685,Non-metastatic,CAFs,1.032866,0.97944367,GPR-GPA | Cysteine/methionine metabolism,GPR-GPA,Shared pathway,Cysteine_and_methionine_metabolism,False
+CF/06685,Non-metastatic,Endothelial,0.98142284,0.9426625,GPR-GPA | Cysteine/methionine metabolism,GPR-GPA,Shared pathway,Cysteine_and_methionine_metabolism,False
+CF/06685,Non-metastatic,Epithelial,1.1353612,1.0354011,GPR-GPA | Cysteine/methionine metabolism,GPR-GPA,Shared pathway,Cysteine_and_methionine_metabolism,False
+CF/06685,Non-metastatic,Macrophages,0.931545,0.9329062,GPR-GPA | Cysteine/methionine metabolism,GPR-GPA,Shared pathway,Cysteine_and_methionine_metabolism,False
+CF/06685,Non-metastatic,T cells,0.97246045,0.9633951,GPR-GPA | Cysteine/methionine metabolism,GPR-GPA,Shared pathway,Cysteine_and_methionine_metabolism,False
+CF/16980,Metastatic,CAFs,0.9742047,0.9693824,GPR-GPA | Cysteine/methionine metabolism,GPR-GPA,Shared pathway,Cysteine_and_methionine_metabolism,False
+CF/16980,Metastatic,Endothelial,0.9493336,0.9458064,GPR-GPA | Cysteine/methionine metabolism,GPR-GPA,Shared pathway,Cysteine_and_methionine_metabolism,False
+CF/16980,Metastatic,Epithelial,1.0477393,1.0230473,GPR-GPA | Cysteine/methionine metabolism,GPR-GPA,Shared pathway,Cysteine_and_methionine_metabolism,False
+CF/16980,Metastatic,Macrophages,0.91644615,0.8831642,GPR-GPA | Cysteine/methionine metabolism,GPR-GPA,Shared pathway,Cysteine_and_methionine_metabolism,False
+CF/16980,Metastatic,T cells,0.9500408,0.9657018,GPR-GPA | Cysteine/methionine metabolism,GPR-GPA,Shared pathway,Cysteine_and_methionine_metabolism,False
+CF/30117,Metastatic,CAFs,0.9489837,0.9900545,GPR-GPA | Cysteine/methionine metabolism,GPR-GPA,Shared pathway,Cysteine_and_methionine_metabolism,True
+CF/30117,Metastatic,Endothelial,0.929126,0.97848195,GPR-GPA | Cysteine/methionine metabolism,GPR-GPA,Shared pathway,Cysteine_and_methionine_metabolism,True
+CF/30117,Metastatic,Epithelial,0.97183955,1.0502323,GPR-GPA | Cysteine/methionine metabolism,GPR-GPA,Shared pathway,Cysteine_and_methionine_metabolism,True
+CF/30117,Metastatic,Macrophages,0.9336369,0.9154161,GPR-GPA | Cysteine/methionine metabolism,GPR-GPA,Shared pathway,Cysteine_and_methionine_metabolism,True
+CF/30117,Metastatic,T cells,0.9730844,0.9359101,GPR-GPA | Cysteine/methionine metabolism,GPR-GPA,Shared pathway,Cysteine_and_methionine_metabolism,True
+CN/12872,Metastatic,CAFs,0.9820249,1.0489655,GPR-GPA | Cysteine/methionine metabolism,GPR-GPA,Shared pathway,Cysteine_and_methionine_metabolism,False
+CN/12872,Metastatic,Endothelial,0.94156826,0.9981724,GPR-GPA | Cysteine/methionine metabolism,GPR-GPA,Shared pathway,Cysteine_and_methionine_metabolism,False
+CN/12872,Metastatic,Epithelial,0.98630285,1.0623289,GPR-GPA | Cysteine/methionine metabolism,GPR-GPA,Shared pathway,Cysteine_and_methionine_metabolism,False
+CN/12872,Metastatic,Macrophages,0.9237008,0.9078341,GPR-GPA | Cysteine/methionine metabolism,GPR-GPA,Shared pathway,Cysteine_and_methionine_metabolism,False
+CN/12872,Metastatic,T cells,0.9736012,1.0125374,GPR-GPA | Cysteine/methionine metabolism,GPR-GPA,Shared pathway,Cysteine_and_methionine_metabolism,False
+CV/03060,Non-metastatic,CAFs,1.0021348,0.9476155,GPR-GPA | Cysteine/methionine metabolism,GPR-GPA,Shared pathway,Cysteine_and_methionine_metabolism,False
+CV/03060,Non-metastatic,Endothelial,0.9795325,0.9283971,GPR-GPA | Cysteine/methionine metabolism,GPR-GPA,Shared pathway,Cysteine_and_methionine_metabolism,False
+CV/03060,Non-metastatic,Epithelial,1.0752621,1.0619279,GPR-GPA | Cysteine/methionine metabolism,GPR-GPA,Shared pathway,Cysteine_and_methionine_metabolism,False
+CV/03060,Non-metastatic,Macrophages,0.9205726,0.8763083,GPR-GPA | Cysteine/methionine metabolism,GPR-GPA,Shared pathway,Cysteine_and_methionine_metabolism,False
+CV/03060,Non-metastatic,T cells,0.92948574,0.9422442,GPR-GPA | Cysteine/methionine metabolism,GPR-GPA,Shared pathway,Cysteine_and_methionine_metabolism,False
+CV/03602,Metastatic,CAFs,1.038601,1.034904,GPR-GPA | Cysteine/methionine metabolism,GPR-GPA,Shared pathway,Cysteine_and_methionine_metabolism,False
+CV/03602,Metastatic,Endothelial,0.99906546,1.0078425,GPR-GPA | Cysteine/methionine metabolism,GPR-GPA,Shared pathway,Cysteine_and_methionine_metabolism,False
+CV/03602,Metastatic,Epithelial,1.1895121,1.3171103,GPR-GPA | Cysteine/methionine metabolism,GPR-GPA,Shared pathway,Cysteine_and_methionine_metabolism,False
+CV/03602,Metastatic,Macrophages,0.92399377,0.8928306,GPR-GPA | Cysteine/methionine metabolism,GPR-GPA,Shared pathway,Cysteine_and_methionine_metabolism,False
+CV/03602,Metastatic,T cells,0.95361155,0.94865733,GPR-GPA | Cysteine/methionine metabolism,GPR-GPA,Shared pathway,Cysteine_and_methionine_metabolism,False
+11F2023/10819,Non-metastatic,CAFs,0.001985301,0.0028733672,MEIA task | Homocysteine degradation,MEIA,Mechanistic task,scCellFie::Homocysteine degradation,False
+11F2023/10819,Non-metastatic,Endothelial,0.0014219823,0.0021719087,MEIA task | Homocysteine degradation,MEIA,Mechanistic task,scCellFie::Homocysteine degradation,False
+11F2023/10819,Non-metastatic,Epithelial,0.0038483117,0.0036342894,MEIA task | Homocysteine degradation,MEIA,Mechanistic task,scCellFie::Homocysteine degradation,False
+11F2023/10819,Non-metastatic,Macrophages,0.0013888091,0.0012630301,MEIA task | Homocysteine degradation,MEIA,Mechanistic task,scCellFie::Homocysteine degradation,False
+11F2023/10819,Non-metastatic,T cells,0.0017499223,0.0027161378,MEIA task | Homocysteine degradation,MEIA,Mechanistic task,scCellFie::Homocysteine degradation,False
+CF/06685,Non-metastatic,CAFs,0.0037756034,0.0018663281,MEIA task | Homocysteine degradation,MEIA,Mechanistic task,scCellFie::Homocysteine degradation,False
+CF/06685,Non-metastatic,Endothelial,0.0032647997,0.0017310348,MEIA task | Homocysteine degradation,MEIA,Mechanistic task,scCellFie::Homocysteine degradation,False
+CF/06685,Non-metastatic,Epithelial,0.013101272,0.007607201,MEIA task | Homocysteine degradation,MEIA,Mechanistic task,scCellFie::Homocysteine degradation,False
+CF/06685,Non-metastatic,Macrophages,0.0016179514,0.0013955651,MEIA task | Homocysteine degradation,MEIA,Mechanistic task,scCellFie::Homocysteine degradation,False
+CF/06685,Non-metastatic,T cells,0.0027253488,0.001999924,MEIA task | Homocysteine degradation,MEIA,Mechanistic task,scCellFie::Homocysteine degradation,False
+CF/16980,Metastatic,CAFs,0.001976751,0.0018316824,MEIA task | Homocysteine degradation,MEIA,Mechanistic task,scCellFie::Homocysteine degradation,False
+CF/16980,Metastatic,Endothelial,0.001583423,0.0013897121,MEIA task | Homocysteine degradation,MEIA,Mechanistic task,scCellFie::Homocysteine degradation,False
+CF/16980,Metastatic,Epithelial,0.00645345,0.0062905326,MEIA task | Homocysteine degradation,MEIA,Mechanistic task,scCellFie::Homocysteine degradation,False
+CF/16980,Metastatic,Macrophages,0.0012344602,0.0008413989,MEIA task | Homocysteine degradation,MEIA,Mechanistic task,scCellFie::Homocysteine degradation,False
+CF/16980,Metastatic,T cells,0.0017648721,0.002154176,MEIA task | Homocysteine degradation,MEIA,Mechanistic task,scCellFie::Homocysteine degradation,False
+CF/30117,Metastatic,CAFs,0.0026716364,0.0016776589,MEIA task | Homocysteine degradation,MEIA,Mechanistic task,scCellFie::Homocysteine degradation,True
+CF/30117,Metastatic,Endothelial,0.0016228514,0.0013589644,MEIA task | Homocysteine degradation,MEIA,Mechanistic task,scCellFie::Homocysteine degradation,True
+CF/30117,Metastatic,Epithelial,0.0034498838,0.002082497,MEIA task | Homocysteine degradation,MEIA,Mechanistic task,scCellFie::Homocysteine degradation,True
+CF/30117,Metastatic,Macrophages,0.0014779018,0.0011733444,MEIA task | Homocysteine degradation,MEIA,Mechanistic task,scCellFie::Homocysteine degradation,True
+CF/30117,Metastatic,T cells,0.001721186,0.001464446,MEIA task | Homocysteine degradation,MEIA,Mechanistic task,scCellFie::Homocysteine degradation,True
+CN/12872,Metastatic,CAFs,0.0013271257,0.0016192001,MEIA task | Homocysteine degradation,MEIA,Mechanistic task,scCellFie::Homocysteine degradation,False
+CN/12872,Metastatic,Endothelial,0.000967072,0.0012348524,MEIA task | Homocysteine degradation,MEIA,Mechanistic task,scCellFie::Homocysteine degradation,False
+CN/12872,Metastatic,Epithelial,0.001825176,0.0015092691,MEIA task | Homocysteine degradation,MEIA,Mechanistic task,scCellFie::Homocysteine degradation,False
+CN/12872,Metastatic,Macrophages,0.0010140206,0.0008609514,MEIA task | Homocysteine degradation,MEIA,Mechanistic task,scCellFie::Homocysteine degradation,False
+CN/12872,Metastatic,T cells,0.0016970233,0.0011355373,MEIA task | Homocysteine degradation,MEIA,Mechanistic task,scCellFie::Homocysteine degradation,False
+CV/03060,Non-metastatic,CAFs,0.0020307098,0.0016794461,MEIA task | Homocysteine degradation,MEIA,Mechanistic task,scCellFie::Homocysteine degradation,False
+CV/03060,Non-metastatic,Endothelial,0.0012502531,0.0010898046,MEIA task | Homocysteine degradation,MEIA,Mechanistic task,scCellFie::Homocysteine degradation,False
+CV/03060,Non-metastatic,Epithelial,0.00246775,0.0016328439,MEIA task | Homocysteine degradation,MEIA,Mechanistic task,scCellFie::Homocysteine degradation,False
+CV/03060,Non-metastatic,Macrophages,0.0012773061,0.000873539,MEIA task | Homocysteine degradation,MEIA,Mechanistic task,scCellFie::Homocysteine degradation,False
+CV/03060,Non-metastatic,T cells,0.0012695041,0.0017628295,MEIA task | Homocysteine degradation,MEIA,Mechanistic task,scCellFie::Homocysteine degradation,False
+CV/03602,Metastatic,CAFs,0.0039019014,0.0031116402,MEIA task | Homocysteine degradation,MEIA,Mechanistic task,scCellFie::Homocysteine degradation,False
+CV/03602,Metastatic,Endothelial,0.0025999786,0.003856055,MEIA task | Homocysteine degradation,MEIA,Mechanistic task,scCellFie::Homocysteine degradation,False
+CV/03602,Metastatic,Epithelial,0.025101941,0.025819426,MEIA task | Homocysteine degradation,MEIA,Mechanistic task,scCellFie::Homocysteine degradation,False
+CV/03602,Metastatic,Macrophages,0.001671539,0.0008160188,MEIA task | Homocysteine degradation,MEIA,Mechanistic task,scCellFie::Homocysteine degradation,False
+CV/03602,Metastatic,T cells,0.0023480742,0.0018154804,MEIA task | Homocysteine degradation,MEIA,Mechanistic task,scCellFie::Homocysteine degradation,False
+11F2023/10819,Non-metastatic,CAFs,0.0019874526,0.0020655838,MEIA task | Glutathione synthesis,MEIA,Mechanistic task,scCellFie::Glutathionate synthesis,False
+11F2023/10819,Non-metastatic,Endothelial,0.0014230803,0.0018840242,MEIA task | Glutathione synthesis,MEIA,Mechanistic task,scCellFie::Glutathionate synthesis,False
+11F2023/10819,Non-metastatic,Epithelial,0.002417401,0.0023040592,MEIA task | Glutathione synthesis,MEIA,Mechanistic task,scCellFie::Glutathionate synthesis,False
+11F2023/10819,Non-metastatic,Macrophages,0.0022570023,0.0018525802,MEIA task | Glutathione synthesis,MEIA,Mechanistic task,scCellFie::Glutathionate synthesis,False
+11F2023/10819,Non-metastatic,T cells,0.0017333322,0.001978881,MEIA task | Glutathione synthesis,MEIA,Mechanistic task,scCellFie::Glutathionate synthesis,False
+CF/06685,Non-metastatic,CAFs,0.0023274785,0.0019333251,MEIA task | Glutathione synthesis,MEIA,Mechanistic task,scCellFie::Glutathionate synthesis,False
+CF/06685,Non-metastatic,Endothelial,0.0019480119,0.001271945,MEIA task | Glutathione synthesis,MEIA,Mechanistic task,scCellFie::Glutathionate synthesis,False
+CF/06685,Non-metastatic,Epithelial,0.0030342578,0.0058519603,MEIA task | Glutathione synthesis,MEIA,Mechanistic task,scCellFie::Glutathionate synthesis,False
+CF/06685,Non-metastatic,Macrophages,0.0022839957,0.0021888877,MEIA task | Glutathione synthesis,MEIA,Mechanistic task,scCellFie::Glutathionate synthesis,False
+CF/06685,Non-metastatic,T cells,0.0023163573,0.001695986,MEIA task | Glutathione synthesis,MEIA,Mechanistic task,scCellFie::Glutathionate synthesis,False
+CF/16980,Metastatic,CAFs,0.0025781807,0.0017370326,MEIA task | Glutathione synthesis,MEIA,Mechanistic task,scCellFie::Glutathionate synthesis,False
+CF/16980,Metastatic,Endothelial,0.0022923814,0.0016309309,MEIA task | Glutathione synthesis,MEIA,Mechanistic task,scCellFie::Glutathionate synthesis,False
+CF/16980,Metastatic,Epithelial,0.0030971593,0.0034644308,MEIA task | Glutathione synthesis,MEIA,Mechanistic task,scCellFie::Glutathionate synthesis,False
+CF/16980,Metastatic,Macrophages,0.002395611,0.0017312645,MEIA task | Glutathione synthesis,MEIA,Mechanistic task,scCellFie::Glutathionate synthesis,False
+CF/16980,Metastatic,T cells,0.002350866,0.0019118671,MEIA task | Glutathione synthesis,MEIA,Mechanistic task,scCellFie::Glutathionate synthesis,False
+CF/30117,Metastatic,CAFs,0.0021865382,0.0019724895,MEIA task | Glutathione synthesis,MEIA,Mechanistic task,scCellFie::Glutathionate synthesis,True
+CF/30117,Metastatic,Endothelial,0.0012232139,0.0015193839,MEIA task | Glutathione synthesis,MEIA,Mechanistic task,scCellFie::Glutathionate synthesis,True
+CF/30117,Metastatic,Epithelial,0.0019205074,0.0011750938,MEIA task | Glutathione synthesis,MEIA,Mechanistic task,scCellFie::Glutathionate synthesis,True
+CF/30117,Metastatic,Macrophages,0.0022807568,0.0020031172,MEIA task | Glutathione synthesis,MEIA,Mechanistic task,scCellFie::Glutathionate synthesis,True
+CF/30117,Metastatic,T cells,0.0017661817,0.0016269002,MEIA task | Glutathione synthesis,MEIA,Mechanistic task,scCellFie::Glutathionate synthesis,True
+CN/12872,Metastatic,CAFs,0.001226933,0.0023602908,MEIA task | Glutathione synthesis,MEIA,Mechanistic task,scCellFie::Glutathionate synthesis,False
+CN/12872,Metastatic,Endothelial,0.000796512,0.001643528,MEIA task | Glutathione synthesis,MEIA,Mechanistic task,scCellFie::Glutathionate synthesis,False
+CN/12872,Metastatic,Epithelial,0.0017646317,0.001081219,MEIA task | Glutathione synthesis,MEIA,Mechanistic task,scCellFie::Glutathionate synthesis,False
+CN/12872,Metastatic,Macrophages,0.0016393091,0.0016568268,MEIA task | Glutathione synthesis,MEIA,Mechanistic task,scCellFie::Glutathionate synthesis,False
+CN/12872,Metastatic,T cells,0.0013642923,0.0017083916,MEIA task | Glutathione synthesis,MEIA,Mechanistic task,scCellFie::Glutathionate synthesis,False
+CV/03060,Non-metastatic,CAFs,0.0018834255,0.002036071,MEIA task | Glutathione synthesis,MEIA,Mechanistic task,scCellFie::Glutathionate synthesis,False
+CV/03060,Non-metastatic,Endothelial,0.0015463341,0.0016338858,MEIA task | Glutathione synthesis,MEIA,Mechanistic task,scCellFie::Glutathionate synthesis,False
+CV/03060,Non-metastatic,Epithelial,0.0012124048,0.001031537,MEIA task | Glutathione synthesis,MEIA,Mechanistic task,scCellFie::Glutathionate synthesis,False
+CV/03060,Non-metastatic,Macrophages,0.0017461639,0.0015736417,MEIA task | Glutathione synthesis,MEIA,Mechanistic task,scCellFie::Glutathionate synthesis,False
+CV/03060,Non-metastatic,T cells,0.0012013989,0.0020543765,MEIA task | Glutathione synthesis,MEIA,Mechanistic task,scCellFie::Glutathionate synthesis,False
+CV/03602,Metastatic,CAFs,0.0029015772,0.0037189336,MEIA task | Glutathione synthesis,MEIA,Mechanistic task,scCellFie::Glutathionate synthesis,False
+CV/03602,Metastatic,Endothelial,0.0025008104,0.0033263834,MEIA task | Glutathione synthesis,MEIA,Mechanistic task,scCellFie::Glutathionate synthesis,False
+CV/03602,Metastatic,Epithelial,0.0027055095,0.003418371,MEIA task | Glutathione synthesis,MEIA,Mechanistic task,scCellFie::Glutathionate synthesis,False
+CV/03602,Metastatic,Macrophages,0.0019120481,0.0011813499,MEIA task | Glutathione synthesis,MEIA,Mechanistic task,scCellFie::Glutathionate synthesis,False
+CV/03602,Metastatic,T cells,0.00181219,0.0024118936,MEIA task | Glutathione synthesis,MEIA,Mechanistic task,scCellFie::Glutathionate synthesis,False
+11F2023/10819,Non-metastatic,CAFs,0.00342594,0.0032038616,MEIA task | Cysteine degradation,MEIA,Mechanistic task,scCellFie::Cysteine degradation,False
+11F2023/10819,Non-metastatic,Endothelial,0.0036814653,0.003021767,MEIA task | Cysteine degradation,MEIA,Mechanistic task,scCellFie::Cysteine degradation,False
+11F2023/10819,Non-metastatic,Epithelial,0.003118092,0.0027679563,MEIA task | Cysteine degradation,MEIA,Mechanistic task,scCellFie::Cysteine degradation,False
+11F2023/10819,Non-metastatic,Macrophages,0.0030073933,0.0028155628,MEIA task | Cysteine degradation,MEIA,Mechanistic task,scCellFie::Cysteine degradation,False
+11F2023/10819,Non-metastatic,T cells,0.0035628485,0.0038112556,MEIA task | Cysteine degradation,MEIA,Mechanistic task,scCellFie::Cysteine degradation,False
+CF/06685,Non-metastatic,CAFs,0.003170947,0.003306544,MEIA task | Cysteine degradation,MEIA,Mechanistic task,scCellFie::Cysteine degradation,False
+CF/06685,Non-metastatic,Endothelial,0.0036028272,0.0037970068,MEIA task | Cysteine degradation,MEIA,Mechanistic task,scCellFie::Cysteine degradation,False
+CF/06685,Non-metastatic,Epithelial,0.0031123152,0.003690901,MEIA task | Cysteine degradation,MEIA,Mechanistic task,scCellFie::Cysteine degradation,False
+CF/06685,Non-metastatic,Macrophages,0.0030325179,0.0035657736,MEIA task | Cysteine degradation,MEIA,Mechanistic task,scCellFie::Cysteine degradation,False
+CF/06685,Non-metastatic,T cells,0.003870499,0.004019093,MEIA task | Cysteine degradation,MEIA,Mechanistic task,scCellFie::Cysteine degradation,False
+CF/16980,Metastatic,CAFs,0.0031243896,0.002966718,MEIA task | Cysteine degradation,MEIA,Mechanistic task,scCellFie::Cysteine degradation,False
+CF/16980,Metastatic,Endothelial,0.0036854222,0.0037492937,MEIA task | Cysteine degradation,MEIA,Mechanistic task,scCellFie::Cysteine degradation,False
+CF/16980,Metastatic,Epithelial,0.0031529975,0.0034474279,MEIA task | Cysteine degradation,MEIA,Mechanistic task,scCellFie::Cysteine degradation,False
+CF/16980,Metastatic,Macrophages,0.0030244754,0.0027637545,MEIA task | Cysteine degradation,MEIA,Mechanistic task,scCellFie::Cysteine degradation,False
+CF/16980,Metastatic,T cells,0.003807035,0.003953802,MEIA task | Cysteine degradation,MEIA,Mechanistic task,scCellFie::Cysteine degradation,False
+CF/30117,Metastatic,CAFs,0.0034447461,0.002940598,MEIA task | Cysteine degradation,MEIA,Mechanistic task,scCellFie::Cysteine degradation,True
+CF/30117,Metastatic,Endothelial,0.004051094,0.003565674,MEIA task | Cysteine degradation,MEIA,Mechanistic task,scCellFie::Cysteine degradation,True
+CF/30117,Metastatic,Epithelial,0.0034007418,0.0044242754,MEIA task | Cysteine degradation,MEIA,Mechanistic task,scCellFie::Cysteine degradation,True
+CF/30117,Metastatic,Macrophages,0.003397218,0.0026901667,MEIA task | Cysteine degradation,MEIA,Mechanistic task,scCellFie::Cysteine degradation,True
+CF/30117,Metastatic,T cells,0.0041179033,0.0030900454,MEIA task | Cysteine degradation,MEIA,Mechanistic task,scCellFie::Cysteine degradation,True
+CN/12872,Metastatic,CAFs,0.003920517,0.0026946606,MEIA task | Cysteine degradation,MEIA,Mechanistic task,scCellFie::Cysteine degradation,False
+CN/12872,Metastatic,Endothelial,0.0041645095,0.0033121235,MEIA task | Cysteine degradation,MEIA,Mechanistic task,scCellFie::Cysteine degradation,False
+CN/12872,Metastatic,Epithelial,0.0044722427,0.001784809,MEIA task | Cysteine degradation,MEIA,Mechanistic task,scCellFie::Cysteine degradation,False
+CN/12872,Metastatic,Macrophages,0.0038119508,0.002277661,MEIA task | Cysteine degradation,MEIA,Mechanistic task,scCellFie::Cysteine degradation,False
+CN/12872,Metastatic,T cells,0.0042897784,0.002212419,MEIA task | Cysteine degradation,MEIA,Mechanistic task,scCellFie::Cysteine degradation,False
+CV/03060,Non-metastatic,CAFs,0.0033600405,0.003050319,MEIA task | Cysteine degradation,MEIA,Mechanistic task,scCellFie::Cysteine degradation,False
+CV/03060,Non-metastatic,Endothelial,0.0038641137,0.0036164224,MEIA task | Cysteine degradation,MEIA,Mechanistic task,scCellFie::Cysteine degradation,False
+CV/03060,Non-metastatic,Epithelial,0.0052993875,0.005231015,MEIA task | Cysteine degradation,MEIA,Mechanistic task,scCellFie::Cysteine degradation,False
+CV/03060,Non-metastatic,Macrophages,0.0026752003,0.0023385736,MEIA task | Cysteine degradation,MEIA,Mechanistic task,scCellFie::Cysteine degradation,False
+CV/03060,Non-metastatic,T cells,0.003140528,0.0038445487,MEIA task | Cysteine degradation,MEIA,Mechanistic task,scCellFie::Cysteine degradation,False
+CV/03602,Metastatic,CAFs,0.002587542,0.002368536,MEIA task | Cysteine degradation,MEIA,Mechanistic task,scCellFie::Cysteine degradation,False
+CV/03602,Metastatic,Endothelial,0.003263204,0.0031008353,MEIA task | Cysteine degradation,MEIA,Mechanistic task,scCellFie::Cysteine degradation,False
+CV/03602,Metastatic,Epithelial,0.0025152508,0.0020554517,MEIA task | Cysteine degradation,MEIA,Mechanistic task,scCellFie::Cysteine degradation,False
+CV/03602,Metastatic,Macrophages,0.0018388423,0.0010479407,MEIA task | Cysteine degradation,MEIA,Mechanistic task,scCellFie::Cysteine degradation,False
+CV/03602,Metastatic,T cells,0.0018207775,0.0029781584,MEIA task | Cysteine degradation,MEIA,Mechanistic task,scCellFie::Cysteine degradation,False
+11F2023/10819,Non-metastatic,CAFs,0.004253785,0.004471556,MEIA task | Methionine degradation,MEIA,Mechanistic task,scCellFie::Methionine degradation,False
+11F2023/10819,Non-metastatic,Endothelial,0.004291316,0.0040199775,MEIA task | Methionine degradation,MEIA,Mechanistic task,scCellFie::Methionine degradation,False
+11F2023/10819,Non-metastatic,Epithelial,0.004211849,0.0037500188,MEIA task | Methionine degradation,MEIA,Mechanistic task,scCellFie::Methionine degradation,False
+11F2023/10819,Non-metastatic,Macrophages,0.0035848164,0.00316741,MEIA task | Methionine degradation,MEIA,Mechanistic task,scCellFie::Methionine degradation,False
+11F2023/10819,Non-metastatic,T cells,0.0039017778,0.0043858876,MEIA task | Methionine degradation,MEIA,Mechanistic task,scCellFie::Methionine degradation,False
+CF/06685,Non-metastatic,CAFs,0.0039030234,0.003820883,MEIA task | Methionine degradation,MEIA,Mechanistic task,scCellFie::Methionine degradation,False
+CF/06685,Non-metastatic,Endothelial,0.0042495513,0.0040859934,MEIA task | Methionine degradation,MEIA,Mechanistic task,scCellFie::Methionine degradation,False
+CF/06685,Non-metastatic,Epithelial,0.0046264585,0.0045895986,MEIA task | Methionine degradation,MEIA,Mechanistic task,scCellFie::Methionine degradation,False
+CF/06685,Non-metastatic,Macrophages,0.00338693,0.0037663556,MEIA task | Methionine degradation,MEIA,Mechanistic task,scCellFie::Methionine degradation,False
+CF/06685,Non-metastatic,T cells,0.0041344706,0.004091869,MEIA task | Methionine degradation,MEIA,Mechanistic task,scCellFie::Methionine degradation,False
+CF/16980,Metastatic,CAFs,0.0038588378,0.0036963397,MEIA task | Methionine degradation,MEIA,Mechanistic task,scCellFie::Methionine degradation,False
+CF/16980,Metastatic,Endothelial,0.0041783033,0.0040926053,MEIA task | Methionine degradation,MEIA,Mechanistic task,scCellFie::Methionine degradation,False
+CF/16980,Metastatic,Epithelial,0.0042103524,0.0044767917,MEIA task | Methionine degradation,MEIA,Mechanistic task,scCellFie::Methionine degradation,False
+CF/16980,Metastatic,Macrophages,0.0033962198,0.0029330542,MEIA task | Methionine degradation,MEIA,Mechanistic task,scCellFie::Methionine degradation,False
+CF/16980,Metastatic,T cells,0.0040079164,0.0040350016,MEIA task | Methionine degradation,MEIA,Mechanistic task,scCellFie::Methionine degradation,False
+CF/30117,Metastatic,CAFs,0.004273257,0.0037193787,MEIA task | Methionine degradation,MEIA,Mechanistic task,scCellFie::Methionine degradation,True
+CF/30117,Metastatic,Endothelial,0.004268586,0.00411394,MEIA task | Methionine degradation,MEIA,Mechanistic task,scCellFie::Methionine degradation,True
+CF/30117,Metastatic,Epithelial,0.0041304324,0.0053243465,MEIA task | Methionine degradation,MEIA,Mechanistic task,scCellFie::Methionine degradation,True
+CF/30117,Metastatic,Macrophages,0.0037322917,0.003152044,MEIA task | Methionine degradation,MEIA,Mechanistic task,scCellFie::Methionine degradation,True
+CF/30117,Metastatic,T cells,0.0041693766,0.0034724826,MEIA task | Methionine degradation,MEIA,Mechanistic task,scCellFie::Methionine degradation,True
+CN/12872,Metastatic,CAFs,0.0037572726,0.0033799757,MEIA task | Methionine degradation,MEIA,Mechanistic task,scCellFie::Methionine degradation,False
+CN/12872,Metastatic,Endothelial,0.003742958,0.0038294133,MEIA task | Methionine degradation,MEIA,Mechanistic task,scCellFie::Methionine degradation,False
+CN/12872,Metastatic,Epithelial,0.0045136632,0.002239555,MEIA task | Methionine degradation,MEIA,Mechanistic task,scCellFie::Methionine degradation,False
+CN/12872,Metastatic,Macrophages,0.003494393,0.0025443274,MEIA task | Methionine degradation,MEIA,Mechanistic task,scCellFie::Methionine degradation,False
+CN/12872,Metastatic,T cells,0.003929252,0.0029695875,MEIA task | Methionine degradation,MEIA,Mechanistic task,scCellFie::Methionine degradation,False
+CV/03060,Non-metastatic,CAFs,0.0041575963,0.003878337,MEIA task | Methionine degradation,MEIA,Mechanistic task,scCellFie::Methionine degradation,False
+CV/03060,Non-metastatic,Endothelial,0.0044125835,0.004302564,MEIA task | Methionine degradation,MEIA,Mechanistic task,scCellFie::Methionine degradation,False
+CV/03060,Non-metastatic,Epithelial,0.0052025253,0.005205567,MEIA task | Methionine degradation,MEIA,Mechanistic task,scCellFie::Methionine degradation,False
+CV/03060,Non-metastatic,Macrophages,0.0031272972,0.0028343839,MEIA task | Methionine degradation,MEIA,Mechanistic task,scCellFie::Methionine degradation,False
+CV/03060,Non-metastatic,T cells,0.0033892784,0.004189441,MEIA task | Methionine degradation,MEIA,Mechanistic task,scCellFie::Methionine degradation,False
+CV/03602,Metastatic,CAFs,0.003468363,0.00329899,MEIA task | Methionine degradation,MEIA,Mechanistic task,scCellFie::Methionine degradation,False
+CV/03602,Metastatic,Endothelial,0.0039301384,0.0036827663,MEIA task | Methionine degradation,MEIA,Mechanistic task,scCellFie::Methionine degradation,False
+CV/03602,Metastatic,Epithelial,0.0039529935,0.0035758542,MEIA task | Methionine degradation,MEIA,Mechanistic task,scCellFie::Methionine degradation,False
+CV/03602,Metastatic,Macrophages,0.0022623788,0.0014286654,MEIA task | Methionine degradation,MEIA,Mechanistic task,scCellFie::Methionine degradation,False
+CV/03602,Metastatic,T cells,0.0020879172,0.0033326098,MEIA task | Methionine degradation,MEIA,Mechanistic task,scCellFie::Methionine degradation,False
+11F2023/10819,Non-metastatic,CAFs,0.0016600254,0.0010183867,MEIA task | Taurine synthesis from cysteine,MEIA,Mechanistic task,scCellFie::Synthesis of taurine from cysteine,False
+11F2023/10819,Non-metastatic,Endothelial,0.001157741,0.0006863223,MEIA task | Taurine synthesis from cysteine,MEIA,Mechanistic task,scCellFie::Synthesis of taurine from cysteine,False
+11F2023/10819,Non-metastatic,Epithelial,0.0012129565,0.0010661635,MEIA task | Taurine synthesis from cysteine,MEIA,Mechanistic task,scCellFie::Synthesis of taurine from cysteine,False
+11F2023/10819,Non-metastatic,Macrophages,0.0015437804,0.001033324,MEIA task | Taurine synthesis from cysteine,MEIA,Mechanistic task,scCellFie::Synthesis of taurine from cysteine,False
+11F2023/10819,Non-metastatic,T cells,0.0024455576,0.0022479836,MEIA task | Taurine synthesis from cysteine,MEIA,Mechanistic task,scCellFie::Synthesis of taurine from cysteine,False
+CF/06685,Non-metastatic,CAFs,0.0018503416,0.0020112377,MEIA task | Taurine synthesis from cysteine,MEIA,Mechanistic task,scCellFie::Synthesis of taurine from cysteine,False
+CF/06685,Non-metastatic,Endothelial,0.0011623823,0.0011315393,MEIA task | Taurine synthesis from cysteine,MEIA,Mechanistic task,scCellFie::Synthesis of taurine from cysteine,False
+CF/06685,Non-metastatic,Epithelial,0.0015889027,0.002147374,MEIA task | Taurine synthesis from cysteine,MEIA,Mechanistic task,scCellFie::Synthesis of taurine from cysteine,False
+CF/06685,Non-metastatic,Macrophages,0.0011424369,0.0015599522,MEIA task | Taurine synthesis from cysteine,MEIA,Mechanistic task,scCellFie::Synthesis of taurine from cysteine,False
+CF/06685,Non-metastatic,T cells,0.002503063,0.0028396125,MEIA task | Taurine synthesis from cysteine,MEIA,Mechanistic task,scCellFie::Synthesis of taurine from cysteine,False
+CF/16980,Metastatic,CAFs,0.0017554609,0.0015720773,MEIA task | Taurine synthesis from cysteine,MEIA,Mechanistic task,scCellFie::Synthesis of taurine from cysteine,False
+CF/16980,Metastatic,Endothelial,0.0011732081,0.0011369354,MEIA task | Taurine synthesis from cysteine,MEIA,Mechanistic task,scCellFie::Synthesis of taurine from cysteine,False
+CF/16980,Metastatic,Epithelial,0.0014390909,0.001629796,MEIA task | Taurine synthesis from cysteine,MEIA,Mechanistic task,scCellFie::Synthesis of taurine from cysteine,False
+CF/16980,Metastatic,Macrophages,0.0013582264,0.0007757455,MEIA task | Taurine synthesis from cysteine,MEIA,Mechanistic task,scCellFie::Synthesis of taurine from cysteine,False
+CF/16980,Metastatic,T cells,0.0023889013,0.0027544317,MEIA task | Taurine synthesis from cysteine,MEIA,Mechanistic task,scCellFie::Synthesis of taurine from cysteine,False
+CF/30117,Metastatic,CAFs,0.0016271803,0.0015206102,MEIA task | Taurine synthesis from cysteine,MEIA,Mechanistic task,scCellFie::Synthesis of taurine from cysteine,True
+CF/30117,Metastatic,Endothelial,0.0012368821,0.00084654946,MEIA task | Taurine synthesis from cysteine,MEIA,Mechanistic task,scCellFie::Synthesis of taurine from cysteine,True
+CF/30117,Metastatic,Epithelial,0.0013436519,0.0009647028,MEIA task | Taurine synthesis from cysteine,MEIA,Mechanistic task,scCellFie::Synthesis of taurine from cysteine,True
+CF/30117,Metastatic,Macrophages,0.0016412322,0.0010565007,MEIA task | Taurine synthesis from cysteine,MEIA,Mechanistic task,scCellFie::Synthesis of taurine from cysteine,True
+CF/30117,Metastatic,T cells,0.0029922235,0.0015820793,MEIA task | Taurine synthesis from cysteine,MEIA,Mechanistic task,scCellFie::Synthesis of taurine from cysteine,True
+CN/12872,Metastatic,CAFs,0.0019968555,0.0014547328,MEIA task | Taurine synthesis from cysteine,MEIA,Mechanistic task,scCellFie::Synthesis of taurine from cysteine,False
+CN/12872,Metastatic,Endothelial,0.001262201,0.00066507404,MEIA task | Taurine synthesis from cysteine,MEIA,Mechanistic task,scCellFie::Synthesis of taurine from cysteine,False
+CN/12872,Metastatic,Epithelial,0.0020613337,0.00041688388,MEIA task | Taurine synthesis from cysteine,MEIA,Mechanistic task,scCellFie::Synthesis of taurine from cysteine,False
+CN/12872,Metastatic,Macrophages,0.0012497032,0.0005811267,MEIA task | Taurine synthesis from cysteine,MEIA,Mechanistic task,scCellFie::Synthesis of taurine from cysteine,False
+CN/12872,Metastatic,T cells,0.002623016,0.0009355005,MEIA task | Taurine synthesis from cysteine,MEIA,Mechanistic task,scCellFie::Synthesis of taurine from cysteine,False
+CV/03060,Non-metastatic,CAFs,0.0017882171,0.0014951148,MEIA task | Taurine synthesis from cysteine,MEIA,Mechanistic task,scCellFie::Synthesis of taurine from cysteine,False
+CV/03060,Non-metastatic,Endothelial,0.001126144,0.00074216165,MEIA task | Taurine synthesis from cysteine,MEIA,Mechanistic task,scCellFie::Synthesis of taurine from cysteine,False
+CV/03060,Non-metastatic,Epithelial,0.0021409555,0.0011399715,MEIA task | Taurine synthesis from cysteine,MEIA,Mechanistic task,scCellFie::Synthesis of taurine from cysteine,False
+CV/03060,Non-metastatic,Macrophages,0.0011895952,0.00093451503,MEIA task | Taurine synthesis from cysteine,MEIA,Mechanistic task,scCellFie::Synthesis of taurine from cysteine,False
+CV/03060,Non-metastatic,T cells,0.0010045186,0.002244468,MEIA task | Taurine synthesis from cysteine,MEIA,Mechanistic task,scCellFie::Synthesis of taurine from cysteine,False
+CV/03602,Metastatic,CAFs,0.0015613772,0.0017831117,MEIA task | Taurine synthesis from cysteine,MEIA,Mechanistic task,scCellFie::Synthesis of taurine from cysteine,False
+CV/03602,Metastatic,Endothelial,0.0009518278,0.00092891953,MEIA task | Taurine synthesis from cysteine,MEIA,Mechanistic task,scCellFie::Synthesis of taurine from cysteine,False
+CV/03602,Metastatic,Epithelial,0.0017032025,0.0015868301,MEIA task | Taurine synthesis from cysteine,MEIA,Mechanistic task,scCellFie::Synthesis of taurine from cysteine,False
+CV/03602,Metastatic,Macrophages,0.00080015353,0.00042108016,MEIA task | Taurine synthesis from cysteine,MEIA,Mechanistic task,scCellFie::Synthesis of taurine from cysteine,False
+CV/03602,Metastatic,T cells,0.0006523832,0.0019233522,MEIA task | Taurine synthesis from cysteine,MEIA,Mechanistic task,scCellFie::Synthesis of taurine from cysteine,False

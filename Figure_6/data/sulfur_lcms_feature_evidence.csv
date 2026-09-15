@@ -1,0 +1,2 @@
+feature,polarity,mz,rt,kegg_candidate,candidate_name,matched_form,has_putative_native_match,log2_fold_change,nominal_p_value,joint_BH_FDR,specimens_observed_before_imputation,specimens_imputed,median_technical_replicate_CV_percent
+neg_215.0260_384.64,negative,215.026001058523,384.635461668472,C05692,Se-adenosyl-L-selenohomocysteine,M-2H[2-],False,-1.85790154362575,0.0028224254103839,0.0636122567783053,14,0,46.5907067206455

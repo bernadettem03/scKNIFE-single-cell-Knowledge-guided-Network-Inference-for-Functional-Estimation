@@ -1,19 +1,7 @@
-# Figure 6 — Blank-corrected metabolomics and inferred activity
+# Figure 6 — Blank-corrected metabolic evidence story
 
-The blank-corrected workflow is canonical. Main and supplementary notebooks render precomputed enrichment, cross-modal, trajectory, and metabolite tables.
+Figure_6.ipynb is the authoritative plotting-only entrypoint for main panels A–H. It regenerates every standalone panel and the compiled 297 × 380 mm figure from repository-relative, checksummed inputs.
 
-## Contents
+Story order: A–C establish cross-platform overlap, blank-corrected LC–MS pathway enrichment, and MEIA/direct-scKNIFE concordance; D shows strict Tier-3 longitudinal inferred-metabolite trajectories; E summarizes the metabolic pathway context of 68 robust inferred metabolites; F localizes paired macrophage homocysteine-degradation and glutathione-synthesis task changes; G supplies directionally concordant, accurate-mass-only LC–MS support; H shows the NG8 knowledge-backbone subgraph as biochemical context.
 
-- `Figure_6.ipynb`: public figure entrypoint.
-- `plotting.py`: reusable rendering functions (created during notebook extraction).
-- `analysis/`: reproducible analytical derivations and provenance.
-- `data/`: frozen plot-ready inputs.
-- `outputs/`: approved PDF and PNG preview.
-
-All paths must remain repository-relative. Large editable outputs remain in the private unpublished archive.
-
-## Standalone panel outputs
-
-The plotting notebook writes each authoritative main panel as a 300-DPI PNG and
-a vector PDF under `outputs/panels/`. `Figure_6_panel_export_manifest.json`
-records the expected panel order, file sizes, and SHA-256 checksums.
+Inferential calculations are isolated under analysis/. plotting.py only validates frozen tables and renders figures. PDF and SVG retain editable vector text; PNG files are review previews.

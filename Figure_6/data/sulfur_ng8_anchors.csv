@@ -1,0 +1,9 @@
+program,program_id,program_name,factor_count,singleton,singleton_factor,cluster_rank,node_kind,node_name,enrichment_delta_z,decay_weight,selection_reason,decay_tau,decay_cumulative_mass,maximum_per_cluster_kind,program_node_budget,sulfur_redox_anchor
+7,P8,Mitochondrial redox / transsulfuration stress response,5,False,,1,gene,NDUFA13,2.927135838150361,1.0,strongest_cluster_decay_prefix,5.0,0.95,20,20,True
+7,P8,Mitochondrial redox / transsulfuration stress response,5,False,,2,metabolite,selenocystathionine,2.375025268683162,1.0,strongest_cluster_decay_prefix,5.0,0.95,20,20,True
+7,P8,Mitochondrial redox / transsulfuration stress response,5,False,,4,reaction,CYSTS,2.3496863993250146,1.0,strongest_cluster_decay_prefix,5.0,0.95,20,20,True
+7,P8,Mitochondrial redox / transsulfuration stress response,5,False,,11,reaction,L_Serine_hydro_lyase_adding_homocysteine,2.305508916132226,0.8187307530779818,strongest_cluster_decay_prefix,5.0,0.95,20,20,True
+7,P8,Mitochondrial redox / transsulfuration stress response,5,False,,13,metabolite,H2S,2.2292011305730552,0.8187307530779818,strongest_cluster_decay_prefix,5.0,0.95,20,20,True
+7,P8,Mitochondrial redox / transsulfuration stress response,5,False,,19,reaction,L_serine_hydro_lyase_adding_homocysteine,2.2291454548505567,0.6703200460356392,strongest_cluster_decay_prefix,5.0,0.95,20,20,True
+7,P8,Mitochondrial redox / transsulfuration stress response,5,False,,6,task,Homocysteine degradation,2.203059143889405,1.0,strongest_cluster_decay_prefix,5.0,0.95,20,20,True
+7,P8,Mitochondrial redox / transsulfuration stress response,5,False,,20,metabolite,selenohomocysteine,2.169168758969444,0.6703200460356392,strongest_cluster_decay_prefix,5.0,0.95,20,20,True

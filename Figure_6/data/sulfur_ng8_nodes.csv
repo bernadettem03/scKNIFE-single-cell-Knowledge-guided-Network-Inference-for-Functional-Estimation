@@ -1,0 +1,36 @@
+node,name,kind,display_type,is_ng8,is_connector,is_anchor,is_selenocystathionine
+Acetyl_CoA_carnitine_O_acetyltransferase,Acetyl-CoA:carnitine O-acetyltransferase,reaction,Reaction,False,True,False,False
+CASP8,CASP8,gene,Gene,True,False,False,False
+CBS,CBS,gene,Gene,False,True,False,False
+CD72,CD72,cellchat_entity,CellChat entity,True,False,False,False
+CRAT,CRAT,gene,Gene,False,True,False,False
+CYSTS,CYSTS,reaction,Reaction,True,False,True,False
+Carnitine_shuttle_cytosolic,Carnitine shuttle (cytosolic),pathway,Task / pathway,True,False,False,False
+DNA protection (GO:0042262),DNA protection (GO:0042262),GO_term,GO term / gene set,True,False,False,False
+EPPK1,EPPK1,gene,Gene,True,False,False,False
+GLRX2,GLRX2,gene,Gene,False,True,False,False
+H,H+,metabolite,Metabolite,False,True,False,False
+H2O,H2O,metabolite,Metabolite,False,True,False,False
+H2S,H2S,metabolite,Metabolite,True,False,True,False
+HALLMARK_ESTROGEN_RESPONSE_EARLY,HALLMARK_ESTROGEN_RESPONSE_EARLY,geneset,GO term / gene set,True,False,False,False
+HALLMARK_MYOGENESIS,HALLMARK_MYOGENESIS,geneset,GO term / gene set,True,False,False,False
+HSPB8,HSPB8,gene,Gene,False,True,False,False
+Homocysteine degradation,Homocysteine degradation,task,Task / pathway,True,False,True,False
+L_Serine_hydro_lyase_adding_homocysteine,L-Serine hydro-lyase (adding homocysteine),reaction,Reaction,True,False,True,False
+L_serine_hydro_lyase_adding_homocysteine,L-serine hydro-lyase (adding homocysteine,reaction,Reaction,True,False,True,False
+NDUFA13,NDUFA13,gene,Gene,True,False,True,False
+PDXK,PDXK,gene,Gene,False,True,False,False
+PLXNB2,PLXNB2,cellchat_entity,CellChat entity,False,True,False,False
+PYDXK,PYDXK,reaction,Reaction,False,True,False,False
+Pyridoxal-phosphate synthesis,Pyridoxal-phosphate synthesis,task,Task / pathway,True,False,False,False
+SEMA4D,SEMA4D,cellchat_entity,CellChat entity,True,False,False,False
+Vitamin_B6_metabolism,Vitamin B6 metabolism,pathway,Task / pathway,True,False,False,False
+apoptotic process (GO:0006915),apoptotic process (GO:0006915),GO_term,GO term / gene set,False,True,False,False
+homoserine metabolic process (GO:0009092),homoserine metabolic process (GO:0009092),GO_term,GO term / gene set,True,False,False,False
+intermediate filament bundle assembly (GO:0045110),intermediate filament bundle assembly (GO:0045110),GO_term,GO term / gene set,True,False,False,False
+negative regulation of intracellular signal transduction (GO:1902532),negative regulation of intracellular signal transduction (GO:1902532),GO_term,GO term / gene set,False,True,False,False
+positive regulation of intracellular signal transduction (GO:1902533),positive regulation of intracellular signal transduction (GO:1902533),GO_term,GO term / gene set,False,True,False,False
+pyridoxal_5_phosphate_phosphohydrolase,pyridoxal-5'-phosphate phosphohydrolase,reaction,Reaction,False,True,False,False
+regulation of cell migration (GO:0030334),regulation of cell migration (GO:0030334),GO_term,GO term / gene set,False,True,False,False
+selenocystathionine,selenocystathionine,metabolite,Metabolite,True,False,True,True
+selenohomocysteine,selenohomocysteine,metabolite,Metabolite,True,False,True,False

@@ -1,0 +1,43 @@
+source,target
+Acetyl_CoA_carnitine_O_acetyltransferase,CRAT
+Acetyl_CoA_carnitine_O_acetyltransferase,Carnitine_shuttle_cytosolic
+CASP8,apoptotic process (GO:0006915)
+CASP8,negative regulation of intracellular signal transduction (GO:1902532)
+CASP8,positive regulation of intracellular signal transduction (GO:1902533)
+CBS,CYSTS
+CBS,DNA protection (GO:0042262)
+CBS,H
+CBS,H2O
+CBS,H2S
+CBS,L_Serine_hydro_lyase_adding_homocysteine
+CBS,L_serine_hydro_lyase_adding_homocysteine
+CBS,homoserine metabolic process (GO:0009092)
+CBS,selenocystathionine
+CBS,selenohomocysteine
+CD72,SEMA4D
+CRAT,H
+CRAT,HALLMARK_MYOGENESIS
+CYSTS,Homocysteine degradation
+DNA protection (GO:0042262),GLRX2
+EPPK1,intermediate filament bundle assembly (GO:0045110)
+EPPK1,regulation of cell migration (GO:0030334)
+GLRX2,H
+GLRX2,apoptotic process (GO:0006915)
+H,NDUFA13
+H,PDXK
+H2O,L_Serine_hydro_lyase_adding_homocysteine
+H2O,L_serine_hydro_lyase_adding_homocysteine
+H2O,pyridoxal_5_phosphate_phosphohydrolase
+HALLMARK_ESTROGEN_RESPONSE_EARLY,HSPB8
+HALLMARK_MYOGENESIS,HSPB8
+HALLMARK_MYOGENESIS,PLXNB2
+L_Serine_hydro_lyase_adding_homocysteine,selenocystathionine
+L_Serine_hydro_lyase_adding_homocysteine,selenohomocysteine
+NDUFA13,negative regulation of intracellular signal transduction (GO:1902532)
+PDXK,PYDXK
+PLXNB2,SEMA4D
+PLXNB2,regulation of cell migration (GO:0030334)
+PYDXK,Pyridoxal-phosphate synthesis
+SEMA4D,positive regulation of intracellular signal transduction (GO:1902533)
+SEMA4D,regulation of cell migration (GO:0030334)
+Vitamin_B6_metabolism,pyridoxal_5_phosphate_phosphohydrolase

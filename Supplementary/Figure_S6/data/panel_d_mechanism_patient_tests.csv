@@ -1,7 +1,0 @@
-method,comparison,site,group_a,group_b,n_group_a,n_group_b,test,statistic,p_value,patient_effect,patient_effect_definition,directional_patients,cellwise_cohens_d
-MEIA,surgery_vs_biopsy,paired,Surgery,Bx,7,7,exact two-sided Wilcoxon signed-rank,5.0,0.15625,-0.5030438489477105,median paired patient-median change (Surgery - Bx),5.0,-0.9035235192967244
-MEIA,metastatic_vs_nonmetastatic,Bx,Metastatic,Non-metastatic,4,3,exact two-sided Mann-Whitney U,9.0,0.4,0.9363233773236548,difference of patient-median medians (Metastatic - Non-metastatic),,1.0099662196290733
-MEIA,metastatic_vs_nonmetastatic,Surgery,Metastatic,Non-metastatic,4,3,exact two-sided Mann-Whitney U,6.0,1.0,-0.1246801289988174,difference of patient-median medians (Metastatic - Non-metastatic),,0.0493132313104326
-GPR_GPA,surgery_vs_biopsy,paired,Surgery,Bx,7,7,exact two-sided Wilcoxon signed-rank,5.0,0.15625,-0.9859467784454092,median paired patient-median change (Surgery - Bx),5.0,-1.2160852479953987
-GPR_GPA,metastatic_vs_nonmetastatic,Bx,Metastatic,Non-metastatic,4,3,exact two-sided Mann-Whitney U,9.0,0.4,0.8877911738624868,difference of patient-median medians (Metastatic - Non-metastatic),,1.417051547290626
-GPR_GPA,metastatic_vs_nonmetastatic,Surgery,Metastatic,Non-metastatic,4,3,exact two-sided Mann-Whitney U,6.0,1.0,-0.2533011786354131,difference of patient-median medians (Metastatic - Non-metastatic),,0.0032747230085646

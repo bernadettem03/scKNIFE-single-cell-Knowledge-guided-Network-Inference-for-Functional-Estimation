@@ -7,7 +7,7 @@ import nbformat
 ROOT=Path(__file__).resolve().parent
 EXPECTED=[*[ROOT/f"Figure_{n}"/f"Figure_{n}.ipynb" for n in range(2,8)],*[ROOT/"Supplementary"/f"Figure_S{n}"/f"Figure_S{n}.ipynb" for n in range(1,7)]]
 FORBIDDEN_CALLS={"pearsonr","spearmanr","mannwhitneyu","multipletests","permutation_test","consensus_sweep","fit","fit_transform"}
-MAIN_PANEL_SETS={2:list("ABCDEFGH"),3:list("ABCDEFGHIJ"),4:list("BCDEF"),5:list("ACEGH"),6:list("ABCDEF"),7:list("ABCDEFGHIJ")}
+MAIN_PANEL_SETS={2:list("ABCDEFGH"),3:list("ABCDEFGHIJ"),4:list("BCDEF"),5:list("ACEGH"),6:list("ABCDEFGH"),7:list("ABCDEFGHIJ")}
 REQUIRED_AUDITS=(2,3,4,5,7)
 def sha(path):
  h=hashlib.sha256()
