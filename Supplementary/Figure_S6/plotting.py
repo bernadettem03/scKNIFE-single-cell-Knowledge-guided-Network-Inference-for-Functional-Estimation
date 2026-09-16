@@ -135,30 +135,6 @@ def _draw_treatment_pathway_scatter(container, data: Path, label: str = "B") -> 
     _panel_title(container,label,"Treatment-associated pathway enrichment",f"{len(table)} candidates shared with A; top five labeled.\n{discoveries} pass pathway BH-FDR < 0.05.")
     container.subplots_adjust(left=.13,right=.84,top=.78,bottom=.17)
 
-def _draw_robust_trajectories(container,data:Path,label:str="D")->None:
-    sel=data["robust_tier3_trajectory_selection.csv"].copy().sort_values("display_order")
-    vals=data["robust_tier3_trajectory_values.csv.gz"].copy()
-    expected=["heparan_sulfate_degradation_product_18","VI3NeuAc_nLc6Cer","2_phosphoglycolate"]
-    if sel["metabolite"].tolist()!=expected or not sel["tier"].eq(3).all():raise RuntimeError("Panel D mechanism-aligned Tier-3 selection changed")
-    if set(vals["PatientID"])!={"CF/30117"} or set(vals["Timepoint"])!={"Bx","Surgery","Recurrence"}:raise RuntimeError("Panel D requires P3 Bx-Surgery-Recurrence cells")
-    axes=np.atleast_1d(container.subplots(1,3)).ravel()
-    order=["Bx","Surgery","Recurrence"];palette={"Bx":"#377EB8","Surgery":"#E41A1C","Recurrence":"#984EA3"}
-    def fmt_q(value):
-        return f"{value:.3f}" if value>=.001 else f"{value:.1e}"
-    for idx,(ax,c) in enumerate(zip(axes,sel.itertuples(index=False))):
-        frame=vals.loc[vals["metabolite"].eq(c.metabolite)]
-        sns.violinplot(data=frame,x="Timepoint",y="activity",order=order,hue="Timepoint",hue_order=order,palette=palette,legend=False,inner=None,cut=0,linewidth=.6,ax=ax)
-        sns.boxplot(data=frame,x="Timepoint",y="activity",order=order,width=.16,showfliers=False,boxprops={"facecolor":"white","alpha":.82},medianprops={"color":"black"},ax=ax)
-        counts=frame.groupby("Timepoint").size().reindex(order)
-        ax.set_xticks(range(3),[f"{tp}\nn={int(counts[tp]):,}" for tp in order])
-        ax.set_title(f"{c.display_name}\n{c.celltype} • global rank {int(c.global_rank)}",loc="left",fontsize=7,fontweight="bold",pad=2)
-        ax.text(.98,.98,f"S–Bx δ={c.p4_tx_rank_biserial_effect:+.3f}, q={fmt_q(c.p4_tx_global_contrast_BH_FDR)}\nR–S δ={c.p4_rebound_rank_biserial_effect:+.3f}, q={fmt_q(c.p4_rebound_global_contrast_BH_FDR)}",transform=ax.transAxes,ha="right",va="top",fontsize=5.2,color=COLORS["dark"],bbox={"facecolor":"white","edgecolor":"none","alpha":.78,"pad":1.2})
-        ax.set_xlabel("");ax.set_ylabel("Inferred scKNIFE\nmetabolite-node activity" if idx==0 else "");ax.tick_params(axis="x",labelsize=6)
-        _clean_axis(ax)
-    _panel_title(container,label,"Mechanism-aligned longitudinal restoration","P3: Bx → Surgery → Recurrence; strict Tier-3 inferred metabolite nodes.")
-    container.text(.99,.01,"Cell-level exploratory distributions from one recurrence patient; the six-patient cohort independently supplies Bx–Surgery discovery evidence",ha="right",va="bottom",fontsize=5.5,color=COLORS["gray"])
-    container.subplots_adjust(left=.08,right=.99,top=.72,bottom=.23,wspace=.28)
-
 MAIN_VALIDATION_METABOLITES = ("threonine",)
 
 MAIN_CROSSMODAL_UMAP_SPECS = {
@@ -436,44 +412,301 @@ def _draw_su3_tasks(container,data,label="SU3"):
     container.text(.5,.004,"Welch tests; BH across original 135 tests. One patient; cells are pseudoreplicates.",ha="center",fontsize=6.5,color="#555555");container.subplots_adjust(left=.07,right=.995,top=.86,bottom=.14,hspace=.72,wspace=.38)
 
 
+TIER3_TWO_NODE_ORDER = ["2E_heptenoyl_CoA", "Glutaryl_Carnitine"]
+TIER3_SITE_COLORS = {"Bx":"#377EB8", "Surgery":"#E41A1C", "Recurrence":"#984EA3"}
+TIER3_STATUS_COLORS = {"Non-metastatic":"#4DAF4A", "Metastatic":"#E41A1C"}
+TIER3_STANDALONE_WIDTH_MM = 270
+TIER3_STANDALONE_HEIGHT_MM = 90
+TIER3_BOX_WIDTH = .34
+TIER3_POINT_SIZE = 24
+TIER3_PAIR_LINE_WIDTH = .8
+TIER3_ANNOTATION_SIZE = 4.8
+TIER3_GROUP_TITLE_SIZE = 7
+
+
+def _draw_two_node_evidence(container, data, label="D"):
+    patients = data["tier3_two_node_patient_values.csv"].copy()
+    p3_cells = data["tier3_two_node_p3_cells.csv.gz"].copy()
+    stats = (data["tier3_two_node_statistics.csv"].copy()
+             .sort_values("display_order").set_index("metabolite").loc[TIER3_TWO_NODE_ORDER]
+             .reset_index())
+    if len(stats) != 2 or set(stats.celltype) != {"CAFs"}:
+        raise RuntimeError("Panel D two-node specification changed")
+    if len(patients) != 28 or patients.metabolite.nunique() != 2:
+        raise RuntimeError("Panel D patient-median table changed")
+    discovery = patients.loc[patients.is_discovery.astype(bool)].copy()
+    if not discovery.groupby("metabolite").PatientID.nunique().eq(6).all():
+        raise RuntimeError("Panel D discovery coverage changed")
+    if len(p3_cells) != 3892 or not p3_cells.groupby("metabolite").Timepoint.nunique().eq(3).all():
+        raise RuntimeError("Panel D P3 cell table changed")
+    expected = stats.set_index("metabolite")
+    if not np.allclose(expected.treatment_BH_FDR_4, .125):
+        raise RuntimeError("Panel D treatment q4 changed")
+    if not np.allclose(expected.status_BH_FDR_4, .8):
+        raise RuntimeError("Panel D status q4 changed")
+
+    axes = np.atleast_1d(container.subplots(1, 6)).ravel()
+    time_order = ["Bx", "Surgery", "Recurrence"]
+    status_order = ["Non-metastatic", "Metastatic"]
+
+    for index, spec in enumerate(stats.itertuples(index=False)):
+        ax = axes[index]
+        frame = discovery.loc[discovery.metabolite.eq(spec.metabolite)]
+        wide = frame.pivot(index="PatientID", columns="Timepoint", values="activity").dropna().sort_index()
+        values = [wide.Bx.to_numpy(), wide.Surgery.to_numpy()]
+        boxes = ax.boxplot(values, positions=[0, 1], widths=TIER3_BOX_WIDTH,
+            patch_artist=True, showfliers=False, manage_ticks=False,
+            medianprops={"color":COLORS["dark"], "linewidth":1.2},
+            boxprops={"edgecolor":COLORS["gray"], "linewidth":.8},
+            whiskerprops={"color":COLORS["gray"], "linewidth":.7},
+            capprops={"color":COLORS["gray"], "linewidth":.7})
+        for patch, color in zip(boxes["boxes"], [TIER3_SITE_COLORS["Bx"], TIER3_SITE_COLORS["Surgery"]]):
+            patch.set_facecolor(color); patch.set_alpha(.22)
+        offsets = np.linspace(-.05, .05, len(wide))
+        for offset, (_, row) in zip(offsets, wide.iterrows()):
+            ax.plot([offset, 1 + offset], [row.Bx, row.Surgery], color=COLORS["gray"],
+                    lw=TIER3_PAIR_LINE_WIDTH, alpha=.78, zorder=2)
+            ax.scatter([offset, 1 + offset], [row.Bx, row.Surgery], s=TIER3_POINT_SIZE,
+                       c=[TIER3_SITE_COLORS["Bx"], TIER3_SITE_COLORS["Surgery"]],
+                       edgecolor="white", linewidth=.45, zorder=3)
+        ax.text(.03, .04,
+            f"{int(spec.treatment_n_decrease)}/6↓; Δmean={spec.treatment_effect:+.3f}\n"
+            f"p={spec.treatment_exact_p:.4f}; q₄={spec.treatment_BH_FDR_4:.3f}",
+            transform=ax.transAxes, fontsize=TIER3_ANNOTATION_SIZE, va="bottom",
+            bbox={"boxstyle":"round,pad=.24", "facecolor":"white",
+                  "edgecolor":"#BDBDBD", "alpha":.94})
+        ax.set_xticks([0, 1], ["Bx", "Surgery"])
+        ax.set_ylabel("Patient-median\ninferred activity" if index == 0 else "")
+        ax.set_title(f"{spec.display_name}\nCAFs", loc="left", fontsize=6.2,
+                     fontweight="bold", pad=2)
+        _clean_axis(ax)
+
+    def fmt_q(value):
+        return f"{value:.3f}" if value >= .001 else f"{value:.1e}"
+
+    for offset, spec in enumerate(stats.itertuples(index=False), start=2):
+        ax = axes[offset]
+        frame = p3_cells.loc[p3_cells.metabolite.eq(spec.metabolite)]
+        arrays = [frame.loc[frame.Timepoint.eq(site), "activity"].to_numpy(dtype=float)
+                  for site in time_order]
+        violins = ax.violinplot(arrays, positions=np.arange(3), widths=.72,
+            showmeans=False, showmedians=False, showextrema=False)
+        for body, site in zip(violins["bodies"], time_order):
+            body.set_facecolor(TIER3_SITE_COLORS[site]); body.set_edgecolor(TIER3_SITE_COLORS[site]); body.set_alpha(.26)
+        boxes = ax.boxplot(arrays, positions=np.arange(3), widths=.18,
+            patch_artist=True, showfliers=False, manage_ticks=False,
+            medianprops={"color":COLORS["dark"], "linewidth":1.1},
+            boxprops={"edgecolor":COLORS["dark"], "linewidth":.7},
+            whiskerprops={"color":COLORS["dark"], "linewidth":.65},
+            capprops={"color":COLORS["dark"], "linewidth":.65})
+        for patch in boxes["boxes"]:
+            patch.set_facecolor("white"); patch.set_alpha(.82)
+        note = (f"S−Bx δ={spec.p4_tx_rank_biserial_effect:+.3f}; q={fmt_q(spec.p4_tx_global_contrast_BH_FDR)}\n"
+                f"R−S δ={spec.p4_rebound_rank_biserial_effect:+.3f}; q={fmt_q(spec.p4_rebound_global_contrast_BH_FDR)}\n"
+                f"R−Bx δ={spec.p4_baseline_rank_biserial_effect:+.3f}; q={fmt_q(spec.p4_baseline_global_contrast_BH_FDR)}")
+        ax.text(.98, .98, note, transform=ax.transAxes, ha="right", va="top",
+                fontsize=TIER3_ANNOTATION_SIZE,
+                bbox={"facecolor":"white", "edgecolor":"none", "alpha":.82, "pad":1.0})
+        counts = [len(values) for values in arrays]
+        short_sites = {"Bx":"Bx", "Surgery":"Surg.", "Recurrence":"Rec."}
+        ax.set_xticks(range(3), [f"{short_sites[site]}\nn={count:,}" for site, count in zip(time_order, counts)])
+        ax.tick_params(axis="x", labelsize=5.5)
+        ax.set_ylabel("Cell-level\ninferred activity" if offset == 2 else "")
+        ax.set_title(f"{spec.display_name}\nCAFs", loc="left", fontsize=6.2,
+                     fontweight="bold", pad=2)
+        _clean_axis(ax)
+
+    for offset, spec in enumerate(stats.itertuples(index=False), start=4):
+        ax = axes[offset]
+        frame = (discovery.loc[discovery.metabolite.eq(spec.metabolite),
+                               ["PatientID", "Status", "status_activity"]]
+                 .drop_duplicates("PatientID"))
+        arrays = [frame.loc[frame.Status.eq(status), "status_activity"].to_numpy(dtype=float)
+                  for status in status_order]
+        boxes = ax.boxplot(arrays, positions=[0, 1], widths=TIER3_BOX_WIDTH,
+            patch_artist=True, showfliers=False, manage_ticks=False,
+            medianprops={"color":COLORS["dark"], "linewidth":1.2},
+            boxprops={"edgecolor":COLORS["gray"], "linewidth":.8},
+            whiskerprops={"color":COLORS["gray"], "linewidth":.7},
+            capprops={"color":COLORS["gray"], "linewidth":.7})
+        for patch, status in zip(boxes["boxes"], status_order):
+            patch.set_facecolor(TIER3_STATUS_COLORS[status]); patch.set_alpha(.22)
+        for xpos, (status, values) in enumerate(zip(status_order, arrays)):
+            jitter = np.linspace(-.045, .045, len(values))
+            ax.scatter(np.full(len(values), xpos) + jitter, values, s=TIER3_POINT_SIZE,
+                       color=TIER3_STATUS_COLORS[status], edgecolor="white",
+                       linewidth=.45, zorder=3)
+        ax.text(.03, .04,
+            f"M−NM={spec.status_effect:+.3f}; δ={spec.status_cliffs_delta:+.3f}\n"
+            f"p={spec.status_exact_p:.3f}; q₄={spec.status_BH_FDR_4:.3f}",
+            transform=ax.transAxes, fontsize=TIER3_ANNOTATION_SIZE, va="bottom",
+            bbox={"boxstyle":"round,pad=.24", "facecolor":"white",
+                  "edgecolor":"#BDBDBD", "alpha":.94})
+        ax.set_xticks([0, 1], ["Non-meta\nn=3", "Meta\nn=3"])
+        ax.set_ylabel("Patient status score" if offset == 4 else "")
+        ax.set_title(f"{spec.display_name}\nCAFs", loc="left", fontsize=6.2,
+                     fontweight="bold", pad=2)
+        _clean_axis(ax)
+
+    container.text(.17, .805, "Six-patient discovery: Bx → Surgery",
+                   ha="center", va="top", fontsize=TIER3_GROUP_TITLE_SIZE, fontweight="bold")
+    container.text(.50, .805, "P3 longitudinal trajectory",
+                   ha="center", va="top", fontsize=TIER3_GROUP_TITLE_SIZE, fontweight="bold")
+    container.text(.83, .805, "Discovery-cohort metastatic status",
+                   ha="center", va="top", fontsize=TIER3_GROUP_TITLE_SIZE, fontweight="bold")
+    _panel_title(container, label, "Two CAF Tier-3 inferred-metabolite programs",
+                 "Treatment decrease, single-patient recurrence rebound and status context.")
+    container.text(.5, .035,
+        "Treatment: exact two-sided sign-flip tests; status: exact two-sided 3-vs-3 label permutation; BH across the original four-node family.",
+        ha="center", fontsize=5.2, color=COLORS["gray"])
+    container.text(.5, .012,
+        "P3 cell distributions are descriptive; cells are not independent patients. Inferred activity is neither abundance nor flux.",
+        ha="center", fontsize=5.2, color=COLORS["gray"])
+    container.subplots_adjust(left=.060, right=.995, top=.67, bottom=.24, wspace=.58)
+
+
 def _sulfur_treatment_statistics(data):
     stats=data["sulfur_cohort_treatment_statistics.csv"].copy()
     if len(stats)!=90: raise RuntimeError("Frozen sulfur treatment statistics changed")
     return stats
 
+S2_STATUS_ORDER = ["Non-metastatic", "Metastatic"]
+S2_STATUS_COLORS = {"Non-metastatic":"#4DAF4A", "Metastatic":"#E41A1C"}
+S2_STANDALONE_WIDTH_MM = 180
+S2_STANDALONE_HEIGHT_MM = 90
+S2_BOX_WIDTH = .34
+S2_POINT_SIZE = 30
+S2_ANNOTATION_SIZE = 6.4
+S2_AXIS_TITLE_SIZE = 8
+S2_TICK_SIZE = 7
+
+
+def _draw_2aep_status(container, data, label="S2"):
+    patients = data["tier3_2aep_status_patient_values.csv"].copy()
+    stats = data["tier3_2aep_status_statistics.csv"].copy().set_index("layer")
+    evidence = data["tier3_2aep_annotation_evidence.csv"].copy()
+    layers = ["scKNIFE | T cells", "LC-MS | negative mode"]
+    if len(patients) != 13 or set(patients.layer) != set(layers):
+        raise RuntimeError("S2 patient-level evidence changed")
+    if len(stats) != 2 or len(evidence) != 1:
+        raise RuntimeError("S2 frozen statistics or annotation evidence changed")
+    if patients.loc[patients.layer.eq(layers[0]), "Status"].value_counts().to_dict() != {
+        "Non-metastatic": 3, "Metastatic": 3,
+    }:
+        raise RuntimeError("S2 scKNIFE group sizes changed")
+    if patients.loc[patients.layer.eq(layers[1]), "Status"].value_counts().to_dict() != {
+        "Metastatic": 4, "Non-metastatic": 3,
+    }:
+        raise RuntimeError("S2 LC-MS group sizes changed")
+
+    axes = np.atleast_1d(container.subplots(1, 2)).ravel()
+    titles = ["S2a  scKNIFE | T cells", "S2b  LC-MS | negative mode"]
+    ylabels = ["Patient-mean inferred activity", "Patient-mean log2 intensity"]
+    for index, (ax, layer, title, ylabel) in enumerate(zip(axes, layers, titles, ylabels)):
+        frame = patients.loc[patients.layer.eq(layer)]
+        arrays = [
+            frame.loc[frame.Status.eq(status)].sort_values("PatientID").value.to_numpy(dtype=float)
+            for status in S2_STATUS_ORDER
+        ]
+        boxes = ax.boxplot(
+            arrays, positions=[0, 1], widths=S2_BOX_WIDTH, patch_artist=True,
+            showfliers=False, manage_ticks=False,
+            medianprops={"color":COLORS["dark"], "linewidth":1.3},
+            boxprops={"edgecolor":COLORS["gray"], "linewidth":.8},
+            whiskerprops={"color":COLORS["gray"], "linewidth":.7},
+            capprops={"color":COLORS["gray"], "linewidth":.7},
+        )
+        for patch, status in zip(boxes["boxes"], S2_STATUS_ORDER):
+            patch.set_facecolor(S2_STATUS_COLORS[status]); patch.set_alpha(.22)
+        for xpos, (status, values) in enumerate(zip(S2_STATUS_ORDER, arrays)):
+            jitter = np.linspace(-.05, .05, len(values))
+            ax.scatter(
+                np.full(len(values), xpos) + jitter, values, s=S2_POINT_SIZE,
+                color=S2_STATUS_COLORS[status], edgecolor="white", linewidth=.5, zorder=3,
+            )
+        stat = stats.loc[layer]
+        if index == 0:
+            annotation = (
+                f"M−NM={stat.effect:+.3f}; Cliff's δ={stat.cliffs_delta:+.3f}\n"
+                f"exact p={stat.p_value:.3f}; BH q₇₀={stat.fdr:.3f}"
+            )
+        else:
+            annotation = (
+                f"model log2FC={stat.effect:+.3f}\n"
+                f"nominal p={stat.p_value:.3f}; joint BH q={stat.fdr:.3f}"
+            )
+        ax.text(
+            .97, .95, annotation, transform=ax.transAxes, ha="right", va="top",
+            fontsize=S2_ANNOTATION_SIZE,
+            bbox={"boxstyle":"round,pad=.28", "facecolor":"white",
+                  "edgecolor":"#BDBDBD", "alpha":.94},
+        )
+        ax.set_xticks(
+            [0, 1],
+            [f"Non-metastatic\nn={len(arrays[0])}", f"Metastatic\nn={len(arrays[1])}"],
+        )
+        ax.set_ylabel(ylabel, fontsize=S2_AXIS_TITLE_SIZE)
+        ax.set_title(title, loc="left", fontsize=8.5, fontweight="bold", pad=17)
+        ax.text(
+            0, 1.01, "One biopsy/surgery-average value per patient",
+            transform=ax.transAxes, fontsize=S2_TICK_SIZE, color=COLORS["gray"],
+            fontstyle="italic", va="bottom",
+        )
+        ax.tick_params(labelsize=S2_TICK_SIZE)
+        _clean_axis(ax)
+
+    audit = evidence.iloc[0]
+    _panel_title(
+        container, label, "2-Aminoethylphosphonate status candidate",
+        "Directionally concordant but statistically unsupported across scKNIFE and LC-MS.",
+    )
+    container.text(
+        .5, .045,
+        f"LC-MS {audit.Feature} • m/z {audit.mz:.4f} • RT {audit.rt_seconds:.2f} s • native-library score {audit.native_score:.2f} • 0 imputed specimens.",
+        ha="center", fontsize=6.2, color=COLORS["gray"],
+    )
+    container.text(
+        .5, .018,
+        "Putative native MS/MS library match (MSI level-2 candidate pending mirror/manual review); not metabolite or biomarker validation.",
+        ha="center", fontsize=6.2, color=COLORS["gray"],
+    )
+    container.subplots_adjust(left=.075, right=.985, top=.67, bottom=.25, wspace=.36)
+
+
 MAIN_INPUTS={
 "A":["treatment_four_set_membership.csv"],"B":["surgery_pathway_scatter.csv","surgery_pathway_enrichment.csv","treatment_four_set_membership.csv"],"C":["meia_vs_scknife_entity_correlations.csv"],
-"D":["robust_tier3_trajectory_selection.csv","robust_tier3_trajectory_values.csv.gz"],
+"D":["tier3_two_node_patient_values.csv","tier3_two_node_p3_cells.csv.gz","tier3_two_node_statistics.csv"],
 "E":["robust_metabolite_pathway_assignments.csv","robust_metabolite_pathway_context_counts.csv"],
 "F":["sulfur_cohort_patient_values.csv","sulfur_cohort_treatment_statistics.csv"],
 "G":["sulfur_lcms_feature_values.csv","sulfur_lcms_feature_evidence.csv"],
 "H":["sulfur_ng8_nodes.csv","sulfur_ng8_edges.csv","sulfur_ng8_anchors.csv"]}
 SUPPLEMENT_INPUTS={"SA":["status_four_set_membership.csv"],"SB":["status_pathway_scatter.csv","status_pathway_enrichment.csv","status_four_set_membership.csv"],"SJ":["gpr_gpa_vs_scknife_entity_correlations.csv"],
 "S1":["review_whole_profile_patient_summary.csv","review_whole_profile_concordance_summary.csv"],"SFUNNEL":["robust_metabolite_filtering_funnel.csv"],
-"SDIRECTION":["sulfur_cohort_patient_values.csv","sulfur_cohort_treatment_statistics.csv"],"SU3":["sulfur_p3_all_score_cells.csv.gz","sulfur_p3_task_statistics.csv"]}
+"SDIRECTION":["sulfur_cohort_patient_values.csv","sulfur_cohort_treatment_statistics.csv"],"SU3":["sulfur_p3_all_score_cells.csv.gz","sulfur_p3_task_statistics.csv"],
+"S2":["tier3_2aep_status_patient_values.csv","tier3_2aep_status_statistics.csv","tier3_2aep_annotation_evidence.csv"]}
 
 def load_tables(data_root, inputs):
     root=Path(data_root);return {name:pd.read_csv(root/name) for name in sorted(set(sum(inputs.values(),[])))}
 
 def make_figure6_main_panel(label,data):
-    fig=plt.figure(figsize=((14.5,8.8) if label=="H" else (_mm(112),_mm(88))),facecolor="white")
-    {"A":lambda:_draw_four_set_upset(fig,data,"A","treatment_four_set_membership.csv","Treatment four-set metabolic overlap"),"B":lambda:_draw_treatment_pathway_scatter(fig,data,"B"),"C":lambda:_draw_entity_concordance(fig,data,"C","meia"),"D":lambda:_draw_robust_trajectories(fig,data,"D"),"E":lambda:_draw_pathway_context_pie(fig,data,"E"),"F":lambda:_draw_macrophage_tasks(fig,data,"F"),"G":lambda:_draw_selenium_lcms(fig,data,"G"),"H":lambda:_draw_ng8_graph(fig,data,"H")}[label]()
+    fig=plt.figure(figsize=((_mm(TIER3_STANDALONE_WIDTH_MM),_mm(TIER3_STANDALONE_HEIGHT_MM)) if label=="D" else ((14.5,8.8) if label=="H" else (_mm(112),_mm(88)))),facecolor="white")
+    {"A":lambda:_draw_four_set_upset(fig,data,"A","treatment_four_set_membership.csv","Treatment four-set metabolic overlap"),"B":lambda:_draw_treatment_pathway_scatter(fig,data,"B"),"C":lambda:_draw_entity_concordance(fig,data,"C","meia"),"D":lambda:_draw_two_node_evidence(fig,data,"D"),"E":lambda:_draw_pathway_context_pie(fig,data,"E"),"F":lambda:_draw_macrophage_tasks(fig,data,"F"),"G":lambda:_draw_selenium_lcms(fig,data,"G"),"H":lambda:_draw_ng8_graph(fig,data,"H")}[label]()
     return fig
 
 def make_figure6_supplementary_panel(label,data):
-    fig=plt.figure(figsize=(_mm(150),_mm(96)),facecolor="white")
-    {"SA":lambda:_draw_four_set_upset(fig,data,"SA","status_four_set_membership.csv","Metastatic-status four-set metabolic overlap"),"SB":lambda:_draw_status_pathway_scatter(fig,data,"SB"),"SJ":lambda:_draw_entity_concordance(fig,data,"SJ","gpa"),"S1":lambda:_draw_review_s1(fig,data,"S1"),"SFUNNEL":lambda:_draw_filtering_cascade(fig,data,"SFUNNEL"),"SDIRECTION":lambda:_draw_homocysteine_screen(fig,data,"SDIRECTION"),"SU3":lambda:_draw_su3_tasks(fig,data,"SU3")}[label]()
+    fig=plt.figure(figsize=((_mm(S2_STANDALONE_WIDTH_MM),_mm(S2_STANDALONE_HEIGHT_MM)) if label=="S2" else (_mm(150),_mm(96))),facecolor="white")
+    {"SA":lambda:_draw_four_set_upset(fig,data,"SA","status_four_set_membership.csv","Metastatic-status four-set metabolic overlap"),"SB":lambda:_draw_status_pathway_scatter(fig,data,"SB"),"SJ":lambda:_draw_entity_concordance(fig,data,"SJ","gpa"),"S1":lambda:_draw_review_s1(fig,data,"S1"),"SFUNNEL":lambda:_draw_filtering_cascade(fig,data,"SFUNNEL"),"SDIRECTION":lambda:_draw_homocysteine_screen(fig,data,"SDIRECTION"),"SU3":lambda:_draw_su3_tasks(fig,data,"SU3"),"S2":lambda:_draw_2aep_status(fig,data,"S2")}[label]()
     return fig
 
 def make_figure6_compiled(data):
     fig=plt.figure(figsize=(_mm(297),_mm(380)),facecolor="white");rows=fig.subfigures(4,1,height_ratios=[.86,.98,.90,1.45],hspace=.035);top=rows[0].subfigures(1,3,wspace=.045)
-    _draw_four_set_upset(top[0],data,"A","treatment_four_set_membership.csv","Treatment four-set metabolic overlap");_draw_treatment_pathway_scatter(top[1],data,"B");_draw_entity_concordance(top[2],data,"C","meia");_draw_robust_trajectories(rows[1],data,"D")
+    _draw_four_set_upset(top[0],data,"A","treatment_four_set_membership.csv","Treatment four-set metabolic overlap");_draw_treatment_pathway_scatter(top[1],data,"B");_draw_entity_concordance(top[2],data,"C","meia");_draw_two_node_evidence(rows[1],data,"D")
     evidence=rows[2].subfigures(1,3,width_ratios=[.95,1.62,.93],wspace=.045);_draw_pathway_context_pie(evidence[0],data,"E");_draw_macrophage_tasks(evidence[1],data,"F");_draw_selenium_lcms(evidence[2],data,"G");_draw_ng8_graph(rows[3],data,"H");return fig
 
 def make_figure6_supplementary(data):
-    fig=plt.figure(figsize=(_mm(297),_mm(480)),facecolor="white");rows=fig.subfigures(4,1,height_ratios=[1.02,.83,.90,1.82],hspace=.035);top=rows[0].subfigures(1,3,wspace=.045)
+    fig=plt.figure(figsize=(_mm(297),_mm(570)),facecolor="white");rows=fig.subfigures(5,1,height_ratios=[1.02,.83,.90,1.82,.85],hspace=.035);top=rows[0].subfigures(1,3,wspace=.045)
     _draw_four_set_upset(top[0],data,"SA","status_four_set_membership.csv","Metastatic-status four-set metabolic overlap");_draw_status_pathway_scatter(top[1],data,"SB");_draw_entity_concordance(top[2],data,"SJ","gpa");_draw_review_s1(rows[1],data,"S1")
-    middle=rows[2].subfigures(1,2,width_ratios=[.44,.56],wspace=.055);_draw_filtering_cascade(middle[0],data,"SFUNNEL");_draw_homocysteine_screen(middle[1],data,"SDIRECTION");_draw_su3_tasks(rows[3],data,"SU3");return fig
+    middle=rows[2].subfigures(1,2,width_ratios=[.44,.56],wspace=.055);_draw_filtering_cascade(middle[0],data,"SFUNNEL");_draw_homocysteine_screen(middle[1],data,"SDIRECTION");_draw_su3_tasks(rows[3],data,"SU3");_draw_2aep_status(rows[4],data,"S2");return fig
 
 def save_figure(fig, stem, dpi=300):
     stem=Path(stem);stem.parent.mkdir(parents=True,exist_ok=True)

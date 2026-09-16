@@ -1,0 +1,3 @@
+layer,effect,effect_name,cliffs_delta,p_value,fdr,fdr_family,n_nonmetastatic,n_metastatic
+scKNIFE | T cells,0.029879267637928336,Metastatic-minus-non-metastatic mean activity,0.1111111111111111,0.9,1.0,BH across 70 Tier-3 metabolite-cell-type pairs,3,3
+LC-MS | negative mode,1.0252037067963,"Model log2FC, Metastatic versus Non-metastatic",,0.573304704605434,0.977348040584697,Joint LC-MS feature BH family,3,4

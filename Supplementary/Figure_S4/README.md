@@ -1,5 +1,7 @@
 # Supplementary Figure 4 — cell-type annotation and CNV quality control
 
+Submission legend: [LEGEND.txt](LEGEND.txt).
+
 Supplementary Figure 4 is a plotting-only workflow built from frozen, plot-ready arrays. It does not rerun UMAP, cell annotation, CNV inference, CNV clustering, or marker selection.
 
 ## Caption

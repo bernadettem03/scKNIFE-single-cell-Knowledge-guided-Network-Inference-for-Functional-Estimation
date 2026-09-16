@@ -76,6 +76,21 @@
       "sha256": "eda0eabd01520a9249f3077b42cbd4a3767e1bc3ca9dbfd84f9e2cccabcf2306"
     },
     {
+      "path": "tier3_two_node_p3_cells.csv.gz",
+      "bytes": 69085,
+      "sha256": "549d79aaa2a0f5b08f23c1c16f1f02302b8c94e438394a752abbcc816a35fe9d"
+    },
+    {
+      "path": "tier3_two_node_patient_values.csv",
+      "bytes": 3395,
+      "sha256": "b16d6f7d1ddb6965e56c84e7513f0c1f56e6380fb990ed49a3769fd6f837b34d"
+    },
+    {
+      "path": "tier3_two_node_statistics.csv",
+      "bytes": 940,
+      "sha256": "391b6f1ea91d16b837f6d599e43c47c7c63887bb792f2da0f89839706a0a525c"
+    },
+    {
       "path": "treatment_four_set_membership.csv",
       "bytes": 1312,
       "sha256": "9d43c41386496656fb34dba97de9cd5c6f777bb9c8dc57b4cf7997011b470bde"

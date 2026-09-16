@@ -1,5 +1,7 @@
 # Figure 4 — Cell identity, H-cluster markers, CNV, and TNBCtype
 
+Submission legend: [LEGEND.txt](LEGEND.txt).
+
 The public workflow renders frozen HDF5 arrays and does not recompute embeddings, clustering, CNV, differential expression, or TNBCtype assignments.
 
 ## Contents

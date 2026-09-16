@@ -1,0 +1,14 @@
+PatientID,Status,value,layer,value_definition
+11F2023/10819,Non-metastatic,0.16323930956423283,scKNIFE | T cells,Mean of Bx/Surgery patient-median activity
+CF/06685,Non-metastatic,0.28725718706846237,scKNIFE | T cells,Mean of Bx/Surgery patient-median activity
+CF/16980,Metastatic,0.30746617913246155,scKNIFE | T cells,Mean of Bx/Surgery patient-median activity
+CN/12872,Metastatic,0.2700575813651085,scKNIFE | T cells,Mean of Bx/Surgery patient-median activity
+CV/03060,Non-metastatic,0.17322614416480064,scKNIFE | T cells,Mean of Bx/Surgery patient-median activity
+CV/03602,Metastatic,0.13583668321371078,scKNIFE | T cells,Mean of Bx/Surgery patient-median activity
+11F2023/10819,Non-metastatic,27.814585285421202,LC-MS | negative mode,Mean Bx/Surgery specimen log2 intensity
+CF/06685,Non-metastatic,23.303948073559198,LC-MS | negative mode,Mean Bx/Surgery specimen log2 intensity
+CF/16980,Metastatic,24.68766459003335,LC-MS | negative mode,Mean Bx/Surgery specimen log2 intensity
+CF/30117,Metastatic,27.88381461384245,LC-MS | negative mode,Mean Bx/Surgery specimen log2 intensity
+CN/12872,Metastatic,29.846418104527352,LC-MS | negative mode,Mean Bx/Surgery specimen log2 intensity
+CV/03060,Non-metastatic,29.62504771274065,LC-MS | negative mode,Mean Bx/Surgery specimen log2 intensity
+CV/03602,Metastatic,29.3591344322382,LC-MS | negative mode,Mean Bx/Surgery specimen log2 intensity

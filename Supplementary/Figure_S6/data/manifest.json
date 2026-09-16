@@ -54,6 +54,26 @@
       "path": "sulfur_p3_task_statistics.csv",
       "bytes": 22873,
       "sha256": "713aab13615943b76fc13dbd22e8d8613b9c78209ab01400b44281a6007fc375"
+    },
+    {
+      "path": "tier3_2aep_annotation_evidence.csv",
+      "bytes": 488,
+      "sha256": "0a2a30513872c3165c8c3cd30bd0b2e3bc15d7b79ce60bfa27561aa154aabf4b"
+    },
+    {
+      "path": "tier3_2aep_status_patient_values.csv",
+      "bytes": 1387,
+      "sha256": "0c7273705c6cb07d372fe0d3506ac0588e892624f177d60045c8f8ad44f4d94b"
+    },
+    {
+      "path": "tier3_2aep_status_statistics.csv",
+      "bytes": 411,
+      "sha256": "912d228396355566240dc76876800673890ad557c3b89be909c3c8fafbc142d7"
+    },
+    {
+      "path": "tier3_status_screen_70.csv",
+      "bytes": 5759,
+      "sha256": "ada859a615cd01f34bff404d7b90f0e690a6c7dcd70e1c3766b7a6a52ca71199"
     }
   ]
 }

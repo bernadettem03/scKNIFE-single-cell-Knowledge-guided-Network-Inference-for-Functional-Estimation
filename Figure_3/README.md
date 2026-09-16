@@ -1,5 +1,7 @@
 # Figure 3 — External biological benchmarking
 
+Submission legend: [LEGEND.txt](LEGEND.txt).
+
 Figure 3 version 2 is canonical. Patient-level inference and candidate selection are retained under `analysis/`; the root notebook will render frozen results only.
 
 ## Contents

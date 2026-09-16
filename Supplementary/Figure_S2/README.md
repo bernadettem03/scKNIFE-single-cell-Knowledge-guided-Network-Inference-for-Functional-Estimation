@@ -1,5 +1,7 @@
 # Supplementary Figure 2
 
+Submission legend: [LEGEND.txt](LEGEND.txt).
+
 Supplementary Figure 2 contains only the comparator no-match UMAP grid for Bassez C1, Bassez C2, and Wu TNBC.
 
 ## Caption

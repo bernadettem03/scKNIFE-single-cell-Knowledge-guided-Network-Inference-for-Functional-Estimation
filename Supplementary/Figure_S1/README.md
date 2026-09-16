@@ -1,5 +1,7 @@
 # Supplementary Figure 1
 
+Submission legend: [LEGEND.txt](LEGEND.txt).
+
 Supplementary Figure 1 contains cross-dataset W concordance and pooled W-space structure. The notebook consumes frozen, checksummed inputs and performs no embedding or statistical inference.
 
 ## Caption

@@ -1,5 +1,7 @@
 # Figure 2 — benchmarking and external validation
 
+Submission legend: [LEGEND.txt](LEGEND.txt).
+
 This directory reproduces the main Figure 2 from frozen, plot-ready inputs.
 The public `Figure_2.ipynb` will be plotting-only. Computation of agreement
 metrics and correlation annotations is isolated under `analysis/`.

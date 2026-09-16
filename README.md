@@ -9,6 +9,12 @@ This repository contains code and plot-ready data for reproducing Figures 2–7 
 - `data_manifest.tsv`: checksummed public-file inventory.
 - `validate_repository.py`: portability and submission checks.
 
+Submission legends are stored as `LEGEND.txt` beside each main and
+supplementary plotting workflow. Their authoritative editable counterparts are
+maintained under `May_2026_clean_version_redo/Methods_section/plots description`.
+The 16 September 2026 cross-tree review is recorded in
+`CAPTION_COHERENCE_AUDIT.md`.
+
 Root figure notebooks are plotting-only. Statistical inference, clustering, feature selection, and derived-table construction belong under each figure's `analysis/` directory.
 
 ## Environment

@@ -23,7 +23,7 @@
 
 ## Validation
 
-- Eleven public root notebooks are present (Figures 2–7 and S2–S6).
+- Twelve public root notebooks are present (Figures 2–7 and S1–S6).
 - Each was executed independently from its figure directory.
 - Root notebooks and plotting modules were scanned for inference, fitting, clustering, stale source names, and absolute storage paths. Executed inline outputs are intentionally retained.
 - All eleven reviewer notebooks were executed successfully with live inline panel output and compiled figure output.
@@ -53,7 +53,7 @@
 
 ## Standalone main-panel exports (2026-09-11)
 
-- Added 300-DPI PNG and vector PDF exports for every authoritative main panel: Figure 2 A–H, Figure 3 A–J, Figure 4 B–F, Figure 5 A/C/E/G/H, Figure 6 A–F, and Figure 7 A–J.
+- Added 300-DPI PNG and vector PDF exports for every authoritative main panel: Figure 2 A–H, Figure 3 A–J, Figure 4 B–F, Figure 5 A/C/E/G/H, Figure 6 A–H, and Figure 7 A–J.
 - Added per-figure JSON manifests recording panel order, relative paths, byte sizes, and SHA-256 checksums.
 - Retained the Figure 3 A–D compound export for layout provenance while also providing A, B, C, and D separately.
 - Removed obsolete Figure 5 B/D/F standalone exports because those panels are not part of the authoritative main Figure 5 composite.
@@ -62,7 +62,7 @@
 
 ## Figure audit and Figure 4 module completion (2026-09-11)
 
-- Added notebook audits for Figures 3, 4, 5, and 7; Figure 6 remains outside the requested audit scope.
+- Added notebook audits for Figures 3–7, including the blank-corrected Figure 6 A–H contract.
 - Extracted the authoritative Figure 4 B–F and compiled-page rendering into `Figure_4/plotting.py`.
 - Reduced the Figure 4 root notebook to validation, rendering, export, and provenance orchestration while retaining live inline figures.
 - Restored the private Figure 4 bundle only for local validation and explicitly excluded it from Git tracking.

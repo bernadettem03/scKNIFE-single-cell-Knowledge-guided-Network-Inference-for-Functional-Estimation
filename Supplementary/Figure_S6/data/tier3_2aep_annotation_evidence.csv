@@ -1,0 +1,2 @@
+scKNIFE_metabolite,display_name,Feature,Polarity,mz,rt_seconds,compound,formula,inchikey,native_score,identity_confidence,confidence_label,specimens_observed_before_imputation,specimens_imputed
+2_aminoethylphosphonate,2-Aminoethylphosphonate,neg_124.0035_397.74,negative,124.003511339554,397.739646898517,2-Aminoethylphosphonate,C2H8NO3P,QQVDJLLNRSOCEL-UHFFFAOYSA-N,32.83,Exact parent structure,Putative native MS/MS library match; MSI level-2 candidate pending mirror/manual review,14,0

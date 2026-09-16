@@ -1,5 +1,7 @@
 # Figure 7 — Cell–cell signaling concordance and VEGF biology
 
+Submission legend: [LEGEND.txt](LEGEND.txt).
+
 The workflow renders frozen signaling, concordance, VEGF, and H-factor inputs without rerunning CellChat or scKNIFE.
 
 ## Contents
