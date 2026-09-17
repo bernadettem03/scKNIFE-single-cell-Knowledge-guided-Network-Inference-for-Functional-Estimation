@@ -26,7 +26,7 @@
       "pdf": {
         "path": "Figure_6/outputs/panels/Figure_6_A.pdf",
         "bytes": 25069,
-        "sha256": "96da8c77a11c9877f3ff2672d0d3efab883654177948241ab06413e458b5f974"
+        "sha256": "c11943689453203b72cce2deed43536e566af55bc2eda7f8ee726232bc0d5760"
       }
     },
     "B": {
@@ -38,7 +38,7 @@
       "pdf": {
         "path": "Figure_6/outputs/panels/Figure_6_B.pdf",
         "bytes": 39303,
-        "sha256": "ff3a1988f4c50965b265c66a7f9794b93300e989ca8da582bbb5be3cc06852c3"
+        "sha256": "3f67deda355d62958ffe776df2f90de68e98be0bfe11a4642ab87c53e61ff537"
       }
     },
     "C": {
@@ -50,7 +50,7 @@
       "pdf": {
         "path": "Figure_6/outputs/panels/Figure_6_C.pdf",
         "bytes": 27781,
-        "sha256": "24e4727609cc7ab5a8e3cd99b7ad37157c685edaf4827bd0e449695c66837bef"
+        "sha256": "be591b8a029646bdc6d7f2c65895f4fe41bb264774200f547ba0eaa70771afbc"
       }
     },
     "D": {
@@ -62,7 +62,7 @@
       "pdf": {
         "path": "Figure_6/outputs/panels/Figure_6_D.pdf",
         "bytes": 48662,
-        "sha256": "383d74516f628adfaf8b11b8528e4e7e2ef219a20f7b8ba62f29bec4ba6c26a6"
+        "sha256": "e7986a290a18acb102a23bd94c135fee652e248e60fe6e1ffaf90dbb7396a07e"
       }
     },
     "E": {
@@ -74,7 +74,7 @@
       "pdf": {
         "path": "Figure_6/outputs/panels/Figure_6_E.pdf",
         "bytes": 24236,
-        "sha256": "0235c5097df3a7c7e3776527a5c270f12aae80c97b1ed9fa5c892a813e873f20"
+        "sha256": "29243ed77a3475d85c339e378703fd2e78f1ee4ec1a38b52f9bc00dabda8442d"
       }
     },
     "F": {
@@ -86,7 +86,7 @@
       "pdf": {
         "path": "Figure_6/outputs/panels/Figure_6_F.pdf",
         "bytes": 30013,
-        "sha256": "d8aa231fa70ac33308766f3a2202a157ea538c3bfd44ba7b11433e888cba803f"
+        "sha256": "c6102766b41e545e5a78a0065ef32768724bd6e911ca02594edb22ce0670031c"
       }
     },
     "G": {
@@ -98,7 +98,7 @@
       "pdf": {
         "path": "Figure_6/outputs/panels/Figure_6_G.pdf",
         "bytes": 25041,
-        "sha256": "268851fa00d6de5c1f7a8eaeff697ba6a62858f084fbe6ce1886a86f2c224c3e"
+        "sha256": "a7755762f1df4982ffb1681df23e0efa169154593fa1951021f8d3495b59676f"
       }
     },
     "H": {
@@ -110,7 +110,7 @@
       "pdf": {
         "path": "Figure_6/outputs/panels/Figure_6_H.pdf",
         "bytes": 337931,
-        "sha256": "72c9eb6b1e30e0745f9b9de8ed4255b53fad570f8ed846d1dff8fdf80da14dfc"
+        "sha256": "13ca11d96a6fa77b5175ed529b9a86ae91996e271a08a64964032d0bd504d5e5"
       }
     }
   }

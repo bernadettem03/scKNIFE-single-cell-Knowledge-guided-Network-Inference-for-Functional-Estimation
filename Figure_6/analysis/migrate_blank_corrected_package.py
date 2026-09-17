@@ -842,7 +842,7 @@ for label in {labels!r}:
     plt.show();plt.close(fig)
 (PANEL_ROOT/'{compiled_name}_panel_export_manifest.json').write_text(json.dumps(panel_manifest,indent=2)+\'\\n\')"""},
         {"cell_type":"markdown","metadata":{},"source":"## Compiled vector figure"},
-        {"cell_type":"code","execution_count":None,"metadata":{},"outputs":[],"source":f"fig={compiled_fun}(DATA)\nsave_figure(fig,OUTPUT_ROOT/'{compiled_name}')\nplt.show();plt.close(fig)"},
+        {"cell_type":"code","execution_count":None,"metadata":{},"outputs":[],"source":f"fig={compiled_fun}(DATA)\nsave_figure(fig,OUTPUT_ROOT/'{compiled_name}')\ncompiled_png=OUTPUT_ROOT/'{compiled_name}.png'\npreview_png=OUTPUT_ROOT/'{compiled_name}_preview.png'\npreview_png.write_bytes(compiled_png.read_bytes())\nassert preview_png.read_bytes()==compiled_png.read_bytes()\nplt.show();plt.close(fig)"},
     ]
     return {"cells":cells,"metadata":{"kernelspec":{"display_name":"Python 3","language":"python","name":"python3"},"language_info":{"name":"python","version":"3.9"}},"nbformat":4,"nbformat_minor":5}
 
