@@ -8,20 +8,20 @@
     "matrix_rows": 100,
     "matrix_columns": 12,
     "columns": [
-      "Non-Responders_B_cell",
-      "Non-Responders_Cancer_cell",
-      "Non-Responders_Endothelial_cell",
-      "Non-Responders_Fibroblast",
-      "Non-Responders_Myeloid_cell",
-      "Non-Responders_T_cell",
-      "Responders_B_cell",
-      "Responders_Cancer_cell",
-      "Responders_Endothelial_cell",
-      "Responders_Fibroblast",
-      "Responders_Myeloid_cell",
-      "Responders_T_cell"
+      "NE_B_cell",
+      "NE_Cancer_cell",
+      "NE_Endothelial_cell",
+      "NE_Fibroblast",
+      "NE_Myeloid_cell",
+      "NE_T_cell",
+      "E_B_cell",
+      "E_Cancer_cell",
+      "E_Endothelial_cell",
+      "E_Fibroblast",
+      "E_Myeloid_cell",
+      "E_T_cell"
     ],
-    "responder_tasks": [
+    "e_tasks": [
       "Sialylation (addition of sialic acid)",
       "Farnesyl-pyrophosphate synthesis",
       "Synthesis of alanine from glutamine",
@@ -73,7 +73,7 @@
       "Taurochenodeoxycholate synthesis",
       "Degradation of adenine to urate"
     ],
-    "nonresponder_tasks": [
+    "ne_tasks": [
       "Sialylation (addition of sialic acid)",
       "Pyridoxal-phosphate synthesis",
       "Biosynthesis of core2 (beta-D-Galactosyl-1,3-(N-acetyl-beta-D-glucosaminyl-1,6)-N-acetyl-D-galactosaminyl-R)",
@@ -135,19 +135,19 @@
     "matrix_rows": 100,
     "matrix_columns": 11,
     "columns": [
-      "Non-Responders_Cancer_cell",
-      "Non-Responders_Endothelial_cell",
-      "Non-Responders_Fibroblast",
-      "Non-Responders_Myeloid_cell",
-      "Non-Responders_T_cell",
-      "Responders_B_cell",
-      "Responders_Cancer_cell",
-      "Responders_Endothelial_cell",
-      "Responders_Fibroblast",
-      "Responders_Myeloid_cell",
-      "Responders_T_cell"
+      "NE_Cancer_cell",
+      "NE_Endothelial_cell",
+      "NE_Fibroblast",
+      "NE_Myeloid_cell",
+      "NE_T_cell",
+      "E_B_cell",
+      "E_Cancer_cell",
+      "E_Endothelial_cell",
+      "E_Fibroblast",
+      "E_Myeloid_cell",
+      "E_T_cell"
     ],
-    "responder_tasks": [
+    "e_tasks": [
       "Malate to pyruvate conversion",
       "Conversion of histidine to glutamate",
       "Conversion of aspartate to beta-alanine",
@@ -199,7 +199,7 @@
       "Palmitolate degradation",
       "Gluconeogenesis from Glutamine"
     ],
-    "nonresponder_tasks": [
+    "ne_tasks": [
       "Synthesis of bilirubin",
       "AMP salvage from adenine",
       "Synthesis of fructose-6-phosphate from erythrose-4-phosphate (HMP shunt)",

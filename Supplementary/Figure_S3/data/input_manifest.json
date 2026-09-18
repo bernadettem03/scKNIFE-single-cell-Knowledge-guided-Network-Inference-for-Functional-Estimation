@@ -5,24 +5,24 @@
     "source": "data/Figure_3_v7/selection_audit.csv"
   },
   "de/bassez_A_knife.csv": {
-    "bytes": 546660,
-    "sha256": "821a47773196962b5b928cc2cbb7059bfa0e25fe56d9ada0e614a28a984a3c1d",
+    "bytes": 519192,
+    "sha256": "d69790b2b1993370dea97cf87b6b1cbdc898b4caa46b9453dab33caf72708df5",
     "source": "benchmarking_may/bassez_cohort_A_final_run/data/de/DE_bassez_A_combined.csv"
   },
   "de/bassez_B_knife.csv": {
-    "bytes": 583311,
-    "sha256": "c253c89a7eca6b74425d635b60935bc6266738322cc7dc957758ecd5692191a3",
+    "bytes": 558459,
+    "sha256": "d6cbe2c84461d1e5bc2e026ba56fd9e722115e9a9baf441ad385a58d77fb7cbf",
     "source": "data/Figure_3/de/bassez_B/DE_bassez_B_combined.csv"
   },
-  "de/bassez_B_sccellfie_NR.csv": {
+  "de/bassez_B_sccellfie_NE.csv": {
     "bytes": 242719,
     "sha256": "5670048a585d044c839452411edd8434fea6361889773cec802d3fdbdea8d863",
-    "source": "data/Figure_3/de/sccellfie/bc2NR/DE-Bc2_NR.csv"
+    "source": "data/Figure_3/de/sccellfie/bc2NE/DE-Bc2_NE.csv"
   },
-  "de/bassez_B_sccellfie_R.csv": {
+  "de/bassez_B_sccellfie_E.csv": {
     "bytes": 289620,
     "sha256": "20b256e1f03af10e020dcb64bc2089443b6476ef14c80782e719c817bb56ce1b",
-    "source": "data/Figure_3/de/sccellfie/bc2R/DE-Bc2_R.csv"
+    "source": "data/Figure_3/de/sccellfie/bc2E/DE-Bc2_E.csv"
   },
   "de/shiao_knife_NR.csv": {
     "bytes": 313442,
