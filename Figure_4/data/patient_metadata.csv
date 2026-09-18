@@ -1,0 +1,8 @@
+display_id,metastatic_status,disease_site,timepoints,treatment,libraries,specimen_count,tnbc_subtype
+P1,Non-metastatic,No,Bx|Surgery,4 cycles of cyclophsophamide + epirubicin + flurouracil,Library1,2,IM
+P2,Metastatic,Contralateral Ca breast,Bx|Surgery,4 cycles of cyclophsophamide + epirubicin + flurouracil,Library3,2,UNS
+P3,Metastatic,Contralateral Ca breast,Bx|Surgery|Recurrence,4 cycles of cyclophsophamide + epirubicin + flurouracil,Library4,3,M
+P4,Metastatic,Lung and Bone,Bx|Surgery,7 cycles of paclitaxel + carboplatin,Library1,2,IM
+P5,Non-metastatic,No,Bx|Surgery,4 cycles doxorubicin + cyclophosphamide f/b 2 cycles paclitaxel + carboplatin,Library2,2,M
+P6,Metastatic,Lung and Bone,Bx|Surgery,donse dense epirubicin + cyclophosphamide f/b 4 cycles dose dense paclitaxel,Library3,2,UNS
+P7,Non-metastatic,No,Bx|Surgery,4 cycles of epirubicin + cyclophosphamide f/b 4 cycles of paclitaxel,Library2|Library4,2,MSL

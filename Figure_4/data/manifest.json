@@ -1,7 +1,7 @@
 {
   "package": "Figure 4 plot-ready data",
   "format_version": 2,
-  "created_utc": "2026-08-17T16:58:13.213423+00:00",
+  "created_utc": "2026-09-18T05:56:25.839400+00:00",
   "source_description": "Frozen HDF5 arrays for the authoritative mixed raster/vector renderer",
   "sources": [
     {
@@ -13,6 +13,11 @@
       "source": "PRIVATE_ARCHIVE_ROOT/source_snapshot/main_figure/data/fig4_data/patient_id_mapping.csv",
       "packaged_as": "patient_id_mapping.csv",
       "source_sha256": "d83cb550451db61010d5393722db8a27202a5f52267c894f19ed79a77a8ba92b"
+    },
+    {
+      "source": "PRIVATE_ARCHIVE_ROOT/source_snapshot/main_figure/data/fig4_data/patient_metadata.csv",
+      "packaged_as": "patient_metadata.csv",
+      "source_sha256": "1230af96a3c10737aa2a556a9fc5f93729fc2a5a4581aca03a4943d7bfb018b2"
     },
     {
       "source": "PRIVATE_ARCHIVE_ROOT/source_snapshot/main_figure/data/fig4_data/README.md",
@@ -123,6 +128,10 @@
     {
       "path": "upstream_provenance.md",
       "purpose": "retained upstream provenance notes"
+    },
+    {
+      "path": "patient_metadata.csv",
+      "purpose": "de-identified patient-level clinical metadata for Figure 4"
     }
   ],
   "lineage_summary": {
@@ -143,14 +152,15 @@
     "plot_bundle_nonempty": true,
     "mixed_panel_e_h_graph_cnv_umap_ready": true,
     "supplementary_cnv_data_present": true,
-    "panel_lineage_valid": true
+    "panel_lineage_valid": true,
+    "seven_deidentified_patient_metadata_rows": true
   },
   "python": "3.9.21",
   "files": [
     {
       "name": "README.md",
-      "bytes": 1441,
-      "sha256": "054dd437137f3131b54667b2c7b46512c6109a2e8d8178f013373aaafab792f3"
+      "bytes": 1529,
+      "sha256": "c1e1c9ce785bbed2e864b9ed5d34fd489e696c952635cdc6091605ef3fb01152"
     },
     {
       "name": "fig4_plot_data.h5",
@@ -166,6 +176,11 @@
       "name": "patient_id_mapping.csv",
       "bytes": 64,
       "sha256": "119a54b8a85a44b6b2683bbdbbe90cff19f0346e0af6c6921987c2638d59458f"
+    },
+    {
+      "name": "patient_metadata.csv",
+      "bytes": 921,
+      "sha256": "1230af96a3c10737aa2a556a9fc5f93729fc2a5a4581aca03a4943d7bfb018b2"
     },
     {
       "name": "upstream_provenance.md",

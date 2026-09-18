@@ -9,7 +9,7 @@ The public workflow renders frozen HDF5 arrays and does not recompute embeddings
 - `Figure_4.ipynb`: public figure entrypoint.
 - `plotting.py`: reusable rendering functions (created during notebook extraction).
 - `analysis/`: reproducible analytical derivations and provenance.
-- `data/`: frozen plot-ready inputs.
+- `data/`: frozen plot-ready inputs, including de-identified `patient_metadata.csv` keyed by P1–P7.
 - `outputs/`: approved PDF and PNG preview.
 
 All paths must remain repository-relative. Large editable outputs remain in the private unpublished archive.

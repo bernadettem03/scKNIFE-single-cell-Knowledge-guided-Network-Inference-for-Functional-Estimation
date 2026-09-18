@@ -15,6 +15,7 @@ Frozen HDF5 arrays for the authoritative mixed raster/vector renderer
 ## Auxiliary packaged inputs
 
 - `upstream_provenance.md` — retained upstream provenance notes
+- `patient_metadata.csv` — de-identified patient-level clinical metadata for Figure 4
 
 The authoritative machine-readable mapping is `manifest.json` under `panels`.
 All hashes and source provenance are recorded in that manifest.
