@@ -4,6 +4,7 @@ from __future__ import annotations
 
 from pathlib import Path
 import hashlib
+import sys
 import h5py
 import matplotlib as mpl
 import matplotlib.pyplot as plt
@@ -145,8 +146,9 @@ def s4_clean_axis(ax):
     ax.spines["top"].set_visible(False)
     ax.spines["right"].set_visible(False)
 
-def s4_panel_title(ax, label, title):
-    ax.set_title(f"{label}  {title}", loc="left", fontsize=S4_PANEL_TITLE_PT, fontweight="bold", pad=5)
+def s4_panel_label(ax, label):
+    """Add only the publication panel letter; descriptive titles live in the legend."""
+    ax.set_title(label, loc="left", fontsize=S4_PANEL_TITLE_PT, fontweight="bold", pad=5)
 
 def s4_save(fig, stem):
     """Export one panel without changing or closing the live figure."""
@@ -162,7 +164,7 @@ def s4_celltype_handles():
                    markerfacecolor=S4_CT_COLORS[key], markeredgecolor="none",
                    label=S4_CT_LABEL[key]) for key in S4_CT_ORDER]
 
-def draw_s4_t(ax):
+def draw_s4_a(ax):
     x = np.arange(len(s4_sample_names)); bottom = np.zeros(len(x))
     for index, celltype in enumerate(S4_CT_ORDER):
         values = s4_sample_pct[:, index]
@@ -170,15 +172,15 @@ def draw_s4_t(ax):
         bottom += values
     ax.set_xticks(x, [name.replace("|", " ") for name in s4_sample_names], rotation=48, ha="right")
     ax.set_ylim(0, 100); ax.set_ylabel("% cells"); s4_clean_axis(ax)
-    s4_panel_title(ax, "T", "Cell composition by patient and site")
+    s4_panel_label(ax, "a")
 
-def draw_s4_r(ax):
+def draw_s4_b(ax):
     y = np.arange(len(S4_CT_ORDER))
     ax.barh(y, s4_overall_pct, color=[S4_CT_COLORS[key] for key in S4_CT_ORDER], height=.76)
     ax.set_yticks(y, [S4_CT_LABEL[key] for key in S4_CT_ORDER]); ax.invert_yaxis()
-    ax.set_xlabel("% cells"); s4_clean_axis(ax); s4_panel_title(ax, "R", "Cell-type composition")
+    ax.set_xlabel("% cells"); s4_clean_axis(ax); s4_panel_label(ax, "b")
 
-def draw_s4_s(ax):
+def draw_s4_c(ax):
     x = np.arange(len(s4_marker_genes))
     for row, celltype in enumerate(S4_CT_ORDER):
         sizes = S4_DOT_MIN_SIZE + S4_DOT_MAX_SIZE * np.clip(s4_marker_fraction[row], 0, 1)
@@ -187,9 +189,9 @@ def draw_s4_s(ax):
     ax.set_yticks(np.arange(len(S4_CT_ORDER)), [S4_CT_LABEL[key] for key in S4_CT_ORDER])
     ax.invert_yaxis(); ax.set_axisbelow(True); ax.grid(axis="x", color="#eeeeee", linewidth=.5)
     ax.spines["top"].set_visible(False); ax.spines["right"].set_visible(False)
-    s4_panel_title(ax, "S", "Canonical marker expression")
+    s4_panel_label(ax, "c")
 
-def draw_s4_scanpy(ax, adata, color_key, title):
+def draw_s4_scanpy(ax, adata, color_key, label):
     collection_start = len(ax.collections)
     sc.pl.umap(
         adata, color=color_key, ax=ax, show=False, frameon=False,
@@ -200,25 +202,25 @@ def draw_s4_scanpy(ax, adata, color_key, title):
             collection.set_rasterized(True)
     ax.set_xlabel("UMAP1", fontsize=S4_AXIS_TITLE_PT); ax.set_ylabel("UMAP2", fontsize=S4_AXIS_TITLE_PT)
     ax.tick_params(left=False, bottom=False, labelleft=False, labelbottom=False)
-    s4_panel_title(ax, title.split(" ", 1)[0], title.split(" ", 1)[1])
+    s4_panel_label(ax, label)
 
-def draw_s4_q(ax): draw_s4_scanpy(ax, s4_atlas_adata, "celltype", "Q Cell-type UMAP")
-def draw_s4_n(ax): draw_s4_scanpy(ax, s4_qc_cluster_adata, "cnv_leiden", "N CNV clusters")
-def draw_s4_p(ax): draw_s4_scanpy(ax, s4_qc_celltype_adata, "celltype", "P Cell type")
-def draw_s4_m(ax): draw_s4_scanpy(ax, s4_provisional_adata, "cnv_status", "M CNV shortlist")
+def draw_s4_d(ax): draw_s4_scanpy(ax, s4_atlas_adata, "celltype", "d")
+def draw_s4_e(ax): draw_s4_scanpy(ax, s4_qc_cluster_adata, "cnv_leiden", "e")
+def draw_s4_f(ax): draw_s4_scanpy(ax, s4_qc_celltype_adata, "celltype", "f")
+def draw_s4_g(ax): draw_s4_scanpy(ax, s4_provisional_adata, "cnv_status", "g")
 
-PANEL_ORDER = tuple("TRSQNPM")
+PANEL_ORDER = tuple("abcdefg")
 PANEL_STEMS = {
-    "T": "S4_T_patient_site_composition",
-    "R": "S4_R_overall_composition",
-    "S": "S4_S_canonical_marker_expression",
-    "Q": "S4_Q_celltype_umap",
-    "N": "S4_N_cnv_clusters",
-    "P": "S4_P_cnv_celltype",
-    "M": "S4_M_cnv_shortlist",
+    "a": "S4_a_patient_site_composition",
+    "b": "S4_b_overall_composition",
+    "c": "S4_c_canonical_marker_expression",
+    "d": "S4_d_celltype_umap",
+    "e": "S4_e_cnv_clusters",
+    "f": "S4_f_cnv_celltype",
+    "g": "S4_g_cnv_shortlist",
 }
-PANEL_FIGSIZES = {"T": (10.2, 4.5), "R": (5.2, 4.5), "S": (12.5, 5.2), "Q": (6.0, 6.0), "N": (6.0, 6.0), "P": (6.0, 6.0), "M": (6.0, 6.0)}
-PANEL_DRAWERS = {"T": draw_s4_t, "R": draw_s4_r, "S": draw_s4_s, "Q": draw_s4_q, "N": draw_s4_n, "P": draw_s4_p, "M": draw_s4_m}
+PANEL_FIGSIZES = {"a": (10.2, 4.5), "b": (5.2, 4.5), "c": (12.5, 5.2), "d": (6.0, 6.0), "e": (6.0, 6.0), "f": (6.0, 6.0), "g": (6.0, 6.0)}
+PANEL_DRAWERS = {"a": draw_s4_a, "b": draw_s4_b, "c": draw_s4_c, "d": draw_s4_d, "e": draw_s4_e, "f": draw_s4_f, "g": draw_s4_g}
 
 
 def _sha256(path):
@@ -246,16 +248,16 @@ def validate_s4_inputs():
 
 
 def _add_panel_legend(ax, label):
-    if label in ("Q", "P"):
+    if label in ("d", "f"):
         ax.legend(handles=s4_celltype_handles(), frameon=False, ncol=2, fontsize=S4_LEGEND_PT,
                   loc="upper left", bbox_to_anchor=(1.01, 1.0), title="Cell type")
-    elif label == "N":
+    elif label == "e":
         handles = [Line2D([0], [0], marker="o", linestyle="none", markersize=3,
                           markerfacecolor=color, markeredgecolor="none", label=cluster)
                    for cluster, color in zip(s4_qc_cluster_order, S4_CNV_CLUSTER_COLORS)]
         ax.legend(handles=handles, frameon=False, ncol=2, fontsize=S4_LEGEND_PT,
                   loc="upper left", bbox_to_anchor=(1.01, 1.0), title="CNV cluster")
-    elif label == "M":
+    elif label == "g":
         handles = [Line2D([0], [0], marker="o", linestyle="none", markersize=4,
                           markerfacecolor=S4_CNV_STATUS_COLORS[key], markeredgecolor="none",
                           label=f"{S4_CNV_STATUS_LABEL[key]}: {s4_status_counts[key]:,}")
@@ -281,22 +283,21 @@ def export_s4_panel(fig, label):
 
 
 def render_s4_compiled():
-    """Render the approved T/R/S/Q/N/P/M composite."""
+    """Render the publication-clean a–g composite."""
     fig = plt.figure(figsize=(S4_WIDTH_IN, S4_HEIGHT_IN), facecolor="white")
     grid = fig.add_gridspec(4, 12, height_ratios=[1.05, 1.45, .86, .74],
-                            left=.065, right=.965, bottom=.035, top=.955, hspace=.52, wspace=1.35)
-    ax_t=fig.add_subplot(grid[0,:8]);ax_r=fig.add_subplot(grid[0,8:]);ax_s=fig.add_subplot(grid[1,:])
-    ax_q=fig.add_subplot(grid[2,0:3]);ax_n=fig.add_subplot(grid[2,3:6]);ax_p=fig.add_subplot(grid[2,6:9]);ax_m=fig.add_subplot(grid[2,9:12])
-    draw_s4_t(ax_t);draw_s4_r(ax_r);draw_s4_s(ax_s);draw_s4_q(ax_q);draw_s4_n(ax_n);draw_s4_p(ax_p);draw_s4_m(ax_m)
-    legend_q=fig.add_subplot(grid[3,0:3]);legend_n=fig.add_subplot(grid[3,3:6]);legend_p=fig.add_subplot(grid[3,6:9]);legend_m=fig.add_subplot(grid[3,9:12])
-    for axis in (legend_q,legend_n,legend_p,legend_m):axis.axis("off")
-    legend_q.legend(handles=s4_celltype_handles(),title="Q cell type",frameon=False,fontsize=S4_LEGEND_PT,title_fontsize=S4_LEGEND_PT,loc="upper left")
+                            left=.065, right=.965, bottom=.035, top=.98, hspace=.52, wspace=1.35)
+    ax_a=fig.add_subplot(grid[0,:8]);ax_b=fig.add_subplot(grid[0,8:]);ax_c=fig.add_subplot(grid[1,:])
+    ax_d=fig.add_subplot(grid[2,0:3]);ax_e=fig.add_subplot(grid[2,3:6]);ax_f=fig.add_subplot(grid[2,6:9]);ax_g=fig.add_subplot(grid[2,9:12])
+    draw_s4_a(ax_a);draw_s4_b(ax_b);draw_s4_c(ax_c);draw_s4_d(ax_d);draw_s4_e(ax_e);draw_s4_f(ax_f);draw_s4_g(ax_g)
+    legend_d=fig.add_subplot(grid[3,0:3]);legend_e=fig.add_subplot(grid[3,3:6]);legend_f=fig.add_subplot(grid[3,6:9]);legend_g=fig.add_subplot(grid[3,9:12])
+    for axis in (legend_d,legend_e,legend_f,legend_g):axis.axis("off")
+    legend_d.legend(handles=s4_celltype_handles(),title="Cell type",frameon=False,fontsize=S4_LEGEND_PT,title_fontsize=S4_LEGEND_PT,loc="upper left")
     cluster_handles=[Line2D([0],[0],marker="o",linestyle="none",markersize=2.6,markerfacecolor=color,markeredgecolor="none",label=cluster) for cluster,color in zip(s4_qc_cluster_order,S4_CNV_CLUSTER_COLORS)]
-    legend_n.legend(handles=cluster_handles,title="N cluster",frameon=False,ncol=2,fontsize=S4_LEGEND_PT,title_fontsize=S4_LEGEND_PT,loc="upper left")
-    legend_p.legend(handles=s4_celltype_handles(),title="P cell type",frameon=False,fontsize=S4_LEGEND_PT,title_fontsize=S4_LEGEND_PT,loc="upper left")
+    legend_e.legend(handles=cluster_handles,title="CNV cluster",frameon=False,ncol=2,fontsize=S4_LEGEND_PT,title_fontsize=S4_LEGEND_PT,loc="upper left")
+    legend_f.legend(handles=s4_celltype_handles(),title="Cell type",frameon=False,fontsize=S4_LEGEND_PT,title_fontsize=S4_LEGEND_PT,loc="upper left")
     status_handles=[Line2D([0],[0],marker="o",linestyle="none",markersize=3.2,markerfacecolor=S4_CNV_STATUS_COLORS[key],markeredgecolor="none",label=S4_CNV_STATUS_LABEL[key]) for key in S4_CNV_STATUS_ORDER]
-    legend_m.legend(handles=status_handles,title="M CNV status",frameon=False,fontsize=S4_LEGEND_PT,title_fontsize=S4_LEGEND_PT,loc="upper left")
-    fig.suptitle("Figure S4. Cell-type annotation and CNV quality control",fontsize=12,fontweight="bold",y=.985)
+    legend_g.legend(handles=status_handles,title="CNV status",frameon=False,fontsize=S4_LEGEND_PT,title_fontsize=S4_LEGEND_PT,loc="upper left")
     return fig
 
 
@@ -312,9 +313,11 @@ def write_s4_manifest(panel_outputs, compiled_outputs):
         "notebook":"Figure_S4.ipynb","mode":"plot_only","analysis_recomputed":False,
         "source":str(S4_DATA.relative_to(NOTEBOOK_DIR)),"source_sha256":_sha256(S4_DATA),
         "panel_order":list(PANEL_ORDER),
-        "fields":{"T":["atlas/patient_site","atlas/patient_site_counts"],"R":["atlas/composition_counts"],"S":["marker_dotplots/genes","marker_dotplots/fraction_expressing"],"Q":["atlas/umap","atlas/celltype"],"N":["cnv_qc/umap","cnv_qc/cnv_leiden"],"P":["cnv_qc/umap","cnv_qc/celltype"],"M":["cnv_provisional/umap","cnv_provisional/status"]},
-        "renderers":{"T":"matplotlib","R":"matplotlib","S":"matplotlib","Q":"scanpy","N":"scanpy","P":"scanpy","M":"scanpy"},
-        "export":{"svg_text":"editable" if S4_EDITABLE_SVG_TEXT else "paths","rasterized_panels":["Q","N","P","M"] if S4_RASTERIZE_UMAPS else [],"raster_dpi":S4_DPI,"umap_point_size":S4_UMAP_POINT_SIZE,"umap_alpha":S4_UMAP_ALPHA},
+        "environment":{"python":sys.version.split()[0],"scanpy":sc.__version__,"cnsplots":"unavailable; matplotlib/scanpy fallback"},
+        "legacy_panel_mapping":{"a":"T","b":"R","c":"S","d":"Q","e":"N","f":"P","g":"M"},
+        "fields":{"a":["atlas/patient_site","atlas/patient_site_counts"],"b":["atlas/composition_counts"],"c":["marker_dotplots/genes","marker_dotplots/fraction_expressing"],"d":["atlas/umap","atlas/celltype"],"e":["cnv_qc/umap","cnv_qc/cnv_leiden"],"f":["cnv_qc/umap","cnv_qc/celltype"],"g":["cnv_provisional/umap","cnv_provisional/status"]},
+        "renderers":{"a":"matplotlib","b":"matplotlib","c":"matplotlib","d":"scanpy","e":"scanpy","f":"scanpy","g":"scanpy"},
+        "export":{"svg_text":"editable" if S4_EDITABLE_SVG_TEXT else "paths","rasterized_panels":["d","e","f","g"] if S4_RASTERIZE_UMAPS else [],"raster_dpi":S4_DPI,"umap_point_size":S4_UMAP_POINT_SIZE,"umap_alpha":S4_UMAP_ALPHA},
         "individual_outputs":panel_outputs,"compiled_outputs":compiled_outputs,
         "checks":{"cells":69391,"specimens":15,"markers":59,"cnv_clusters":26,"cnv_low":27421,"cnv_high":41970},
     }

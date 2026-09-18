@@ -98,3 +98,10 @@
 - Preserved all frozen coordinates, category assignments, palettes, labels, legends, panel dimensions, and 300-DPI rasterization.
 - Re-executed the plotting-only S4 notebook and refreshed the standalone UMAP panels, compiled PNG/PDF, inline figures, and render manifest.
 - Verified T/R/S and every non-S4 figure asset remained byte-identical; no protected source or private archive was modified.
+
+## Supplementary Figure S4 publication relabeling (2026-09-18)
+
+- Replaced the historical T/R/S/Q/N/P/M display identifiers with sequential lowercase labels a–g, using the mapping a←T, b←R, c←S, d←Q, e←N, f←P and g←M.
+- Removed the composite heading and all descriptive in-panel titles while retaining functional axis labels and legend headers.
+- Renamed standalone panel exports and synchronized the manifest, compact notebook, README, legend, caption copies, checksums and repository validation.
+- Retained the full-render analysis notebook unchanged as historical provenance for the legacy identifiers.

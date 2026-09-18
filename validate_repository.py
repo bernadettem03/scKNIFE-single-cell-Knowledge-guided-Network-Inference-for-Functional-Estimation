@@ -54,7 +54,9 @@ def main():
  if not s4_manifest_path.is_file():errors.append("missing Supplementary Figure S4 output manifest")
  else:
   s4_manifest=json.loads(s4_manifest_path.read_text())
-  if s4_manifest.get("panel_order")!=list("TRSQNPM"):errors.append("incorrect Supplementary Figure S4 panel order")
+  if s4_manifest.get("panel_order")!=list("abcdefg"):errors.append("incorrect Supplementary Figure S4 panel order")
+  expected_legacy={"a":"T","b":"R","c":"S","d":"Q","e":"N","f":"P","g":"M"}
+  if s4_manifest.get("legacy_panel_mapping")!=expected_legacy:errors.append("incorrect Supplementary Figure S4 legacy panel mapping")
   for section in ("individual_outputs","compiled_outputs"):
    def check_paths(value):
     if isinstance(value,dict):

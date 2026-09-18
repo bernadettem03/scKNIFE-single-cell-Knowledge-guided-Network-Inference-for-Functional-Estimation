@@ -5,92 +5,106 @@
   "source": "data/fig4_supplementary_plot_data.h5",
   "source_sha256": "b2ca27415a56577aa1193fc12c7a027099bab8e4083628cc4eaab0170bef6969",
   "panel_order": [
-    "T",
-    "R",
-    "S",
-    "Q",
-    "N",
-    "P",
-    "M"
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g"
   ],
+  "environment": {
+    "python": "3.9.21",
+    "scanpy": "1.9.6",
+    "cnsplots": "unavailable; matplotlib/scanpy fallback"
+  },
+  "legacy_panel_mapping": {
+    "a": "T",
+    "b": "R",
+    "c": "S",
+    "d": "Q",
+    "e": "N",
+    "f": "P",
+    "g": "M"
+  },
   "fields": {
-    "T": [
+    "a": [
       "atlas/patient_site",
       "atlas/patient_site_counts"
     ],
-    "R": [
+    "b": [
       "atlas/composition_counts"
     ],
-    "S": [
+    "c": [
       "marker_dotplots/genes",
       "marker_dotplots/fraction_expressing"
     ],
-    "Q": [
+    "d": [
       "atlas/umap",
       "atlas/celltype"
     ],
-    "N": [
+    "e": [
       "cnv_qc/umap",
       "cnv_qc/cnv_leiden"
     ],
-    "P": [
+    "f": [
       "cnv_qc/umap",
       "cnv_qc/celltype"
     ],
-    "M": [
+    "g": [
       "cnv_provisional/umap",
       "cnv_provisional/status"
     ]
   },
   "renderers": {
-    "T": "matplotlib",
-    "R": "matplotlib",
-    "S": "matplotlib",
-    "Q": "scanpy",
-    "N": "scanpy",
-    "P": "scanpy",
-    "M": "scanpy"
+    "a": "matplotlib",
+    "b": "matplotlib",
+    "c": "matplotlib",
+    "d": "scanpy",
+    "e": "scanpy",
+    "f": "scanpy",
+    "g": "scanpy"
   },
   "export": {
     "svg_text": "editable",
     "rasterized_panels": [
-      "Q",
-      "N",
-      "P",
-      "M"
+      "d",
+      "e",
+      "f",
+      "g"
     ],
     "raster_dpi": 300,
     "umap_point_size": 0.2,
     "umap_alpha": 0.9
   },
   "individual_outputs": {
-    "T": {
-      "png": "outputs/panels/S4_T_patient_site_composition.png",
-      "pdf": "outputs/panels/S4_T_patient_site_composition.pdf"
+    "a": {
+      "png": "outputs/panels/S4_a_patient_site_composition.png",
+      "pdf": "outputs/panels/S4_a_patient_site_composition.pdf"
     },
-    "R": {
-      "png": "outputs/panels/S4_R_overall_composition.png",
-      "pdf": "outputs/panels/S4_R_overall_composition.pdf"
+    "b": {
+      "png": "outputs/panels/S4_b_overall_composition.png",
+      "pdf": "outputs/panels/S4_b_overall_composition.pdf"
     },
-    "S": {
-      "png": "outputs/panels/S4_S_canonical_marker_expression.png",
-      "pdf": "outputs/panels/S4_S_canonical_marker_expression.pdf"
+    "c": {
+      "png": "outputs/panels/S4_c_canonical_marker_expression.png",
+      "pdf": "outputs/panels/S4_c_canonical_marker_expression.pdf"
     },
-    "Q": {
-      "png": "outputs/panels/S4_Q_celltype_umap.png",
-      "pdf": "outputs/panels/S4_Q_celltype_umap.pdf"
+    "d": {
+      "png": "outputs/panels/S4_d_celltype_umap.png",
+      "pdf": "outputs/panels/S4_d_celltype_umap.pdf"
     },
-    "N": {
-      "png": "outputs/panels/S4_N_cnv_clusters.png",
-      "pdf": "outputs/panels/S4_N_cnv_clusters.pdf"
+    "e": {
+      "png": "outputs/panels/S4_e_cnv_clusters.png",
+      "pdf": "outputs/panels/S4_e_cnv_clusters.pdf"
     },
-    "P": {
-      "png": "outputs/panels/S4_P_cnv_celltype.png",
-      "pdf": "outputs/panels/S4_P_cnv_celltype.pdf"
+    "f": {
+      "png": "outputs/panels/S4_f_cnv_celltype.png",
+      "pdf": "outputs/panels/S4_f_cnv_celltype.pdf"
     },
-    "M": {
-      "png": "outputs/panels/S4_M_cnv_shortlist.png",
-      "pdf": "outputs/panels/S4_M_cnv_shortlist.pdf"
+    "g": {
+      "png": "outputs/panels/S4_g_cnv_shortlist.png",
+      "pdf": "outputs/panels/S4_g_cnv_shortlist.pdf"
     }
   },
   "compiled_outputs": {
