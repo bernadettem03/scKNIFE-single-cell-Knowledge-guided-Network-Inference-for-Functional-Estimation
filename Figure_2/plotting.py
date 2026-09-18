@@ -399,20 +399,20 @@ def draw_runtime_capacity_three_tier(fig, x, y, width, height):
     for ax in (lower, middle, upper):
         ax.bar(range(5), values, color=colors, edgecolor='#3A2D29', linewidth=.55, width=.64)
         ax.set_xlim(-.6, 4.6); clean_axis(ax); ax.tick_params(axis='y', labelsize=R_TICK, pad=1)
-    lower.set_ylim(0, 220); middle.set_ylim(700, 1100); upper.set_ylim(20000, 42000)
+    lower.set_ylim(0, 220); middle.set_ylim(700, 1100); upper.set_ylim(6800, 8200)
     comma_fmt = FuncFormatter(lambda value, _: f'{int(value):,}')
-    for ax, ticks in ((lower, [0, 100, 200]), (middle, [700, 850, 1000]), (upper, [20000, 30000, 40000])):
+    for ax, ticks in ((lower, [0, 100, 200]), (middle, [700, 850, 1000]), (upper, [7000, 7500, 8000])):
         ax.yaxis.set_major_locator(FixedLocator(ticks)); ax.yaxis.set_major_formatter(comma_fmt)
     lower.set_xticks(range(5), labels, fontsize=R_TICK)
     for ax in (middle, upper): ax.tick_params(axis='x', bottom=False, labelbottom=False)
-    lower.set_ylabel('Features', fontsize=R_TICK, labelpad=1); panel_title(upper, 'B', 'Prior knowledge')
+    lower.set_ylabel('Programs', fontsize=R_TICK, labelpad=1); panel_title(upper, 'B', 'Prior knowledge')
     def label_visible(ax, ymin, ymax):
         offset = (ymax - ymin) * .045
         for index, value in enumerate(values):
             if ymin <= value <= ymax:
                 ax.text(index, value + offset, f'{value:,}', ha='center', va='bottom', fontsize=R_NOTE,
                         bbox={'facecolor': 'white', 'edgecolor': 'none', 'alpha': .90, 'pad': .55})
-    label_visible(lower, 0, 220); label_visible(middle, 700, 1100); label_visible(upper, 20000, 42000)
+    label_visible(lower, 0, 220); label_visible(middle, 700, 1100); label_visible(upper, 6800, 8200)
     for ax in (lower, middle, upper):
         ax.spines['top'].set_visible(False); ax.spines['bottom'].set_visible(False)
     lower.spines['bottom'].set_visible(True)

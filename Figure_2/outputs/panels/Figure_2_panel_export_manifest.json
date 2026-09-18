@@ -32,13 +32,13 @@
     "B": {
       "png": {
         "path": "Figure_2/outputs/panels/Figure_2_B.png",
-        "bytes": 45551,
-        "sha256": "9d4dcefa05477c6426b0e2e4aa23b6b2463540ec274f7b43a65975a87a7254e7"
+        "bytes": 44545,
+        "sha256": "789b1173379d793b1796b2c3cb61d1fe7b0f39a1faa735f5870b581229a67546"
       },
       "pdf": {
         "path": "Figure_2/outputs/panels/Figure_2_B.pdf",
-        "bytes": 17763,
-        "sha256": "48176cf1c5676ce5450d98bfec64c606e4c9fb02a0293c284701445ba6048d5a"
+        "bytes": 18025,
+        "sha256": "f42ae66230462d02b1be238073173b63f0de93d6494a13c135ccf81a0b10d105"
       }
     },
     "C": {
