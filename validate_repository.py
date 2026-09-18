@@ -54,8 +54,8 @@ def main():
  if not s4_manifest_path.is_file():errors.append("missing Supplementary Figure S4 output manifest")
  else:
   s4_manifest=json.loads(s4_manifest_path.read_text())
-  if s4_manifest.get("panel_order")!=list("abcdefg"):errors.append("incorrect Supplementary Figure S4 panel order")
-  expected_legacy={"a":"T","b":"R","c":"S","d":"Q","e":"N","f":"P","g":"M"}
+  if s4_manifest.get("panel_order")!=list("abcdef"):errors.append("incorrect Supplementary Figure S4 panel order")
+  expected_legacy={"a":"T","b":"R","c":"S","d":"Q","e":"N","f":"M"}
   if s4_manifest.get("legacy_panel_mapping")!=expected_legacy:errors.append("incorrect Supplementary Figure S4 legacy panel mapping")
   for section in ("individual_outputs","compiled_outputs"):
    def check_paths(value):
@@ -63,6 +63,12 @@ def main():
      for nested in value.values():check_paths(nested)
     elif isinstance(value,str) and not (ROOT/"Supplementary/Figure_S4"/value).is_file():errors.append(f"missing S4 output: {value}")
    check_paths(s4_manifest.get(section,{}))
+  s4_panel_dir=ROOT/"Supplementary/Figure_S4/outputs/panels"
+  expected_s4_assets={f"S4_{label}_{stem}.{ext}" for label,stem in {
+   "a":"patient_site_composition","b":"overall_composition","c":"canonical_marker_expression",
+   "d":"celltype_umap","e":"cnv_clusters","f":"cnv_shortlist"}.items() for ext in ("png","pdf")}
+  actual_s4_assets={p.name for p in s4_panel_dir.iterdir() if p.is_file()}
+  if actual_s4_assets!=expected_s4_assets:errors.append(f"incorrect Supplementary Figure S4 panel assets: {sorted(actual_s4_assets^expected_s4_assets)}")
  s1=ROOT/"Supplementary/Figure_S1"
  s2=ROOT/"Supplementary/Figure_S2"
  if not (s1/"data/pooled_w").is_dir():errors.append("S1 pooled-W data directory is missing")

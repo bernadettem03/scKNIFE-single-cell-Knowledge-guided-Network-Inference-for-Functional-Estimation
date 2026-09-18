@@ -94,7 +94,6 @@ with h5py.File(S4_DATA, "r") as bundle:
     s4_sample_counts = np.asarray(bundle["atlas/patient_site_counts"][:], dtype=np.int64)
     s4_qc_xy = np.asarray(bundle["cnv_qc/umap"][:], dtype=np.float32)
     s4_qc_cluster = s4_strings(bundle["cnv_qc/cnv_leiden"][:])
-    s4_qc_celltype = s4_strings(bundle["cnv_qc/celltype"][:])
     s4_provisional_xy = np.asarray(bundle["cnv_provisional/umap"][:], dtype=np.float32)
     s4_provisional_status = s4_strings(bundle["cnv_provisional/status"][:])
     s4_marker_celltypes = s4_strings(bundle["marker_dotplots/celltypes"][:])
@@ -131,10 +130,6 @@ s4_atlas_adata = s4_plot_adata(
 s4_qc_cluster_order = [str(index) for index in range(26)]
 s4_qc_cluster_adata = s4_plot_adata(
     s4_qc_xy, s4_qc_cluster, s4_qc_cluster_order, "cnv_leiden", S4_CNV_CLUSTER_COLORS,
-)
-s4_qc_celltype_adata = s4_plot_adata(
-    s4_qc_xy, s4_qc_celltype, S4_CT_ORDER, "celltype",
-    [S4_CT_COLORS[key] for key in S4_CT_ORDER],
 )
 s4_provisional_adata = s4_plot_adata(
     s4_provisional_xy, s4_provisional_status, S4_CNV_STATUS_ORDER, "cnv_status",
@@ -206,21 +201,19 @@ def draw_s4_scanpy(ax, adata, color_key, label):
 
 def draw_s4_d(ax): draw_s4_scanpy(ax, s4_atlas_adata, "celltype", "d")
 def draw_s4_e(ax): draw_s4_scanpy(ax, s4_qc_cluster_adata, "cnv_leiden", "e")
-def draw_s4_f(ax): draw_s4_scanpy(ax, s4_qc_celltype_adata, "celltype", "f")
-def draw_s4_g(ax): draw_s4_scanpy(ax, s4_provisional_adata, "cnv_status", "g")
+def draw_s4_f(ax): draw_s4_scanpy(ax, s4_provisional_adata, "cnv_status", "f")
 
-PANEL_ORDER = tuple("abcdefg")
+PANEL_ORDER = tuple("abcdef")
 PANEL_STEMS = {
     "a": "S4_a_patient_site_composition",
     "b": "S4_b_overall_composition",
     "c": "S4_c_canonical_marker_expression",
     "d": "S4_d_celltype_umap",
     "e": "S4_e_cnv_clusters",
-    "f": "S4_f_cnv_celltype",
-    "g": "S4_g_cnv_shortlist",
+    "f": "S4_f_cnv_shortlist",
 }
-PANEL_FIGSIZES = {"a": (10.2, 4.5), "b": (5.2, 4.5), "c": (12.5, 5.2), "d": (6.0, 6.0), "e": (6.0, 6.0), "f": (6.0, 6.0), "g": (6.0, 6.0)}
-PANEL_DRAWERS = {"a": draw_s4_a, "b": draw_s4_b, "c": draw_s4_c, "d": draw_s4_d, "e": draw_s4_e, "f": draw_s4_f, "g": draw_s4_g}
+PANEL_FIGSIZES = {"a": (10.2, 4.5), "b": (5.2, 4.5), "c": (12.5, 5.2), "d": (6.0, 6.0), "e": (6.0, 6.0), "f": (6.0, 6.0)}
+PANEL_DRAWERS = {"a": draw_s4_a, "b": draw_s4_b, "c": draw_s4_c, "d": draw_s4_d, "e": draw_s4_e, "f": draw_s4_f}
 
 
 def _sha256(path):
@@ -248,7 +241,7 @@ def validate_s4_inputs():
 
 
 def _add_panel_legend(ax, label):
-    if label in ("d", "f"):
+    if label == "d":
         ax.legend(handles=s4_celltype_handles(), frameon=False, ncol=2, fontsize=S4_LEGEND_PT,
                   loc="upper left", bbox_to_anchor=(1.01, 1.0), title="Cell type")
     elif label == "e":
@@ -257,7 +250,7 @@ def _add_panel_legend(ax, label):
                    for cluster, color in zip(s4_qc_cluster_order, S4_CNV_CLUSTER_COLORS)]
         ax.legend(handles=handles, frameon=False, ncol=2, fontsize=S4_LEGEND_PT,
                   loc="upper left", bbox_to_anchor=(1.01, 1.0), title="CNV cluster")
-    elif label == "g":
+    elif label == "f":
         handles = [Line2D([0], [0], marker="o", linestyle="none", markersize=4,
                           markerfacecolor=S4_CNV_STATUS_COLORS[key], markeredgecolor="none",
                           label=f"{S4_CNV_STATUS_LABEL[key]}: {s4_status_counts[key]:,}")
@@ -283,21 +276,20 @@ def export_s4_panel(fig, label):
 
 
 def render_s4_compiled():
-    """Render the publication-clean a–g composite."""
+    """Render the publication-clean a–f composite."""
     fig = plt.figure(figsize=(S4_WIDTH_IN, S4_HEIGHT_IN), facecolor="white")
     grid = fig.add_gridspec(4, 12, height_ratios=[1.05, 1.45, .86, .74],
                             left=.065, right=.965, bottom=.035, top=.98, hspace=.52, wspace=1.35)
     ax_a=fig.add_subplot(grid[0,:8]);ax_b=fig.add_subplot(grid[0,8:]);ax_c=fig.add_subplot(grid[1,:])
-    ax_d=fig.add_subplot(grid[2,0:3]);ax_e=fig.add_subplot(grid[2,3:6]);ax_f=fig.add_subplot(grid[2,6:9]);ax_g=fig.add_subplot(grid[2,9:12])
-    draw_s4_a(ax_a);draw_s4_b(ax_b);draw_s4_c(ax_c);draw_s4_d(ax_d);draw_s4_e(ax_e);draw_s4_f(ax_f);draw_s4_g(ax_g)
-    legend_d=fig.add_subplot(grid[3,0:3]);legend_e=fig.add_subplot(grid[3,3:6]);legend_f=fig.add_subplot(grid[3,6:9]);legend_g=fig.add_subplot(grid[3,9:12])
-    for axis in (legend_d,legend_e,legend_f,legend_g):axis.axis("off")
+    ax_d=fig.add_subplot(grid[2,0:4]);ax_e=fig.add_subplot(grid[2,4:8]);ax_f=fig.add_subplot(grid[2,8:12])
+    draw_s4_a(ax_a);draw_s4_b(ax_b);draw_s4_c(ax_c);draw_s4_d(ax_d);draw_s4_e(ax_e);draw_s4_f(ax_f)
+    legend_d=fig.add_subplot(grid[3,0:4]);legend_e=fig.add_subplot(grid[3,4:8]);legend_f=fig.add_subplot(grid[3,8:12])
+    for axis in (legend_d,legend_e,legend_f):axis.axis("off")
     legend_d.legend(handles=s4_celltype_handles(),title="Cell type",frameon=False,fontsize=S4_LEGEND_PT,title_fontsize=S4_LEGEND_PT,loc="upper left")
     cluster_handles=[Line2D([0],[0],marker="o",linestyle="none",markersize=2.6,markerfacecolor=color,markeredgecolor="none",label=cluster) for cluster,color in zip(s4_qc_cluster_order,S4_CNV_CLUSTER_COLORS)]
     legend_e.legend(handles=cluster_handles,title="CNV cluster",frameon=False,ncol=2,fontsize=S4_LEGEND_PT,title_fontsize=S4_LEGEND_PT,loc="upper left")
-    legend_f.legend(handles=s4_celltype_handles(),title="Cell type",frameon=False,fontsize=S4_LEGEND_PT,title_fontsize=S4_LEGEND_PT,loc="upper left")
     status_handles=[Line2D([0],[0],marker="o",linestyle="none",markersize=3.2,markerfacecolor=S4_CNV_STATUS_COLORS[key],markeredgecolor="none",label=S4_CNV_STATUS_LABEL[key]) for key in S4_CNV_STATUS_ORDER]
-    legend_g.legend(handles=status_handles,title="CNV status",frameon=False,fontsize=S4_LEGEND_PT,title_fontsize=S4_LEGEND_PT,loc="upper left")
+    legend_f.legend(handles=status_handles,title="CNV status",frameon=False,fontsize=S4_LEGEND_PT,title_fontsize=S4_LEGEND_PT,loc="upper left")
     return fig
 
 
@@ -314,10 +306,10 @@ def write_s4_manifest(panel_outputs, compiled_outputs):
         "source":str(S4_DATA.relative_to(NOTEBOOK_DIR)),"source_sha256":_sha256(S4_DATA),
         "panel_order":list(PANEL_ORDER),
         "environment":{"python":sys.version.split()[0],"scanpy":sc.__version__,"cnsplots":"unavailable; matplotlib/scanpy fallback"},
-        "legacy_panel_mapping":{"a":"T","b":"R","c":"S","d":"Q","e":"N","f":"P","g":"M"},
-        "fields":{"a":["atlas/patient_site","atlas/patient_site_counts"],"b":["atlas/composition_counts"],"c":["marker_dotplots/genes","marker_dotplots/fraction_expressing"],"d":["atlas/umap","atlas/celltype"],"e":["cnv_qc/umap","cnv_qc/cnv_leiden"],"f":["cnv_qc/umap","cnv_qc/celltype"],"g":["cnv_provisional/umap","cnv_provisional/status"]},
-        "renderers":{"a":"matplotlib","b":"matplotlib","c":"matplotlib","d":"scanpy","e":"scanpy","f":"scanpy","g":"scanpy"},
-        "export":{"svg_text":"editable" if S4_EDITABLE_SVG_TEXT else "paths","rasterized_panels":["d","e","f","g"] if S4_RASTERIZE_UMAPS else [],"raster_dpi":S4_DPI,"umap_point_size":S4_UMAP_POINT_SIZE,"umap_alpha":S4_UMAP_ALPHA},
+        "legacy_panel_mapping":{"a":"T","b":"R","c":"S","d":"Q","e":"N","f":"M"},
+        "fields":{"a":["atlas/patient_site","atlas/patient_site_counts"],"b":["atlas/composition_counts"],"c":["marker_dotplots/genes","marker_dotplots/fraction_expressing"],"d":["atlas/umap","atlas/celltype"],"e":["cnv_qc/umap","cnv_qc/cnv_leiden"],"f":["cnv_provisional/umap","cnv_provisional/status"]},
+        "renderers":{"a":"matplotlib","b":"matplotlib","c":"matplotlib","d":"scanpy","e":"scanpy","f":"scanpy"},
+        "export":{"svg_text":"editable" if S4_EDITABLE_SVG_TEXT else "paths","rasterized_panels":["d","e","f"] if S4_RASTERIZE_UMAPS else [],"raster_dpi":S4_DPI,"umap_point_size":S4_UMAP_POINT_SIZE,"umap_alpha":S4_UMAP_ALPHA},
         "individual_outputs":panel_outputs,"compiled_outputs":compiled_outputs,
         "checks":{"cells":69391,"specimens":15,"markers":59,"cnv_clusters":26,"cnv_low":27421,"cnv_high":41970},
     }

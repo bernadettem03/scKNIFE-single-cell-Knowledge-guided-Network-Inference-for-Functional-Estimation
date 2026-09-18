@@ -105,3 +105,10 @@
 - Removed the composite heading and all descriptive in-panel titles while retaining functional axis labels and legend headers.
 - Renamed standalone panel exports and synchronized the manifest, compact notebook, README, legend, caption copies, checksums and repository validation.
 - Retained the full-render analysis notebook unchanged as historical provenance for the legacy identifiers.
+
+## Supplementary Figure S4 panel consolidation (2026-09-18)
+
+- Removed the redundant CNV-QC UMAP colored by cell type (former panel f; legacy panel P).
+- Relabeled the provisional expression-derived CNV-status shortlist from panel g to panel f (legacy panel M).
+- Preserved the panel a–e PNG renders byte-for-byte, reflowed the lower UMAP row to three equal columns, and retained the frozen 69,391-cell source bundle and CNV-low/high counts (27,421/41,970).
+- Regenerated the plotting-only notebook, standalone a–f PNG/PDF panels, compiled PNG/PDF/preview, render manifest, legends, and validation metadata. No analysis was recomputed.

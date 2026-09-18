@@ -10,8 +10,7 @@
     "c",
     "d",
     "e",
-    "f",
-    "g"
+    "f"
   ],
   "environment": {
     "python": "3.9.21",
@@ -24,8 +23,7 @@
     "c": "S",
     "d": "Q",
     "e": "N",
-    "f": "P",
-    "g": "M"
+    "f": "M"
   },
   "fields": {
     "a": [
@@ -48,10 +46,6 @@
       "cnv_qc/cnv_leiden"
     ],
     "f": [
-      "cnv_qc/umap",
-      "cnv_qc/celltype"
-    ],
-    "g": [
       "cnv_provisional/umap",
       "cnv_provisional/status"
     ]
@@ -62,16 +56,14 @@
     "c": "matplotlib",
     "d": "scanpy",
     "e": "scanpy",
-    "f": "scanpy",
-    "g": "scanpy"
+    "f": "scanpy"
   },
   "export": {
     "svg_text": "editable",
     "rasterized_panels": [
       "d",
       "e",
-      "f",
-      "g"
+      "f"
     ],
     "raster_dpi": 300,
     "umap_point_size": 0.2,
@@ -99,12 +91,8 @@
       "pdf": "outputs/panels/S4_e_cnv_clusters.pdf"
     },
     "f": {
-      "png": "outputs/panels/S4_f_cnv_celltype.png",
-      "pdf": "outputs/panels/S4_f_cnv_celltype.pdf"
-    },
-    "g": {
-      "png": "outputs/panels/S4_g_cnv_shortlist.png",
-      "pdf": "outputs/panels/S4_g_cnv_shortlist.pdf"
+      "png": "outputs/panels/S4_f_cnv_shortlist.png",
+      "pdf": "outputs/panels/S4_f_cnv_shortlist.pdf"
     }
   },
   "compiled_outputs": {
