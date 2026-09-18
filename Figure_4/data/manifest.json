@@ -54,7 +54,7 @@
           "path": "fig4_plot_data.h5",
           "selectors": [
             "shared/umap",
-            "panel_a/celltype"
+            "panel_a/scknife_final_celltype"
           ]
         }
       ],
@@ -149,13 +149,13 @@
   "files": [
     {
       "name": "README.md",
-      "bytes": 1427,
-      "sha256": "9b0e07d20eebdbade6666eff11d66a492dafd82be2589da0f40ab8bca8f72bee"
+      "bytes": 1441,
+      "sha256": "054dd437137f3131b54667b2c7b46512c6109a2e8d8178f013373aaafab792f3"
     },
     {
       "name": "fig4_plot_data.h5",
-      "bytes": 34329736,
-      "sha256": "6d6de509768c9a30db2e11caa31e478a452dfdf17bdf6ce761c137c50e60e0c2"
+      "bytes": 34407236,
+      "sha256": "f748f18db336e196c2a464440264a1af22539a98b5258fe93ff572a35cafa0d8"
     },
     {
       "name": "fig4_supplementary_plot_data.h5",

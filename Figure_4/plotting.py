@@ -28,6 +28,32 @@ DATA_MANIFEST_PATH = DATA_ROOT / "manifest.json"
 PANEL_LABELS = tuple("BCDEF")
 OUTPUT_DPI = 300
 EXPECTED_CELLS = 69_391
+DE_CELLTYPE_ORDER = [
+    "IFN-response epithelial", "Epithelial cycling", "Epithelial progenitor",
+    "Epithelial basal", "Epithelial luminal", "CAFs", "Endothelial",
+    "T cells", "Macrophages",
+]
+DE_CELLTYPE_COLORS = [
+    "#E41A1C", "#FF7F00", "#33A02C", "#1F78B4", "#6A3D9A",
+    "#A65628", "#17BECF", "#66A61E", "#E7298A",
+]
+PANEL_C_CELLTYPE_COLORS = {
+    "IFN-response epithelial": "#F57F20",
+    "Epithelial cycling": "#F57F20",
+    "Epithelial progenitor": "#F57F20",
+    "Epithelial basal": "#F57F20",
+    "Epithelial luminal": "#F57F20",
+    "CAFs": "#1878B6",
+    "Endothelial": "#6BAED6",
+    "T cells": "#9DD189",
+    "Macrophages": "#FCBB78",
+}
+DE_CELLTYPE_COUNTS = {
+    "Epithelial progenitor": 27_350, "CAFs": 7_981, "T cells": 7_461,
+    "IFN-response epithelial": 7_082, "Macrophages": 7_001,
+    "Epithelial luminal": 6_193, "Endothelial": 3_374,
+    "Epithelial cycling": 2_177, "Epithelial basal": 772,
+}
 
 mpl.rcParams.update({
     "font.family": "sans-serif",
@@ -152,7 +178,7 @@ def make_figure4_main_panel(panel_label=None):
     with h5py.File(data_path, "r") as f:
         schema = str(f.attrs.get("schema_version", "unknown"))
         u = np.asarray(f["shared/umap"][:], np.float32)
-        ct = rs(f["panel_a/celltype"])
+        ct = rs(f["panel_a/scknife_final_celltype"])
         hm = np.asarray(f["panel_c/heatmap"][:], np.float32)
         hg = rs(f["panel_c/h_cluster"])
         bd = np.asarray(f["panel_c/boundaries"][:], np.int64)
@@ -185,6 +211,10 @@ def make_figure4_main_panel(panel_label=None):
         raise RuntimeError("Invalid local CNV inputs")
     if not np.array_equal(bd, np.flatnonzero(hg[1:] != hg[:-1]) + 1):
         raise RuntimeError("Invalid H-cluster boundaries")
+    observed_ct_counts = {label: int(np.sum(ct == label)) for label in np.unique(ct)}
+    observed_track_counts = {label: int(np.sum(tracks["scKNIFE DE cell type"] == label)) for label in np.unique(tracks["scKNIFE DE cell type"])}
+    if observed_ct_counts != DE_CELLTYPE_COUNTS or observed_track_counts != DE_CELLTYPE_COUNTS:
+        raise RuntimeError("scKNIFE final cell-type categories or counts changed")
     mix_e_order = ["normal", "tumor"]
     mix_e_labels = ["Normal", "Tumor"]
     mix_e_colors = ["#56B4E9", "#D55E00"]
@@ -194,7 +224,7 @@ def make_figure4_main_panel(panel_label=None):
     mix_e_sem = np.array([np.std(values, ddof=1) / np.sqrt(len(values)) for values in mix_e_values], dtype=np.float64)
 
 
-    ctc = {"IFN-response epithelial":"#F57F20", "Epithelial cycling":"#F57F20", "Epithelial":"#F57F20", "Epithelial basal":"#F57F20", "Epithelial luminal":"#F57F20", "Epithelial stress/EMT":"#F57F20", "Epithelial progenitor":"#F57F20", "CAFs":"#1878B6", "Endothelial":"#6BAED6", "T cells":"#9DD189", "Macrophages":"#FCBB78"}
+    ctc = PANEL_C_CELLTYPE_COLORS
     hlist = [f"H{i}" for i in range(12)]
     hcolors = ["#009E73", "#9A42E8", "#E69F00", "#21B6C7", "#D62728", "#8C564B", "#AEC7E8", "#D66DB3", "#B6BD61", "#FFBB78", "#FA8F8F", "#2B83BA"]
     specs = [("Patient", mix_patient_order, ["#0072B2", "#E69F00", "#009E73", "#CC79A7", "#56B4E9", "#D55E00", "#F0E442"]), ("Site", ["Bx", "Surgery", "Recurrence"], ["#377EB8", "#E41A1C", "#984EA3"]), ("Metastatic", ["Non-metastatic", "Metastatic"], ["#4DAF4A", "#E41A1C"]), ("Library", ["Library1", "Library2", "Library3", "Library4"], ["#1F78B4", "#FFB000", "#33A02C", "#E31A1C"]), ("scKNIFE DE cell type", ["IFN-response epithelial", "Epithelial cycling", "Epithelial progenitor", "Epithelial basal", "Epithelial luminal", "CAFs", "Endothelial", "T cells", "Macrophages"], ["#E41A1C", "#FF7F00", "#33A02C", "#1F78B4", "#6A3D9A", "#A65628", "#17BECF", "#66A61E", "#E7298A"])]
@@ -301,8 +331,8 @@ def make_figure4_main_panel(panel_label=None):
         # F: dense heatmap and metadata strips remain rasterized by design.
         rect = mix_heading(fig, "F", "All-cell H-cluster marker expression")
         left, bottom, width, height = .13, .25, .73, .57
-        mix_de_order = ["IFN-response epithelial", "Epithelial cycling", "Epithelial progenitor", "Epithelial basal", "Epithelial luminal", "CAFs", "Endothelial", "T cells", "Macrophages"]
-        mix_de_colors = ["#E41A1C", "#FF7F00", "#33A02C", "#1F78B4", "#6A3D9A", "#A65628", "#17BECF", "#66A61E", "#E7298A"]
+        mix_de_order = DE_CELLTYPE_ORDER
+        mix_de_colors = DE_CELLTYPE_COLORS
         mix_de_color_by_label = dict(zip(mix_de_order, mix_de_colors))
         if set(tracks["scKNIFE DE cell type"]) != set(mix_de_order):
             raise RuntimeError("scKNIFE DE cell-type categories do not match the declared legend")
