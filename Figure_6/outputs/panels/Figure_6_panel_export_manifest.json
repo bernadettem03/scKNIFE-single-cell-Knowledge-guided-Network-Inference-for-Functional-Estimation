@@ -44,13 +44,18 @@
     "C": {
       "png": {
         "path": "Figure_6/outputs/panels/Figure_6_C.png",
-        "bytes": 154396,
-        "sha256": "6cea73ef2135fd60fb87e6e5e76d2f73b1ecfce499adf7efbdc0b411007687ef"
+        "bytes": 117394,
+        "sha256": "54728c95fb941ea122e1ccd962a10e84eacdbb0da1da66e2463a3bfa167f5200"
       },
       "pdf": {
         "path": "Figure_6/outputs/panels/Figure_6_C.pdf",
-        "bytes": 27781,
-        "sha256": "be591b8a029646bdc6d7f2c65895f4fe41bb264774200f547ba0eaa70771afbc"
+        "bytes": 34915,
+        "sha256": "be5b51271661e32b84e81457c2ca51e9e5b5a8171fe5ccf4464358e6699a18b9"
+      },
+      "svg": {
+        "path": "Figure_6/outputs/panels/Figure_6_C.svg",
+        "bytes": 36132,
+        "sha256": "0cf359eec1707b31bf49078e25988fe6b18544124b241c015d5760b1c14bb370"
       }
     },
     "D": {
@@ -113,5 +118,20 @@
         "sha256": "13ca11d96a6fa77b5175ed529b9a86ae91996e271a08a64964032d0bd504d5e5"
       }
     }
+  },
+  "panel_C_revision": {
+    "date": "2026-09-23",
+    "comparison": "pooled matched scores",
+    "formats": [
+      "png",
+      "pdf",
+      "svg"
+    ],
+    "inputs": [
+      "meia_vs_scknife_pooled_correlations.csv",
+      "meia_vs_scknife_pooled_density.csv.gz"
+    ],
+    "other_panels_unchanged": true,
+    "dotted_line": "OLS fitted to all matched pairs; descriptive"
   }
 }

@@ -6,6 +6,21 @@
       "sha256": "c0962da77d915be4846b1f453d9dfc85aa5ceb51df0a136b12dd3111af3b5f4f"
     },
     {
+      "path": "meia_vs_scknife_pooled_correlations.csv",
+      "bytes": 693,
+      "sha256": "e441817ed253c10a7911b244b0b3f6d247db336124fb38e0504e164203bbdb3d"
+    },
+    {
+      "path": "meia_vs_scknife_pooled_density.csv.gz",
+      "bytes": 133249,
+      "sha256": "3d9b8eef3a19fcc3ed2f0dca31a61444f91b2b5a279e443cce3abe46a784a139"
+    },
+    {
+      "path": "meia_vs_scknife_pooled_provenance.json",
+      "bytes": 22535,
+      "sha256": "06aee60a86a6bc07dba3005db1d5dfe9861cf247ab4f2fe163d492ee710a12fd"
+    },
+    {
       "path": "robust_metabolite_pathway_assignments.csv",
       "bytes": 19635,
       "sha256": "7964c27b97bb9f6082d086fc88ba017b317593909b02f1f7d730ea0ef99fa778"

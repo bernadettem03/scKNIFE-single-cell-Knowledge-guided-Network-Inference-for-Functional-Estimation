@@ -27,6 +27,7 @@ FIG6 = REPO / "Figure_6"
 S6 = REPO / "Supplementary/Figure_S6"
 
 MAIN_FILES = [
+    'meia_vs_scknife_pooled_correlations.csv', 'meia_vs_scknife_pooled_density.csv.gz', 'meia_vs_scknife_pooled_provenance.json',
     "treatment_four_set_membership.csv", "surgery_pathway_scatter.csv", "surgery_pathway_enrichment.csv",
     "meia_vs_scknife_entity_correlations.csv", "robust_metabolite_pathway_assignments.csv",
     "robust_metabolite_pathway_context_counts.csv", "sulfur_cohort_patient_values.csv",
@@ -473,13 +474,15 @@ def build_plotting_module():
         "_draw_macrophage_tasks", "_draw_selenium_lcms", "_draw_ng8_graph", "_draw_review_s1",
         "_draw_su3_tasks",
     }
-    chunks = ["\n".join(source.splitlines()[:68])]
+    header_end = next(node.lineno for node in tree.body if isinstance(node, ast.FunctionDef))
+    chunks = ["\n".join(source.splitlines()[:header_end - 1])]
     for node in tree.body:
-        if isinstance(node, (ast.Assign, ast.AnnAssign)) and node.lineno > 68:
+        if isinstance(node, (ast.Assign, ast.AnnAssign)) and node.lineno >= header_end:
             chunks.append(ast.get_source_segment(source, node))
         elif isinstance(node, ast.FunctionDef) and node.name in keep_functions:
             chunks.append(ast.get_source_segment(source, node))
     module = "\n\n".join(chunks)
+    module = module.replace("from figure_6_pooled_concordance import draw_pooled_concordance as _draw_pooled_concordance\n", "")
     module = module.replace("from scipy.stats import pearsonr, spearmanr\n", "")
     # Public renderers consume frozen inferential tables.
     start = module.index("def _sulfur_treatment_statistics") if "def _sulfur_treatment_statistics" in module else -1
@@ -777,7 +780,7 @@ def _draw_2aep_status(container, data, label="S2"):
 
 
 MAIN_INPUTS={
-"A":["treatment_four_set_membership.csv"],"B":["surgery_pathway_scatter.csv","surgery_pathway_enrichment.csv","treatment_four_set_membership.csv"],"C":["meia_vs_scknife_entity_correlations.csv"],
+"A":["treatment_four_set_membership.csv"],"B":["surgery_pathway_scatter.csv","surgery_pathway_enrichment.csv","treatment_four_set_membership.csv"],"C":['meia_vs_scknife_pooled_correlations.csv', 'meia_vs_scknife_pooled_density.csv.gz'],
 "D":["tier3_two_node_patient_values.csv","tier3_two_node_p3_cells.csv.gz","tier3_two_node_statistics.csv"],
 "E":["robust_metabolite_pathway_assignments.csv","robust_metabolite_pathway_context_counts.csv"],
 "F":["sulfur_cohort_patient_values.csv","sulfur_cohort_treatment_statistics.csv"],
@@ -793,7 +796,7 @@ def load_tables(data_root, inputs):
 
 def make_figure6_main_panel(label,data):
     fig=plt.figure(figsize=((_mm(TIER3_STANDALONE_WIDTH_MM),_mm(TIER3_STANDALONE_HEIGHT_MM)) if label=="D" else ((14.5,8.8) if label=="H" else (_mm(112),_mm(88)))),facecolor="white")
-    {"A":lambda:_draw_four_set_upset(fig,data,"A","treatment_four_set_membership.csv","Treatment four-set metabolic overlap"),"B":lambda:_draw_treatment_pathway_scatter(fig,data,"B"),"C":lambda:_draw_entity_concordance(fig,data,"C","meia"),"D":lambda:_draw_two_node_evidence(fig,data,"D"),"E":lambda:_draw_pathway_context_pie(fig,data,"E"),"F":lambda:_draw_macrophage_tasks(fig,data,"F"),"G":lambda:_draw_selenium_lcms(fig,data,"G"),"H":lambda:_draw_ng8_graph(fig,data,"H")}[label]()
+    {"A":lambda:_draw_four_set_upset(fig,data,"A","treatment_four_set_membership.csv","Treatment four-set metabolic overlap"),"B":lambda:_draw_treatment_pathway_scatter(fig,data,"B"),"C":lambda:_draw_pooled_concordance(fig,data,"C"),"D":lambda:_draw_two_node_evidence(fig,data,"D"),"E":lambda:_draw_pathway_context_pie(fig,data,"E"),"F":lambda:_draw_macrophage_tasks(fig,data,"F"),"G":lambda:_draw_selenium_lcms(fig,data,"G"),"H":lambda:_draw_ng8_graph(fig,data,"H")}[label]()
     return fig
 
 def make_figure6_supplementary_panel(label,data):
@@ -803,7 +806,7 @@ def make_figure6_supplementary_panel(label,data):
 
 def make_figure6_compiled(data):
     fig=plt.figure(figsize=(_mm(297),_mm(380)),facecolor="white");rows=fig.subfigures(4,1,height_ratios=[.86,.98,.90,1.45],hspace=.035);top=rows[0].subfigures(1,3,wspace=.045)
-    _draw_four_set_upset(top[0],data,"A","treatment_four_set_membership.csv","Treatment four-set metabolic overlap");_draw_treatment_pathway_scatter(top[1],data,"B");_draw_entity_concordance(top[2],data,"C","meia");_draw_two_node_evidence(rows[1],data,"D")
+    _draw_four_set_upset(top[0],data,"A","treatment_four_set_membership.csv","Treatment four-set metabolic overlap");_draw_treatment_pathway_scatter(top[1],data,"B");_draw_pooled_concordance(top[2],data,"C");_draw_two_node_evidence(rows[1],data,"D")
     evidence=rows[2].subfigures(1,3,width_ratios=[.95,1.62,.93],wspace=.045);_draw_pathway_context_pie(evidence[0],data,"E");_draw_macrophage_tasks(evidence[1],data,"F");_draw_selenium_lcms(evidence[2],data,"G");_draw_ng8_graph(rows[3],data,"H");return fig
 
 def make_figure6_supplementary(data):
@@ -817,6 +820,7 @@ def save_figure(fig, stem, dpi=300):
 '''
     if any(term in module for term in ("pearsonr(", "spearmanr(", "multipletests(", "ttest_ind(", "wilcoxon(")):
         raise RuntimeError("Public plotting module still contains inferential calls")
+    module += "\n\ndef _draw_pooled_concordance(container,data,label=\"C\"):\n    from pooled_concordance import draw_pooled_concordance\n    return draw_pooled_concordance(container,data,label)\n"
     return module
 
 
@@ -848,6 +852,7 @@ for label in {labels!r}:
 
 
 def main():
+    shutil.copy2(SOURCE_NOTEBOOK.parent / "figure_6_pooled_concordance.py", FIG6 / "pooled_concordance.py")
     stage_data(FIG6 / "data", MAIN_FILES, include_two_node=True)
     stage_data(S6 / "data", SUPPLEMENT_FILES, include_2aep=True)
     plotting = build_plotting_module()
