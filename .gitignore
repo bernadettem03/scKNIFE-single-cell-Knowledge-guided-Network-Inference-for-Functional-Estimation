@@ -2,6 +2,9 @@
 private_archive/
 zenodo_staging/
 *.svg
+!Figure_4/outputs/Figure_4.svg
+!Figure_4/outputs/Figure_4_main_panel.svg
+!Figure_4/outputs/panels/Figure_4_?.svg
 *.tif
 *.tiff
 

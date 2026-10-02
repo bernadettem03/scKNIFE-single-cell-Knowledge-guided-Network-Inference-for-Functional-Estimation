@@ -1,0 +1,15 @@
+{
+  "panel": "E",
+  "cells": 69391,
+  "normal": 27421,
+  "tumor": 41970,
+  "coordinate_source": "fig4_cd_final.h5:umap",
+  "coordinate_sha256": "ec13b532465ab25d6c87cc4cc150926bd98bd01ec08aa118ff14949d6bbeb5b3",
+  "score_sha256": "c725eeaca01ec7132c98af04b9e611221f06978586f4e9637ab7b3d3bfa044fd",
+  "color_limits": [
+    0.001861070515587926,
+    0.007443111855536699
+  ],
+  "cnv_recomputed": false,
+  "status": "PASS"
+}

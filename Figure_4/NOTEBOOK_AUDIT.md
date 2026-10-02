@@ -2,16 +2,16 @@
 
 ## Public plotting contract
 
-`Figure_4.ipynb` is a compact plotting-only entrypoint. It imports reusable renderers from `plotting.py`, validates the frozen Figure 4 bundle, renders panels B–F independently, and compiles the approved main-page layout.
+`Figure_4.ipynb` is a compact plotting-only entrypoint. It imports `figure4_editable.py`, validates frozen inputs under `data/singler/`, renders B–G and compiles the 210 × 390 mm main layout. The prior DE heatmap and six-marker panel are no longer current Figure 4 panels; their analytical inputs remain as provenance.
 
 ## Analysis boundary
 
-UMAP construction, H clustering, CNV inference, differential expression, marker selection, and TNBCtype assignment are never run by the public notebook or plotting module. Their provenance remains under `analysis/`; the root workflow consumes only the validated frozen bundle.
+UMAP construction, H clustering, SingleR assignment, CNV inference, differential expression and TNBCtype assignment are never run by the public notebook. The renderer checks 69,391 matched cells, shared saved H-derived coordinates, staged source hashes, and exact marker names. SingleR relative scores are not probabilities.
 
 ## Data and distribution
 
-The large `fig4_plot_data.h5` bundle remains private and unpublished, is restored with `download_data.py`, and is explicitly Git-ignored. Public mappings use P1–P7 display identifiers. Supplementary Figure 4 remains under `Supplementary/Figure_S4/`.
+The large legacy `fig4_plot_data.h5` bundle remains private and unpublished, is restored with `download_data.py`, and is explicitly Git-ignored. Current portable plot inputs are in `data/singler/`; the patient strip legend uses only P1–P7. Supplementary Figure 4 remains under `Supplementary/Figure_S4/`.
 
 ## Acceptance boundary
 
-Panels B–F and the compiled figure must render inline, export as PNG/PDF, retain the approved mixed raster/vector appearance, contain no absolute paths, and pass manifest/checksum validation without tracking the private bundle.
+Panels B–G and the compiled figure render inline, export as PNG/PDF/SVG, contain no absolute paths, and pass manifest/checksum validation without the private bundle. Dense UMAP/heatmap data are embedded images; PDF/SVG text, legends, axes, B/D plot elements and E's violin remain editable. The old B matrix-row/P-label mismatch is corrected by explicit patient-ID alignment.

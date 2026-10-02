@@ -1,0 +1,21 @@
+{
+  "panels": [
+    "C",
+    "D"
+  ],
+  "cells": 69391,
+  "clusters": 15,
+  "epithelial_cells": 41625,
+  "DE_genes_tested": 16456,
+  "selection": "padj < 0.05; log2FC > 0.5; descending Wilcoxon score, ascending gene tie break; ten per cluster",
+  "heatmap": "all cells; gene-wise z-score (population SD), clipped -3 to 3; repeated genes retained in selecting-cluster blocks; IDs 0\u201314, stable within-cluster cell order",
+  "expression_layer": "log1p_norm",
+  "analyses_recomputed": false,
+  "sources": {
+    "hgraph_res0p5.h5ad": "e40fc174cc82d7bb8075a91b03f1929192f3d134e1846e8d92fecef3b0cf1a76",
+    "final_celltype_annotations.h5ad": "6ae98fcd2d49220727c4559f5eddf484020d33901a6fa089f03af969ac3adc29",
+    "DE_all_genes.csv": "116acf26e26499e2e9609d29ff2e680d6d4c547600416137b4f6c059f710ccab"
+  },
+  "bundle_sha256": "c47916c2a962dc1a1418f31b197947b03f39d007416c2ef118271d5095078ff3",
+  "annotation_rename": "2026-09-28; C9/C13/C14 unchanged"
+}

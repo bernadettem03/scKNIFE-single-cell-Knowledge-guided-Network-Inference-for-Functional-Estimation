@@ -1,0 +1,17 @@
+{
+  "genes": [
+    "EGFL7",
+    "ACAP1",
+    "PDGFRB",
+    "CD163",
+    "KRT7",
+    "TRPS1"
+  ],
+  "cells": 69391,
+  "layer": "log1p_norm",
+  "scale": "0 to gene-specific 98th percentile of positive expression",
+  "bundle_sha256": "0c92447a3f19ce76a3afd9e64af96086cd6d1300f48c1007a20afb18fbb381ac",
+  "expression_source": "adata_processed_with_doublets_20th_feb_final_annotated.h5ad",
+  "analyses_recomputed": false,
+  "annotation_rename": "2026-09-28; C9/C13/C14 unchanged"
+}

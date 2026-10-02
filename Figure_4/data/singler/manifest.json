@@ -1,0 +1,87 @@
+{
+  "cells": 69391,
+  "marker_genes": [
+    "EPCAM",
+    "DCN",
+    "RGS5",
+    "CD2",
+    "MZB1",
+    "C1QA"
+  ],
+  "marker_expression": "natural log1p(counts per 10,000 cells); positive-cell P98 display limits",
+  "cnv": "existing CNV cluster score and status; not recomputed",
+  "embedding": "saved H-derived resolution-0.8 UMAP, exactly matched to query cell IDs",
+  "panel_C": "full Wu-atlas SingleR major calls assigned per cell after default pruning; Cancer/Normal Epithelial collapsed to broad Epithelial for display",
+  "panel_C_cell_predictions_sha256": "58b2a6f2e019bfcfaa741763293625997a9f35b1c9d434a2925abbfc39ed5188",
+  "panel_C_cluster_predictions_sha256": "e7b45249f7c93b7761b4adf6cf1161975ba697a1110992d608489fc77a2eab39",
+  "panel_D": "40 Wu-reference marker positions; rows grouped by the same eight broad cell-level SingleR predictions shown in C",
+  "panel_D_marker_source_sha256": "cb5c841b2def08113490990d5571263ac4d24d13da67482c139d97ed8b555705",
+  "patient_legend": [
+    [
+      "P1",
+      "#66c2a5"
+    ],
+    [
+      "P4",
+      "#fc8d62"
+    ],
+    [
+      "P7",
+      "#8da0cb"
+    ],
+    [
+      "P5",
+      "#e78ac3"
+    ],
+    [
+      "P6",
+      "#a6d854"
+    ],
+    [
+      "P2",
+      "#ffd92f"
+    ],
+    [
+      "P3",
+      "#e5c494"
+    ]
+  ],
+  "score_scale": "within-cell range scaled, then cubed; not a probability",
+  "score_rows": [
+    "Epithelial",
+    "Endothelial",
+    "CAFs",
+    "PVL",
+    "T-cells",
+    "B-cells",
+    "Plasmablasts",
+    "Myeloid"
+  ],
+  "score_source_sha256": "acfc5843d3efdeb92ccd128dedf5d539d58981a4103efb8319e6250383c12ece",
+  "epithelial_score_collapse": "per-cell maximum of raw Cancer Epithelial and Normal Epithelial scores before within-cell range scaling and cubing",
+  "score_header_crop_px": 275,
+  "source_asset_sha256": {
+    "C.png": "945a84d9319b7e765c4f89aee1e31355b4f56c94d38828f6219602519c0b5cfb",
+    "C.pdf": "7991fedc1cc7b596ab33a07d25b4c890515a1beb59536f3793309d027c23e4f0",
+    "D.png": "e48d9fbc01c999b929db4530c46a01cb711eb001537763019d9b328b3bafc1c3",
+    "D.pdf": "eedf8f0aad683501e10f9841154078b6be9cfe7537aed79ed61f9bc04e49251e",
+    "B_source.png": "7937c5031d3913376e640248fcc46e638a5e89ef5066b1ee7fb65248209d6ded",
+    "B_source.pdf": "5f50a221941532ce22e8fd557f204192efe7cb0c9a14ac1b1c2cbec84cd006d6",
+    "E_source.png": "878d9db6c5f0209440517dce583dd56d79ec16210c81887df78c5ae66e75db14",
+    "E_source.pdf": "cb1aad5c42cf6d79e400f536736564b5bce13c99d0a40b5e9daaeec31683f711"
+  },
+  "packaged_sha256": {
+    "D.pdf": "eedf8f0aad683501e10f9841154078b6be9cfe7537aed79ed61f9bc04e49251e",
+    "E_source.png": "878d9db6c5f0209440517dce583dd56d79ec16210c81887df78c5ae66e75db14",
+    "E_source.pdf": "cb1aad5c42cf6d79e400f536736564b5bce13c99d0a40b5e9daaeec31683f711",
+    "manifest.json": "96d25859fba8f438af5656b9803b1f9f7a8d727e6329ab4bb2aa8c1afaa1df22",
+    "D_values.csv": "3e29cd6277f04fe7ca1abe353a238632f1626e0ea33e27234d6d5bdbf33fdf2b",
+    "C.pdf": "7991fedc1cc7b596ab33a07d25b4c890515a1beb59536f3793309d027c23e4f0",
+    "B_source.pdf": "5f50a221941532ce22e8fd557f204192efe7cb0c9a14ac1b1c2cbec84cd006d6",
+    "D.png": "e48d9fbc01c999b929db4530c46a01cb711eb001537763019d9b328b3bafc1c3",
+    "C.png": "945a84d9319b7e765c4f89aee1e31355b4f56c94d38828f6219602519c0b5cfb",
+    "B_source.png": "7937c5031d3913376e640248fcc46e638a5e89ef5066b1ee7fb65248209d6ded",
+    "overlays.h5": "d45a773807aeb5f6ba884dc4718219ee665bb14c1a4419cf712d1b06d5229409",
+    "G_score_body.png": "0f394a9686572c78981a8b151ff7fd6e43cc4d3d6ae1cce125a1b3112b672522"
+  }
+}

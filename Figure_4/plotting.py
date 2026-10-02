@@ -196,7 +196,17 @@ def make_figure4_main_panel(panel_label=None):
         subtype_score_subtypes = rs(f["panel_g/subtype_correlation_subtypes"]).tolist()
 
     # Panel E uses the same H-graph-derived UMAP as the H-cluster panels.
-    mix_h_xy = u
+    # E uses the exact saved embedding in C; scores remain in verified cell-ID order.
+    import hashlib
+    from figure4_cd import validate_cd
+    cd_path = data_path.with_name("fig4_cd_final.h5")
+    validate_cd(cd_path)
+    with h5py.File(data_path, "r") as legacy, h5py.File(cd_path, "r") as final_cd:
+        ids = legacy["shared/cell_id"].asstr()[:]
+        digest = hashlib.sha256("\n".join(ids).encode()).hexdigest()
+        if digest != final_cd.attrs["cell_id_order_sha256"]:
+            raise RuntimeError("CNV and panel C cell-ID order mismatch")
+        mix_h_xy = final_cd["umap"][:]
     mix_h_score = cnv_score
     if mix_h_xy.shape != (len(mix_h_score), 2) or not np.isfinite(mix_h_xy).all() or not np.isfinite(mix_h_score).all():
         raise RuntimeError("Invalid H-graph CNV-score UMAP inputs")
@@ -315,70 +325,12 @@ def make_figure4_main_panel(panel_label=None):
     fig = plt.figure(figsize=(FIG4_W_MM / 25.4, FIG4_H_MM / 25.4), facecolor="white")
 
     if panel_label in (None, "C"):
-        # C: PNG UMAP artwork with vector legend.
-        rect = mix_heading(fig, "C", "DE-based final cell type")
-        ax = fig.add_axes(mix_inside(rect, .04, .08, .60, .82))
-        ax.imshow(imread(mix_c_png), aspect="auto", interpolation="none", extent=[mix_c_xlim[0], mix_c_xlim[1], mix_c_ylim[0], mix_c_ylim[1]], origin="upper")
-        ax.set_xlim(mix_c_xlim); ax.set_ylim(mix_c_ylim); ax.set_xticks([]); ax.set_yticks([])
-        ax.spines["top"].set_visible(False); ax.spines["right"].set_visible(False)
-        for spine in (ax.spines["left"], ax.spines["bottom"]): spine.set_visible(True); spine.set_linewidth(.45); spine.set_color("black")
-        c_handles = [Line2D([0], [0], marker="o", color="none", markerfacecolor=color, markeredgewidth=0, markersize=4, label=label) for label, color in ctc.items()]
-        c_legend_ax = fig.add_axes(mix_inside(rect, .68, .08, .30, .82))
-        c_legend_ax.set_axis_off()
-        c_legend_ax.legend(handles=c_handles, frameon=False, loc="upper left", ncol=1, fontsize=FIG4_TICK_PT, handlelength=.7, handletextpad=.25, columnspacing=.30, labelspacing=.10, borderaxespad=0)
-
-    if panel_label in (None, "F"):
-        # F: dense heatmap and metadata strips remain rasterized by design.
-        rect = mix_heading(fig, "F", "All-cell H-cluster marker expression")
-        left, bottom, width, height = .13, .25, .73, .57
-        mix_de_order = DE_CELLTYPE_ORDER
-        mix_de_colors = DE_CELLTYPE_COLORS
-        mix_de_color_by_label = dict(zip(mix_de_order, mix_de_colors))
-        if set(tracks["scKNIFE DE cell type"]) != set(mix_de_order):
-            raise RuntimeError("scKNIFE DE cell-type categories do not match the declared legend")
-        for row, (label, cats, colors) in enumerate(specs):
-            ax = fig.add_axes(mix_inside(rect, left, bottom + height + .018 + (len(specs) - 1 - row) * .026, width, .021))
-            if label == "scKNIFE DE cell type":
-                cats, colors = mix_de_order, mix_de_colors
-            code = {value: index for index, value in enumerate(cats)}
-            ax.imshow(np.array([code[value] for value in tracks[label]])[None, :], aspect="auto", interpolation="nearest", cmap=mpl.colors.ListedColormap(colors), vmin=0, vmax=max(1, len(colors) - 1), rasterized=True)
-            for boundary in bd: ax.axvline(boundary - .5, color="black", linewidth=.20)
-            ax.set_xticks([]); ax.set_yticks([]); ax.text(-.008, .5, label, transform=ax.transAxes, ha="right", va="center", fontsize=FIG4_TICK_PT); ax.set_frame_on(False)
-        hcode = {value: index for index, value in enumerate(hlist)}
-        ax = fig.add_axes(mix_inside(rect, left, bottom + height + .018, width, .021))
-        ax.imshow(np.array([hcode[value] for value in hg])[None, :], aspect="auto", cmap=mpl.colors.ListedColormap(hcolors), vmin=0, vmax=11, rasterized=True)
-        for boundary in bd: ax.axvline(boundary - .5, color="black", linewidth=.25)
-        ax.set_xticks([]); ax.set_yticks([]); ax.text(-.008, .5, "H cluster", transform=ax.transAxes, ha="right", va="center", fontsize=FIG4_TICK_PT); ax.set_frame_on(False)
-        ax = fig.add_axes(mix_inside(rect, left, bottom, width, height))
-        ax.imshow(hm, aspect="auto", interpolation="nearest", cmap="bwr", vmin=-3, vmax=3, rasterized=True)
-        for boundary in bd: ax.axvline(boundary - .5, color="black", linewidth=.30)
-        for boundary in range(10, 120, 10): ax.axhline(boundary - .5, color="black", linewidth=.25)
-        ax.set_xticks([]); ax.set_yticks([]); ax.text(-.008, .5, "Top 10 ranked genes per H cluster", transform=ax.transAxes, ha="right", va="center", rotation=90, fontsize=FIG4_TICK_PT)
-        source_ax = fig.add_axes(mix_inside(rect, .865, bottom, .012, height))
-        source_ax.imshow(np.array([hcode[value] for value in mg])[:, None], aspect="auto", cmap=mpl.colors.ListedColormap(hcolors), vmin=0, vmax=11, rasterized=True); source_ax.set_axis_off()
-        mix_vector_colorbar(fig, mix_inside(rect, .886, bottom + .12, .017, height * .60), mpl.colormaps["bwr"], -3, 3, label="Scaled expression")
-        legend_ax = fig.add_axes(mix_inside(rect, .13, .01, .77, .20)); legend_ax.axis("off")
-        patient_handles = [Patch(facecolor=color, edgecolor="none", label=patient_display[label]) for label, color in zip(specs[0][1], specs[0][2])]
-        annotation_handles = [Patch(facecolor=color, edgecolor="none", label=label) for _, cats, colors in specs[1:4] for label, color in zip(cats, colors)]
-        de_handles = [Patch(facecolor=mix_de_color_by_label[label], edgecolor="none", label=label) for label in mix_de_order]
-        legend = legend_ax.legend(handles=patient_handles, title="Patient", loc="upper left", bbox_to_anchor=(0, 1), ncol=2, frameon=False, fontsize=FIG4_TICK_PT, title_fontsize=FIG4_TICK_PT, handlelength=.9, columnspacing=.50, labelspacing=.18, borderaxespad=0); legend_ax.add_artist(legend)
-        legend = legend_ax.legend(handles=annotation_handles, title="Sample annotations", loc="upper left", bbox_to_anchor=(.31, 1), ncol=2, frameon=False, fontsize=FIG4_TICK_PT, title_fontsize=FIG4_TICK_PT, handlelength=.9, columnspacing=.42, labelspacing=.18, borderaxespad=0); legend_ax.add_artist(legend)
-        legend_ax.legend(handles=de_handles, title="scKNIFE DE cell type", loc="upper left", bbox_to_anchor=(.66, 1), ncol=1, frameon=False, fontsize=FIG4_TICK_PT, title_fontsize=FIG4_TICK_PT, handlelength=.9, labelspacing=.18, borderaxespad=0)
+        from figure4_cd import draw_updated_panel
+        draw_updated_panel(fig, FIG4_LAYOUT_RECTS["C"], "C", mix_root / "data/fig4_cd_final.h5")
 
     if panel_label in (None, "D"):
-        # D: PNG UMAP artwork with vector titles and colour bars.
-        rect = mix_heading(fig, "D", "Canonical H-cluster marker expression")
-        mix_positions = [(.020, .535), (.262, .535), (.504, .535), (.746, .535), (.020, .095), (.262, .095), (.504, .095), (.746, .095)]
-        for gene, cluster, label, values, png_path, loc in zip(marker_genes, marker_h_clusters, marker_labels, marker_expression.T, mix_d_pngs, mix_positions):
-            ax = fig.add_axes(mix_inside(rect, loc[0], loc[1], .150, .310))
-            ax.imshow(imread(png_path), aspect="auto", interpolation="none", extent=[mix_d_xlim[0], mix_d_xlim[1], mix_d_ylim[0], mix_d_ylim[1]], origin="upper")
-            ax.set_title(f"{gene}\n{label} ({cluster})", fontsize=FIG4_UMAP_TITLE_PT, fontweight="bold", pad=1)
-            ax.set_xlim(mix_d_xlim); ax.set_ylim(mix_d_ylim); ax.set_xticks([]); ax.set_yticks([])
-            ax.spines["top"].set_visible(False); ax.spines["right"].set_visible(False)
-            for spine in (ax.spines["left"], ax.spines["bottom"]): spine.set_visible(True); spine.set_linewidth(.45); spine.set_color("black")
-            mix_vmin, mix_vmax = np.percentile(values, [2, 98])
-            if not mix_vmax > mix_vmin: mix_vmax = mix_vmin + 1e-6
-            mix_vector_colorbar(fig, mix_inside(rect, loc[0] + .161, loc[1] + .032, .008, .235), mix_marker_cmap, mix_vmin, mix_vmax, ticks=np.linspace(mix_vmin, mix_vmax, 4))
+        from figure4_cd import draw_updated_panel
+        draw_updated_panel(fig, FIG4_LAYOUT_RECTS["D"], "D", mix_root / "data/fig4_cd_final.h5")
 
     if panel_label in (None, "E"):
         # E: H-graph CNV-score UMAP plus a descriptive status summary.
@@ -415,6 +367,10 @@ def make_figure4_main_panel(panel_label=None):
         for spine in ax.spines.values(): spine.set_visible(True); spine.set_color("black"); spine.set_linewidth(.5)
         mix_vector_colorbar(fig, mix_inside(rect, .89, .13, .035, .74), score_cmap, -correlation_limit, correlation_limit, label="Correlation to subtype centroid")
         ax.text(.5, -.22, "Outlined cell: assigned subtype; positive correlation = stronger support", transform=ax.transAxes, ha="center", va="top", fontsize=FIG4_TICK_PT)
+
+    if panel_label in (None, "F"):
+        from figure4_f import draw_marker_panel
+        draw_marker_panel(fig, FIG4_LAYOUT_RECTS["F"], mix_root / "data/fig4_f_markers.h5")
 
     mix_tempdir.cleanup()
     return fig

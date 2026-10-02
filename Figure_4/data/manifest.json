@@ -52,76 +52,91 @@
       "extraction_mode": "staged_frozen"
     },
     "C": {
-      "title": "DE-based final cell type",
+      "title": "Final cell type and state",
       "kind": "data",
       "inputs": [
         {
-          "path": "fig4_plot_data.h5",
+          "path": "fig4_cd_final.h5",
           "selectors": [
-            "shared/umap",
-            "panel_a/scknife_final_celltype"
+            "umap",
+            "cluster",
+            "labels",
+            "colors"
           ]
+        },
+        {
+          "path": "fig4_cd_manifest.json"
         }
       ],
-      "extractor": "extractor_scripts/extract_figure_4_data.py",
-      "extraction_mode": "staged_frozen"
+      "extraction_mode": "completed_final_resolution_0.5",
+      "provenance": "fig4_cd_manifest.json",
+      "extractor": "extractor_scripts/extract_figure4_cd_final.py (private staging; outputs supplied locally)"
     },
     "D": {
-      "title": "Canonical H-cluster marker expression",
+      "title": "Top ten DE genes per H cluster",
       "kind": "data",
       "inputs": [
         {
-          "path": "fig4_plot_data.h5",
+          "path": "fig4_cd_final.h5",
           "selectors": [
-            "shared/umap",
-            "panel_f/marker_expression",
-            "panel_f/marker_genes",
-            "panel_f/marker_h_clusters",
-            "panel_f/marker_labels"
+            "heatmap",
+            "display_genes",
+            "marker_groups",
+            "ordered_cluster",
+            "patient",
+            "site",
+            "metastatic",
+            "library"
           ]
+        },
+        {
+          "path": "fig4_cd_manifest.json"
         }
       ],
-      "extractor": "extractor_scripts/extract_figure_4_data.py",
-      "extraction_mode": "staged_frozen"
+      "extraction_mode": "completed_final_resolution_0.5",
+      "provenance": "fig4_cd_manifest.json",
+      "extractor": "extractor_scripts/extract_figure4_cd_final.py (private staging; outputs supplied locally)"
     },
     "E": {
-      "title": "CNV score",
+      "title": "CNV score on final panel C embedding",
       "kind": "data",
       "inputs": [
         {
           "path": "fig4_plot_data.h5",
           "selectors": [
-            "shared/umap",
+            "shared/cell_id",
             "panel_e/cnv_status",
             "panel_e/cnv_score"
           ]
+        },
+        {
+          "path": "fig4_cd_final.h5",
+          "selectors": [
+            "umap"
+          ]
+        },
+        {
+          "path": "fig4_cd_manifest.json"
         }
       ],
       "extractor": "extractor_scripts/extract_figure_4_data.py",
-      "extraction_mode": "staged_frozen"
+      "extraction_mode": "staged_frozen",
+      "coordinate_alignment": "Exact ordered cell-ID SHA256 check; CNV values and status unchanged"
     },
     "F": {
-      "title": "All-cell H-cluster marker expression",
       "kind": "data",
-      "inputs": [
+      "intermediate_inputs": [
         {
-          "path": "fig4_plot_data.h5",
+          "path": "fig4_f_markers.h5",
           "selectors": [
-            "panel_c/heatmap",
-            "panel_c/display_genes",
-            "panel_c/h_cluster",
-            "panel_c/boundaries",
-            "panel_c/marker_groups",
-            "panel_c/patient",
-            "panel_c/site",
-            "panel_c/metastatic",
-            "panel_c/library",
-            "panel_c/scknife_final_celltype"
+            "umap",
+            "expression",
+            "genes",
+            "vmax"
           ]
         }
       ],
-      "extractor": "extractor_scripts/extract_figure_4_data.py",
-      "extraction_mode": "staged_frozen"
+      "description": "Six broad-identity markers: EGFL7, ACAP1, PDGFRB, CD163, KRT7 and TRPS1, on final H-based UMAP"
     }
   },
   "auxiliary_inputs": [
