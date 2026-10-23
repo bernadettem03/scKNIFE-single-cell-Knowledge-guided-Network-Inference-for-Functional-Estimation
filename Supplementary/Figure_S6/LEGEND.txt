@@ -1,9 +1,0 @@
-Supplementary Figure S6 | Metastatic-status pathway context and Myeloid carnitine activity maps.
-
-(A) Two-set UpSet plot comparing the 33 LC–MS candidate pathways from the metastatic versus non-metastatic analysis with 138 Human-GEM pathways scored by scKNIFE. Of the 33 LC–MS candidates, 31 map to 27 distinct Human-GEM/scKNIFE pathways; two have no mapping. The display therefore contains 27 shared pathways, 111 scKNIFE-only pathways, and two unmapped LC–MS-only pathways. The LC–MS set size is 29 harmonized terms, reflecting the many-to-one mapping. Membership denotes analytical coverage, not a significant metastatic-status association or cross-modal direction agreement.
-
-(B) Existing LC–MS metastatic versus non-metastatic candidate pathway enrichment scatter for the same 33 LC–MS pathways. Horizontal line marks nominal p = 0.05; point color reflects −log10(p), and point size reflects the square root of enrichment. Numbers label the five leading pathways. None passes Holm-adjusted Gamma P < 0.05. The enrichment is exploratory and does not establish pathway direction or a cell-type-specific source.
-
-(C–E) The saved Figure 4 H-derived whole-cell UMAP coordinates with all 6,014 biopsy and surgery Wu SingleR major Myeloid cells overlaid by inferred scKNIFE activity scores for L-carnitine (C), L-octanoylcarnitine (D) and octanoyl-CoA (E). The grey underlay includes all 69,391 atlas cells, aligned to Figure 4 by verified cell-ID order. Each activity map has its own 2nd–98th percentile color scale; compare colors within a map. Main Figure 6o–p maps and summarizes L-octanoylcarnitine by patient; the paired L-carnitine and octanoyl-CoA values are retained in Supplemental Table 6E.
-
-LC–MS, liquid chromatography–mass spectrometry; scKNIFE, single-cell Knowledge Informed Network Framework for Exploration.

@@ -1,6 +1,6 @@
 # Figure 4 plot inputs
 
-The approved main Figure 4 has panels a–k. `../plot_figure4_one_page.py` reconstructs the data panels from saved plot inputs; it does not refit SingleR, infer CNVs, or repeat differential analysis. Its spacing and annotations can differ from the approved PDF. `../LEGEND.txt` defines the submitted panels.
+The approved main Figure 4 has panels a–k. `../plot_figure4_one_page.py` reconstructs the data panels from saved plot inputs; it does not refit SingleR, infer CNVs, or repeat differential analysis. Its spacing and annotations can differ from the approved PDF.
 
 | Panels | Saved inputs used by the final layout |
 |---|---|

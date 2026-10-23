@@ -1,6 +1,6 @@
 # scKNIFE manuscript figure package
 
-This repository contains the approved plots, plotting code, legends, plot-ready inputs, and supplemental tables for main Figures 2–7 and Supplementary Figures S1–S6 of the 23 October 2026 portal manuscript draft. It is a figure reproduction package, not the scKNIFE model implementation or the complete analysis history.
+This repository contains the approved plots, plotting code, plot-ready inputs, and supplemental tables for main Figures 2–7 and Supplementary Figures S1–S6 of the 23 October 2026 portal manuscript draft. It is a figure reproduction package, not the scKNIFE model implementation or the complete analysis history.
 
 ## Organization
 

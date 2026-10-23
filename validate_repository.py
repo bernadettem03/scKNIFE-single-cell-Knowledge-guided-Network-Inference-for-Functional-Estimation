@@ -38,11 +38,11 @@ def order(path: str, key: str, expected: str, errors: list[str]) -> None:
 def main() -> int:
     errors: list[str] = []
     for n in MAIN:
-        for relative in (f"Figure_{n}/Figure_{n}.ipynb", f"Figure_{n}/LEGEND.txt", f"Figure_{n}/outputs/Figure_{n}.pdf"):
+        for relative in (f"Figure_{n}/Figure_{n}.ipynb", f"Figure_{n}/outputs/Figure_{n}.pdf"):
             if not (ROOT / relative).is_file():
                 errors.append(f"missing main figure file: {relative}")
     for n in SUPP:
-        for relative in (f"Supplementary/Figure_S{n}/Figure_S{n}.ipynb", f"Supplementary/Figure_S{n}/LEGEND.txt"):
+        for relative in (f"Supplementary/Figure_S{n}/Figure_S{n}.ipynb",):
             if not (ROOT / relative).is_file():
                 errors.append(f"missing supplementary figure file: {relative}")
         if n != 3 and not (ROOT / f"Supplementary/Figure_S{n}/outputs/Figure_S{n}.pdf").is_file():
