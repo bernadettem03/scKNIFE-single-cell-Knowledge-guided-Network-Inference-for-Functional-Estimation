@@ -1,0 +1,55 @@
+comparison	candidate_pathway	gamma_p	holm_adjusted_gamma_p	Hits.total	Hits.sig	Expected	contrast	interpretation	mapped_to_humangem	human_gem_pathway
+treatment	Selenoamino acid metabolism	0.0015979	0.0335559	6	3	1.9151	surgery_vs_biopsy	Pathway enrichment passing Holm-adjusted Gamma P < 0.05	True	Cysteine_and_methionine_metabolism
+treatment	Purine metabolism	0.0018034	0.036068	5	4	1.0943	surgery_vs_biopsy	Pathway enrichment passing Holm-adjusted Gamma P < 0.05	True	Purine_metabolism
+treatment	Methionine and cysteine metabolism	0.0018929	0.036068	9	4	1.9151	surgery_vs_biopsy	Pathway enrichment passing Holm-adjusted Gamma P < 0.05	True	Cysteine_and_methionine_metabolism
+treatment	Aspartate and asparagine metabolism	0.0021629	0.0389322	8	4	2.1887	surgery_vs_biopsy	Pathway enrichment passing Holm-adjusted Gamma P < 0.05	True	Alanine_aspartate_and_glutamate_metabolism
+treatment	Glycolysis and Gluconeogenesis	0.0025927	0.0440759	9	3	0.82075	surgery_vs_biopsy	Pathway enrichment passing Holm-adjusted Gamma P < 0.05	True	Glycolysis_Gluconeogenesis
+treatment	3-Chloroacrylic acid degradation	0.0037202	0.0595232	2	2	0.27358	surgery_vs_biopsy	Candidate pathway enrichment; exploratory	False	
+treatment	Vitamin A (retinol) metabolism	0.0037202	0.0595232	7	7	0.27358	surgery_vs_biopsy	Candidate pathway enrichment; exploratory	True	Vitamin_A_metabolism
+treatment	Arginine and Proline Metabolism	0.0037588	0.0595232	5	2	1.0943	surgery_vs_biopsy	Candidate pathway enrichment; exploratory	True	Arginine_and_proline_metabolism
+treatment	Urea cycle/amino group metabolism	0.0037588	0.0595232	4	2	1.0943	surgery_vs_biopsy	Candidate pathway enrichment; exploratory	True	Arginine_and_proline_metabolism
+treatment	Alanine and Aspartate Metabolism	0.0075737	0.0908844	2	1	0.54717	surgery_vs_biopsy	Candidate pathway enrichment; exploratory	True	Alanine_aspartate_and_glutamate_metabolism
+treatment	Glutathione Metabolism	0.0075737	0.0908844	2	1	0.54717	surgery_vs_biopsy	Candidate pathway enrichment; exploratory	True	Glutathione_metabolism
+treatment	Vitamin B1 (thiamin) metabolism	0.0075737	0.0908844	2	1	0.54717	surgery_vs_biopsy	Candidate pathway enrichment; exploratory	False	
+treatment	Histidine metabolism	0.013543	0.121887	2	1	0.82075	surgery_vs_biopsy	Candidate pathway enrichment; exploratory	False	
+treatment	Biopterin metabolism	0.021862	0.174896	3	1	1.0943	surgery_vs_biopsy	Candidate pathway enrichment; exploratory	True	Biopterin_metabolism
+treatment	Hexose phosphorylation	0.021862	0.174896	6	1	1.0943	surgery_vs_biopsy	Candidate pathway enrichment; exploratory	True	Glycolysis_Gluconeogenesis
+treatment	Pyrimidine metabolism	0.021862	0.174896	3	1	1.0943	surgery_vs_biopsy	Candidate pathway enrichment; exploratory	True	Pyrimidine_metabolism
+treatment	Tryptophan metabolism	0.023245	0.174896	8	3	2.4623	surgery_vs_biopsy	Candidate pathway enrichment; exploratory	True	Tryptophan_metabolism
+treatment	Tyrosine metabolism	0.031127	0.174896	14	3	2.7358	surgery_vs_biopsy	Candidate pathway enrichment; exploratory	True	Tyrosine_metabolism
+treatment	Ubiquinone Biosynthesis	0.032544	0.174896	2	1	1.3679	surgery_vs_biopsy	Candidate pathway enrichment; exploratory	True	Ubiquinone_synthesis
+treatment	Glycine, serine, alanine and threonine metabolism	0.04542	0.174896	5	1	1.6415	surgery_vs_biopsy	Candidate pathway enrichment; exploratory	True	Glycine_serine_and_threonine_metabolism
+treatment	Xenobiotics metabolism	0.11267	0.174896	11	1	2.7358	surgery_vs_biopsy	Candidate pathway enrichment; exploratory	True	Xenobiotics_metabolism
+metastatic_status	Hexose phosphorylation	0.0018135	0.0598455	6	5	1.1048	metastatic_vs_nonmetastatic	Candidate pathway enrichment; exploratory	True	Glycolysis_Gluconeogenesis
+metastatic_status	Pentose phosphate pathway	0.0021495	0.068784	6	6	1.381	metastatic_vs_nonmetastatic	Candidate pathway enrichment; exploratory	True	Pentose_phosphate_pathway
+metastatic_status	Tryptophan metabolism	0.0025949	0.0804419	8	4	2.4857	metastatic_vs_nonmetastatic	Candidate pathway enrichment; exploratory	True	Tryptophan_metabolism
+metastatic_status	Glycolysis and Gluconeogenesis	0.002618	0.0804419	9	8	0.82857	metastatic_vs_nonmetastatic	Candidate pathway enrichment; exploratory	True	Glycolysis_Gluconeogenesis
+metastatic_status	Carbon fixation	0.0037538	0.1088602	1	1	0.27619	metastatic_vs_nonmetastatic	Candidate pathway enrichment; exploratory	False	
+metastatic_status	Fructose and mannose metabolism	0.0037538	0.1088602	7	7	0.27619	metastatic_vs_nonmetastatic	Candidate pathway enrichment; exploratory	True	Fructose_and_mannose_metabolism
+metastatic_status	Glycosylphosphatidylinositol(GPI)-anchor biosynthesis	0.0037538	0.1088602	1	1	0.27619	metastatic_vs_nonmetastatic	Candidate pathway enrichment; exploratory	True	Glycosylphosphatidylinositol_GPI_anchor_biosynthesis
+metastatic_status	Nucleotide Sugar Metabolism	0.0037538	0.1088602	1	1	0.27619	metastatic_vs_nonmetastatic	Candidate pathway enrichment; exploratory	True	Amino_sugar_and_nucleotide_sugar_metabolism
+metastatic_status	Starch and Sucrose Metabolism	0.0037538	0.1088602	1	1	0.27619	metastatic_vs_nonmetastatic	Candidate pathway enrichment; exploratory	True	Starch_and_sucrose_metabolism
+metastatic_status	Galactose metabolism	0.0038121	0.1088602	5	4	1.1048	metastatic_vs_nonmetastatic	Candidate pathway enrichment; exploratory	True	Galactose_metabolism
+metastatic_status	Pyrimidine metabolism	0.0038121	0.1088602	3	2	1.1048	metastatic_vs_nonmetastatic	Candidate pathway enrichment; exploratory	True	Pyrimidine_metabolism
+metastatic_status	Sialic acid metabolism	0.0038121	0.1088602	5	4	1.1048	metastatic_vs_nonmetastatic	Candidate pathway enrichment; exploratory	True	Amino_sugar_and_nucleotide_sugar_metabolism
+metastatic_status	Vitamin B3 (nicotinate and nicotinamide) metabolism	0.0038121	0.1088602	4	2	1.1048	metastatic_vs_nonmetastatic	Candidate pathway enrichment; exploratory	True	Nicotinate_and_nicotinamide_metabolism
+metastatic_status	Phosphatidylinositol phosphate metabolism	0.0056617	0.113234	6	6	1.381	metastatic_vs_nonmetastatic	Candidate pathway enrichment; exploratory	True	Phosphatidylinositol_phosphate_metabolism
+metastatic_status	Glutathione Metabolism	0.0076746	0.1458174	2	1	0.55238	metastatic_vs_nonmetastatic	Candidate pathway enrichment; exploratory	True	Glutathione_metabolism
+metastatic_status	N-Glycan biosynthesis	0.0076746	0.1458174	2	1	0.55238	metastatic_vs_nonmetastatic	Candidate pathway enrichment; exploratory	True	N_glycan_metabolism
+metastatic_status	Pentose and Glucuronate Interconversions	0.0083789	0.1458174	3	3	1.6571	metastatic_vs_nonmetastatic	Candidate pathway enrichment; exploratory	True	Pentose_and_glucuronate_interconversions
+metastatic_status	Ascorbate (Vitamin C) and Aldarate Metabolism	0.0084885	0.1458174	6	3	2.7619	metastatic_vs_nonmetastatic	Candidate pathway enrichment; exploratory	True	Ascorbate_and_aldarate_metabolism
+metastatic_status	Drug metabolism - cytochrome P450	0.013758	0.20637	2	1	0.82857	metastatic_vs_nonmetastatic	Candidate pathway enrichment; exploratory	True	Drug_metabolism
+metastatic_status	Glycerophospholipid metabolism	0.013758	0.20637	3	1	0.82857	metastatic_vs_nonmetastatic	Candidate pathway enrichment; exploratory	True	Glycerophospholipid_metabolism
+metastatic_status	Aspartate and asparagine metabolism	0.017285	0.224705	8	2	2.2095	metastatic_vs_nonmetastatic	Candidate pathway enrichment; exploratory	True	Alanine_aspartate_and_glutamate_metabolism
+metastatic_status	Aminosugars metabolism	0.022236	0.266832	5	2	1.1048	metastatic_vs_nonmetastatic	Candidate pathway enrichment; exploratory	True	Amino_sugar_and_nucleotide_sugar_metabolism
+metastatic_status	Biopterin metabolism	0.022236	0.266832	3	1	1.1048	metastatic_vs_nonmetastatic	Candidate pathway enrichment; exploratory	True	Biopterin_metabolism
+metastatic_status	Chondroitin sulfate degradation	0.022236	0.266832	2	2	1.1048	metastatic_vs_nonmetastatic	Candidate pathway enrichment; exploratory	True	Chondroitin_sulfate_degradation
+metastatic_status	Heparan sulfate degradation	0.022236	0.266832	2	2	1.1048	metastatic_vs_nonmetastatic	Candidate pathway enrichment; exploratory	True	Heparan_sulfate_degradation
+metastatic_status	Hyaluronan Metabolism	0.022236	0.266832	1	1	1.1048	metastatic_vs_nonmetastatic	Candidate pathway enrichment; exploratory	False	
+metastatic_status	Lysine metabolism	0.022236	0.266832	4	1	1.1048	metastatic_vs_nonmetastatic	Candidate pathway enrichment; exploratory	True	Lysine_metabolism
+metastatic_status	Porphyrin metabolism	0.022236	0.266832	1	1	1.1048	metastatic_vs_nonmetastatic	Candidate pathway enrichment; exploratory	True	Porphyrin_metabolism
+metastatic_status	Purine metabolism	0.022236	0.266832	5	1	1.1048	metastatic_vs_nonmetastatic	Candidate pathway enrichment; exploratory	True	Purine_metabolism
+metastatic_status	Xenobiotics metabolism	0.03192	0.266832	11	2	2.7619	metastatic_vs_nonmetastatic	Candidate pathway enrichment; exploratory	True	Xenobiotics_metabolism
+metastatic_status	Glycine, serine, alanine and threonine metabolism	0.046219	0.266832	5	1	1.6571	metastatic_vs_nonmetastatic	Candidate pathway enrichment; exploratory	True	Glycine_serine_and_threonine_metabolism
+metastatic_status	Methionine and cysteine metabolism	0.061247	0.266832	9	1	1.9333	metastatic_vs_nonmetastatic	Candidate pathway enrichment; exploratory	True	Cysteine_and_methionine_metabolism
+metastatic_status	Selenoamino acid metabolism	0.061247	0.266832	6	1	1.9333	metastatic_vs_nonmetastatic	Candidate pathway enrichment; exploratory	True	Cysteine_and_methionine_metabolism

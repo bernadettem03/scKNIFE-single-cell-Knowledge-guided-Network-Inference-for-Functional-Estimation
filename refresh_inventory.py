@@ -7,7 +7,6 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-PRIVATE = ROOT / "Figure_4/data/fig4_plot_data.h5"
 
 
 def sha(path: Path) -> str:
@@ -19,8 +18,6 @@ def sha(path: Path) -> str:
 
 
 def excluded(path: Path) -> bool:
-    if path == PRIVATE:
-        return True
     rel = path.relative_to(ROOT)
     return any(part == ".git" or part == "__pycache__" or part == "analysis" or part == "review" or part.startswith("archive_legacy") or "pre_adduct" in part for part in rel.parts)
 
@@ -76,7 +73,9 @@ def main() -> None:
         writer = csv.writer(stream, delimiter="\t", lineterminator="\n")
         writer.writerow(("path", "bytes", "sha256", "storage"))
         for p in files:
-            if "data" in p.relative_to(ROOT).parts:
+            if "data" in p.relative_to(ROOT).parts or (
+                p.relative_to(ROOT).parts[0] == "Tables" and p.suffix in {".xlsx", ".tsv"}
+            ):
                 writer.writerow((p.relative_to(ROOT).as_posix(), p.stat().st_size, sha(p), "git"))
     files = sorted(p for p in ROOT.rglob("*") if p.is_file() and not excluded(p) and p.name != "checksums.sha256")
     (ROOT / "checksums.sha256").write_text("".join(f"{sha(p)}  {p.relative_to(ROOT).as_posix()}\n" for p in files))

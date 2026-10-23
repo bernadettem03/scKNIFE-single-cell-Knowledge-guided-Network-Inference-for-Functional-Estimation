@@ -2,6 +2,7 @@
   "package": "Figure 4a-k plot-ready data",
   "format_version": 3,
   "private_inputs_required": false,
+  "public_reference_bundle": "fig4_plot_data.h5",
   "panels": {
     "a-j": [
       "Figure_4_layout_base.pdf"

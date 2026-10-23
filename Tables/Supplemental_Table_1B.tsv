@@ -1,0 +1,7 @@
+dataset_1	dataset_2	linear_CKA
+Bassez C1	Bassez C2	0.895423262766
+Bassez C1	Shiao	0.669125095588
+Bassez C1	Wu TNBC	0.825533075335
+Bassez C2	Shiao	0.690676794148
+Bassez C2	Wu TNBC	0.807253819819
+Shiao	Wu TNBC	0.718820232595

@@ -1,0 +1,1151 @@
+annotation_scheme	summary_level	patient_id	timepoint	cell_type	n_cells	denominator_cells	percent_of_stratum
+Original 12-class	Overall	All patients	All timepoints	B_cells	625	69391	0.9006931734662996
+Original 12-class	Overall	All patients	All timepoints	Basal_Myoepithelial	1247	69391	1.797063019699961
+Original 12-class	Overall	All patients	All timepoints	CAFs	7307	69391	10.530184029629202
+Original 12-class	Overall	All patients	All timepoints	Endothelial	3513	69391	5.062616189419377
+Original 12-class	Overall	All patients	All timepoints	Epithelial	22324	69391	32.17131904713868
+Original 12-class	Overall	All patients	All timepoints	Epithelial_Luminal_Mature	8110	69391	11.687394618898704
+Original 12-class	Overall	All patients	All timepoints	Epithelial_Luminal_Progenitor	9740	69391	14.036402415298815
+Original 12-class	Overall	All patients	All timepoints	Epithelial_cycling	2251	69391	3.2439365335562247
+Original 12-class	Overall	All patients	All timepoints	Macrophages	6660	69391	9.59778645645689
+Original 12-class	Overall	All patients	All timepoints	Plasma_cells	1860	69391	2.6804628842357077
+Original 12-class	Overall	All patients	All timepoints	T_cells	5575	69391	8.034183107319393
+Original 12-class	Overall	All patients	All timepoints	pDC	179	69391	0.2579585248807482
+Original 12-class	Patient	P1	All timepoints	B_cells	26	12086	0.21512493794472945
+Original 12-class	Patient	P1	All timepoints	Basal_Myoepithelial	1	12086	0.008274036074797287
+Original 12-class	Patient	P1	All timepoints	CAFs	1309	12086	10.830713221909647
+Original 12-class	Patient	P1	All timepoints	Endothelial	971	12086	8.034089028628165
+Original 12-class	Patient	P1	All timepoints	Epithelial	7742	12086	64.0575872910806
+Original 12-class	Patient	P1	All timepoints	Epithelial_Luminal_Mature	70	12086	0.57918252523581
+Original 12-class	Patient	P1	All timepoints	Epithelial_Luminal_Progenitor	30	12086	0.2482210822439186
+Original 12-class	Patient	P1	All timepoints	Epithelial_cycling	37	12086	0.3061393347674996
+Original 12-class	Patient	P1	All timepoints	Macrophages	1563	12086	12.932318384908157
+Original 12-class	Patient	P1	All timepoints	Plasma_cells	44	12086	0.36405758729108056
+Original 12-class	Patient	P1	All timepoints	T_cells	280	12086	2.31673010094324
+Original 12-class	Patient	P1	All timepoints	pDC	13	12086	0.10756246897236472
+Original 12-class	Patient	P2	All timepoints	B_cells	164	6704	2.4463007159904535
+Original 12-class	Patient	P2	All timepoints	Basal_Myoepithelial	10	6704	0.14916467780429593
+Original 12-class	Patient	P2	All timepoints	CAFs	583	6704	8.696300715990454
+Original 12-class	Patient	P2	All timepoints	Endothelial	200	6704	2.983293556085919
+Original 12-class	Patient	P2	All timepoints	Epithelial	4271	6704	63.7082338902148
+Original 12-class	Patient	P2	All timepoints	Epithelial_Luminal_Mature	15	6704	0.22374701670644392
+Original 12-class	Patient	P2	All timepoints	Epithelial_Luminal_Progenitor	33	6704	0.4922434367541766
+Original 12-class	Patient	P2	All timepoints	Epithelial_cycling	12	6704	0.17899761336515513
+Original 12-class	Patient	P2	All timepoints	Macrophages	683	6704	10.187947494033413
+Original 12-class	Patient	P2	All timepoints	Plasma_cells	255	6704	3.8036992840095465
+Original 12-class	Patient	P2	All timepoints	T_cells	441	6704	6.578162291169451
+Original 12-class	Patient	P2	All timepoints	pDC	37	6704	0.551909307875895
+Original 12-class	Patient	P3	All timepoints	B_cells	236	9296	2.5387263339070567
+Original 12-class	Patient	P3	All timepoints	Basal_Myoepithelial	791	9296	8.509036144578314
+Original 12-class	Patient	P3	All timepoints	CAFs	1694	9296	18.22289156626506
+Original 12-class	Patient	P3	All timepoints	Endothelial	695	9296	7.476333907056799
+Original 12-class	Patient	P3	All timepoints	Epithelial	485	9296	5.217297762478485
+Original 12-class	Patient	P3	All timepoints	Epithelial_Luminal_Mature	2145	9296	23.074440619621342
+Original 12-class	Patient	P3	All timepoints	Epithelial_Luminal_Progenitor	1833	9296	19.71815834767642
+Original 12-class	Patient	P3	All timepoints	Epithelial_cycling	152	9296	1.6351118760757315
+Original 12-class	Patient	P3	All timepoints	Macrophages	509	9296	5.475473321858864
+Original 12-class	Patient	P3	All timepoints	Plasma_cells	339	9296	3.6467297762478483
+Original 12-class	Patient	P3	All timepoints	T_cells	399	9296	4.292168674698795
+Original 12-class	Patient	P3	All timepoints	pDC	18	9296	0.193631669535284
+Original 12-class	Patient	P4	All timepoints	B_cells	157	16956	0.9259259259259259
+Original 12-class	Patient	P4	All timepoints	Basal_Myoepithelial	19	16956	0.1120547298891248
+Original 12-class	Patient	P4	All timepoints	CAFs	778	16956	4.588346308091531
+Original 12-class	Patient	P4	All timepoints	Endothelial	199	16956	1.1736258551545176
+Original 12-class	Patient	P4	All timepoints	Epithelial	8676	16956	51.167728237791934
+Original 12-class	Patient	P4	All timepoints	Epithelial_Luminal_Mature	130	16956	0.766690257136117
+Original 12-class	Patient	P4	All timepoints	Epithelial_Luminal_Progenitor	27	16956	0.1592356687898089
+Original 12-class	Patient	P4	All timepoints	Epithelial_cycling	6	16956	0.035385704175513094
+Original 12-class	Patient	P4	All timepoints	Macrophages	1987	16956	11.71856569945742
+Original 12-class	Patient	P4	All timepoints	Plasma_cells	859	16956	5.066053314460958
+Original 12-class	Patient	P4	All timepoints	T_cells	4024	16956	23.732012267044116
+Original 12-class	Patient	P4	All timepoints	pDC	94	16956	0.5543760320830384
+Original 12-class	Patient	P5	All timepoints	B_cells	17	10564	0.16092389246497538
+Original 12-class	Patient	P5	All timepoints	Basal_Myoepithelial	54	10564	0.5111700113593336
+Original 12-class	Patient	P5	All timepoints	CAFs	1350	10564	12.77925028398334
+Original 12-class	Patient	P5	All timepoints	Endothelial	375	10564	3.5497917455509276
+Original 12-class	Patient	P5	All timepoints	Epithelial	893	10564	8.453237410071942
+Original 12-class	Patient	P5	All timepoints	Epithelial_Luminal_Mature	95	10564	0.8992805755395683
+Original 12-class	Patient	P5	All timepoints	Epithelial_Luminal_Progenitor	5236	10564	49.56455887921242
+Original 12-class	Patient	P5	All timepoints	Epithelial_cycling	2038	10564	19.29193487315411
+Original 12-class	Patient	P5	All timepoints	Macrophages	350	10564	3.3131389625141994
+Original 12-class	Patient	P5	All timepoints	Plasma_cells	43	10564	0.407042786823173
+Original 12-class	Patient	P5	All timepoints	T_cells	108	10564	1.0223400227186672
+Original 12-class	Patient	P5	All timepoints	pDC	5	10564	0.047330556607345704
+Original 12-class	Patient	P6	All timepoints	B_cells	10	7539	0.13264358668258389
+Original 12-class	Patient	P6	All timepoints	Basal_Myoepithelial	13	7539	0.17243666268735908
+Original 12-class	Patient	P6	All timepoints	CAFs	586	7539	7.772914179599416
+Original 12-class	Patient	P6	All timepoints	Endothelial	272	7539	3.607905557766282
+Original 12-class	Patient	P6	All timepoints	Epithelial	135	7539	1.7906884202148825
+Original 12-class	Patient	P6	All timepoints	Epithelial_Luminal_Mature	5071	7539	67.26356280673829
+Original 12-class	Patient	P6	All timepoints	Epithelial_Luminal_Progenitor	63	7539	0.8356545961002786
+Original 12-class	Patient	P6	All timepoints	Epithelial_cycling	6	7539	0.07958615200955034
+Original 12-class	Patient	P6	All timepoints	Macrophages	1149	7539	15.240748109828889
+Original 12-class	Patient	P6	All timepoints	Plasma_cells	156	7539	2.0692399522483087
+Original 12-class	Patient	P6	All timepoints	T_cells	72	7539	0.955033824114604
+Original 12-class	Patient	P6	All timepoints	pDC	6	7539	0.07958615200955034
+Original 12-class	Patient	P7	All timepoints	B_cells	15	6246	0.24015369836695485
+Original 12-class	Patient	P7	All timepoints	Basal_Myoepithelial	359	6246	5.747678514249119
+Original 12-class	Patient	P7	All timepoints	CAFs	1007	6246	16.12231828370157
+Original 12-class	Patient	P7	All timepoints	Endothelial	801	6246	12.82420749279539
+Original 12-class	Patient	P7	All timepoints	Epithelial	122	6246	1.9532500800512327
+Original 12-class	Patient	P7	All timepoints	Epithelial_Luminal_Mature	584	6246	9.349983989753442
+Original 12-class	Patient	P7	All timepoints	Epithelial_Luminal_Progenitor	2518	6246	40.31380083253282
+Original 12-class	Patient	P7	All timepoints	Epithelial_cycling	0	6246	0.0
+Original 12-class	Patient	P7	All timepoints	Macrophages	419	6246	6.708293307716938
+Original 12-class	Patient	P7	All timepoints	Plasma_cells	164	6246	2.6256804354787064
+Original 12-class	Patient	P7	All timepoints	T_cells	251	6246	4.018571886007044
+Original 12-class	Patient	P7	All timepoints	pDC	6	6246	0.09606147934678194
+Original 12-class	Specimen	P3	Surgery	B_cells	190	2266	8.384819064430715
+Original 12-class	Specimen	P3	Surgery	Basal_Myoepithelial	692	2266	30.53839364518976
+Original 12-class	Specimen	P3	Surgery	CAFs	364	2266	16.063548102383052
+Original 12-class	Specimen	P3	Surgery	Endothelial	163	2266	7.1932921447484555
+Original 12-class	Specimen	P3	Surgery	Epithelial	148	2266	6.531332744924978
+Original 12-class	Specimen	P3	Surgery	Epithelial_Luminal_Mature	14	2266	0.617828773168579
+Original 12-class	Specimen	P3	Surgery	Epithelial_Luminal_Progenitor	25	2266	1.1032656663724625
+Original 12-class	Specimen	P3	Surgery	Epithelial_cycling	1	2266	0.0441306266548985
+Original 12-class	Specimen	P3	Surgery	Macrophages	184	2266	8.120035304501323
+Original 12-class	Specimen	P3	Surgery	Plasma_cells	313	2266	13.81288614298323
+Original 12-class	Specimen	P3	Surgery	T_cells	165	2266	7.281553398058253
+Original 12-class	Specimen	P3	Surgery	pDC	7	2266	0.3089143865842895
+Original 12-class	Specimen	P4	Bx	B_cells	157	14935	1.0512219618346166
+Original 12-class	Specimen	P4	Bx	Basal_Myoepithelial	8	14935	0.053565450284566454
+Original 12-class	Specimen	P4	Bx	CAFs	634	14935	4.245061935051892
+Original 12-class	Specimen	P4	Bx	Endothelial	126	14935	0.8436558419819217
+Original 12-class	Specimen	P4	Bx	Epithelial	7115	14935	47.63977234683629
+Original 12-class	Specimen	P4	Bx	Epithelial_Luminal_Mature	105	14935	0.7030465349849347
+Original 12-class	Specimen	P4	Bx	Epithelial_Luminal_Progenitor	6	14935	0.040174087713424844
+Original 12-class	Specimen	P4	Bx	Epithelial_cycling	2	14935	0.013391362571141614
+Original 12-class	Specimen	P4	Bx	Macrophages	1812	14935	12.132574489454303
+Original 12-class	Specimen	P4	Bx	Plasma_cells	857	14935	5.7381988617341815
+Original 12-class	Specimen	P4	Bx	T_cells	4019	14935	26.909943086709074
+Original 12-class	Specimen	P4	Bx	pDC	94	14935	0.6293940408436558
+Original 12-class	Specimen	P6	Bx	B_cells	10	6662	0.15010507355148603
+Original 12-class	Specimen	P6	Bx	Basal_Myoepithelial	13	6662	0.19513659561693186
+Original 12-class	Specimen	P6	Bx	CAFs	464	6662	6.9648754127889525
+Original 12-class	Specimen	P6	Bx	Endothelial	249	6662	3.7376163314320023
+Original 12-class	Specimen	P6	Bx	Epithelial	132	6662	1.9813869708796157
+Original 12-class	Specimen	P6	Bx	Epithelial_Luminal_Mature	5067	6662	76.05824076853797
+Original 12-class	Specimen	P6	Bx	Epithelial_Luminal_Progenitor	63	6662	0.945661963374362
+Original 12-class	Specimen	P6	Bx	Epithelial_cycling	6	6662	0.09006304413089163
+Original 12-class	Specimen	P6	Bx	Macrophages	503	6662	7.550285199639748
+Original 12-class	Specimen	P6	Bx	Plasma_cells	124	6662	1.8613029120384268
+Original 12-class	Specimen	P6	Bx	T_cells	30	6662	0.4503152206544581
+Original 12-class	Specimen	P6	Bx	pDC	1	6662	0.015010507355148604
+Original 12-class	Specimen	P3	Bx	B_cells	9	374	2.406417112299465
+Original 12-class	Specimen	P3	Bx	Basal_Myoepithelial	23	374	6.149732620320855
+Original 12-class	Specimen	P3	Bx	CAFs	93	374	24.86631016042781
+Original 12-class	Specimen	P3	Bx	Endothelial	65	374	17.379679144385026
+Original 12-class	Specimen	P3	Bx	Epithelial	59	374	15.775401069518717
+Original 12-class	Specimen	P3	Bx	Epithelial_Luminal_Mature	44	374	11.764705882352942
+Original 12-class	Specimen	P3	Bx	Epithelial_Luminal_Progenitor	30	374	8.02139037433155
+Original 12-class	Specimen	P3	Bx	Epithelial_cycling	1	374	0.26737967914438504
+Original 12-class	Specimen	P3	Bx	Macrophages	27	374	7.219251336898396
+Original 12-class	Specimen	P3	Bx	Plasma_cells	3	374	0.8021390374331551
+Original 12-class	Specimen	P3	Bx	T_cells	20	374	5.347593582887701
+Original 12-class	Specimen	P3	Bx	pDC	0	374	0.0
+Original 12-class	Specimen	P7	Surgery	B_cells	0	552	0.0
+Original 12-class	Specimen	P7	Surgery	Basal_Myoepithelial	111	552	20.108695652173914
+Original 12-class	Specimen	P7	Surgery	CAFs	84	552	15.217391304347826
+Original 12-class	Specimen	P7	Surgery	Endothelial	114	552	20.652173913043477
+Original 12-class	Specimen	P7	Surgery	Epithelial	10	552	1.8115942028985508
+Original 12-class	Specimen	P7	Surgery	Epithelial_Luminal_Mature	178	552	32.2463768115942
+Original 12-class	Specimen	P7	Surgery	Epithelial_Luminal_Progenitor	36	552	6.521739130434782
+Original 12-class	Specimen	P7	Surgery	Epithelial_cycling	0	552	0.0
+Original 12-class	Specimen	P7	Surgery	Macrophages	9	552	1.6304347826086956
+Original 12-class	Specimen	P7	Surgery	Plasma_cells	1	552	0.18115942028985507
+Original 12-class	Specimen	P7	Surgery	T_cells	9	552	1.6304347826086956
+Original 12-class	Specimen	P7	Surgery	pDC	0	552	0.0
+Original 12-class	Specimen	P2	Surgery	B_cells	4	4189	0.095488183337312
+Original 12-class	Specimen	P2	Surgery	Basal_Myoepithelial	2	4189	0.047744091668656
+Original 12-class	Specimen	P2	Surgery	CAFs	147	4189	3.5091907376462164
+Original 12-class	Specimen	P2	Surgery	Endothelial	29	4189	0.692289329195512
+Original 12-class	Specimen	P2	Surgery	Epithelial	3681	4189	87.87300071616137
+Original 12-class	Specimen	P2	Surgery	Epithelial_Luminal_Mature	1	4189	0.023872045834328
+Original 12-class	Specimen	P2	Surgery	Epithelial_Luminal_Progenitor	13	4189	0.31033659584626405
+Original 12-class	Specimen	P2	Surgery	Epithelial_cycling	7	4189	0.167104320840296
+Original 12-class	Specimen	P2	Surgery	Macrophages	192	4189	4.583432800190977
+Original 12-class	Specimen	P2	Surgery	Plasma_cells	12	4189	0.28646455001193605
+Original 12-class	Specimen	P2	Surgery	T_cells	101	4189	2.411076629267128
+Original 12-class	Specimen	P2	Surgery	pDC	0	4189	0.0
+Original 12-class	Specimen	P5	Bx	B_cells	7	7081	0.0988560937720661
+Original 12-class	Specimen	P5	Bx	Basal_Myoepithelial	53	7081	0.7484818528456433
+Original 12-class	Specimen	P5	Bx	CAFs	1048	7081	14.800169467589324
+Original 12-class	Specimen	P5	Bx	Endothelial	248	7081	3.5023301793531987
+Original 12-class	Specimen	P5	Bx	Epithelial	607	7081	8.57223555994916
+Original 12-class	Specimen	P5	Bx	Epithelial_Luminal_Mature	73	7081	1.0309278350515463
+Original 12-class	Specimen	P5	Bx	Epithelial_Luminal_Progenitor	3241	7081	45.7703714164666
+Original 12-class	Specimen	P5	Bx	Epithelial_cycling	1504	7081	21.239937861883913
+Original 12-class	Specimen	P5	Bx	Macrophages	230	7081	3.2481287953678857
+Original 12-class	Specimen	P5	Bx	Plasma_cells	33	7081	0.46603587063974017
+Original 12-class	Specimen	P5	Bx	T_cells	35	7081	0.49428046886033045
+Original 12-class	Specimen	P5	Bx	pDC	2	7081	0.028244598220590313
+Original 12-class	Specimen	P2	Bx	B_cells	160	2515	6.361829025844931
+Original 12-class	Specimen	P2	Bx	Basal_Myoepithelial	8	2515	0.31809145129224653
+Original 12-class	Specimen	P2	Bx	CAFs	436	2515	17.335984095427435
+Original 12-class	Specimen	P2	Bx	Endothelial	171	2515	6.79920477137177
+Original 12-class	Specimen	P2	Bx	Epithelial	590	2515	23.45924453280318
+Original 12-class	Specimen	P2	Bx	Epithelial_Luminal_Mature	14	2515	0.5566600397614314
+Original 12-class	Specimen	P2	Bx	Epithelial_Luminal_Progenitor	20	2515	0.7952286282306164
+Original 12-class	Specimen	P2	Bx	Epithelial_cycling	5	2515	0.1988071570576541
+Original 12-class	Specimen	P2	Bx	Macrophages	491	2515	19.52286282306163
+Original 12-class	Specimen	P2	Bx	Plasma_cells	243	2515	9.662027833001988
+Original 12-class	Specimen	P2	Bx	T_cells	340	2515	13.518886679920477
+Original 12-class	Specimen	P2	Bx	pDC	37	2515	1.47117296222664
+Original 12-class	Specimen	P7	Bx	B_cells	15	5694	0.26343519494204426
+Original 12-class	Specimen	P7	Bx	Basal_Myoepithelial	248	5694	4.355461889708465
+Original 12-class	Specimen	P7	Bx	CAFs	923	5694	16.210045662100455
+Original 12-class	Specimen	P7	Bx	Endothelial	687	5694	12.065331928345627
+Original 12-class	Specimen	P7	Bx	Epithelial	112	5694	1.966982788900597
+Original 12-class	Specimen	P7	Bx	Epithelial_Luminal_Mature	406	5694	7.1303126097646645
+Original 12-class	Specimen	P7	Bx	Epithelial_Luminal_Progenitor	2482	5694	43.58974358974359
+Original 12-class	Specimen	P7	Bx	Epithelial_cycling	0	5694	0.0
+Original 12-class	Specimen	P7	Bx	Macrophages	410	5694	7.200561995082543
+Original 12-class	Specimen	P7	Bx	Plasma_cells	163	5694	2.8626624517035477
+Original 12-class	Specimen	P7	Bx	T_cells	242	5694	4.250087811731647
+Original 12-class	Specimen	P7	Bx	pDC	6	5694	0.1053740779768177
+Original 12-class	Specimen	P5	Surgery	B_cells	10	3483	0.2871088142405972
+Original 12-class	Specimen	P5	Surgery	Basal_Myoepithelial	1	3483	0.02871088142405972
+Original 12-class	Specimen	P5	Surgery	CAFs	302	3483	8.670686190066036
+Original 12-class	Specimen	P5	Surgery	Endothelial	127	3483	3.646281940855584
+Original 12-class	Specimen	P5	Surgery	Epithelial	286	3483	8.21131208728108
+Original 12-class	Specimen	P5	Surgery	Epithelial_Luminal_Mature	22	3483	0.6316393913293138
+Original 12-class	Specimen	P5	Surgery	Epithelial_Luminal_Progenitor	1995	3483	57.27820844099914
+Original 12-class	Specimen	P5	Surgery	Epithelial_cycling	534	3483	15.33161068044789
+Original 12-class	Specimen	P5	Surgery	Macrophages	120	3483	3.4453057708871664
+Original 12-class	Specimen	P5	Surgery	Plasma_cells	10	3483	0.2871088142405972
+Original 12-class	Specimen	P5	Surgery	T_cells	73	3483	2.0958943439563593
+Original 12-class	Specimen	P5	Surgery	pDC	3	3483	0.08613264427217916
+Original 12-class	Specimen	P6	Surgery	B_cells	0	877	0.0
+Original 12-class	Specimen	P6	Surgery	Basal_Myoepithelial	0	877	0.0
+Original 12-class	Specimen	P6	Surgery	CAFs	122	877	13.911060433295326
+Original 12-class	Specimen	P6	Surgery	Endothelial	23	877	2.622576966932725
+Original 12-class	Specimen	P6	Surgery	Epithelial	3	877	0.34207525655644244
+Original 12-class	Specimen	P6	Surgery	Epithelial_Luminal_Mature	4	877	0.45610034207525657
+Original 12-class	Specimen	P6	Surgery	Epithelial_Luminal_Progenitor	0	877	0.0
+Original 12-class	Specimen	P6	Surgery	Epithelial_cycling	0	877	0.0
+Original 12-class	Specimen	P6	Surgery	Macrophages	646	877	73.66020524515393
+Original 12-class	Specimen	P6	Surgery	Plasma_cells	32	877	3.6488027366020526
+Original 12-class	Specimen	P6	Surgery	T_cells	42	877	4.789053591790194
+Original 12-class	Specimen	P6	Surgery	pDC	5	877	0.5701254275940707
+Original 12-class	Specimen	P1	Bx	B_cells	11	6874	0.16002327611288913
+Original 12-class	Specimen	P1	Bx	Basal_Myoepithelial	0	6874	0.0
+Original 12-class	Specimen	P1	Bx	CAFs	224	6874	3.258655804480652
+Original 12-class	Specimen	P1	Bx	Endothelial	248	6874	3.6077974978178644
+Original 12-class	Specimen	P1	Bx	Epithelial	5570	6874	81.02996799534478
+Original 12-class	Specimen	P1	Bx	Epithelial_Luminal_Mature	64	6874	0.9310445155659005
+Original 12-class	Specimen	P1	Bx	Epithelial_Luminal_Progenitor	20	6874	0.2909514111143439
+Original 12-class	Specimen	P1	Bx	Epithelial_cycling	28	6874	0.4073319755600815
+Original 12-class	Specimen	P1	Bx	Macrophages	597	6874	8.684899621763165
+Original 12-class	Specimen	P1	Bx	Plasma_cells	17	6874	0.24730869944719233
+Original 12-class	Specimen	P1	Bx	T_cells	88	6874	1.280186208903113
+Original 12-class	Specimen	P1	Bx	pDC	7	6874	0.10183299389002037
+Original 12-class	Specimen	P4	Surgery	B_cells	0	2021	0.0
+Original 12-class	Specimen	P4	Surgery	Basal_Myoepithelial	11	2021	0.5442850074220683
+Original 12-class	Specimen	P4	Surgery	CAFs	144	2021	7.125185551707076
+Original 12-class	Specimen	P4	Surgery	Endothelial	73	2021	3.612073231073726
+Original 12-class	Specimen	P4	Surgery	Epithelial	1561	2021	77.23899059871351
+Original 12-class	Specimen	P4	Surgery	Epithelial_Luminal_Mature	25	2021	1.2370113805047007
+Original 12-class	Specimen	P4	Surgery	Epithelial_Luminal_Progenitor	21	2021	1.0390895596239484
+Original 12-class	Specimen	P4	Surgery	Epithelial_cycling	4	2021	0.1979218208807521
+Original 12-class	Specimen	P4	Surgery	Macrophages	175	2021	8.659079663532905
+Original 12-class	Specimen	P4	Surgery	Plasma_cells	2	2021	0.09896091044037605
+Original 12-class	Specimen	P4	Surgery	T_cells	5	2021	0.24740227610094012
+Original 12-class	Specimen	P4	Surgery	pDC	0	2021	0.0
+Original 12-class	Specimen	P1	Surgery	B_cells	15	5212	0.28779739063699156
+Original 12-class	Specimen	P1	Surgery	Basal_Myoepithelial	1	5212	0.01918649270913277
+Original 12-class	Specimen	P1	Surgery	CAFs	1085	5212	20.817344589409057
+Original 12-class	Specimen	P1	Surgery	Endothelial	723	5212	13.871834228702992
+Original 12-class	Specimen	P1	Surgery	Epithelial	2172	5212	41.67306216423638
+Original 12-class	Specimen	P1	Surgery	Epithelial_Luminal_Mature	6	5212	0.11511895625479662
+Original 12-class	Specimen	P1	Surgery	Epithelial_Luminal_Progenitor	10	5212	0.1918649270913277
+Original 12-class	Specimen	P1	Surgery	Epithelial_cycling	9	5212	0.17267843438219493
+Original 12-class	Specimen	P1	Surgery	Macrophages	966	5212	18.534151957022257
+Original 12-class	Specimen	P1	Surgery	Plasma_cells	27	5212	0.5180353031465849
+Original 12-class	Specimen	P1	Surgery	T_cells	192	5212	3.683806600153492
+Original 12-class	Specimen	P1	Surgery	pDC	6	5212	0.11511895625479662
+Original 12-class	Specimen	P3	Recurrence	B_cells	37	6656	0.5558894230769231
+Original 12-class	Specimen	P3	Recurrence	Basal_Myoepithelial	76	6656	1.1418269230769231
+Original 12-class	Specimen	P3	Recurrence	CAFs	1237	6656	18.584735576923077
+Original 12-class	Specimen	P3	Recurrence	Endothelial	467	6656	7.016225961538462
+Original 12-class	Specimen	P3	Recurrence	Epithelial	278	6656	4.1766826923076925
+Original 12-class	Specimen	P3	Recurrence	Epithelial_Luminal_Mature	2087	6656	31.35516826923077
+Original 12-class	Specimen	P3	Recurrence	Epithelial_Luminal_Progenitor	1778	6656	26.712740384615383
+Original 12-class	Specimen	P3	Recurrence	Epithelial_cycling	150	6656	2.253605769230769
+Original 12-class	Specimen	P3	Recurrence	Macrophages	298	6656	4.477163461538462
+Original 12-class	Specimen	P3	Recurrence	Plasma_cells	23	6656	0.34555288461538464
+Original 12-class	Specimen	P3	Recurrence	T_cells	214	6656	3.215144230769231
+Original 12-class	Specimen	P3	Recurrence	pDC	11	6656	0.16526442307692307
+Wu SingleR major 8-group	Overall	All patients	All timepoints	B-cells	1379	69391	1.9872894179360436
+Wu SingleR major 8-group	Overall	All patients	All timepoints	CAFs	9436	69391	13.598305255724807
+Wu SingleR major 8-group	Overall	All patients	All timepoints	Endothelial	3493	69391	5.0337940078684555
+Wu SingleR major 8-group	Overall	All patients	All timepoints	Epithelial	36963	69391	53.26771483333574
+Wu SingleR major 8-group	Overall	All patients	All timepoints	Myeloid	6241	69391	8.993961752965081
+Wu SingleR major 8-group	Overall	All patients	All timepoints	PVL	3767	69391	5.428657895116081
+Wu SingleR major 8-group	Overall	All patients	All timepoints	Plasmablasts	3191	69391	4.598579066449539
+Wu SingleR major 8-group	Overall	All patients	All timepoints	T-cells	4921	69391	7.091697770604257
+Wu SingleR major 8-group	Patient	P1	All timepoints	B-cells	163	12086	1.3486678801919576
+Wu SingleR major 8-group	Patient	P1	All timepoints	CAFs	1771	12086	14.653317888465994
+Wu SingleR major 8-group	Patient	P1	All timepoints	Endothelial	956	12086	7.909978487506206
+Wu SingleR major 8-group	Patient	P1	All timepoints	Epithelial	6727	12086	55.65944067516134
+Wu SingleR major 8-group	Patient	P1	All timepoints	Myeloid	1440	12086	11.914611947708092
+Wu SingleR major 8-group	Patient	P1	All timepoints	PVL	456	12086	3.7729604501075626
+Wu SingleR major 8-group	Patient	P1	All timepoints	Plasmablasts	208	12086	1.7209995035578356
+Wu SingleR major 8-group	Patient	P1	All timepoints	T-cells	365	12086	3.0200231673010096
+Wu SingleR major 8-group	Patient	P2	All timepoints	B-cells	205	6704	3.057875894988067
+Wu SingleR major 8-group	Patient	P2	All timepoints	CAFs	623	6704	9.292959427207638
+Wu SingleR major 8-group	Patient	P2	All timepoints	Endothelial	210	6704	3.132458233890215
+Wu SingleR major 8-group	Patient	P2	All timepoints	Epithelial	4021	6704	59.9791169451074
+Wu SingleR major 8-group	Patient	P2	All timepoints	Myeloid	619	6704	9.233293556085918
+Wu SingleR major 8-group	Patient	P2	All timepoints	PVL	220	6704	3.2816229116945106
+Wu SingleR major 8-group	Patient	P2	All timepoints	Plasmablasts	380	6704	5.6682577565632455
+Wu SingleR major 8-group	Patient	P2	All timepoints	T-cells	426	6704	6.354415274463007
+Wu SingleR major 8-group	Patient	P3	All timepoints	B-cells	318	9296	3.4208261617900173
+Wu SingleR major 8-group	Patient	P3	All timepoints	CAFs	2055	9296	22.106282271944924
+Wu SingleR major 8-group	Patient	P3	All timepoints	Endothelial	604	9296	6.497418244406196
+Wu SingleR major 8-group	Patient	P3	All timepoints	Epithelial	4257	9296	45.79388984509466
+Wu SingleR major 8-group	Patient	P3	All timepoints	Myeloid	404	9296	4.345955249569707
+Wu SingleR major 8-group	Patient	P3	All timepoints	PVL	913	9296	9.821428571428571
+Wu SingleR major 8-group	Patient	P3	All timepoints	Plasmablasts	432	9296	4.647160068846816
+Wu SingleR major 8-group	Patient	P3	All timepoints	T-cells	313	9296	3.367039586919105
+Wu SingleR major 8-group	Patient	P4	All timepoints	B-cells	297	16956	1.7515923566878981
+Wu SingleR major 8-group	Patient	P4	All timepoints	CAFs	1920	16956	11.32342533616419
+Wu SingleR major 8-group	Patient	P4	All timepoints	Endothelial	273	16956	1.6100495399858457
+Wu SingleR major 8-group	Patient	P4	All timepoints	Epithelial	7181	16956	42.350790280726585
+Wu SingleR major 8-group	Patient	P4	All timepoints	Myeloid	2137	16956	12.603208303845246
+Wu SingleR major 8-group	Patient	P4	All timepoints	PVL	374	16956	2.2057088936069826
+Wu SingleR major 8-group	Patient	P4	All timepoints	Plasmablasts	1453	16956	8.569238027836754
+Wu SingleR major 8-group	Patient	P4	All timepoints	T-cells	3321	16956	19.585987261146496
+Wu SingleR major 8-group	Patient	P5	All timepoints	B-cells	179	10564	1.6944339265429762
+Wu SingleR major 8-group	Patient	P5	All timepoints	CAFs	1882	10564	17.81522150700492
+Wu SingleR major 8-group	Patient	P5	All timepoints	Endothelial	401	10564	3.7959106399091254
+Wu SingleR major 8-group	Patient	P5	All timepoints	Epithelial	6440	10564	60.961756910261265
+Wu SingleR major 8-group	Patient	P5	All timepoints	Myeloid	345	10564	3.2658084059068533
+Wu SingleR major 8-group	Patient	P5	All timepoints	PVL	823	10564	7.790609617569102
+Wu SingleR major 8-group	Patient	P5	All timepoints	Plasmablasts	311	10564	2.9439606209769025
+Wu SingleR major 8-group	Patient	P5	All timepoints	T-cells	183	10564	1.7322983718288527
+Wu SingleR major 8-group	Patient	P6	All timepoints	B-cells	152	7539	2.0161825175752752
+Wu SingleR major 8-group	Patient	P6	All timepoints	CAFs	479	7539	6.353627802095769
+Wu SingleR major 8-group	Patient	P6	All timepoints	Endothelial	253	7539	3.3558827430693725
+Wu SingleR major 8-group	Patient	P6	All timepoints	Epithelial	5245	7539	69.57156121501525
+Wu SingleR major 8-group	Patient	P6	All timepoints	Myeloid	916	7539	12.150152540124685
+Wu SingleR major 8-group	Patient	P6	All timepoints	PVL	233	7539	3.0905955697042047
+Wu SingleR major 8-group	Patient	P6	All timepoints	Plasmablasts	178	7539	2.3610558429499933
+Wu SingleR major 8-group	Patient	P6	All timepoints	T-cells	83	7539	1.1009417694654464
+Wu SingleR major 8-group	Patient	P7	All timepoints	B-cells	65	6246	1.0406660262568044
+Wu SingleR major 8-group	Patient	P7	All timepoints	CAFs	706	6246	11.303234069804676
+Wu SingleR major 8-group	Patient	P7	All timepoints	Endothelial	796	6246	12.744156260006404
+Wu SingleR major 8-group	Patient	P7	All timepoints	Epithelial	3092	6246	49.503682356708296
+Wu SingleR major 8-group	Patient	P7	All timepoints	Myeloid	380	6246	6.083893691962857
+Wu SingleR major 8-group	Patient	P7	All timepoints	PVL	748	6246	11.975664425232148
+Wu SingleR major 8-group	Patient	P7	All timepoints	Plasmablasts	229	6246	3.6663464617355106
+Wu SingleR major 8-group	Patient	P7	All timepoints	T-cells	230	6246	3.6823567082933075
+Wu SingleR major 8-group	Specimen	P3	Surgery	B-cells	205	2266	9.046778464254192
+Wu SingleR major 8-group	Specimen	P3	Surgery	CAFs	452	2266	19.947043248014122
+Wu SingleR major 8-group	Specimen	P3	Surgery	Endothelial	148	2266	6.531332744924978
+Wu SingleR major 8-group	Specimen	P3	Surgery	Epithelial	523	2266	23.080317740511916
+Wu SingleR major 8-group	Specimen	P3	Surgery	Myeloid	152	2266	6.707855251544572
+Wu SingleR major 8-group	Specimen	P3	Surgery	PVL	270	2266	11.915269196822594
+Wu SingleR major 8-group	Specimen	P3	Surgery	Plasmablasts	356	2266	15.710503089143867
+Wu SingleR major 8-group	Specimen	P3	Surgery	T-cells	160	2266	7.0609002647837595
+Wu SingleR major 8-group	Specimen	P4	Bx	B-cells	265	14935	1.7743555406762639
+Wu SingleR major 8-group	Specimen	P4	Bx	CAFs	1273	14935	8.523602276531637
+Wu SingleR major 8-group	Specimen	P4	Bx	Endothelial	172	14935	1.1516571811181788
+Wu SingleR major 8-group	Specimen	P4	Bx	Epithelial	6296	14935	42.1560093739538
+Wu SingleR major 8-group	Specimen	P4	Bx	Myeloid	2012	14935	13.471710746568464
+Wu SingleR major 8-group	Specimen	P4	Bx	PVL	221	14935	1.4797455641111483
+Wu SingleR major 8-group	Specimen	P4	Bx	Plasmablasts	1415	14935	9.474389019082691
+Wu SingleR major 8-group	Specimen	P4	Bx	T-cells	3281	14935	21.968530297957816
+Wu SingleR major 8-group	Specimen	P6	Bx	B-cells	52	6662	0.7805463824677275
+Wu SingleR major 8-group	Specimen	P6	Bx	CAFs	339	6662	5.088561993395377
+Wu SingleR major 8-group	Specimen	P6	Bx	Endothelial	229	6662	3.4374061843290304
+Wu SingleR major 8-group	Specimen	P6	Bx	Epithelial	5239	6662	78.64004803362354
+Wu SingleR major 8-group	Specimen	P6	Bx	Myeloid	418	6662	6.274392074452116
+Wu SingleR major 8-group	Specimen	P6	Bx	PVL	219	6662	3.2873011107775443
+Wu SingleR major 8-group	Specimen	P6	Bx	Plasmablasts	138	6662	2.0714500150105075
+Wu SingleR major 8-group	Specimen	P6	Bx	T-cells	28	6662	0.4202942059441609
+Wu SingleR major 8-group	Specimen	P3	Bx	B-cells	9	374	2.406417112299465
+Wu SingleR major 8-group	Specimen	P3	Bx	CAFs	54	374	14.438502673796792
+Wu SingleR major 8-group	Specimen	P3	Bx	Endothelial	65	374	17.379679144385026
+Wu SingleR major 8-group	Specimen	P3	Bx	Epithelial	135	374	36.096256684491976
+Wu SingleR major 8-group	Specimen	P3	Bx	Myeloid	25	374	6.684491978609626
+Wu SingleR major 8-group	Specimen	P3	Bx	PVL	61	374	16.310160427807485
+Wu SingleR major 8-group	Specimen	P3	Bx	Plasmablasts	4	374	1.0695187165775402
+Wu SingleR major 8-group	Specimen	P3	Bx	T-cells	21	374	5.614973262032086
+Wu SingleR major 8-group	Specimen	P7	Surgery	B-cells	1	552	0.18115942028985507
+Wu SingleR major 8-group	Specimen	P7	Surgery	CAFs	33	552	5.978260869565218
+Wu SingleR major 8-group	Specimen	P7	Surgery	Endothelial	104	552	18.840579710144926
+Wu SingleR major 8-group	Specimen	P7	Surgery	Epithelial	255	552	46.19565217391305
+Wu SingleR major 8-group	Specimen	P7	Surgery	Myeloid	9	552	1.6304347826086956
+Wu SingleR major 8-group	Specimen	P7	Surgery	PVL	143	552	25.905797101449274
+Wu SingleR major 8-group	Specimen	P7	Surgery	Plasmablasts	3	552	0.5434782608695652
+Wu SingleR major 8-group	Specimen	P7	Surgery	T-cells	4	552	0.7246376811594203
+Wu SingleR major 8-group	Specimen	P2	Surgery	B-cells	25	4189	0.5968011458582001
+Wu SingleR major 8-group	Specimen	P2	Surgery	CAFs	195	4189	4.6550489376939606
+Wu SingleR major 8-group	Specimen	P2	Surgery	Endothelial	45	4189	1.0742420625447602
+Wu SingleR major 8-group	Specimen	P2	Surgery	Epithelial	3526	4189	84.17283361184053
+Wu SingleR major 8-group	Specimen	P2	Surgery	Myeloid	167	4189	3.9866316543327764
+Wu SingleR major 8-group	Specimen	P2	Surgery	PVL	97	4189	2.315588445929816
+Wu SingleR major 8-group	Specimen	P2	Surgery	Plasmablasts	25	4189	0.5968011458582001
+Wu SingleR major 8-group	Specimen	P2	Surgery	T-cells	109	4189	2.602052995941752
+Wu SingleR major 8-group	Specimen	P5	Bx	B-cells	102	7081	1.440474509250106
+Wu SingleR major 8-group	Specimen	P5	Bx	CAFs	1309	7081	18.486089535376358
+Wu SingleR major 8-group	Specimen	P5	Bx	Endothelial	258	7081	3.6435531704561503
+Wu SingleR major 8-group	Specimen	P5	Bx	Epithelial	4394	7081	62.05338229063692
+Wu SingleR major 8-group	Specimen	P5	Bx	Myeloid	228	7081	3.219884197147296
+Wu SingleR major 8-group	Specimen	P5	Bx	PVL	509	7081	7.1882502471402345
+Wu SingleR major 8-group	Specimen	P5	Bx	Plasmablasts	207	7081	2.9233159158310973
+Wu SingleR major 8-group	Specimen	P5	Bx	T-cells	74	7081	1.0450501341618414
+Wu SingleR major 8-group	Specimen	P2	Bx	B-cells	180	2515	7.157057654075547
+Wu SingleR major 8-group	Specimen	P2	Bx	CAFs	428	2515	17.017892644135188
+Wu SingleR major 8-group	Specimen	P2	Bx	Endothelial	165	2515	6.560636182902584
+Wu SingleR major 8-group	Specimen	P2	Bx	Epithelial	495	2515	19.681908548707753
+Wu SingleR major 8-group	Specimen	P2	Bx	Myeloid	452	2515	17.97216699801193
+Wu SingleR major 8-group	Specimen	P2	Bx	PVL	123	2515	4.89065606361829
+Wu SingleR major 8-group	Specimen	P2	Bx	Plasmablasts	355	2515	14.115308151093439
+Wu SingleR major 8-group	Specimen	P2	Bx	T-cells	317	2515	12.604373757455269
+Wu SingleR major 8-group	Specimen	P7	Bx	B-cells	64	5694	1.1239901650860555
+Wu SingleR major 8-group	Specimen	P7	Bx	CAFs	673	5694	11.819459079733052
+Wu SingleR major 8-group	Specimen	P7	Bx	Endothelial	692	5694	12.153143659992976
+Wu SingleR major 8-group	Specimen	P7	Bx	Epithelial	2837	5694	49.8243765367053
+Wu SingleR major 8-group	Specimen	P7	Bx	Myeloid	371	5694	6.515630488233228
+Wu SingleR major 8-group	Specimen	P7	Bx	PVL	605	5694	10.625219529329119
+Wu SingleR major 8-group	Specimen	P7	Bx	Plasmablasts	226	5694	3.9690902704601334
+Wu SingleR major 8-group	Specimen	P7	Bx	T-cells	226	5694	3.9690902704601334
+Wu SingleR major 8-group	Specimen	P5	Surgery	B-cells	77	3483	2.2107378696525983
+Wu SingleR major 8-group	Specimen	P5	Surgery	CAFs	573	3483	16.45133505598622
+Wu SingleR major 8-group	Specimen	P5	Surgery	Endothelial	143	3483	4.10565604364054
+Wu SingleR major 8-group	Specimen	P5	Surgery	Epithelial	2046	3483	58.74246339362618
+Wu SingleR major 8-group	Specimen	P5	Surgery	Myeloid	117	3483	3.359173126614987
+Wu SingleR major 8-group	Specimen	P5	Surgery	PVL	314	3483	9.015216767154751
+Wu SingleR major 8-group	Specimen	P5	Surgery	Plasmablasts	104	3483	2.985931668102211
+Wu SingleR major 8-group	Specimen	P5	Surgery	T-cells	109	3483	3.1294860752225095
+Wu SingleR major 8-group	Specimen	P6	Surgery	B-cells	100	877	11.402508551881414
+Wu SingleR major 8-group	Specimen	P6	Surgery	CAFs	140	877	15.96351197263398
+Wu SingleR major 8-group	Specimen	P6	Surgery	Endothelial	24	877	2.7366020524515395
+Wu SingleR major 8-group	Specimen	P6	Surgery	Epithelial	6	877	0.6841505131128849
+Wu SingleR major 8-group	Specimen	P6	Surgery	Myeloid	498	877	56.78449258836944
+Wu SingleR major 8-group	Specimen	P6	Surgery	PVL	14	877	1.596351197263398
+Wu SingleR major 8-group	Specimen	P6	Surgery	Plasmablasts	40	877	4.561003420752566
+Wu SingleR major 8-group	Specimen	P6	Surgery	T-cells	55	877	6.271379703534778
+Wu SingleR major 8-group	Specimen	P1	Bx	B-cells	68	6874	0.9892347977887693
+Wu SingleR major 8-group	Specimen	P1	Bx	CAFs	628	6874	9.135874308990399
+Wu SingleR major 8-group	Specimen	P1	Bx	Endothelial	264	6874	3.8405586267093397
+Wu SingleR major 8-group	Specimen	P1	Bx	Epithelial	4865	6874	70.77393075356416
+Wu SingleR major 8-group	Specimen	P1	Bx	Myeloid	573	6874	8.335757928425952
+Wu SingleR major 8-group	Specimen	P1	Bx	PVL	166	6874	2.4148967122490546
+Wu SingleR major 8-group	Specimen	P1	Bx	Plasmablasts	146	6874	2.1239453011347105
+Wu SingleR major 8-group	Specimen	P1	Bx	T-cells	164	6874	2.38580157113762
+Wu SingleR major 8-group	Specimen	P4	Surgery	B-cells	32	2021	1.5833745670460169
+Wu SingleR major 8-group	Specimen	P4	Surgery	CAFs	647	2021	32.01385452746165
+Wu SingleR major 8-group	Specimen	P4	Surgery	Endothelial	101	2021	4.997525977238991
+Wu SingleR major 8-group	Specimen	P4	Surgery	Epithelial	885	2021	43.790202869866405
+Wu SingleR major 8-group	Specimen	P4	Surgery	Myeloid	125	2021	6.185056902523503
+Wu SingleR major 8-group	Specimen	P4	Surgery	PVL	153	2021	7.570509648688768
+Wu SingleR major 8-group	Specimen	P4	Surgery	Plasmablasts	38	2021	1.880257298367145
+Wu SingleR major 8-group	Specimen	P4	Surgery	T-cells	40	2021	1.979218208807521
+Wu SingleR major 8-group	Specimen	P1	Surgery	B-cells	95	5212	1.8227168073676132
+Wu SingleR major 8-group	Specimen	P1	Surgery	CAFs	1143	5212	21.930161166538756
+Wu SingleR major 8-group	Specimen	P1	Surgery	Endothelial	692	5212	13.277052954719878
+Wu SingleR major 8-group	Specimen	P1	Surgery	Epithelial	1862	5212	35.72524942440522
+Wu SingleR major 8-group	Specimen	P1	Surgery	Myeloid	867	5212	16.63468917881811
+Wu SingleR major 8-group	Specimen	P1	Surgery	PVL	290	5212	5.564082885648504
+Wu SingleR major 8-group	Specimen	P1	Surgery	Plasmablasts	62	5212	1.1895625479662317
+Wu SingleR major 8-group	Specimen	P1	Surgery	T-cells	201	5212	3.856485034535687
+Wu SingleR major 8-group	Specimen	P3	Recurrence	B-cells	104	6656	1.5625
+Wu SingleR major 8-group	Specimen	P3	Recurrence	CAFs	1549	6656	23.272235576923077
+Wu SingleR major 8-group	Specimen	P3	Recurrence	Endothelial	391	6656	5.874399038461538
+Wu SingleR major 8-group	Specimen	P3	Recurrence	Epithelial	3599	6656	54.07151442307692
+Wu SingleR major 8-group	Specimen	P3	Recurrence	Myeloid	227	6656	3.410456730769231
+Wu SingleR major 8-group	Specimen	P3	Recurrence	PVL	582	6656	8.743990384615385
+Wu SingleR major 8-group	Specimen	P3	Recurrence	Plasmablasts	72	6656	1.0817307692307692
+Wu SingleR major 8-group	Specimen	P3	Recurrence	T-cells	132	6656	1.9831730769230769
+Wu SingleR minor 29-plus-ambiguous	Overall	All patients	All timepoints	Ambiguous	72	69391	0.10375985358331773
+Wu SingleR minor 29-plus-ambiguous	Overall	All patients	All timepoints	B cells Memory	340	69391	0.489977086365667
+Wu SingleR minor 29-plus-ambiguous	Overall	All patients	All timepoints	B cells Naive	425	69391	0.6124713579570837
+Wu SingleR minor 29-plus-ambiguous	Overall	All patients	All timepoints	CAFs MSC iCAF-like	415	69391	0.598060267181623
+Wu SingleR minor 29-plus-ambiguous	Overall	All patients	All timepoints	CAFs myCAF-like	7231	69391	10.4206597397357
+Wu SingleR minor 29-plus-ambiguous	Overall	All patients	All timepoints	Cancer Basal SC	11292	69391	16.27300370365033
+Wu SingleR minor 29-plus-ambiguous	Overall	All patients	All timepoints	Cancer Cycling	9120	69391	13.142914787220244
+Wu SingleR minor 29-plus-ambiguous	Overall	All patients	All timepoints	Cancer Her2 SC	2663	69391	3.83767347350521
+Wu SingleR minor 29-plus-ambiguous	Overall	All patients	All timepoints	Cancer LumA SC	771	69391	1.1110950987880273
+Wu SingleR minor 29-plus-ambiguous	Overall	All patients	All timepoints	Cancer LumB SC	282	69391	0.4063927598679944
+Wu SingleR minor 29-plus-ambiguous	Overall	All patients	All timepoints	Cycling PVL	2539	69391	3.6589759478894957
+Wu SingleR minor 29-plus-ambiguous	Overall	All patients	All timepoints	Cycling T-cells	826	69391	1.1903560980530616
+Wu SingleR minor 29-plus-ambiguous	Overall	All patients	All timepoints	Cycling_Myeloid	239	69391	0.344425069533513
+Wu SingleR minor 29-plus-ambiguous	Overall	All patients	All timepoints	DCs	791	69391	1.1399172803389488
+Wu SingleR minor 29-plus-ambiguous	Overall	All patients	All timepoints	Endothelial ACKR1	663	69391	0.9554553184130506
+Wu SingleR minor 29-plus-ambiguous	Overall	All patients	All timepoints	Endothelial CXCL12	630	69391	0.9078987188540301
+Wu SingleR minor 29-plus-ambiguous	Overall	All patients	All timepoints	Endothelial Lymphatic LYVE1	114	69391	0.16428643484025307
+Wu SingleR minor 29-plus-ambiguous	Overall	All patients	All timepoints	Endothelial RGS5	2074	69391	2.988860226830569
+Wu SingleR minor 29-plus-ambiguous	Overall	All patients	All timepoints	Luminal Progenitors	8627	69391	12.432448011990028
+Wu SingleR minor 29-plus-ambiguous	Overall	All patients	All timepoints	Macrophage	4758	69391	6.856796990964246
+Wu SingleR minor 29-plus-ambiguous	Overall	All patients	All timepoints	Mature Luminal	1055	69391	1.520370076811114
+Wu SingleR minor 29-plus-ambiguous	Overall	All patients	All timepoints	Monocyte	901	69391	1.2984392788690176
+Wu SingleR minor 29-plus-ambiguous	Overall	All patients	All timepoints	Myoepithelial	4430	69391	6.384113213529132
+Wu SingleR minor 29-plus-ambiguous	Overall	All patients	All timepoints	NK cells	353	69391	0.508711504373766
+Wu SingleR minor 29-plus-ambiguous	Overall	All patients	All timepoints	NKT cells	995	69391	1.433903532158349
+Wu SingleR minor 29-plus-ambiguous	Overall	All patients	All timepoints	PVL Differentiated	1012	69391	1.4584023864766325
+Wu SingleR minor 29-plus-ambiguous	Overall	All patients	All timepoints	PVL Immature	1437	69391	2.070873744433716
+Wu SingleR minor 29-plus-ambiguous	Overall	All patients	All timepoints	Plasmablasts	2346	69391	3.3808418959231026
+Wu SingleR minor 29-plus-ambiguous	Overall	All patients	All timepoints	T cells CD4+	1615	69391	2.3273911602369184
+Wu SingleR minor 29-plus-ambiguous	Overall	All patients	All timepoints	T cells CD8+	1375	69391	1.9815249816258593
+Wu SingleR minor 29-plus-ambiguous	Patient	P1	All timepoints	Ambiguous	9	12086	0.07446632467317557
+Wu SingleR minor 29-plus-ambiguous	Patient	P1	All timepoints	B cells Memory	29	12086	0.2399470461691213
+Wu SingleR minor 29-plus-ambiguous	Patient	P1	All timepoints	B cells Naive	22	12086	0.18202879364554028
+Wu SingleR minor 29-plus-ambiguous	Patient	P1	All timepoints	CAFs MSC iCAF-like	134	12086	1.1087208340228363
+Wu SingleR minor 29-plus-ambiguous	Patient	P1	All timepoints	CAFs myCAF-like	1340	12086	11.087208340228363
+Wu SingleR minor 29-plus-ambiguous	Patient	P1	All timepoints	Cancer Basal SC	3288	12086	27.205030613933477
+Wu SingleR minor 29-plus-ambiguous	Patient	P1	All timepoints	Cancer Cycling	1395	12086	11.542280324342213
+Wu SingleR minor 29-plus-ambiguous	Patient	P1	All timepoints	Cancer Her2 SC	211	12086	1.7458216117822274
+Wu SingleR minor 29-plus-ambiguous	Patient	P1	All timepoints	Cancer LumA SC	44	12086	0.36405758729108056
+Wu SingleR minor 29-plus-ambiguous	Patient	P1	All timepoints	Cancer LumB SC	32	12086	0.2647691543935132
+Wu SingleR minor 29-plus-ambiguous	Patient	P1	All timepoints	Cycling PVL	344	12086	2.8462684097302664
+Wu SingleR minor 29-plus-ambiguous	Patient	P1	All timepoints	Cycling T-cells	59	12086	0.48816812841303986
+Wu SingleR minor 29-plus-ambiguous	Patient	P1	All timepoints	Cycling_Myeloid	83	12086	0.6867449942081747
+Wu SingleR minor 29-plus-ambiguous	Patient	P1	All timepoints	DCs	158	12086	1.3072976998179713
+Wu SingleR minor 29-plus-ambiguous	Patient	P1	All timepoints	Endothelial ACKR1	333	12086	2.7552540129074963
+Wu SingleR minor 29-plus-ambiguous	Patient	P1	All timepoints	Endothelial CXCL12	145	12086	1.1997352308456064
+Wu SingleR minor 29-plus-ambiguous	Patient	P1	All timepoints	Endothelial Lymphatic LYVE1	30	12086	0.2482210822439186
+Wu SingleR minor 29-plus-ambiguous	Patient	P1	All timepoints	Endothelial RGS5	430	12086	3.557835512162833
+Wu SingleR minor 29-plus-ambiguous	Patient	P1	All timepoints	Luminal Progenitors	1447	12086	11.972530200231674
+Wu SingleR minor 29-plus-ambiguous	Patient	P1	All timepoints	Macrophage	1141	12086	9.440675161343703
+Wu SingleR minor 29-plus-ambiguous	Patient	P1	All timepoints	Mature Luminal	207	12086	1.7127254674830383
+Wu SingleR minor 29-plus-ambiguous	Patient	P1	All timepoints	Monocyte	180	12086	1.4893264934635115
+Wu SingleR minor 29-plus-ambiguous	Patient	P1	All timepoints	Myoepithelial	299	12086	2.4739367863643884
+Wu SingleR minor 29-plus-ambiguous	Patient	P1	All timepoints	NK cells	42	12086	0.34750951514148604
+Wu SingleR minor 29-plus-ambiguous	Patient	P1	All timepoints	NKT cells	16	12086	0.1323845771967566
+Wu SingleR minor 29-plus-ambiguous	Patient	P1	All timepoints	PVL Differentiated	177	12086	1.4645043852391197
+Wu SingleR minor 29-plus-ambiguous	Patient	P1	All timepoints	PVL Immature	215	12086	1.7789177560814164
+Wu SingleR minor 29-plus-ambiguous	Patient	P1	All timepoints	Plasmablasts	107	12086	0.8853218600033096
+Wu SingleR minor 29-plus-ambiguous	Patient	P1	All timepoints	T cells CD4+	118	12086	0.9763362568260797
+Wu SingleR minor 29-plus-ambiguous	Patient	P1	All timepoints	T cells CD8+	51	12086	0.4219758398146616
+Wu SingleR minor 29-plus-ambiguous	Patient	P2	All timepoints	Ambiguous	8	6704	0.11933174224343675
+Wu SingleR minor 29-plus-ambiguous	Patient	P2	All timepoints	B cells Memory	53	6704	0.7905727923627685
+Wu SingleR minor 29-plus-ambiguous	Patient	P2	All timepoints	B cells Naive	92	6704	1.3723150357995226
+Wu SingleR minor 29-plus-ambiguous	Patient	P2	All timepoints	CAFs MSC iCAF-like	19	6704	0.2834128878281623
+Wu SingleR minor 29-plus-ambiguous	Patient	P2	All timepoints	CAFs myCAF-like	556	6704	8.293556085918855
+Wu SingleR minor 29-plus-ambiguous	Patient	P2	All timepoints	Cancer Basal SC	1073	6704	16.005369928400956
+Wu SingleR minor 29-plus-ambiguous	Patient	P2	All timepoints	Cancer Cycling	711	6704	10.605608591885442
+Wu SingleR minor 29-plus-ambiguous	Patient	P2	All timepoints	Cancer Her2 SC	267	6704	3.9826968973747015
+Wu SingleR minor 29-plus-ambiguous	Patient	P2	All timepoints	Cancer LumA SC	130	6704	1.9391408114558473
+Wu SingleR minor 29-plus-ambiguous	Patient	P2	All timepoints	Cancer LumB SC	8	6704	0.11933174224343675
+Wu SingleR minor 29-plus-ambiguous	Patient	P2	All timepoints	Cycling PVL	220	6704	3.2816229116945106
+Wu SingleR minor 29-plus-ambiguous	Patient	P2	All timepoints	Cycling T-cells	65	6704	0.9695704057279236
+Wu SingleR minor 29-plus-ambiguous	Patient	P2	All timepoints	Cycling_Myeloid	14	6704	0.20883054892601433
+Wu SingleR minor 29-plus-ambiguous	Patient	P2	All timepoints	DCs	83	6704	1.2380668257756564
+Wu SingleR minor 29-plus-ambiguous	Patient	P2	All timepoints	Endothelial ACKR1	34	6704	0.5071599045346062
+Wu SingleR minor 29-plus-ambiguous	Patient	P2	All timepoints	Endothelial CXCL12	35	6704	0.5220763723150358
+Wu SingleR minor 29-plus-ambiguous	Patient	P2	All timepoints	Endothelial Lymphatic LYVE1	12	6704	0.17899761336515513
+Wu SingleR minor 29-plus-ambiguous	Patient	P2	All timepoints	Endothelial RGS5	140	6704	2.088305489260143
+Wu SingleR minor 29-plus-ambiguous	Patient	P2	All timepoints	Luminal Progenitors	1271	6704	18.958830548926013
+Wu SingleR minor 29-plus-ambiguous	Patient	P2	All timepoints	Macrophage	507	6704	7.562649164677804
+Wu SingleR minor 29-plus-ambiguous	Patient	P2	All timepoints	Mature Luminal	213	6704	3.1772076372315037
+Wu SingleR minor 29-plus-ambiguous	Patient	P2	All timepoints	Monocyte	92	6704	1.3723150357995226
+Wu SingleR minor 29-plus-ambiguous	Patient	P2	All timepoints	Myoepithelial	211	6704	3.1473747016706444
+Wu SingleR minor 29-plus-ambiguous	Patient	P2	All timepoints	NK cells	36	6704	0.5369928400954654
+Wu SingleR minor 29-plus-ambiguous	Patient	P2	All timepoints	NKT cells	67	6704	0.9994033412887828
+Wu SingleR minor 29-plus-ambiguous	Patient	P2	All timepoints	PVL Differentiated	48	6704	0.7159904534606205
+Wu SingleR minor 29-plus-ambiguous	Patient	P2	All timepoints	PVL Immature	164	6704	2.4463007159904535
+Wu SingleR minor 29-plus-ambiguous	Patient	P2	All timepoints	Plasmablasts	307	6704	4.579355608591886
+Wu SingleR minor 29-plus-ambiguous	Patient	P2	All timepoints	T cells CD4+	177	6704	2.6402147971360383
+Wu SingleR minor 29-plus-ambiguous	Patient	P2	All timepoints	T cells CD8+	91	6704	1.357398568019093
+Wu SingleR minor 29-plus-ambiguous	Patient	P3	All timepoints	Ambiguous	9	9296	0.096815834767642
+Wu SingleR minor 29-plus-ambiguous	Patient	P3	All timepoints	B cells Memory	85	9296	0.9143717728055077
+Wu SingleR minor 29-plus-ambiguous	Patient	P3	All timepoints	B cells Naive	183	9296	1.9685886402753872
+Wu SingleR minor 29-plus-ambiguous	Patient	P3	All timepoints	CAFs MSC iCAF-like	51	9296	0.5486230636833046
+Wu SingleR minor 29-plus-ambiguous	Patient	P3	All timepoints	CAFs myCAF-like	1848	9296	19.879518072289155
+Wu SingleR minor 29-plus-ambiguous	Patient	P3	All timepoints	Cancer Basal SC	658	9296	7.078313253012048
+Wu SingleR minor 29-plus-ambiguous	Patient	P3	All timepoints	Cancer Cycling	520	9296	5.593803786574871
+Wu SingleR minor 29-plus-ambiguous	Patient	P3	All timepoints	Cancer Her2 SC	147	9296	1.5813253012048192
+Wu SingleR minor 29-plus-ambiguous	Patient	P3	All timepoints	Cancer LumA SC	27	9296	0.290447504302926
+Wu SingleR minor 29-plus-ambiguous	Patient	P3	All timepoints	Cancer LumB SC	16	9296	0.1721170395869191
+Wu SingleR minor 29-plus-ambiguous	Patient	P3	All timepoints	Cycling PVL	658	9296	7.078313253012048
+Wu SingleR minor 29-plus-ambiguous	Patient	P3	All timepoints	Cycling T-cells	52	9296	0.5593803786574871
+Wu SingleR minor 29-plus-ambiguous	Patient	P3	All timepoints	Cycling_Myeloid	20	9296	0.21514629948364888
+Wu SingleR minor 29-plus-ambiguous	Patient	P3	All timepoints	DCs	104	9296	1.1187607573149743
+Wu SingleR minor 29-plus-ambiguous	Patient	P3	All timepoints	Endothelial ACKR1	78	9296	0.8390705679862306
+Wu SingleR minor 29-plus-ambiguous	Patient	P3	All timepoints	Endothelial CXCL12	123	9296	1.3231497418244407
+Wu SingleR minor 29-plus-ambiguous	Patient	P3	All timepoints	Endothelial Lymphatic LYVE1	42	9296	0.45180722891566266
+Wu SingleR minor 29-plus-ambiguous	Patient	P3	All timepoints	Endothelial RGS5	393	9296	4.227624784853701
+Wu SingleR minor 29-plus-ambiguous	Patient	P3	All timepoints	Luminal Progenitors	1233	9296	13.263769363166954
+Wu SingleR minor 29-plus-ambiguous	Patient	P3	All timepoints	Macrophage	261	9296	2.807659208261618
+Wu SingleR minor 29-plus-ambiguous	Patient	P3	All timepoints	Mature Luminal	80	9296	0.8605851979345955
+Wu SingleR minor 29-plus-ambiguous	Patient	P3	All timepoints	Monocyte	92	9296	0.9896729776247849
+Wu SingleR minor 29-plus-ambiguous	Patient	P3	All timepoints	Myoepithelial	1488	9296	16.006884681583475
+Wu SingleR minor 29-plus-ambiguous	Patient	P3	All timepoints	NK cells	13	9296	0.13984509466437178
+Wu SingleR minor 29-plus-ambiguous	Patient	P3	All timepoints	NKT cells	17	9296	0.18287435456110154
+Wu SingleR minor 29-plus-ambiguous	Patient	P3	All timepoints	PVL Differentiated	265	9296	2.8506884681583475
+Wu SingleR minor 29-plus-ambiguous	Patient	P3	All timepoints	PVL Immature	242	9296	2.6032702237521517
+Wu SingleR minor 29-plus-ambiguous	Patient	P3	All timepoints	Plasmablasts	372	9296	4.001721170395869
+Wu SingleR minor 29-plus-ambiguous	Patient	P3	All timepoints	T cells CD4+	172	9296	1.8502581755593803
+Wu SingleR minor 29-plus-ambiguous	Patient	P3	All timepoints	T cells CD8+	47	9296	0.5055938037865749
+Wu SingleR minor 29-plus-ambiguous	Patient	P4	All timepoints	Ambiguous	16	16956	0.09436187780136825
+Wu SingleR minor 29-plus-ambiguous	Patient	P4	All timepoints	B cells Memory	84	16956	0.4953998584571833
+Wu SingleR minor 29-plus-ambiguous	Patient	P4	All timepoints	B cells Naive	59	16956	0.3479594243925454
+Wu SingleR minor 29-plus-ambiguous	Patient	P4	All timepoints	CAFs MSC iCAF-like	97	16956	0.572068884170795
+Wu SingleR minor 29-plus-ambiguous	Patient	P4	All timepoints	CAFs myCAF-like	1064	16956	6.275064873790988
+Wu SingleR minor 29-plus-ambiguous	Patient	P4	All timepoints	Cancer Basal SC	3812	16956	22.481717386175983
+Wu SingleR minor 29-plus-ambiguous	Patient	P4	All timepoints	Cancer Cycling	1951	16956	11.50625147440434
+Wu SingleR minor 29-plus-ambiguous	Patient	P4	All timepoints	Cancer Her2 SC	351	16956	2.070063694267516
+Wu SingleR minor 29-plus-ambiguous	Patient	P4	All timepoints	Cancer LumA SC	101	16956	0.5956593536211371
+Wu SingleR minor 29-plus-ambiguous	Patient	P4	All timepoints	Cancer LumB SC	41	16956	0.24180231186600612
+Wu SingleR minor 29-plus-ambiguous	Patient	P4	All timepoints	Cycling PVL	363	16956	2.140835102618542
+Wu SingleR minor 29-plus-ambiguous	Patient	P4	All timepoints	Cycling T-cells	583	16956	3.4383109223873554
+Wu SingleR minor 29-plus-ambiguous	Patient	P4	All timepoints	Cycling_Myeloid	50	16956	0.2948808681292758
+Wu SingleR minor 29-plus-ambiguous	Patient	P4	All timepoints	DCs	201	16956	1.1854210898796886
+Wu SingleR minor 29-plus-ambiguous	Patient	P4	All timepoints	Endothelial ACKR1	18	16956	0.10615711252653928
+Wu SingleR minor 29-plus-ambiguous	Patient	P4	All timepoints	Endothelial CXCL12	22	16956	0.12974758197688133
+Wu SingleR minor 29-plus-ambiguous	Patient	P4	All timepoints	Endothelial Lymphatic LYVE1	7	16956	0.041283321538098605
+Wu SingleR minor 29-plus-ambiguous	Patient	P4	All timepoints	Endothelial RGS5	160	16956	0.9436187780136824
+Wu SingleR minor 29-plus-ambiguous	Patient	P4	All timepoints	Luminal Progenitors	1185	16956	6.9886765746638355
+Wu SingleR minor 29-plus-ambiguous	Patient	P4	All timepoints	Macrophage	1550	16956	9.141306912007549
+Wu SingleR minor 29-plus-ambiguous	Patient	P4	All timepoints	Mature Luminal	110	16956	0.6487379098844067
+Wu SingleR minor 29-plus-ambiguous	Patient	P4	All timepoints	Monocyte	353	16956	2.0818589289926868
+Wu SingleR minor 29-plus-ambiguous	Patient	P4	All timepoints	Myoepithelial	207	16956	1.2208067940552016
+Wu SingleR minor 29-plus-ambiguous	Patient	P4	All timepoints	NK cells	216	16956	1.2738853503184713
+Wu SingleR minor 29-plus-ambiguous	Patient	P4	All timepoints	NKT cells	842	16956	4.965793819297004
+Wu SingleR minor 29-plus-ambiguous	Patient	P4	All timepoints	PVL Differentiated	62	16956	0.36565227648030196
+Wu SingleR minor 29-plus-ambiguous	Patient	P4	All timepoints	PVL Immature	239	16956	1.4095305496579382
+Wu SingleR minor 29-plus-ambiguous	Patient	P4	All timepoints	Plasmablasts	1138	16956	6.7114885586223165
+Wu SingleR minor 29-plus-ambiguous	Patient	P4	All timepoints	T cells CD4+	976	16956	5.756074545883463
+Wu SingleR minor 29-plus-ambiguous	Patient	P4	All timepoints	T cells CD8+	1098	16956	6.475583864118896
+Wu SingleR minor 29-plus-ambiguous	Patient	P5	All timepoints	Ambiguous	29	10564	0.27451722832260506
+Wu SingleR minor 29-plus-ambiguous	Patient	P5	All timepoints	B cells Memory	22	10564	0.2082544490723211
+Wu SingleR minor 29-plus-ambiguous	Patient	P5	All timepoints	B cells Naive	22	10564	0.2082544490723211
+Wu SingleR minor 29-plus-ambiguous	Patient	P5	All timepoints	CAFs MSC iCAF-like	26	10564	0.24611889435819764
+Wu SingleR minor 29-plus-ambiguous	Patient	P5	All timepoints	CAFs myCAF-like	1311	10564	12.410071942446043
+Wu SingleR minor 29-plus-ambiguous	Patient	P5	All timepoints	Cancer Basal SC	1012	10564	9.57970465732677
+Wu SingleR minor 29-plus-ambiguous	Patient	P5	All timepoints	Cancer Cycling	2865	10564	27.12040893600909
+Wu SingleR minor 29-plus-ambiguous	Patient	P5	All timepoints	Cancer Her2 SC	822	10564	7.781143506247633
+Wu SingleR minor 29-plus-ambiguous	Patient	P5	All timepoints	Cancer LumA SC	112	10564	1.0602044680045437
+Wu SingleR minor 29-plus-ambiguous	Patient	P5	All timepoints	Cancer LumB SC	102	10564	0.9655433547898523
+Wu SingleR minor 29-plus-ambiguous	Patient	P5	All timepoints	Cycling PVL	776	10564	7.345702385460053
+Wu SingleR minor 29-plus-ambiguous	Patient	P5	All timepoints	Cycling T-cells	38	10564	0.3597122302158273
+Wu SingleR minor 29-plus-ambiguous	Patient	P5	All timepoints	Cycling_Myeloid	29	10564	0.27451722832260506
+Wu SingleR minor 29-plus-ambiguous	Patient	P5	All timepoints	DCs	41	10564	0.38811056418023476
+Wu SingleR minor 29-plus-ambiguous	Patient	P5	All timepoints	Endothelial ACKR1	16	10564	0.15145778114350625
+Wu SingleR minor 29-plus-ambiguous	Patient	P5	All timepoints	Endothelial CXCL12	92	10564	0.8708822415751609
+Wu SingleR minor 29-plus-ambiguous	Patient	P5	All timepoints	Endothelial Lymphatic LYVE1	16	10564	0.15145778114350625
+Wu SingleR minor 29-plus-ambiguous	Patient	P5	All timepoints	Endothelial RGS5	283	10564	2.678909503975767
+Wu SingleR minor 29-plus-ambiguous	Patient	P5	All timepoints	Luminal Progenitors	1213	10564	11.482393032942067
+Wu SingleR minor 29-plus-ambiguous	Patient	P5	All timepoints	Macrophage	247	10564	2.338129496402878
+Wu SingleR minor 29-plus-ambiguous	Patient	P5	All timepoints	Mature Luminal	78	10564	0.738356683074593
+Wu SingleR minor 29-plus-ambiguous	Patient	P5	All timepoints	Monocyte	32	10564	0.3029155622870125
+Wu SingleR minor 29-plus-ambiguous	Patient	P5	All timepoints	Myoepithelial	704	10564	6.664142370314275
+Wu SingleR minor 29-plus-ambiguous	Patient	P5	All timepoints	NK cells	19	10564	0.17985611510791366
+Wu SingleR minor 29-plus-ambiguous	Patient	P5	All timepoints	NKT cells	10	10564	0.09466111321469141
+Wu SingleR minor 29-plus-ambiguous	Patient	P5	All timepoints	PVL Differentiated	237	10564	2.243468383188186
+Wu SingleR minor 29-plus-ambiguous	Patient	P5	All timepoints	PVL Immature	251	10564	2.3759939416887543
+Wu SingleR minor 29-plus-ambiguous	Patient	P5	All timepoints	Plasmablasts	95	10564	0.8992805755395683
+Wu SingleR minor 29-plus-ambiguous	Patient	P5	All timepoints	T cells CD4+	50	10564	0.47330556607345703
+Wu SingleR minor 29-plus-ambiguous	Patient	P5	All timepoints	T cells CD8+	14	10564	0.13252555850056796
+Wu SingleR minor 29-plus-ambiguous	Patient	P6	All timepoints	Ambiguous	0	7539	0.0
+Wu SingleR minor 29-plus-ambiguous	Patient	P6	All timepoints	B cells Memory	54	7539	0.716275368085953
+Wu SingleR minor 29-plus-ambiguous	Patient	P6	All timepoints	B cells Naive	21	7539	0.2785515320334262
+Wu SingleR minor 29-plus-ambiguous	Patient	P6	All timepoints	CAFs MSC iCAF-like	67	7539	0.8887120307733121
+Wu SingleR minor 29-plus-ambiguous	Patient	P6	All timepoints	CAFs myCAF-like	463	7539	6.141398063403634
+Wu SingleR minor 29-plus-ambiguous	Patient	P6	All timepoints	Cancer Basal SC	1191	7539	15.797851173895742
+Wu SingleR minor 29-plus-ambiguous	Patient	P6	All timepoints	Cancer Cycling	1301	7539	17.256930627404167
+Wu SingleR minor 29-plus-ambiguous	Patient	P6	All timepoints	Cancer Her2 SC	695	7539	9.21872927443958
+Wu SingleR minor 29-plus-ambiguous	Patient	P6	All timepoints	Cancer LumA SC	308	7539	4.085422469823584
+Wu SingleR minor 29-plus-ambiguous	Patient	P6	All timepoints	Cancer LumB SC	2	7539	0.02652871733651678
+Wu SingleR minor 29-plus-ambiguous	Patient	P6	All timepoints	Cycling PVL	52	7539	0.6897466507494363
+Wu SingleR minor 29-plus-ambiguous	Patient	P6	All timepoints	Cycling T-cells	15	7539	0.19896538002387584
+Wu SingleR minor 29-plus-ambiguous	Patient	P6	All timepoints	Cycling_Myeloid	35	7539	0.46425255338904364
+Wu SingleR minor 29-plus-ambiguous	Patient	P6	All timepoints	DCs	157	7539	2.0825043109165673
+Wu SingleR minor 29-plus-ambiguous	Patient	P6	All timepoints	Endothelial ACKR1	8	7539	0.10611486934606712
+Wu SingleR minor 29-plus-ambiguous	Patient	P6	All timepoints	Endothelial CXCL12	77	7539	1.021355617455896
+Wu SingleR minor 29-plus-ambiguous	Patient	P6	All timepoints	Endothelial Lymphatic LYVE1	5	7539	0.06632179334129194
+Wu SingleR minor 29-plus-ambiguous	Patient	P6	All timepoints	Endothelial RGS5	176	7539	2.3345271256134765
+Wu SingleR minor 29-plus-ambiguous	Patient	P6	All timepoints	Luminal Progenitors	1287	7539	17.071229606048547
+Wu SingleR minor 29-plus-ambiguous	Patient	P6	All timepoints	Macrophage	747	7539	9.908475925189018
+Wu SingleR minor 29-plus-ambiguous	Patient	P6	All timepoints	Mature Luminal	122	7539	1.6182517575275235
+Wu SingleR minor 29-plus-ambiguous	Patient	P6	All timepoints	Monocyte	101	7539	1.3397002254940973
+Wu SingleR minor 29-plus-ambiguous	Patient	P6	All timepoints	Myoepithelial	321	7539	4.257859132510943
+Wu SingleR minor 29-plus-ambiguous	Patient	P6	All timepoints	NK cells	15	7539	0.19896538002387584
+Wu SingleR minor 29-plus-ambiguous	Patient	P6	All timepoints	NKT cells	13	7539	0.17243666268735908
+Wu SingleR minor 29-plus-ambiguous	Patient	P6	All timepoints	PVL Differentiated	32	7539	0.4244594773842685
+Wu SingleR minor 29-plus-ambiguous	Patient	P6	All timepoints	PVL Immature	95	7539	1.260114073484547
+Wu SingleR minor 29-plus-ambiguous	Patient	P6	All timepoints	Plasmablasts	153	7539	2.029446876243534
+Wu SingleR minor 29-plus-ambiguous	Patient	P6	All timepoints	T cells CD4+	15	7539	0.19896538002387584
+Wu SingleR minor 29-plus-ambiguous	Patient	P6	All timepoints	T cells CD8+	11	7539	0.14590794535084228
+Wu SingleR minor 29-plus-ambiguous	Patient	P7	All timepoints	Ambiguous	1	6246	0.01601024655779699
+Wu SingleR minor 29-plus-ambiguous	Patient	P7	All timepoints	B cells Memory	13	6246	0.20813320525136086
+Wu SingleR minor 29-plus-ambiguous	Patient	P7	All timepoints	B cells Naive	26	6246	0.41626641050272173
+Wu SingleR minor 29-plus-ambiguous	Patient	P7	All timepoints	CAFs MSC iCAF-like	21	6246	0.33621517771373677
+Wu SingleR minor 29-plus-ambiguous	Patient	P7	All timepoints	CAFs myCAF-like	649	6246	10.390650016010246
+Wu SingleR minor 29-plus-ambiguous	Patient	P7	All timepoints	Cancer Basal SC	258	6246	4.130643611911624
+Wu SingleR minor 29-plus-ambiguous	Patient	P7	All timepoints	Cancer Cycling	377	6246	6.035862952289465
+Wu SingleR minor 29-plus-ambiguous	Patient	P7	All timepoints	Cancer Her2 SC	170	6246	2.7217419148254884
+Wu SingleR minor 29-plus-ambiguous	Patient	P7	All timepoints	Cancer LumA SC	49	6246	0.7845020813320525
+Wu SingleR minor 29-plus-ambiguous	Patient	P7	All timepoints	Cancer LumB SC	81	6246	1.2968299711815563
+Wu SingleR minor 29-plus-ambiguous	Patient	P7	All timepoints	Cycling PVL	126	6246	2.0172910662824206
+Wu SingleR minor 29-plus-ambiguous	Patient	P7	All timepoints	Cycling T-cells	14	6246	0.22414345180915787
+Wu SingleR minor 29-plus-ambiguous	Patient	P7	All timepoints	Cycling_Myeloid	8	6246	0.12808197246237593
+Wu SingleR minor 29-plus-ambiguous	Patient	P7	All timepoints	DCs	47	6246	0.7524815882164585
+Wu SingleR minor 29-plus-ambiguous	Patient	P7	All timepoints	Endothelial ACKR1	176	6246	2.8178033941722704
+Wu SingleR minor 29-plus-ambiguous	Patient	P7	All timepoints	Endothelial CXCL12	136	6246	2.1773935318603908
+Wu SingleR minor 29-plus-ambiguous	Patient	P7	All timepoints	Endothelial Lymphatic LYVE1	2	6246	0.03202049311559398
+Wu SingleR minor 29-plus-ambiguous	Patient	P7	All timepoints	Endothelial RGS5	492	6246	7.877041306436119
+Wu SingleR minor 29-plus-ambiguous	Patient	P7	All timepoints	Luminal Progenitors	991	6246	15.866154338776818
+Wu SingleR minor 29-plus-ambiguous	Patient	P7	All timepoints	Macrophage	305	6246	4.883125200128082
+Wu SingleR minor 29-plus-ambiguous	Patient	P7	All timepoints	Mature Luminal	245	6246	3.9225104066602627
+Wu SingleR minor 29-plus-ambiguous	Patient	P7	All timepoints	Monocyte	51	6246	0.8165225744476465
+Wu SingleR minor 29-plus-ambiguous	Patient	P7	All timepoints	Myoepithelial	1200	6246	19.21229586935639
+Wu SingleR minor 29-plus-ambiguous	Patient	P7	All timepoints	NK cells	12	6246	0.19212295869356388
+Wu SingleR minor 29-plus-ambiguous	Patient	P7	All timepoints	NKT cells	30	6246	0.4803073967339097
+Wu SingleR minor 29-plus-ambiguous	Patient	P7	All timepoints	PVL Differentiated	191	6246	3.057957092539225
+Wu SingleR minor 29-plus-ambiguous	Patient	P7	All timepoints	PVL Immature	231	6246	3.698366954851105
+Wu SingleR minor 29-plus-ambiguous	Patient	P7	All timepoints	Plasmablasts	174	6246	2.785782901056676
+Wu SingleR minor 29-plus-ambiguous	Patient	P7	All timepoints	T cells CD4+	107	6246	1.713096381684278
+Wu SingleR minor 29-plus-ambiguous	Patient	P7	All timepoints	T cells CD8+	63	6246	1.0086455331412103
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Surgery	Ambiguous	4	2266	0.176522506619594
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Surgery	B cells Memory	58	2266	2.5595763459841128
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Surgery	B cells Naive	133	2266	5.869373345101501
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Surgery	CAFs MSC iCAF-like	26	2266	1.147396293027361
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Surgery	CAFs myCAF-like	378	2266	16.68137687555163
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Surgery	Cancer Basal SC	50	2266	2.206531332744925
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Surgery	Cancer Cycling	34	2266	1.500441306266549
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Surgery	Cancer Her2 SC	7	2266	0.3089143865842895
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Surgery	Cancer LumA SC	3	2266	0.1323918799646955
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Surgery	Cancer LumB SC	0	2266	0.0
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Surgery	Cycling PVL	261	2266	11.518093556928509
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Surgery	Cycling T-cells	21	2266	0.9267431597528685
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Surgery	Cycling_Myeloid	1	2266	0.0441306266548985
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Surgery	DCs	32	2266	1.412180052956752
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Surgery	Endothelial ACKR1	18	2266	0.794351279788173
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Surgery	Endothelial CXCL12	38	2266	1.676963812886143
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Surgery	Endothelial Lymphatic LYVE1	12	2266	0.529567519858782
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Surgery	Endothelial RGS5	93	2266	4.10414827890556
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Surgery	Luminal Progenitors	18	2266	0.794351279788173
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Surgery	Macrophage	106	2266	4.677846425419241
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Surgery	Mature Luminal	4	2266	0.176522506619594
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Surgery	Monocyte	37	2266	1.6328331862312444
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Surgery	Myoepithelial	313	2266	13.81288614298323
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Surgery	NK cells	9	2266	0.3971756398940865
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Surgery	NKT cells	2	2266	0.088261253309797
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Surgery	PVL Differentiated	101	2266	4.457193292144749
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Surgery	PVL Immature	58	2266	2.5595763459841128
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Surgery	Plasmablasts	330	2266	14.563106796116505
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Surgery	T cells CD4+	94	2266	4.148278905560459
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Surgery	T cells CD8+	25	2266	1.1032656663724625
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Bx	Ambiguous	6	14935	0.040174087713424844
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Bx	B cells Memory	77	14935	0.5155674589889522
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Bx	B cells Naive	58	14935	0.3883495145631068
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Bx	CAFs MSC iCAF-like	26	14935	0.17408771342484097
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Bx	CAFs myCAF-like	804	14935	5.383327753598929
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Bx	Cancer Basal SC	3545	14935	23.73619015734851
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Bx	Cancer Cycling	1741	14935	11.657181118178775
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Bx	Cancer Her2 SC	268	14935	1.7944425845329763
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Bx	Cancer LumA SC	31	14935	0.20756611985269502
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Bx	Cancer LumB SC	32	14935	0.21426180113826582
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Bx	Cycling PVL	103	14935	0.6896551724137931
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Bx	Cycling T-cells	575	14935	3.850016739203214
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Bx	Cycling_Myeloid	36	14935	0.24104452628054904
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Bx	DCs	186	14935	1.2453967191161701
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Bx	Endothelial ACKR1	15	14935	0.1004352192835621
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Bx	Endothelial CXCL12	14	14935	0.0937395379979913
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Bx	Endothelial Lymphatic LYVE1	3	14935	0.020087043856712422
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Bx	Endothelial RGS5	95	14935	0.6360897221292267
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Bx	Luminal Progenitors	983	14935	6.581854703716103
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Bx	Macrophage	1479	14935	9.902912621359222
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Bx	Mature Luminal	59	14935	0.3950451958486776
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Bx	Monocyte	308	14935	2.0622698359558087
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Bx	Myoepithelial	93	14935	0.6226983595580851
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Bx	NK cells	214	14935	1.4328757951121527
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Bx	NKT cells	841	14935	5.631067961165049
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Bx	PVL Differentiated	14	14935	0.0937395379979913
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Bx	PVL Immature	143	14935	0.9574824238366254
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Bx	Plasmablasts	1119	14935	7.492467358553733
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Bx	T cells CD4+	970	14935	6.4948108470036825
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Bx	T cells CD8+	1097	14935	7.345162370271175
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Bx	Ambiguous	0	6662	0.0
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Bx	B cells Memory	15	6662	0.22515761032722906
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Bx	B cells Naive	8	6662	0.12008405884118883
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Bx	CAFs MSC iCAF-like	5	6662	0.07505253677574301
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Bx	CAFs myCAF-like	396	6662	5.944160912638847
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Bx	Cancer Basal SC	1191	6662	17.877514259981986
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Bx	Cancer Cycling	1301	6662	19.528670069048335
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Bx	Cancer Her2 SC	695	6662	10.43230261182828
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Bx	Cancer LumA SC	308	6662	4.62323626538577
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Bx	Cancer LumB SC	2	6662	0.03002101471029721
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Bx	Cycling PVL	47	6662	0.7054938456919844
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Bx	Cycling T-cells	9	6662	0.13509456619633745
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Bx	Cycling_Myeloid	19	6662	0.2851996397478235
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Bx	DCs	29	6662	0.43530471329930953
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Bx	Endothelial ACKR1	4	6662	0.06004202942059442
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Bx	Endothelial CXCL12	71	6662	1.0657460222155508
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Bx	Endothelial Lymphatic LYVE1	4	6662	0.06004202942059442
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Bx	Endothelial RGS5	166	6662	2.491744220954668
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Bx	Luminal Progenitors	1286	6662	19.303512458721105
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Bx	Macrophage	383	6662	5.749024317021916
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Bx	Mature Luminal	122	6662	1.8312818973281297
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Bx	Monocyte	32	6662	0.48033623536475534
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Bx	Myoepithelial	319	6662	4.788351846292405
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Bx	NK cells	6	6662	0.09006304413089163
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Bx	NKT cells	4	6662	0.06004202942059442
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Bx	PVL Differentiated	25	6662	0.3752626838787151
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Bx	PVL Immature	90	6662	1.3509456619633744
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Bx	Plasmablasts	118	6662	1.7712398679075352
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Bx	T cells CD4+	3	6662	0.04503152206544581
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Bx	T cells CD8+	4	6662	0.06004202942059442
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Bx	Ambiguous	0	374	0.0
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Bx	B cells Memory	0	374	0.0
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Bx	B cells Naive	10	374	2.6737967914438503
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Bx	CAFs MSC iCAF-like	1	374	0.26737967914438504
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Bx	CAFs myCAF-like	56	374	14.973262032085561
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Bx	Cancer Basal SC	0	374	0.0
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Bx	Cancer Cycling	2	374	0.5347593582887701
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Bx	Cancer Her2 SC	4	374	1.0695187165775402
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Bx	Cancer LumA SC	2	374	0.5347593582887701
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Bx	Cancer LumB SC	5	374	1.3368983957219251
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Bx	Cycling PVL	7	374	1.8716577540106951
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Bx	Cycling T-cells	1	374	0.26737967914438504
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Bx	Cycling_Myeloid	2	374	0.5347593582887701
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Bx	DCs	7	374	1.8716577540106951
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Bx	Endothelial ACKR1	38	374	10.16042780748663
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Bx	Endothelial CXCL12	14	374	3.7433155080213902
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Bx	Endothelial Lymphatic LYVE1	2	374	0.5347593582887701
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Bx	Endothelial RGS5	11	374	2.9411764705882355
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Bx	Luminal Progenitors	87	374	23.262032085561497
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Bx	Macrophage	15	374	4.010695187165775
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Bx	Mature Luminal	31	374	8.288770053475936
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Bx	Monocyte	4	374	1.0695187165775402
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Bx	Myoepithelial	19	374	5.080213903743315
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Bx	NK cells	0	374	0.0
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Bx	NKT cells	0	374	0.0
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Bx	PVL Differentiated	18	374	4.81283422459893
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Bx	PVL Immature	18	374	4.81283422459893
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Bx	Plasmablasts	3	374	0.8021390374331551
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Bx	T cells CD4+	16	374	4.278074866310161
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Bx	T cells CD8+	1	374	0.26737967914438504
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Surgery	Ambiguous	0	552	0.0
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Surgery	B cells Memory	0	552	0.0
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Surgery	B cells Naive	1	552	0.18115942028985507
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Surgery	CAFs MSC iCAF-like	5	552	0.9057971014492754
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Surgery	CAFs myCAF-like	22	552	3.9855072463768115
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Surgery	Cancer Basal SC	0	552	0.0
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Surgery	Cancer Cycling	1	552	0.18115942028985507
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Surgery	Cancer Her2 SC	6	552	1.0869565217391304
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Surgery	Cancer LumA SC	10	552	1.8115942028985508
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Surgery	Cancer LumB SC	40	552	7.246376811594203
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Surgery	Cycling PVL	5	552	0.9057971014492754
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Surgery	Cycling T-cells	0	552	0.0
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Surgery	Cycling_Myeloid	1	552	0.18115942028985507
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Surgery	DCs	2	552	0.36231884057971014
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Surgery	Endothelial ACKR1	44	552	7.971014492753623
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Surgery	Endothelial CXCL12	24	552	4.3478260869565215
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Surgery	Endothelial Lymphatic LYVE1	0	552	0.0
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Surgery	Endothelial RGS5	43	552	7.7898550724637685
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Surgery	Luminal Progenitors	35	552	6.340579710144928
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Surgery	Macrophage	3	552	0.5434782608695652
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Surgery	Mature Luminal	117	552	21.195652173913043
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Surgery	Monocyte	3	552	0.5434782608695652
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Surgery	Myoepithelial	120	552	21.73913043478261
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Surgery	NK cells	1	552	0.18115942028985507
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Surgery	NKT cells	1	552	0.18115942028985507
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Surgery	PVL Differentiated	49	552	8.876811594202898
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Surgery	PVL Immature	15	552	2.717391304347826
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Surgery	Plasmablasts	3	552	0.5434782608695652
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Surgery	T cells CD4+	1	552	0.18115942028985507
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Surgery	T cells CD8+	0	552	0.0
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Surgery	Ambiguous	5	4189	0.11936022917164
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Surgery	B cells Memory	4	4189	0.095488183337312
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Surgery	B cells Naive	2	4189	0.047744091668656
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Surgery	CAFs MSC iCAF-like	13	4189	0.31033659584626405
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Surgery	CAFs myCAF-like	156	4189	3.724039150155168
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Surgery	Cancer Basal SC	960	4189	22.91716400095488
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Surgery	Cancer Cycling	676	4189	16.137502984005728
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Surgery	Cancer Her2 SC	244	4189	5.824779183576032
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Surgery	Cancer LumA SC	105	4189	2.50656481260444
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Surgery	Cancer LumB SC	6	4189	0.14323227500596802
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Surgery	Cycling PVL	147	4189	3.5091907376462164
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Surgery	Cycling T-cells	6	4189	0.14323227500596802
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Surgery	Cycling_Myeloid	5	4189	0.11936022917164
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Surgery	DCs	9	4189	0.214848412508952
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Surgery	Endothelial ACKR1	4	4189	0.095488183337312
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Surgery	Endothelial CXCL12	16	4189	0.381952733349248
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Surgery	Endothelial Lymphatic LYVE1	2	4189	0.047744091668656
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Surgery	Endothelial RGS5	27	4189	0.644545237526856
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Surgery	Luminal Progenitors	1099	4189	26.235378371926473
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Surgery	Macrophage	130	4189	3.10336595846264
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Surgery	Mature Luminal	177	4189	4.225352112676056
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Surgery	Monocyte	38	4189	0.907137741704464
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Surgery	Myoepithelial	153	4189	3.6524230126521844
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Surgery	NK cells	17	4189	0.405824779183576
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Surgery	NKT cells	19	4189	0.453568870852232
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Surgery	PVL Differentiated	22	4189	0.5251850083552161
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Surgery	PVL Immature	70	4189	1.67104320840296
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Surgery	Plasmablasts	12	4189	0.28646455001193605
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Surgery	T cells CD4+	45	4189	1.0742420625447602
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Surgery	T cells CD8+	20	4189	0.47744091668656
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Bx	Ambiguous	15	7081	0.21183448665442733
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Bx	B cells Memory	9	7081	0.12710069199265642
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Bx	B cells Naive	12	7081	0.16946758932354186
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Bx	CAFs MSC iCAF-like	11	7081	0.15534529021324672
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Bx	CAFs myCAF-like	969	7081	13.684507837876007
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Bx	Cancer Basal SC	589	7081	8.318034175963847
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Bx	Cancer Cycling	2088	7081	29.487360542296287
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Bx	Cancer Her2 SC	522	7081	7.371840135574072
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Bx	Cancer LumA SC	80	7081	1.1297839288236124
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Bx	Cancer LumB SC	61	7081	0.8614602457280045
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Bx	Cycling PVL	459	7081	6.482135291625476
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Bx	Cycling T-cells	25	7081	0.3530574777573789
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Bx	Cycling_Myeloid	21	7081	0.2965682813161983
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Bx	DCs	24	7081	0.3389351786470837
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Bx	Endothelial ACKR1	2	7081	0.028244598220590313
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Bx	Endothelial CXCL12	60	7081	0.8473379466177093
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Bx	Endothelial Lymphatic LYVE1	10	7081	0.14122299110295156
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Bx	Endothelial RGS5	195	7081	2.7538483265075553
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Bx	Luminal Progenitors	865	7081	12.21578873040531
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Bx	Macrophage	163	7081	2.3019347549781104
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Bx	Mature Luminal	65	7081	0.9179494421691852
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Bx	Monocyte	21	7081	0.2965682813161983
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Bx	Myoepithelial	400	7081	5.648919644118062
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Bx	NK cells	2	7081	0.028244598220590313
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Bx	NKT cells	5	7081	0.07061149555147578
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Bx	PVL Differentiated	134	7081	1.892388080779551
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Bx	PVL Immature	199	7081	2.810337522948736
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Bx	Plasmablasts	60	7081	0.8473379466177093
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Bx	T cells CD4+	12	7081	0.16946758932354186
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Bx	T cells CD8+	3	7081	0.042366897330885465
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Bx	Ambiguous	3	2515	0.11928429423459244
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Bx	B cells Memory	49	2515	1.94831013916501
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Bx	B cells Naive	90	2515	3.5785288270377733
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Bx	CAFs MSC iCAF-like	6	2515	0.23856858846918488
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Bx	CAFs myCAF-like	400	2515	15.904572564612327
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Bx	Cancer Basal SC	113	2515	4.493041749502982
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Bx	Cancer Cycling	35	2515	1.3916500994035785
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Bx	Cancer Her2 SC	23	2515	0.9145129224652088
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Bx	Cancer LumA SC	25	2515	0.9940357852882704
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Bx	Cancer LumB SC	2	2515	0.07952286282306163
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Bx	Cycling PVL	73	2515	2.9025844930417497
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Bx	Cycling T-cells	59	2515	2.3459244532803183
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Bx	Cycling_Myeloid	9	2515	0.35785288270377735
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Bx	DCs	74	2515	2.94234592445328
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Bx	Endothelial ACKR1	30	2515	1.1928429423459244
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Bx	Endothelial CXCL12	19	2515	0.7554671968190855
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Bx	Endothelial Lymphatic LYVE1	10	2515	0.3976143141153082
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Bx	Endothelial RGS5	113	2515	4.493041749502982
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Bx	Luminal Progenitors	172	2515	6.8389662027833005
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Bx	Macrophage	377	2515	14.990059642147118
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Bx	Mature Luminal	36	2515	1.4314115308151094
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Bx	Monocyte	54	2515	2.147117296222664
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Bx	Myoepithelial	58	2515	2.3061630218687874
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Bx	NK cells	19	2515	0.7554671968190855
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Bx	NKT cells	48	2515	1.908548707753479
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Bx	PVL Differentiated	26	2515	1.0337972166998013
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Bx	PVL Immature	94	2515	3.737574552683897
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Bx	Plasmablasts	295	2515	11.72962226640159
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Bx	T cells CD4+	132	2515	5.248508946322068
+Wu SingleR minor 29-plus-ambiguous	Specimen	P2	Bx	T cells CD8+	71	2515	2.823061630218688
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Bx	Ambiguous	1	5694	0.017562346329469618
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Bx	B cells Memory	13	5694	0.228310502283105
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Bx	B cells Naive	25	5694	0.43905865823674045
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Bx	CAFs MSC iCAF-like	16	5694	0.2809975412715139
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Bx	CAFs myCAF-like	627	5694	11.01159114857745
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Bx	Cancer Basal SC	258	5694	4.531085353003161
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Bx	Cancer Cycling	376	5694	6.603442219880576
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Bx	Cancer Her2 SC	164	5694	2.880224798033017
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Bx	Cancer LumA SC	39	5694	0.684931506849315
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Bx	Cancer LumB SC	41	5694	0.7200561995082543
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Bx	Cycling PVL	121	5694	2.1250439058658235
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Bx	Cycling T-cells	14	5694	0.24587284861257463
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Bx	Cycling_Myeloid	7	5694	0.12293642430628732
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Bx	DCs	45	5694	0.7903055848261328
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Bx	Endothelial ACKR1	132	5694	2.3182297154899896
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Bx	Endothelial CXCL12	112	5694	1.966982788900597
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Bx	Endothelial Lymphatic LYVE1	2	5694	0.035124692658939236
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Bx	Endothelial RGS5	449	5694	7.885493501931858
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Bx	Luminal Progenitors	956	5694	16.789603090972953
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Bx	Macrophage	302	5694	5.303828591499824
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Bx	Mature Luminal	128	5694	2.247980330172111
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Bx	Monocyte	48	5694	0.8429926238145417
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Bx	Myoepithelial	1080	5694	18.967334035827186
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Bx	NK cells	11	5694	0.1931858096241658
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Bx	NKT cells	29	5694	0.5093080435546189
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Bx	PVL Differentiated	142	5694	2.493853178784686
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Bx	PVL Immature	216	5694	3.793466807165437
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Bx	Plasmablasts	171	5694	3.0031612223393047
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Bx	T cells CD4+	106	5694	1.8616087109237793
+Wu SingleR minor 29-plus-ambiguous	Specimen	P7	Bx	T cells CD8+	63	5694	1.106427818756586
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Surgery	Ambiguous	14	3483	0.40195233993683605
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Surgery	B cells Memory	13	3483	0.37324145851277635
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Surgery	B cells Naive	10	3483	0.2871088142405972
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Surgery	CAFs MSC iCAF-like	15	3483	0.4306632213608958
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Surgery	CAFs myCAF-like	342	3483	9.819121447028424
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Surgery	Cancer Basal SC	423	3483	12.144702842377262
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Surgery	Cancer Cycling	777	3483	22.3083548664944
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Surgery	Cancer Her2 SC	300	3483	8.613264427217915
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Surgery	Cancer LumA SC	32	3483	0.918748205569911
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Surgery	Cancer LumB SC	41	3483	1.1771461383864485
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Surgery	Cycling PVL	317	3483	9.10134941142693
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Surgery	Cycling T-cells	13	3483	0.37324145851277635
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Surgery	Cycling_Myeloid	8	3483	0.22968705139247775
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Surgery	DCs	17	3483	0.4880849842090152
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Surgery	Endothelial ACKR1	14	3483	0.40195233993683605
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Surgery	Endothelial CXCL12	32	3483	0.918748205569911
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Surgery	Endothelial Lymphatic LYVE1	6	3483	0.17226528854435832
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Surgery	Endothelial RGS5	88	3483	2.526557565317255
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Surgery	Luminal Progenitors	348	3483	9.991386735572782
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Surgery	Macrophage	84	3483	2.411714039621016
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Surgery	Mature Luminal	13	3483	0.37324145851277635
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Surgery	Monocyte	11	3483	0.3158196956646569
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Surgery	Myoepithelial	304	3483	8.728107952914154
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Surgery	NK cells	17	3483	0.4880849842090152
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Surgery	NKT cells	5	3483	0.1435544071202986
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Surgery	PVL Differentiated	103	3483	2.957220786678151
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Surgery	PVL Immature	52	3483	1.4929658340511054
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Surgery	Plasmablasts	35	3483	1.0048808498420903
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Surgery	T cells CD4+	38	3483	1.0910134941142693
+Wu SingleR minor 29-plus-ambiguous	Specimen	P5	Surgery	T cells CD8+	11	3483	0.3158196956646569
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Surgery	Ambiguous	0	877	0.0
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Surgery	B cells Memory	39	877	4.4469783352337515
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Surgery	B cells Naive	13	877	1.4823261117445838
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Surgery	CAFs MSC iCAF-like	62	877	7.069555302166477
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Surgery	CAFs myCAF-like	67	877	7.639680729760547
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Surgery	Cancer Basal SC	0	877	0.0
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Surgery	Cancer Cycling	0	877	0.0
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Surgery	Cancer Her2 SC	0	877	0.0
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Surgery	Cancer LumA SC	0	877	0.0
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Surgery	Cancer LumB SC	0	877	0.0
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Surgery	Cycling PVL	5	877	0.5701254275940707
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Surgery	Cycling T-cells	6	877	0.6841505131128849
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Surgery	Cycling_Myeloid	16	877	1.8244013683010263
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Surgery	DCs	128	877	14.59521094640821
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Surgery	Endothelial ACKR1	4	877	0.45610034207525657
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Surgery	Endothelial CXCL12	6	877	0.6841505131128849
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Surgery	Endothelial Lymphatic LYVE1	1	877	0.11402508551881414
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Surgery	Endothelial RGS5	10	877	1.1402508551881414
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Surgery	Luminal Progenitors	1	877	0.11402508551881414
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Surgery	Macrophage	364	877	41.50513112884835
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Surgery	Mature Luminal	0	877	0.0
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Surgery	Monocyte	69	877	7.8677309007981755
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Surgery	Myoepithelial	2	877	0.22805017103762829
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Surgery	NK cells	9	877	1.0262257696693273
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Surgery	NKT cells	9	877	1.0262257696693273
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Surgery	PVL Differentiated	7	877	0.798175598631699
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Surgery	PVL Immature	5	877	0.5701254275940707
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Surgery	Plasmablasts	35	877	3.990877993158495
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Surgery	T cells CD4+	12	877	1.3683010262257698
+Wu SingleR minor 29-plus-ambiguous	Specimen	P6	Surgery	T cells CD8+	7	877	0.798175598631699
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Bx	Ambiguous	7	6874	0.10183299389002037
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Bx	B cells Memory	5	6874	0.07273785277858598
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Bx	B cells Naive	12	6874	0.17457084666860634
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Bx	CAFs MSC iCAF-like	48	6874	0.6982833866744254
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Bx	CAFs myCAF-like	383	6874	5.571719522839686
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Bx	Cancer Basal SC	2332	6874	33.9249345359325
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Bx	Cancer Cycling	957	6874	13.922025021821355
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Bx	Cancer Her2 SC	184	6874	2.676752982251964
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Bx	Cancer LumA SC	41	6874	0.596450392784405
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Bx	Cancer LumB SC	28	6874	0.4073319755600815
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Bx	Cycling PVL	270	6874	3.927844050043643
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Bx	Cycling T-cells	33	6874	0.48006982833866746
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Bx	Cycling_Myeloid	39	6874	0.5673552516729706
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Bx	DCs	31	6874	0.45097468722723305
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Bx	Endothelial ACKR1	80	6874	1.1638056444573757
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Bx	Endothelial CXCL12	25	6874	0.3636892638929299
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Bx	Endothelial Lymphatic LYVE1	18	6874	0.2618562700029095
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Bx	Endothelial RGS5	116	6874	1.6875181844631946
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Bx	Luminal Progenitors	1096	6874	15.944137329066045
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Bx	Macrophage	480	6874	6.9828338667442535
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Bx	Mature Luminal	131	6874	1.9057317427989526
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Bx	Monocyte	57	6874	0.8292115216758801
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Bx	Myoepithelial	250	6874	3.636892638929299
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Bx	NK cells	9	6874	0.13092813500145475
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Bx	NKT cells	9	6874	0.13092813500145475
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Bx	PVL Differentiated	35	6874	0.5091649694501018
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Bx	PVL Immature	80	6874	1.1638056444573757
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Bx	Plasmablasts	64	6874	0.9310445155659005
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Bx	T cells CD4+	41	6874	0.596450392784405
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Bx	T cells CD8+	13	6874	0.18911841722432354
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Surgery	Ambiguous	10	2021	0.49480455220188024
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Surgery	B cells Memory	7	2021	0.3463631865413162
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Surgery	B cells Naive	1	2021	0.04948045522018803
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Surgery	CAFs MSC iCAF-like	71	2021	3.5131123206333497
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Surgery	CAFs myCAF-like	260	2021	12.864918357248886
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Surgery	Cancer Basal SC	267	2021	13.211281543790204
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Surgery	Cancer Cycling	210	2021	10.390895596239485
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Surgery	Cancer Her2 SC	83	2021	4.106877783275606
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Surgery	Cancer LumA SC	70	2021	3.463631865413162
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Surgery	Cancer LumB SC	9	2021	0.44532409698169223
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Surgery	Cycling PVL	260	2021	12.864918357248886
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Surgery	Cycling T-cells	8	2021	0.3958436417615042
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Surgery	Cycling_Myeloid	14	2021	0.6927263730826324
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Surgery	DCs	15	2021	0.7422068283028204
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Surgery	Endothelial ACKR1	3	2021	0.14844136566056407
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Surgery	Endothelial CXCL12	8	2021	0.3958436417615042
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Surgery	Endothelial Lymphatic LYVE1	4	2021	0.1979218208807521
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Surgery	Endothelial RGS5	65	2021	3.2162295893122215
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Surgery	Luminal Progenitors	202	2021	9.995051954477981
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Surgery	Macrophage	71	2021	3.5131123206333497
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Surgery	Mature Luminal	51	2021	2.523503216229589
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Surgery	Monocyte	45	2021	2.226620484908461
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Surgery	Myoepithelial	114	2021	5.640771895101435
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Surgery	NK cells	2	2021	0.09896091044037605
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Surgery	NKT cells	1	2021	0.04948045522018803
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Surgery	PVL Differentiated	48	2021	2.375061850569025
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Surgery	PVL Immature	96	2021	4.75012370113805
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Surgery	Plasmablasts	19	2021	0.9401286491835725
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Surgery	T cells CD4+	6	2021	0.29688273132112813
+Wu SingleR minor 29-plus-ambiguous	Specimen	P4	Surgery	T cells CD8+	1	2021	0.04948045522018803
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Surgery	Ambiguous	2	5212	0.03837298541826554
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Surgery	B cells Memory	24	5212	0.4604758250191865
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Surgery	B cells Naive	10	5212	0.1918649270913277
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Surgery	CAFs MSC iCAF-like	86	5212	1.6500383729854182
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Surgery	CAFs myCAF-like	957	5212	18.36147352264006
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Surgery	Cancer Basal SC	956	5212	18.34228702993093
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Surgery	Cancer Cycling	438	5212	8.403683806600153
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Surgery	Cancer Her2 SC	27	5212	0.5180353031465849
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Surgery	Cancer LumA SC	3	5212	0.05755947812739831
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Surgery	Cancer LumB SC	4	5212	0.07674597083653108
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Surgery	Cycling PVL	74	5212	1.419800460475825
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Surgery	Cycling T-cells	26	5212	0.49884881043745205
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Surgery	Cycling_Myeloid	44	5212	0.8442056792018419
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Surgery	DCs	127	5212	2.436684574059862
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Surgery	Endothelial ACKR1	253	5212	4.854182655410591
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Surgery	Endothelial CXCL12	120	5212	2.3023791250959325
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Surgery	Endothelial Lymphatic LYVE1	12	5212	0.23023791250959325
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Surgery	Endothelial RGS5	314	5212	6.02455871066769
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Surgery	Luminal Progenitors	351	5212	6.734458940905602
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Surgery	Macrophage	661	5212	12.682271680736761
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Surgery	Mature Luminal	76	5212	1.4581734458940905
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Surgery	Monocyte	123	5212	2.359938603223331
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Surgery	Myoepithelial	49	5212	0.9401381427475057
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Surgery	NK cells	33	5212	0.6331542594013815
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Surgery	NKT cells	7	5212	0.1343054489639294
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Surgery	PVL Differentiated	142	5212	2.7244819646968534
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Surgery	PVL Immature	135	5212	2.590176515732924
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Surgery	Plasmablasts	43	5212	0.8250191864927091
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Surgery	T cells CD4+	77	5212	1.4773599386032232
+Wu SingleR minor 29-plus-ambiguous	Specimen	P1	Surgery	T cells CD8+	38	5212	0.7290867229470452
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Recurrence	Ambiguous	5	6656	0.0751201923076923
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Recurrence	B cells Memory	27	6656	0.40564903846153844
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Recurrence	B cells Naive	40	6656	0.6009615384615384
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Recurrence	CAFs MSC iCAF-like	24	6656	0.3605769230769231
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Recurrence	CAFs myCAF-like	1414	6656	21.243990384615383
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Recurrence	Cancer Basal SC	608	6656	9.134615384615385
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Recurrence	Cancer Cycling	484	6656	7.271634615384615
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Recurrence	Cancer Her2 SC	136	6656	2.043269230769231
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Recurrence	Cancer LumA SC	22	6656	0.33052884615384615
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Recurrence	Cancer LumB SC	11	6656	0.16526442307692307
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Recurrence	Cycling PVL	390	6656	5.859375
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Recurrence	Cycling T-cells	30	6656	0.45072115384615385
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Recurrence	Cycling_Myeloid	17	6656	0.25540865384615385
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Recurrence	DCs	65	6656	0.9765625
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Recurrence	Endothelial ACKR1	22	6656	0.33052884615384615
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Recurrence	Endothelial CXCL12	71	6656	1.0667067307692308
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Recurrence	Endothelial Lymphatic LYVE1	28	6656	0.4206730769230769
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Recurrence	Endothelial RGS5	289	6656	4.341947115384615
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Recurrence	Luminal Progenitors	1128	6656	16.947115384615383
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Recurrence	Macrophage	140	6656	2.1033653846153846
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Recurrence	Mature Luminal	45	6656	0.6760817307692307
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Recurrence	Monocyte	51	6656	0.7662259615384616
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Recurrence	Myoepithelial	1156	6656	17.36778846153846
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Recurrence	NK cells	4	6656	0.06009615384615385
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Recurrence	NKT cells	15	6656	0.22536057692307693
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Recurrence	PVL Differentiated	146	6656	2.1935096153846154
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Recurrence	PVL Immature	166	6656	2.4939903846153846
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Recurrence	Plasmablasts	39	6656	0.5859375
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Recurrence	T cells CD4+	62	6656	0.9314903846153846
+Wu SingleR minor 29-plus-ambiguous	Specimen	P3	Recurrence	T cells CD8+	21	6656	0.3155048076923077

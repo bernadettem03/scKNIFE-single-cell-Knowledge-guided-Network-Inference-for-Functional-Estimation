@@ -1,0 +1,98 @@
+record_type	annotation_scheme	cell_type	cnv_status	n_cells	mean_score	unique_scores
+CNV cluster	Cluster	Cluster 0	normal	4961	0.0039327284	26
+CNV cluster	Cluster	Cluster 1	tumor	4470	0.0039491854	26
+CNV cluster	Cluster	Cluster 2	tumor	4354	0.004063955	26
+CNV cluster	Cluster	Cluster 3	normal	4314	0.0039661755	26
+CNV cluster	Cluster	Cluster 4	tumor	4149	0.00402532	25
+CNV cluster	Cluster	Cluster 5	tumor	3985	0.004583178	26
+CNV cluster	Cluster	Cluster 6	normal	3749	0.0038676055	24
+CNV cluster	Cluster	Cluster 7	tumor	3709	0.0055504236	25
+CNV cluster	Cluster	Cluster 8	normal	3705	0.004709318	26
+CNV cluster	Cluster	Cluster 9	normal	3105	0.004388597	25
+CNV cluster	Cluster	Cluster 10	tumor	3056	0.00486287	25
+CNV cluster	Cluster	Cluster 11	tumor	2838	0.0053384774	26
+CNV cluster	Cluster	Cluster 12	tumor	2744	0.0046897647	25
+CNV cluster	Cluster	Cluster 13	tumor	2739	0.00483124	26
+CNV cluster	Cluster	Cluster 14	tumor	2727	0.0038768987	26
+CNV cluster	Cluster	Cluster 15	normal	2707	0.0045905113	25
+CNV cluster	Cluster	Cluster 16	tumor	2670	0.0041211876	26
+CNV cluster	Cluster	Cluster 17	tumor	2636	0.0038308792	25
+CNV cluster	Cluster	Cluster 18	tumor	2487	0.004649587	25
+CNV cluster	Cluster	Cluster 19	tumor	2419	0.004582711	26
+CNV cluster	Cluster	Cluster 20	normal	1867	0.0039809877	25
+Annotation by CNV status	Wu SingleR major	B-cells	normal	1076	0.002132297	17
+Annotation by CNV status	Wu SingleR major	B-cells	tumor	303	0.005646276	9
+Annotation by CNV status	Wu SingleR major	CAFs	normal	6199	0.0020417944	17
+Annotation by CNV status	Wu SingleR major	CAFs	tumor	3237	0.005630228	9
+Annotation by CNV status	Wu SingleR major	Endothelial	normal	3158	0.0020795863	17
+Annotation by CNV status	Wu SingleR major	Endothelial	tumor	335	0.00559604	9
+Annotation by CNV status	Wu SingleR major	Epithelial	normal	2341	0.0021825018	17
+Annotation by CNV status	Wu SingleR major	Epithelial	tumor	34622	0.005901839	9
+Annotation by CNV status	Wu SingleR major	Myeloid	normal	5877	0.0021027108	17
+Annotation by CNV status	Wu SingleR major	Myeloid	tumor	364	0.0055156983	9
+Annotation by CNV status	Wu SingleR major	PVL	normal	2082	0.0020703636	17
+Annotation by CNV status	Wu SingleR major	PVL	tumor	1685	0.0058847675	9
+Annotation by CNV status	Wu SingleR major	Plasmablasts	normal	2104	0.0019139126	17
+Annotation by CNV status	Wu SingleR major	Plasmablasts	tumor	1087	0.0057877093	9
+Annotation by CNV status	Wu SingleR major	T-cells	normal	4584	0.0021451965	17
+Annotation by CNV status	Wu SingleR major	T-cells	tumor	337	0.005558646	9
+Annotation by CNV status	Wu SingleR minor	Ambiguous	normal	10	0.0022186532	8
+Annotation by CNV status	Wu SingleR minor	Ambiguous	tumor	62	0.0057331277	7
+Annotation by CNV status	Wu SingleR minor	B cells Memory	normal	308	0.0021336346	16
+Annotation by CNV status	Wu SingleR minor	B cells Memory	tumor	32	0.0057830308	9
+Annotation by CNV status	Wu SingleR minor	B cells Naive	normal	380	0.00212791	17
+Annotation by CNV status	Wu SingleR minor	B cells Naive	tumor	45	0.0055911555	8
+Annotation by CNV status	Wu SingleR minor	CAFs MSC iCAF-like	normal	215	0.0021505947	16
+Annotation by CNV status	Wu SingleR minor	CAFs MSC iCAF-like	tumor	200	0.0055933297	8
+Annotation by CNV status	Wu SingleR minor	CAFs myCAF-like	normal	5804	0.0020275419	17
+Annotation by CNV status	Wu SingleR minor	CAFs myCAF-like	tumor	1427	0.005587642	9
+Annotation by CNV status	Wu SingleR minor	Cancer Basal SC	normal	402	0.002304666	16
+Annotation by CNV status	Wu SingleR minor	Cancer Basal SC	tumor	10890	0.005763458	9
+Annotation by CNV status	Wu SingleR minor	Cancer Cycling	normal	165	0.0022753752	16
+Annotation by CNV status	Wu SingleR minor	Cancer Cycling	tumor	8955	0.005852186	9
+Annotation by CNV status	Wu SingleR minor	Cancer Her2 SC	normal	106	0.0022193138	16
+Annotation by CNV status	Wu SingleR minor	Cancer Her2 SC	tumor	2557	0.006022934	9
+Annotation by CNV status	Wu SingleR minor	Cancer LumA SC	normal	46	0.002155929	16
+Annotation by CNV status	Wu SingleR minor	Cancer LumA SC	tumor	725	0.0061984174	9
+Annotation by CNV status	Wu SingleR minor	Cancer LumB SC	normal	99	0.002045269	16
+Annotation by CNV status	Wu SingleR minor	Cancer LumB SC	tumor	183	0.0056501036	8
+Annotation by CNV status	Wu SingleR minor	Cycling PVL	normal	304	0.0021717588	17
+Annotation by CNV status	Wu SingleR minor	Cycling PVL	tumor	2235	0.005793564	9
+Annotation by CNV status	Wu SingleR minor	Cycling T-cells	normal	695	0.0021518918	17
+Annotation by CNV status	Wu SingleR minor	Cycling T-cells	tumor	131	0.0056924983	9
+Annotation by CNV status	Wu SingleR minor	Cycling_Myeloid	normal	177	0.0021125386	17
+Annotation by CNV status	Wu SingleR minor	Cycling_Myeloid	tumor	62	0.005612564	8
+Annotation by CNV status	Wu SingleR minor	DCs	normal	766	0.0021188618	17
+Annotation by CNV status	Wu SingleR minor	DCs	tumor	25	0.005391512	7
+Annotation by CNV status	Wu SingleR minor	Endothelial ACKR1	normal	619	0.0020853176	17
+Annotation by CNV status	Wu SingleR minor	Endothelial ACKR1	tumor	44	0.005515818	8
+Annotation by CNV status	Wu SingleR minor	Endothelial CXCL12	normal	581	0.0020878187	17
+Annotation by CNV status	Wu SingleR minor	Endothelial CXCL12	tumor	49	0.0055627925	9
+Annotation by CNV status	Wu SingleR minor	Endothelial Lymphatic LYVE1	normal	78	0.002109859	15
+Annotation by CNV status	Wu SingleR minor	Endothelial Lymphatic LYVE1	tumor	36	0.005725557	8
+Annotation by CNV status	Wu SingleR minor	Endothelial RGS5	normal	1951	0.002075715	17
+Annotation by CNV status	Wu SingleR minor	Endothelial RGS5	tumor	123	0.0055580684	9
+Annotation by CNV status	Wu SingleR minor	Luminal Progenitors	normal	595	0.0021645091	17
+Annotation by CNV status	Wu SingleR minor	Luminal Progenitors	tumor	8032	0.0059705325	9
+Annotation by CNV status	Wu SingleR minor	Macrophage	normal	4525	0.00209501	17
+Annotation by CNV status	Wu SingleR minor	Macrophage	tumor	233	0.0054814173	9
+Annotation by CNV status	Wu SingleR minor	Mature Luminal	normal	312	0.0020444815	17
+Annotation by CNV status	Wu SingleR minor	Mature Luminal	tumor	743	0.0058881138	9
+Annotation by CNV status	Wu SingleR minor	Monocyte	normal	869	0.0021397513	17
+Annotation by CNV status	Wu SingleR minor	Monocyte	tumor	32	0.005459478	6
+Annotation by CNV status	Wu SingleR minor	Myoepithelial	normal	799	0.0021342195	17
+Annotation by CNV status	Wu SingleR minor	Myoepithelial	tumor	3631	0.006089989	9
+Annotation by CNV status	Wu SingleR minor	NK cells	normal	337	0.002149968	16
+Annotation by CNV status	Wu SingleR minor	NK cells	tumor	16	0.0056119477	6
+Annotation by CNV status	Wu SingleR minor	NKT cells	normal	971	0.0021587037	16
+Annotation by CNV status	Wu SingleR minor	NKT cells	tumor	24	0.0055185407	5
+Annotation by CNV status	Wu SingleR minor	PVL Differentiated	normal	468	0.0020930422	17
+Annotation by CNV status	Wu SingleR minor	PVL Differentiated	tumor	544	0.0058482666	9
+Annotation by CNV status	Wu SingleR minor	PVL Immature	normal	1055	0.0020535802	17
+Annotation by CNV status	Wu SingleR minor	PVL Immature	tumor	382	0.0057551186	9
+Annotation by CNV status	Wu SingleR minor	Plasmablasts	normal	1869	0.0018828857	17
+Annotation by CNV status	Wu SingleR minor	Plasmablasts	tumor	477	0.0057725017	9
+Annotation by CNV status	Wu SingleR minor	T cells CD4+	normal	1561	0.0021530401	17
+Annotation by CNV status	Wu SingleR minor	T cells CD4+	tumor	54	0.005550734	7
+Annotation by CNV status	Wu SingleR minor	T cells CD8+	normal	1354	0.0021503924	17
+Annotation by CNV status	Wu SingleR minor	T cells CD8+	tumor	21	0.0055514853	3
