@@ -1,3 +1,3 @@
 # Figure 4 data
 
-Plot-only HDF5 input for fig4.ipynb; no upstream files are read at plot time. The extractor preserves frozen numerical arrays while refreshing the source-validated scKNIFE DE final cell-type track for Panel C and final tutorial-derived CNV status/score values for Panel B. Patient labels shown in figures are P1–P7; the public patient_id_mapping.csv contains P1–P7 display identifiers only.
+The a–k renderer reads only the saved plot-ready files in this directory. `fig4_cd_final.h5` retains the frozen H-derived UMAP; `singler/overlays.h5` retains the same saved CNV scores and status as the original Figure 4 bundle and the patient-aligned TNBC subtype matrix. SingleR minor calls and EPCAM, DCN and C1QA expression are provided as separate cell-aligned inputs. No upstream model fitting or inference is run at plot time. Patient labels shown in figures are P1–P7; `patient_id_mapping.csv` contains display identifiers only.

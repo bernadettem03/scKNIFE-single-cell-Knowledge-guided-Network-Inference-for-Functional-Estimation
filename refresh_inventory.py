@@ -73,7 +73,7 @@ def main() -> None:
     refresh_json_manifests()
     files = sorted(p for p in ROOT.rglob("*") if p.is_file() and not excluded(p))
     with (ROOT / "data_manifest.tsv").open("w", newline="") as stream:
-        writer = csv.writer(stream, delimiter="\t")
+        writer = csv.writer(stream, delimiter="\t", lineterminator="\n")
         writer.writerow(("path", "bytes", "sha256", "storage"))
         for p in files:
             if "data" in p.relative_to(ROOT).parts:

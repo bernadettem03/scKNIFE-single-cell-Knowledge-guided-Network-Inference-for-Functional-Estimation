@@ -1,206 +1,36 @@
 {
-  "package": "Figure 4 plot-ready data",
-  "format_version": 2,
-  "created_utc": "2026-09-18T05:56:25.839400+00:00",
-  "source_description": "Frozen HDF5 arrays for the authoritative mixed raster/vector renderer",
-  "sources": [
-    {
-      "source": "PRIVATE_ARCHIVE_ROOT/source_snapshot/main_figure/data/fig4_data/fig4_plot_data.h5",
-      "packaged_as": "fig4_plot_data.h5",
-      "source_sha256": "c40a43be0ece4a94b8c59efeb66d24bda4286b939d683c8e537e567ce7d605ba"
-    },
-    {
-      "source": "PRIVATE_ARCHIVE_ROOT/source_snapshot/main_figure/data/fig4_data/patient_id_mapping.csv",
-      "packaged_as": "patient_id_mapping.csv",
-      "source_sha256": "d83cb550451db61010d5393722db8a27202a5f52267c894f19ed79a77a8ba92b"
-    },
-    {
-      "source": "PRIVATE_ARCHIVE_ROOT/source_snapshot/main_figure/data/fig4_data/patient_metadata.csv",
-      "packaged_as": "patient_metadata.csv",
-      "source_sha256": "1230af96a3c10737aa2a556a9fc5f93729fc2a5a4581aca03a4943d7bfb018b2"
-    },
-    {
-      "source": "PRIVATE_ARCHIVE_ROOT/source_snapshot/main_figure/data/fig4_data/README.md",
-      "packaged_as": "upstream_provenance.md",
-      "source_sha256": "d8b9a513ab91455129e094b2772044815eeca3348725d32114d2e49b3265e863"
-    },
-    {
-      "source": "PRIVATE_ARCHIVE_ROOT/source_snapshot/main_figure/data/fig4_supplementary_data/fig4_supplementary_plot_data.h5",
-      "packaged_as": "fig4_supplementary_plot_data.h5",
-      "source_sha256": "7dcc4f07290ecce9599158d987d72cbb2ff4492b5d73a6aa3ffd906e494114eb"
-    }
-  ],
+  "package": "Figure 4a-k plot-ready data",
+  "format_version": 3,
+  "private_inputs_required": false,
   "panels": {
-    "B": {
-      "title": "TNBC subtype",
-      "kind": "data",
-      "inputs": [
-        {
-          "path": "fig4_plot_data.h5",
-          "selectors": [
-            "panel_g/patient",
-            "panel_g/subtype",
-            "panel_g/subtype_correlation_matrix",
-            "panel_g/subtype_correlation_subtypes"
-          ]
-        },
-        {
-          "path": "patient_id_mapping.csv"
-        }
-      ],
-      "extractor": "extractor_scripts/extract_figure_4_data.py",
-      "extraction_mode": "staged_frozen"
-    },
-    "C": {
-      "title": "Final cell type and state",
-      "kind": "data",
-      "inputs": [
-        {
-          "path": "fig4_cd_final.h5",
-          "selectors": [
-            "umap",
-            "cluster",
-            "labels",
-            "colors"
-          ]
-        },
-        {
-          "path": "fig4_cd_manifest.json"
-        }
-      ],
-      "extraction_mode": "completed_final_resolution_0.5",
-      "provenance": "fig4_cd_manifest.json",
-      "extractor": "extractor_scripts/extract_figure4_cd_final.py (private staging; outputs supplied locally)"
-    },
-    "D": {
-      "title": "Top ten DE genes per H cluster",
-      "kind": "data",
-      "inputs": [
-        {
-          "path": "fig4_cd_final.h5",
-          "selectors": [
-            "heatmap",
-            "display_genes",
-            "marker_groups",
-            "ordered_cluster",
-            "patient",
-            "site",
-            "metastatic",
-            "library"
-          ]
-        },
-        {
-          "path": "fig4_cd_manifest.json"
-        }
-      ],
-      "extraction_mode": "completed_final_resolution_0.5",
-      "provenance": "fig4_cd_manifest.json",
-      "extractor": "extractor_scripts/extract_figure4_cd_final.py (private staging; outputs supplied locally)"
-    },
-    "E": {
-      "title": "CNV score on final panel C embedding",
-      "kind": "data",
-      "inputs": [
-        {
-          "path": "fig4_plot_data.h5",
-          "selectors": [
-            "shared/cell_id",
-            "panel_e/cnv_status",
-            "panel_e/cnv_score"
-          ]
-        },
-        {
-          "path": "fig4_cd_final.h5",
-          "selectors": [
-            "umap"
-          ]
-        },
-        {
-          "path": "fig4_cd_manifest.json"
-        }
-      ],
-      "extractor": "extractor_scripts/extract_figure_4_data.py",
-      "extraction_mode": "staged_frozen",
-      "coordinate_alignment": "Exact ordered cell-ID SHA256 check; CNV values and status unchanged"
-    },
-    "F": {
-      "kind": "data",
-      "intermediate_inputs": [
-        {
-          "path": "fig4_f_markers.h5",
-          "selectors": [
-            "umap",
-            "expression",
-            "genes",
-            "vmax"
-          ]
-        }
-      ],
-      "description": "Six broad-identity markers: EGFL7, ACAP1, PDGFRB, CD163, KRT7 and TRPS1, on final H-based UMAP"
-    }
-  },
-  "auxiliary_inputs": [
-    {
-      "path": "upstream_provenance.md",
-      "purpose": "retained upstream provenance notes"
-    },
-    {
-      "path": "patient_metadata.csv",
-      "purpose": "de-identified patient-level clinical metadata for Figure 4"
-    }
-  ],
-  "lineage_summary": {
-    "panel_count": 5,
-    "data_panel_count": 5,
-    "schematic_panel_count": 0,
-    "referenced_files": [
-      "fig4_plot_data.h5",
-      "patient_id_mapping.csv"
+    "a-j": [
+      "Figure_4_layout_base.pdf"
+    ],
+    "e-j saved values": [
+      "fig4_cd_final.h5",
+      "singler_minor_predictions.csv.gz",
+      "figure4_kl_data.npz",
+      "singler/overlays.h5",
+      "figure4_hij_expression.npz"
+    ],
+    "k": [
+      "singler/overlays.h5"
     ]
   },
-  "generated_files": [
-    "README.md"
-  ],
-  "checks": {
-    "schema_2_1": true,
-    "seven_patient_mappings": true,
-    "plot_bundle_nonempty": true,
-    "mixed_panel_e_h_graph_cnv_umap_ready": true,
-    "supplementary_cnv_data_present": true,
-    "panel_lineage_valid": true,
-    "seven_deidentified_patient_metadata_rows": true
+  "alignment": {
+    "cells": 69391,
+    "umap": "singler/overlays.h5:umap equals fig4_cd_final.h5:umap in saved cell order",
+    "minor_and_expression": "singler_minor_predictions.csv.gz:cell_id equals figure4_hij_expression.npz:cell_id in saved cell order",
+    "subtype_patients": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7"
+    ]
   },
-  "python": "3.9.21",
-  "files": [
-    {
-      "name": "README.md",
-      "bytes": 1771,
-      "sha256": "2f32a845b911b2214cda62b9a511a0aaedc59b86393e116bde51ec0f56e26b65"
-    },
-    {
-      "name": "fig4_plot_data.h5",
-      "bytes": 34407236,
-      "sha256": "f748f18db336e196c2a464440264a1af22539a98b5258fe93ff572a35cafa0d8"
-    },
-    {
-      "name": "fig4_supplementary_plot_data.h5",
-      "bytes": 1880934,
-      "sha256": "b2ca27415a56577aa1193fc12c7a027099bab8e4083628cc4eaab0170bef6969"
-    },
-    {
-      "name": "patient_id_mapping.csv",
-      "bytes": 64,
-      "sha256": "119a54b8a85a44b6b2683bbdbbe90cff19f0346e0af6c6921987c2638d59458f"
-    },
-    {
-      "name": "patient_metadata.csv",
-      "bytes": 921,
-      "sha256": "1230af96a3c10737aa2a556a9fc5f93729fc2a5a4581aca03a4943d7bfb018b2"
-    },
-    {
-      "name": "upstream_provenance.md",
-      "bytes": 412,
-      "sha256": "eff63bc1fe348a983a50d9e8a3651076f33d45233b31432887ba2f3fa3946068"
-    }
-  ]
+  "render_script": "../plot_figure4_one_page.py",
+  "output": "../outputs/Figure_4.pdf"
 }

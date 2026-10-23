@@ -1,15 +1,13 @@
 # Figure 4 plot inputs
 
-The approved main Figure 4 has panels a–k. `../plot_figure4_one_page.py` reconstructs the data panels from saved plot inputs; it does not refit SingleR, infer CNVs, or repeat differential analysis. Its spacing and annotations can differ from the approved PDF. `../LEGEND.txt` defines the submitted panels.
+The main Figure 4 has panels a–k. `../plot_figure4_one_page.py` preserves the submitted page layout and draws the patient-aligned subtype panel from saved public values. It does not refit SingleR, infer CNVs, or repeat differential analysis. `../LEGEND.txt` defines the panels.
 
 | Panels | Saved inputs used by the final layout |
 |---|---|
-| a–d | `Figure_4_compiled_aj_source.pdf`, the approved source artwork cropped into the final page. |
-| e | `fig4_cd_final.h5` for UMAP coordinates, `singler_minor_predictions.csv.gz` for frozen minor calls, and `figure4_kl_data.npz` for the 29-label key. |
-| f–g | Reviewer-only `fig4_plot_data.h5` for saved CNV scores and status, aligned to the UMAP coordinates. |
-| h–j | `figure4_hij_expression.npz` for cell-aligned, saved log1p-normalized EPCAM, DCN, and C1QA values. |
-| k | Reviewer-only `fig4_plot_data.h5` for the seven-patient subtype-correlation matrix. |
+| a–j | `Figure_4_layout_base.pdf`, the submitted vector page with a blank panel-k region. |
+| e–j plot values | `fig4_cd_final.h5`, `singler_minor_predictions.csv.gz`, `figure4_kl_data.npz`, `singler/overlays.h5` and `figure4_hij_expression.npz` retain the saved values represented in the layout base. |
+| k | Public `singler/overlays.h5` supplies the seven-patient subtype-correlation matrix and its P1–P7 row labels, used directly by the renderer. |
 
-The two small plot-ready files for panels e and h–j were extracted without changing values from the frozen full-Wu SingleR minor predictions and final expression matrix. Their cell IDs are checked against `fig4_plot_data.h5` during rendering. The HDF5 file is intentionally absent from public Git; a separate reviewer-only bundle has been prepared for submission. Its expected size and SHA-256 are recorded in `../../private_archive_manifest.tsv`.
+The two small plot-ready files for panels e and h–j were extracted without changing values from the frozen full-Wu SingleR minor predictions and final expression matrix. Their cell IDs are checked against each other during rendering. The saved CNV values in `singler/overlays.h5` match the original plot bundle exactly; its subtype rows contain the same values sorted and labeled P1–P7. The renderer checks that the saved UMAP coordinates match `fig4_cd_final.h5`.
 
 Other files in this directory support the saved broad-label Figure 4 views and Supplementary Figure S4. The approved final page is `../outputs/Figure_4.pdf`.

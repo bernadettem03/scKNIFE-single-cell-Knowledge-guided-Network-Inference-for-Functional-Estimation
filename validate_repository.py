@@ -7,6 +7,8 @@ import json
 import re
 import sys
 from pathlib import Path
+import fitz
+import h5py
 import nbformat
 import numpy as np
 
@@ -37,6 +39,8 @@ def order(path: str, key: str, expected: str, errors: list[str]) -> None:
 
 def main() -> int:
     errors: list[str] = []
+    if PRIVATE.exists():
+        errors.append("private Figure 4 plot bundle must not be present in the public package")
     for n in MAIN:
         for relative in (f"Figure_{n}/Figure_{n}.ipynb", f"Figure_{n}/LEGEND.txt", f"Figure_{n}/outputs/Figure_{n}.pdf"):
             if not (ROOT / relative).is_file():
@@ -67,6 +71,55 @@ def main() -> int:
                 errors.append("invalid Figure 4 plot-ready expression input")
     else:
         errors.append("missing Figure 4 plot-ready expression input")
+    overlays = ROOT / "Figure_4/data/singler/overlays.h5"
+    cd = ROOT / "Figure_4/data/fig4_cd_final.h5"
+    subtype_values = None
+    if overlays.is_file() and cd.is_file():
+        with h5py.File(overlays, "r") as saved, h5py.File(cd, "r") as embedding:
+            expected = {"umap", "cnv_score", "cnv_status", "subtype_matrix", "subtype_names", "subtype_patients"}
+            if not expected.issubset(saved.keys()):
+                errors.append("Figure 4 public overlays lack required a–k plot values")
+            elif (saved["umap"].shape != (69_391, 2)
+                  or saved["cnv_score"].shape != (69_391,)
+                  or saved["cnv_status"].shape != (69_391,)
+                  or saved["subtype_matrix"].shape != (7, 6)
+                  or not np.array_equal(saved["umap"][:], embedding["umap"][:])
+                  or list(saved["subtype_patients"].asstr()[:]) != [f"P{i}" for i in range(1, 8)]
+                  or not np.isfinite(saved["cnv_score"][:]).all()
+                  or not np.isfinite(saved["subtype_matrix"][:]).all()):
+                errors.append("Figure 4 public values are misaligned or invalid")
+            else:
+                subtype_values = saved["subtype_matrix"][:]
+    else:
+        errors.append("missing Figure 4 public CNV/subtype or UMAP inputs")
+    base = ROOT / "Figure_4/data/Figure_4_layout_base.pdf"
+    figure4 = ROOT / "Figure_4/outputs/Figure_4.pdf"
+    if base.is_file() and figure4.is_file() and subtype_values is not None:
+        with fitz.open(base) as layout, fitz.open(figure4) as finished:
+            if len(layout) != 1 or len(finished) != 1:
+                errors.append("Figure 4 base and output must each have one page")
+            else:
+                region = fitz.Rect(324, 530, 545, 770)
+                base_words = [w for w in layout[0].get_text("words") if region.intersects(fitz.Rect(w[:4]))]
+                if base_words:
+                    errors.append("Figure 4 layout base still contains old subtype text")
+                words = finished[0].get_text("words")
+                rows = sorted((w for w in words if w[4] in {f"P{i}" for i in range(1, 8)}
+                               and 340 < w[0] < 354 and 550 < w[1] < 750), key=lambda w: w[1])
+                if [w[4] for w in rows] != [f"P{i}" for i in range(1, 8)]:
+                    errors.append("Figure 4k patient rows do not follow P1–P7")
+                else:
+                    for i, row in enumerate(rows):
+                        nearby = [w[4] for w in words if 354 < w[0] < 375
+                                  and abs(w[1] - row[1]) < 3]
+                        if f"{subtype_values[i, 0]:.2f}" not in nearby:
+                            errors.append(f"Figure 4k subtype values do not match {row[4]}")
+    else:
+        errors.append("missing Figure 4 layout base or completed page")
+    if {p.name for p in (ROOT / "Figure_4/outputs").iterdir() if p.is_file()} != {
+        "Figure_4.pdf", "Figure_4.png", "Figure_4.svg"
+    }:
+        errors.append("Figure 4 outputs must contain only the a–k PDF, PNG and SVG")
     order("Figure_6/outputs/panels/Figure_6_panel_export_manifest.json", "panel_order", "ABCDEFGHIJKLMNOPQRST", errors)
     order("Figure_7/outputs/Figure_7_main_export_manifest.json", "active_panels", "ABCDEFGHIJKLMNO", errors)
     order("Supplementary/Figure_S4/outputs/Figure_S4_manifest.json", "panel_order", "abcdefg", errors)
@@ -139,7 +192,7 @@ def main() -> int:
         if len(errors) > 100:
             print(f"... {len(errors)-100} additional errors")
         return 1
-    print("VALIDATION PASSED: portal-aligned Figures 2–7 and S1–S6; public files checksummed")
+    print("VALIDATION PASSED: Figures 2–7 and S1–S6; public files checksummed")
     return 0
 
 if __name__ == "__main__":

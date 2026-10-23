@@ -15,7 +15,7 @@ The manuscript's Figure 1 is conceptual artwork and is outside this package. The
 
 Create the environment with `conda env create -f environment.yml`, activate it, and run `python validate_repository.py`. Figure notebooks use repository-relative plot-ready inputs and save final outputs under their own `outputs/` folders. The retained notebook outputs let readers inspect the figures without rerunning them.
 
-The Figure 4 plotting bundle `Figure_4/data/fig4_plot_data.h5` is a reviewer-only input held outside Git. Its approved PDF and PNG are included here. A separate bundle has been prepared for delivery through the submission materials; `download_data.py` and `private_archive_manifest.tsv` document restoration and checksum verification. The Figure 4 reconstruction script reads its other inputs from this repository. The submitted PDF remains the layout reference, and the public validator does not require the private bundle.
+Figure 4a–k is reproduced from files included here. Run `python Figure_4/plot_figure4_one_page.py` to regenerate its PDF, PNG and SVG; `Figure_4/Figure_4.ipynb` runs the same renderer. The included vector layout base preserves panels a–j from the 23 October portal figure. Panel k is drawn from the patient-aligned TNBC subtype values in the public `data/singler/overlays.h5`; no private plotting bundle is needed.
 
 Raw study data are deposited separately: single-cell data under ENA PRJEB108811 and LC–MS data under MassIVE MSV000103682. This repository contains only selected processed values required for the figures; model fitting and inferential derivations are documented in the manuscript and its supplemental tables.
 

@@ -1,7 +1,7 @@
 # Figure 4
 
-`outputs/Figure_4.pdf` is the approved, one-page Figure 4a–k. `LEGEND.txt` gives its panel definitions. `plot_figure4_one_page.py` reconstructs its data panels from the saved inputs listed in `data/README.md`; the submitted PDF is the layout reference.
+`outputs/Figure_4.pdf` is the one-page Figure 4a–k in the submitted page layout. `LEGEND.txt` gives its panel definitions. `plot_figure4_one_page.py` uses the included vector layout base for panels a–j and redraws panel k from the patient-aligned public subtype matrix.
 
-The reconstruction requires one reviewer-only input, `data/fig4_plot_data.h5`. It is omitted from public Git. The repository root provides its checksum and a restore helper; the reviewer-only bundle contains the file. The smaller minor-label and expression inputs needed for panels e and h–j are packaged under `data/` and no longer depend on local workspace paths.
+Run `python plot_figure4_one_page.py` here, or execute `Figure_4.ipynb`. The public `data/singler/overlays.h5` supplies the saved CNV scores, status and P1–P7 subtype correlations. The minor-label and expression inputs for panels e and h–j are also packaged under `data/` for inspection.
 
-`Figure_4.ipynb` and `figure4_editable.py` document an earlier broad-label Figure 4 view used as a source for the final composition. The approved one-page a–k PDF is the submission reference.
+The notebook and script both produce the a–k layout. They do not rerun SingleR, CNV inference or subtype assignment. The layout base contains a blank panel-k region, so only the corrected patient-aligned panel is displayed in the final outputs.
