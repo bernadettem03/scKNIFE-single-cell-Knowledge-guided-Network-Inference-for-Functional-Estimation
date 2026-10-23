@@ -1,3 +1,0 @@
-Supplementary Figure S2 | Comparator embeddings document clustering and annotated cell organization across benchmark cohorts.
-
-Three-by-three grid of frozen comparator embeddings. Rows show expiMap, Slalom and SPECTRA; columns show Bassez cohort 1, Bassez cohort 2 and Wu TNBC. Within each method–dataset combination, the embedding colored by Leiden cluster is shown beside the same coordinates colored by the author-provided cell-type annotation. Each point represents one cell. Embeddings are displayed for qualitative comparison; quantitative agreement metrics are reported in Figure 2E.

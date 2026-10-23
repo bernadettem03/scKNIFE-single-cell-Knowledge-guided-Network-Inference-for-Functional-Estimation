@@ -11,8 +11,8 @@ dependencies:
   - numpy
   - pandas
   - pillow
-  - plotly
   - poppler
+  - plotly
   - pymupdf=1.24.14
   - pyarrow
   - scikit-learn

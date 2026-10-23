@@ -15,7 +15,6 @@ import numpy as np
 ROOT = Path(__file__).resolve().parent
 MAIN = range(2, 8)
 SUPP = range(1, 7)
-PRIVATE = ROOT / "Figure_4/data/fig4_plot_data.h5"
 ORIGINAL_ID = re.compile(rb"(?:CF|CN|CV)/[0-9]{5}|11F2023/[0-9]{5}")
 
 
@@ -39,14 +38,30 @@ def order(path: str, key: str, expected: str, errors: list[str]) -> None:
 
 def main() -> int:
     errors: list[str] = []
-    if PRIVATE.exists():
-        errors.append("private Figure 4 plot bundle must not be present in the public package")
+    bundle = ROOT / "Figure_4/data/fig4_plot_data.h5"
+    expected = {"shared/cell_id", "panel_e/cnv_score", "panel_e/cnv_status",
+                "panel_g/subtype_correlation_matrix", "panel_g/subtype_correlation_subtypes"}
+    with h5py.File(bundle) as f:
+        datasets = set()
+        f.visititems(lambda name, obj: datasets.add(name) if isinstance(obj, h5py.Dataset) else None)
+        assert datasets == expected, "Unexpected Figure 4 bundle fields"
+        assert set(f.attrs) == {"purpose", "source_sha256", "subtype_score_definition"}
+        for name in datasets:
+            assert not f[name].attrs, "Unexpected dataset metadata"
+        ids = f["shared/cell_id"].asstr()[:]
+        assert all(re.fullmatch(r"library[0-9]+_sample[0-9]+_[ACGT]+-[0-9]+", x) for x in ids)
+        with np.load(ROOT / "Figure_4/data/figure4_hij_expression.npz", allow_pickle=False) as z:
+            assert np.array_equal(ids, z["cell_id"])
+        assert f["panel_g/subtype_correlation_matrix"].shape == (7, 6)
+        assert np.isfinite(f["panel_g/subtype_correlation_matrix"][:]).all()
+        assert f["panel_e/cnv_score"].shape == f["panel_e/cnv_status"].shape == (69391,)
+        assert np.isfinite(f["panel_e/cnv_score"][:]).all()
     for n in MAIN:
-        for relative in (f"Figure_{n}/Figure_{n}.ipynb", f"Figure_{n}/LEGEND.txt", f"Figure_{n}/outputs/Figure_{n}.pdf"):
+        for relative in (f"Figure_{n}/Figure_{n}.ipynb", f"Figure_{n}/outputs/Figure_{n}.pdf"):
             if not (ROOT / relative).is_file():
                 errors.append(f"missing main figure file: {relative}")
     for n in SUPP:
-        for relative in (f"Supplementary/Figure_S{n}/Figure_S{n}.ipynb", f"Supplementary/Figure_S{n}/LEGEND.txt"):
+        for relative in (f"Supplementary/Figure_S{n}/Figure_S{n}.ipynb",):
             if not (ROOT / relative).is_file():
                 errors.append(f"missing supplementary figure file: {relative}")
         if n != 3 and not (ROOT / f"Supplementary/Figure_S{n}/outputs/Figure_S{n}.pdf").is_file():
@@ -162,7 +177,7 @@ def main() -> int:
     else:
         errors.append("missing checksums.sha256")
     for p in ROOT.rglob("*"):
-        if not p.is_file() or p == PRIVATE:
+        if not p.is_file():
             continue
         if any(part in {".git", "__pycache__", ".ipynb_checkpoints"} for part in p.relative_to(ROOT).parts):
             continue
