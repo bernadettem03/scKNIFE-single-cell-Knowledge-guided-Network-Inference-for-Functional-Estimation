@@ -84,7 +84,7 @@ def _sha256(path: Path) -> str:
 
 
 def validate_figure4_inputs() -> dict:
-    """Validate the private plot bundle and public lineage declarations."""
+    """Validate the original broad-layout bundle and lineage declarations (legacy renderer)."""
     for path in (PLOT_DATA, PATIENT_MAPPING_DATA, DATA_MANIFEST_PATH):
         if not path.is_file():
             raise FileNotFoundError(f"Missing Figure 4 input: {path.relative_to(MODULE_ROOT)}")

@@ -11,6 +11,7 @@ dependencies:
   - numpy
   - pandas
   - pillow
+  - poppler
   - plotly
   - pyarrow
   - scikit-learn
