@@ -1,15 +1,12 @@
 map_id,association_id,main_panel,figure_kind,display_order,cohort,condition,condition_order,cell_type,task,display_task,n_patients_favorable,n_patients_unfavorable,patient_count_label,n_overlay_cells,color_low,color_high
-E_Shiao_Base,RNR_TUMOR_ARACHIDONATE,E,baseline,0,Shiao,Base,0,Tumor/epithelial,Arachidonate synthesis,Arachidonate synthesis,10,6,R n=10 · NR n=6,15237,-2.443374932791,-2.160627403598882
-F_Shiao_Base,RNR_TCELL_ERAD,F,baseline,1,Shiao,Base,0,T cell,Recognition of misfolded protein,ERAD / recognition of misfolded protein,10,5,R n=10 · NR n=5,20121,-2.6614348132491323,-1.4747754378647908
-G_Bassez_A_Pre,ENE_MYELOID_GLYCOGEN,G,baseline,2,Bassez A,Pre,0,Myeloid,Glycogen degradation,Glycogen degradation,5,7,E n=5 · NE n=7,3081,-9.997696535853533,-3.4353119031261437
-G_Bassez_B_Pre,ENE_MYELOID_GLYCOGEN,G,baseline,3,Bassez B,Pre,0,Myeloid,Glycogen degradation,Glycogen degradation,2,2,E n=2 · NE n=2,1672,-9.997696535853533,-3.4353119031261437
-H_Bassez_A_Pre,ENE_TCELL_ERAD,H,baseline,4,Bassez A,Pre,0,T cell,Recognition of misfolded protein,ERAD / recognition of misfolded protein,5,7,E n=5 · NE n=7,10363,-2.1688948800450567,-1.164201170072545
-H_Bassez_B_Pre,ENE_TCELL_ERAD,H,baseline,5,Bassez B,Pre,0,T cell,Recognition of misfolded protein,ERAD / recognition of misfolded protein,3,3,E n=3 · NE n=3,4725,-2.1688948800450567,-1.164201170072545
-I_Bassez_A_Pre,BASSEZ_A_MYELOID_GLUTATHIONE,I,longitudinal,0,Bassez A,Pre,0,Myeloid,Glutathionate synthesis,Glutathione synthesis,5,7,E n=5 · NE n=7,3081,-9.99899235779679,-3.216765604071311
-I_Bassez_A_On,BASSEZ_A_MYELOID_GLUTATHIONE,I,longitudinal,1,Bassez A,On,1,Myeloid,Glutathionate synthesis,Glutathione synthesis,5,7,E n=5 · NE n=7,4843,-9.99899235779679,-3.216765604071311
-J_Bassez_B_Pre,BASSEZ_B_TCELL_GLUTAMINE,J,longitudinal,2,Bassez B,Pre,0,T cell,Gluconeogenesis from Glutamine,Gluconeogenesis from glutamine,3,3,E n=3 · NE n=3,4725,-3.209879492984072,-2.4443547359577553
-J_Bassez_B_On,BASSEZ_B_TCELL_GLUTAMINE,J,longitudinal,3,Bassez B,On,1,T cell,Gluconeogenesis from Glutamine,Gluconeogenesis from glutamine,3,3,E n=3 · NE n=3,7151,-3.209879492984072,-2.4443547359577553
-K_Shiao_Base,SHIAO_RTPD1_FIBRO_ALANINE,K,longitudinal,4,Shiao,Base,0,Fibroblast,Synthesis of alanine from glutamine,Alanine synthesis from glutamine,8,4,R n=8 · NR n=4,11200,-3.8582865624914957,-2.141923175597362
-K_Shiao_RTPD1,SHIAO_RTPD1_FIBRO_ALANINE,K,longitudinal,5,Shiao,RTPD1,1,Fibroblast,Synthesis of alanine from glutamine,Alanine synthesis from glutamine,8,4,R n=8 · NR n=4,8945,-3.8582865624914957,-2.141923175597362
-L_Shiao_Base,SHIAO_PD1_TUMOR_BILIRUBIN,L,longitudinal,6,Shiao,Base,0,Tumor/epithelial,Synthesis of bilirubin,Bilirubin synthesis,10,6,R n=10 · NR n=6,15237,-3.2254365634632998,-1.850678973623775
-L_Shiao_PD1,SHIAO_PD1_TUMOR_BILIRUBIN,L,longitudinal,7,Shiao,PD1,1,Tumor/epithelial,Synthesis of bilirubin,Bilirubin synthesis,10,6,R n=10 · NR n=6,38070,-3.2254365634632998,-1.850678973623775
+E_Shiao_Base,RNR_TUMOR_PHOSPHATIDYLINOSITOL,E,baseline,0,Shiao,Base,0,Tumor/epithelial,Phosphatidyl-inositol synthesis,Phosphatidyl-inositol synthesis,10,6,R n=10 · NR n=6,15237,-2.4981673188728895,-2.240213875711418
+F_Bassez_A_Pre,ENE_TUMOR_GLUCO_LACTATE,F,baseline,1,Bassez A,Pre,0,Tumor/epithelial,Gluconeogenesis from Lactate,Gluconeogenesis from Lactate,5,7,E n=5 · NE n=7,12223,-3.3662329261170485,-1.9809686753253604
+F_Bassez_B_Pre,ENE_TUMOR_GLUCO_LACTATE,F,baseline,2,Bassez B,Pre,0,Tumor/epithelial,Gluconeogenesis from Lactate,Gluconeogenesis from Lactate,3,2,E n=3 · NE n=2,6217,-3.3662329261170485,-1.9809686753253604
+G_Bassez_A_Pre,BASSEZ_A_MYELOID_GLUTATHIONE,G,longitudinal,0,Bassez A,Pre,0,Myeloid,Glutathionate synthesis,Glutathione synthesis,5,7,E n=5 · NE n=7,3081,-9.99899235779679,-3.216765604071311
+G_Bassez_A_On,BASSEZ_A_MYELOID_GLUTATHIONE,G,longitudinal,1,Bassez A,On,1,Myeloid,Glutathionate synthesis,Glutathione synthesis,5,7,E n=5 · NE n=7,4843,-9.99899235779679,-3.216765604071311
+H_Bassez_A_Pre,BASSEZ_A_BCELL_ENDOSOMAL_TRAFFICKING,H,longitudinal,2,Bassez A,Pre,0,B cell,Trafficking to endosomes (Clathrin Vesicles),Clathrin-dependent endosomal trafficking,5,4,E n=5 · NE n=4,2867,-3.0172262960661094,-1.4613446861487076
+H_Bassez_A_On,BASSEZ_A_BCELL_ENDOSOMAL_TRAFFICKING,H,longitudinal,3,Bassez A,On,1,B cell,Trafficking to endosomes (Clathrin Vesicles),Clathrin-dependent endosomal trafficking,5,4,E n=5 · NE n=4,3357,-3.0172262960661094,-1.4613446861487076
+I_Shiao_Base,SHIAO_RTPD1_FIBRO_ALANINE,I,longitudinal,4,Shiao,Base,0,Fibroblast,Synthesis of alanine from glutamine,Alanine synthesis from glutamine,8,4,R n=8 · NR n=4,11200,-3.8582865624914957,-2.141923175597362
+I_Shiao_RTPD1,SHIAO_RTPD1_FIBRO_ALANINE,I,longitudinal,5,Shiao,RTPD1,1,Fibroblast,Synthesis of alanine from glutamine,Alanine synthesis from glutamine,8,4,R n=8 · NR n=4,8945,-3.8582865624914957,-2.141923175597362
+J_Shiao_Base,SHIAO_PD1_TUMOR_BILIRUBIN,J,longitudinal,6,Shiao,Base,0,Tumor/epithelial,Synthesis of bilirubin,Bilirubin synthesis,10,6,R n=10 · NR n=6,15237,-3.2254365634632998,-1.850678973623775
+J_Shiao_PD1,SHIAO_PD1_TUMOR_BILIRUBIN,J,longitudinal,7,Shiao,PD1,1,Tumor/epithelial,Synthesis of bilirubin,Bilirubin synthesis,10,6,R n=10 · NR n=6,38070,-3.2254365634632998,-1.850678973623775

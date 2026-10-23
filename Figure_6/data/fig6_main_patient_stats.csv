@@ -1,0 +1,9 @@
+panel,pathway,celltype,node,label,patients,patients_lower_at_surgery,median_paired_delta,paired_wilcoxon_two_sided_unadjusted_p,six_patient_lower_at_surgery,six_patient_exact_two_sided_p,pathway_screen_BH_q,global_node_cell_BH_q,graph_link
+D,Selenoamino acid metabolism,Myeloid,selenocystathionine,Selenocystathionine,7,6,-0.05059194564819336,0.03125,5,0.0625,,,biochemical context
+E,Purine metabolism,Myeloid,adenine,Adenine,7,7,-0.04770992696285248,0.015625,6,0.03125,0.1875,0.17573221757322174,shared Human-GEM reaction
+E,Purine metabolism,Myeloid,guanine,Guanine,7,6,-0.06445446610450745,0.03125,5,0.0625,0.1875,0.17573221757322174,shared Human-GEM reaction
+E,Purine metabolism,Myeloid,deoxyinosine,Deoxyinosine,7,6,-0.0391823947429657,0.046875,5,0.09375,0.2540322580645161,0.24045801526717558,shared Human-GEM reaction
+F,Methionine and cysteine metabolism,Myeloid,L_cystathionine,L-cystathionine,7,7,-0.031905561685562134,0.015625,6,0.03125,0.1613372093023256,0.17573221757322174,shared Human-GEM reaction
+G,Aspartate and asparagine metabolism,Myeloid,3_sulfinoalanine,3-sulfinoalanine,7,7,-0.018854141235351562,0.015625,6,0.03125,0.16905737704918034,0.17573221757322174,shared Human-GEM reaction
+G,Aspartate and asparagine metabolism,Myeloid,S_2_aminobutanoate,(S)-2-aminobutanoate,7,7,-0.053470462560653687,0.015625,6,0.03125,0.16905737704918034,0.17573221757322174,shared Human-GEM reaction
+H,Glycolysis and Gluconeogenesis,Myeloid,methylglyoxal,Methylglyoxal,7,6,-0.029748260974884033,0.046875,5,0.09375,0.27202868852459017,0.24045801526717558,shared Human-GEM reaction

@@ -1,8 +1,8 @@
-Patient IDs,Epithelial progenitor,Epithelial luminal,Epithelial basal,Epithelial cycling,IFN-response epithelial
-P7,3173,101,2,1,0
-P1,7972,1,2,0,0
-P2,4336,21,0,0,1
-P3,3762,813,765,14,1
-P4,1857,11,0,0,7079
-P5,6144,4,3,2162,1
-P6,106,5242,0,0,0
+Patient IDs,Cancer Basal SC — Interferon Alpha Response,Cancer Cycling — E2F Targets,Luminal Progenitors,Myoepithelial,Cancer Her2 SC,Epithelial,Mature Luminal,Cancer LumA SC,Cancer LumB SC
+P7,236,354,938,936,159,112,234,45,78
+P1,3004,1253,1351,268,192,403,195,39,22
+P2,1032,695,1233,183,259,284,205,122,8
+P3,574,480,1135,1242,136,578,75,25,12
+P4,3361,1695,1041,145,288,456,88,83,24
+P5,855,2507,1047,572,720,498,72,98,71
+P6,1181,1297,1279,307,685,69,122,303,2

@@ -1,0 +1,4 @@
+score_family,celltype,score_name,patients_in_treatment_direction,median_paired_change,paired_wilcoxon_two_sided_p,p3_biopsy_median,p3_surgery_median,p3_recurrence_median,p3_recovery_fraction,p3_treatment_same_direction,p3_rebound_opposite_direction,p3_recurrence_closer_to_biopsy,treatment_BH_FDR,descriptive_rebound_candidate,panel
+pathway,Epithelial,Fatty_acid_activation_cytosolic,7,0.0004891164135187864,0.015625,0.007322217803448439,0.007747047580778599,0.009377614594995975,-3.8381655458914956,True,False,False,0.5073529411764706,False,L
+pathway,Epithelial,Fatty_acid_activation_endoplasmic_reticular,7,0.0005732649005949497,0.015625,0.007478626444935799,0.007878930307924747,0.00978739932179451,-4.767550829062196,True,False,False,0.5073529411764706,False,M
+pathway,Myeloid,Carnitine_shuttle_peroxisomal,6,-0.0008734297007322311,0.046875,0.00584380654618144,0.0045951001811772585,0.005847040098160505,1.0025895214997596,True,True,True,0.5244932432432433,True,N

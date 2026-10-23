@@ -1,0 +1,30 @@
+{
+  "figure": "Figure S6",
+  "pages": 1,
+  "size": "A4 landscape",
+  "panel_order": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "files": {
+    "Figure_S6.pdf": {
+      "bytes": 917437,
+      "sha256": "8d7a6fdb78a5bc3589b5ab656ed3de030b43159a0d3bb3b0b714779b5017e858"
+    },
+    "Figure_S6.png": {
+      "bytes": 1185819,
+      "sha256": "4928e1a7ba5de61ff9e892fe733bbc0fc8a958ea149c4033a949481126a30550"
+    },
+    "Figure_S6.svg": {
+      "bytes": 1424767,
+      "sha256": "02fbdf42b87d3effb7bc45036f95fcefc997e977b836e05b83e1cfd69f733312"
+    },
+    "Figure_S6_preview.png": {
+      "bytes": 410591,
+      "sha256": "665b72d8ed76382ab23041327c67561bf4a06980fa4591e12bc4dc6b8b94fd3e"
+    }
+  }
+}

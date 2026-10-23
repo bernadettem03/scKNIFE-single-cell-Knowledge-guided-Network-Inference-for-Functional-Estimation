@@ -1,0 +1,3 @@
+feature,exact_two_sided_mann_whitney_p,status_patient_mean_ttest_p,status_patient_mean_log2fc,status_run_order_adjusted_p,status_run_order_adjusted_log2fc,blank_screen_retained,median_technical_cv_percent,interpretation
+pos_133.0811_1285.72,0.05714285714285714,0.0077711745259989,0.860650468710809,0.006570719734773,1.04545567472211,True,73.6367983545555,Exploratory post-selection sensitivity; patient is biological replicate
+pos_258.2420_159.36,0.05714285714285714,0.127051917253004,-0.53584396355647,0.0119244072990838,-0.581489867990149,True,25.5587801195264,Exploratory post-selection sensitivity; patient is biological replicate

@@ -1,0 +1,11 @@
+rank,source,target,score
+1,Endothelial RGS5,PVL Immature,602.3858471232165
+2,PVL Immature,PVL Immature,467.6167308950233
+3,Endothelial CXCL12,PVL Immature,445.839855253303
+4,Endothelial ACKR1,PVL Immature,353.01698359955907
+5,Endothelial RGS5,CAFs myCAF-like,247.47420619930836
+6,PVL Differentiated,PVL Immature,215.30680298401737
+7,PVL Immature,CAFs myCAF-like,191.80431355567487
+8,Endothelial CXCL12,CAFs myCAF-like,183.11738690173385
+9,Endothelial Lymphatic LYVE1,PVL Immature,159.12927291128716
+10,Endothelial ACKR1,CAFs myCAF-like,144.93486521417435

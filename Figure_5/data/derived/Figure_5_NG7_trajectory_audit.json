@@ -1,0 +1,31 @@
+{
+  "program": "NG7",
+  "x_nodes": [
+    "MYC",
+    "TCOF1",
+    "DDX21",
+    "NCL"
+  ],
+  "y_nodes": [
+    "ADMDC",
+    "S-adenosyl-L-methionine synthesis",
+    "Synthesis of spermidine from ornithine"
+  ],
+  "cells": 36963,
+  "specimens": 15,
+  "patients": 7,
+  "all_cells_used": true,
+  "low_cell_threshold": 20,
+  "low_cell_specimens": [
+    {
+      "patient": "P6",
+      "Site": "Surgery",
+      "cells": 6
+    }
+  ],
+  "score": "Mean of globally standardized log1p(max(H @ W_node, 0)) scores; specimen mean over all cells",
+  "arrows": "Specimen sequence, not elapsed time or lineage",
+  "sensitivity": "Within-patient OLS with log1p(total_counts), site, and minor cell-type label; descriptive only",
+  "caveat": "Both axes share H/W reconstruction; correlation is not independent mechanistic evidence",
+  "inferential_tests": false
+}

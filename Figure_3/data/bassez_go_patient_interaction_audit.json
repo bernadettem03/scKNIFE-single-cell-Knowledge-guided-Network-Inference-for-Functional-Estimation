@@ -1,0 +1,180 @@
+{
+  "analysis": "patient-paired scKNIFE GO treatment-response interaction",
+  "patient_delta": "log2(patient median On activity) - log2(patient median Pre activity)",
+  "primary_contrast": "NE minus E patient deltas",
+  "aggregation": "patient median within cell type and timepoint",
+  "minimum_cells_per_timepoint": 20,
+  "minimum_paired_patients_per_group": 3,
+  "go_universe": 6036,
+  "model": "limma lmFit on patient deltas + eBayes(trend=FALSE, robust=TRUE)",
+  "multiple_testing": "BH globally across all testable GO x cell-type interactions within cohort",
+  "display_selection": "top 3 Bassez A terms per cell type by global BH q then absolute median interaction; identical terms shown in Bassez B",
+  "display_redundancy_filter": {
+    "scope": "display only; inferential universe and BH correction unchanged",
+    "rule": "greedy exclusion when both SequenceMatcher similarity >= threshold and token Jaccard >= threshold",
+    "sequence_threshold": 0.62,
+    "token_jaccard_threshold": 0.4
+  },
+  "underpowered_policy": "show descriptive median interaction when both groups exist and mark NT; NA when one group is absent",
+  "sensitivity": "exact two-sided Mann-Whitney on patient deltas for displayed, testable terms",
+  "unit_of_replication": "patient",
+  "interpretation": "inferred activity; not measured pathway flux; association is not causal",
+  "eligible_pairs": [
+    {
+      "cohort": "Bassez A",
+      "cell_type": "B_cell",
+      "status": "E",
+      "patients": 5
+    },
+    {
+      "cohort": "Bassez A",
+      "cell_type": "B_cell",
+      "status": "NE",
+      "patients": 4
+    },
+    {
+      "cohort": "Bassez A",
+      "cell_type": "Cancer_cell",
+      "status": "E",
+      "patients": 5
+    },
+    {
+      "cohort": "Bassez A",
+      "cell_type": "Cancer_cell",
+      "status": "NE",
+      "patients": 7
+    },
+    {
+      "cohort": "Bassez A",
+      "cell_type": "Endothelial_cell",
+      "status": "E",
+      "patients": 3
+    },
+    {
+      "cohort": "Bassez A",
+      "cell_type": "Endothelial_cell",
+      "status": "NE",
+      "patients": 4
+    },
+    {
+      "cohort": "Bassez A",
+      "cell_type": "Fibroblast",
+      "status": "E",
+      "patients": 5
+    },
+    {
+      "cohort": "Bassez A",
+      "cell_type": "Fibroblast",
+      "status": "NE",
+      "patients": 6
+    },
+    {
+      "cohort": "Bassez A",
+      "cell_type": "Myeloid_cell",
+      "status": "E",
+      "patients": 5
+    },
+    {
+      "cohort": "Bassez A",
+      "cell_type": "Myeloid_cell",
+      "status": "NE",
+      "patients": 7
+    },
+    {
+      "cohort": "Bassez A",
+      "cell_type": "T_cell",
+      "status": "E",
+      "patients": 5
+    },
+    {
+      "cohort": "Bassez A",
+      "cell_type": "T_cell",
+      "status": "NE",
+      "patients": 7
+    },
+    {
+      "cohort": "Bassez B",
+      "cell_type": "B_cell",
+      "status": "E",
+      "patients": 3
+    },
+    {
+      "cohort": "Bassez B",
+      "cell_type": "Cancer_cell",
+      "status": "E",
+      "patients": 3
+    },
+    {
+      "cohort": "Bassez B",
+      "cell_type": "Cancer_cell",
+      "status": "NE",
+      "patients": 2
+    },
+    {
+      "cohort": "Bassez B",
+      "cell_type": "Endothelial_cell",
+      "status": "E",
+      "patients": 3
+    },
+    {
+      "cohort": "Bassez B",
+      "cell_type": "Endothelial_cell",
+      "status": "NE",
+      "patients": 3
+    },
+    {
+      "cohort": "Bassez B",
+      "cell_type": "Fibroblast",
+      "status": "E",
+      "patients": 3
+    },
+    {
+      "cohort": "Bassez B",
+      "cell_type": "Fibroblast",
+      "status": "NE",
+      "patients": 3
+    },
+    {
+      "cohort": "Bassez B",
+      "cell_type": "Myeloid_cell",
+      "status": "E",
+      "patients": 2
+    },
+    {
+      "cohort": "Bassez B",
+      "cell_type": "Myeloid_cell",
+      "status": "NE",
+      "patients": 2
+    },
+    {
+      "cohort": "Bassez B",
+      "cell_type": "T_cell",
+      "status": "E",
+      "patients": 3
+    },
+    {
+      "cohort": "Bassez B",
+      "cell_type": "T_cell",
+      "status": "NE",
+      "patients": 3
+    }
+  ],
+  "sources": {
+    "Bassez A": {
+      "activity_scores": "PRIVATE_SOURCE_ROOT/May_2026_clean_version_redo/benchmarking_may/bassez_cohort_A_final_run/data/pipeline/bassez_A_activity_scores.parquet",
+      "activity_sha256": "7b3e99728aaa8e80067f8610738fdb529129d12bf77e141d58464a7a0943e5e9",
+      "metadata_h5ad": "PRIVATE_SOURCE_ROOT/May_2026_clean_version_redo/benchmarking_may/bassez_cohort_A_final_run/data/pipeline/scKNIFE_results_bassez_A.h5ad",
+      "metadata_sha256": "5ee337c2c27f53e2b0ef60476eb32589d86434a2b12ef8eb3ee66739be9b054b",
+      "selected_pre_on_cells": 71720,
+      "go_terms": 6036
+    },
+    "Bassez B": {
+      "activity_scores": "PRIVATE_SOURCE_ROOT/May_2026_clean_version_redo/benchmarking_may/bassez_cohort_B_final_run/data/pipeline/bassez_B_activity_scores.parquet",
+      "activity_sha256": "70fd48f94f3cb90ffe117332fdc94b334b5a5a5d3ab3e8a4cdbd8e1c698c9747",
+      "metadata_h5ad": "PRIVATE_SOURCE_ROOT/May_2026_clean_version_redo/benchmarking_may/bassez_cohort_B_final_run/data/pipeline/scKNIFE_results_bassez_B.h5ad",
+      "metadata_sha256": "1e7880be38cf42d517c0256c0cbd35fcddf19bceb6957c1971dbbdb2893c0372",
+      "selected_pre_on_cells": 36527,
+      "go_terms": 6036
+    }
+  }
+}

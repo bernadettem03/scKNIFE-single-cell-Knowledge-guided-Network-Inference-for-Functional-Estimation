@@ -1,0 +1,19 @@
+PatientID,patient_display,metabolite,display_name,group,Timepoint,median_activity,q1_activity,q3_activity,n_cells
+P3,P3,tRNA_containing_6_isopentenyladenosine,tRNA containing 6-isopentenyladenosine,Major CAF,Bx,0.36405228078365326,0.2669844925403595,0.6098067164421082,154
+P3,P3,tRNA_containing_6_isopentenyladenosine,tRNA containing 6-isopentenyladenosine,Major CAF,Surgery,0.2679848372936249,0.19666866958141327,0.3650750517845154,317
+P3,P3,tRNA_containing_6_isopentenyladenosine,tRNA containing 6-isopentenyladenosine,Major CAF,Recurrence,0.36487114429473877,0.29674966633319855,0.463948592543602,790
+P3,P3,tRNA_containing_6_isopentenyladenosine,tRNA containing 6-isopentenyladenosine,Reviewed myCAF-like s5,Bx,0.39344337582588196,0.2704254686832428,0.662903442978859,142
+P3,P3,tRNA_containing_6_isopentenyladenosine,tRNA containing 6-isopentenyladenosine,Reviewed myCAF-like s5,Surgery,0.3048771321773529,0.2289901189506054,0.42226484417915344,92
+P3,P3,tRNA_containing_6_isopentenyladenosine,tRNA containing 6-isopentenyladenosine,Reviewed myCAF-like s5,Recurrence,0.4117274582386017,0.3125888332724571,0.540559858083725,210
+P3,P3,selenocystathionine,Selenocystathionine,Major CAF,Bx,0.3368944674730301,0.24565542861819267,0.5641310662031174,154
+P3,P3,selenocystathionine,Selenocystathionine,Major CAF,Surgery,0.23219603300094604,0.17946624755859375,0.31203973293304443,317
+P3,P3,selenocystathionine,Selenocystathionine,Major CAF,Recurrence,0.3172713667154312,0.23773791268467903,0.46574825793504715,790
+P3,P3,selenocystathionine,Selenocystathionine,Reviewed myCAF-like s5,Bx,0.3587764650583267,0.24521800503134727,0.5798544436693192,142
+P3,P3,selenocystathionine,Selenocystathionine,Reviewed myCAF-like s5,Surgery,0.26198434829711914,0.20696648582816124,0.3716413751244545,92
+P3,P3,selenocystathionine,Selenocystathionine,Reviewed myCAF-like s5,Recurrence,0.3389168828725815,0.25320984423160553,0.4403239041566849,210
+P3,P3,2_phosphoglycolate,2-phosphoglycolate,Major CAF,Bx,0.5954706966876984,0.44558344036340714,0.8484029918909073,154
+P3,P3,2_phosphoglycolate,2-phosphoglycolate,Major CAF,Surgery,0.4721710979938507,0.3298094570636749,0.693314254283905,317
+P3,P3,2_phosphoglycolate,2-phosphoglycolate,Major CAF,Recurrence,0.5933998823165894,0.44984303414821625,0.8834786862134933,790
+P3,P3,2_phosphoglycolate,2-phosphoglycolate,Reviewed myCAF-like s5,Bx,0.6100402772426605,0.4570787698030472,0.8893042057752609,142
+P3,P3,2_phosphoglycolate,2-phosphoglycolate,Reviewed myCAF-like s5,Surgery,0.41071395576000214,0.3075001388788223,0.6097599118947983,92
+P3,P3,2_phosphoglycolate,2-phosphoglycolate,Reviewed myCAF-like s5,Recurrence,0.5497950613498688,0.41660384088754654,0.7517473995685577,210

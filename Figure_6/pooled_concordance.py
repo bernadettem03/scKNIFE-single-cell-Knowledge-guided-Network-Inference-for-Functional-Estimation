@@ -59,7 +59,7 @@ def validate_pooled(data):
     return summary, grids
 
 
-def draw_pooled_concordance(container, data, label="C", compact=False):
+def draw_pooled_concordance(container, data, label="C", compact=False, plot_letters=None):
     summary, grids = validate_pooled(data)
     font = COMPACT_FONT if compact else FONT
     positive = np.concatenate([x[x > 0] for x in grids.values()])
@@ -99,6 +99,8 @@ def draw_pooled_concordance(container, data, label="C", compact=False):
         if compact:
             cx = min(cx, .785)
         feature_label = f"{resolution}s\nn={int(row.n_features)}" if compact else f"{resolution}s (n={int(row.n_features)})"
+        if plot_letters is not None:
+            feature_label = f"{plot_letters[index]}  {feature_label}"
         container.text(cx, .855, feature_label,
                        ha="center", va="center", fontsize=font["feature"], fontweight="bold")
         container.text(cx, .755, f"Pearson r = {row.pearson:.4f}\nSpearman ρ = {row.spearman:.4f}",
@@ -121,3 +123,57 @@ def draw_pooled_concordance(container, data, label="C", compact=False):
                    ha="center", va="bottom", fontsize=font["colorbar"])
     return {"axes": axes, "color_vmin": 1, "color_vmax": vmax,
             "density_counts": {key: int(value.sum()) for key, value in grids.items()}}
+
+
+def draw_single_concordance(container, data, label, resolution):
+    """Render one of the frozen pooled comparisons as an independent panel."""
+    if resolution not in ("Task", "Pathway"):
+        raise ValueError(resolution)
+    summary, grids = validate_pooled(data)
+    positive = np.concatenate([x[x > 0] for x in grids.values()])
+    vmax = max(10.0, float(10 ** np.ceil(np.log10(np.percentile(positive, COLOR_PERCENTILE)))))
+    norm = LogNorm(vmin=1, vmax=vmax, clip=True)
+    cmap = LinearSegmentedColormap.from_list("pooled_activity_density", COLOR_STOPS)
+    cmap.set_bad("white")
+    row = summary.loc[resolution]
+    ax = container.add_axes([.23, .28, .70, .43])
+    x_edges = np.linspace(row.axis_min, row.x_axis_max, int(row.bins_per_axis) + 1)
+    y_edges = np.linspace(row.axis_min, row.y_axis_max, int(row.bins_per_axis) + 1)
+    mesh = ax.pcolormesh(x_edges, y_edges, np.ma.masked_equal(grids[resolution], 0),
+                         cmap=cmap, norm=norm, shading="flat", rasterized=True,
+                         edgecolors="none", linewidth=0)
+    mesh.set_gid("pooled_full_data_density")
+    fit_x = np.array([row.meia_min, row.meia_max])
+    fit_y = row.ols_intercept + row.ols_slope * fit_x
+    line, = ax.plot(fit_x, fit_y, color=FIT_COLOR, linestyle=FIT_LINESTYLE,
+                    linewidth=FIT_LINEWIDTH, zorder=3, rasterized=False, clip_on=True)
+    line.set_gid("pooled_ols_fit")
+    ax.set(xlim=(row.axis_min, row.x_axis_max), ylim=(row.axis_min, row.y_axis_max))
+    ax.spines[["top", "right"]].set_visible(False)
+    ax.grid(False)
+    ax.tick_params(labelsize=6.5, width=.6, length=2, pad=1)
+    for axis in (ax.xaxis, ax.yaxis):
+        axis.set_major_locator(MaxNLocator(nbins=2, min_n_ticks=2))
+        formatter = ScalarFormatter(useOffset=False)
+        formatter.set_scientific(False)
+        axis.set_major_formatter(formatter)
+    ax.set_xlabel("MEIA activity score", fontsize=7)
+    ax.set_ylabel("scKNIFE activity score", fontsize=7)
+    container.text(.03, .98, f"{label}  {resolution} score concordance",
+                   ha="left", va="top", fontsize=9, fontweight="bold")
+    container.text(.52, .86, f"n={int(row.n_features)} features; 69,390 cells",
+                   ha="center", va="center", fontsize=6.7, color="#555555")
+    container.text(.52, .77,
+                   f"Pearson r = {row.pearson:.4f}  •  Spearman ρ = {row.spearman:.4f}",
+                   ha="center", va="center", fontsize=6.7)
+    cax = container.add_axes([.28, .115, .62, .028])
+    colorbar = container.colorbar(mesh, cax=cax, orientation="horizontal",
+                                  extend="max" if positive.max() > vmax else "neither")
+    colorbar.set_ticks([10**p for p in range(0, int(np.log10(vmax)) + 1, 2)])
+    colorbar.ax.tick_params(labelsize=6, length=2, pad=1)
+    colorbar.ax.minorticks_off()
+    colorbar.outline.set_linewidth(.4)
+    container.text(.58, .03, "Cell–feature pairs per bin (log scale)",
+                   ha="center", va="bottom", fontsize=6)
+    return {"axis": ax, "color_vmin": 1, "color_vmax": vmax,
+            "density_count": int(grids[resolution].sum())}

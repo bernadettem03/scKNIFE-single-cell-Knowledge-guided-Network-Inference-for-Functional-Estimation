@@ -1,7 +1,7 @@
 {
-  "revision": "figure5_supplementary_ef_side_by_side_20260828",
+  "revision": "figure5_s5b_ng7_tasks_20261005",
   "random_seed": 42,
-  "selected_k": 8,
+  "selected_k": 9,
   "raw_w_nodes": 39247,
   "excluded_node_kinds": [
     "cell_type",
@@ -12,77 +12,67 @@
     "cell_type": 95
   },
   "eligible_w_nodes": 39035,
-  "selected_nodes": 160,
+  "selected_nodes": 180,
   "excluded_annotation_nodes_absent": true,
   "program_alignment": [
     {
-      "raw_cluster": 7,
+      "raw_cluster": 5,
       "program": 0,
-      "shared_factors": 6,
-      "new_cluster_size": 6,
-      "reference_cluster_size": 6,
-      "factor_membership_jaccard": 1.0
+      "factor_count": 8,
+      "minimum_factor": 0
     },
     {
-      "raw_cluster": 4,
+      "raw_cluster": 6,
       "program": 1,
-      "shared_factors": 3,
-      "new_cluster_size": 3,
-      "reference_cluster_size": 3,
-      "factor_membership_jaccard": 1.0
+      "factor_count": 3,
+      "minimum_factor": 1
     },
     {
       "raw_cluster": 3,
       "program": 2,
-      "shared_factors": 2,
-      "new_cluster_size": 2,
-      "reference_cluster_size": 2,
-      "factor_membership_jaccard": 1.0
-    },
-    {
-      "raw_cluster": 5,
-      "program": 3,
-      "shared_factors": 28,
-      "new_cluster_size": 28,
-      "reference_cluster_size": 28,
-      "factor_membership_jaccard": 1.0
-    },
-    {
-      "raw_cluster": 1,
-      "program": 4,
-      "shared_factors": 1,
-      "new_cluster_size": 1,
-      "reference_cluster_size": 1,
-      "factor_membership_jaccard": 1.0
+      "factor_count": 3,
+      "minimum_factor": 2
     },
     {
       "raw_cluster": 2,
-      "program": 5,
-      "shared_factors": 3,
-      "new_cluster_size": 3,
-      "reference_cluster_size": 3,
-      "factor_membership_jaccard": 1.0
+      "program": 3,
+      "factor_count": 5,
+      "minimum_factor": 3
     },
     {
-      "raw_cluster": 6,
-      "program": 6,
-      "shared_factors": 2,
-      "new_cluster_size": 2,
-      "reference_cluster_size": 2,
-      "factor_membership_jaccard": 1.0
+      "raw_cluster": 7,
+      "program": 4,
+      "factor_count": 2,
+      "minimum_factor": 4
     },
     {
       "raw_cluster": 0,
+      "program": 5,
+      "factor_count": 4,
+      "minimum_factor": 5
+    },
+    {
+      "raw_cluster": 1,
+      "program": 6,
+      "factor_count": 2,
+      "minimum_factor": 6
+    },
+    {
+      "raw_cluster": 8,
       "program": 7,
-      "shared_factors": 5,
-      "new_cluster_size": 5,
-      "reference_cluster_size": 5,
-      "factor_membership_jaccard": 1.0
+      "factor_count": 2,
+      "minimum_factor": 7
+    },
+    {
+      "raw_cluster": 4,
+      "program": 8,
+      "factor_count": 21,
+      "minimum_factor": 12
     }
   ],
-  "analysis_grouping": "scknife_final_celltype",
+  "analysis_grouping": "celltype_minor",
   "patient_id_metadata": {
-    "source": "data/Figure_4/patient_id_mapping.csv",
+    "source": "data/patient_id_mapping.csv",
     "visual_labels": "P1-P7",
     "mapping": [
       {
@@ -129,15 +119,15 @@
       "epithelial cell type",
       "patient"
     ],
-    "association_edge_count": 104,
-    "observed_count_edge_count": 25,
-    "observed_cell_total": 43574,
+    "association_edge_count": 162,
+    "observed_count_edge_count": 63,
+    "observed_cell_total": 36963,
     "count_width_transform": "log10(n + 1)",
     "count_labels": "exact n",
     "interpretation": "association layers are not literal cell flow; observed cell counts enter only at cell type to patient",
     "inferential_tests": false
   },
-  "violin_presentation": "descriptive cell-level distributions; no inferential tests",
+  "violin_presentation": "descriptive inferred activity in matched cell samples; no inferential tests",
   "vector_text": {
     "font_family": "DejaVu Sans",
     "pdf_font_type": 42,

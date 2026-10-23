@@ -1,0 +1,182 @@
+all_cell_cluster,celltype_minor,cells
+0,Cancer Basal SC — Interferon Alpha Response,1677
+0,Cancer Cycling — E2F Targets,562
+0,Cancer Her2 SC,345
+0,Cancer LumA SC,72
+0,Cancer LumB SC,3
+0,Epithelial,164
+0,Luminal Progenitors,1116
+0,Mature Luminal,62
+0,Myoepithelial,550
+1,Cancer Basal SC — Interferon Alpha Response,1454
+1,Cancer Cycling — E2F Targets,771
+1,Cancer Her2 SC,116
+1,Cancer LumA SC,29
+1,Cancer LumB SC,13
+1,Epithelial,234
+1,Luminal Progenitors,714
+1,Mature Luminal,80
+1,Myoepithelial,155
+2,Cancer Basal SC — Interferon Alpha Response,51
+2,Cancer Cycling — E2F Targets,26
+2,Cancer Her2 SC,22
+2,Cancer LumA SC,18
+2,Cancer LumB SC,17
+2,Epithelial,36
+2,Luminal Progenitors,97
+2,Mature Luminal,40
+2,Myoepithelial,55
+3,Cancer Basal SC — Interferon Alpha Response,679
+3,Cancer Cycling — E2F Targets,444
+3,Cancer Her2 SC,276
+3,Cancer LumA SC,103
+3,Cancer LumB SC,9
+3,Epithelial,178
+3,Luminal Progenitors,1395
+3,Mature Luminal,82
+3,Myoepithelial,466
+4,Cancer Basal SC — Interferon Alpha Response,635
+4,Cancer Cycling — E2F Targets,1205
+4,Cancer Her2 SC,168
+4,Cancer LumA SC,95
+4,Cancer LumB SC,3
+4,Epithelial,243
+4,Luminal Progenitors,607
+4,Mature Luminal,54
+4,Myoepithelial,256
+5,Cancer Basal SC — Interferon Alpha Response,377
+5,Cancer Cycling — E2F Targets,1348
+5,Cancer Her2 SC,333
+5,Cancer LumA SC,52
+5,Cancer LumB SC,31
+5,Epithelial,228
+5,Luminal Progenitors,547
+5,Mature Luminal,21
+5,Myoepithelial,178
+6,Cancer Basal SC — Interferon Alpha Response,10
+6,Cancer Cycling — E2F Targets,7
+6,Cancer Her2 SC,4
+6,Epithelial,20
+6,Luminal Progenitors,4
+6,Mature Luminal,4
+6,Myoepithelial,3
+7,Cancer Basal SC — Interferon Alpha Response,1426
+7,Cancer Cycling — E2F Targets,699
+7,Cancer Her2 SC,146
+7,Cancer LumA SC,21
+7,Cancer LumB SC,7
+7,Epithelial,71
+7,Luminal Progenitors,783
+7,Mature Luminal,41
+7,Myoepithelial,82
+8,Cancer Basal SC — Interferon Alpha Response,456
+8,Cancer Cycling — E2F Targets,342
+8,Cancer Her2 SC,124
+8,Cancer LumA SC,19
+8,Cancer LumB SC,2
+8,Epithelial,294
+8,Luminal Progenitors,619
+8,Mature Luminal,29
+8,Myoepithelial,972
+9,Cancer Basal SC — Interferon Alpha Response,111
+9,Cancer Cycling — E2F Targets,167
+9,Cancer Her2 SC,55
+9,Cancer LumA SC,40
+9,Cancer LumB SC,3
+9,Epithelial,89
+9,Luminal Progenitors,168
+9,Mature Luminal,20
+9,Myoepithelial,35
+10,Cancer Basal SC — Interferon Alpha Response,73
+10,Cancer Cycling — E2F Targets,68
+10,Cancer Her2 SC,21
+10,Cancer LumA SC,19
+10,Cancer LumB SC,1
+10,Epithelial,87
+10,Luminal Progenitors,78
+10,Mature Luminal,12
+10,Myoepithelial,32
+11,Cancer Basal SC — Interferon Alpha Response,505
+11,Cancer Cycling — E2F Targets,677
+11,Cancer Her2 SC,220
+11,Cancer LumA SC,94
+11,Cancer LumB SC,18
+11,Epithelial,130
+11,Luminal Progenitors,354
+11,Mature Luminal,143
+11,Myoepithelial,166
+12,Cancer Basal SC — Interferon Alpha Response,190
+12,Cancer Cycling — E2F Targets,189
+12,Cancer Her2 SC,60
+12,Cancer LumA SC,33
+12,Cancer LumB SC,4
+12,Epithelial,83
+12,Luminal Progenitors,153
+12,Mature Luminal,33
+12,Myoepithelial,42
+13,Cancer Basal SC — Interferon Alpha Response,7
+13,Cancer Cycling — E2F Targets,5
+13,Cancer Her2 SC,19
+13,Cancer LumA SC,13
+13,Cancer LumB SC,69
+13,Epithelial,15
+13,Luminal Progenitors,117
+13,Mature Luminal,228
+13,Myoepithelial,197
+14,Cancer Basal SC — Interferon Alpha Response,6
+14,Cancer Cycling — E2F Targets,1
+14,Cancer Her2 SC,1
+14,Epithelial,16
+14,Luminal Progenitors,3
+14,Myoepithelial,5
+15,Cancer Basal SC — Interferon Alpha Response,843
+15,Cancer Cycling — E2F Targets,627
+15,Cancer Her2 SC,93
+15,Cancer LumA SC,17
+15,Cancer LumB SC,9
+15,Epithelial,96
+15,Luminal Progenitors,240
+15,Mature Luminal,26
+15,Myoepithelial,25
+16,Cancer Basal SC — Interferon Alpha Response,81
+16,Cancer Cycling — E2F Targets,48
+16,Cancer Her2 SC,16
+16,Cancer LumA SC,5
+16,Cancer LumB SC,1
+16,Epithelial,60
+16,Luminal Progenitors,42
+16,Mature Luminal,12
+16,Myoepithelial,8
+17,Cancer Basal SC — Interferon Alpha Response,15
+17,Cancer Her2 SC,2
+17,Epithelial,11
+17,Luminal Progenitors,4
+17,Mature Luminal,1
+17,Myoepithelial,3
+18,Cancer Basal SC — Interferon Alpha Response,300
+18,Cancer Cycling — E2F Targets,571
+18,Cancer Her2 SC,219
+18,Cancer LumA SC,10
+18,Cancer LumB SC,20
+18,Epithelial,186
+18,Luminal Progenitors,275
+18,Mature Luminal,3
+18,Myoepithelial,225
+19,Cancer Basal SC — Interferon Alpha Response,399
+19,Cancer Cycling — E2F Targets,324
+19,Cancer Her2 SC,156
+19,Cancer LumA SC,63
+19,Cancer LumB SC,3
+19,Epithelial,97
+19,Luminal Progenitors,368
+19,Mature Luminal,54
+19,Myoepithelial,131
+20,Cancer Basal SC — Interferon Alpha Response,948
+20,Cancer Cycling — E2F Targets,200
+20,Cancer Her2 SC,43
+20,Cancer LumA SC,12
+20,Cancer LumB SC,4
+20,Epithelial,62
+20,Luminal Progenitors,340
+20,Mature Luminal,46
+20,Myoepithelial,67

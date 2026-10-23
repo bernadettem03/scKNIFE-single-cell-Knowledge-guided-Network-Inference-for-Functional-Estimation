@@ -1,0 +1,15 @@
+{
+  "tier": "major",
+  "filter": "scKNIFE unique-LR BH q<0.05; CellChat input nominal LR p<0.05",
+  "unit": "matched LR/source/target observations, not independent patient replicates",
+  "n_candidate_rows": 2919,
+  "n_filtered_rows": 1917,
+  "n_filtered_unique_lr": 225,
+  "n_permutations": 1000,
+  "lr_significance_sha256": "46178a900857155cb314c0248ebb365ce68f869fb79f8d0add4baafc4d07bc0f",
+  "filtered_results_sha256": "c3f402dd3a3357acee322a6af78d025846e173a4619cf8364bc1048eaec0a4a6",
+  "software": {
+    "python": "3.9.21",
+    "renderer": "matplotlib fallback; cnsplots unavailable in bgnmf Python 3.9"
+  }
+}

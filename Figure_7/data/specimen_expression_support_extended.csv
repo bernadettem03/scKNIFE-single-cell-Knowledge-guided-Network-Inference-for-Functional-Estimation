@@ -1,0 +1,106 @@
+patient,display_id,specimen,collection,metastatic_status,eligible,gene,celltype,feature_label,n_cells,pct_detected,mean_log1p
+P1,P1,library1_sample1,Bx,Non-metastatic,True,COL1A1,CAFs myCAF-like,COL1A1 in myCAF,383,88.25065274151436,2.6198594384965324
+P1,P1,library1_sample1,Bx,Non-metastatic,True,COL1A2,CAFs myCAF-like,COL1A2 in myCAF,383,75.45691906005221,1.7021113811522801
+P1,P1,library1_sample1,Bx,Non-metastatic,True,COL6A3,CAFs myCAF-like,COL6A3 in myCAF,383,55.35248041775457,0.9119145445350567
+P1,P1,library1_sample1,Bx,Non-metastatic,True,CD44,Cancer Basal SC,CD44 in basal cancer,2332,20.240137221269297,0.13277509998638778
+P1,P1,library1_sample1,Bx,Non-metastatic,True,ITGAV,Cancer Basal SC,ITGAV in basal cancer,2332,33.19039451114923,0.22680877698313823
+P1,P1,library1_sample1,Bx,Non-metastatic,True,ITGB8,Cancer Basal SC,ITGB8 in basal cancer,2332,33.36192109777015,0.23275799122455293
+P1,P1,library1_sample1,Bx,Non-metastatic,True,SDC4,Cancer Basal SC,SDC4 in basal cancer,2332,25.085763293310464,0.16062634438915277
+P1,P1,library1_sample2,Surgery,Non-metastatic,True,COL1A1,CAFs myCAF-like,COL1A1 in myCAF,957,97.70114942528735,3.824055494092475
+P1,P1,library1_sample2,Surgery,Non-metastatic,True,COL1A2,CAFs myCAF-like,COL1A2 in myCAF,957,95.19331243469175,3.0028239080805017
+P1,P1,library1_sample2,Surgery,Non-metastatic,True,COL6A3,CAFs myCAF-like,COL6A3 in myCAF,957,81.60919540229885,1.5714619064872914
+P1,P1,library1_sample2,Surgery,Non-metastatic,True,CD44,Cancer Basal SC,CD44 in basal cancer,956,46.12970711297071,0.2603073081149716
+P1,P1,library1_sample2,Surgery,Non-metastatic,True,ITGAV,Cancer Basal SC,ITGAV in basal cancer,956,49.89539748953975,0.24580199049325918
+P1,P1,library1_sample2,Surgery,Non-metastatic,True,ITGB8,Cancer Basal SC,ITGB8 in basal cancer,956,54.18410041841004,0.29239030936771854
+P1,P1,library1_sample2,Surgery,Non-metastatic,True,SDC4,Cancer Basal SC,SDC4 in basal cancer,956,48.22175732217573,0.2643162527561936
+P2,P2,library3_sample3,Bx,Metastatic,True,COL1A1,CAFs myCAF-like,COL1A1 in myCAF,400,97.25,3.4846055820584296
+P2,P2,library3_sample3,Bx,Metastatic,True,COL1A2,CAFs myCAF-like,COL1A2 in myCAF,400,90.0,2.3321724509447814
+P2,P2,library3_sample3,Bx,Metastatic,True,COL6A3,CAFs myCAF-like,COL6A3 in myCAF,400,77.5,1.4312694191932678
+P2,P2,library3_sample3,Bx,Metastatic,True,CD44,Cancer Basal SC,CD44 in basal cancer,113,18.58407079646018,0.167866171461291
+P2,P2,library3_sample3,Bx,Metastatic,True,ITGAV,Cancer Basal SC,ITGAV in basal cancer,113,15.929203539823009,0.11468618725780892
+P2,P2,library3_sample3,Bx,Metastatic,True,ITGB8,Cancer Basal SC,ITGB8 in basal cancer,113,30.08849557522124,0.18488715918718185
+P2,P2,library3_sample3,Bx,Metastatic,True,SDC4,Cancer Basal SC,SDC4 in basal cancer,113,16.8141592920354,0.10764714086477735
+P2,P2,library3_sample4,Surgery,Metastatic,True,COL1A1,CAFs myCAF-like,COL1A1 in myCAF,156,91.66666666666666,2.8729657786778913
+P2,P2,library3_sample4,Surgery,Metastatic,True,COL1A2,CAFs myCAF-like,COL1A2 in myCAF,156,73.71794871794873,1.8145049907840216
+P2,P2,library3_sample4,Surgery,Metastatic,True,COL6A3,CAFs myCAF-like,COL6A3 in myCAF,156,73.71794871794873,1.4823934244803894
+P2,P2,library3_sample4,Surgery,Metastatic,True,CD44,Cancer Basal SC,CD44 in basal cancer,960,44.583333333333336,0.33602826491308707
+P2,P2,library3_sample4,Surgery,Metastatic,True,ITGAV,Cancer Basal SC,ITGAV in basal cancer,960,36.354166666666664,0.20525413690290104
+P2,P2,library3_sample4,Surgery,Metastatic,True,ITGB8,Cancer Basal SC,ITGB8 in basal cancer,960,57.49999999999999,0.40460951908801995
+P2,P2,library3_sample4,Surgery,Metastatic,True,SDC4,Cancer Basal SC,SDC4 in basal cancer,960,25.729166666666664,0.1369568353286013
+P3,P3,library4_sample2,Bx,Metastatic,False,COL1A1,CAFs myCAF-like,COL1A1 in myCAF,56,91.07142857142857,3.5860660821199417
+P3,P3,library4_sample2,Bx,Metastatic,False,COL1A2,CAFs myCAF-like,COL1A2 in myCAF,56,89.28571428571429,2.5324445217847824
+P3,P3,library4_sample2,Bx,Metastatic,False,COL6A3,CAFs myCAF-like,COL6A3 in myCAF,56,78.57142857142857,1.316689248595919
+P3,P3,library4_sample2,Bx,Metastatic,False,CD44,Cancer Basal SC,CD44 in basal cancer,0,,
+P3,P3,library4_sample2,Bx,Metastatic,False,ITGAV,Cancer Basal SC,ITGAV in basal cancer,0,,
+P3,P3,library4_sample2,Bx,Metastatic,False,ITGB8,Cancer Basal SC,ITGB8 in basal cancer,0,,
+P3,P3,library4_sample2,Bx,Metastatic,False,SDC4,Cancer Basal SC,SDC4 in basal cancer,0,,
+P3,P3,library4_sample3,Surgery,Metastatic,True,COL1A1,CAFs myCAF-like,COL1A1 in myCAF,378,98.14814814814815,3.178027495505318
+P3,P3,library4_sample3,Surgery,Metastatic,True,COL1A2,CAFs myCAF-like,COL1A2 in myCAF,378,85.44973544973546,2.119653411643215
+P3,P3,library4_sample3,Surgery,Metastatic,True,COL6A3,CAFs myCAF-like,COL6A3 in myCAF,378,76.71957671957672,1.5189888357485413
+P3,P3,library4_sample3,Surgery,Metastatic,True,CD44,Cancer Basal SC,CD44 in basal cancer,50,50.0,0.3857454216480255
+P3,P3,library4_sample3,Surgery,Metastatic,True,ITGAV,Cancer Basal SC,ITGAV in basal cancer,50,26.0,0.18895282626152038
+P3,P3,library4_sample3,Surgery,Metastatic,True,ITGB8,Cancer Basal SC,ITGB8 in basal cancer,50,50.0,0.3184558179974556
+P3,P3,library4_sample3,Surgery,Metastatic,True,SDC4,Cancer Basal SC,SDC4 in basal cancer,50,30.0,0.18171576529741287
+P3,P3,library4_sample4,Recurrence,Metastatic,True,COL1A1,CAFs myCAF-like,COL1A1 in myCAF,1414,94.83734087694484,2.717409103392206
+P3,P3,library4_sample4,Recurrence,Metastatic,True,COL1A2,CAFs myCAF-like,COL1A2 in myCAF,1414,77.2984441301273,1.5926369858386662
+P3,P3,library4_sample4,Recurrence,Metastatic,True,COL6A3,CAFs myCAF-like,COL6A3 in myCAF,1414,67.18528995756718,1.2666660706595618
+P3,P3,library4_sample4,Recurrence,Metastatic,True,CD44,Cancer Basal SC,CD44 in basal cancer,608,33.71710526315789,0.343518982494348
+P3,P3,library4_sample4,Recurrence,Metastatic,True,ITGAV,Cancer Basal SC,ITGAV in basal cancer,608,12.993421052631579,0.11147489854575772
+P3,P3,library4_sample4,Recurrence,Metastatic,True,ITGB8,Cancer Basal SC,ITGB8 in basal cancer,608,35.19736842105263,0.34049949976370525
+P3,P3,library4_sample4,Recurrence,Metastatic,True,SDC4,Cancer Basal SC,SDC4 in basal cancer,608,9.210526315789473,0.07487067506697617
+P4,P4,library1_sample3,Bx,Metastatic,True,COL1A1,CAFs myCAF-like,COL1A1 in myCAF,804,94.02985074626866,3.762935315124431
+P4,P4,library1_sample3,Bx,Metastatic,True,COL1A2,CAFs myCAF-like,COL1A2 in myCAF,804,90.4228855721393,3.0500939256924005
+P4,P4,library1_sample3,Bx,Metastatic,True,COL6A3,CAFs myCAF-like,COL6A3 in myCAF,804,75.99502487562188,1.4488843611038442
+P4,P4,library1_sample3,Bx,Metastatic,True,CD44,Cancer Basal SC,CD44 in basal cancer,3545,84.96473906911143,0.669964539312215
+P4,P4,library1_sample3,Bx,Metastatic,True,ITGAV,Cancer Basal SC,ITGAV in basal cancer,3545,42.538787023977434,0.14115084241576525
+P4,P4,library1_sample3,Bx,Metastatic,True,ITGB8,Cancer Basal SC,ITGB8 in basal cancer,3545,68.12411847672779,0.36763252024505977
+P4,P4,library1_sample3,Bx,Metastatic,True,SDC4,Cancer Basal SC,SDC4 in basal cancer,3545,75.28913963328631,0.4788636724245229
+P4,P4,library1_sample4,Surgery,Metastatic,True,COL1A1,CAFs myCAF-like,COL1A1 in myCAF,260,67.6923076923077,2.394409034343866
+P4,P4,library1_sample4,Surgery,Metastatic,True,COL1A2,CAFs myCAF-like,COL1A2 in myCAF,260,54.61538461538461,1.4787519697959606
+P4,P4,library1_sample4,Surgery,Metastatic,True,COL6A3,CAFs myCAF-like,COL6A3 in myCAF,260,31.92307692307692,0.6071615628325022
+P4,P4,library1_sample4,Surgery,Metastatic,True,CD44,Cancer Basal SC,CD44 in basal cancer,267,29.962546816479403,0.36414256820294744
+P4,P4,library1_sample4,Surgery,Metastatic,True,ITGAV,Cancer Basal SC,ITGAV in basal cancer,267,8.98876404494382,0.1000208251931694
+P4,P4,library1_sample4,Surgery,Metastatic,True,ITGB8,Cancer Basal SC,ITGB8 in basal cancer,267,36.70411985018727,0.5151269241665186
+P4,P4,library1_sample4,Surgery,Metastatic,True,SDC4,Cancer Basal SC,SDC4 in basal cancer,267,13.108614232209737,0.14966321214754483
+P5,P5,library2_sample3,Bx,Non-metastatic,True,COL1A1,CAFs myCAF-like,COL1A1 in myCAF,969,97.8328173374613,2.8300315364349493
+P5,P5,library2_sample3,Bx,Non-metastatic,True,COL1A2,CAFs myCAF-like,COL1A2 in myCAF,969,83.90092879256966,1.7778105460207283
+P5,P5,library2_sample3,Bx,Non-metastatic,True,COL6A3,CAFs myCAF-like,COL6A3 in myCAF,969,79.56656346749226,1.653754975466044
+P5,P5,library2_sample3,Bx,Non-metastatic,True,CD44,Cancer Basal SC,CD44 in basal cancer,589,39.72835314091681,0.2928490149701593
+P5,P5,library2_sample3,Bx,Non-metastatic,True,ITGAV,Cancer Basal SC,ITGAV in basal cancer,589,6.791171477079796,0.03911141322606286
+P5,P5,library2_sample3,Bx,Non-metastatic,True,ITGB8,Cancer Basal SC,ITGB8 in basal cancer,589,69.94906621392191,0.6384990469304329
+P5,P5,library2_sample3,Bx,Non-metastatic,True,SDC4,Cancer Basal SC,SDC4 in basal cancer,589,14.94057724957555,0.08873580251970599
+P5,P5,library2_sample4,Surgery,Non-metastatic,True,COL1A1,CAFs myCAF-like,COL1A1 in myCAF,342,93.56725146198829,2.2101039926559602
+P5,P5,library2_sample4,Surgery,Non-metastatic,True,COL1A2,CAFs myCAF-like,COL1A2 in myCAF,342,69.88304093567251,1.6668089034787394
+P5,P5,library2_sample4,Surgery,Non-metastatic,True,COL6A3,CAFs myCAF-like,COL6A3 in myCAF,342,56.4327485380117,0.9679752084159712
+P5,P5,library2_sample4,Surgery,Non-metastatic,True,CD44,Cancer Basal SC,CD44 in basal cancer,423,42.08037825059102,0.26668201511985584
+P5,P5,library2_sample4,Surgery,Non-metastatic,True,ITGAV,Cancer Basal SC,ITGAV in basal cancer,423,11.347517730496454,0.04559086719373721
+P5,P5,library2_sample4,Surgery,Non-metastatic,True,ITGB8,Cancer Basal SC,ITGB8 in basal cancer,423,87.70685579196218,0.9739821454593758
+P5,P5,library2_sample4,Surgery,Non-metastatic,True,SDC4,Cancer Basal SC,SDC4 in basal cancer,423,17.257683215130022,0.08465754587740482
+P6,P6,library3_sample1,Bx,Metastatic,True,COL1A1,CAFs myCAF-like,COL1A1 in myCAF,396,95.45454545454545,2.460073469564168
+P6,P6,library3_sample1,Bx,Metastatic,True,COL1A2,CAFs myCAF-like,COL1A2 in myCAF,396,80.05050505050505,1.4547178301245276
+P6,P6,library3_sample1,Bx,Metastatic,True,COL6A3,CAFs myCAF-like,COL6A3 in myCAF,396,71.46464646464646,1.323584319741437
+P6,P6,library3_sample1,Bx,Metastatic,True,CD44,Cancer Basal SC,CD44 in basal cancer,1191,70.69689336691856,0.6673433423968146
+P6,P6,library3_sample1,Bx,Metastatic,True,ITGAV,Cancer Basal SC,ITGAV in basal cancer,1191,19.227539882451723,0.10553099367045035
+P6,P6,library3_sample1,Bx,Metastatic,True,ITGB8,Cancer Basal SC,ITGB8 in basal cancer,1191,37.531486146095716,0.236977642375466
+P6,P6,library3_sample1,Bx,Metastatic,True,SDC4,Cancer Basal SC,SDC4 in basal cancer,1191,24.853064651553318,0.14674220465930643
+P6,P6,library3_sample2,Surgery,Metastatic,False,COL1A1,CAFs myCAF-like,COL1A1 in myCAF,67,85.07462686567165,2.7745681876566874
+P6,P6,library3_sample2,Surgery,Metastatic,False,COL1A2,CAFs myCAF-like,COL1A2 in myCAF,67,67.16417910447761,1.4471066478473038
+P6,P6,library3_sample2,Surgery,Metastatic,False,COL6A3,CAFs myCAF-like,COL6A3 in myCAF,67,49.25373134328358,1.10131207330903
+P6,P6,library3_sample2,Surgery,Metastatic,False,CD44,Cancer Basal SC,CD44 in basal cancer,0,,
+P6,P6,library3_sample2,Surgery,Metastatic,False,ITGAV,Cancer Basal SC,ITGAV in basal cancer,0,,
+P6,P6,library3_sample2,Surgery,Metastatic,False,ITGB8,Cancer Basal SC,ITGB8 in basal cancer,0,,
+P6,P6,library3_sample2,Surgery,Metastatic,False,SDC4,Cancer Basal SC,SDC4 in basal cancer,0,,
+P7,P7,library2_sample1,Bx,Non-metastatic,True,COL1A1,CAFs myCAF-like,COL1A1 in myCAF,627,98.72408293460924,3.0275103703640296
+P7,P7,library2_sample1,Bx,Non-metastatic,True,COL1A2,CAFs myCAF-like,COL1A2 in myCAF,627,94.09888357256779,2.18452653959037
+P7,P7,library2_sample1,Bx,Non-metastatic,True,COL6A3,CAFs myCAF-like,COL6A3 in myCAF,627,93.30143540669856,2.092639438225702
+P7,P7,library2_sample1,Bx,Non-metastatic,True,CD44,Cancer Basal SC,CD44 in basal cancer,258,48.44961240310077,0.36754855039969897
+P7,P7,library2_sample1,Bx,Non-metastatic,True,ITGAV,Cancer Basal SC,ITGAV in basal cancer,258,22.48062015503876,0.12500406333873437
+P7,P7,library2_sample1,Bx,Non-metastatic,True,ITGB8,Cancer Basal SC,ITGB8 in basal cancer,258,27.51937984496124,0.17581000017334325
+P7,P7,library2_sample1,Bx,Non-metastatic,True,SDC4,Cancer Basal SC,SDC4 in basal cancer,258,5.813953488372093,0.03070370985787044
+P7,P7,library4_sample1,Surgery,Non-metastatic,False,COL1A1,CAFs myCAF-like,COL1A1 in myCAF,22,86.36363636363636,2.83114049651406
+P7,P7,library4_sample1,Surgery,Non-metastatic,False,COL1A2,CAFs myCAF-like,COL1A2 in myCAF,22,90.9090909090909,2.074411142956127
+P7,P7,library4_sample1,Surgery,Non-metastatic,False,COL6A3,CAFs myCAF-like,COL6A3 in myCAF,22,22.727272727272727,0.4253891814838756
+P7,P7,library4_sample1,Surgery,Non-metastatic,False,CD44,Cancer Basal SC,CD44 in basal cancer,0,,
+P7,P7,library4_sample1,Surgery,Non-metastatic,False,ITGAV,Cancer Basal SC,ITGAV in basal cancer,0,,
+P7,P7,library4_sample1,Surgery,Non-metastatic,False,ITGB8,Cancer Basal SC,ITGB8 in basal cancer,0,,
+P7,P7,library4_sample1,Surgery,Non-metastatic,False,SDC4,Cancer Basal SC,SDC4 in basal cancer,0,,

@@ -1,0 +1,16 @@
+patient,specimen,collection,metastatic_status,n_myCAF,n_basal,eligible,pct_myCAF_COL1A1,pct_basal_CD44
+P7,library2_sample1,Bx,Non-metastatic,627,258,True,98.72408293460924,48.44961240310077
+P7,library4_sample1,Surgery,Non-metastatic,22,0,False,86.36363636363636,
+P1,library1_sample1,Bx,Non-metastatic,383,2332,True,88.25065274151436,20.240137221269297
+P1,library1_sample2,Surgery,Non-metastatic,957,956,True,97.70114942528735,46.12970711297071
+P2,library3_sample3,Bx,Metastatic,400,113,True,97.25,18.58407079646018
+P2,library3_sample4,Surgery,Metastatic,156,960,True,91.66666666666666,44.583333333333336
+P3,library4_sample2,Bx,Metastatic,56,0,False,91.07142857142857,
+P3,library4_sample3,Surgery,Metastatic,378,50,True,98.14814814814815,50.0
+P3,library4_sample4,Recurrence,Metastatic,1414,608,True,94.83734087694484,33.71710526315789
+P4,library1_sample3,Bx,Metastatic,804,3545,True,94.02985074626866,84.96473906911143
+P4,library1_sample4,Surgery,Metastatic,260,267,True,67.6923076923077,29.962546816479403
+P5,library2_sample3,Bx,Non-metastatic,969,589,True,97.8328173374613,39.72835314091681
+P5,library2_sample4,Surgery,Non-metastatic,342,423,True,93.56725146198829,42.08037825059102
+P6,library3_sample1,Bx,Metastatic,396,1191,True,95.45454545454545,70.69689336691856
+P6,library3_sample2,Surgery,Metastatic,67,0,False,85.07462686567165,

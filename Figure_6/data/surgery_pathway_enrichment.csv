@@ -1,23 +1,22 @@
 candidate_pathway,permutation_adjusted_gamma_p,pathway_BH_FDR_gamma,Hits.total,Hits.sig,Expected,contrast,interpretation
-Selenoamino acid metabolism,0.0016863,0.0370986,6,3,1.5429,surgery_vs_biopsy,Pathway enrichment passing pathway BH FDR
-Aspartate and asparagine metabolism,0.0020373,0.0427833,8,4,2.0571,surgery_vs_biopsy,Pathway enrichment passing pathway BH FDR
-Glycolysis and Gluconeogenesis,0.0024594,0.049188,9,3,0.77143,surgery_vs_biopsy,Pathway enrichment passing pathway BH FDR
-Methionine and cysteine metabolism,0.0030868,0.0586492,9,3,1.8,surgery_vs_biopsy,Candidate pathway enrichment; exploratory
-Arginine and Proline Metabolism,0.0034518,0.0621324,5,2,1.0286,surgery_vs_biopsy,Candidate pathway enrichment; exploratory
-Purine metabolism,0.0034518,0.0621324,5,3,1.0286,surgery_vs_biopsy,Candidate pathway enrichment; exploratory
-Urea cycle/amino group metabolism,0.0034518,0.0621324,4,2,1.0286,surgery_vs_biopsy,Candidate pathway enrichment; exploratory
-3-Chloroacrylic acid degradation,0.0035431,0.0621324,2,2,0.25714,surgery_vs_biopsy,Candidate pathway enrichment; exploratory
-Glyoxylate and Dicarboxylate Metabolism,0.0035431,0.0621324,1,1,0.25714,surgery_vs_biopsy,Candidate pathway enrichment; exploratory
-Vitamin A (retinol) metabolism,0.0035431,0.0621324,7,7,0.25714,surgery_vs_biopsy,Candidate pathway enrichment; exploratory
-Alanine and Aspartate Metabolism,0.0069834,0.0838008,2,1,0.51429,surgery_vs_biopsy,Candidate pathway enrichment; exploratory
-Glutathione Metabolism,0.0069834,0.0838008,2,1,0.51429,surgery_vs_biopsy,Candidate pathway enrichment; exploratory
-Vitamin B1 (thiamin) metabolism,0.0069834,0.0838008,2,1,0.51429,surgery_vs_biopsy,Candidate pathway enrichment; exploratory
-"Glycine, serine, alanine and threonine metabolism",0.0071616,0.0838008,5,2,1.5429,surgery_vs_biopsy,Candidate pathway enrichment; exploratory
-Histidine metabolism,0.012252,0.098016,2,1,0.77143,surgery_vs_biopsy,Candidate pathway enrichment; exploratory
-Biopterin metabolism,0.019579,0.137053,3,1,1.0286,surgery_vs_biopsy,Candidate pathway enrichment; exploratory
-Hexose phosphorylation,0.019579,0.137053,6,1,1.0286,surgery_vs_biopsy,Candidate pathway enrichment; exploratory
-Pyrimidine metabolism,0.019579,0.137053,3,1,1.0286,surgery_vs_biopsy,Candidate pathway enrichment; exploratory
-Tryptophan metabolism,0.019623,0.137053,8,3,2.3143,surgery_vs_biopsy,Candidate pathway enrichment; exploratory
-Tyrosine metabolism,0.026223,0.137053,14,3,2.5714,surgery_vs_biopsy,Candidate pathway enrichment; exploratory
-Ubiquinone Biosynthesis,0.029023,0.137053,2,1,1.2857,surgery_vs_biopsy,Candidate pathway enrichment; exploratory
-Xenobiotics metabolism,0.10183,0.137053,11,1,2.5714,surgery_vs_biopsy,Candidate pathway enrichment; exploratory
+Selenoamino acid metabolism,0.0015979,0.0335559,6,3,1.9151,surgery_vs_biopsy,Pathway enrichment passing pathway BH FDR
+Purine metabolism,0.0018034,0.036068,5,4,1.0943,surgery_vs_biopsy,Pathway enrichment passing pathway BH FDR
+Methionine and cysteine metabolism,0.0018929,0.036068,9,4,1.9151,surgery_vs_biopsy,Pathway enrichment passing pathway BH FDR
+Aspartate and asparagine metabolism,0.0021629,0.0389322,8,4,2.1887,surgery_vs_biopsy,Pathway enrichment passing pathway BH FDR
+Glycolysis and Gluconeogenesis,0.0025927,0.0440759,9,3,0.82075,surgery_vs_biopsy,Pathway enrichment passing pathway BH FDR
+3-Chloroacrylic acid degradation,0.0037202,0.0595232,2,2,0.27358,surgery_vs_biopsy,Candidate pathway enrichment; exploratory
+Vitamin A (retinol) metabolism,0.0037202,0.0595232,7,7,0.27358,surgery_vs_biopsy,Candidate pathway enrichment; exploratory
+Arginine and Proline Metabolism,0.0037588,0.0595232,5,2,1.0943,surgery_vs_biopsy,Candidate pathway enrichment; exploratory
+Urea cycle/amino group metabolism,0.0037588,0.0595232,4,2,1.0943,surgery_vs_biopsy,Candidate pathway enrichment; exploratory
+Alanine and Aspartate Metabolism,0.0075737,0.0908844,2,1,0.54717,surgery_vs_biopsy,Candidate pathway enrichment; exploratory
+Glutathione Metabolism,0.0075737,0.0908844,2,1,0.54717,surgery_vs_biopsy,Candidate pathway enrichment; exploratory
+Vitamin B1 (thiamin) metabolism,0.0075737,0.0908844,2,1,0.54717,surgery_vs_biopsy,Candidate pathway enrichment; exploratory
+Histidine metabolism,0.013543,0.121887,2,1,0.82075,surgery_vs_biopsy,Candidate pathway enrichment; exploratory
+Biopterin metabolism,0.021862,0.174896,3,1,1.0943,surgery_vs_biopsy,Candidate pathway enrichment; exploratory
+Hexose phosphorylation,0.021862,0.174896,6,1,1.0943,surgery_vs_biopsy,Candidate pathway enrichment; exploratory
+Pyrimidine metabolism,0.021862,0.174896,3,1,1.0943,surgery_vs_biopsy,Candidate pathway enrichment; exploratory
+Tryptophan metabolism,0.023245,0.174896,8,3,2.4623,surgery_vs_biopsy,Candidate pathway enrichment; exploratory
+Tyrosine metabolism,0.031127,0.174896,14,3,2.7358,surgery_vs_biopsy,Candidate pathway enrichment; exploratory
+Ubiquinone Biosynthesis,0.032544,0.174896,2,1,1.3679,surgery_vs_biopsy,Candidate pathway enrichment; exploratory
+"Glycine, serine, alanine and threonine metabolism",0.04542,0.174896,5,1,1.6415,surgery_vs_biopsy,Candidate pathway enrichment; exploratory
+Xenobiotics metabolism,0.11267,0.174896,11,1,2.7358,surgery_vs_biopsy,Candidate pathway enrichment; exploratory

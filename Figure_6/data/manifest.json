@@ -1,6 +1,121 @@
 {
   "files": [
     {
+      "path": "caf_selenocystathionine_patient_medians.csv",
+      "bytes": 673,
+      "sha256": "cd575b4640179a8ddc18de685aaddd4886758531f6d8d541c68022649a8502b1"
+    },
+    {
+      "path": "caf_selenocystathionine_patient_statistics.csv",
+      "bytes": 212,
+      "sha256": "7ace343ef2fd49c1144693fc131cf88df8d00e7d53bbba54ef95073273f39a0f"
+    },
+    {
+      "path": "carnitine_activity_umap.csv.gz",
+      "bytes": 2224243,
+      "sha256": "6df6b62424a9776366958b34f3804a5b20280b3179659342d393deb3398b4395"
+    },
+    {
+      "path": "carnitine_focused_family.csv",
+      "bytes": 2894,
+      "sha256": "d538aedd1789f17ac586013e84d5e9cc77b52a64a1492bd57161efd5311adcab"
+    },
+    {
+      "path": "carnitine_graph_subset.json",
+      "bytes": 16073,
+      "sha256": "8f88cc9aae7ecd8c634d3142d750f3975cf1fa87a07fd6b148ffb2afcac8ff15"
+    },
+    {
+      "path": "carnitine_p3_trajectory.csv",
+      "bytes": 234,
+      "sha256": "fdd202751c8b705b19b1f57a77f74fc9e27b614b7b9d8254de8fa209e91882a4"
+    },
+    {
+      "path": "carnitine_panel_summary.csv",
+      "bytes": 514,
+      "sha256": "e601343c823d883162c341d0b412423a4c168e1e0e5dde5a758eb295a620411b"
+    },
+    {
+      "path": "carnitine_patient_values.csv",
+      "bytes": 2280,
+      "sha256": "d92a67493f7a60d81f8b8724b2d36918aafdd00ced7fa6a8cb9043d0decbf904"
+    },
+    {
+      "path": "cohort_lcms_patient_changes.csv",
+      "bytes": 5561,
+      "sha256": "05e99f572072f56feec4267e6b8faf3d9662a63127194f0d41877c0a6826c462"
+    },
+    {
+      "path": "cohort_scknife_patient_changes.csv",
+      "bytes": 3834,
+      "sha256": "7b70659836c872c8738ce61f9b13b5a499e987548eb966ea6777f220efd8300b"
+    },
+    {
+      "path": "endothelial_pdgf_patient_alignment.csv",
+      "bytes": 2457,
+      "sha256": "17f752ffdd7ae01e3fc6975ab746112e5ee995cfdede3a0d0029d3c929867a9c"
+    },
+    {
+      "path": "fig6_gh_p3_recurrence.csv",
+      "bytes": 613,
+      "sha256": "6bb24f11319ab44a044e662a2fc18b1bb0ae66cc08a9cff16a1b04cb38bd620f"
+    },
+    {
+      "path": "fig6_main_patient_stats.csv",
+      "bytes": 1579,
+      "sha256": "382d3b0bce3cda566b7152434cabd55a2d750a6de37cd0bfa4ed01c3ffc4d60b"
+    },
+    {
+      "path": "fig6_main_patient_values.csv",
+      "bytes": 7181,
+      "sha256": "75fc20c77feda57f4a32f3c243ddc16134cb4add3f7a34be551bd9ea7630cf11"
+    },
+    {
+      "path": "lcms_node_pathway_membership.csv",
+      "bytes": 40668,
+      "sha256": "4d962bcbc51b588a0f3ff04d1b6ca66cdca1c0b2b475ac6cadc394881bbcdf7c"
+    },
+    {
+      "path": "lcms_node_pathway_screen.csv",
+      "bytes": 383767,
+      "sha256": "e2415071251ed4b572675c2a8940c3e1789de985389a42d310b59162835022c8"
+    },
+    {
+      "path": "lipid_change_12_patient_values.csv",
+      "bytes": 50778,
+      "sha256": "f552087f959247859d4d63d715690af65a34e8c49b21ef5e6d726fcd88109a6d"
+    },
+    {
+      "path": "lipid_change_12_summary.csv",
+      "bytes": 6329,
+      "sha256": "41a1fb63143644392f2495fca6d887d4a05cdd493c093a73c303e645968cb417"
+    },
+    {
+      "path": "lipid_pathway_patient_values.csv",
+      "bytes": 41490,
+      "sha256": "0c85d7fdc8049ff9f7fe4575b166b541ab9c13f038d19c53f24286bb9d62fbc4"
+    },
+    {
+      "path": "lipid_pathway_specificity.csv",
+      "bytes": 1829,
+      "sha256": "dfe238918130ca6b859cd81b655bb58454067e6e771d42a9bc754651b7250e7d"
+    },
+    {
+      "path": "lipid_pathway_summary.csv",
+      "bytes": 5162,
+      "sha256": "a8ddecaef1e73c20bc394ba67394db2f8b7ada60e91c80eb8d1f1c0ee4315d5a"
+    },
+    {
+      "path": "lipid_trajectory_patient_values.csv",
+      "bytes": 2107,
+      "sha256": "4fc040156aee7b558efbe29d4abd689a7f0701e662605fd63bef3388cb3085a9"
+    },
+    {
+      "path": "lipid_trajectory_summary.csv",
+      "bytes": 968,
+      "sha256": "1b3c70e11160fe351da6528f246e03e908ebde9dc225263710f95d9f85a27b53"
+    },
+    {
       "path": "meia_vs_scknife_entity_correlations.csv",
       "bytes": 53109,
       "sha256": "c0962da77d915be4846b1f453d9dfc85aa5ceb51df0a136b12dd3111af3b5f4f"
@@ -17,38 +132,118 @@
     },
     {
       "path": "meia_vs_scknife_pooled_provenance.json",
-      "bytes": 22535,
-      "sha256": "06aee60a86a6bc07dba3005db1d5dfe9861cf247ab4f2fe163d492ee710a12fd"
+      "bytes": 22015,
+      "sha256": "22755be45bb7cf5f7d072691ff78c65f24f22b06760439586cc22287f7604ce0"
+    },
+    {
+      "path": "p3_caf_major_minor_cell_values.csv.gz",
+      "bytes": 93444,
+      "sha256": "63ffe3b8579bda1ee6c338750e080314f647df501dc6c3404531e5f94dcebd97"
+    },
+    {
+      "path": "p3_caf_major_minor_trajectories.csv",
+      "bytes": 2698,
+      "sha256": "5f8eb1c3c41e393a418586e9736aa602eb5dad25890f17b6e825533d9a2cd433"
+    },
+    {
+      "path": "p3_lipid_cell_scores.csv.gz",
+      "bytes": 152027,
+      "sha256": "742ea9b4c5ce9af8b1b80fc638f2bd97555a50c0249f6c2b645fc40bfd7ae145"
+    },
+    {
+      "path": "patient_bridge_manifest.json",
+      "bytes": 887,
+      "sha256": "066b6838391f93d5a123641d8883528152f9b16dbda86dfbe202e844409534ab"
+    },
+    {
+      "path": "recurrence_panel_summary.csv",
+      "bytes": 1033,
+      "sha256": "45e2a5922dbcae2e53615a4918d34e01a8e8f4c1b05d36a8c4fb9fcdd9173a35"
+    },
+    {
+      "path": "recurrence_patient_values.csv",
+      "bytes": 2082,
+      "sha256": "2a491d2168a8e86cc2af99fda59ddaf05a58b7388872e345e142ad8075860b6b"
+    },
+    {
+      "path": "recurrence_task_pathway_screen.csv",
+      "bytes": 431617,
+      "sha256": "811a89efb794dfa31d0b933ef33a8082ae3ee9ca7fd3eb7082bdba9aa49f4fb2"
+    },
+    {
+      "path": "reviewed_cholesterol_patient_medians.csv",
+      "bytes": 3192,
+      "sha256": "ff41b7897bef8befa9e5e8e7d20d79c3bb8d21d03e3565a9e0b06ed8d9d3e652"
+    },
+    {
+      "path": "reviewed_cholesterol_patient_statistics.csv",
+      "bytes": 435,
+      "sha256": "e0975dcb59aeb173f6021d151a15e6b16cbff0578d882001c255c401d00362c2"
+    },
+    {
+      "path": "reviewed_minor_label_sensitivity.csv.gz",
+      "bytes": 39929,
+      "sha256": "9abd5e673b0cb68b17bfbf1240ccbc1270efa152ee0d3903632eecc7aeb74647"
+    },
+    {
+      "path": "reviewed_minor_label_sensitivity_summary.csv",
+      "bytes": 216,
+      "sha256": "d3e23fb2ea01b62bc1d37c936e69a8dbf3db2fb8aa1a82b02730bfbf96956b4c"
+    },
+    {
+      "path": "robust_metabolite_broad_entity_counts.csv",
+      "bytes": 1019,
+      "sha256": "96bd7f833c9e6bf1167c9ed924dd8c5892a076fdc69ae8afc5726627449553dc"
+    },
+    {
+      "path": "robust_metabolite_broad_entity_mapping.tsv",
+      "bytes": 34146,
+      "sha256": "89f4ade332557636b927cb612a484bb313396b338c777dd65c43ca7a256fc4bd"
+    },
+    {
+      "path": "robust_metabolite_exact_pathway_counts.csv",
+      "bytes": 2112,
+      "sha256": "ccb938861b107205fcd50b541e241c4e8c1788f6d241159163c0d1707fb705ab"
     },
     {
       "path": "robust_metabolite_pathway_assignments.csv",
-      "bytes": 19635,
-      "sha256": "7964c27b97bb9f6082d086fc88ba017b317593909b02f1f7d730ea0ef99fa778"
+      "bytes": 47274,
+      "sha256": "a18da94adbe8b54ef1fa5d7f7e11db04a304e3edbfbcb852b6a89d1bccdb3d5d"
     },
     {
-      "path": "robust_metabolite_pathway_context_counts.csv",
-      "bytes": 454,
-      "sha256": "00897df1f1beb8d23e053bdcff57830a9c0e09b4aaf6c7ebcc9c646beb98a503"
+      "path": "robust_metabolite_pathway_coverage.csv",
+      "bytes": 175,
+      "sha256": "aeadd2cc4efc903f5d2f8e65e129aeca3388cf33657f403ec38b1e76ecf073c2"
     },
     {
       "path": "robust_tier3_trajectory_selection.csv",
-      "bytes": 2100,
-      "sha256": "4da4e53d59fb52a484dac247228066011428187a8be7a1e15a68e7cc1a44a022"
+      "bytes": 2276,
+      "sha256": "921f41f475b9fbef549e493584fee3b661a66b84599247a0fb485f274347aa02"
     },
     {
       "path": "robust_tier3_trajectory_values.csv.gz",
-      "bytes": 65494,
-      "sha256": "d43a77767755d9c51740ec93d36d5ff261e75a3615f0057a4cc90d5ba762ec6b"
+      "bytes": 68905,
+      "sha256": "6aefd054a4635613205461f3ccb3d1510dd3b41ac9d194cff613f39e57dd83b6"
+    },
+    {
+      "path": "status_four_set_membership.csv",
+      "bytes": 2152,
+      "sha256": "d088aaa5f06973a1ab0b71fa6eb642ada9b25d86ee73433042578c983fd6e7ab"
+    },
+    {
+      "path": "status_pathway_enrichment.csv",
+      "bytes": 4403,
+      "sha256": "88c720064af1ff7131d9924dcecfdde02dbb598e82edc567813d718e53783e4b"
+    },
+    {
+      "path": "status_pathway_scatter.csv",
+      "bytes": 8543,
+      "sha256": "277eb118dc0c82451f9300974c77c63e0799e4441c18e548e72728246df3c543"
     },
     {
       "path": "sulfur_cohort_patient_values.csv",
-      "bytes": 48399,
-      "sha256": "27441367483911eab22e9c734982e93ca92f2d1d2a18f785add5087626161f37"
-    },
-    {
-      "path": "sulfur_cohort_treatment_statistics.csv",
-      "bytes": 11010,
-      "sha256": "a2add934868987ee277629460e5f8e5725ab40f09309f7a65ff5b29da2a84fac"
+      "bytes": 55070,
+      "sha256": "d0a9c3f2e91d69b3b0c6fd17ebff9be02d537373c98358e130acd481fd463bf7"
     },
     {
       "path": "sulfur_lcms_feature_evidence.csv",
@@ -57,8 +252,8 @@
     },
     {
       "path": "sulfur_lcms_feature_values.csv",
-      "bytes": 1109,
-      "sha256": "38048d62b1f7ce4a7c5635e4120026c299d238480d044068224f9e4c7eaef887"
+      "bytes": 1015,
+      "sha256": "a8e00f74c5d5888a79a419258c3bf01c07e960074312ea32db99a95010326917"
     },
     {
       "path": "sulfur_ng8_anchors.csv",
@@ -76,39 +271,102 @@
       "sha256": "9f14c6a1df9ad75e9580fa5fd8ce00148c2baf67e8bb4c7c6de85f83109385fa"
     },
     {
-      "path": "sulfur_p3_task_statistics.csv",
-      "bytes": 22873,
-      "sha256": "713aab13615943b76fc13dbd22e8d8613b9c78209ab01400b44281a6007fc375"
-    },
-    {
       "path": "surgery_pathway_enrichment.csv",
-      "bytes": 2746,
-      "sha256": "25a80d83f0471f5345d8d8a6bcbea1c91a7ef9dc3b9532f4ef312cbc1e80b173"
+      "bytes": 2613,
+      "sha256": "e70b3be89081d12b36dd49a7245ac3b7811cade2591a3dca64dc0e7533e56786"
     },
     {
       "path": "surgery_pathway_scatter.csv",
-      "bytes": 5363,
-      "sha256": "eda0eabd01520a9249f3077b42cbd4a3767e1bc3ca9dbfd84f9e2cccabcf2306"
-    },
-    {
-      "path": "tier3_two_node_p3_cells.csv.gz",
-      "bytes": 69085,
-      "sha256": "376b7b5e43392e67d1a559f1ad9d4a8ac19cccbcf3990da9fe5cae5167d7b30f"
-    },
-    {
-      "path": "tier3_two_node_patient_values.csv",
-      "bytes": 3395,
-      "sha256": "b16d6f7d1ddb6965e56c84e7513f0c1f56e6380fb990ed49a3769fd6f837b34d"
-    },
-    {
-      "path": "tier3_two_node_statistics.csv",
-      "bytes": 940,
-      "sha256": "391b6f1ea91d16b837f6d599e43c47c7c63887bb792f2da0f89839706a0a525c"
+      "bytes": 5215,
+      "sha256": "57fbebf841145e687c2f1ba102cfcbdf47897d2cc625ae4b17a0db6c30ddc6bb"
     },
     {
       "path": "treatment_four_set_membership.csv",
-      "bytes": 1312,
-      "sha256": "9d43c41386496656fb34dba97de9cd5c6f777bb9c8dc57b4cf7997011b470bde"
+      "bytes": 1265,
+      "sha256": "55b441188aa56b3776bd7a648eecbd717616c5410d2e49c939e505dc3531697e"
+    },
+    {
+      "path": "two_angle_feature_changes.csv",
+      "bytes": 1362,
+      "sha256": "380e1878dc2c3b3978e15c003400b23f45891893b5227cfe30c53ef689e26e08"
+    },
+    {
+      "path": "two_angle_feature_summary.csv",
+      "bytes": 858,
+      "sha256": "f158f05ca1fa39eb803e3893a525950c2f4cd8a88845b82e111432702ba58d8f"
+    },
+    {
+      "path": "two_angle_feature_values.csv",
+      "bytes": 1847,
+      "sha256": "a8e35cdd7de909f94ef96b7a85e9c05322ae78f0596423d8e3473f9741ccb4cc"
+    },
+    {
+      "path": "two_angle_manifest.json",
+      "bytes": 1585,
+      "sha256": "57d9bb04b8d71012cc6b69a4d0be4bf3036a68a0bc0e8c964614d65bf4574556"
+    },
+    {
+      "path": "two_angle_p3_medians.csv",
+      "bytes": 799,
+      "sha256": "f16ef9014cf8474d12afb1fca3792bebfcd6109b7f88a53671ee24e2cad7bf0d"
+    },
+    {
+      "path": "two_angle_scknife_family_map.csv",
+      "bytes": 1368,
+      "sha256": "84cb4b73ae32bdf35a6b2a7d6cefc69f9fda6958931eb2ac5a132bbdc6344356"
+    },
+    {
+      "path": "two_angle_scknife_pairs.csv",
+      "bytes": 27174,
+      "sha256": "e17d2ef5235daf0b03b8f3e461f5c2bb8b390b72541c92624df5eeb9bd927379"
+    },
+    {
+      "path": "two_angle_scknife_patient_values.csv",
+      "bytes": 173018,
+      "sha256": "7dd5117e3ae5b561653db0bce0fa8b83986de282da05d8f8468bc823e4abd0ff"
+    },
+    {
+      "path": "two_angle_sensitivity.csv",
+      "bytes": 635,
+      "sha256": "848d90627a20db0bad3833e7580e2deddffe659af0a2b06d92990fb46a47eda0"
+    },
+    {
+      "path": "two_angle_status_pathways.csv",
+      "bytes": 2887,
+      "sha256": "ea16e71c819381a6dc79f1401e7538d74776d21a5381d1ab41c806ba772f5e4e"
+    },
+    {
+      "path": "two_angle_treatment_pathways.csv",
+      "bytes": 3368,
+      "sha256": "3b197b731d8fd737b6bcc5f4186d9ebc143e05cf627e5790c1d653de7f75e18a"
+    },
+    {
+      "path": "wu_eight_group_sensitivity_screen.csv",
+      "bytes": 564733,
+      "sha256": "27b0fbcfa3424a83c2b7b3c38fe45ca31883e50ad4ac7b2b8e21d07d4bafa3a8"
     }
-  ]
+  ],
+  "cell_annotation": {
+    "name": "Figure 4 Wu SingleR major",
+    "source": "May_2026_clean_version_redo/inhouse_rerun/scknife_run/figures/celltype/singleR/data/all_cell_predictions.csv.gz",
+    "sha256": "ef93e88ff7b9a18bd73556460623b65c5a3f10c40056ec32aecef48e3d16d0be",
+    "primary_groups": [
+      "CAF",
+      "Endothelial",
+      "Epithelial",
+      "Myeloid",
+      "PVL",
+      "T cells"
+    ],
+    "sensitivity_groups": [
+      "CAF",
+      "Endothelial",
+      "Epithelial",
+      "Myeloid",
+      "PVL",
+      "T cells",
+      "B cells",
+      "Plasmablasts"
+    ]
+  }
 }

@@ -1,28 +1,28 @@
 {
   "package": "Figure 5 plot-ready data",
   "format_version": 2,
-  "created_utc": "2026-08-17T05:46:23.048948+00:00",
-  "source_description": "Canonical corrected 43,574-cell epithelial scKNIFE W/H run",
+  "created_utc": "2026-10-16T11:50:45.487167+00:00",
+  "source_description": "Audited SingleR/Hallmark epithelial scKNIFE W/H rerun",
   "sources": [
     {
-      "source": "PRIVATE_ARCHIVE_ROOT/source_snapshot/inhouse_rerun/scknife_run/epithelial_only/scknife_final_rerun/data/pipeline/inhouse_epithelial_W_graph.parquet",
+      "source": "PRIVATE_SOURCE_ROOT/May_2026_clean_version_redo/inhouse_rerun/scknife_run/epithelial_only/scknife_final_rerun/w_H_organised_analysis/compiled_W_analysis/data/input/inhouse_epithelial_W_graph.parquet",
       "packaged_as": "inhouse_epithelial_W_graph.parquet",
-      "source_sha256": "0c445af19cef300af996c5786760b9e0fb19990d1d06e9a2e9dcf653fbd657ca"
+      "source_sha256": "315571220a7f86f87cc3e5830a83f31b01be4ffe6eb843c10b4a89fda3b1c8a5"
     },
     {
-      "source": "PRIVATE_ARCHIVE_ROOT/source_snapshot/inhouse_rerun/scknife_run/epithelial_only/scknife_final_rerun/data/pipeline/node_metadata.csv",
+      "source": "PRIVATE_SOURCE_ROOT/May_2026_clean_version_redo/inhouse_rerun/scknife_run/epithelial_only/scknife_final_rerun/w_H_organised_analysis/compiled_W_analysis/data/input/node_metadata.csv",
       "packaged_as": "node_metadata.csv",
       "source_sha256": "42dc12f7bee1a3ca59d04c75ba42bc38485ac8a616452a7abcfa1ecf2550d9fe"
     },
     {
-      "source": "PRIVATE_ARCHIVE_ROOT/source_snapshot/inhouse_rerun/scknife_run/epithelial_only/scknife_final_rerun/data/clustering/epithelial_H_cell_metadata.parquet",
+      "source": "PRIVATE_SOURCE_ROOT/May_2026_clean_version_redo/inhouse_rerun/scknife_run/epithelial_only/scknife_final_rerun/w_H_organised_analysis/compiled_W_analysis/data/input/epithelial_H_cell_metadata.parquet",
       "packaged_as": "epithelial_H_cell_metadata.parquet",
-      "source_sha256": "e30173085ede44c48239a58094a54574328cb100c62641a24271df0a45e14d36"
+      "source_sha256": "db5d83733552b9ef6fcb10a4a57643878a14896f690411c8c36e90d7d5d5d647"
     },
     {
-      "source": "PRIVATE_ARCHIVE_ROOT/source_snapshot/main_figure/data/fig5_data/README.md",
-      "packaged_as": "upstream_provenance.md",
-      "source_sha256": "46f7960b6c520e014761c2c8afa49382f95d866f8c6f9429355b3744018131d2"
+      "source": "PRIVATE_SOURCE_ROOT/May_2026_clean_version_redo/inhouse_rerun/scknife_run/epithelial_only/scknife_final_rerun/w_H_organised_analysis/compiled_W_analysis/data/input/bridge_manifest.json",
+      "packaged_as": "bridge_manifest.json",
+      "source_sha256": "44337549b0877b1996859857de9a4951b74fa1507bdde3010f74cc6de6e0308d"
     }
   ],
   "panels": {
@@ -45,20 +45,23 @@
       "kind": "data",
       "inputs": [
         {
-          "path": "epithelial_H_cell_metadata.parquet"
-        },
-        {
           "path": "inhouse_epithelial_W_graph.parquet"
         },
         {
           "path": "node_metadata.csv"
+        },
+        {
+          "path": "epithelial_H_cell_metadata.parquet"
+        },
+        {
+          "path": "bridge_manifest.json"
         }
       ],
       "extractor": "extractor_scripts/extract_figure_5_data.py",
       "extraction_mode": "canonical_result_copy"
     },
     "C": {
-      "title": "K=8 W-node definitions ordered by program cluster after cell-type graph-node exclusion",
+      "title": "K=9 W-node definitions ordered by program cluster after cell-type and cell-state graph-node exclusion",
       "kind": "data",
       "inputs": [
         {
@@ -83,13 +86,16 @@
         },
         {
           "path": "epithelial_H_cell_metadata.parquet"
+        },
+        {
+          "path": "bridge_manifest.json"
         }
       ],
       "extractor": "extractor_scripts/extract_figure_5_data.py",
       "extraction_mode": "canonical_result_copy"
     },
     "E": {
-      "title": "W-program to shared W/H factor-group to epithelial-cell-type association network",
+      "title": "NG to CC to epithelial-state associations extended to observed P1-P7 cell counts",
       "kind": "data",
       "inputs": [
         {
@@ -100,13 +106,16 @@
         },
         {
           "path": "epithelial_H_cell_metadata.parquet"
+        },
+        {
+          "path": "bridge_manifest.json"
         }
       ],
       "extractor": "extractor_scripts/extract_figure_5_data.py",
       "extraction_mode": "canonical_result_copy"
     },
     "F": {
-      "title": "Reconstructed K=8 program activity by epithelial cell type",
+      "title": "Reconstructed K=9 program activity by epithelial cell type",
       "kind": "data",
       "inputs": [
         {
@@ -117,6 +126,9 @@
         },
         {
           "path": "epithelial_H_cell_metadata.parquet"
+        },
+        {
+          "path": "bridge_manifest.json"
         }
       ],
       "extractor": "extractor_scripts/extract_figure_5_data.py",
@@ -134,13 +146,16 @@
         },
         {
           "path": "epithelial_H_cell_metadata.parquet"
+        },
+        {
+          "path": "bridge_manifest.json"
         }
       ],
       "extractor": "extractor_scripts/extract_figure_5_data.py",
       "extraction_mode": "canonical_result_copy"
     },
     "H": {
-      "title": "Literature-prioritized reconstructed graph-node scores across epithelial cell types",
+      "title": "P4 and P1 matched-cell NG1/NG8 inferred node activities",
       "kind": "data",
       "inputs": [
         {
@@ -151,23 +166,42 @@
         },
         {
           "path": "epithelial_H_cell_metadata.parquet"
+        },
+        {
+          "path": "bridge_manifest.json"
         }
       ],
       "extractor": "extractor_scripts/extract_figure_5_data.py",
       "extraction_mode": "canonical_result_copy"
+    },
+    "I": {
+      "title": "NG7 biosynthesis specimen trajectory map",
+      "kind": "data",
+      "inputs": [
+        {
+          "path": "inhouse_epithelial_W_graph.parquet"
+        },
+        {
+          "path": "epithelial_H_cell_metadata.parquet"
+        },
+        {
+          "path": "epithelial_rna_depth.csv"
+        },
+        {
+          "path": "epithelial_rna_depth_provenance.json"
+        }
+      ],
+      "extractor": "extractor_scripts/figure5_ng7_trajectory.py",
+      "extraction_mode": "all_cell_node_reconstruction_and_specimen_means"
     }
   },
-  "auxiliary_inputs": [
-    {
-      "path": "upstream_provenance.md",
-      "purpose": "retained upstream provenance notes"
-    }
-  ],
+  "auxiliary_inputs": [],
   "lineage_summary": {
     "panel_count": 8,
     "data_panel_count": 8,
     "schematic_panel_count": 0,
     "referenced_files": [
+      "bridge_manifest.json",
       "epithelial_H_cell_metadata.parquet",
       "inhouse_epithelial_W_graph.parquet",
       "node_metadata.csv"
@@ -177,122 +211,225 @@
     "README.md"
   ],
   "checks": {
-    "W_shape_39247x50": true,
+    "major_epithelial_only": true,
+    "minor_counts": true,
+    "cluster_counts": true,
+    "cluster_resolution": true,
+    "cell_order": true,
+    "input_hashes": true,
+    "W_shape_current_fit": true,
     "W_unique_nodes": true,
     "W_finite": true,
     "node_metadata_aligned": true,
-    "H_shape_43574x50": true,
+    "H_shape_current_fit": true,
     "H_finite": true,
     "cell_join_key_unique": true,
-    "five_retained_epithelial_identities": true,
+    "nine_provisional_epithelial_states": true,
+    "current_annotation_matches": true,
+    "inherited_clusters": true,
     "panel_lineage_valid": true
   },
   "python": "3.9.21",
   "files": [
     {
+      "name": "P3_rna_depth.csv",
+      "bytes": 206997,
+      "sha256": "8edfa953d35db9330309691eb152fe72b7ee4308fc59b3ab00ce24badd5ecb7d"
+    },
+    {
       "name": "README.md",
-      "bytes": 2092,
-      "sha256": "05577797cac1b79449ace71c9987a40ae2a5093e64e98f1920732cd840624adb"
+      "bytes": 1904,
+      "sha256": "a17a38b9dc690596cfa4277b4a7d64da857cd4be97a6a9706e5db7e9d84b0402"
     },
     {
-      "name": "derived/Figure_5_CC_provenance_classification.csv",
-      "bytes": 483,
-      "sha256": "243b1493ee0aa239efddc32654c10a43e9aba38b59a6f4a50172803f9278ad1e"
+      "name": "bridge_manifest.json",
+      "bytes": 1998,
+      "sha256": "44337549b0877b1996859857de9a4951b74fa1507bdde3010f74cc6de6e0308d"
     },
     {
-      "name": "derived/Figure_5_CF30117_main_node_violin_summary.csv",
-      "bytes": 1492,
-      "sha256": "03f7f3a45fbfa40f2c3f55abda302968120782aab1d7908cf30dc9ea011da11d"
+      "name": "derived/Figure_5_NG1_NG8_selected_node_changes.csv",
+      "bytes": 8500,
+      "sha256": "0a5bcb49809754ab89125cbede244a10a117eff2560e3cf570404b767985aed9"
     },
     {
-      "name": "derived/Figure_5_I_factor12_estimation_statistics.csv",
-      "bytes": 805,
-      "sha256": "e7d940080ffc2d757a17d957e338f29b84c2409057e4671ee36b7617d0716ed3"
+      "name": "derived/Figure_5_NG7_trajectory_audit.json",
+      "bytes": 842,
+      "sha256": "30f22e516d78b7e3cefc9d131acd9370e98e623ec5b8cfc23335aaae9e074f19"
     },
     {
-      "name": "derived/Figure_5_I_factor12_specimen_means.csv",
-      "bytes": 268,
-      "sha256": "450d5ac86492d5cd1fbf8fac90c565b340dd61b99fd16b3eada511e9af3b8a65"
+      "name": "derived/Figure_5_NG7_trajectory_cell_scores.csv",
+      "bytes": 4937687,
+      "sha256": "e02471f4816f63584c88644f63eab8e568919b7a2775f7e4287f24cade5a48fc"
+    },
+    {
+      "name": "derived/Figure_5_NG7_trajectory_sensitivity.csv",
+      "bytes": 1546,
+      "sha256": "02cc07cb0258a6578f7fff772246f62730fe72d4de4a382680495f6d40ded243"
+    },
+    {
+      "name": "derived/Figure_5_NG7_trajectory_specimens.csv",
+      "bytes": 1270,
+      "sha256": "761afc9698e52ec0edc5bb11e90b260aee2ec516176d292ecc082bbf8ad318ef"
     },
     {
       "name": "derived/Figure_5_NG_CC_celltype_patient_edges.csv",
-      "bytes": 11429,
-      "sha256": "beb4949d78d5fccee492e8b82b93364e70fe3a029d5fb0717c0f18151bb9bf25"
+      "bytes": 20468,
+      "sha256": "c8002a1267d65571f7630b534971649357558cf79214edc6a268324debaa0469"
+    },
+    {
+      "name": "derived/Figure_5_P1_P4_all_cell_sensitivity.csv",
+      "bytes": 3427,
+      "sha256": "8af7d34c697a3e68ecfe864d431c2b1c3cfb92a04f8fe43d7b9e851ea258b330"
+    },
+    {
+      "name": "derived/Figure_5_P1_P4_matched_node_activity.csv",
+      "bytes": 867340,
+      "sha256": "49049c9a9442fa8fd2219d9ebe837f30a8cd5f2329eaaa9435710362f23bdf9e"
+    },
+    {
+      "name": "derived/Figure_5_P1_P4_matched_violin_summary.csv",
+      "bytes": 1325,
+      "sha256": "2715ad61175a4ff8276d4125986cc300b94f4d6a8397229888395fcf3fb2424b"
+    },
+    {
+      "name": "derived/Figure_5_P1_P4_matching_audit.json",
+      "bytes": 706,
+      "sha256": "174f27ac4d84eda92c576db1b2631741a0248ea3d5c480b0c5bb6d8e7463744e"
+    },
+    {
+      "name": "derived/Figure_5_P1_P4_matching_groups.csv",
+      "bytes": 949,
+      "sha256": "149218f30a63c045e79f9da4efc9bf3700d8f485fc38ba028fe898c355506c31"
+    },
+    {
+      "name": "derived/Figure_5_P2_supplementary_node_cell_activity.csv",
+      "bytes": 221061,
+      "sha256": "2fe5ade1d8575508629db88a3bb28a1de2b34aa9afd4f38bc17624d1098bb66d"
+    },
+    {
+      "name": "derived/Figure_5_P2_supplementary_node_violin_summary.csv",
+      "bytes": 1048,
+      "sha256": "b4075c390ac2f5067bafdfd003d5b66732113a8ca69ed831cc2ba5cc79211a99"
+    },
+    {
+      "name": "derived/Figure_5_P3_MYC_depth_match_sensitivity.csv",
+      "bytes": 4781,
+      "sha256": "af4e4313146f0c3f9f4bf3659c057b2760947f738aa00858cd523eb7616dfe81"
+    },
+    {
+      "name": "derived/Figure_5_P3_MYC_matched_cell_activity.csv",
+      "bytes": 44095,
+      "sha256": "95f34ca80dba37789f4f3e8b1cb65ba66d9d1ab0e16e1614dabf6b22f2f8f16d"
+    },
+    {
+      "name": "derived/Figure_5_P3_MYC_sensitivity_audit.json",
+      "bytes": 669,
+      "sha256": "4058c25a6fcaaeb2242839e8bad66569f67bcfb36e1e4e32f955827986e353d0"
+    },
+    {
+      "name": "derived/Figure_5_P3_MYC_violin_summary.csv",
+      "bytes": 412,
+      "sha256": "69cbaba2dd389a52b267f96581aea5adc538f634b632592b8626c6c382123f88"
+    },
+    {
+      "name": "derived/Figure_5_S5B_NG7_task_patient_celltype_summary.csv",
+      "bytes": 33149,
+      "sha256": "95962036c0c236408d30ab29a97d9c168f761cdffd2b2e3a23229ca6327ad676"
     },
     {
       "name": "derived/Figure_5_W_program_dictionary_nodes.csv",
-      "bytes": 28699,
-      "sha256": "f11c27f387948fe7d47ef0d4d73dec00d34271a0004be1eeea87572cb909be24"
+      "bytes": 26173,
+      "sha256": "7a383cb22d4f0014502860337648dc17fb7e22ad086a29b2f7512f580fe0b960"
     },
     {
       "name": "derived/Figure_5_W_program_dictionary_visible_nodes.csv",
-      "bytes": 6858,
-      "sha256": "6a778bb2f05c4b6bbe3c47ba273a0f9546ffc4cbbdeebb9cafa4c07c42b63f92"
+      "bytes": 6265,
+      "sha256": "e8112c12e2f1349e6bc761a6bb9a80d2df0b0644285b295846f3d444bf3258bd"
     },
     {
       "name": "derived/Figure_5_W_program_review_manifest.json",
-      "bytes": 2560,
-      "sha256": "5b432a0da33dbe85316c2c78a4513cf7da96b68df49d78172cc4b67d72fd0e69"
+      "bytes": 2279,
+      "sha256": "199b782924a26f76970fcc0143da6d0567a70d45d7394280323e5efca1b6a9cd"
     },
     {
       "name": "derived/Figure_5_cell_vs_equal_patient_sensitivity.csv",
-      "bytes": 928,
-      "sha256": "3172dbefa3d11847863dae5934fd0e4d82e0be657c4bbc855498902700095bd6"
+      "bytes": 1804,
+      "sha256": "5c3c5cc7c1e34ea46daf9ffb64b90258acbd92b6b4904c37f06eb21095fe442e"
+    },
+    {
+      "name": "derived/Figure_5_celltype_key.csv",
+      "bytes": 4772,
+      "sha256": "c7cf926151166632b14e8ae31a455e907e019961771cfcf9272e5feb4278dcf1"
     },
     {
       "name": "derived/Figure_5_component_assignments.csv",
-      "bytes": 985,
-      "sha256": "5d8127848e366e2d5ad084943c1c3c3821deaec86ad82d343bd24fcfd14176bb"
+      "bytes": 1013,
+      "sha256": "13398f9a6fcfd7b78ecee90fa06529d048f9326fb7ee7a807fa1522affba4728"
     },
     {
       "name": "derived/Figure_5_consensus_metrics.csv",
-      "bytes": 904,
-      "sha256": "2b281f37556c7ec4105972878933c63a76a464d58e51999d25d86608ef45f95c"
+      "bytes": 926,
+      "sha256": "6e2de468958c6a51ff43f4beb13bfa11272831cdd387c7618f0a22de410f34c2"
+    },
+    {
+      "name": "derived/Figure_5_current_run_audit.json",
+      "bytes": 2850,
+      "sha256": "ec8c8caeabd78d82b6511a196d1ba11cef0bb5d88919cade7b9daf4d32be492d"
     },
     {
       "name": "derived/Figure_5_equal_patient_NG_activity_z.csv",
-      "bytes": 924,
-      "sha256": "f36e034734e874c2fc65b673b8298f0f43ffd0995685b681868617847a556735"
+      "bytes": 1805,
+      "sha256": "c54fa0eb6c3507863a4a722755028fa241563081537576c5d8b545abc420cae5"
     },
     {
       "name": "derived/Figure_5_patient_H_program_means_and_z.csv",
-      "bytes": 2386,
-      "sha256": "4ef5344ffd279e6531fb03628831e70f44739888c606d64819918603570b9999"
+      "bytes": 2692,
+      "sha256": "0bb478e7366fb6b9e8dc7488d879f0a5bbe7e8d2512b20f88b993adfec82fda5"
     },
     {
       "name": "derived/Figure_5_patient_celltype_census.csv",
-      "bytes": 242,
-      "sha256": "77f6b7f80d69da84ab9ace91a4d43b587f8a60559991b75ce091763af485104c"
+      "bytes": 511,
+      "sha256": "168fa82268da0fd3f1c43672cd54c1547937c68d900ef9dd0e0d7e1c79590399"
     },
     {
       "name": "derived/Figure_5_representative_non_gene_nodes.csv",
-      "bytes": 1746,
-      "sha256": "8293ec2ffa9d50800a024f6cbdf98b2f4643ec7bece114ad83ed00091e5e9038"
+      "bytes": 1971,
+      "sha256": "93334bd2724e241b90502b1dbcbdb623ca0c8b16b9f8f13f33e2d4d19dfc4664"
     },
     {
       "name": "derived/Figure_5_run_manifest.json",
-      "bytes": 3579,
-      "sha256": "042af118d251fd10354c375788324f200d1c180724391e3acad64fce8232df8b"
+      "bytes": 3085,
+      "sha256": "92a597acfd8ae96186ae064fc1e3d74503133016de49ce213fe3576a13805340"
     },
     {
       "name": "derived/Figure_5_top10_literature_rationale.csv",
-      "bytes": 1746,
-      "sha256": "8293ec2ffa9d50800a024f6cbdf98b2f4643ec7bece114ad83ed00091e5e9038"
+      "bytes": 1971,
+      "sha256": "93334bd2724e241b90502b1dbcbdb623ca0c8b16b9f8f13f33e2d4d19dfc4664"
     },
     {
       "name": "derived/Figure_5_top10_reconstructed_score_correlations.csv",
-      "bytes": 889,
-      "sha256": "7c7cc25d45d49d524f27eceedf79824765d9e97ea1b34674788baa10e6144e46"
+      "bytes": 861,
+      "sha256": "1b081dfbb920cc34aa2626fa017fc8d063a69e7f4cf5851b3f696dbf9b1fd04d"
     },
     {
       "name": "epithelial_H_cell_metadata.parquet",
-      "bytes": 24503902,
-      "sha256": "8fafc902dd80d7d73b584573fb7856d958a2ad611e8981efd86bb958391d6b46"
+      "bytes": 19898673,
+      "sha256": "db5d83733552b9ef6fcb10a4a57643878a14896f690411c8c36e90d7d5d5d647"
+    },
+    {
+      "name": "epithelial_rna_depth.csv",
+      "bytes": 1809173,
+      "sha256": "9eb51c01d0ea0fdf9676e6c82b521b3152efce84e689724951aa094bb6ba495a"
+    },
+    {
+      "name": "epithelial_rna_depth_provenance.json",
+      "bytes": 361,
+      "sha256": "b9aeb0584290df3a843ff6f2a7408585eedc2f170755580c5981b1b2d01911f0"
     },
     {
       "name": "inhouse_epithelial_W_graph.parquet",
-      "bytes": 16933895,
-      "sha256": "0c445af19cef300af996c5786760b9e0fb19990d1d06e9a2e9dcf653fbd657ca"
+      "bytes": 16951624,
+      "sha256": "315571220a7f86f87cc3e5830a83f31b01be4ffe6eb843c10b4a89fda3b1c8a5"
     },
     {
       "name": "node_metadata.csv",
@@ -300,9 +437,14 @@
       "sha256": "42dc12f7bee1a3ca59d04c75ba42bc38485ac8a616452a7abcfa1ecf2550d9fe"
     },
     {
+      "name": "patient_id_mapping.csv",
+      "bytes": 111,
+      "sha256": "d83cb550451db61010d5393722db8a27202a5f52267c894f19ed79a77a8ba92b"
+    },
+    {
       "name": "upstream_provenance.md",
-      "bytes": 118,
-      "sha256": "46f7960b6c520e014761c2c8afa49382f95d866f8c6f9429355b3744018131d2"
+      "bytes": 1992,
+      "sha256": "f57464fe8f3377bb463b277a80050bcf849af490b207f9b11efaf4c3c7d25dee"
     }
   ]
 }

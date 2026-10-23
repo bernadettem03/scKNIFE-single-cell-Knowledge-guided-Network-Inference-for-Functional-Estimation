@@ -1,0 +1,7 @@
+section,label,count
+mapping,Informative Human-GEM pathway,107
+mapping,Generic groups only,50
+celltype,T cells,84
+celltype,Epithelial,40
+celltype,CAF,28
+celltype,Endothelial,6

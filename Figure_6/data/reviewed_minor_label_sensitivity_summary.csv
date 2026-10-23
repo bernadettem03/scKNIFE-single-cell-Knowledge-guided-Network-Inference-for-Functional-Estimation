@@ -1,0 +1,5 @@
+celltype_major,celltype_minor,tested_candidates,tier1,tier2,tier3
+CAF,CAFs — myCAF-like s5,157,97,3,3
+Endothelial,Endothelial,157,24,6,6
+Epithelial,Luminal Progenitors,157,21,16,0
+PVL,PVL — Immature s2,157,0,0,0

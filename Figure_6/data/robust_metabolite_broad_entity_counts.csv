@@ -1,0 +1,15 @@
+display_order,primary_broader_entity,unique_metabolites,T cells,Epithelial,CAF,Endothelial,rank_by_abundance,shown_in_panel
+0,Glycerophospholipids and lysophospholipids,27,0,27,0,0,1,True
+12,"Xenobiotics, pharmaceuticals and environmental chemicals",25,25,0,0,0,2,True
+1,Fatty acids and beta-oxidation intermediates,19,15,0,0,4,3,True
+3,"Glycosaminoglycans, glycosphingolipids and glycans",16,7,0,9,0,4,True
+8,"Vitamins, cofactors, retinoids and isoprenoids",15,12,1,2,0,5,True
+4,Aromatic amino acids and biogenic amines,11,6,0,5,0,6,True
+6,"Nucleotides, nucleic acids and RNA modification",11,3,7,2,0,7,True
+10,"Peptides, proteins and post-translational intermediates",8,4,0,4,0,8,False
+2,Sterols and cholesterol esters,6,6,0,0,0,9,False
+5,"Other amino acids, sulfur and one-carbon metabolism",6,2,0,3,1,10,True
+7,Carbohydrates and central carbon metabolites,6,2,1,3,0,11,False
+9,Polyamines,4,0,4,0,0,12,False
+11,Porphyrins and tetrapyrroles,2,2,0,0,0,13,False
+13,Other or ambiguous small molecules,1,0,0,0,1,14,False

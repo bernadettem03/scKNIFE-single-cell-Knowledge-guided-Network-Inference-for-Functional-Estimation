@@ -1,0 +1,663 @@
+{
+  "source_graph": "Sept_submission_git_sync/scKNIFE/graphs/version_2/unified_graph.graphml",
+  "source_graph_sha256": "1ea43d7cffe51ef700f1d02d53c1ed9f30b9faa3b39b35027462b170099b0a80",
+  "source_graph_nodes": 39247,
+  "source_graph_edges": 336225,
+  "center": "L_carnitine",
+  "pathway": "Carnitine_shuttle_peroxisomal",
+  "neighbor_pathways": [
+    "Carnitine_shuttle_cytosolic",
+    "Carnitine_shuttle_endoplasmic_reticular",
+    "Carnitine_shuttle_mitochondrial"
+  ],
+  "reactions": [
+    "Acetyl_CoA_carnitine_O_acetyltransferase",
+    "MAR03027",
+    "MAR03029",
+    "MAR03033",
+    "MAR03035",
+    "MAR03037",
+    "Octanoyl_CoA_L_carnitine_O_octanoyltransferase",
+    "palmitoyl_CoA_L_carnitine_O_palmitoyltransferase"
+  ],
+  "genes": [
+    "CPT1A",
+    "CPT1B",
+    "CPT1C",
+    "CPT2",
+    "CRAT",
+    "CROT",
+    "SLC25A20",
+    "SLC25A29"
+  ],
+  "key_metabolites": [
+    "L_carnitine",
+    "L_octanoylcarnitine",
+    "octanoyl_CoA",
+    "CoA"
+  ],
+  "selection_rule": "Start at L_carnitine; keep its direct reaction neighbors belonging to the peroxisomal shuttle, their adjacent pathways and genes, and L_octanoylcarnitine, octanoyl_CoA, and CoA; retain all edges among selected nodes.",
+  "nodes": [
+    {
+      "id": "Acetyl_CoA_carnitine_O_acetyltransferase",
+      "kind": "reaction",
+      "original_id": "MAR02780",
+      "name": "Acetyl-CoA:carnitine O-acetyltransferase",
+      "reversible": "true",
+      "source": "Human_GEM"
+    },
+    {
+      "id": "CPT1A",
+      "bipartite": "gene",
+      "kind": "gene"
+    },
+    {
+      "id": "CPT1B",
+      "bipartite": "gene",
+      "kind": "gene"
+    },
+    {
+      "id": "CPT1C",
+      "bipartite": "gene",
+      "kind": "gene"
+    },
+    {
+      "id": "CPT2",
+      "bipartite": "gene",
+      "kind": "gene"
+    },
+    {
+      "id": "CRAT",
+      "bipartite": "gene",
+      "kind": "gene"
+    },
+    {
+      "id": "CROT",
+      "bipartite": "gene",
+      "kind": "gene"
+    },
+    {
+      "id": "Carnitine_shuttle_cytosolic",
+      "kind": "pathway",
+      "original_id": "group34",
+      "name": "Carnitine shuttle (cytosolic)",
+      "source": "Human_GEM"
+    },
+    {
+      "id": "Carnitine_shuttle_endoplasmic_reticular",
+      "kind": "pathway",
+      "original_id": "group35",
+      "name": "Carnitine shuttle (endoplasmic reticular)",
+      "source": "Human_GEM"
+    },
+    {
+      "id": "Carnitine_shuttle_mitochondrial",
+      "kind": "pathway",
+      "original_id": "group36",
+      "name": "Carnitine shuttle (mitochondrial)",
+      "source": "Human_GEM"
+    },
+    {
+      "id": "Carnitine_shuttle_peroxisomal",
+      "kind": "pathway",
+      "original_id": "group37",
+      "name": "Carnitine shuttle (peroxisomal)",
+      "source": "Human_GEM"
+    },
+    {
+      "id": "CoA",
+      "kind": "metabolite",
+      "original_id": "MAM01597c",
+      "name": "CoA",
+      "source": "Human_GEM",
+      "compartments": "['cytosol', 'endoplasmic_reticulum', 'extracellular', 'golgi', 'lysosome', 'mitochondria', 'nucleus', 'peroxisome']"
+    },
+    {
+      "id": "L_carnitine",
+      "kind": "metabolite",
+      "original_id": "MAM02348c",
+      "name": "L-carnitine",
+      "source": "Human_GEM",
+      "compartments": "['cytosol', 'endoplasmic_reticulum', 'extracellular', 'mitochondria', 'peroxisome']"
+    },
+    {
+      "id": "L_octanoylcarnitine",
+      "kind": "metabolite",
+      "original_id": "MAM02409c",
+      "name": "L-octanoylcarnitine",
+      "source": "Human_GEM",
+      "compartments": "['cytosol', 'extracellular', 'mitochondria', 'peroxisome']"
+    },
+    {
+      "id": "MAR03027",
+      "kind": "reaction",
+      "original_id": "MAR03027",
+      "name": "MAR03027",
+      "reversible": "true",
+      "source": "Human_GEM"
+    },
+    {
+      "id": "MAR03029",
+      "kind": "reaction",
+      "original_id": "MAR03029",
+      "name": "MAR03029",
+      "reversible": "true",
+      "source": "Human_GEM"
+    },
+    {
+      "id": "MAR03033",
+      "kind": "reaction",
+      "original_id": "MAR03033",
+      "name": "MAR03033",
+      "reversible": "true",
+      "source": "Human_GEM"
+    },
+    {
+      "id": "MAR03035",
+      "kind": "reaction",
+      "original_id": "MAR03035",
+      "name": "MAR03035",
+      "reversible": "true",
+      "source": "Human_GEM"
+    },
+    {
+      "id": "MAR03037",
+      "kind": "reaction",
+      "original_id": "MAR03037",
+      "name": "MAR03037",
+      "reversible": "true",
+      "source": "Human_GEM"
+    },
+    {
+      "id": "Octanoyl_CoA_L_carnitine_O_octanoyltransferase",
+      "kind": "reaction",
+      "original_id": "MAR03034",
+      "name": "Octanoyl-CoA:L-carnitine O-octanoyltransferase",
+      "reversible": "true",
+      "source": "Human_GEM"
+    },
+    {
+      "id": "SLC25A20",
+      "bipartite": "gene",
+      "kind": "gene"
+    },
+    {
+      "id": "SLC25A29",
+      "kind": "gene"
+    },
+    {
+      "id": "octanoyl_CoA",
+      "kind": "metabolite",
+      "original_id": "MAM02644c",
+      "name": "octanoyl-CoA",
+      "source": "Human_GEM",
+      "compartments": "['cytosol', 'mitochondria', 'peroxisome']"
+    },
+    {
+      "id": "palmitoyl_CoA_L_carnitine_O_palmitoyltransferase",
+      "kind": "reaction",
+      "original_id": "MAR02894",
+      "name": "palmitoyl-CoA:L-carnitine O-palmitoyltransferase",
+      "reversible": "true",
+      "source": "Human_GEM"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Acetyl_CoA_carnitine_O_acetyltransferase",
+      "target": "CPT1A",
+      "kind": "gene-reaction",
+      "role": ""
+    },
+    {
+      "source": "Acetyl_CoA_carnitine_O_acetyltransferase",
+      "target": "CPT1B",
+      "kind": "gene-reaction",
+      "role": ""
+    },
+    {
+      "source": "Acetyl_CoA_carnitine_O_acetyltransferase",
+      "target": "CPT1C",
+      "kind": "gene-reaction",
+      "role": ""
+    },
+    {
+      "source": "Acetyl_CoA_carnitine_O_acetyltransferase",
+      "target": "CPT2",
+      "kind": "gene-reaction",
+      "role": ""
+    },
+    {
+      "source": "Acetyl_CoA_carnitine_O_acetyltransferase",
+      "target": "CRAT",
+      "kind": "gene-reaction",
+      "role": ""
+    },
+    {
+      "source": "Acetyl_CoA_carnitine_O_acetyltransferase",
+      "target": "Carnitine_shuttle_cytosolic",
+      "kind": "pathway-reaction",
+      "role": ""
+    },
+    {
+      "source": "Acetyl_CoA_carnitine_O_acetyltransferase",
+      "target": "Carnitine_shuttle_endoplasmic_reticular",
+      "kind": "pathway-reaction",
+      "role": ""
+    },
+    {
+      "source": "Acetyl_CoA_carnitine_O_acetyltransferase",
+      "target": "Carnitine_shuttle_mitochondrial",
+      "kind": "pathway-reaction",
+      "role": ""
+    },
+    {
+      "source": "Acetyl_CoA_carnitine_O_acetyltransferase",
+      "target": "Carnitine_shuttle_peroxisomal",
+      "kind": "pathway-reaction",
+      "role": ""
+    },
+    {
+      "source": "Acetyl_CoA_carnitine_O_acetyltransferase",
+      "target": "CoA",
+      "kind": "metabolite-reaction",
+      "role": "reactant"
+    },
+    {
+      "source": "Acetyl_CoA_carnitine_O_acetyltransferase",
+      "target": "L_carnitine",
+      "kind": "metabolite-reaction",
+      "role": "product"
+    },
+    {
+      "source": "CPT1A",
+      "target": "CoA",
+      "kind": "gene-metabolite",
+      "role": ""
+    },
+    {
+      "source": "CPT1A",
+      "target": "L_carnitine",
+      "kind": "gene-metabolite",
+      "role": ""
+    },
+    {
+      "source": "CPT1A",
+      "target": "L_octanoylcarnitine",
+      "kind": "gene-metabolite",
+      "role": ""
+    },
+    {
+      "source": "CPT1A",
+      "target": "Octanoyl_CoA_L_carnitine_O_octanoyltransferase",
+      "kind": "gene-reaction",
+      "role": ""
+    },
+    {
+      "source": "CPT1A",
+      "target": "octanoyl_CoA",
+      "kind": "gene-metabolite",
+      "role": ""
+    },
+    {
+      "source": "CPT1A",
+      "target": "palmitoyl_CoA_L_carnitine_O_palmitoyltransferase",
+      "kind": "gene-reaction",
+      "role": ""
+    },
+    {
+      "source": "CPT1B",
+      "target": "CoA",
+      "kind": "gene-metabolite",
+      "role": ""
+    },
+    {
+      "source": "CPT1B",
+      "target": "L_carnitine",
+      "kind": "gene-metabolite",
+      "role": ""
+    },
+    {
+      "source": "CPT1B",
+      "target": "L_octanoylcarnitine",
+      "kind": "gene-metabolite",
+      "role": ""
+    },
+    {
+      "source": "CPT1B",
+      "target": "Octanoyl_CoA_L_carnitine_O_octanoyltransferase",
+      "kind": "gene-reaction",
+      "role": ""
+    },
+    {
+      "source": "CPT1B",
+      "target": "octanoyl_CoA",
+      "kind": "gene-metabolite",
+      "role": ""
+    },
+    {
+      "source": "CPT1B",
+      "target": "palmitoyl_CoA_L_carnitine_O_palmitoyltransferase",
+      "kind": "gene-reaction",
+      "role": ""
+    },
+    {
+      "source": "CPT1C",
+      "target": "CoA",
+      "kind": "gene-metabolite",
+      "role": ""
+    },
+    {
+      "source": "CPT1C",
+      "target": "L_carnitine",
+      "kind": "gene-metabolite",
+      "role": ""
+    },
+    {
+      "source": "CPT1C",
+      "target": "L_octanoylcarnitine",
+      "kind": "gene-metabolite",
+      "role": ""
+    },
+    {
+      "source": "CPT1C",
+      "target": "Octanoyl_CoA_L_carnitine_O_octanoyltransferase",
+      "kind": "gene-reaction",
+      "role": ""
+    },
+    {
+      "source": "CPT1C",
+      "target": "octanoyl_CoA",
+      "kind": "gene-metabolite",
+      "role": ""
+    },
+    {
+      "source": "CPT1C",
+      "target": "palmitoyl_CoA_L_carnitine_O_palmitoyltransferase",
+      "kind": "gene-reaction",
+      "role": ""
+    },
+    {
+      "source": "CPT2",
+      "target": "CoA",
+      "kind": "gene-metabolite",
+      "role": ""
+    },
+    {
+      "source": "CPT2",
+      "target": "L_carnitine",
+      "kind": "gene-metabolite",
+      "role": ""
+    },
+    {
+      "source": "CPT2",
+      "target": "palmitoyl_CoA_L_carnitine_O_palmitoyltransferase",
+      "kind": "gene-reaction",
+      "role": ""
+    },
+    {
+      "source": "CRAT",
+      "target": "CoA",
+      "kind": "gene-metabolite",
+      "role": ""
+    },
+    {
+      "source": "CRAT",
+      "target": "L_carnitine",
+      "kind": "gene-metabolite",
+      "role": ""
+    },
+    {
+      "source": "CRAT",
+      "target": "MAR03029",
+      "kind": "gene-reaction",
+      "role": ""
+    },
+    {
+      "source": "CRAT",
+      "target": "MAR03037",
+      "kind": "gene-reaction",
+      "role": ""
+    },
+    {
+      "source": "CRAT",
+      "target": "palmitoyl_CoA_L_carnitine_O_palmitoyltransferase",
+      "kind": "gene-reaction",
+      "role": ""
+    },
+    {
+      "source": "CROT",
+      "target": "CoA",
+      "kind": "gene-metabolite",
+      "role": ""
+    },
+    {
+      "source": "CROT",
+      "target": "L_carnitine",
+      "kind": "gene-metabolite",
+      "role": ""
+    },
+    {
+      "source": "CROT",
+      "target": "L_octanoylcarnitine",
+      "kind": "gene-metabolite",
+      "role": ""
+    },
+    {
+      "source": "CROT",
+      "target": "Octanoyl_CoA_L_carnitine_O_octanoyltransferase",
+      "kind": "gene-reaction",
+      "role": ""
+    },
+    {
+      "source": "CROT",
+      "target": "octanoyl_CoA",
+      "kind": "gene-metabolite",
+      "role": ""
+    },
+    {
+      "source": "Carnitine_shuttle_cytosolic",
+      "target": "Octanoyl_CoA_L_carnitine_O_octanoyltransferase",
+      "kind": "pathway-reaction",
+      "role": ""
+    },
+    {
+      "source": "Carnitine_shuttle_cytosolic",
+      "target": "palmitoyl_CoA_L_carnitine_O_palmitoyltransferase",
+      "kind": "pathway-reaction",
+      "role": ""
+    },
+    {
+      "source": "Carnitine_shuttle_endoplasmic_reticular",
+      "target": "palmitoyl_CoA_L_carnitine_O_palmitoyltransferase",
+      "kind": "pathway-reaction",
+      "role": ""
+    },
+    {
+      "source": "Carnitine_shuttle_mitochondrial",
+      "target": "Octanoyl_CoA_L_carnitine_O_octanoyltransferase",
+      "kind": "pathway-reaction",
+      "role": ""
+    },
+    {
+      "source": "Carnitine_shuttle_mitochondrial",
+      "target": "palmitoyl_CoA_L_carnitine_O_palmitoyltransferase",
+      "kind": "pathway-reaction",
+      "role": ""
+    },
+    {
+      "source": "Carnitine_shuttle_peroxisomal",
+      "target": "MAR03027",
+      "kind": "pathway-reaction",
+      "role": ""
+    },
+    {
+      "source": "Carnitine_shuttle_peroxisomal",
+      "target": "MAR03029",
+      "kind": "pathway-reaction",
+      "role": ""
+    },
+    {
+      "source": "Carnitine_shuttle_peroxisomal",
+      "target": "MAR03033",
+      "kind": "pathway-reaction",
+      "role": ""
+    },
+    {
+      "source": "Carnitine_shuttle_peroxisomal",
+      "target": "MAR03035",
+      "kind": "pathway-reaction",
+      "role": ""
+    },
+    {
+      "source": "Carnitine_shuttle_peroxisomal",
+      "target": "MAR03037",
+      "kind": "pathway-reaction",
+      "role": ""
+    },
+    {
+      "source": "Carnitine_shuttle_peroxisomal",
+      "target": "Octanoyl_CoA_L_carnitine_O_octanoyltransferase",
+      "kind": "pathway-reaction",
+      "role": ""
+    },
+    {
+      "source": "Carnitine_shuttle_peroxisomal",
+      "target": "palmitoyl_CoA_L_carnitine_O_palmitoyltransferase",
+      "kind": "pathway-reaction",
+      "role": ""
+    },
+    {
+      "source": "CoA",
+      "target": "MAR03037",
+      "kind": "metabolite-reaction",
+      "role": "reactant"
+    },
+    {
+      "source": "CoA",
+      "target": "Octanoyl_CoA_L_carnitine_O_octanoyltransferase",
+      "kind": "metabolite-reaction",
+      "role": "reactant"
+    },
+    {
+      "source": "CoA",
+      "target": "SLC25A20",
+      "kind": "gene-metabolite",
+      "role": ""
+    },
+    {
+      "source": "CoA",
+      "target": "palmitoyl_CoA_L_carnitine_O_palmitoyltransferase",
+      "kind": "metabolite-reaction",
+      "role": "reactant"
+    },
+    {
+      "source": "L_carnitine",
+      "target": "MAR03027",
+      "kind": "metabolite-reaction",
+      "role": "product"
+    },
+    {
+      "source": "L_carnitine",
+      "target": "MAR03029",
+      "kind": "metabolite-reaction",
+      "role": "product"
+    },
+    {
+      "source": "L_carnitine",
+      "target": "MAR03033",
+      "kind": "metabolite-reaction",
+      "role": "product"
+    },
+    {
+      "source": "L_carnitine",
+      "target": "MAR03035",
+      "kind": "metabolite-reaction",
+      "role": "product"
+    },
+    {
+      "source": "L_carnitine",
+      "target": "MAR03037",
+      "kind": "metabolite-reaction",
+      "role": "product"
+    },
+    {
+      "source": "L_carnitine",
+      "target": "Octanoyl_CoA_L_carnitine_O_octanoyltransferase",
+      "kind": "metabolite-reaction",
+      "role": "product"
+    },
+    {
+      "source": "L_carnitine",
+      "target": "SLC25A20",
+      "kind": "gene-metabolite",
+      "role": ""
+    },
+    {
+      "source": "L_carnitine",
+      "target": "SLC25A29",
+      "kind": "gene-metabolite",
+      "role": ""
+    },
+    {
+      "source": "L_carnitine",
+      "target": "palmitoyl_CoA_L_carnitine_O_palmitoyltransferase",
+      "kind": "metabolite-reaction",
+      "role": "product"
+    },
+    {
+      "source": "L_octanoylcarnitine",
+      "target": "MAR03033",
+      "kind": "metabolite-reaction",
+      "role": "product"
+    },
+    {
+      "source": "L_octanoylcarnitine",
+      "target": "Octanoyl_CoA_L_carnitine_O_octanoyltransferase",
+      "kind": "metabolite-reaction",
+      "role": "reactant"
+    },
+    {
+      "source": "L_octanoylcarnitine",
+      "target": "SLC25A20",
+      "kind": "gene-metabolite",
+      "role": ""
+    },
+    {
+      "source": "L_octanoylcarnitine",
+      "target": "SLC25A29",
+      "kind": "gene-metabolite",
+      "role": ""
+    },
+    {
+      "source": "MAR03033",
+      "target": "SLC25A20",
+      "kind": "gene-reaction",
+      "role": ""
+    },
+    {
+      "source": "MAR03033",
+      "target": "SLC25A29",
+      "kind": "gene-reaction",
+      "role": ""
+    },
+    {
+      "source": "MAR03035",
+      "target": "SLC25A20",
+      "kind": "gene-reaction",
+      "role": ""
+    },
+    {
+      "source": "MAR03035",
+      "target": "SLC25A29",
+      "kind": "gene-reaction",
+      "role": ""
+    },
+    {
+      "source": "Octanoyl_CoA_L_carnitine_O_octanoyltransferase",
+      "target": "octanoyl_CoA",
+      "kind": "metabolite-reaction",
+      "role": "product"
+    }
+  ]
+}

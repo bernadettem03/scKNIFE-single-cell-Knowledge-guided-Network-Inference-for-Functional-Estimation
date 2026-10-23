@@ -1,0 +1,29 @@
+{
+  "selected_k": 9,
+  "score": "global z of log1p(max(H @ W_node, 0))",
+  "program_score": "global z of log1p(max(H @ mean(W_selected_20_nodes), 0))",
+  "matching": "within patient and celltype_minor; one-to-one minimum absolute log1p(total_counts) distance",
+  "caliper": 0.1,
+  "minimum_source_cells_per_site_and_group": 20,
+  "matched_cells_per_site": {
+    "P4": 434,
+    "P1": 1681
+  },
+  "display_nodes": {
+    "P4": [
+      "TAP1",
+      "NFKB2",
+      "COL6A1"
+    ],
+    "P1": [
+      "IFI27",
+      "CD74",
+      "APOL6"
+    ]
+  },
+  "patient_status": {
+    "P4": "Metastatic; later lung and bone recorded",
+    "P1": "Non-metastatic; no recorded metastasis"
+  },
+  "inferential_tests": false
+}

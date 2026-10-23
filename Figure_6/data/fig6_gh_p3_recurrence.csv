@@ -1,0 +1,4 @@
+panel,pathway,celltype,node,label,PatientID,patient_display,biopsy_median,surgery_median,recurrence_median,biopsy_cells,surgery_cells,recurrence_cells
+G,Aspartate and asparagine metabolism,Myeloid,3_sulfinoalanine,3-sulfinoalanine,P3,P3,0.44840332865715027,0.44545191526412964,0.3806847333908081,25,152,227
+G,Aspartate and asparagine metabolism,Myeloid,S_2_aminobutanoate,(S)-2-aminobutanoate,P3,P3,0.15407885611057281,0.1240672692656517,0.12115564197301865,25,152,227
+H,Glycolysis and Gluconeogenesis,Myeloid,methylglyoxal,Methylglyoxal,P3,P3,0.4441506862640381,0.4434860348701477,0.36583366990089417,25,152,227

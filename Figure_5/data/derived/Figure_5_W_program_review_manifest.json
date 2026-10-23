@@ -1,5 +1,5 @@
 {
-  "revision": "fig5_named_programs_top20_nodes_20260818",
+  "revision": "fig5_current_epithelial_k9_20261002",
   "renderer": "Matplotlib fallback (Python 3.9; cnsplots unavailable)",
   "python_version": "3.9.21",
   "matplotlib_version": "3.9.2",
@@ -15,21 +15,22 @@
   "main_panel": "A",
   "dictionary_location": "supplementary_A",
   "program_names_in_main": true,
-  "selected_k": 8,
-  "program_names_provisional": false,
+  "selected_k": 9,
+  "program_names_provisional": true,
   "program_names": {
-    "0": "MHC-I antigen presentation / interferon-immune signaling",
-    "1": "RNA processing / glycosylation precursor metabolism",
-    "2": "RNA splicing / chromatin and mitotic regulation",
-    "3": "Mitotic spindle assembly / chromosome segregation",
-    "4": "Stem-like epithelial plasticity / matrix remodeling",
-    "5": "FGFR-associated developmental morphogenesis",
-    "6": "Folate-lipid metabolism / TNF-Notch survival signaling",
-    "7": "Mitochondrial redox / transsulfuration stress response"
+    "0": "Current W program 1",
+    "1": "Current W program 2",
+    "2": "Current W program 3",
+    "3": "Current W program 4",
+    "4": "Current W program 5",
+    "5": "Current W program 6",
+    "6": "Current W program 7",
+    "7": "Current W program 8",
+    "8": "Current W program 9"
   },
   "singleton": {
-    "program": "P5*",
-    "factor": "12"
+    "program": null,
+    "factor": null
   },
   "decay": {
     "tau": 5.0,
@@ -39,33 +40,33 @@
     "visible_nodes_per_program": 5
   },
   "checks": {
-    "selected_k_is_8": true,
-    "eight_program_names": true,
-    "full_set_has_160_nodes": true,
+    "selected_k_matches_programs": true,
+    "expected_program_names": true,
+    "full_set_has_expected_nodes": true,
     "twenty_nodes_per_program": true,
     "full_node_names_globally_unique": true,
     "full_enrichment_positive": true,
     "full_decay_weights_positive": true,
-    "visible_set_has_40_nodes": true,
+    "visible_set_has_expected_nodes": true,
     "five_visible_nodes_per_program": true,
     "visible_nodes_are_leading_decay_entries": true,
     "visible_nodes_subset_of_full": true,
-    "factor_counts_match_k8": true,
-    "p5_singleton_is_factor_12": true,
+    "factor_counts_cover_50": true,
+    "expected_nonempty_groups": true,
     "derived_values_finite": true
   },
   "outputs": {
     "dictionary": [
-      "figs/individual/Figure_5/Figure_5_supplementary_A.png",
-      "figs/individual/Figure_5/Figure_5_supplementary_A.pdf",
-      "figs/individual/Figure_5/Figure_5_supplementary_A.svg"
+      "outputs/panels/Figure_5_supplementary_A.png",
+      "outputs/panels/Figure_5_supplementary_A.pdf",
+      "outputs/panels/Figure_5_supplementary_A.svg"
     ],
     "full_decay_heatmap": [
-      "figs/individual/Figure_5/Figure_5_A.png",
-      "figs/individual/Figure_5/Figure_5_A.pdf",
-      "figs/individual/Figure_5/Figure_5_A.svg"
+      "outputs/panels/Figure_5_A.png",
+      "outputs/panels/Figure_5_A.pdf",
+      "outputs/panels/Figure_5_A.svg"
     ],
-    "full_node_table": "data/Figure_5/derived/Figure_5_W_program_dictionary_nodes.csv",
-    "visible_node_table": "data/Figure_5/derived/Figure_5_W_program_dictionary_visible_nodes.csv"
+    "full_node_table": "data/derived/Figure_5_W_program_dictionary_nodes.csv",
+    "visible_node_table": "data/derived/Figure_5_W_program_dictionary_visible_nodes.csv"
   }
 }

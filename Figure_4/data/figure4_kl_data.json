@@ -1,0 +1,11 @@
+{
+  "cells": 69391,
+  "minor_labels": 29,
+  "ambiguous_cells": 72,
+  "marker_positions": 58,
+  "unique_genes": 51,
+  "marker_selection": "two per label from saved Wu pairwise marker sets; first highest pairwise recurrence, second highest within-major mean contrast weighted by detection",
+  "expression": "saved log1p counts per 10,000; means include zeros; detection >0",
+  "colour": "min-max mean expression scaled separately for each displayed gene position across 29 labels",
+  "annotation": "pruned cell-level full-Wu SingleR minor calls"
+}

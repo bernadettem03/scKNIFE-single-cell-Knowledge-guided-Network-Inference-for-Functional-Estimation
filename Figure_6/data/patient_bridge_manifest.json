@@ -1,0 +1,25 @@
+{
+  "source": "corrected LC-MS, reviewed scKNIFE and Figure 7 major PDGF paired table",
+  "files": {
+    "cohort_lcms_patient_changes.csv": {
+      "bytes": 5561,
+      "sha256": "05e99f572072f56feec4267e6b8faf3d9662a63127194f0d41877c0a6826c462"
+    },
+    "cohort_scknife_patient_changes.csv": {
+      "bytes": 3834,
+      "sha256": "7b70659836c872c8738ce61f9b13b5a499e987548eb966ea6777f220efd8300b"
+    },
+    "endothelial_pdgf_patient_alignment.csv": {
+      "bytes": 2457,
+      "sha256": "17f752ffdd7ae01e3fc6975ab746112e5ee995cfdede3a0d0029d3c929867a9c"
+    },
+    "p3_caf_major_minor_trajectories.csv": {
+      "bytes": 2698,
+      "sha256": "5f8eb1c3c41e393a418586e9736aa602eb5dad25890f17b6e825533d9a2cd433"
+    },
+    "p3_caf_major_minor_cell_values.csv.gz": {
+      "bytes": 93444,
+      "sha256": "63ffe3b8579bda1ee6c338750e080314f647df501dc6c3404531e5f94dcebd97"
+    }
+  }
+}

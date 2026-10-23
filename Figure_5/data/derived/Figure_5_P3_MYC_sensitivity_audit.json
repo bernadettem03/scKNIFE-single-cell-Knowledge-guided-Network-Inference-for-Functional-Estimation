@@ -1,0 +1,26 @@
+{
+  "node": "MYC",
+  "program": "NG7",
+  "patient": "P3",
+  "raw_cells": {
+    "Bx": 135,
+    "Surgery": 523,
+    "Recurrence": 3599
+  },
+  "matched_cells_per_site": 131,
+  "matching_seed": 20261002,
+  "matching_bins": [
+    "[0.0, 750.0)",
+    "[750.0, 1000.0)",
+    "[1000.0, 1500.0)",
+    "[1500.0, 2000.0)",
+    "[2000.0, 3000.0)",
+    "[3000.0, 4500.0)",
+    "[4500.0, 7000.0)"
+  ],
+  "repeat_draws": 100,
+  "all_draws_surgery_above_bx_and_recurrence": true,
+  "adjusted_surgery_minus_bx": 0.43374863920969575,
+  "adjusted_recurrence_minus_bx": -0.4908308245396267,
+  "interpretation": "Descriptive within-patient sensitivity; not patient-level inference"
+}

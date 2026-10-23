@@ -1,0 +1,45 @@
+{
+  "source": "adduct_corrected_v1 plus reviewed scKNIFE Tier-3",
+  "files": {
+    "two_angle_feature_values.csv": {
+      "bytes": 1847,
+      "sha256": "a8e35cdd7de909f94ef96b7a85e9c05322ae78f0596423d8e3473f9741ccb4cc"
+    },
+    "two_angle_feature_changes.csv": {
+      "bytes": 1362,
+      "sha256": "380e1878dc2c3b3978e15c003400b23f45891893b5227cfe30c53ef689e26e08"
+    },
+    "two_angle_feature_summary.csv": {
+      "bytes": 858,
+      "sha256": "f158f05ca1fa39eb803e3893a525950c2f4cd8a88845b82e111432702ba58d8f"
+    },
+    "two_angle_sensitivity.csv": {
+      "bytes": 635,
+      "sha256": "848d90627a20db0bad3833e7580e2deddffe659af0a2b06d92990fb46a47eda0"
+    },
+    "two_angle_treatment_pathways.csv": {
+      "bytes": 3368,
+      "sha256": "3b197b731d8fd737b6bcc5f4186d9ebc143e05cf627e5790c1d653de7f75e18a"
+    },
+    "two_angle_status_pathways.csv": {
+      "bytes": 2887,
+      "sha256": "ea16e71c819381a6dc79f1401e7538d74776d21a5381d1ab41c806ba772f5e4e"
+    },
+    "two_angle_scknife_patient_values.csv": {
+      "bytes": 173018,
+      "sha256": "7dd5117e3ae5b561653db0bce0fa8b83986de282da05d8f8468bc823e4abd0ff"
+    },
+    "two_angle_scknife_pairs.csv": {
+      "bytes": 27174,
+      "sha256": "e17d2ef5235daf0b03b8f3e461f5c2bb8b390b72541c92624df5eeb9bd927379"
+    },
+    "two_angle_scknife_family_map.csv": {
+      "bytes": 1368,
+      "sha256": "84cb4b73ae32bdf35a6b2a7d6cefc69f9fda6958931eb2ac5a132bbdc6344356"
+    },
+    "two_angle_p3_medians.csv": {
+      "bytes": 799,
+      "sha256": "f16ef9014cf8474d12afb1fca3792bebfcd6109b7f88a53671ee24e2cad7bf0d"
+    }
+  }
+}

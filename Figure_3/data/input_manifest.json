@@ -60,38 +60,38 @@
     "source": "data/Figure_3_v9/literature_supported_tasks.csv"
   },
   "task_umap_activity.parquet": {
-    "bytes": 5346079,
-    "sha256": "9af0d5030f1c2141caeea9ab6962c03753e1b28b702ba0de90e36bf0e89bc8fb",
+    "bytes": 4452506,
+    "sha256": "dd5436bb13c986bcadd408e74ec10f3fba188ae51b4ec68ffb9ae4d0fe78f90d",
     "source": "data/Figure_3_v9/task_umap_activity.parquet"
   },
   "task_umap_background.parquet": {
-    "bytes": 7393743,
-    "sha256": "f565082a781c92df3c90fba4e39cc9c9298d825d7ec0e5ccef884e33911c9672",
+    "bytes": 7051179,
+    "sha256": "94a8d394f84aeb29739138944523e16e88143042818849da11e37aa5a43e8d3a",
     "source": "data/Figure_3_v9/task_umap_background.parquet"
   },
   "task_umap_metadata.csv": {
-    "bytes": 2981,
-    "sha256": "ce0c313e06c1b1f2a4e2075331f581e87ccc0f3a79129a81191b1d2bc64aa45f",
+    "bytes": 2537,
+    "sha256": "57fc203a180e3c126a1c7371120f9676ee43cd19e505a91fccf7f406a0419d1d",
     "source": "data/Figure_3_v9/task_umap_metadata.csv"
   },
   "task_umap_render_audit.csv": {
-    "bytes": 4487,
-    "sha256": "f355efc3a6418c8a05ac389a0243f90fd3ff32fe3fede53b352b12fb0178d0ab",
+    "bytes": 4123,
+    "sha256": "ebc007137318fa00a6fbdb55fccf8b20cfe85329669e300d19338e21253efe54",
     "source": "data/Figure_3_v9/task_umap_render_audit.csv"
   },
   "task_umap_validation.csv": {
-    "bytes": 1260,
-    "sha256": "23e5729750f4496dcea832cf14ec03310ab3be8f82a8c9aab03148565f6c7749",
+    "bytes": 1022,
+    "sha256": "b4955c35858cc6e7d724e62e4e9dfb2f4a34e88344447224213c2717c194280a",
     "source": "data/Figure_3_v9/task_umap_validation.csv"
   },
   "treatment_panel_statistics_reference.csv": {
-    "bytes": 2892,
-    "sha256": "54611a2fc37ce0db59d2879869efe75f55e69423fb296955a3ddbe09b9024ffa",
+    "bytes": 2982,
+    "sha256": "bcf855b7b87cfbf1f1ef41df3c50a411b715008eca579c85486f5993952c9593",
     "source": "data/Figure_3_v9/treatment_panel_statistics.csv"
   },
   "treatment_patient_scores.csv.gz": {
-    "bytes": 2077,
-    "sha256": "4d55fcfb88611cb017219b52aaa943fa4228be25ecd38bec38338c920ecc0906",
+    "bytes": 2247,
+    "sha256": "8cdb795826833934b2d7bcaa512267f8534110ec0a158a179fe24aab68688752",
     "source": "data/Figure_3_v9/treatment_patient_scores.csv.gz"
   },
   "bassez_go_cell_de_results.csv.gz": {
@@ -108,5 +108,45 @@
     "bytes": 1733,
     "sha256": "f3fdd84a49311e48a073f85a2d6123f83c5067e3f80fecbe75c517f174440463",
     "role": "GO cell-level methods and provenance"
+  },
+  "bassez_A_longitudinal_full_screen.csv": {
+    "bytes": 210094,
+    "sha256": "dc5f274f34c82a3f0401065b973254748c0554336098057feade3e76eb22adaa",
+    "source": "data/Figure_3_v9/bassez_A_longitudinal_full_screen.csv"
+  },
+  "supplementary_source_panels/candidate_concordance.png": {
+    "bytes": 209921,
+    "sha256": "d7c6c96a79169136df3a7e259726b6e869ff7e594e1e79cb259f9863bc604f95",
+    "source": "submission Figure_3_S3_Audit_AB.png"
+  },
+  "supplementary_source_panels/metabolic_bassez_A.png": {
+    "bytes": 685426,
+    "sha256": "34c9d46474205399ef64a4860063f6478846cf6c13a51974a1b9e78e4ea96c04",
+    "source": "submission Figure_3_supplementary_page_2_bassez_A.png"
+  },
+  "supplementary_source_panels/metabolic_bassez_B.png": {
+    "bytes": 657473,
+    "sha256": "08c0ea5a78e80355ae546e98bfa469cce31a0a09fb281dc110bf7604076329f9",
+    "source": "submission Figure_3_supplementary_page_3_bassez_B.png"
+  },
+  "supplementary_source_panels/go_bassez_A.png": {
+    "bytes": 586998,
+    "sha256": "d592f95cb29c6f3f50e787406cac7bd09c8d68697654824efd5abdbcb16e1d48",
+    "source": "submission Figure_3_Bassez_GO_A.png"
+  },
+  "supplementary_source_panels/go_bassez_B.png": {
+    "bytes": 548559,
+    "sha256": "d8f3a1becfdcc9d71064fc49e851fdb0cea2917ebcc90a20fad0bee8ab399251",
+    "source": "submission Figure_3_Bassez_GO_B.png"
+  },
+  "bassez_go_patient_interaction_display.csv": {
+    "bytes": 11689,
+    "sha256": "b4ce2759f63cd9fe43797c4fe3d67e165c4cdf6a1f67998178407fa7478a8deb",
+    "role": "fixed Bassez A-selected patient-level GO interaction forest plot data"
+  },
+  "bassez_go_patient_interaction_audit.json": {
+    "bytes": 5269,
+    "sha256": "22fe59317c487965dc8888e8c8dca1b27a2cbf82d0e70d3b686d58b506f9f460",
+    "role": "patient-level GO methods, eligibility, redundancy filter, and provenance"
   }
 }

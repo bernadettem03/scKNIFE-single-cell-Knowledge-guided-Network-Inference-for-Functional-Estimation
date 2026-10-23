@@ -1,0 +1,236 @@
+major,minor,n_cells
+B-cells,B cells Memory,239
+B-cells,B cells Naive,300
+B-cells,CAFs MSC iCAF-like,4
+B-cells,CAFs myCAF-like,15
+B-cells,Cancer Basal SC,37
+B-cells,Cancer Cycling,84
+B-cells,Cancer Her2 SC,21
+B-cells,Cancer LumA SC,6
+B-cells,Cancer LumB SC,8
+B-cells,Cycling PVL,20
+B-cells,Cycling T-cells,32
+B-cells,Cycling_Myeloid,10
+B-cells,DCs,171
+B-cells,Endothelial CXCL12,2
+B-cells,Endothelial Lymphatic LYVE1,6
+B-cells,Endothelial RGS5,4
+B-cells,Excluded,1
+B-cells,Luminal Progenitors,37
+B-cells,Macrophage,144
+B-cells,Mature Luminal,5
+B-cells,Monocyte,48
+B-cells,Myoepithelial,13
+B-cells,NK cells,40
+B-cells,NKT cells,44
+B-cells,PVL Differentiated,4
+B-cells,PVL Immature,10
+B-cells,Plasmablasts,20
+B-cells,T cells CD4+,19
+B-cells,T cells CD8+,35
+CAFs,B cells Memory,6
+CAFs,B cells Naive,8
+CAFs,CAFs MSC iCAF-like,299
+CAFs,CAFs myCAF-like,6458
+CAFs,Cancer Basal SC,531
+CAFs,Cancer Cycling,356
+CAFs,Cancer Her2 SC,79
+CAFs,Cancer LumA SC,20
+CAFs,Cancer LumB SC,28
+CAFs,Cycling PVL,694
+CAFs,Cycling T-cells,26
+CAFs,Cycling_Myeloid,11
+CAFs,DCs,14
+CAFs,Endothelial ACKR1,4
+CAFs,Endothelial CXCL12,11
+CAFs,Endothelial Lymphatic LYVE1,14
+CAFs,Endothelial RGS5,18
+CAFs,Excluded,4
+CAFs,Luminal Progenitors,229
+CAFs,Macrophage,52
+CAFs,Mature Luminal,20
+CAFs,Monocyte,9
+CAFs,Myoepithelial,139
+CAFs,NK cells,7
+CAFs,NKT cells,20
+CAFs,PVL Differentiated,71
+CAFs,PVL Immature,258
+CAFs,Plasmablasts,20
+CAFs,T cells CD4+,14
+CAFs,T cells CD8+,16
+Endothelial,B cells Memory,1
+Endothelial,B cells Naive,1
+Endothelial,CAFs MSC iCAF-like,4
+Endothelial,CAFs myCAF-like,17
+Endothelial,Cancer Basal SC,39
+Endothelial,Cancer Cycling,25
+Endothelial,Cancer Her2 SC,10
+Endothelial,Cancer LumB SC,6
+Endothelial,Cycling PVL,35
+Endothelial,Cycling T-cells,7
+Endothelial,Cycling_Myeloid,6
+Endothelial,DCs,5
+Endothelial,Endothelial ACKR1,636
+Endothelial,Endothelial CXCL12,555
+Endothelial,Endothelial Lymphatic LYVE1,62
+Endothelial,Endothelial RGS5,1968
+Endothelial,Excluded,10
+Endothelial,Luminal Progenitors,30
+Endothelial,Macrophage,15
+Endothelial,Mature Luminal,5
+Endothelial,Myoepithelial,10
+Endothelial,NK cells,2
+Endothelial,NKT cells,4
+Endothelial,PVL Differentiated,10
+Endothelial,PVL Immature,18
+Endothelial,Plasmablasts,1
+Endothelial,T cells CD4+,5
+Endothelial,T cells CD8+,6
+Epithelial,B cells Memory,10
+Epithelial,B cells Naive,25
+Epithelial,CAFs MSC iCAF-like,71
+Epithelial,CAFs myCAF-like,327
+Epithelial,Cancer Basal SC,10243
+Epithelial,Cancer Cycling,8281
+Epithelial,Cancer Her2 SC,2439
+Epithelial,Cancer LumA SC,715
+Epithelial,Cancer LumB SC,217
+Epithelial,Cycling PVL,1118
+Epithelial,Cycling T-cells,83
+Epithelial,Cycling_Myeloid,20
+Epithelial,DCs,15
+Epithelial,Endothelial ACKR1,12
+Epithelial,Endothelial CXCL12,21
+Epithelial,Endothelial Lymphatic LYVE1,15
+Epithelial,Endothelial RGS5,36
+Epithelial,Excluded,38
+Epithelial,Luminal Progenitors,8024
+Epithelial,Macrophage,54
+Epithelial,Mature Luminal,991
+Epithelial,Monocyte,12
+Epithelial,Myoepithelial,3653
+Epithelial,NK cells,11
+Epithelial,NKT cells,26
+Epithelial,PVL Differentiated,210
+Epithelial,PVL Immature,139
+Epithelial,Plasmablasts,94
+Epithelial,T cells CD4+,27
+Epithelial,T cells CD8+,36
+Myeloid,B cells Memory,42
+Myeloid,B cells Naive,11
+Myeloid,CAFs MSC iCAF-like,12
+Myeloid,CAFs myCAF-like,20
+Myeloid,Cancer Basal SC,50
+Myeloid,Cancer Cycling,22
+Myeloid,Cancer Her2 SC,7
+Myeloid,Cancer LumA SC,1
+Myeloid,Cancer LumB SC,2
+Myeloid,Cycling PVL,14
+Myeloid,Cycling T-cells,27
+Myeloid,Cycling_Myeloid,179
+Myeloid,DCs,471
+Myeloid,Endothelial ACKR1,4
+Myeloid,Endothelial CXCL12,4
+Myeloid,Endothelial Lymphatic LYVE1,4
+Myeloid,Endothelial RGS5,2
+Myeloid,Excluded,2
+Myeloid,Luminal Progenitors,18
+Myeloid,Macrophage,4340
+Myeloid,Mature Luminal,3
+Myeloid,Monocyte,795
+Myeloid,Myoepithelial,8
+Myeloid,NK cells,48
+Myeloid,NKT cells,87
+Myeloid,PVL Differentiated,4
+Myeloid,PVL Immature,6
+Myeloid,Plasmablasts,13
+Myeloid,T cells CD4+,21
+Myeloid,T cells CD8+,24
+PVL,B cells Memory,1
+PVL,B cells Naive,3
+PVL,CAFs MSC iCAF-like,14
+PVL,CAFs myCAF-like,347
+PVL,Cancer Basal SC,179
+PVL,Cancer Cycling,99
+PVL,Cancer Her2 SC,30
+PVL,Cancer LumA SC,11
+PVL,Cancer LumB SC,6
+PVL,Cycling PVL,576
+PVL,Cycling T-cells,8
+PVL,Cycling_Myeloid,2
+PVL,DCs,3
+PVL,Endothelial ACKR1,4
+PVL,Endothelial CXCL12,27
+PVL,Endothelial Lymphatic LYVE1,8
+PVL,Endothelial RGS5,37
+PVL,Excluded,10
+PVL,Luminal Progenitors,111
+PVL,Macrophage,6
+PVL,Mature Luminal,14
+PVL,Monocyte,2
+PVL,Myoepithelial,564
+PVL,NK cells,1
+PVL,PVL Differentiated,698
+PVL,PVL Immature,998
+PVL,Plasmablasts,3
+PVL,T cells CD4+,5
+Plasmablasts,B cells Memory,5
+Plasmablasts,B cells Naive,19
+Plasmablasts,CAFs MSC iCAF-like,7
+Plasmablasts,CAFs myCAF-like,33
+Plasmablasts,Cancer Basal SC,160
+Plasmablasts,Cancer Cycling,205
+Plasmablasts,Cancer Her2 SC,65
+Plasmablasts,Cancer LumA SC,12
+Plasmablasts,Cancer LumB SC,14
+Plasmablasts,Cycling PVL,55
+Plasmablasts,Cycling T-cells,21
+Plasmablasts,Cycling_Myeloid,5
+Plasmablasts,DCs,60
+Plasmablasts,Endothelial ACKR1,1
+Plasmablasts,Endothelial CXCL12,4
+Plasmablasts,Endothelial Lymphatic LYVE1,1
+Plasmablasts,Endothelial RGS5,3
+Plasmablasts,Excluded,2
+Plasmablasts,Luminal Progenitors,143
+Plasmablasts,Macrophage,60
+Plasmablasts,Mature Luminal,15
+Plasmablasts,Monocyte,7
+Plasmablasts,Myoepithelial,29
+Plasmablasts,NK cells,21
+Plasmablasts,NKT cells,39
+Plasmablasts,PVL Differentiated,8
+Plasmablasts,PVL Immature,5
+Plasmablasts,Plasmablasts,2148
+Plasmablasts,T cells CD4+,10
+Plasmablasts,T cells CD8+,34
+T-cells,B cells Memory,36
+T-cells,B cells Naive,58
+T-cells,CAFs MSC iCAF-like,4
+T-cells,CAFs myCAF-like,14
+T-cells,Cancer Basal SC,53
+T-cells,Cancer Cycling,48
+T-cells,Cancer Her2 SC,12
+T-cells,Cancer LumA SC,6
+T-cells,Cancer LumB SC,1
+T-cells,Cycling PVL,27
+T-cells,Cycling T-cells,622
+T-cells,Cycling_Myeloid,6
+T-cells,DCs,52
+T-cells,Endothelial ACKR1,2
+T-cells,Endothelial CXCL12,6
+T-cells,Endothelial Lymphatic LYVE1,4
+T-cells,Endothelial RGS5,6
+T-cells,Excluded,5
+T-cells,Luminal Progenitors,35
+T-cells,Macrophage,87
+T-cells,Mature Luminal,2
+T-cells,Monocyte,28
+T-cells,Myoepithelial,14
+T-cells,NK cells,223
+T-cells,NKT cells,775
+T-cells,PVL Differentiated,7
+T-cells,PVL Immature,3
+T-cells,Plasmablasts,47
+T-cells,T cells CD4+,1514
+T-cells,T cells CD8+,1224

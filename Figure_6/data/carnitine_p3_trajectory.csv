@@ -1,0 +1,4 @@
+use,PatientID,celltype,node,Timepoint,patient_median
+analysis_provenance,P3,Myeloid,L_carnitine,Bx,0.3763625
+analysis_provenance,P3,Myeloid,L_carnitine,Surgery,0.38194472
+analysis_provenance,P3,Myeloid,L_carnitine,Recurrence,0.350829

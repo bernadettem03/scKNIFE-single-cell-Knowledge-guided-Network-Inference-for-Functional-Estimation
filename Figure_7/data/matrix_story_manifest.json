@@ -1,0 +1,60 @@
+{
+  "source_sha256": {
+    "PRIVATE_SOURCE_ROOT/May_2026_clean_version_redo/inhouse_rerun/scknife_run/data/cellsignaling/major/scknife/pathway_permutation/pathway_significance.csv": "202b66fc0b7fa4eb2205f5b4a6dac3ab34fe5df6f1254ea693834e704a4a4d6a",
+    "PRIVATE_SOURCE_ROOT/May_2026_clean_version_redo/inhouse_rerun/scknife_run/data/cellsignaling/major/scknife/lr_filtered_heatmaps/pathway_filter_summary.csv": "b77c6f653830d180d74ff6391771c03ac83794d8d697ccc8545a5ab1cbbae2ee",
+    "PRIVATE_SOURCE_ROOT/May_2026_clean_version_redo/inhouse_rerun/scknife_run/data/cellsignaling/minor/scknife/pathway_permutation/pathway_significance.csv": "d8fae2bcb1bd192affc649cb0a14275a803da24c84aee4b42ca0f46272e9154b",
+    "PRIVATE_SOURCE_ROOT/May_2026_clean_version_redo/inhouse_rerun/scknife_run/data/cellsignaling/minor/scknife/lr_filtered_heatmaps/pathway_filter_summary.csv": "586d8b9eb94e6b2cf24d6047ec50854c009577432d5d132290cd2f57d47f677b",
+    "PRIVATE_SOURCE_ROOT/May_2026_clean_version_redo/inhouse_rerun/scknife_run/data/cellsignaling/minor/scknife/lr_filtered_heatmaps/pathways/COLLAGEN_communication_matrix_lr_q05.csv": "0bec5ad937d1ca6b140324e03073d117e4a50b6ee442e5b4e5ffbabf7ac4bb72",
+    "PRIVATE_SOURCE_ROOT/May_2026_clean_version_redo/inhouse_rerun/scknife_run/data/cellsignaling/minor/scknife/lr_filtered_heatmaps/pathways/FN1_communication_matrix_lr_q05.csv": "8ac906091c647d1b4d858e4869e5e8a7412cccf68254a221319b051238b77647",
+    "PRIVATE_SOURCE_ROOT/May_2026_clean_version_redo/inhouse_rerun/scknife_run/data/cellsignaling/minor/scknife/lr_filtered_heatmaps/pathways/THBS_communication_matrix_lr_q05.csv": "94e494377f2e041ecc31bc592f0b5a8e1843d1f4dc2897c42f46ed7f5ada6901",
+    "PRIVATE_SOURCE_ROOT/May_2026_clean_version_redo/inhouse_rerun/scknife_run/data/cellsignaling/minor/scknife/lr_filtered_heatmaps/pathways/SPP1_communication_matrix_lr_q05.csv": "ab68a8478a86af0fd108e7170051a111d4ac749fe6980ed49547bb7d0a94f6c4",
+    "PRIVATE_SOURCE_ROOT/May_2026_clean_version_redo/inhouse_rerun/scknife_run/data/cellsignaling/minor/scknife/cell_metadata.csv.gz": "1361dd8326ae082725c5fe123c821ce44a7d63cb63f21beb97e95c964b9ea353",
+    "PRIVATE_SOURCE_ROOT/May_2026_clean_version_redo/Figures/submission/data/Figure_4/patient_id_mapping.csv": "d83cb550451db61010d5393722db8a27202a5f52267c894f19ed79a77a8ba92b",
+    "PRIVATE_SOURCE_ROOT/May_2026_clean_version_redo/inhouse_rerun/scknife_run/data/cellsignaling/minor/scknife/lr_pair_permutation/lr_pair_significance.csv": "631afe9ae3aab2e3acc3ad60970d8ff61791c271383cc40dd155f2a12bb9786a",
+    "PRIVATE_SOURCE_ROOT/May_2026_clean_version_redo/inhouse_rerun/scknife_run/data/cellsignaling/minor/scknife/lr_filtered_heatmaps/pathway_lr_keys.csv": "1e78d9187954836c7e0a5e81f3baa3e85aa84ccfbc7b30438f1be824449bc0cb"
+  },
+  "output_sha256": {
+    "pathway_evidence_major_minor.csv": "29c31634ec42788c85d7450f935fe2e88c753d59b07787ac115a7facb773c9c9",
+    "specimen_expression_support_matrix_spp1.csv": "7ea83292bfa4609327082308a66748fdbb53e528ec6b7986c670f056e78b3ab4",
+    "matrix_story_lr_keys.csv": "ddff31c7b06a244d08fcaafaa5259f09e2a3a6c885a92a7838672fe881ef0ef7",
+    "collagen_minor_communication_matrix_lr_q05.csv": "309bbe27bc030fea99eec2b305fc12baf4b2255fd12c888ec44c00f730ea87f1",
+    "fn1_minor_communication_matrix_lr_q05.csv": "8ac906091c647d1b4d858e4869e5e8a7412cccf68254a221319b051238b77647",
+    "thbs_minor_communication_matrix_lr_q05.csv": "94e494377f2e041ecc31bc592f0b5a8e1843d1f4dc2897c42f46ed7f5ada6901",
+    "spp1_minor_communication_matrix_lr_q05.csv": "ab68a8478a86af0fd108e7170051a111d4ac749fe6980ed49547bb7d0a94f6c4"
+  },
+  "model_rerun": false,
+  "permutations_rerun": false,
+  "embedding_recomputed": false,
+  "pathway_selection": "Six exploratory candidates selected after inspecting all 252 saved pathways; not an unbiased top-six ranking",
+  "heatmap_filter": "Pooled unique-LR BH q<0.05; not edge-specific significance",
+  "color_scale": "log1p summed weight, per-pathway full range, no clipping or row/column normalization",
+  "expression_source": "PRIVATE_SOURCE_ROOT/May_2026_clean_version_redo/inhouse_rerun/primary_analysis/data/adata_processed_with_doublets_20th_feb_final_annotated.h5ad",
+  "expression_layer": "log1p_norm",
+  "expression_source_bytes": 1210592177,
+  "expression_source_mtime_ns": 1785229818822653108,
+  "expression_columns_sha256": {
+    "SPP1": "3d0dcd5da95901904a404cd4ba741001d7c54c901810bcc95ea0ea75a2604833",
+    "CD44": "04463fbc40ee6856d8b04656d0ece45b4a0819874eece86a31d144e87b2740a3"
+  },
+  "spp1_support": {
+    "myCAF": {
+      "eligible_specimens": 14,
+      "both_detected_specimens": 12,
+      "patients_with_both_detected": 6,
+      "zero_spp1_specimens": [
+        "library4_sample2",
+        "library2_sample1"
+      ]
+    },
+    "basal": {
+      "eligible_specimens": 12,
+      "both_detected_specimens": 11,
+      "patients_with_both_detected": 6,
+      "zero_spp1_specimens": [
+        "library2_sample1"
+      ]
+    }
+  },
+  "spp1_main_panel_gate": "At least four of seven patients with both ligand and receptor detected in compartments of at least ten cells; descriptive, not a statistical test",
+  "legacy_inputs_preserved": true
+}

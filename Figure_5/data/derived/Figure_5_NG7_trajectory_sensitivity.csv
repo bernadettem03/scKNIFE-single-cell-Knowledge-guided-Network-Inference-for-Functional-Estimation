@@ -1,0 +1,17 @@
+patient,from_site,to_site,component,raw_change,adjusted_change,design_full_rank,from_cells,to_cells,low_cell_count,shared_minor_labels
+P1,Bx,Surgery,myc_ribosome,0.26764094412508205,-0.23725996362492335,True,4865,1862,False,9
+P1,Bx,Surgery,polyamine,0.34691609812686036,-0.32642864300059904,True,4865,1862,False,9
+P2,Bx,Surgery,myc_ribosome,0.7489525857348426,0.34537619791240604,True,495,3526,False,9
+P2,Bx,Surgery,polyamine,0.6863865616734989,0.12656991856905395,True,495,3526,False,9
+P3,Bx,Surgery,myc_ribosome,0.8888388731398229,0.18636772253210207,True,135,523,False,7
+P3,Surgery,Recurrence,myc_ribosome,-1.5120273795863932,-0.6279656652971842,True,523,3599,False,8
+P3,Bx,Surgery,polyamine,0.9196407733302532,-0.1036953909064517,True,135,523,False,7
+P3,Surgery,Recurrence,polyamine,-0.7625917388365235,0.5309184833139369,True,523,3599,False,8
+P4,Bx,Surgery,myc_ribosome,-1.496592859826325,-0.06216564952449263,True,6296,885,False,9
+P4,Bx,Surgery,polyamine,-2.0001489771029393,0.05210108218734781,True,6296,885,False,9
+P5,Bx,Surgery,myc_ribosome,0.11360912985368257,0.024182780864858207,True,4394,2046,False,9
+P5,Bx,Surgery,polyamine,0.052526635837595856,-0.14976911784126132,True,4394,2046,False,9
+P6,Bx,Surgery,myc_ribosome,-1.4276770462741069,0.4285686935517608,True,5239,6,True,3
+P6,Bx,Surgery,polyamine,-2.635066351513573,-0.19484088233480365,True,5239,6,True,3
+P7,Bx,Surgery,myc_ribosome,-1.0502758118138993,0.18724275972198112,True,2837,255,False,8
+P7,Bx,Surgery,polyamine,-1.5538957015426316,0.13592899210319387,True,2837,255,False,8

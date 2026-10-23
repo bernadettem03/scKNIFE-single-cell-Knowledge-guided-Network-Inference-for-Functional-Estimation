@@ -1,35 +1,8 @@
-# Large/private archive material
-private_archive/
-zenodo_staging/
-*.svg
-!Figure_4/outputs/Figure_4.svg
-!Figure_4/outputs/Figure_4_main_panel.svg
-!Figure_4/outputs/panels/Figure_4_?.svg
-*.tif
-*.tiff
-
-# Download and partial files
-downloads/
-*.part
-*.tmp
-
-# Python and notebook caches
 __pycache__/
-*.py[cod]
+*.pyc
 .ipynb_checkpoints/
-.pytest_cache/
-.mypy_cache/
-
-# Execution debris
-.execution_staging/
-logs/
-*.log
-*.orig
-
-# Editors and operating systems
-.DS_Store
-Thumbs.db
-*~
-*.swp
-*.swo
+**/analysis/
+**/review/
+**/archive_legacy*/
+*pre_adduct_*/
 Figure_4/data/fig4_plot_data.h5

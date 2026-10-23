@@ -1,0 +1,338 @@
+{
+  "revision": "figure5_s5b_ng7_tasks_20261005",
+  "renderer": "Matplotlib fallback (Python 3.9; cnsplots unavailable)",
+  "vector_text": {
+    "font_family": "DejaVu Sans",
+    "pdf_font_type": 42,
+    "pdf_text_mode": "editable_truetype",
+    "svg_font_type": "none",
+    "svg_text_mode": "editable_text"
+  },
+  "patient_id_metadata": {
+    "source": "data/patient_id_mapping.csv",
+    "visual_labels": "P1-P7",
+    "mapping": [
+      {
+        "display_id": "P1",
+        "patient_id": "P1"
+      },
+      {
+        "display_id": "P2",
+        "patient_id": "P2"
+      },
+      {
+        "display_id": "P3",
+        "patient_id": "P3"
+      },
+      {
+        "display_id": "P4",
+        "patient_id": "P4"
+      },
+      {
+        "display_id": "P5",
+        "patient_id": "P5"
+      },
+      {
+        "display_id": "P6",
+        "patient_id": "P6"
+      },
+      {
+        "display_id": "P7",
+        "patient_id": "P7"
+      }
+    ]
+  },
+  "connection_panel": {
+    "panel": "Main E",
+    "layers": [
+      "NG",
+      "CC",
+      "epithelial cell type",
+      "patient"
+    ],
+    "association_edge_count": 162,
+    "observed_count_edge_count": 63,
+    "observed_cell_total": 36963,
+    "count_width_transform": "log10(n + 1)",
+    "count_labels": "exact n",
+    "interpretation": "association layers are not literal cell flow; observed cell counts enter only at cell type to patient",
+    "inferential_tests": false
+  },
+  "canvas_mm": {
+    "width": 360.0,
+    "height": 500.94
+  },
+  "panel_order": [
+    "A",
+    "E",
+    "G",
+    "H"
+  ],
+  "violin_presentation": {
+    "panel": "H",
+    "grouping": "P4/P1 depth-matched Site",
+    "nodes": {
+      "P4": [
+        "TAP1",
+        "NFKB2",
+        "COL6A1"
+      ],
+      "P1": [
+        "IFI27",
+        "CD74",
+        "APOL6"
+      ]
+    },
+    "interpretation": "descriptive inferred activity in matched cell samples from two patients",
+    "inferential_tests": false
+  },
+  "panels": {
+    "A": {
+      "revision": "figure5_s5b_ng7_tasks_20261005",
+      "grouping": "celltype_minor",
+      "content": "180 W-node enrichments, 20 rows and five representative labels per node group",
+      "formats": [
+        "png",
+        "pdf",
+        "svg"
+      ],
+      "mode": "standalone_data_driven_figure",
+      "renderer": "matplotlib_fallback",
+      "matplotlib_version": "3.9.2",
+      "font_family": "DejaVu Sans",
+      "pdf_font_type": 42,
+      "pdf_text_mode": "editable_truetype",
+      "svg_font_type": "none",
+      "svg_text_mode": "editable_text",
+      "svg_raster_images": null,
+      "saved_in_individual_notebook_cell": true,
+      "compiled_canvas_crop": false,
+      "fixed_canvas_export": false,
+      "export_bounds": "content_aware_tight",
+      "metadata_tracks": [],
+      "data_lineage_kind": "data",
+      "intermediate_inputs": [
+        {
+          "path": "inhouse_epithelial_W_graph.parquet"
+        },
+        {
+          "path": "node_metadata.csv"
+        }
+      ],
+      "data_extractor": "extractor_scripts/extract_figure_5_data.py",
+      "extraction_mode": "canonical_result_copy"
+    },
+    "E": {
+      "revision": "figure5_s5b_ng7_tasks_20261005",
+      "grouping": "NG/CC/celltype/patient",
+      "content": "NG to CC to epithelial-state associations extended to observed P1\u2013P7 cell counts",
+      "formats": [
+        "png",
+        "pdf",
+        "svg"
+      ],
+      "mode": "standalone_data_driven_figure",
+      "renderer": "matplotlib_fallback",
+      "matplotlib_version": "3.9.2",
+      "font_family": "DejaVu Sans",
+      "pdf_font_type": 42,
+      "pdf_text_mode": "editable_truetype",
+      "svg_font_type": "none",
+      "svg_text_mode": "editable_text",
+      "svg_raster_images": null,
+      "saved_in_individual_notebook_cell": true,
+      "compiled_canvas_crop": false,
+      "fixed_canvas_export": false,
+      "export_bounds": "content_aware_tight",
+      "metadata_tracks": [],
+      "data_lineage_kind": "data",
+      "intermediate_inputs": [
+        {
+          "path": "inhouse_epithelial_W_graph.parquet"
+        },
+        {
+          "path": "node_metadata.csv"
+        },
+        {
+          "path": "epithelial_H_cell_metadata.parquet"
+        },
+        {
+          "path": "bridge_manifest.json"
+        }
+      ],
+      "data_extractor": "extractor_scripts/extract_figure_5_data.py",
+      "extraction_mode": "canonical_result_copy"
+    },
+    "G": {
+      "revision": "figure5_s5b_ng7_tasks_20261005",
+      "grouping": "celltype_minor",
+      "content": "Cell-level program activity with P1\u2013P7 metadata tracks",
+      "formats": [
+        "png",
+        "pdf",
+        "svg"
+      ],
+      "mode": "standalone_data_driven_figure",
+      "renderer": "matplotlib_fallback",
+      "matplotlib_version": "3.9.2",
+      "font_family": "DejaVu Sans",
+      "pdf_font_type": 42,
+      "pdf_text_mode": "editable_truetype",
+      "svg_font_type": "none",
+      "svg_text_mode": "editable_text",
+      "svg_raster_images": null,
+      "saved_in_individual_notebook_cell": true,
+      "compiled_canvas_crop": false,
+      "fixed_canvas_export": false,
+      "export_bounds": "content_aware_tight",
+      "metadata_tracks": [
+        "Celltype",
+        "Sample type",
+        "Metastatic status",
+        "Patient",
+        "Treatment"
+      ],
+      "data_lineage_kind": "data",
+      "intermediate_inputs": [
+        {
+          "path": "inhouse_epithelial_W_graph.parquet"
+        },
+        {
+          "path": "node_metadata.csv"
+        },
+        {
+          "path": "epithelial_H_cell_metadata.parquet"
+        },
+        {
+          "path": "bridge_manifest.json"
+        }
+      ],
+      "data_extractor": "extractor_scripts/extract_figure_5_data.py",
+      "extraction_mode": "canonical_result_copy"
+    },
+    "H": {
+      "revision": "figure5_s5b_ng7_tasks_20261005",
+      "grouping": "P4 and P1 depth-matched Site",
+      "content": "P4 and P1 matched-cell NG1/NG8 node activity trajectories",
+      "formats": [
+        "png",
+        "pdf",
+        "svg"
+      ],
+      "mode": "standalone_data_driven_figure",
+      "renderer": "matplotlib_fallback",
+      "matplotlib_version": "3.9.2",
+      "font_family": "DejaVu Sans",
+      "pdf_font_type": 42,
+      "pdf_text_mode": "editable_truetype",
+      "svg_font_type": "none",
+      "svg_text_mode": "editable_text",
+      "svg_raster_images": null,
+      "saved_in_individual_notebook_cell": true,
+      "compiled_canvas_crop": false,
+      "fixed_canvas_export": false,
+      "export_bounds": "content_aware_tight",
+      "metadata_tracks": [],
+      "data_lineage_kind": "data",
+      "intermediate_inputs": [
+        {
+          "path": "inhouse_epithelial_W_graph.parquet"
+        },
+        {
+          "path": "node_metadata.csv"
+        },
+        {
+          "path": "epithelial_H_cell_metadata.parquet"
+        },
+        {
+          "path": "bridge_manifest.json"
+        }
+      ],
+      "data_extractor": "extractor_scripts/extract_figure_5_data.py",
+      "extraction_mode": "canonical_result_copy"
+    }
+  },
+  "program_names_in_main": false,
+  "neutral_program_ids_in_main": true,
+  "excluded_node_kinds": [
+    "cell_type",
+    "cell_state"
+  ],
+  "display_panel_order": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h",
+    "i",
+    "j"
+  ],
+  "display_panel_map": {
+    "a": "A",
+    "b": "E",
+    "c": "H:P4:TAP1",
+    "d": "H:P4:NFKB2",
+    "e": "H:P4:COL6A1",
+    "f": "H:P1:IFI27",
+    "g": "H:P1:CD74",
+    "h": "H:P1:APOL6",
+    "i": "compiled:P4 schematic",
+    "j": "G"
+  },
+  "paired_node_display": {
+    "patients": {
+      "P4": 434,
+      "P1": 1681
+    },
+    "nodes": {
+      "P4": [
+        "TAP1",
+        "NFKB2",
+        "COL6A1"
+      ],
+      "P1": [
+        "IFI27",
+        "CD74",
+        "APOL6"
+      ]
+    },
+    "summary": "Figure_5_P1_P4_matched_violin_summary.csv",
+    "cell_activity": "Figure_5_P1_P4_matched_node_activity.csv",
+    "inferential_tests": false
+  },
+  "ng7_trajectory": {
+    "program": "NG7",
+    "x_nodes": [
+      "MYC",
+      "TCOF1",
+      "DDX21",
+      "NCL"
+    ],
+    "y_nodes": [
+      "ADMDC",
+      "S-adenosyl-L-methionine synthesis",
+      "Synthesis of spermidine from ornithine"
+    ],
+    "cells": 36963,
+    "specimens": 15,
+    "patients": 7,
+    "all_cells_used": true,
+    "low_cell_threshold": 20,
+    "low_cell_specimens": [
+      {
+        "patient": "P6",
+        "Site": "Surgery",
+        "cells": 6
+      }
+    ],
+    "score": "Mean of globally standardized log1p(max(H @ W_node, 0)) scores; specimen mean over all cells",
+    "arrows": "Specimen sequence, not elapsed time or lineage",
+    "sensitivity": "Within-patient OLS with log1p(total_counts), site, and minor cell-type label; descriptive only",
+    "caveat": "Both axes share H/W reconstruction; correlation is not independent mechanistic evidence",
+    "inferential_tests": false
+  },
+  "panel_i_source": "outputs/panels/Figure_5_i_schematic.pdf"
+}

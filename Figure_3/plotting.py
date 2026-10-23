@@ -145,11 +145,11 @@ TREATMENT_PANELS = [
         "expected_patients": (5, 7),
     },
     {
-        "association_id": "BASSEZ_B_TCELL_GLUTAMINE",
-        "cohort": "Bassez B", "comparison": "Pre→On", "on_timepoint": "On",
-        "cell_type": "T cell", "task": "Gluconeogenesis from Glutamine",
-        "display_task": "Gluconeogenesis from glutamine", "group_labels": ("E", "NE"),
-        "expected_patients": (3, 3),
+        "association_id": "BASSEZ_A_BCELL_ENDOSOMAL_TRAFFICKING",
+        "cohort": "Bassez A", "comparison": "Pre→On", "on_timepoint": "On",
+        "cell_type": "B cell", "task": "Trafficking to endosomes (Clathrin Vesicles)",
+        "display_task": "Clathrin-dependent endosomal trafficking", "group_labels": ("E", "NE"),
+        "expected_patients": (5, 4),
     },
     {
         "association_id": "SHIAO_RTPD1_FIBRO_ALANINE",
@@ -167,6 +167,19 @@ TREATMENT_PANELS = [
     },
 ]
 
+BASELINE_PANELS = {
+    "E": {
+        "endpoint": "R/NR", "cohorts": ("Shiao",), "group_labels": ("R", "NR"),
+        "cell_type": "Tumor/epithelial", "task": "Phosphatidyl-inositol synthesis",
+        "screen_key": "rnr_full_screen.csv", "expected_patients": ((10, 6),),
+    },
+    "F": {
+        "endpoint": "E/NE", "cohorts": ("Bassez A", "Bassez B"), "group_labels": ("E", "NE"),
+        "cell_type": "Tumor/epithelial", "task": "Gluconeogenesis from Lactate",
+        "screen_key": "ene_full_screen.csv", "expected_patients": ((5, 7), (3, 2)),
+    },
+}
+
 EVIDENCE = [
     {
         "association_id": "RNR_TUMOR_ARACHIDONATE", "panel": "S3_A", "endpoint": "R/NR",
@@ -180,7 +193,7 @@ EVIDENCE = [
         "cross_endpoint_convergence": False,
     },
     {
-        "association_id": "RNR_TCELL_ERAD", "panel": "E", "endpoint": "R/NR",
+        "association_id": "RNR_TCELL_ERAD", "panel": "S3_A", "endpoint": "R/NR",
         "cohort_scope": "Shiao", "cell_type": "T cell", "task": ERAD,
         "direction": "higher in NR", "statistical_rank": 27,
         "evidence_tier": "Close immune mechanism",
@@ -191,7 +204,7 @@ EVIDENCE = [
         "cross_endpoint_convergence": True,
     },
     {
-        "association_id": "ENE_MYELOID_GLYCOGEN", "panel": "F", "endpoint": "E/NE",
+        "association_id": "ENE_MYELOID_GLYCOGEN", "panel": "S3_A", "endpoint": "E/NE",
         "cohort_scope": "Bassez A + B", "cell_type": "Myeloid", "task": GLYCOGEN,
         "direction": "higher in E", "statistical_rank": 3,
         "evidence_tier": "Close macrophage mechanism",
@@ -358,6 +371,82 @@ def _box_panel(ax, letter, cell_type, task, patient, cohorts, group_labels, scre
         ax.spines[spine].set_visible(False)
     ax.grid(False)
 
+def _screen_box(ax, letter, patient, screen, specification, show_ylabel=True):
+    """Render a ranked baseline candidate using patient-level screen statistics only."""
+    cohorts = specification["cohorts"]
+    group_labels = specification["group_labels"]
+    cell_type = specification["cell_type"]
+    task = specification["task"]
+    arrays, positions, colors, tick_labels = [], [], [], []
+    position = 0.0
+    rng = np.random.default_rng(RANDOM_SEED + ord(letter))
+    for cohort_index, cohort in enumerate(cohorts):
+        block = patient.loc[
+            patient.cohort.eq(cohort) & patient.cell_type.eq(cell_type) & patient.task.eq(task)
+        ]
+        expected_counts = specification["expected_patients"][cohort_index]
+        for group_index, (status, label, color) in enumerate(zip(
+            ("Favorable", "Unfavorable"), group_labels, (FAV_COLOR, UNFAV_COLOR)
+        )):
+            values = block.loc[block.status.eq(status), "log2_median_score"].to_numpy()
+            if len(values) != expected_counts[group_index]:
+                raise RuntimeError(
+                    f"Unexpected patient count for panel {letter}/{cohort}/{label}: "
+                    f"{len(values)} != {expected_counts[group_index]}"
+                )
+            arrays.append(values)
+            positions.append(position)
+            colors.append(color)
+            short_cohort = cohort.replace("Bassez ", "B")
+            tick_labels.append(
+                f"{label}\n(n={len(values)})" if len(cohorts) == 1
+                else f"{short_cohort}\n{label} (n={len(values)})"
+            )
+            ax.scatter(position + rng.uniform(-0.11, 0.11, len(values)), values, s=10,
+                       facecolor="white", edgecolor=color, lw=0.6, zorder=3)
+            position += 1.0
+        position += 0.65
+    boxes = ax.boxplot(
+        arrays, positions=positions, widths=0.55, patch_artist=True, showfliers=False,
+        medianprops={"color": "#222222", "linewidth": 0.8},
+        whiskerprops={"linewidth": 0.65}, capprops={"linewidth": 0.65},
+        boxprops={"linewidth": 0.65},
+    )
+    for box, color in zip(boxes["boxes"], colors):
+        box.set_facecolor(color)
+        box.set_alpha(0.38)
+    ax.set_xticks(positions, tick_labels, fontsize=TICK_SIZE_PT)
+    _format_activity_axis(ax, show_ylabel=show_ylabel)
+    display_cell_type = "Tumor" if cell_type == "Tumor/epithelial" else cell_type
+    wrapped_task = "\n".join(textwrap.wrap(task, width=28, break_long_words=False))
+    ax.set_title(
+        f"{letter}  {display_cell_type} · {specification['endpoint']}\n{wrapped_task}",
+        loc="left", fontsize=TITLE_SIZE_PT - 1, fontweight="bold", pad=3,
+    )
+    summaries = []
+    for cohort in cohorts:
+        row = screen.loc[
+            screen.cohort.eq(cohort) & screen.cell_type.eq(cell_type) & screen.task.eq(task)
+        ].iloc[0]
+        prefix = "" if len(cohorts) == 1 else cohort.replace("Bassez ", "B") + ": "
+        summaries.append(
+            f"{prefix}δ={row.delta_group_b_vs_a:+.2f} "
+            f"[{row.ci_low:.2f}, {row.ci_high:.2f}], "
+            f"p={row.exact_permutation_p:.3g}, q={row.exact_permutation_q:.3g}"
+        )
+    # Reserve an in-panel footer for patient-level statistics.  Keeping these
+    # inside the axes prevents them colliding with the longitudinal row below.
+    lower, upper = ax.get_ylim()
+    footer_fraction = .18 if len(summaries) == 1 else .27
+    ax.set_ylim(lower - footer_fraction * (upper - lower), upper)
+    ax.text(0.5, .025, "\n".join(summaries), transform=ax.transAxes,
+            ha="center", va="bottom", fontsize=NOTE_SIZE_PT,
+            bbox={"facecolor": "white", "edgecolor": "none", "alpha": .88, "pad": 1.0})
+    ax.tick_params(axis="y", labelsize=TICK_SIZE_PT)
+    for spine in ("top", "right"):
+        ax.spines[spine].set_visible(False)
+    ax.grid(False)
+
 def _save_v8(fig, stem):
     result = {}
     for extension in ('png', 'pdf', ):
@@ -483,51 +572,29 @@ def _add_de_bracket(ax, left, right, y, height, label):
     ax.text((left + right) / 2, y + height, f'q={label}', ha='center', va='bottom', fontsize=NOTE_SIZE_PT, color='#444444')
 
 def _treatment_box(ax, letter, patient, statistics, association_id):
+    """Treatment-minus-baseline patient deltas grouped by outcome."""
     item = next((x for x in TREATMENT_PANELS if x['association_id'] == association_id))
-    block = patient.loc[patient.association_id.eq(association_id)].copy()
+    delta = _patient_delta_table(patient, association_id)
     stat = statistics.loc[statistics.association_id.eq(association_id)].copy()
-    positions = [0.0, 1.0, 2.0 + PAIR_GAP, 3.0 + PAIR_GAP]
-    statuses = ('Favorable', 'Unfavorable')
-    colors = (FAV_COLOR, UNFAV_COLOR)
-    arrays = []
-    tick_labels = []
-    point_records = []
+    positions = [0.0, 1.0]
+    arrays = [delta.loc[delta.status.eq(status), 'delta_log2'].to_numpy()
+              for status in ('Favorable', 'Unfavorable')]
     rng = np.random.default_rng(RANDOM_SEED + ord(letter))
-    for (group_index, (status, group_label, color)) in enumerate(zip(statuses, item['group_labels'], colors)):
-        group = block.loc[block.status.eq(status)].copy()
-        wide = group.pivot(index='patient', columns='timepoint_order', values='log2_median_score')
-        if list(wide.columns) != [0, 1] or wide.isna().any().any():
-            raise RuntimeError(f'Incomplete paired values for {association_id}/{group_label}')
-        jitter = rng.uniform(-0.1, 0.1, len(wide))
-        group_positions = positions[group_index * 2:group_index * 2 + 2]
-        for (timepoint_order, position) in enumerate(group_positions):
-            values = wide[timepoint_order].to_numpy()
-            arrays.append(values)
-            timepoint = group.loc[group.timepoint_order.eq(timepoint_order), 'timepoint'].iloc[0]
-            tick_labels.append(f'{group_label}\n{timepoint}')
-            point_records.append((position, jitter, values, color))
     boxes = ax.boxplot(arrays, positions=positions, widths=BOX_WIDTH, patch_artist=True, showfliers=False, medianprops={'color': '#222222', 'linewidth': 0.8}, whiskerprops={'linewidth': 0.65}, capprops={'linewidth': 0.65}, boxprops={'linewidth': 0.65})
-    for (index, (box, color)) in enumerate(zip(boxes['boxes'], colors * 2)):
-        box.set_facecolor(colors[index // 2])
-        box.set_alpha(PRE_BOX_ALPHA if index % 2 == 0 else ON_BOX_ALPHA)
-    for (position, jitter, values, color) in point_records:
+    for box, color in zip(boxes['boxes'], (FAV_COLOR, UNFAV_COLOR)):
+        box.set_facecolor(color)
+        box.set_alpha(0.22)
+    for position, values, color in zip(positions, arrays, (FAV_COLOR, UNFAV_COLOR)):
+        jitter = rng.uniform(-DELTA_JITTER_WIDTH, DELTA_JITTER_WIDTH, len(values))
         ax.scatter(position + jitter, values, s=PATIENT_POINT_SIZE, facecolor='white', edgecolor=color, lw=PATIENT_POINT_EDGE_WIDTH, zorder=3)
-    values = block.log2_median_score.to_numpy()
-    (low, high) = (float(values.min()), float(values.max()))
-    span = max(high - low, 0.5)
-    bracket_y = high + BRACKET_OFFSET_FRACTION * span
-    bracket_height = BRACKET_HEIGHT_FRACTION * span
-    for (group_index, group_label) in enumerate(item['group_labels']):
-        q_value = float(stat.loc[stat.group_label.eq(group_label), 'de_adj_p_value'].iloc[0])
-        (left, right) = positions[group_index * 2:group_index * 2 + 2]
-        _add_de_bracket(ax, left, right, bracket_y, bracket_height, _format_adjusted_p(q_value))
-    ax.set_ylim(low - 0.08 * span, bracket_y + 0.2 * span)
-    ax.set_xticks(positions, tick_labels, fontsize=TICK_SIZE_PT)
-    _format_activity_axis(ax)
+    ax.axhline(0, color=DELTA_ZERO_LINE_COLOR, linewidth=DELTA_ZERO_LINE_WIDTH, linestyle='--', zorder=1)
+    ax.set_xticks(positions, item['group_labels'], fontsize=TICK_SIZE_PT)
+    ax.set_ylabel('Treatment − baseline\nΔ log2(patient median activity)', fontsize=NOTE_SIZE_PT)
     display_cell_type = 'Tumor' if item['cell_type'] == 'Tumor/epithelial' else item['cell_type']
     ax.set_title(f"{letter}  {item['cohort']} · {display_cell_type}\n" + '\n'.join(textwrap.wrap(f"{item['comparison']} · {item['display_task']}", 28)), loc='left', fontsize=TITLE_SIZE_PT - 1.2, fontweight='bold', pad=3)
-    interaction_p = float(stat.patient_interaction_p.iloc[0])
-    ax.text(0.5, -0.27, f'Exact between-group Δ p={interaction_p:.2g}', transform=ax.transAxes, ha='center', fontsize=NOTE_SIZE_PT)
+    p_value = float(stat.patient_interaction_p.iloc[0])
+    effect = _cliffs_delta(arrays[1], arrays[0])
+    ax.text(0.5, -0.22, f'n={len(arrays[0])}/{len(arrays[1])}  ·  δ={effect:+.3f}  ·  exact P={p_value:.3g}', transform=ax.transAxes, ha='center', fontsize=NOTE_SIZE_PT)
     ax.tick_params(axis='y', labelsize=TICK_SIZE_PT)
     for spine in ('top', 'right'):
         ax.spines[spine].set_visible(False)
@@ -540,7 +607,7 @@ def _treatment_figure(paths):
     grid = fig.add_gridspec(1, 4, left=0.055, right=0.992, bottom=0.25, top=0.78, wspace=0.58)
     for (axis, letter, item) in zip([fig.add_subplot(grid[0, index]) for index in range(4)], 'ABCD', TREATMENT_PANELS):
         _treatment_box(axis, letter, patient, statistics, item['association_id'])
-    fig.text(0.5, 0.035, 'Paired points are patient medians (≥20 cells at both timepoints) · q = DE BH-adjusted pooled-cell Wilcoxon p, descriptive only · Bassez E/NE denotes clonotype expansion', ha='center', fontsize=NOTE_SIZE_PT, color='#555555')
+    fig.text(0.5, 0.035, "One point per paired patient (≥20 target cells/timepoint) · δ = Cliff's delta (unfavorable minus favorable) · exact two-sided Mann–Whitney P · Bassez E/NE denotes clonotype expansion", ha='center', fontsize=NOTE_SIZE_PT, color='#555555')
     return fig
 
 def _patient_delta_table(patient, association_id):
@@ -601,19 +668,25 @@ def _supplementary_patient_deltas(paths):
 def _main(root, paths):
     v8 = prepare_v8_data(root, force=False)
     patient = pd.read_csv(v8['eligible_patient_scores.csv.gz'])
-    effects = pd.read_csv(paths['effects'])
+    baseline_screens = {
+        "rnr_full_screen.csv": pd.read_csv(v8["rnr_full_screen.csv"]),
+        "ene_full_screen.csv": pd.read_csv(v8["ene_full_screen.csv"]),
+    }
     treatment_patient = pd.read_csv(paths['treatment_patient'])
     treatment_statistics = pd.read_csv(paths['treatment_statistics'])
     fig = plt.figure(figsize=(MAIN_WIDTH_MM * MM, 165 * MM))
-    outer = fig.add_gridspec(3, 1, height_ratios=(0.82, 0.52, 0.68), hspace=0.42, left=0.055, right=0.992, bottom=0.06, top=0.985)
+    outer = fig.add_gridspec(3, 1, height_ratios=(0.82, 0.52, 0.68), hspace=0.42, left=0.070, right=0.992, bottom=0.12, top=0.985)
     _upset(fig.add_subplot(outer[0]), root)
     baseline = outer[1].subgridspec(1, 2, wspace=0.38)
-    for (ax, spec) in zip([fig.add_subplot(baseline[0, j]) for j in range(2)], [('E', 'RNR_TCELL_ERAD', 'R/NR'), ('F', 'ENE_MYELOID_GLYCOGEN', 'E/NE')]):
-        _box(ax, spec[0], patient, effects, spec[1], spec[2])
+    for ax, letter in zip([fig.add_subplot(baseline[0, j]) for j in range(2)], "EF"):
+        specification = BASELINE_PANELS[letter]
+        _screen_box(ax, letter, patient, baseline_screens[specification["screen_key"]], specification)
     longitudinal = outer[2].subgridspec(1, 4, wspace=0.58)
     for (axis, letter, item) in zip([fig.add_subplot(longitudinal[0, j]) for j in range(4)], 'GHIJ', TREATMENT_PANELS):
         _treatment_box(axis, letter, treatment_patient, treatment_statistics, item['association_id'])
-    fig.text(0.5, 0.008, 'Patient medians are the biological replicate · pooled-cell Wilcoxon/BH values are descriptive · Bassez E/NE denotes clonotype expansion, not clinical response', ha='center', fontsize=NOTE_SIZE_PT, color='#555555')
+        if letter != 'G':
+            axis.set_ylabel('')
+    fig.text(0.5, 0.012, 'Patient medians are the biological replicate · pooled-cell Wilcoxon/BH values are descriptive · Bassez E/NE denotes clonotype expansion, not clinical response', ha='center', fontsize=NOTE_SIZE_PT, color='#555555')
     return fig
 
 def _save_full_canvas(fig, stem, close=True):
@@ -795,12 +868,13 @@ def render_main_method_overlap():
     _upset(ax, ROOT)
     return fig
 
-def render_main_baseline(letter, association_id, endpoint_title):
+def render_main_baseline(letter):
     patient_frame = pd.read_csv(DATA_DIR / 'eligible_patient_scores.csv.gz')
-    effects_frame = pd.read_csv(PLOT_PATHS['effects'])
+    specification = BASELINE_PANELS[letter]
+    screen_frame = pd.read_csv(DATA_DIR / specification['screen_key'])
     (fig, ax) = plt.subplots(figsize=(86 * MM, 62 * MM))
-    fig.subplots_adjust(left=0.2, right=0.97, bottom=0.2, top=0.84)
-    _box(ax, letter, patient_frame, effects_frame, association_id, endpoint_title)
+    fig.subplots_adjust(left=0.2, right=0.97, bottom=0.28, top=0.84)
+    _screen_box(ax, letter, patient_frame, screen_frame, specification)
     return fig
 
 def render_main_longitudinal(letter, association_id):
@@ -825,8 +899,8 @@ def render_all_main_panels():
     figures = {letter: render_main_method_overlap_single(letter) for letter in "ABCD"}
     figures.update({
       "A-D": render_main_method_overlap(),
-      "E": render_main_baseline("E", "RNR_TCELL_ERAD", "R/NR"),
-      "F": render_main_baseline("F", "ENE_MYELOID_GLYCOGEN", "E/NE"),
+      "E": render_main_baseline("E"),
+      "F": render_main_baseline("F"),
     })
     for letter, item in zip("GHIJ", TREATMENT_PANELS):
         figures[letter] = render_main_longitudinal(letter, item["association_id"])

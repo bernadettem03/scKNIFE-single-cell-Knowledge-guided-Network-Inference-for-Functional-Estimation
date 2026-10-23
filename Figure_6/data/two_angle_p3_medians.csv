@@ -1,0 +1,10 @@
+metabolite,display_name,Timepoint,median_activity,n_cells
+2_phosphoglycolate,2-phosphoglycolate,Bx,0.5954706966876984,154
+2_phosphoglycolate,2-phosphoglycolate,Recurrence,0.5933998823165894,790
+2_phosphoglycolate,2-phosphoglycolate,Surgery,0.4721710979938507,317
+selenocystathionine,Selenocystathionine,Bx,0.3368944674730301,154
+selenocystathionine,Selenocystathionine,Recurrence,0.3172713667154312,790
+selenocystathionine,Selenocystathionine,Surgery,0.232196033000946,317
+tRNA_containing_6_isopentenyladenosine,tRNA containing 6-isopentenyladenosine,Bx,0.3640522807836532,154
+tRNA_containing_6_isopentenyladenosine,tRNA containing 6-isopentenyladenosine,Recurrence,0.36487114429473877,790
+tRNA_containing_6_isopentenyladenosine,tRNA containing 6-isopentenyladenosine,Surgery,0.2679848372936249,317

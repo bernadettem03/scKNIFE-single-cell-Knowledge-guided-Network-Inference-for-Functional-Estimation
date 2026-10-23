@@ -1,0 +1,1219 @@
+"label","gene","pairwise_frequency"
+"B cells Memory","ACTB",1
+"B cells Memory","ARHGAP24",1
+"B cells Memory","B2M",7
+"B cells Memory","BANK1",7
+"B cells Memory","BTG1",17
+"B cells Memory","CD37",27
+"B cells Memory","CD52",22
+"B cells Memory","CD69",15
+"B cells Memory","CD74",22
+"B cells Memory","CD79A",26
+"B cells Memory","CD79B",1
+"B cells Memory","CD83",8
+"B cells Memory","CORO1A",3
+"B cells Memory","CXCR4",20
+"B cells Memory","CYBA",1
+"B cells Memory","DNAJA1",1
+"B cells Memory","DNAJB1",1
+"B cells Memory","EEF1B2",10
+"B cells Memory","EIF1",1
+"B cells Memory","FTL",1
+"B cells Memory","HSP90AA1",1
+"B cells Memory","HSPA1A",1
+"B cells Memory","HSPA1B",1
+"B cells Memory","HSPA8",1
+"B cells Memory","HSPE1",1
+"B cells Memory","IRF8",2
+"B cells Memory","KLF6",1
+"B cells Memory","LAPTM5",19
+"B cells Memory","LTB",4
+"B cells Memory","MEF2C",4
+"B cells Memory","MS4A1",27
+"B cells Memory","MT-ND2",1
+"B cells Memory","MT-ND3",2
+"B cells Memory","PPP1R15A",1
+"B cells Memory","SMIM14",3
+"B cells Memory","TMSB10",2
+"B cells Memory","TMSB4X",5
+"B cells Memory","TSC22D3",9
+"B cells Memory","TXNIP",1
+"B cells Memory","UBA52",1
+"B cells Memory","UBC",1
+"B cells Naive","B2M",5
+"B cells Naive","BACH2",1
+"B cells Naive","BTG1",27
+"B cells Naive","CD37",27
+"B cells Naive","CD52",23
+"B cells Naive","CD74",22
+"B cells Naive","CD79A",27
+"B cells Naive","CD79B",1
+"B cells Naive","CD83",4
+"B cells Naive","CXCR4",22
+"B cells Naive","CYBA",5
+"B cells Naive","EEF1B2",3
+"B cells Naive","FCER2",1
+"B cells Naive","FCMR",3
+"B cells Naive","IGHD",1
+"B cells Naive","IGHM",3
+"B cells Naive","IL4R",1
+"B cells Naive","LAPTM5",22
+"B cells Naive","LIMD2",4
+"B cells Naive","LTB",1
+"B cells Naive","MEF2C",1
+"B cells Naive","MS4A1",25
+"B cells Naive","PFDN5",1
+"B cells Naive","SARAF",1
+"B cells Naive","STK17A",2
+"B cells Naive","TCL1A",12
+"B cells Naive","TMSB10",2
+"B cells Naive","TMSB4X",7
+"B cells Naive","TSC22D3",8
+"B cells Naive","TXNIP",16
+"B cells Naive","UBA52",1
+"B cells Naive","VPREB3",1
+"CAFs MSC iCAF-like","APOD",15
+"CAFs MSC iCAF-like","C1S",26
+"CAFs MSC iCAF-like","CALD1",16
+"CAFs MSC iCAF-like","CD63",3
+"CAFs MSC iCAF-like","COL1A1",3
+"CAFs MSC iCAF-like","COL1A2",18
+"CAFs MSC iCAF-like","COL6A2",5
+"CAFs MSC iCAF-like","COL6A3",1
+"CAFs MSC iCAF-like","CST3",4
+"CAFs MSC iCAF-like","CTSK",10
+"CAFs MSC iCAF-like","CXCL12",8
+"CAFs MSC iCAF-like","DCN",27
+"CAFs MSC iCAF-like","EGR1",1
+"CAFs MSC iCAF-like","FBLN1",2
+"CAFs MSC iCAF-like","FOS",1
+"CAFs MSC iCAF-like","FTL",5
+"CAFs MSC iCAF-like","GSN",10
+"CAFs MSC iCAF-like","IFITM3",9
+"CAFs MSC iCAF-like","IGFBP4",5
+"CAFs MSC iCAF-like","JUN",1
+"CAFs MSC iCAF-like","JUNB",1
+"CAFs MSC iCAF-like","LGALS1",5
+"CAFs MSC iCAF-like","LUM",27
+"CAFs MSC iCAF-like","MFAP4",2
+"CAFs MSC iCAF-like","MGP",8
+"CAFs MSC iCAF-like","MMP2",2
+"CAFs MSC iCAF-like","PTGDS",2
+"CAFs MSC iCAF-like","RARRES2",6
+"CAFs MSC iCAF-like","S100A6",3
+"CAFs MSC iCAF-like","SERPINF1",11
+"CAFs MSC iCAF-like","SERPING1",20
+"CAFs MSC iCAF-like","SFRP2",4
+"CAFs MSC iCAF-like","TIMP1",7
+"CAFs MSC iCAF-like","TMSB4X",2
+"CAFs MSC iCAF-like","VIM",8
+"CAFs MSC iCAF-like","ZFP36",1
+"CAFs MSC iCAF-like","ZFP36L2",1
+"CAFs myCAF-like","AEBP1",1
+"CAFs myCAF-like","C1S",3
+"CAFs myCAF-like","CALD1",17
+"CAFs myCAF-like","CD63",3
+"CAFs myCAF-like","CD99",1
+"CAFs myCAF-like","COL1A1",28
+"CAFs myCAF-like","COL1A2",28
+"CAFs myCAF-like","COL3A1",28
+"CAFs myCAF-like","COL5A1",1
+"CAFs myCAF-like","COL5A2",1
+"CAFs myCAF-like","COL6A1",10
+"CAFs myCAF-like","COL6A2",19
+"CAFs myCAF-like","COL6A3",16
+"CAFs myCAF-like","CTHRC1",2
+"CAFs myCAF-like","CTSK",7
+"CAFs myCAF-like","DCN",27
+"CAFs myCAF-like","FN1",3
+"CAFs myCAF-like","IFITM3",7
+"CAFs myCAF-like","LGALS1",12
+"CAFs myCAF-like","LUM",27
+"CAFs myCAF-like","POSTN",3
+"CAFs myCAF-like","SERPING1",1
+"CAFs myCAF-like","SFRP2",5
+"CAFs myCAF-like","SPARC",22
+"CAFs myCAF-like","TIMP1",2
+"CAFs myCAF-like","VCAN",2
+"CAFs myCAF-like","VIM",4
+"Cancer Basal SC","ACTG1",1
+"Cancer Basal SC","ANXA2",2
+"Cancer Basal SC","B2M",1
+"Cancer Basal SC","CALD1",3
+"Cancer Basal SC","CALM2",1
+"Cancer Basal SC","CD24",19
+"Cancer Basal SC","CD74",2
+"Cancer Basal SC","CRYAB",1
+"Cancer Basal SC","CSTB",19
+"Cancer Basal SC","CYBA",2
+"Cancer Basal SC","DSTN",10
+"Cancer Basal SC","EEF1B2",3
+"Cancer Basal SC","EIF3E",1
+"Cancer Basal SC","ENO1",1
+"Cancer Basal SC","EPCAM",9
+"Cancer Basal SC","FABP5",3
+"Cancer Basal SC","FSCN1",1
+"Cancer Basal SC","FTH1",4
+"Cancer Basal SC","FTL",4
+"Cancer Basal SC","GSTP1",2
+"Cancer Basal SC","GUK1",1
+"Cancer Basal SC","HMGA1",2
+"Cancer Basal SC","HSP90AB1",1
+"Cancer Basal SC","KDELR2",1
+"Cancer Basal SC","KRT18",19
+"Cancer Basal SC","KRT19",2
+"Cancer Basal SC","KRT7",21
+"Cancer Basal SC","KRT8",20
+"Cancer Basal SC","LDHB",3
+"Cancer Basal SC","MARCKSL1",4
+"Cancer Basal SC","MDK",2
+"Cancer Basal SC","MGST1",24
+"Cancer Basal SC","NDUFA4",2
+"Cancer Basal SC","OPTN",1
+"Cancer Basal SC","PERP",15
+"Cancer Basal SC","PPIA",1
+"Cancer Basal SC","PPIB",1
+"Cancer Basal SC","PSMA7",2
+"Cancer Basal SC","S100A11",5
+"Cancer Basal SC","SERBP1",1
+"Cancer Basal SC","SERF2",1
+"Cancer Basal SC","SERP1",1
+"Cancer Basal SC","SLC25A6",1
+"Cancer Basal SC","SPINT2",13
+"Cancer Basal SC","TM4SF1",10
+"Cancer Basal SC","TMSB10",4
+"Cancer Basal SC","TSTD1",5
+"Cancer Basal SC","UBA52",7
+"Cancer Basal SC","UQCRH",11
+"Cancer Basal SC","VIM",5
+"Cancer Basal SC","YBX1",5
+"Cancer Cycling","ACTB",1
+"Cancer Cycling","ANXA2",5
+"Cancer Cycling","AP2S1",2
+"Cancer Cycling","BIRC5",2
+"Cancer Cycling","CALM2",1
+"Cancer Cycling","CD24",19
+"Cancer Cycling","CENPF",2
+"Cancer Cycling","CENPW",1
+"Cancer Cycling","CFL1",1
+"Cancer Cycling","CHCHD2",7
+"Cancer Cycling","CKS1B",1
+"Cancer Cycling","CSTB",3
+"Cancer Cycling","DBI",1
+"Cancer Cycling","DEK",2
+"Cancer Cycling","DSTN",10
+"Cancer Cycling","ENO1",2
+"Cancer Cycling","EPCAM",9
+"Cancer Cycling","GGCT",3
+"Cancer Cycling","HMGA1",5
+"Cancer Cycling","HMGB2",2
+"Cancer Cycling","IDH2",1
+"Cancer Cycling","KRT18",21
+"Cancer Cycling","KRT19",2
+"Cancer Cycling","KRT7",20
+"Cancer Cycling","KRT8",20
+"Cancer Cycling","LSM4",3
+"Cancer Cycling","MGST1",22
+"Cancer Cycling","MKI67",1
+"Cancer Cycling","PERP",16
+"Cancer Cycling","PFN1",1
+"Cancer Cycling","PKM",2
+"Cancer Cycling","PPDPF",1
+"Cancer Cycling","PPIA",1
+"Cancer Cycling","PRDX1",1
+"Cancer Cycling","PRDX2",1
+"Cancer Cycling","PSMA7",3
+"Cancer Cycling","PTTG1",2
+"Cancer Cycling","S100A10",1
+"Cancer Cycling","S100A11",3
+"Cancer Cycling","SERF2",2
+"Cancer Cycling","SNRPG",1
+"Cancer Cycling","SPINT2",14
+"Cancer Cycling","STMN1",17
+"Cancer Cycling","TK1",2
+"Cancer Cycling","TM4SF1",6
+"Cancer Cycling","TMSB10",5
+"Cancer Cycling","TSTD1",8
+"Cancer Cycling","TUBA1B",2
+"Cancer Cycling","TUBB",9
+"Cancer Cycling","TYMS",2
+"Cancer Cycling","UBE2C",2
+"Cancer Cycling","UBE2T",2
+"Cancer Cycling","UQCRH",3
+"Cancer Cycling","YBX1",3
+"Cancer Cycling","ZWINT",1
+"Cancer Her2 SC","ACTB",2
+"Cancer Her2 SC","ANXA2",1
+"Cancer Her2 SC","AP2S1",1
+"Cancer Her2 SC","AZGP1",8
+"Cancer Her2 SC","CD24",25
+"Cancer Her2 SC","CD9",1
+"Cancer Her2 SC","CD99",1
+"Cancer Her2 SC","CFL1",2
+"Cancer Her2 SC","CHCHD2",3
+"Cancer Her2 SC","CLDN4",15
+"Cancer Her2 SC","CRIP2",9
+"Cancer Her2 SC","DBI",4
+"Cancer Her2 SC","DSTN",11
+"Cancer Her2 SC","ENO1",1
+"Cancer Her2 SC","HEBP2",1
+"Cancer Her2 SC","HSPB1",1
+"Cancer Her2 SC","IDH2",11
+"Cancer Her2 SC","KRT18",22
+"Cancer Her2 SC","KRT19",2
+"Cancer Her2 SC","KRT7",24
+"Cancer Her2 SC","KRT8",20
+"Cancer Her2 SC","LGALS3",4
+"Cancer Her2 SC","LMTK3",1
+"Cancer Her2 SC","MARCKS",1
+"Cancer Her2 SC","MGST1",16
+"Cancer Her2 SC","MIF",6
+"Cancer Her2 SC","MUCL1",5
+"Cancer Her2 SC","NUPR1",1
+"Cancer Her2 SC","P4HB",1
+"Cancer Her2 SC","PERP",13
+"Cancer Her2 SC","PPDPF",11
+"Cancer Her2 SC","PPIA",1
+"Cancer Her2 SC","PSMA7",1
+"Cancer Her2 SC","RHOB",1
+"Cancer Her2 SC","S100A11",1
+"Cancer Her2 SC","SERF2",2
+"Cancer Her2 SC","SPDEF",3
+"Cancer Her2 SC","SPINT2",20
+"Cancer Her2 SC","TFAP2B",2
+"Cancer Her2 SC","TM4SF1",1
+"Cancer Her2 SC","TM7SF2",2
+"Cancer Her2 SC","TMSB10",6
+"Cancer Her2 SC","TMSB4X",1
+"Cancer Her2 SC","TNFSF10",1
+"Cancer Her2 SC","TSTD1",8
+"Cancer Her2 SC","UQCRH",1
+"Cancer Her2 SC","VAMP8",1
+"Cancer Her2 SC","XBP1",2
+"Cancer Her2 SC","YBX1",2
+"Cancer LumA SC","ACTB",1
+"Cancer LumA SC","ADIRF",1
+"Cancer LumA SC","AGR2",11
+"Cancer LumA SC","AGR3",2
+"Cancer LumA SC","ANKRD30A",4
+"Cancer LumA SC","AZGP1",24
+"Cancer LumA SC","BTG2",3
+"Cancer LumA SC","CD24",5
+"Cancer LumA SC","CD9",3
+"Cancer LumA SC","CLDN4",14
+"Cancer LumA SC","CYB5A",9
+"Cancer LumA SC","DSTN",8
+"Cancer LumA SC","ELF3",22
+"Cancer LumA SC","GABARAP",1
+"Cancer LumA SC","HINT1",1
+"Cancer LumA SC","HSPB1",3
+"Cancer LumA SC","KRT18",22
+"Cancer LumA SC","KRT19",22
+"Cancer LumA SC","KRT8",21
+"Cancer LumA SC","LMNA",1
+"Cancer LumA SC","MLPH",1
+"Cancer LumA SC","MT-CO2",1
+"Cancer LumA SC","MT-CO3",1
+"Cancer LumA SC","MT-ND4L",1
+"Cancer LumA SC","MUC1",2
+"Cancer LumA SC","NBEAL1",2
+"Cancer LumA SC","NME2",1
+"Cancer LumA SC","PIP",4
+"Cancer LumA SC","PPDPF",17
+"Cancer LumA SC","PYCARD",1
+"Cancer LumA SC","RHOB",3
+"Cancer LumA SC","S100A11",4
+"Cancer LumA SC","S100A13",6
+"Cancer LumA SC","S100A14",4
+"Cancer LumA SC","SCGB2A2",3
+"Cancer LumA SC","SERF2",3
+"Cancer LumA SC","SH3BGRL",2
+"Cancer LumA SC","SMIM22",4
+"Cancer LumA SC","SPINT2",14
+"Cancer LumA SC","SRP9",1
+"Cancer LumA SC","TIMP1",1
+"Cancer LumA SC","TSPAN13",1
+"Cancer LumA SC","TSTD1",17
+"Cancer LumA SC","UQCRQ",2
+"Cancer LumA SC","XBP1",5
+"Cancer LumA SC","ZFP36L1",1
+"Cancer LumB SC","ACTG1",1
+"Cancer LumB SC","AGR2",8
+"Cancer LumB SC","AGR3",25
+"Cancer LumB SC","ANKRD30A",4
+"Cancer LumB SC","ARMT1",2
+"Cancer LumB SC","AZGP1",20
+"Cancer LumB SC","COX6C",22
+"Cancer LumB SC","CST3",11
+"Cancer LumB SC","DHRS2",2
+"Cancer LumB SC","ESR1",2
+"Cancer LumB SC","FTH1",1
+"Cancer LumB SC","FXYD3",22
+"Cancer LumB SC","GATA3",7
+"Cancer LumB SC","HSPB1",2
+"Cancer LumB SC","IFI27",2
+"Cancer LumB SC","IGKC",2
+"Cancer LumB SC","IL6ST",1
+"Cancer LumB SC","KRT18",20
+"Cancer LumB SC","KRT19",22
+"Cancer LumB SC","KRT8",10
+"Cancer LumB SC","LGALS3BP",1
+"Cancer LumB SC","MAGED2",6
+"Cancer LumB SC","MT-CO3",1
+"Cancer LumB SC","MT-ND2",3
+"Cancer LumB SC","MT-ND4",2
+"Cancer LumB SC","SLC39A6",20
+"Cancer LumB SC","SMIM22",1
+"Cancer LumB SC","SPINT2",14
+"Cancer LumB SC","STC2",1
+"Cancer LumB SC","TMEM258",1
+"Cancer LumB SC","TSPAN13",18
+"Cancer LumB SC","TSTD1",2
+"Cancer LumB SC","XBP1",24
+"Cycling PVL","ACTA2",19
+"Cycling PVL","ACTB",2
+"Cycling PVL","ASPM",1
+"Cycling PVL","B2M",2
+"Cycling PVL","BGN",1
+"Cycling PVL","BIRC5",1
+"Cycling PVL","CALD1",15
+"Cycling PVL","CALU",1
+"Cycling PVL","CAV1",1
+"Cycling PVL","CD151",1
+"Cycling PVL","CD59",1
+"Cycling PVL","CENPF",1
+"Cycling PVL","CFL1",2
+"Cycling PVL","CHN1",1
+"Cycling PVL","CKS2",1
+"Cycling PVL","COL18A1",1
+"Cycling PVL","COL1A1",2
+"Cycling PVL","COL1A2",5
+"Cycling PVL","COL4A1",5
+"Cycling PVL","COL4A2",11
+"Cycling PVL","COL5A2",5
+"Cycling PVL","COL5A3",2
+"Cycling PVL","COX4I2",2
+"Cycling PVL","CRIP2",1
+"Cycling PVL","DBI",1
+"Cycling PVL","DKK3",1
+"Cycling PVL","DSTN",1
+"Cycling PVL","DUT",1
+"Cycling PVL","EBF1",1
+"Cycling PVL","EGFL6",1
+"Cycling PVL","ENPEP",5
+"Cycling PVL","FSTL1",3
+"Cycling PVL","ID3",1
+"Cycling PVL","IFI27",1
+"Cycling PVL","IFITM3",4
+"Cycling PVL","IGFBP7",13
+"Cycling PVL","ITGB1",1
+"Cycling PVL","LAPTM4A",1
+"Cycling PVL","LGALS1",11
+"Cycling PVL","MAP1B",3
+"Cycling PVL","MGP",1
+"Cycling PVL","MKI67",2
+"Cycling PVL","MYBL2",1
+"Cycling PVL","MYL6",3
+"Cycling PVL","MYL9",18
+"Cycling PVL","NDUFA4",1
+"Cycling PVL","NDUFA4L2",8
+"Cycling PVL","NUSAP1",1
+"Cycling PVL","OLFML2B",2
+"Cycling PVL","PCNA",1
+"Cycling PVL","PCOLCE",1
+"Cycling PVL","PDGFRB",2
+"Cycling PVL","PFN1",2
+"Cycling PVL","PLAC9",1
+"Cycling PVL","PLXDC1",1
+"Cycling PVL","PRRX1",5
+"Cycling PVL","RGS5",3
+"Cycling PVL","RPA3",1
+"Cycling PVL","RRM2",1
+"Cycling PVL","S100A4",1
+"Cycling PVL","SDC2",2
+"Cycling PVL","SLC25A5",2
+"Cycling PVL","SOD3",1
+"Cycling PVL","SPARC",12
+"Cycling PVL","STMN1",9
+"Cycling PVL","TAGLN",12
+"Cycling PVL","TGFB1I1",1
+"Cycling PVL","THY1",7
+"Cycling PVL","TIMP1",9
+"Cycling PVL","TK1",5
+"Cycling PVL","TMSB10",1
+"Cycling PVL","TMSB4X",1
+"Cycling PVL","TOP2A",1
+"Cycling PVL","TPM1",1
+"Cycling PVL","TPM2",1
+"Cycling PVL","TUBA1B",11
+"Cycling PVL","TUBB",3
+"Cycling PVL","TYMS",5
+"Cycling PVL","UBE2C",1
+"Cycling PVL","VIM",5
+"Cycling PVL","VPS29",1
+"Cycling T-cells","ACTB",7
+"Cycling T-cells","ACTG1",1
+"Cycling T-cells","ANP32B",3
+"Cycling T-cells","ARHGDIB",10
+"Cycling T-cells","ARPC2",1
+"Cycling T-cells","B2M",7
+"Cycling T-cells","CALM3",1
+"Cycling T-cells","CD2",7
+"Cycling T-cells","CD3D",6
+"Cycling T-cells","CD3E",14
+"Cycling T-cells","CD52",2
+"Cycling T-cells","CD74",12
+"Cycling T-cells","CFL1",3
+"Cycling T-cells","CORO1A",16
+"Cycling T-cells","COTL1",8
+"Cycling T-cells","DUSP4",1
+"Cycling T-cells","HMGB2",17
+"Cycling T-cells","IL2RG",2
+"Cycling T-cells","IL32",4
+"Cycling T-cells","LCK",2
+"Cycling T-cells","LSP1",6
+"Cycling T-cells","MKI67",4
+"Cycling T-cells","MT2A",1
+"Cycling T-cells","MYL6",1
+"Cycling T-cells","PFN1",15
+"Cycling T-cells","PKM",1
+"Cycling T-cells","PPIA",3
+"Cycling T-cells","PSMB9",3
+"Cycling T-cells","PTPRC",10
+"Cycling T-cells","PTTG1",1
+"Cycling T-cells","RAC2",20
+"Cycling T-cells","RRM2",1
+"Cycling T-cells","S100A4",6
+"Cycling T-cells","SH3BGRL3",8
+"Cycling T-cells","SRGN",13
+"Cycling T-cells","STMN1",19
+"Cycling T-cells","TMSB10",3
+"Cycling T-cells","TMSB4X",7
+"Cycling T-cells","TRAC",1
+"Cycling T-cells","TRBC2",1
+"Cycling T-cells","TUBA1B",10
+"Cycling T-cells","TUBB",11
+"Cycling T-cells","TYMS",6
+"Cycling T-cells","VIM",5
+"Cycling_Myeloid","ACTB",2
+"Cycling_Myeloid","AIF1",21
+"Cycling_Myeloid","ANP32B",1
+"Cycling_Myeloid","ANXA2",1
+"Cycling_Myeloid","ARHGDIB",2
+"Cycling_Myeloid","ARPC2",2
+"Cycling_Myeloid","B2M",3
+"Cycling_Myeloid","BIRC5",1
+"Cycling_Myeloid","C1QA",4
+"Cycling_Myeloid","C1QB",4
+"Cycling_Myeloid","C1QC",5
+"Cycling_Myeloid","CAPG",1
+"Cycling_Myeloid","CD68",2
+"Cycling_Myeloid","CD74",17
+"Cycling_Myeloid","CFL1",1
+"Cycling_Myeloid","CKS1B",2
+"Cycling_Myeloid","COTL1",5
+"Cycling_Myeloid","CST3",9
+"Cycling_Myeloid","CTSB",6
+"Cycling_Myeloid","CTSS",1
+"Cycling_Myeloid","CTSZ",1
+"Cycling_Myeloid","CYBA",2
+"Cycling_Myeloid","DEK",2
+"Cycling_Myeloid","FCER1G",15
+"Cycling_Myeloid","FCGR3A",1
+"Cycling_Myeloid","FTH1",1
+"Cycling_Myeloid","FTL",15
+"Cycling_Myeloid","GRN",4
+"Cycling_Myeloid","HMGB2",2
+"Cycling_Myeloid","ITGB2",2
+"Cycling_Myeloid","LAPTM5",16
+"Cycling_Myeloid","LCP1",2
+"Cycling_Myeloid","LGALS1",2
+"Cycling_Myeloid","LYZ",9
+"Cycling_Myeloid","MKI67",3
+"Cycling_Myeloid","MS4A6A",3
+"Cycling_Myeloid","NPC2",9
+"Cycling_Myeloid","OAZ1",3
+"Cycling_Myeloid","PFN1",4
+"Cycling_Myeloid","PSAP",2
+"Cycling_Myeloid","PTTG1",1
+"Cycling_Myeloid","RNASE1",1
+"Cycling_Myeloid","RRM2",1
+"Cycling_Myeloid","S100A10",1
+"Cycling_Myeloid","S100A11",4
+"Cycling_Myeloid","S100A4",5
+"Cycling_Myeloid","SH3BGRL3",3
+"Cycling_Myeloid","SPI1",3
+"Cycling_Myeloid","SRGN",13
+"Cycling_Myeloid","STMN1",2
+"Cycling_Myeloid","TK1",3
+"Cycling_Myeloid","TMSB10",3
+"Cycling_Myeloid","TMSB4X",7
+"Cycling_Myeloid","TUBA1B",11
+"Cycling_Myeloid","TUBB",2
+"Cycling_Myeloid","TYMS",3
+"Cycling_Myeloid","TYROBP",18
+"Cycling_Myeloid","VAMP8",5
+"Cycling_Myeloid","VIM",5
+"Cycling_Myeloid","YBX1",1
+"DCs","ACTB",2
+"DCs","B2M",7
+"DCs","BTF3",1
+"DCs","CD37",1
+"DCs","CD74",23
+"DCs","CD83",7
+"DCs","CST3",12
+"DCs","CTSB",1
+"DCs","CTSZ",1
+"DCs","CXCR4",9
+"DCs","CYBA",2
+"DCs","EEF1B2",2
+"DCs","EIF1",1
+"DCs","EIF3L",1
+"DCs","FCER1G",7
+"DCs","FTH1",5
+"DCs","FTL",2
+"DCs","GPR183",13
+"DCs","GRN",6
+"DCs","GSTP1",2
+"DCs","HINT1",2
+"DCs","IRF4",1
+"DCs","IRF8",3
+"DCs","ITM2C",1
+"DCs","LAPTM5",14
+"DCs","LCP1",6
+"DCs","LGALS1",1
+"DCs","LILRA4",1
+"DCs","LSP1",16
+"DCs","MYL12A",2
+"DCs","NPC2",6
+"DCs","PFN1",1
+"DCs","PLAC8",1
+"DCs","PLEK",6
+"DCs","PSAP",1
+"DCs","REL",3
+"DCs","RGS1",13
+"DCs","RNASET2",2
+"DCs","S100A11",1
+"DCs","S100A6",2
+"DCs","SAT1",2
+"DCs","SEC61B",2
+"DCs","SERPINF1",2
+"DCs","SH3BGRL3",1
+"DCs","SRGN",19
+"DCs","SUB1",2
+"DCs","SYNGR2",2
+"DCs","TAGLN2",2
+"DCs","TMSB10",8
+"DCs","TMSB4X",10
+"DCs","TSPAN13",1
+"DCs","TYMP",1
+"DCs","TYROBP",22
+"DCs","UBA52",2
+"DCs","VAMP8",8
+"DCs","VIM",8
+"Endothelial ACKR1","ACKR1",28
+"Endothelial ACKR1","ADIRF",1
+"Endothelial ACKR1","AQP1",7
+"Endothelial ACKR1","B2M",3
+"Endothelial ACKR1","CD74",17
+"Endothelial ACKR1","CLU",1
+"Endothelial ACKR1","CRIP2",9
+"Endothelial ACKR1","CST3",7
+"Endothelial ACKR1","DUSP23",2
+"Endothelial ACKR1","ENG",4
+"Endothelial ACKR1","IFI27",13
+"Endothelial ACKR1","IFITM3",14
+"Endothelial ACKR1","IGFBP4",17
+"Endothelial ACKR1","IGFBP7",20
+"Endothelial ACKR1","ITM2B",1
+"Endothelial ACKR1","NPC2",2
+"Endothelial ACKR1","NPDC1",7
+"Endothelial ACKR1","PECAM1",10
+"Endothelial ACKR1","PLVAP",27
+"Endothelial ACKR1","PRCP",1
+"Endothelial ACKR1","RAMP2",10
+"Endothelial ACKR1","RAMP3",4
+"Endothelial ACKR1","RNASE1",6
+"Endothelial ACKR1","S100A10",1
+"Endothelial ACKR1","S100A6",1
+"Endothelial ACKR1","SELP",1
+"Endothelial ACKR1","SLC2A3",1
+"Endothelial ACKR1","SPARC",3
+"Endothelial ACKR1","SPARCL1",20
+"Endothelial ACKR1","TM4SF1",1
+"Endothelial ACKR1","TMSB10",2
+"Endothelial ACKR1","TMSB4X",2
+"Endothelial ACKR1","VIM",8
+"Endothelial ACKR1","VWF",26
+"Endothelial ACKR1","ZNF385D",3
+"Endothelial CXCL12","A2M",24
+"Endothelial CXCL12","B2M",7
+"Endothelial CXCL12","BST2",1
+"Endothelial CXCL12","CAV1",16
+"Endothelial CXCL12","CD74",3
+"Endothelial CXCL12","CLDN5",1
+"Endothelial CXCL12","CLEC14A",7
+"Endothelial CXCL12","CRIP2",15
+"Endothelial CXCL12","CXCL12",3
+"Endothelial CXCL12","EGFL7",4
+"Endothelial CXCL12","ESAM",4
+"Endothelial CXCL12","FBLN5",1
+"Endothelial CXCL12","GJA4",1
+"Endothelial CXCL12","GNG11",15
+"Endothelial CXCL12","HEY1",1
+"Endothelial CXCL12","ICAM2",2
+"Endothelial CXCL12","IFI27",19
+"Endothelial CXCL12","IFITM2",1
+"Endothelial CXCL12","IFITM3",19
+"Endothelial CXCL12","IGFBP3",3
+"Endothelial CXCL12","IGFBP7",2
+"Endothelial CXCL12","NPDC1",2
+"Endothelial CXCL12","PECAM1",7
+"Endothelial CXCL12","PLPP1",3
+"Endothelial CXCL12","PPA1",1
+"Endothelial CXCL12","RAMP2",25
+"Endothelial CXCL12","RHOB",1
+"Endothelial CXCL12","RNASE1",21
+"Endothelial CXCL12","S100A6",1
+"Endothelial CXCL12","SAT1",2
+"Endothelial CXCL12","SEMA3G",2
+"Endothelial CXCL12","SPARCL1",19
+"Endothelial CXCL12","SRGN",11
+"Endothelial CXCL12","STOM",1
+"Endothelial CXCL12","TM4SF1",18
+"Endothelial CXCL12","TMSB10",6
+"Endothelial CXCL12","TMSB4X",2
+"Endothelial CXCL12","VIM",9
+"Endothelial Lymphatic LYVE1","ACTB",2
+"Endothelial Lymphatic LYVE1","ACTG1",1
+"Endothelial Lymphatic LYVE1","ANXA2",7
+"Endothelial Lymphatic LYVE1","APP",3
+"Endothelial Lymphatic LYVE1","ARHGAP29",2
+"Endothelial Lymphatic LYVE1","B2M",5
+"Endothelial Lymphatic LYVE1","CALCRL",1
+"Endothelial Lymphatic LYVE1","CAV1",10
+"Endothelial Lymphatic LYVE1","CCL21",8
+"Endothelial Lymphatic LYVE1","CCND1",1
+"Endothelial Lymphatic LYVE1","CD59",8
+"Endothelial Lymphatic LYVE1","CD74",1
+"Endothelial Lymphatic LYVE1","CD9",2
+"Endothelial Lymphatic LYVE1","CLDN5",2
+"Endothelial Lymphatic LYVE1","CNN3",2
+"Endothelial Lymphatic LYVE1","COLEC12",1
+"Endothelial Lymphatic LYVE1","CRIP2",13
+"Endothelial Lymphatic LYVE1","CST3",3
+"Endothelial Lymphatic LYVE1","EFEMP1",2
+"Endothelial Lymphatic LYVE1","EGFL7",14
+"Endothelial Lymphatic LYVE1","FABP4",2
+"Endothelial Lymphatic LYVE1","FABP5",3
+"Endothelial Lymphatic LYVE1","GMFG",1
+"Endothelial Lymphatic LYVE1","GNG11",24
+"Endothelial Lymphatic LYVE1","GPM6A",1
+"Endothelial Lymphatic LYVE1","GRN",1
+"Endothelial Lymphatic LYVE1","GYPC",2
+"Endothelial Lymphatic LYVE1","IFITM2",4
+"Endothelial Lymphatic LYVE1","IFITM3",12
+"Endothelial Lymphatic LYVE1","IGF1",1
+"Endothelial Lymphatic LYVE1","IGFBP4",7
+"Endothelial Lymphatic LYVE1","IGFBP7",17
+"Endothelial Lymphatic LYVE1","ITM2B",2
+"Endothelial Lymphatic LYVE1","LAPTM5",5
+"Endothelial Lymphatic LYVE1","LGALS1",1
+"Endothelial Lymphatic LYVE1","LMNA",1
+"Endothelial Lymphatic LYVE1","MARCKSL1",2
+"Endothelial Lymphatic LYVE1","MMRN1",3
+"Endothelial Lymphatic LYVE1","MRC1",1
+"Endothelial Lymphatic LYVE1","MYL12B",1
+"Endothelial Lymphatic LYVE1","MYL6",1
+"Endothelial Lymphatic LYVE1","PDPN",2
+"Endothelial Lymphatic LYVE1","PECAM1",9
+"Endothelial Lymphatic LYVE1","PPFIBP1",1
+"Endothelial Lymphatic LYVE1","PPIA",1
+"Endothelial Lymphatic LYVE1","RAB11A",1
+"Endothelial Lymphatic LYVE1","RAMP2",20
+"Endothelial Lymphatic LYVE1","S100A10",4
+"Endothelial Lymphatic LYVE1","S100A6",1
+"Endothelial Lymphatic LYVE1","SH3BGRL3",2
+"Endothelial Lymphatic LYVE1","SPTBN1",2
+"Endothelial Lymphatic LYVE1","STMN1",11
+"Endothelial Lymphatic LYVE1","TFF3",5
+"Endothelial Lymphatic LYVE1","TFPI",2
+"Endothelial Lymphatic LYVE1","TGFBR2",1
+"Endothelial Lymphatic LYVE1","TM4SF1",14
+"Endothelial Lymphatic LYVE1","TMSB10",6
+"Endothelial Lymphatic LYVE1","TMSB4X",3
+"Endothelial Lymphatic LYVE1","TUBA1B",1
+"Endothelial Lymphatic LYVE1","TUBB",1
+"Endothelial Lymphatic LYVE1","VAMP5",1
+"Endothelial Lymphatic LYVE1","VIM",9
+"Endothelial Lymphatic LYVE1","VWF",2
+"Endothelial Lymphatic LYVE1","YBX1",1
+"Endothelial RGS5","A2M",7
+"Endothelial RGS5","ADGRF5",1
+"Endothelial RGS5","ADGRL4",5
+"Endothelial RGS5","AQP1",1
+"Endothelial RGS5","B2M",5
+"Endothelial RGS5","CLEC14A",2
+"Endothelial RGS5","COL15A1",2
+"Endothelial RGS5","COL4A1",1
+"Endothelial RGS5","COL4A2",7
+"Endothelial RGS5","CRIP2",15
+"Endothelial RGS5","EGFL7",9
+"Endothelial RGS5","ESAM",4
+"Endothelial RGS5","FSCN1",1
+"Endothelial RGS5","GMFG",1
+"Endothelial RGS5","GNG11",24
+"Endothelial RGS5","GSN",9
+"Endothelial RGS5","GYPC",1
+"Endothelial RGS5","HSPG2",12
+"Endothelial RGS5","IFI27",9
+"Endothelial RGS5","IFITM3",10
+"Endothelial RGS5","IGFBP4",1
+"Endothelial RGS5","IGFBP7",21
+"Endothelial RGS5","IL32",1
+"Endothelial RGS5","KDR",1
+"Endothelial RGS5","LGALS1",1
+"Endothelial RGS5","MARCKSL1",1
+"Endothelial RGS5","NRP1",1
+"Endothelial RGS5","PECAM1",5
+"Endothelial RGS5","PLPP1",1
+"Endothelial RGS5","PLVAP",27
+"Endothelial RGS5","RAMP2",20
+"Endothelial RGS5","RBP7",1
+"Endothelial RGS5","RGCC",3
+"Endothelial RGS5","RNASE1",7
+"Endothelial RGS5","SPARC",22
+"Endothelial RGS5","SPARCL1",20
+"Endothelial RGS5","TM4SF1",1
+"Endothelial RGS5","TMSB10",3
+"Endothelial RGS5","TMSB4X",2
+"Endothelial RGS5","TNFRSF4",1
+"Endothelial RGS5","VIM",8
+"Endothelial RGS5","VWF",6
+"Luminal Progenitors","ACTG1",1
+"Luminal Progenitors","AZGP1",17
+"Luminal Progenitors","BTF3",4
+"Luminal Progenitors","CCL28",7
+"Luminal Progenitors","CD24",11
+"Luminal Progenitors","CD59",1
+"Luminal Progenitors","CIRBP",1
+"Luminal Progenitors","CLDN4",23
+"Luminal Progenitors","COX4I1",1
+"Luminal Progenitors","CRYAB",8
+"Luminal Progenitors","CXCL2",3
+"Luminal Progenitors","EEF1B2",4
+"Luminal Progenitors","ELF3",1
+"Luminal Progenitors","FOSB",1
+"Luminal Progenitors","FTH1",2
+"Luminal Progenitors","GABRP",5
+"Luminal Progenitors","KRT15",26
+"Luminal Progenitors","KRT18",21
+"Luminal Progenitors","KRT7",22
+"Luminal Progenitors","KRT8",16
+"Luminal Progenitors","LDHB",1
+"Luminal Progenitors","LGALS3",1
+"Luminal Progenitors","LTF",5
+"Luminal Progenitors","MFGE8",2
+"Luminal Progenitors","MGP",14
+"Luminal Progenitors","NDRG2",6
+"Luminal Progenitors","PERP",9
+"Luminal Progenitors","PFDN5",1
+"Luminal Progenitors","SFRP1",6
+"Luminal Progenitors","SLPI",17
+"Luminal Progenitors","SPINT2",4
+"Luminal Progenitors","TACSTD2",20
+"Luminal Progenitors","TM4SF1",18
+"Luminal Progenitors","ZFP36",1
+"Macrophage","ACTB",1
+"Macrophage","AIF1",23
+"Macrophage","APOC1",1
+"Macrophage","APOE",3
+"Macrophage","B2M",3
+"Macrophage","C1QA",14
+"Macrophage","C1QB",6
+"Macrophage","C1QC",8
+"Macrophage","CD68",20
+"Macrophage","CD74",17
+"Macrophage","CFD",1
+"Macrophage","CST3",11
+"Macrophage","CTSB",11
+"Macrophage","CTSD",2
+"Macrophage","FCER1G",23
+"Macrophage","FCGR3A",2
+"Macrophage","FTH1",11
+"Macrophage","FTL",27
+"Macrophage","ITM2B",1
+"Macrophage","LAPTM5",16
+"Macrophage","LGMN",1
+"Macrophage","NPC2",10
+"Macrophage","PLD3",1
+"Macrophage","PSAP",9
+"Macrophage","RNASE1",1
+"Macrophage","S100A11",3
+"Macrophage","SAT1",7
+"Macrophage","SRGN",13
+"Macrophage","TMSB10",3
+"Macrophage","TMSB4X",6
+"Macrophage","TYROBP",24
+"Macrophage","VIM",1
+"Mature Luminal","ANKRD30A",1
+"Mature Luminal","ANXA2",1
+"Mature Luminal","ATF3",1
+"Mature Luminal","AZGP1",25
+"Mature Luminal","BATF",1
+"Mature Luminal","BTF3",1
+"Mature Luminal","BTG2",3
+"Mature Luminal","CD24",6
+"Mature Luminal","CD9",2
+"Mature Luminal","CDKN1A",1
+"Mature Luminal","CEBPD",1
+"Mature Luminal","CLDN4",22
+"Mature Luminal","CRACR2B",1
+"Mature Luminal","CST3",3
+"Mature Luminal","DSTN",5
+"Mature Luminal","EFHD1",17
+"Mature Luminal","EIF3L",1
+"Mature Luminal","ELF3",12
+"Mature Luminal","FOSB",2
+"Mature Luminal","FTH1",1
+"Mature Luminal","GSTP1",1
+"Mature Luminal","IRF1",1
+"Mature Luminal","ITM2B",2
+"Mature Luminal","KLF6",1
+"Mature Luminal","KRT18",23
+"Mature Luminal","KRT19",1
+"Mature Luminal","KRT8",21
+"Mature Luminal","LDHB",1
+"Mature Luminal","LGALS3",1
+"Mature Luminal","LMNA",1
+"Mature Luminal","MAFF",3
+"Mature Luminal","MAGED2",3
+"Mature Luminal","MARCKS",1
+"Mature Luminal","MGP",16
+"Mature Luminal","MT1E",1
+"Mature Luminal","PERP",12
+"Mature Luminal","SH3BGRL",2
+"Mature Luminal","SLC39A6",3
+"Mature Luminal","SPINT2",21
+"Mature Luminal","STC2",5
+"Mature Luminal","TACSTD2",19
+"Mature Luminal","TM4SF1",3
+"Mature Luminal","TSTD1",1
+"Mature Luminal","WFDC2",1
+"Mature Luminal","XBP1",25
+"Mature Luminal","ZFP36",2
+"Mature Luminal","ZFP36L2",2
+"Monocyte","ACTB",1
+"Monocyte","AIF1",24
+"Monocyte","AREG",1
+"Monocyte","B2M",2
+"Monocyte","BTG1",1
+"Monocyte","CD74",14
+"Monocyte","COTL1",8
+"Monocyte","CST3",12
+"Monocyte","EIF1",1
+"Monocyte","FCER1G",23
+"Monocyte","FTH1",14
+"Monocyte","FTL",23
+"Monocyte","LAPTM5",9
+"Monocyte","LST1",5
+"Monocyte","LYZ",27
+"Monocyte","MCL1",1
+"Monocyte","NAMPT",1
+"Monocyte","NPC2",5
+"Monocyte","OAZ1",3
+"Monocyte","PLAUR",6
+"Monocyte","PNRC1",1
+"Monocyte","PSAP",6
+"Monocyte","S100A11",4
+"Monocyte","S100A4",6
+"Monocyte","S100A6",2
+"Monocyte","S100A8",1
+"Monocyte","S100A9",1
+"Monocyte","SAT1",10
+"Monocyte","SERPINA1",1
+"Monocyte","SH3BGRL3",4
+"Monocyte","SOD2",1
+"Monocyte","SRGN",18
+"Monocyte","TIMP1",1
+"Monocyte","TMSB10",4
+"Monocyte","TMSB4X",8
+"Monocyte","TSPO",1
+"Monocyte","TYROBP",24
+"Monocyte","UBA52",1
+"Monocyte","VCAN",1
+"Monocyte","VIM",4
+"Myoepithelial","ACTA2",18
+"Myoepithelial","ACTB",2
+"Myoepithelial","ACTG1",5
+"Myoepithelial","ANXA1",5
+"Myoepithelial","CALD1",11
+"Myoepithelial","CLU",3
+"Myoepithelial","CRYAB",2
+"Myoepithelial","CSRP1",19
+"Myoepithelial","DST",9
+"Myoepithelial","DSTN",1
+"Myoepithelial","EGR1",2
+"Myoepithelial","FBXO32",2
+"Myoepithelial","FOS",1
+"Myoepithelial","JUNB",2
+"Myoepithelial","KRT14",28
+"Myoepithelial","KRT17",25
+"Myoepithelial","KRT5",11
+"Myoepithelial","KRT8",4
+"Myoepithelial","MT1E",6
+"Myoepithelial","MT1X",16
+"Myoepithelial","MT2A",10
+"Myoepithelial","MYL9",14
+"Myoepithelial","MYLK",3
+"Myoepithelial","PERP",16
+"Myoepithelial","SFN",1
+"Myoepithelial","SPINT2",6
+"Myoepithelial","TACSTD2",1
+"Myoepithelial","TAGLN",24
+"Myoepithelial","TPM1",7
+"Myoepithelial","TPM2",19
+"Myoepithelial","VIM",4
+"Myoepithelial","ZFP36L2",3
+"NK cells","AREG",3
+"NK cells","B2M",10
+"NK cells","BTG1",18
+"NK cells","CCL5",7
+"NK cells","CD69",22
+"NK cells","CD7",17
+"NK cells","CTSW",24
+"NK cells","CXCR4",12
+"NK cells","DUSP1",1
+"NK cells","DUSP2",1
+"NK cells","FCER1G",3
+"NK cells","FOS",1
+"NK cells","FOSB",1
+"NK cells","GNLY",27
+"NK cells","IFITM2",6
+"NK cells","KLRB1",3
+"NK cells","KLRC1",3
+"NK cells","KLRD1",10
+"NK cells","NKG7",25
+"NK cells","SRGN",20
+"NK cells","TMSB10",1
+"NK cells","TMSB4X",10
+"NK cells","TNFAIP3",2
+"NK cells","TNFRSF18",1
+"NK cells","TRDC",3
+"NK cells","TSC22D3",1
+"NK cells","TYROBP",13
+"NK cells","UBB",1
+"NK cells","VIM",2
+"NK cells","XCL1",21
+"NK cells","XCL2",9
+"NK cells","ZFP36L2",2
+"NKT cells","ACTB",1
+"NKT cells","ARHGDIB",1
+"NKT cells","B2M",18
+"NKT cells","BTG1",1
+"NKT cells","CCL4",25
+"NKT cells","CCL5",25
+"NKT cells","CST7",19
+"NKT cells","CTSW",6
+"NKT cells","FCGR3A",2
+"NKT cells","FGFBP2",3
+"NKT cells","GNLY",27
+"NKT cells","GZMA",24
+"NKT cells","GZMB",25
+"NKT cells","GZMH",4
+"NKT cells","IL32",1
+"NKT cells","KLRB1",1
+"NKT cells","KLRD1",10
+"NKT cells","NKG7",28
+"NKT cells","PLAC8",1
+"NKT cells","PRF1",6
+"NKT cells","PTPRC",1
+"NKT cells","S100A4",13
+"NKT cells","SH3BGRL3",2
+"NKT cells","SRGN",18
+"NKT cells","TMSB10",3
+"NKT cells","TMSB4X",14
+"NKT cells","TYROBP",1
+"Plasmablasts","B2M",3
+"Plasmablasts","CD74",8
+"Plasmablasts","CD79A",24
+"Plasmablasts","DERL3",28
+"Plasmablasts","FKBP11",23
+"Plasmablasts","HERPUD1",4
+"Plasmablasts","HSP90B1",2
+"Plasmablasts","IGHG1",28
+"Plasmablasts","IGKC",21
+"Plasmablasts","ITM2C",14
+"Plasmablasts","JCHAIN",26
+"Plasmablasts","MZB1",28
+"Plasmablasts","PRDX4",5
+"Plasmablasts","SEC11C",15
+"Plasmablasts","SSR4",28
+"Plasmablasts","XBP1",23
+"PVL Differentiated","ACTA2",26
+"PVL Differentiated","ACTB",1
+"PVL Differentiated","ADIRF",23
+"PVL Differentiated","BGN",1
+"PVL Differentiated","CALD1",23
+"PVL Differentiated","CAV1",9
+"PVL Differentiated","DSTN",18
+"PVL Differentiated","IFITM3",11
+"PVL Differentiated","IGFBP5",1
+"PVL Differentiated","IGFBP7",20
+"PVL Differentiated","JUN",1
+"PVL Differentiated","JUNB",1
+"PVL Differentiated","LGALS1",2
+"PVL Differentiated","MCAM",1
+"PVL Differentiated","MFGE8",3
+"PVL Differentiated","MYH11",1
+"PVL Differentiated","MYL6",1
+"PVL Differentiated","MYL9",26
+"PVL Differentiated","NDUFA4",1
+"PVL Differentiated","NDUFA4L2",3
+"PVL Differentiated","NET1",1
+"PVL Differentiated","PLAC9",1
+"PVL Differentiated","RERGL",1
+"PVL Differentiated","S100A4",9
+"PVL Differentiated","SOD3",9
+"PVL Differentiated","SPARCL1",24
+"PVL Differentiated","TAGLN",26
+"PVL Differentiated","TINAGL1",1
+"PVL Differentiated","TMSB4X",1
+"PVL Differentiated","TPM1",1
+"PVL Differentiated","TPM2",21
+"PVL Differentiated","TSC22D1",1
+"PVL Differentiated","VIM",10
+"PVL Differentiated","ZFP36",1
+"PVL Immature","A2M",3
+"PVL Immature","ACTA2",5
+"PVL Immature","ADIRF",1
+"PVL Immature","ARHGDIB",1
+"PVL Immature","B2M",6
+"PVL Immature","BGN",3
+"PVL Immature","C1S",2
+"PVL Immature","CALD1",24
+"PVL Immature","CAV1",2
+"PVL Immature","CD63",3
+"PVL Immature","COL1A2",10
+"PVL Immature","COL3A1",1
+"PVL Immature","COL6A3",1
+"PVL Immature","CPE",2
+"PVL Immature","CST3",13
+"PVL Immature","CTSC",1
+"PVL Immature","GGT5",1
+"PVL Immature","GJA4",2
+"PVL Immature","IFITM1",1
+"PVL Immature","IFITM3",20
+"PVL Immature","IGFBP4",1
+"PVL Immature","IGFBP7",24
+"PVL Immature","JUN",1
+"PVL Immature","JUNB",1
+"PVL Immature","LGALS1",3
+"PVL Immature","MGP",4
+"PVL Immature","MT2A",1
+"PVL Immature","MYL9",24
+"PVL Immature","NDUFA4L2",7
+"PVL Immature","NOTCH3",3
+"PVL Immature","RGS5",21
+"PVL Immature","SERPING1",13
+"PVL Immature","SPARC",20
+"PVL Immature","SPARCL1",19
+"PVL Immature","STEAP4",3
+"PVL Immature","TAGLN",1
+"PVL Immature","THY1",1
+"PVL Immature","TIMP1",5
+"PVL Immature","TINAGL1",1
+"PVL Immature","TMSB10",1
+"PVL Immature","TMSB4X",2
+"PVL Immature","TPM1",5
+"PVL Immature","TPM2",7
+"PVL Immature","VIM",8
+"PVL Immature","ZFP36",1
+"T cells CD4+","ACTB",1
+"T cells CD4+","ANXA1",1
+"T cells CD4+","ARHGDIB",5
+"T cells CD4+","ARID5B",1
+"T cells CD4+","B2M",13
+"T cells CD4+","BIRC3",1
+"T cells CD4+","BTG1",24
+"T cells CD4+","CCR7",1
+"T cells CD4+","CD2",7
+"T cells CD4+","CD3D",16
+"T cells CD4+","CD3E",25
+"T cells CD4+","CD3G",1
+"T cells CD4+","CD40LG",1
+"T cells CD4+","CD52",17
+"T cells CD4+","CD69",1
+"T cells CD4+","CXCR4",20
+"T cells CD4+","EEF1B2",1
+"T cells CD4+","EIF1",2
+"T cells CD4+","FXYD5",1
+"T cells CD4+","GPR183",1
+"T cells CD4+","HSPA8",3
+"T cells CD4+","ICOS",1
+"T cells CD4+","IL32",6
+"T cells CD4+","IL7R",23
+"T cells CD4+","JUNB",2
+"T cells CD4+","LDHB",1
+"T cells CD4+","LTB",3
+"T cells CD4+","MT-ND3",1
+"T cells CD4+","PFDN5",1
+"T cells CD4+","PTPRC",17
+"T cells CD4+","RGCC",1
+"T cells CD4+","RGS1",1
+"T cells CD4+","S100A4",11
+"T cells CD4+","SARAF",12
+"T cells CD4+","SELL",1
+"T cells CD4+","SRGN",20
+"T cells CD4+","TMSB10",3
+"T cells CD4+","TMSB4X",13
+"T cells CD4+","TNFAIP3",4
+"T cells CD4+","TNFRSF4",1
+"T cells CD4+","TSC22D3",11
+"T cells CD4+","UBA52",1
+"T cells CD4+","VIM",1
+"T cells CD4+","ZFP36L2",2
+"T cells CD8+","ACTB",1
+"T cells CD8+","ANXA1",1
+"T cells CD8+","ARHGDIB",2
+"T cells CD8+","B2M",14
+"T cells CD8+","BTG1",19
+"T cells CD8+","CCL4",2
+"T cells CD8+","CCL5",26
+"T cells CD8+","CD2",3
+"T cells CD8+","CD27",1
+"T cells CD8+","CD3D",12
+"T cells CD8+","CD3E",26
+"T cells CD8+","CD3G",1
+"T cells CD8+","CD52",19
+"T cells CD8+","CD69",18
+"T cells CD8+","CD7",2
+"T cells CD8+","CD8A",4
+"T cells CD8+","COTL1",2
+"T cells CD8+","CST7",4
+"T cells CD8+","CTSW",1
+"T cells CD8+","CXCR4",18
+"T cells CD8+","DUSP4",1
+"T cells CD8+","EIF1",1
+"T cells CD8+","GZMA",1
+"T cells CD8+","GZMB",1
+"T cells CD8+","GZMH",1
+"T cells CD8+","HCST",1
+"T cells CD8+","IL32",7
+"T cells CD8+","NKG7",12
+"T cells CD8+","PTPRC",17
+"T cells CD8+","RGCC",1
+"T cells CD8+","RGS1",1
+"T cells CD8+","S100A4",4
+"T cells CD8+","S100A6",1
+"T cells CD8+","SARAF",1
+"T cells CD8+","SH3BGRL3",4
+"T cells CD8+","SRGN",20
+"T cells CD8+","TMSB10",2
+"T cells CD8+","TMSB4X",14
+"T cells CD8+","TNFAIP3",2
+"T cells CD8+","TSC22D3",1
+"T cells CD8+","VIM",5
+"T cells CD8+","ZFP36",1
+"T cells CD8+","ZFP36L2",4
+"T cells CD8+","ZNF683",1

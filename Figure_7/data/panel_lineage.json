@@ -1,0 +1,108 @@
+{
+  "A": {
+    "title": "Code-drawn communication-analysis schematic",
+    "inputs": [],
+    "renderer": "render_current.py"
+  },
+  "B": {
+    "title": "Filtered pathway overlap",
+    "inputs": [
+      "pathway_overlap.csv"
+    ],
+    "renderer": "render_current.py"
+  },
+  "C": {
+    "title": "Filtered ligand\u2013receptor key overlap",
+    "inputs": [
+      "lr_harmonized_overlap.csv"
+    ],
+    "renderer": "render_current.py"
+  },
+  "D": {
+    "title": "Log10 shared score concordance",
+    "inputs": [
+      "strength_correlation_filtered.csv"
+    ],
+    "renderer": "render_current.py"
+  },
+  "E": {
+    "title": "Major PDGF network",
+    "inputs": [
+      "known_new/PDGF_major_matrix.csv",
+      "known_new/PDGF_umap_activity_expression.parquet"
+    ],
+    "renderer": "render_current.py"
+  },
+  "F": {
+    "title": "Complete 29\u00d729 minor PDGF matrix",
+    "inputs": [
+      "known_new/PDGF_minor_matrix.csv"
+    ],
+    "renderer": "render_current.py"
+  },
+  "G": {
+    "title": "Endothelial-sender/PVL-receiver slice",
+    "inputs": [
+      "known_new/PDGF_minor_matrix.csv",
+      "known_new/PDGF_minor_endothelial_PVL_block.csv"
+    ],
+    "renderer": "render_current.py"
+  },
+  "H": {
+    "title": "PDGFB inferred activity UMAP",
+    "inputs": [
+      "known_new/PDGF_umap_activity_expression.parquet"
+    ],
+    "renderer": "render_current.py"
+  },
+  "I": {
+    "title": "PDGFB measured expression UMAP",
+    "inputs": [
+      "known_new/PDGF_umap_activity_expression.parquet"
+    ],
+    "renderer": "render_current.py"
+  },
+  "J": {
+    "title": "PDGFRB inferred activity UMAP",
+    "inputs": [
+      "known_new/PDGF_umap_activity_expression.parquet"
+    ],
+    "renderer": "render_current.py"
+  },
+  "K": {
+    "title": "PDGFRB measured expression UMAP",
+    "inputs": [
+      "known_new/PDGF_umap_activity_expression.parquet"
+    ],
+    "renderer": "render_current.py"
+  },
+  "L": {
+    "title": "Endothelial PDGFB patient-level violin",
+    "inputs": [
+      "known_new/PDGF_major_expression.csv"
+    ],
+    "renderer": "render_current.py"
+  },
+  "M": {
+    "title": "PVL PDGFRB patient-level violin",
+    "inputs": [
+      "known_new/PDGF_major_expression.csv"
+    ],
+    "renderer": "render_current.py"
+  },
+  "N": {
+    "title": "Major Endothelial\u2192PVL PDGF patient-level violin",
+    "inputs": [
+      "known_new/PDGF_major_paired.csv",
+      "known_new/longitudinal_screen_major_tested.csv"
+    ],
+    "renderer": "render_current.py"
+  },
+  "O": {
+    "title": "Top ten minor PDGF cell connections",
+    "inputs": [
+      "known_new/PDGF_minor_top10_connections.csv"
+    ],
+    "renderer": "render_current.py"
+  }
+}

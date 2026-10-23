@@ -1,0 +1,42 @@
+display_order,pathway,metabolite_count,T cells,Epithelial,CAF,Endothelial,shown_in_panel
+0,Drug metabolism,10,10,0,0,0,True
+1,"Phenylalanine, tyrosine and tryptophan biosynthesis",9,5,0,4,0,True
+2,Beta oxidation of odd-chain fatty acids (mitochondrial),8,8,0,0,0,True
+3,Beta oxidation of poly-unsaturated fatty acids (mitochondrial),8,4,0,0,4,True
+4,Chondroitin / heparan sulfate biosynthesis,8,0,0,8,0,True
+5,Xenobiotics metabolism,8,8,0,0,0,True
+6,Cholesterol metabolism,7,7,0,0,0,True
+7,Arginine and proline metabolism,4,0,4,0,0,False
+8,Retinol metabolism,4,4,0,0,0,False
+9,Beta oxidation of branched-chain fatty acids (mitochondrial),3,3,0,0,0,False
+10,Cysteine and methionine metabolism,3,1,0,1,1,False
+11,Heparan sulfate degradation,3,3,0,0,0,False
+12,Serotonin and melatonin biosynthesis,3,3,0,0,0,False
+13,Terpenoid backbone biosynthesis,3,3,0,0,0,False
+14,Amino sugar and nucleotide sugar metabolism,2,1,0,1,0,False
+15,Bile acid biosynthesis,2,2,0,0,0,False
+16,Fatty acid metabolism,2,2,0,0,0,False
+17,Glycolysis / Gluconeogenesis,2,0,2,0,0,False
+18,Keratan sulfate degradation,2,2,0,0,0,False
+19,Metabolism of other amino acids,2,1,0,1,0,False
+20,Nicotinate and nicotinamide metabolism,2,2,0,0,0,False
+21,Pentose phosphate pathway,2,0,0,2,0,False
+22,Porphyrin metabolism,2,2,0,0,0,False
+23,Sulfur metabolism,2,0,0,2,0,False
+24,Thiamine metabolism,2,1,1,0,0,False
+25,Tyrosine metabolism,2,1,0,1,0,False
+26,"Valine, leucine, and isoleucine metabolism",2,2,0,0,0,False
+27,Vitamin B12 metabolism,2,1,0,0,1,False
+28,"Alanine, aspartate and glutamate metabolism",1,1,0,0,0,False
+29,Aminoacyl-tRNA biosynthesis,1,1,0,0,0,False
+30,Biopterin metabolism,1,0,0,0,1,False
+31,Blood group biosynthesis,1,1,0,0,0,False
+32,Fatty acid degradation,1,1,0,0,0,False
+33,Glycosphingolipid biosynthesis-lacto and neolacto series,1,1,0,0,0,False
+34,Histidine metabolism,1,0,0,1,0,False
+35,Nucleotide metabolism,1,0,0,1,0,False
+36,O-glycan metabolism,1,1,0,0,0,False
+37,Peptide metabolism,1,1,0,0,0,False
+38,Phenylalanine metabolism,1,0,0,1,0,False
+39,Purine metabolism,1,1,0,0,0,False
+40,Pyrimidine metabolism,1,1,0,0,0,False

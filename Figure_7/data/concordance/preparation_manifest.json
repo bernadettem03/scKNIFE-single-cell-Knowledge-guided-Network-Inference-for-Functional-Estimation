@@ -1,0 +1,99 @@
+{
+  "version": "comparison-first-matrix-SPP1",
+  "python": "3.9.21",
+  "checks": {
+    "native_CellChat_reconstructed_from_p_le_005": true,
+    "strict_CellChat_matches_saved_pathway_export": true,
+    "all_252_pathways_retained": true,
+    "pooled_scKNIFE_matrices_match": true,
+    "LR_percentages_sum_to_100": true,
+    "specimen_coverage_verified": true,
+    "reference_overlaps_reproduced": true,
+    "three_clinical_categories_retained": true,
+    "all_read_sources_unchanged": true
+  },
+  "source_sha256": {
+    "May_2026_clean_version_redo/inhouse_rerun/scknife_run/data/cellsignaling/minor/cellchat/cellchat_object.RDS": "9d09d9ba49abe09daed663de6bf702834b23e2e936bd8f4dd1f1ba3491e34f39",
+    "May_2026_clean_version_redo/inhouse_rerun/scknife_run/data/cellsignaling/minor/scknife/interaction_details.csv.gz": "4dbaaecebbb5f959f1b82db8aecf80f457785400b78db5facc2378a211206e1b",
+    "May_2026_clean_version_redo/inhouse_rerun/scknife_run/data/cellsignaling/minor/scknife/lr_pair_permutation/lr_pair_significance.csv": "631afe9ae3aab2e3acc3ad60970d8ff61791c271383cc40dd155f2a12bb9786a",
+    "May_2026_clean_version_redo/inhouse_rerun/scknife_run/data/cellsignaling/minor/scknife/pathway_permutation/pathway_significance.csv": "d8fae2bcb1bd192affc649cb0a14275a803da24c84aee4b42ca0f46272e9154b",
+    "May_2026_clean_version_redo/inhouse_rerun/scknife_run/data/cellsignaling/minor/overlap/correlation_results.csv": "49de1596d0fd1f4ff809bbc89bb671b68ade96beadaedca099036174f8d74cf4",
+    "May_2026_clean_version_redo/Figures/submission/data/Figure_7/paired/specimen_pathway_scores.parquet": "2e6a98567eb5ba179c484ab80c48b68cffc1d243f024f3618e2f9ba725e4bc39",
+    "May_2026_clean_version_redo/Figures/submission/data/Figure_7/paired/specimens_minor.csv": "95f148cc77473a8ef48aa6e7257b27a5c5acc9fdebca4914d2fa15b537c91304",
+    "May_2026_clean_version_redo/Figures/submission/data/Figure_7/specimen_expression_support_matrix_spp1.csv": "7ea83292bfa4609327082308a66748fdbb53e528ec6b7986c670f056e78b3ab4",
+    "May_2026_clean_version_redo/Figures/submission/data/Figure_7/pathway_overlap.csv": "8c419313dc7ef40c569b1646f47c6f4cb653285ceb8af9ae7dbaa0205ecb3a41",
+    "May_2026_clean_version_redo/Figures/submission/data/Figure_7/lr_harmonized_overlap_candidates.csv": "dfff8d8790e0290e8b932b25f82d33822439057ac0977d6c5d46cba5ebceeb4f",
+    "May_2026_clean_version_redo/Figures/submission/data/Figure_7/pathway_evidence_major_minor.csv": "29c31634ec42788c85d7450f935fe2e88c753d59b07787ac115a7facb773c9c9",
+    "May_2026_clean_version_redo/Figures/submission/data/Figure_7/paired/preparation_manifest.json": "5cf2eeff7c3641ce4be25f67442523035b599a5c02498610d6b5ae2a48da38fe",
+    "May_2026_clean_version_redo/inhouse_rerun/scknife_run/data/cellsignaling/minor/cellchat/tables/communication_LR_level.csv": "c2e61e9d73e475a574f4f12f15f687a3c315d9ed92e430915181fb6a97bb9d6c",
+    "May_2026_clean_version_redo/Figures/submission/data/Figure_7/collagen_minor_communication_matrix_lr_q05.csv": "309bbe27bc030fea99eec2b305fc12baf4b2255fd12c888ec44c00f730ea87f1",
+    "May_2026_clean_version_redo/Figures/submission/data/Figure_7/fn1_minor_communication_matrix_lr_q05.csv": "8ac906091c647d1b4d858e4869e5e8a7412cccf68254a221319b051238b77647",
+    "May_2026_clean_version_redo/Figures/submission/data/Figure_7/thbs_minor_communication_matrix_lr_q05.csv": "94e494377f2e041ecc31bc592f0b5a8e1843d1f4dc2897c42f46ed7f5ada6901",
+    "May_2026_clean_version_redo/Figures/submission/data/Figure_7/spp1_minor_communication_matrix_lr_q05.csv": "ab68a8478a86af0fd108e7170051a111d4ac749fe6980ed49547bb7d0a94f6c4"
+  },
+  "connections": [
+    {
+      "connection_id": 0,
+      "pathway": "COLLAGEN",
+      "source": "CAFs myCAF-like",
+      "target": "CAFs myCAF-like",
+      "label": "COLLAGEN: myCAF \u2192 myCAF"
+    },
+    {
+      "connection_id": 1,
+      "pathway": "COLLAGEN",
+      "source": "CAFs myCAF-like",
+      "target": "Cancer Basal SC",
+      "label": "COLLAGEN: myCAF \u2192 basal"
+    },
+    {
+      "connection_id": 2,
+      "pathway": "FN1",
+      "source": "CAFs myCAF-like",
+      "target": "Cancer Basal SC",
+      "label": "FN1: myCAF \u2192 basal"
+    },
+    {
+      "connection_id": 3,
+      "pathway": "THBS",
+      "source": "CAFs myCAF-like",
+      "target": "Cancer Basal SC",
+      "label": "THBS: myCAF \u2192 basal"
+    },
+    {
+      "connection_id": 4,
+      "pathway": "SPP1",
+      "source": "Macrophage",
+      "target": "CAFs myCAF-like",
+      "label": "SPP1: macrophage \u2192 myCAF"
+    },
+    {
+      "connection_id": 5,
+      "pathway": "SPP1",
+      "source": "Macrophage",
+      "target": "Cancer Basal SC",
+      "label": "SPP1: macrophage \u2192 basal"
+    },
+    {
+      "connection_id": 6,
+      "pathway": "SPP1",
+      "source": "Macrophage",
+      "target": "Endothelial RGS5",
+      "label": "SPP1: macrophage \u2192 endo-RGS5"
+    }
+  ],
+  "rank_definition": "100*(average ascending rank-1)/(N-1), independently within each method/pathway over 841 sender-receiver entries; explicit native zeros included, unavailable entries excluded; higher is stronger; non-retained calls marked separately",
+  "CellChat_source": "Saved object netP$prob uses p<=0.05; independently reconstructed exactly from native net probabilities. Exported pathway CSV uses strict p<0.05, also independently matched. Strict-boundary percentile ranks are supplied as sensitivity columns. No complex expansion. Historical CSV names are swapped: communication_LR_level.csv contains native pathway probabilities; communication_pathway_level.csv contains LR records.",
+  "specimen_display": "log1p scores z-standardized within connection over eligible Bx/Surgery specimens, ddof=0; >=10 sender and receiver cells; missing coverage is not zero; not a paired longitudinal test",
+  "files": {
+    "complete_method_connection_ranks.csv": "c755925db3d534c8e72be21ff6a0073f288705b319067ca12725c924085925af",
+    "highlighted_connection_ranks.csv": "3dc8c7c3d65db86fc6139158e8847204c217980d21289d431b1cd304dfbf1a1c",
+    "threshold_sensitivity.csv": "8329497acf68cfca5f345271a851bfff046c13cfd3a249dcbdee740726bca0a1",
+    "representative_LR_percentages.csv": "f3b021846f9c116a1065f4b84b020aeff2836b510d56bbc0f9355bb6a3c1ea6a",
+    "specimen_expression_context.csv": "e4a9c0dae3136772b98a26d982141e8ca469c779e3589f5ab31b4b035c85c3d3",
+    "complete_pathway_overview.csv": "d963e05f8afcefafc27b69d6b536a2669113751e3b82ca4322288aba38ddc4d9",
+    "representative_LR_database_contributions.csv": "4737a753ef780a6305bf109f865e399122174f82aa12f8f232dea25f538f0233",
+    "highlighted_specimen_scores.csv": "0b774f0bf6b58a748794ac5399978aad38d6c259b60914a68830b16f4006a389",
+    "cellchat_native_pathway_scores.csv": "4a9999d4c964d81938648a2f11abef363ff00863eb565dfb060c2063686aa324"
+  }
+}

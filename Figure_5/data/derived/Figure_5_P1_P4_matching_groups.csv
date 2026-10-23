@@ -1,0 +1,19 @@
+patient,patient_id,celltype_minor,biopsy_cells,surgery_cells,eligible,matched_cells_per_site
+P4,P4,Cancer Basal SC — Interferon Alpha Response,3170,191,True,114
+P4,P4,Cancer Cycling — E2F Targets,1535,160,True,86
+P4,P4,Cancer Her2 SC,224,64,True,17
+P4,P4,Cancer LumA SC,29,54,True,7
+P4,P4,Cancer LumB SC,21,3,False,0
+P4,P4,Epithelial,297,159,True,97
+P4,P4,Luminal Progenitors,896,145,True,78
+P4,P4,Mature Luminal,53,35,True,12
+P4,P4,Myoepithelial,71,74,True,23
+P1,P1,Cancer Basal SC — Interferon Alpha Response,2114,890,True,807
+P1,P1,Cancer Cycling — E2F Targets,861,392,True,370
+P1,P1,Cancer Her2 SC,167,25,True,24
+P1,P1,Cancer LumA SC,36,3,False,0
+P1,P1,Cancer LumB SC,20,2,False,0
+P1,P1,Epithelial,298,105,True,85
+P1,P1,Luminal Progenitors,1019,332,True,303
+P1,P1,Mature Luminal,124,71,True,56
+P1,P1,Myoepithelial,226,42,True,36

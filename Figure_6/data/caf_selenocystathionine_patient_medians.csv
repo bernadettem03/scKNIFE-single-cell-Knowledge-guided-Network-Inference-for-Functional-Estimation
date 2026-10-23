@@ -1,0 +1,15 @@
+PatientID,Status,Timepoint,median_score,n_cells
+P7,Non-metastatic,Bx,0.324262410402298,1424
+P7,Non-metastatic,Surgery,0.27079373598098755,205
+P1,Non-metastatic,Bx,0.4703327715396881,181
+P1,Non-metastatic,Surgery,0.3011338412761688,565
+P2,Metastatic,Bx,0.40229809284210205,386
+P2,Metastatic,Surgery,1.0675805807113647,283
+P3,Metastatic,Bx,0.3368944674730301,154
+P3,Metastatic,Surgery,0.23219603300094604,317
+P4,Metastatic,Bx,0.890110969543457,2728
+P4,Metastatic,Surgery,0.27835366129875183,298
+P5,Non-metastatic,Bx,0.2764882743358612,638
+P5,Non-metastatic,Surgery,0.23099133372306824,151
+P6,Metastatic,Bx,0.34085068106651306,316
+P6,Metastatic,Surgery,0.14068665355443954,66

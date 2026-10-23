@@ -1,0 +1,842 @@
+rank,source,target,score
+1,Endothelial RGS5,PVL Immature,602.3858471232165
+2,PVL Immature,PVL Immature,467.6167308950233
+3,Endothelial CXCL12,PVL Immature,445.839855253303
+4,Endothelial ACKR1,PVL Immature,353.01698359955907
+5,Endothelial RGS5,CAFs myCAF-like,247.47420619930836
+6,PVL Differentiated,PVL Immature,215.30680298401737
+7,PVL Immature,CAFs myCAF-like,191.80431355567487
+8,Endothelial CXCL12,CAFs myCAF-like,183.11738690173385
+9,Endothelial Lymphatic LYVE1,PVL Immature,159.12927291128716
+10,Endothelial ACKR1,CAFs myCAF-like,144.93486521417435
+11,Myoepithelial,PVL Immature,130.7205748595488
+12,Endothelial RGS5,PVL Differentiated,130.33291716096372
+13,Cancer Basal SC,PVL Immature,105.73598429206032
+14,PVL Immature,PVL Differentiated,100.8594891945361
+15,Cycling PVL,PVL Immature,98.58324587937337
+16,Endothelial CXCL12,PVL Differentiated,96.41677709519162
+17,Cancer Cycling,PVL Immature,96.15080308531684
+18,PVL Differentiated,CAFs myCAF-like,88.14179216334304
+19,Macrophage,PVL Immature,87.97754754276787
+20,CAFs myCAF-like,PVL Immature,82.57811739116173
+21,Luminal Progenitors,PVL Immature,81.45690070531629
+22,Cancer Her2 SC,PVL Immature,76.51469825089764
+23,Endothelial ACKR1,PVL Differentiated,76.28302611177887
+24,Endothelial Lymphatic LYVE1,CAFs myCAF-like,65.16373544835857
+25,Monocyte,PVL Immature,60.9237383647342
+26,Cancer LumA SC,PVL Immature,58.28616272126289
+27,Cycling_Myeloid,PVL Immature,56.44702680006122
+28,Myoepithelial,CAFs myCAF-like,53.312227688266034
+29,Mature Luminal,PVL Immature,49.13483036337077
+30,Cycling T-cells,PVL Immature,46.28242795247552
+31,PVL Differentiated,PVL Differentiated,46.26143664542978
+32,DCs,PVL Immature,42.63987617824812
+33,Cancer Basal SC,CAFs myCAF-like,42.59102475676339
+34,Cycling PVL,CAFs myCAF-like,40.02888895903581
+35,Cancer LumB SC,PVL Immature,39.04721169197987
+36,Cancer Cycling,CAFs myCAF-like,38.66692461635968
+37,Macrophage,CAFs myCAF-like,35.75991760272549
+38,NKT cells,PVL Immature,35.51714334854145
+39,T cells CD8+,PVL Immature,35.46648675284336
+40,Endothelial Lymphatic LYVE1,PVL Differentiated,34.211458536620505
+41,CAFs MSC iCAF-like,PVL Immature,33.47752035691627
+42,CAFs myCAF-like,CAFs myCAF-like,33.462898025284595
+43,Plasmablasts,PVL Immature,33.37313541282314
+44,Luminal Progenitors,CAFs myCAF-like,32.885919131658724
+45,Cancer Her2 SC,CAFs myCAF-like,30.895243307858596
+46,B cells Memory,PVL Immature,28.93039089443254
+47,NK cells,PVL Immature,27.92164277144212
+48,Myoepithelial,PVL Differentiated,27.87780538402464
+49,B cells Naive,PVL Immature,27.588168376431994
+50,T cells CD4+,PVL Immature,27.151862458751392
+51,Endothelial RGS5,CAFs MSC iCAF-like,25.656130872375723
+52,Monocyte,CAFs myCAF-like,24.716641603655667
+53,Cancer LumA SC,CAFs myCAF-like,23.5334881735615
+54,Cycling_Myeloid,CAFs myCAF-like,22.84813279798844
+55,Endothelial RGS5,Cancer Basal SC,22.02192459553192
+56,Cancer Basal SC,PVL Differentiated,21.99854904855208
+57,Endothelial RGS5,Cancer Cycling,20.902390600364324
+58,Cycling PVL,PVL Differentiated,20.84103380423032
+59,Endothelial RGS5,Cycling PVL,20.35123652047225
+60,Cancer Cycling,PVL Differentiated,19.93890319230088
+61,Mature Luminal,CAFs myCAF-like,19.768687195832555
+62,PVL Immature,CAFs MSC iCAF-like,19.67265165393758
+63,Endothelial CXCL12,CAFs MSC iCAF-like,18.953354837694917
+64,Macrophage,PVL Differentiated,18.637672882463026
+65,Cycling T-cells,CAFs myCAF-like,18.570626340468152
+66,CAFs myCAF-like,PVL Differentiated,17.387773440731834
+67,DCs,CAFs myCAF-like,17.288647959542104
+68,Luminal Progenitors,PVL Differentiated,17.02459868205384
+69,PVL Immature,Cancer Basal SC,16.23075654745416
+70,Endothelial CXCL12,Cancer Basal SC,16.173499252623227
+71,Cancer Her2 SC,PVL Differentiated,15.99643768871633
+72,Cancer LumB SC,CAFs myCAF-like,15.703706252382675
+73,PVL Immature,Cancer Cycling,15.391963936617698
+74,Endothelial CXCL12,Cancer Cycling,15.349299699069382
+75,PVL Immature,Cycling PVL,15.294087354409848
+76,Endothelial RGS5,Luminal Progenitors,15.032706166560098
+77,Endothelial CXCL12,Cycling PVL,14.989268662531376
+78,Endothelial ACKR1,CAFs MSC iCAF-like,14.960869446245816
+79,Endothelial RGS5,Endothelial RGS5,14.258452646569427
+80,NKT cells,CAFs myCAF-like,14.258378207680952
+81,T cells CD8+,CAFs myCAF-like,14.232415504322434
+82,Endothelial RGS5,Cancer Her2 SC,13.830889476254203
+83,CAFs MSC iCAF-like,CAFs myCAF-like,13.500759876798549
+84,Plasmablasts,CAFs myCAF-like,13.401110712477006
+85,Monocyte,PVL Differentiated,12.857924131790964
+86,Endothelial RGS5,Myoepithelial,12.686353184444464
+87,Endothelial ACKR1,Cancer Basal SC,12.641409998026251
+88,Cancer LumA SC,PVL Differentiated,12.184059446495466
+89,Endothelial ACKR1,Cancer Cycling,11.994579343544606
+90,Cycling_Myeloid,PVL Differentiated,11.85889881579059
+91,Endothelial ACKR1,Cycling PVL,11.772423810770212
+92,B cells Memory,CAFs myCAF-like,11.6888005818751
+93,Endothelial RGS5,Cycling T-cells,11.648969087246256
+94,Endothelial RGS5,Endothelial Lymphatic LYVE1,11.30220527522482
+95,NK cells,CAFs myCAF-like,11.20903421441179
+96,B cells Naive,CAFs myCAF-like,11.122266102591468
+97,PVL Immature,Luminal Progenitors,11.07358709478826
+98,Endothelial CXCL12,Luminal Progenitors,11.039567470278838
+99,T cells CD4+,CAFs myCAF-like,10.896398363106696
+100,PVL Immature,Endothelial RGS5,10.709263299410676
+101,Endothelial RGS5,Endothelial CXCL12,10.635630426699915
+102,Endothelial RGS5,Mature Luminal,10.61804278387465
+103,Endothelial CXCL12,Endothelial RGS5,10.50087969587624
+104,Endothelial RGS5,Macrophage,10.30486247661534
+105,Mature Luminal,PVL Differentiated,10.1986571211148
+106,PVL Immature,Cancer Her2 SC,10.186655855284409
+107,Endothelial CXCL12,Cancer Her2 SC,10.156752351863814
+108,Endothelial RGS5,Cancer LumA SC,10.148845359931618
+109,Cycling T-cells,PVL Differentiated,9.554327281874375
+110,PVL Immature,Myoepithelial,9.3691624414285
+111,Endothelial CXCL12,Myoepithelial,9.319956239845087
+112,Endothelial RGS5,T cells CD8+,9.16756650572473
+113,Endothelial RGS5,NKT cells,9.052670532841864
+114,DCs,PVL Differentiated,8.98848455443788
+115,PVL Differentiated,CAFs MSC iCAF-like,8.920380103889025
+116,Endothelial RGS5,Cancer LumB SC,8.848600798858932
+117,Endothelial RGS5,Cycling_Myeloid,8.843226134456497
+118,Endothelial ACKR1,Luminal Progenitors,8.627525835715437
+119,PVL Immature,Cycling T-cells,8.588218720530282
+120,Endothelial CXCL12,Cycling T-cells,8.555698247743166
+121,Endothelial RGS5,Endothelial ACKR1,8.497563077898823
+122,PVL Immature,Endothelial Lymphatic LYVE1,8.476078252202113
+123,Endothelial RGS5,Monocyte,8.348234871990945
+124,Endothelial CXCL12,Endothelial Lymphatic LYVE1,8.321843096603628
+125,Endothelial ACKR1,Endothelial RGS5,8.246126779707595
+126,Endothelial RGS5,Plasmablasts,8.14952447542469
+127,Cancer LumB SC,PVL Differentiated,8.098217991008958
+128,Endothelial ACKR1,Cancer Her2 SC,7.937283616563732
+129,PVL Immature,Endothelial CXCL12,7.936350089473434
+130,Endothelial CXCL12,Endothelial CXCL12,7.82526134361502
+131,PVL Immature,Mature Luminal,7.823781943664709
+132,Endothelial CXCL12,Mature Luminal,7.79788801697043
+133,PVL Immature,Macrophage,7.59138459520266
+134,Endothelial CXCL12,Macrophage,7.567651312550115
+135,PVL Immature,Cancer LumA SC,7.473892211900106
+136,Endothelial CXCL12,Cancer LumA SC,7.452704750949393
+137,NKT cells,PVL Differentiated,7.33953325413769
+138,T cells CD8+,PVL Differentiated,7.323234051660466
+139,Endothelial ACKR1,Myoepithelial,7.288241040893989
+140,Endothelial RGS5,NK cells,7.151618735115139
+141,Endothelial RGS5,T cells CD4+,7.0833315538456585
+142,PVL Differentiated,Cancer Basal SC,6.984937370155924
+143,CAFs MSC iCAF-like,PVL Differentiated,6.981464080602535
+144,Plasmablasts,PVL Differentiated,6.900050139599696
+145,PVL Immature,T cells CD8+,6.758406019355926
+146,PVL Differentiated,Cycling PVL,6.757171222995298
+147,Endothelial CXCL12,T cells CD8+,6.733150716075264
+148,Endothelial ACKR1,Cycling T-cells,6.6877430610065405
+149,PVL Immature,NKT cells,6.675933066472058
+150,Endothelial CXCL12,NKT cells,6.649088530195392
+151,PVL Differentiated,Cancer Cycling,6.615830262058731
+152,Endothelial Lymphatic LYVE1,CAFs MSC iCAF-like,6.608746657443988
+153,Endothelial ACKR1,Endothelial Lymphatic LYVE1,6.532520651014468
+154,PVL Immature,Cancer LumB SC,6.516347714318469
+155,PVL Immature,Cycling_Myeloid,6.513045809132504
+156,Endothelial CXCL12,Cancer LumB SC,6.497881756933193
+157,Endothelial CXCL12,Cycling_Myeloid,6.494030156447477
+158,PVL Immature,Endothelial ACKR1,6.272136849909013
+159,Endothelial CXCL12,Endothelial ACKR1,6.242176570914604
+160,Endothelial RGS5,DCs,6.176749654809181
+161,PVL Immature,Monocyte,6.147352240823172
+162,Endothelial ACKR1,Endothelial CXCL12,6.135077229131417
+163,Endothelial CXCL12,Monocyte,6.130368639337937
+164,Endothelial ACKR1,Mature Luminal,6.094542063310648
+165,B cells Memory,PVL Differentiated,6.0557894775184495
+166,PVL Immature,Plasmablasts,6.009824851335349
+167,Endothelial CXCL12,Plasmablasts,5.985726053083373
+168,Endothelial ACKR1,Macrophage,5.914283528023641
+169,Endothelial ACKR1,Cancer LumA SC,5.823958783856455
+170,NK cells,PVL Differentiated,5.769810746587703
+171,B cells Naive,PVL Differentiated,5.7497169521299565
+172,Endothelial RGS5,B cells Naive,5.713873190233401
+173,T cells CD4+,PVL Differentiated,5.6069992495407694
+174,Endothelial RGS5,B cells Memory,5.286007935992128
+175,PVL Immature,NK cells,5.276443054034639
+176,Endothelial ACKR1,T cells CD8+,5.263034180293631
+177,Myoepithelial,CAFs MSC iCAF-like,5.253952480019718
+178,Endothelial CXCL12,NK cells,5.253142042129352
+179,PVL Immature,T cells CD4+,5.226765312838119
+180,Endothelial Lymphatic LYVE1,Cancer Basal SC,5.21871786238788
+181,Endothelial CXCL12,T cells CD4+,5.203084677982853
+182,Endothelial ACKR1,NKT cells,5.197754497750014
+183,Endothelial ACKR1,Cancer LumB SC,5.077805312176542
+184,Endothelial ACKR1,Cycling_Myeloid,5.074921554643725
+185,Endothelial Lymphatic LYVE1,Cycling PVL,5.026922457086264
+186,Endothelial Lymphatic LYVE1,Cancer Cycling,4.943946368460728
+187,Endothelial ACKR1,Endothelial ACKR1,4.880731783083316
+188,Endothelial ACKR1,Monocyte,4.7905116724133645
+189,PVL Differentiated,Luminal Progenitors,4.7620137845027095
+190,PVL Differentiated,Endothelial RGS5,4.727988418065151
+191,Endothelial ACKR1,Plasmablasts,4.679172699695655
+192,PVL Immature,DCs,4.549847022744991
+193,Endothelial CXCL12,DCs,4.535997412850164
+194,PVL Differentiated,Cancer Her2 SC,4.379631193445817
+195,PVL Immature,B cells Naive,4.214732785573962
+196,Endothelial CXCL12,B cells Naive,4.196924752519761
+197,Endothelial ACKR1,NK cells,4.106979723561803
+198,Endothelial ACKR1,T cells CD4+,4.06797950041487
+199,PVL Differentiated,Myoepithelial,4.043327629871757
+200,PVL Immature,B cells Memory,3.898005786373686
+201,Endothelial CXCL12,B cells Memory,3.88248879578736
+202,Cancer Basal SC,CAFs MSC iCAF-like,3.8232571659695695
+203,Cycling PVL,CAFs MSC iCAF-like,3.820558517996684
+204,Myoepithelial,Cycling PVL,3.7673766426362247
+205,PVL Differentiated,Endothelial Lymphatic LYVE1,3.7345942975121744
+206,PVL Differentiated,Cycling T-cells,3.6975106966983065
+207,Myoepithelial,Cancer Basal SC,3.666136269122458
+208,Endothelial Lymphatic LYVE1,Luminal Progenitors,3.558320168819703
+209,Endothelial ACKR1,DCs,3.544895737058225
+210,Endothelial Lymphatic LYVE1,Endothelial RGS5,3.5177590387320605
+211,PVL Differentiated,Endothelial CXCL12,3.47349672265257
+212,Myoepithelial,Cancer Cycling,3.4621664453103413
+213,Macrophage,CAFs MSC iCAF-like,3.439527867303235
+214,Cancer Cycling,CAFs MSC iCAF-like,3.426020054312371
+215,PVL Differentiated,Mature Luminal,3.3657872719273603
+216,Endothelial ACKR1,B cells Naive,3.2810325850406943
+217,Endothelial Lymphatic LYVE1,Cancer Her2 SC,3.272712387076974
+218,PVL Differentiated,Macrophage,3.2648375228021638
+219,PVL Differentiated,Cancer LumA SC,3.212784842891113
+220,CAFs myCAF-like,CAFs MSC iCAF-like,3.1463394988948585
+221,Endothelial ACKR1,B cells Memory,3.035000571932086
+222,Endothelial Lymphatic LYVE1,Myoepithelial,3.0195346468974438
+223,Luminal Progenitors,CAFs MSC iCAF-like,3.0052403386863267
+224,PVL Differentiated,T cells CD8+,2.909481067287484
+225,PVL Differentiated,NKT cells,2.8753027351246776
+226,Cancer Her2 SC,CAFs MSC iCAF-like,2.826593731551397
+227,PVL Differentiated,Cancer LumB SC,2.801162504075638
+228,PVL Differentiated,Cycling_Myeloid,2.800133848466653
+229,Endothelial Lymphatic LYVE1,Endothelial Lymphatic LYVE1,2.7795438433077724
+230,Endothelial Lymphatic LYVE1,Cycling T-cells,2.762362106553109
+231,PVL Differentiated,Endothelial ACKR1,2.704701433855846
+232,PVL Differentiated,Monocyte,2.642238334015717
+233,Myoepithelial,Endothelial RGS5,2.631695627236613
+234,PVL Differentiated,Plasmablasts,2.5883650801083253
+235,Endothelial Lymphatic LYVE1,Endothelial CXCL12,2.588022452017897
+236,Cycling PVL,Cycling PVL,2.5478594965281234
+237,Endothelial Lymphatic LYVE1,Mature Luminal,2.514857377063678
+238,Myoepithelial,Luminal Progenitors,2.494965744842791
+239,Endothelial Lymphatic LYVE1,Macrophage,2.4395494674406035
+240,Endothelial Lymphatic LYVE1,Cancer LumA SC,2.4008425931689823
+241,Monocyte,CAFs MSC iCAF-like,2.344291395958657
+242,Macrophage,Cycling PVL,2.3358255111611954
+243,Myoepithelial,Cancer Her2 SC,2.2933982987086017
+244,PVL Differentiated,NK cells,2.2740034071569357
+245,Cycling PVL,Cancer Basal SC,2.2618789434881714
+246,PVL Differentiated,T cells CD4+,2.2530122976953524
+247,Endothelial Lymphatic LYVE1,T cells CD8+,2.173664405883567
+248,Cancer Basal SC,Cycling PVL,2.1645939835142047
+249,Cancer LumA SC,CAFs MSC iCAF-like,2.1520716920680347
+250,Endothelial Lymphatic LYVE1,NKT cells,2.1479663923040846
+251,Myoepithelial,Myoepithelial,2.136411310860209
+252,Cycling_Myeloid,CAFs MSC iCAF-like,2.130062020249348
+253,Cycling PVL,Cancer Cycling,2.1256708201193497
+254,Macrophage,Cancer Basal SC,2.124970031811273
+255,Endothelial Lymphatic LYVE1,Cancer LumB SC,2.0932469861905028
+256,Endothelial Lymphatic LYVE1,Cycling_Myeloid,2.0924300546532573
+257,Myoepithelial,Endothelial Lymphatic LYVE1,2.0695771307762927
+258,CAFs myCAF-like,Cycling PVL,2.02256148988747
+259,Endothelial Lymphatic LYVE1,Endothelial ACKR1,2.020112209680014
+260,Macrophage,Cancer Cycling,1.999687633500668
+261,Endothelial Lymphatic LYVE1,Monocyte,1.9745241397757327
+262,PVL Differentiated,DCs,1.9564972172414865
+263,Myoepithelial,Cycling T-cells,1.9426442804768635
+264,Endothelial Lymphatic LYVE1,Plasmablasts,1.9336182551015424
+265,Myoepithelial,Endothelial CXCL12,1.8962392652978932
+266,Cancer Cycling,Cycling PVL,1.863538957090869
+267,PVL Differentiated,B cells Naive,1.8158729542449004
+268,Luminal Progenitors,Cycling PVL,1.7914889375153855
+269,Cycling PVL,Endothelial RGS5,1.7756717976104954
+270,Myoepithelial,Mature Luminal,1.765076232115877
+271,Mature Luminal,CAFs MSC iCAF-like,1.7581213651798793
+272,Myoepithelial,Macrophage,1.710911379305628
+273,CAFs myCAF-like,Cancer Basal SC,1.703215854984741
+274,Endothelial Lymphatic LYVE1,NK cells,1.6985922176874546
+275,Cancer Her2 SC,Cycling PVL,1.690429907363315
+276,Endothelial Lymphatic LYVE1,T cells CD4+,1.6828611197849963
+277,Myoepithelial,Cancer LumA SC,1.681715054035182
+278,PVL Differentiated,B cells Memory,1.6787485584594797
+279,DCs,CAFs MSC iCAF-like,1.6325084648315826
+280,Macrophage,Endothelial RGS5,1.628874591152941
+281,Cycling T-cells,CAFs MSC iCAF-like,1.6155947232463217
+282,CAFs myCAF-like,Cancer Cycling,1.5958268284225343
+283,Monocyte,Cycling PVL,1.5398169743147765
+284,Cycling PVL,Luminal Progenitors,1.5348125625191662
+285,Myoepithelial,T cells CD8+,1.5283235659434409
+286,Myoepithelial,NKT cells,1.5120393555828238
+287,Cancer Basal SC,Endothelial RGS5,1.4996394351873676
+288,Myoepithelial,Cancer LumB SC,1.4662473767195348
+289,Myoepithelial,Cycling_Myeloid,1.4662015106247783
+290,Endothelial Lymphatic LYVE1,DCs,1.461964720442253
+291,Cancer Basal SC,Cancer Basal SC,1.451831441606048
+292,Macrophage,Luminal Progenitors,1.4430747494061955
+293,Myoepithelial,Endothelial ACKR1,1.4264928540419304
+294,Cycling PVL,Cancer Her2 SC,1.4095727722988949
+295,CAFs myCAF-like,Endothelial RGS5,1.4078236637604225
+296,Cancer LumB SC,CAFs MSC iCAF-like,1.3920573190911183
+297,Cycling PVL,Endothelial Lymphatic LYVE1,1.3876376971396638
+298,Myoepithelial,Monocyte,1.3826749462012122
+299,Myoepithelial,Plasmablasts,1.3610879165517933
+300,Endothelial Lymphatic LYVE1,B cells Naive,1.3564557982640084
+301,Cancer Basal SC,Cancer Cycling,1.3398616019528031
+302,Cycling_Myeloid,Cycling PVL,1.3398080671021837
+303,Monocyte,Cancer Basal SC,1.3382534480445345
+304,Cycling PVL,Myoepithelial,1.332485253145245
+305,Luminal Progenitors,Cancer Basal SC,1.3309611404622157
+306,Macrophage,Cancer Her2 SC,1.3256431115538017
+307,Cancer Cycling,Endothelial RGS5,1.2889883910127058
+308,Cancer LumA SC,Cycling PVL,1.2853778384836876
+309,Macrophage,Endothelial Lymphatic LYVE1,1.2749913207061252
+310,Cancer Her2 SC,Cancer Basal SC,1.2633003637194244
+311,Monocyte,Cancer Cycling,1.2561643581410291
+312,Endothelial Lymphatic LYVE1,B cells Memory,1.2541060039693883
+313,Macrophage,Myoepithelial,1.2481084492909569
+314,NKT cells,CAFs MSC iCAF-like,1.245644971500858
+315,Cycling PVL,Endothelial CXCL12,1.243947682142988
+316,Luminal Progenitors,Endothelial RGS5,1.243608411652069
+317,T cells CD8+,CAFs MSC iCAF-like,1.23935451647707
+318,Luminal Progenitors,Cancer Cycling,1.237258805380481
+319,CAFs MSC iCAF-like,CAFs MSC iCAF-like,1.223200426108465
+320,Cycling PVL,Cycling T-cells,1.200525523073412
+321,Myoepithelial,NK cells,1.1976658756228729
+322,Myoepithelial,T cells CD4+,1.187136756874697
+323,Cancer Her2 SC,Cancer Cycling,1.1748246292019495
+324,Cancer Her2 SC,Endothelial RGS5,1.1735966125168102
+325,Plasmablasts,CAFs MSC iCAF-like,1.17321537642202
+326,CAFs myCAF-like,Luminal Progenitors,1.1536367680913824
+327,Cancer Basal SC,Endothelial Lymphatic LYVE1,1.1529648036052316
+328,Macrophage,Endothelial CXCL12,1.1495035028674403
+329,Cancer Cycling,Cancer Basal SC,1.140468981823995
+330,Macrophage,Cycling T-cells,1.1273466063993816
+331,CAFs myCAF-like,Endothelial Lymphatic LYVE1,1.096448373845048
+332,Cycling_Myeloid,Cancer Basal SC,1.0909761947127972
+333,Cycling PVL,Mature Luminal,1.0874707479476626
+334,B cells Memory,CAFs MSC iCAF-like,1.0745460408843766
+335,Monocyte,Endothelial RGS5,1.072594118950881
+336,DCs,Cycling PVL,1.0606555709033174
+337,CAFs myCAF-like,Cancer Her2 SC,1.0589207485305647
+338,Cycling PVL,Macrophage,1.0528582595783644
+339,Cancer Cycling,Cancer Cycling,1.044945397037087
+340,Cycling PVL,Cancer LumA SC,1.032946134243404
+341,Myoepithelial,DCs,1.0249562943767203
+342,Macrophage,Mature Luminal,1.0220405844839988
+343,Cycling_Myeloid,Cancer Cycling,1.0201358906418505
+344,CAFs myCAF-like,Myoepithelial,1.010070861668704
+345,B cells Naive,CAFs MSC iCAF-like,1.0052513938029624
+346,Macrophage,Macrophage,0.9898321568350876
+347,Cancer Cycling,Endothelial Lymphatic LYVE1,0.9865670742349084
+348,NK cells,CAFs MSC iCAF-like,0.9791572854546388
+349,Cancer Basal SC,Luminal Progenitors,0.97450780916373
+350,Cancer Basal SC,Endothelial CXCL12,0.9737338247883784
+351,Macrophage,Cancer LumA SC,0.9716164829917372
+352,CAFs myCAF-like,Endothelial CXCL12,0.9711508827586092
+353,Mature Luminal,Cycling PVL,0.9675395985200654
+354,Luminal Progenitors,Endothelial Lymphatic LYVE1,0.9613737939759052
+355,Cancer LumA SC,Cancer Basal SC,0.9583396989875128
+356,Myoepithelial,B cells Naive,0.9556720385701188
+357,T cells CD4+,CAFs MSC iCAF-like,0.9492660814666064
+358,Cycling PVL,T cells CD8+,0.9441821898243428
+359,Cycling PVL,NKT cells,0.9358106116821308
+360,Cycling_Myeloid,Endothelial RGS5,0.9318781722788638
+361,Cancer Her2 SC,Endothelial Lymphatic LYVE1,0.907551686610536
+362,Monocyte,Luminal Progenitors,0.9074297545952232
+363,DCs,Cancer Basal SC,0.9074008854337676
+364,CAFs myCAF-like,Cycling T-cells,0.9049287692200432
+365,Cycling PVL,Cycling_Myeloid,0.90106677465926
+366,Cycling PVL,Cancer LumB SC,0.900594921203745
+367,Luminal Progenitors,Luminal Progenitors,0.8972554093406176
+368,Cancer LumA SC,Endothelial RGS5,0.8923426248252757
+369,Cancer Basal SC,Cancer Her2 SC,0.8920375026406868
+370,Cancer LumA SC,Cancer Cycling,0.8910820583045577
+371,Cancer Basal SC,Myoepithelial,0.8893598619954655
+372,Cycling PVL,Endothelial ACKR1,0.887076672676252
+373,Macrophage,T cells CD8+,0.886706142956626
+374,Myoepithelial,B cells Memory,0.8826675035473737
+375,Macrophage,NKT cells,0.878407978329235
+376,Cancer Her2 SC,Luminal Progenitors,0.8518433364188706
+377,DCs,Cancer Cycling,0.8509713616382625
+378,Cycling PVL,Monocyte,0.8488726730162878
+379,Macrophage,Cycling_Myeloid,0.8474389779029381
+380,Macrophage,Cancer LumB SC,0.8471250535091301
+381,Cycling PVL,Plasmablasts,0.8423260604846886
+382,Monocyte,Endothelial Lymphatic LYVE1,0.8370426954021122
+383,Monocyte,Cancer Her2 SC,0.8332035656850614
+384,Macrophage,Endothelial ACKR1,0.8315775010348571
+385,Luminal Progenitors,Endothelial CXCL12,0.8287764011930414
+386,Cycling T-cells,Cycling PVL,0.8276266674781219
+387,Luminal Progenitors,Cancer Her2 SC,0.8224102024777202
+388,Cancer Cycling,Endothelial CXCL12,0.8189494570436664
+389,CAFs myCAF-like,Mature Luminal,0.8181683073352906
+390,Luminal Progenitors,Myoepithelial,0.8028958744223563
+391,Macrophage,Monocyte,0.7985751258743587
+392,CAFs myCAF-like,Macrophage,0.7915489297913711
+393,Macrophage,Plasmablasts,0.7906731799352192
+394,Monocyte,Myoepithelial,0.790456353734237
+395,Cancer Her2 SC,Endothelial CXCL12,0.7833368601724695
+396,Cancer Her2 SC,Cancer Her2 SC,0.7808422661271991
+397,CAFs myCAF-like,Cancer LumA SC,0.7756713384145256
+398,Cancer Basal SC,Cycling T-cells,0.7752719608837711
+399,Cancer Cycling,Luminal Progenitors,0.7622318868944007
+400,Cancer Her2 SC,Myoepithelial,0.7614367315507835
+401,Cancer LumB SC,Cycling PVL,0.7583164551379881
+402,Monocyte,Endothelial CXCL12,0.7467074416910797
+403,Cycling PVL,NK cells,0.7430946361176832
+404,DCs,Endothelial RGS5,0.7385496699967642
+405,Cycling_Myeloid,Luminal Progenitors,0.7380589458340173
+406,Cycling PVL,T cells CD4+,0.737092919600482
+407,Cycling_Myeloid,Endothelial Lymphatic LYVE1,0.724263284467463
+408,CAFs MSC iCAF-like,Cycling PVL,0.7116314786234867
+409,CAFs myCAF-like,T cells CD8+,0.7115640069643281
+410,Monocyte,Cycling T-cells,0.7105845710086861
+411,Cancer Cycling,Myoepithelial,0.7091333416143799
+412,Luminal Progenitors,Cycling T-cells,0.7090178184717818
+413,CAFs myCAF-like,NKT cells,0.7060395809883542
+414,Macrophage,NK cells,0.6970357376304751
+415,Cancer Cycling,Cancer Her2 SC,0.6968061623883242
+416,Cancer Basal SC,Mature Luminal,0.6944155484488613
+417,Macrophage,T cells CD4+,0.6912694213271514
+418,Cancer LumA SC,Endothelial Lymphatic LYVE1,0.6899643498061947
+419,Cycling_Myeloid,Cancer Her2 SC,0.6772153808537269
+420,CAFs myCAF-like,Cycling_Myeloid,0.6768697991367114
+421,CAFs myCAF-like,Cancer LumB SC,0.6762817769033712
+422,Cancer Her2 SC,Cycling T-cells,0.6728856415064137
+423,CAFs myCAF-like,Endothelial ACKR1,0.6712246776075231
+424,Mature Luminal,Endothelial RGS5,0.6695551382637646
+425,Cancer Basal SC,Macrophage,0.6693703978226337
+426,Cancer Basal SC,Cancer LumA SC,0.6520933473302191
+427,B cells Memory,Cycling PVL,0.651168223763475
+428,Cycling_Myeloid,Myoepithelial,0.6498411184384012
+429,NKT cells,Cycling PVL,0.647202027651119
+430,Cancer LumA SC,Luminal Progenitors,0.6461477014846297
+431,Monocyte,Mature Luminal,0.6431881280752141
+432,Luminal Progenitors,Mature Luminal,0.637914716234191
+433,CAFs myCAF-like,Monocyte,0.6372595530553868
+434,T cells CD8+,Cycling PVL,0.6369368602524261
+435,Cycling_Myeloid,Endothelial CXCL12,0.6367259466072028
+436,CAFs myCAF-like,Plasmablasts,0.6354807176732797
+437,Cycling PVL,DCs,0.6304015100440837
+438,Monocyte,Macrophage,0.6225364895852616
+439,Luminal Progenitors,Macrophage,0.615985640629662
+440,DCs,Luminal Progenitors,0.6149479732237846
+441,Plasmablasts,Cycling PVL,0.6138545551437472
+442,Monocyte,Cancer LumA SC,0.6104804262293647
+443,Cancer Cycling,Cycling T-cells,0.6104520920278161
+444,Cancer Basal SC,T cells CD8+,0.6090239828995662
+445,Mature Luminal,Cancer Basal SC,0.6089271387490943
+446,Cancer Basal SC,NKT cells,0.6076167396843059
+447,Cancer Her2 SC,Mature Luminal,0.6055535836601478
+448,Luminal Progenitors,Cancer LumA SC,0.6017857921496093
+449,Cancer LumA SC,Endothelial CXCL12,0.595238874982003
+450,Macrophage,DCs,0.5927512610281905
+451,Cancer LumA SC,Cancer Her2 SC,0.5922744110605452
+452,Cycling PVL,B cells Naive,0.5922357547450338
+453,Cancer Basal SC,Endothelial ACKR1,0.5859134734102487
+454,Cancer Her2 SC,Macrophage,0.5847926723845458
+455,B cells Naive,Cycling PVL,0.580720820380596
+456,Cycling_Myeloid,Cycling T-cells,0.5800346809871919
+457,Cancer LumA SC,Myoepithelial,0.5778202532438983
+458,DCs,Endothelial Lymphatic LYVE1,0.5757754011714677
+459,Cancer Her2 SC,Cancer LumA SC,0.5713995356075903
+460,Cycling T-cells,Endothelial RGS5,0.5710062674214634
+461,Cancer Basal SC,Cycling_Myeloid,0.570012876813307
+462,Cancer Basal SC,Cancer LumB SC,0.5685258563449139
+463,DCs,Cancer Her2 SC,0.5645537391431394
+464,CAFs myCAF-like,NK cells,0.5615003386876805
+465,Mature Luminal,Cancer Cycling,0.5591977213555378
+466,Monocyte,T cells CD8+,0.5588130838561899
+467,Luminal Progenitors,T cells CD8+,0.5572335196749792
+468,CAFs myCAF-like,T cells CD4+,0.5572110194825699
+469,Macrophage,B cells Naive,0.5557109202780505
+470,Luminal Progenitors,NKT cells,0.5544977394146072
+471,Monocyte,NKT cells,0.5541025335393395
+472,Cancer Basal SC,Plasmablasts,0.5467766817394129
+473,Cycling PVL,B cells Memory,0.5461487126470514
+474,Cancer Cycling,Mature Luminal,0.5443802530510518
+475,DCs,Myoepithelial,0.5370358136290627
+476,Cancer Basal SC,Monocyte,0.5349458359838891
+477,Monocyte,Cycling_Myeloid,0.5326103504452299
+478,Monocyte,Cancer LumB SC,0.5322587627300871
+479,Luminal Progenitors,Endothelial ACKR1,0.5311103050056623
+480,Cancer Her2 SC,T cells CD8+,0.5288497044830177
+481,Cancer Her2 SC,NKT cells,0.5261781515796382
+482,Monocyte,Endothelial ACKR1,0.5258545083954109
+483,Luminal Progenitors,Cycling_Myeloid,0.5256024573051314
+484,Luminal Progenitors,Cancer LumB SC,0.524670862714941
+485,Cancer LumB SC,Endothelial RGS5,0.5245507078204716
+486,Cancer Cycling,Macrophage,0.5238342401869511
+487,Cycling_Myeloid,Mature Luminal,0.5237675924041232
+488,Mature Luminal,Endothelial Lymphatic LYVE1,0.5131479605358162
+489,Macrophage,B cells Memory,0.5126839720894347
+490,DCs,Endothelial CXCL12,0.5117971583744505
+491,Cancer LumA SC,Cycling T-cells,0.5104778204009174
+492,Cancer Cycling,Cancer LumA SC,0.5088761916982427
+493,NK cells,Cycling PVL,0.5085861071384067
+494,Cycling_Myeloid,Macrophage,0.5064801848731838
+495,CAFs MSC iCAF-like,Cancer Basal SC,0.5047499341062206
+496,Cancer Her2 SC,Endothelial ACKR1,0.5037988974733217
+497,Monocyte,Monocyte,0.5016336989038525
+498,Cancer Her2 SC,Cycling_Myeloid,0.4990405798585813
+499,Luminal Progenitors,Plasmablasts,0.4990272581269548
+500,Monocyte,Plasmablasts,0.4987407993826513
+501,B cells Memory,Cancer Basal SC,0.4982547865515593
+502,Cancer Her2 SC,Cancer LumB SC,0.4981786906653203
+503,Cycling_Myeloid,Cancer LumA SC,0.495933779818663
+504,Luminal Progenitors,Monocyte,0.4940254065666915
+505,CAFs MSC iCAF-like,Endothelial RGS5,0.493542521675543
+506,T cells CD4+,Cycling PVL,0.4885699563094073
+507,Cancer Basal SC,NK cells,0.4868577060356856
+508,Cancer Basal SC,T cells CD4+,0.4841758854325555
+509,DCs,Cycling T-cells,0.4819578932536216
+510,Cancer Cycling,NKT cells,0.4794484944490219
+511,Cancer Cycling,T cells CD8+,0.4793310373772934
+512,CAFs myCAF-like,DCs,0.4737857808770142
+513,Cancer Her2 SC,Plasmablasts,0.4735433300196013
+514,Cancer Her2 SC,Monocyte,0.4690983193272991
+515,CAFs MSC iCAF-like,Cancer Cycling,0.4677197343766819
+516,Cancer LumB SC,Cancer Basal SC,0.4657656376219365
+517,Cancer Cycling,Endothelial ACKR1,0.4653527935704787
+518,B cells Memory,Cancer Cycling,0.4640804370707491
+519,Cancer LumA SC,Mature Luminal,0.4593524471395389
+520,Cycling_Myeloid,T cells CD8+,0.4560340170481927
+521,Cycling_Myeloid,NKT cells,0.4528272628282588
+522,B cells Memory,Endothelial RGS5,0.4523003112189644
+523,CAFs myCAF-like,B cells Naive,0.4471777177776708
+524,NKT cells,Endothelial RGS5,0.4467997827330728
+525,Cancer Cycling,Cycling_Myeloid,0.4451909134883636
+526,Cancer Cycling,Cancer LumB SC,0.4436576937476718
+527,Cancer LumA SC,Macrophage,0.4435870905275922
+528,Luminal Progenitors,NK cells,0.442720884257631
+529,Monocyte,NK cells,0.4402607941112245
+530,Luminal Progenitors,T cells CD4+,0.4398356856551036
+531,T cells CD8+,Endothelial RGS5,0.4395050282704433
+532,Monocyte,T cells CD4+,0.4367814226965329
+533,DCs,Mature Luminal,0.4360000259736832
+534,Cycling T-cells,Endothelial Lymphatic LYVE1,0.4339255658191736
+535,Cancer LumA SC,Cancer LumA SC,0.43340141866891
+536,Cycling_Myeloid,Cycling_Myeloid,0.4328624803381415
+537,Cycling_Myeloid,Cancer LumB SC,0.4323867503818043
+538,Cancer Cycling,Plasmablasts,0.4313988033440322
+539,Cycling_Myeloid,Endothelial ACKR1,0.4313283206969187
+540,Cycling T-cells,Cancer Basal SC,0.4299812484475145
+541,Mature Luminal,Endothelial CXCL12,0.4281658585211443
+542,Cancer LumB SC,Cancer Cycling,0.4268814860012238
+543,Plasmablasts,Endothelial RGS5,0.4239056193059379
+544,DCs,Macrophage,0.4219085695242768
+545,Cancer Her2 SC,NK cells,0.4200281146074528
+546,Cancer Her2 SC,T cells CD4+,0.41726749886418
+547,Cancer Cycling,Monocyte,0.4171618089961037
+548,DCs,Cancer LumA SC,0.4135930687166683
+549,CAFs myCAF-like,B cells Memory,0.4119871646641986
+550,Cycling_Myeloid,Plasmablasts,0.4075616799437772
+551,Mature Luminal,Luminal Progenitors,0.4075282353930161
+552,Cycling_Myeloid,Monocyte,0.4073596086764611
+553,B cells Naive,Cancer Basal SC,0.4061452593008803
+554,B cells Naive,Endothelial RGS5,0.4026419226715659
+555,Cancer LumB SC,Endothelial Lymphatic LYVE1,0.4015495184180496
+556,Cancer LumA SC,T cells CD8+,0.4012024086069867
+557,Cancer Basal SC,DCs,0.3999928026740364
+558,Cancer LumA SC,NKT cells,0.399198385009033
+559,Cycling T-cells,Cancer Cycling,0.3881683511284619
+560,Cancer Basal SC,B cells Naive,0.3863394550615356
+561,Cancer Cycling,NK cells,0.3854940004890553
+562,Cancer Cycling,T cells CD4+,0.3837482269219679
+563,Cancer LumA SC,Endothelial ACKR1,0.3822760961539748
+564,CAFs MSC iCAF-like,Endothelial Lymphatic LYVE1,0.3805636430609576
+565,DCs,T cells CD8+,0.3789958897255027
+566,Cancer LumA SC,Cycling_Myeloid,0.3785245609105973
+567,Cancer LumA SC,Cancer LumB SC,0.377863979361849
+568,Mature Luminal,Myoepithelial,0.3768574955788085
+569,B cells Naive,Cancer Cycling,0.3759729771169759
+570,DCs,NKT cells,0.3759262065423527
+571,Mature Luminal,Cancer Her2 SC,0.3727037236288916
+572,Monocyte,DCs,0.3726966979831648
+573,Luminal Progenitors,DCs,0.3683842402971642
+574,DCs,Cycling_Myeloid,0.3608738797360123
+575,DCs,Cancer LumB SC,0.3605983755667011
+576,Cycling_Myeloid,NK cells,0.3604901899401332
+577,Cancer LumA SC,Plasmablasts,0.3592648452441619
+578,Cycling_Myeloid,T cells CD4+,0.3578406500935412
+579,DCs,Endothelial ACKR1,0.3570728277099557
+580,Cancer LumA SC,Monocyte,0.3558014356500995
+581,Cancer Basal SC,B cells Memory,0.3542816157586251
+582,Luminal Progenitors,B cells Naive,0.3519148891551626
+583,NK cells,Endothelial RGS5,0.3511008013845633
+584,Monocyte,B cells Naive,0.350778848437566
+585,NKT cells,Cancer Basal SC,0.3506831263872693
+586,B cells Memory,Endothelial Lymphatic LYVE1,0.3502382756806862
+587,Cycling T-cells,Endothelial CXCL12,0.3501747372126034
+588,Cancer Her2 SC,DCs,0.3497446659056
+589,NKT cells,Endothelial Lymphatic LYVE1,0.340125829015652
+590,DCs,Monocyte,0.3398211509300083
+591,CAFs MSC iCAF-like,Luminal Progenitors,0.3396244355039049
+592,Plasmablasts,Cancer Basal SC,0.339323988614413
+593,DCs,Plasmablasts,0.3383620863799026
+594,T cells CD4+,Endothelial RGS5,0.3371491010980203
+595,B cells Memory,Luminal Progenitors,0.3362858522557841
+596,T cells CD8+,Cancer Basal SC,0.3341641985357214
+597,T cells CD8+,Endothelial Lymphatic LYVE1,0.3341262757891841
+598,Cancer Her2 SC,B cells Naive,0.3339079059107588
+599,Cancer LumB SC,Endothelial CXCL12,0.3335468234031815
+600,Mature Luminal,Cycling T-cells,0.3256934657012762
+601,CAFs MSC iCAF-like,Endothelial CXCL12,0.3249787838075131
+602,Luminal Progenitors,B cells Memory,0.3234284775864403
+603,Monocyte,B cells Memory,0.3233597801539867
+604,Plasmablasts,Endothelial Lymphatic LYVE1,0.3229710696575428
+605,Cancer LumA SC,NK cells,0.3186897252318651
+606,NKT cells,Cancer Cycling,0.3178703221929528
+607,Cancer LumA SC,T cells CD4+,0.3166021965589549
+608,Cancer Cycling,DCs,0.3127780977036314
+609,Cancer LumB SC,Luminal Progenitors,0.3113495318175811
+610,CAFs MSC iCAF-like,Cancer Her2 SC,0.3111134998878105
+611,B cells Naive,Endothelial Lymphatic LYVE1,0.310238206678898
+612,B cells Memory,Cancer Her2 SC,0.3083437131484981
+613,Plasmablasts,Cancer Cycling,0.3081483383775418
+614,Cancer Her2 SC,B cells Memory,0.3069163557405187
+615,CAFs MSC iCAF-like,Myoepithelial,0.3065635662311366
+616,Cancer Cycling,B cells Naive,0.305396420594927
+617,B cells Memory,Endothelial CXCL12,0.3038034009349819
+618,Cycling_Myeloid,DCs,0.3030898087291421
+619,T cells CD8+,Cancer Cycling,0.3019592673781394
+620,B cells Memory,Myoepithelial,0.2993148282281485
+621,DCs,NK cells,0.29882809598223
+622,DCs,T cells CD4+,0.2965055957759728
+623,Mature Luminal,Mature Luminal,0.2908460010070827
+624,Cancer LumB SC,Myoepithelial,0.2894318070817951
+625,Cycling_Myeloid,B cells Naive,0.2869536386838245
+626,Cycling T-cells,Luminal Progenitors,0.2848634540256074
+627,Cancer LumB SC,Cancer Her2 SC,0.2846405963892102
+628,Mature Luminal,Macrophage,0.2800226661347118
+629,Cancer Cycling,B cells Memory,0.2794503527848889
+630,NKT cells,Endothelial CXCL12,0.2763895080912027
+631,Cycling T-cells,Myoepithelial,0.2754099779476866
+632,NK cells,Cancer Basal SC,0.2753298340190783
+633,B cells Naive,Luminal Progenitors,0.2731145410699861
+634,Mature Luminal,Cancer LumA SC,0.2722694094878206
+635,T cells CD8+,Endothelial CXCL12,0.2700678680190468
+636,CAFs MSC iCAF-like,Cycling T-cells,0.2691716310547253
+637,NK cells,Endothelial Lymphatic LYVE1,0.2672651069351206
+638,Cancer LumA SC,DCs,0.2652898409333488
+639,B cells Memory,Cycling T-cells,0.2652531183467395
+640,Cycling_Myeloid,B cells Memory,0.2642055510095153
+641,B cells Naive,Endothelial CXCL12,0.2641789138115565
+642,Plasmablasts,Endothelial CXCL12,0.2633351384406069
+643,Cycling T-cells,Cancer Her2 SC,0.2597044837241438
+644,T cells CD4+,Cancer Basal SC,0.2574600006224614
+645,T cells CD4+,Endothelial Lymphatic LYVE1,0.256358193797823
+646,Mature Luminal,T cells CD8+,0.2557730582102095
+647,Mature Luminal,NKT cells,0.2556300103999138
+648,Cancer LumA SC,B cells Naive,0.2533379104106284
+649,DCs,DCs,0.2525609743545839
+650,B cells Naive,Cancer Her2 SC,0.25014140353073
+651,NK cells,Cancer Cycling,0.2495467392425867
+652,Cancer LumB SC,Cycling T-cells,0.2492832452138247
+653,Mature Luminal,Endothelial ACKR1,0.2476070660949345
+654,B cells Naive,Myoepithelial,0.2471974804956471
+655,CAFs MSC iCAF-like,Mature Luminal,0.2417017694167266
+656,B cells Memory,Mature Luminal,0.238940453808835
+657,Mature Luminal,Cycling_Myeloid,0.238132852440795
+658,DCs,B cells Naive,0.2380394543075429
+659,Mature Luminal,Cancer LumB SC,0.2373756570645224
+660,CAFs MSC iCAF-like,Macrophage,0.2332131752694366
+661,NKT cells,Luminal Progenitors,0.2328871579320475
+662,Cancer LumA SC,B cells Memory,0.2328480008584433
+663,T cells CD4+,Cancer Cycling,0.2327477666718639
+664,Cycling T-cells,Cycling T-cells,0.2312618655853855
+665,B cells Memory,Macrophage,0.2308353089204857
+666,Mature Luminal,Plasmablasts,0.2300183117161495
+667,CAFs MSC iCAF-like,Cancer LumA SC,0.2275542209047747
+668,B cells Memory,Cancer LumA SC,0.2256850672312741
+669,Plasmablasts,Luminal Progenitors,0.2255926286228844
+670,Mature Luminal,Monocyte,0.2232485596096014
+671,NKT cells,Myoepithelial,0.2228285774211124
+672,Cancer LumB SC,Mature Luminal,0.2223426912293787
+673,T cells CD8+,Luminal Progenitors,0.2215103752544702
+674,DCs,B cells Memory,0.21937039799913
+675,NK cells,Endothelial CXCL12,0.21714985117793
+676,B cells Naive,Cycling T-cells,0.2166598885101001
+677,Plasmablasts,Myoepithelial,0.2148133855045046
+678,Cancer LumB SC,Macrophage,0.213966430490552
+679,T cells CD8+,Myoepithelial,0.2136343937045454
+680,NKT cells,Cancer Her2 SC,0.2124774380654735
+681,CAFs MSC iCAF-like,T cells CD8+,0.21150529405048
+682,CAFs MSC iCAF-like,NKT cells,0.2107093571010138
+683,B cells Memory,T cells CD8+,0.2084945195099459
+684,Cancer LumB SC,Cancer LumA SC,0.2078809501648137
+685,T cells CD4+,Endothelial CXCL12,0.2073595659040198
+686,B cells Memory,NKT cells,0.2073242999968799
+687,Plasmablasts,Cancer Her2 SC,0.2058927456521113
+688,Mature Luminal,NK cells,0.2053126760535646
+689,Cycling T-cells,Mature Luminal,0.2043927170927494
+690,Mature Luminal,T cells CD4+,0.2043198367906196
+691,CAFs MSC iCAF-like,Endothelial ACKR1,0.2024233188940165
+692,T cells CD8+,Cancer Her2 SC,0.2019824736247042
+693,CAFs MSC iCAF-like,Cycling_Myeloid,0.1988191333380508
+694,CAFs MSC iCAF-like,Cancer LumB SC,0.1983937142591531
+695,B cells Memory,Endothelial ACKR1,0.1982163419755735
+696,B cells Memory,Cycling_Myeloid,0.1970706906814106
+697,B cells Memory,Cancer LumB SC,0.1967655494039817
+698,Cycling T-cells,Macrophage,0.1959781618581129
+699,Cancer LumB SC,NKT cells,0.1957698647905197
+700,Cancer LumB SC,T cells CD8+,0.1957425042479588
+701,B cells Naive,Mature Luminal,0.194429331690531
+702,Cancer LumB SC,Endothelial ACKR1,0.1899634382907222
+703,CAFs MSC iCAF-like,Plasmablasts,0.1896220211924316
+704,Cycling T-cells,Cancer LumA SC,0.1892763862391976
+705,NKT cells,Cycling T-cells,0.1883656659285711
+706,B cells Naive,Macrophage,0.1875556733741488
+707,CAFs MSC iCAF-like,Monocyte,0.1867486076563
+708,B cells Memory,Plasmablasts,0.186589285901636
+709,B cells Memory,Monocyte,0.185307238221656
+710,B cells Naive,Cancer LumA SC,0.182933321495665
+711,NK cells,Luminal Progenitors,0.1828362690364569
+712,Cycling T-cells,NKT cells,0.1824040142429415
+713,Plasmablasts,Cycling T-cells,0.1821544531626845
+714,Cancer LumB SC,Cycling_Myeloid,0.1818586402311358
+715,Cycling T-cells,T cells CD8+,0.1814226440164211
+716,Cancer LumB SC,Cancer LumB SC,0.1812386287671607
+717,T cells CD8+,Cycling T-cells,0.1796719520754799
+718,Cycling T-cells,Endothelial ACKR1,0.1793524961639663
+719,Cancer LumB SC,Plasmablasts,0.1761507903196049
+720,NK cells,Myoepithelial,0.1749772367228653
+721,T cells CD4+,Luminal Progenitors,0.1707083047699642
+722,Cancer LumB SC,Monocyte,0.1704197335616454
+723,B cells Naive,T cells CD8+,0.1702326862779426
+724,B cells Naive,NKT cells,0.1696530136613783
+725,CAFs MSC iCAF-like,NK cells,0.1684984568745534
+726,CAFs MSC iCAF-like,T cells CD4+,0.16747557454079
+727,Mature Luminal,DCs,0.1672415204215583
+728,NKT cells,Mature Luminal,0.1668871494756868
+729,NK cells,Cancer Her2 SC,0.1668103233974569
+730,Cycling T-cells,Cycling_Myeloid,0.1658726147047234
+731,B cells Memory,NK cells,0.1653715871968585
+732,Cycling T-cells,Cancer LumB SC,0.1650147820087273
+733,T cells CD4+,Myoepithelial,0.1644573003129519
+734,B cells Memory,T cells CD4+,0.1642483875339306
+735,Cycling T-cells,Plasmablasts,0.1640909297364321
+736,B cells Naive,Endothelial ACKR1,0.1631324413932824
+737,Mature Luminal,B cells Naive,0.1627376692076251
+738,Plasmablasts,Mature Luminal,0.1615656485584209
+739,NKT cells,Macrophage,0.1601729662354735
+740,B cells Naive,Cycling_Myeloid,0.1598510979806499
+741,B cells Naive,Cancer LumB SC,0.1594906409898725
+742,T cells CD8+,Mature Luminal,0.1588884123699803
+743,Cancer LumB SC,NK cells,0.1573837316926396
+744,Cancer LumB SC,T cells CD4+,0.1566646786786328
+745,T cells CD4+,Cancer Her2 SC,0.1556713633472887
+746,Plasmablasts,Macrophage,0.1551351350805778
+747,NKT cells,Cancer LumA SC,0.1549432655830573
+748,Cycling T-cells,Monocyte,0.1549352292028383
+749,B cells Naive,Plasmablasts,0.1526723656132171
+750,T cells CD8+,Macrophage,0.1523824229556366
+751,Plasmablasts,Cancer LumA SC,0.150180043026008
+752,B cells Naive,Monocyte,0.1501146075571105
+753,Mature Luminal,B cells Memory,0.1490128133318758
+754,NKT cells,NKT cells,0.1483997478539705
+755,NK cells,Cycling T-cells,0.147894463675255
+756,NKT cells,T cells CD8+,0.147807656800276
+757,Cycling T-cells,NK cells,0.1476756635244424
+758,Cycling T-cells,T cells CD4+,0.1472940197181796
+759,T cells CD8+,Cancer LumA SC,0.1472272682472307
+760,NKT cells,Endothelial ACKR1,0.1454080155160904
+761,Plasmablasts,NKT cells,0.1434302683239262
+762,Plasmablasts,T cells CD8+,0.1429501682388091
+763,T cells CD8+,NKT cells,0.1416748801408597
+764,T cells CD8+,T cells CD8+,0.1409591262789736
+765,Plasmablasts,Endothelial ACKR1,0.1403113207592723
+766,CAFs MSC iCAF-like,DCs,0.13942221508944
+767,T cells CD8+,Endothelial ACKR1,0.1391900420519012
+768,T cells CD4+,Cycling T-cells,0.1384107888836574
+769,B cells Memory,DCs,0.138078241553946
+770,B cells Naive,NK cells,0.1357332038865606
+771,NKT cells,Cycling_Myeloid,0.1357207614991823
+772,NKT cells,Cancer LumB SC,0.1350833199992413
+773,B cells Naive,T cells CD4+,0.134928081031423
+774,CAFs MSC iCAF-like,B cells Naive,0.1338369119443568
+775,NKT cells,Plasmablasts,0.1335078640736615
+776,Plasmablasts,Cycling_Myeloid,0.1315200701196791
+777,B cells Memory,B cells Naive,0.131513476120837
+778,NK cells,Mature Luminal,0.131024077106276
+779,Plasmablasts,Cancer LumB SC,0.1309309862610271
+780,Plasmablasts,Plasmablasts,0.1290402977429102
+781,T cells CD8+,Cycling_Myeloid,0.1290083999855315
+782,T cells CD8+,Cancer LumB SC,0.1283557375098881
+783,Cancer LumB SC,DCs,0.1277621797663024
+784,T cells CD8+,Plasmablasts,0.1274525661222585
+785,NKT cells,Monocyte,0.1268826743099917
+786,NK cells,Macrophage,0.1257501925905929
+787,Cancer LumB SC,B cells Naive,0.1246911684884326
+788,Plasmablasts,Monocyte,0.123004888958842
+789,CAFs MSC iCAF-like,B cells Memory,0.1228830009068731
+790,T cells CD4+,Mature Luminal,0.1224318135030874
+791,NK cells,Cancer LumA SC,0.1216403867679623
+792,B cells Memory,B cells Memory,0.1209405653327912
+793,T cells CD8+,Monocyte,0.1205268217956168
+794,NKT cells,NK cells,0.1199217058702989
+795,NKT cells,T cells CD4+,0.1195489749598964
+796,T cells CD4+,Macrophage,0.117430778545002
+797,Cycling T-cells,DCs,0.1168271077468886
+798,Cycling T-cells,B cells Naive,0.1166061578838613
+799,NK cells,NKT cells,0.1165181797019481
+800,NK cells,T cells CD8+,0.1160499263713594
+801,Plasmablasts,NK cells,0.11580588525615
+802,Plasmablasts,T cells CD4+,0.1154178371511809
+803,T cells CD8+,NK cells,0.1146506176151468
+804,T cells CD8+,T cells CD4+,0.1143401701547963
+805,NK cells,Endothelial ACKR1,0.1141774799867571
+806,Cancer LumB SC,B cells Memory,0.1141077027760213
+807,T cells CD4+,Cancer LumA SC,0.1134773267233247
+808,B cells Naive,DCs,0.1121144524861283
+809,T cells CD4+,NKT cells,0.1091263507628815
+810,T cells CD4+,T cells CD8+,0.1085911109908732
+811,B cells Naive,B cells Naive,0.1077864243899854
+812,T cells CD4+,Endothelial ACKR1,0.1071727165652455
+813,NK cells,Cycling_Myeloid,0.1065505268161652
+814,Cycling T-cells,B cells Memory,0.1062389453605174
+815,NK cells,Cancer LumB SC,0.106049044422022
+816,NK cells,Plasmablasts,0.1048254868377275
+817,NK cells,Monocyte,0.0996101929026182
+818,T cells CD4+,Cycling_Myeloid,0.0994299202158156
+819,B cells Naive,B cells Memory,0.0989344586236848
+820,T cells CD4+,Cancer LumB SC,0.0989319126977707
+821,T cells CD4+,Plasmablasts,0.0981720483424311
+822,NKT cells,DCs,0.09552541026952
+823,NKT cells,B cells Naive,0.0947757127578141
+824,NK cells,NK cells,0.0941618889116298
+825,NK cells,T cells CD4+,0.093870248764819
+826,T cells CD4+,Monocyte,0.0929016081607808
+827,Plasmablasts,DCs,0.0925398475310371
+828,Plasmablasts,B cells Naive,0.0915606745128028
+829,T cells CD8+,DCs,0.0908482802012438
+830,T cells CD8+,B cells Naive,0.0905482610003008
+831,T cells CD4+,NK cells,0.0882932284787285
+832,T cells CD4+,T cells CD4+,0.0880492545745658
+833,NKT cells,B cells Memory,0.0864504747060514
+834,Plasmablasts,B cells Memory,0.0835630423819369
+835,T cells CD8+,B cells Memory,0.0825205740924726
+836,NK cells,DCs,0.0749953518574216
+837,NK cells,B cells Naive,0.0744160100696787
+838,T cells CD4+,DCs,0.0700139122310358
+839,T cells CD4+,B cells Naive,0.06973841325477
+840,NK cells,B cells Memory,0.0678775484361766
+841,T cells CD4+,B cells Memory,0.0635635304750898

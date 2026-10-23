@@ -1,0 +1,33 @@
+{
+  "description": "Saved PDGFB/PDGFRB activity and log1p expression on unchanged Figure 4 UMAP",
+  "model_rerun": false,
+  "embedding_recomputed": false,
+  "activity_recomputed": false,
+  "sources": {
+    "activity": "May_2026_clean_version_redo/inhouse_rerun/scknife_run/data/pipeline/inhouse_activity_scores.parquet",
+    "expression": "May_2026_clean_version_redo/inhouse_rerun/primary_analysis/data/adata_processed_with_doublets_20th_feb_final_annotated.h5ad",
+    "coordinates": "data/Figure_7/figure4_umap_activity_expression.parquet"
+  },
+  "activity_rows": {
+    "PDGFB": 2050,
+    "PDGFRB": 2049
+  },
+  "expression_summary_audit": {
+    "reason": "69,319 signaling cells exclude 72 cells from the 69,391-cell Figure 4 source",
+    "max_abs_mean_difference": 0.005664436457918587,
+    "max_excluded_target_cells_per_specimen": 5
+  },
+  "checks": {
+    "cells_69319": true,
+    "unique_cell_ids": true,
+    "frozen_coordinates_equal": true,
+    "activity_rows_exact": true,
+    "positive_PDGFB_activity": true,
+    "positive_PDGFRB_activity": true,
+    "expression_zeros_preserved": true,
+    "unaffected_expression_means_reproduced": true,
+    "known_72_cell_exclusion_bounded": true
+  },
+  "file": "PDGF_umap_activity_expression.parquet",
+  "sha256": "90060a8c7ba782e65885206fb0fea0865c8df0692be9482095058e40dee8beb0"
+}

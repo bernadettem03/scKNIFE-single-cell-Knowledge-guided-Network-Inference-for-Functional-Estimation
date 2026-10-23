@@ -1,0 +1,58 @@
+{
+  "figure": "Figure 7 A\u2013O",
+  "active_panels": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O"
+  ],
+  "renderer": "Matplotlib: all panels drawn from saved tables; dense UMAP/scatter layers rasterized",
+  "layout": "balanced A4 portrait rows: A\u2013D; E\u2013G; H\u2013K; L\u2013N; O",
+  "source_layout": null,
+  "source_artwork_used": false,
+  "source_tables": {
+    "data/pathway_overlap.csv": "7faa7b6699d202277b6d414f9b7e48a6206aa8d52b28aa1045d39bc2fd94d4d6",
+    "data/lr_harmonized_overlap.csv": "eaa8659f76157c9a648648e76268845bde451ff0847074bf2a71d0ffe6e59326",
+    "data/strength_correlation_filtered.csv": "c3f402dd3a3357acee322a6af78d025846e173a4619cf8364bc1048eaec0a4a6",
+    "data/known_new/PDGF_major_matrix.csv": "d4e0a34b76125f61a57a825cab193410c8f57046f1320302c4b4111a76d970b7",
+    "data/known_new/PDGF_minor_matrix.csv": "ed16df4887795a5775117424e1e085f1d4239f053066265b5abe6f4c2c89b35c",
+    "data/known_new/PDGF_minor_endothelial_PVL_block.csv": "e5c2ed6b35055b4ed6af645fe2e1e92b7a188272ef9004305822da48f54cd37f",
+    "data/known_new/PDGF_minor_top10_connections.csv": "d363812c6116af9e0ae413a5ab4113a830bdd7706c9a49fa65d3d4e990056292",
+    "data/known_new/PDGF_umap_activity_expression.parquet": "9f7bc702fa9cdfd5f56ec843647217cacff158d037a4ff336ebe206be8cd9307",
+    "data/known_new/PDGF_major_expression.csv": "4c985cc6642992a2be20bdf67d3de1e85c48ee4e027a3bcaba6892802562ab2a",
+    "data/known_new/PDGF_major_paired.csv": "095f63fa9e3d4954af685fefaa76bad11be1abb88f2ba4bdf4581268254ce761",
+    "data/known_new/longitudinal_screen_major_tested.csv": "afa09b63c2da081fe787ea1a820c8a72144f02509501fc01000ccd1c745053d5"
+  },
+  "selected_n": {
+    "p_exact": 0.109375,
+    "q_bh": 0.6318347509113001,
+    "screen_size": 2080
+  },
+  "violin_density": "Gaussian KDE, 1.5 bandwidth tails, tapered to zero, nonnegative support",
+  "formats": {
+    "pdf": {
+      "sha256": "437587c642e72ff8cfa6c6b7004adf57acdfd0172675fd5818ca00f8e882a4b5",
+      "bytes": 710956
+    },
+    "svg": {
+      "sha256": "1f20022765a4d47ee3bd77301d4b1930b4170ff3f57890cfffa662d9d08def87",
+      "bytes": 1181068
+    },
+    "png": {
+      "sha256": "374d46ed17a9a8df5f64c85c2968b665c9dcb6a25ad4332ad3a8476719a9d392",
+      "bytes": 1362996
+    }
+  },
+  "python_matplotlib": "3.9.2"
+}

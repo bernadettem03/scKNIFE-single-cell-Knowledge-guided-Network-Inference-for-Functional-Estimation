@@ -1,0 +1,4 @@
+scknife_q,cellchat_nominal_p,pathway_shared,pathway_cellchat_only,pathway_scknife_only,lr_shared,lr_cellchat_only,lr_scknife_only,n_matched_positive_records,pearson_log10,spearman
+0.01,0.05,39,57,30,275,312,220,18159,0.6720918064789291,0.6826265554236138
+0.05,0.05,39,57,30,278,309,232,18243,0.6732128563162179,0.6842132114247444
+0.1,0.05,39,57,30,278,309,233,18243,0.6732128563162179,0.6842132114247444

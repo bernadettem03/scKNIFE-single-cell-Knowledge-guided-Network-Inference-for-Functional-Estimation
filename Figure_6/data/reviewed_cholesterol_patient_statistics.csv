@@ -1,0 +1,3 @@
+pathway,method,n_patients,patients_decreased,patients_increased,median_surgery_minus_biopsy,mean_surgery_minus_biopsy,wilcoxon_statistic,exact_two_sided_p,unit_of_replication
+Cholesterol_biosynthesis_3_Kandustch_Russell_pathway,GPR-GPA-specific,7,5,2,-0.0671699,-0.045191039999999974,5.0,0.15625,patient
+Cholesterol_biosynthesis_3_Kandustch_Russell_pathway,MEIA,7,5,2,-0.0006387375000000001,-0.0005482504857142859,7.0,0.296875,patient

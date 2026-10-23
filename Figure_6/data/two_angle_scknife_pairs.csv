@@ -1,0 +1,159 @@
+celltype,metabolite,family,patient_coverage,median_patient_delta,patients_decreased,fraction_patients_decreased,display_family
+CAF,2_phosphoglycolate,Carbohydrates and central carbon metabolites,7,-0.2565942406654358,6,0.8571428571428571,Other families
+CAF,3_methoxy_4_hydroxyphenylacetaldehyde,Aromatic amino acids and biogenic amines,7,-0.09291538596153259,6,0.8571428571428571,Aromatic amino acids and biogenic amines
+CAF,3_methoxy_4_hydroxyphenylglycolaldehyde,Aromatic amino acids and biogenic amines,7,-0.08866745233535767,6,0.8571428571428571,Aromatic amino acids and biogenic amines
+CAF,4_hydroxyphenylacetate,Aromatic amino acids and biogenic amines,7,-0.0949137806892395,6,0.8571428571428571,Aromatic amino acids and biogenic amines
+CAF,5_methyltetrahydropteroyltri_L_glutamate,"Vitamins, cofactors, retinoids and isoprenoids",7,-0.12616467475891113,5,0.7142857142857143,"Vitamins, cofactors, retinoids and isoprenoids"
+CAF,H2S,"Other amino acids, sulfur and one-carbon metabolism",7,-0.08503471314907074,6,0.8571428571428571,Other families
+CAF,N_acetyl_D_mannosamine,"Glycosaminoglycans, glycosphingolipids and glycans",7,-0.06332248449325562,6,0.8571428571428571,"Glycosaminoglycans, glycosphingolipids and glycans"
+CAF,XTP,"Nucleotides, nucleic acids and RNA modification",7,-0.08310434222221375,6,0.8571428571428571,"Nucleotides, nucleic acids and RNA modification"
+CAF,activated_methyl_group,"Other amino acids, sulfur and one-carbon metabolism",7,-0.11293785274028778,6,0.8571428571428571,Other families
+CAF,heparan_sulfate_precursor_1,"Glycosaminoglycans, glycosphingolipids and glycans",7,-0.1140475869178772,5,0.7142857142857143,"Glycosaminoglycans, glycosphingolipids and glycans"
+CAF,heparan_sulfate_precursor_2,"Glycosaminoglycans, glycosphingolipids and glycans",7,-0.1400587260723114,5,0.7142857142857143,"Glycosaminoglycans, glycosphingolipids and glycans"
+CAF,heparan_sulfate_precursor_3,"Glycosaminoglycans, glycosphingolipids and glycans",7,-0.14101088047027588,5,0.7142857142857143,"Glycosaminoglycans, glycosphingolipids and glycans"
+CAF,heparan_sulfate_precursor_4,"Glycosaminoglycans, glycosphingolipids and glycans",7,-0.14104938507080078,5,0.7142857142857143,"Glycosaminoglycans, glycosphingolipids and glycans"
+CAF,heparan_sulfate_precursor_5,"Glycosaminoglycans, glycosphingolipids and glycans",7,-0.1410502791404724,5,0.7142857142857143,"Glycosaminoglycans, glycosphingolipids and glycans"
+CAF,heparan_sulfate_precursor_6,"Glycosaminoglycans, glycosphingolipids and glycans",7,-0.14104974269866943,5,0.7142857142857143,"Glycosaminoglycans, glycosphingolipids and glycans"
+CAF,heparan_sulfate_precursor_7,"Glycosaminoglycans, glycosphingolipids and glycans",7,-0.14102518558502197,5,0.7142857142857143,"Glycosaminoglycans, glycosphingolipids and glycans"
+CAF,heparan_sulfate_precursor_8,"Glycosaminoglycans, glycosphingolipids and glycans",7,-0.14160370826721191,5,0.7142857142857143,"Glycosaminoglycans, glycosphingolipids and glycans"
+CAF,methylimidazoleacetic_acid,Aromatic amino acids and biogenic amines,7,-0.0991826057434082,6,0.8571428571428571,Aromatic amino acids and biogenic amines
+CAF,myosin_light_chain,"Peptides, proteins and post-translational intermediates",7,-0.05405038595199585,4,0.5714285714285714,Other families
+CAF,myosin_light_chain_phosphate,"Peptides, proteins and post-translational intermediates",7,-0.05405038595199585,4,0.5714285714285714,Other families
+CAF,peptidylamidoglycolate,"Peptides, proteins and post-translational intermediates",7,-0.08785319328308105,5,0.7142857142857143,Other families
+CAF,peptidylglycine,"Peptides, proteins and post-translational intermediates",7,-0.08785319328308105,5,0.7142857142857143,Other families
+CAF,phenylacetate,Aromatic amino acids and biogenic amines,7,-0.08370505273342133,6,0.8571428571428571,Aromatic amino acids and biogenic amines
+CAF,ribitol,Carbohydrates and central carbon metabolites,7,-0.10093539953231812,6,0.8571428571428571,Other families
+CAF,ribose,Carbohydrates and central carbon metabolites,7,-0.07736022770404816,6,0.8571428571428571,Other families
+CAF,selenocystathionine,"Other amino acids, sulfur and one-carbon metabolism",7,-0.10469843447208405,6,0.8571428571428571,Other families
+CAF,tRNA_containing_6_isopentenyladenosine,"Nucleotides, nucleic acids and RNA modification",7,-0.1056252121925354,6,0.8571428571428571,"Nucleotides, nucleic acids and RNA modification"
+CAF,tetrahydropteroyltri_L_glutamate,"Vitamins, cofactors, retinoids and isoprenoids",7,-0.12616467475891113,5,0.7142857142857143,"Vitamins, cofactors, retinoids and isoprenoids"
+Endothelial,6_R_hydroxy_tetradeca_2E_4E_8Z_trienoate,Fatty acids and beta-oxidation intermediates,7,-0.10604166984558105,7,1.0,Fatty acids and beta-oxidation intermediates
+Endothelial,6_S_hydroxy_tetradeca_2E_4E_8Z_trienoate,Fatty acids and beta-oxidation intermediates,7,-0.10604166984558105,7,1.0,Fatty acids and beta-oxidation intermediates
+Endothelial,8_R_hydroxy_hexadeca_2E_4E_6E_10Z_tetraenoate,Fatty acids and beta-oxidation intermediates,7,-0.10608327388763428,7,1.0,Fatty acids and beta-oxidation intermediates
+Endothelial,8_S_hydroxy_hexadeca_2E_4E_6E_10Z_tetraenoate,Fatty acids and beta-oxidation intermediates,7,-0.10608327388763428,7,1.0,Fatty acids and beta-oxidation intermediates
+Endothelial,homocysteine_thiolactone,"Other amino acids, sulfur and one-carbon metabolism",7,-0.06127259135246277,6,0.8571428571428571,Other families
+Endothelial,triphosphate,Other or ambiguous small molecules,7,-0.06281185150146484,5,0.7142857142857143,Other families
+Epithelial,1_Arachidonoyl_Glycero_3_Phosphocholine,Glycerophospholipids and lysophospholipids,7,0.085269033908844,3,0.42857142857142855,Glycerophospholipids and lysophospholipids
+Epithelial,1_Dihomo_Linolenoylglycerophosphocholine_20_3_Delta_8_11_14_Lysopc_A_C20_3,Glycerophospholipids and lysophospholipids,7,0.085269033908844,3,0.42857142857142855,Glycerophospholipids and lysophospholipids
+Epithelial,1_Docosahexaenoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,7,0.085269033908844,3,0.42857142857142855,Glycerophospholipids and lysophospholipids
+Epithelial,1_Docosahexenoylglycerophosphocholine_Delta_4_7_10_13_16_19_Sn1_Lpc_22_6,Glycerophospholipids and lysophospholipids,7,0.085269033908844,3,0.42857142857142855,Glycerophospholipids and lysophospholipids
+Epithelial,1_Docosapentenoylglycerophosphocholine_Delta_4_7_10_13_16_Sn1_Lpc_22_5_W6,Glycerophospholipids and lysophospholipids,7,0.085269033908844,3,0.42857142857142855,Glycerophospholipids and lysophospholipids
+Epithelial,1_Docosapentenoylglycerophosphocholine_Delta_7_10_13_16_19_Sn1_Lpc_22_5_W3,Glycerophospholipids and lysophospholipids,7,0.085269033908844,3,0.42857142857142855,Glycerophospholipids and lysophospholipids
+Epithelial,1_Docosatetraenoylglycerophosphocholine_Delta_7_10_13_16_Sn1_Lpc_22_4,Glycerophospholipids and lysophospholipids,7,0.085269033908844,3,0.42857142857142855,Glycerophospholipids and lysophospholipids
+Epithelial,1_Eicosadienoylglycerophosphocholine_Delta_11_14,Glycerophospholipids and lysophospholipids,7,0.085269033908844,3,0.42857142857142855,Glycerophospholipids and lysophospholipids
+Epithelial,1_Eicosapentenoylglycerophosphocholine_Delta_5_8_11_14_17_Sn1_Lpc_20_5,Glycerophospholipids and lysophospholipids,7,0.085269033908844,3,0.42857142857142855,Glycerophospholipids and lysophospholipids
+Epithelial,1_Eicosatetraenoylglycerophosphocholine_Delta_8_11_14_17_Sn1_Lpc_20_4,Glycerophospholipids and lysophospholipids,7,0.085269033908844,3,0.42857142857142855,Glycerophospholipids and lysophospholipids
+Epithelial,1_Eicosatrienoylglycerophosphocholine_Delta_11_14_17,Glycerophospholipids and lysophospholipids,7,0.085269033908844,3,0.42857142857142855,Glycerophospholipids and lysophospholipids
+Epithelial,1_Eicosenoylglycerophosphocholine_Delta_11_Sn1_Lpc_20_1,Glycerophospholipids and lysophospholipids,7,0.085269033908844,3,0.42857142857142855,Glycerophospholipids and lysophospholipids
+Epithelial,1_Heptadecanoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,7,0.085269033908844,3,0.42857142857142855,Glycerophospholipids and lysophospholipids
+Epithelial,1_Lignocericylglycerophosphocholine_24_0_Lysopc_A_C24,Glycerophospholipids and lysophospholipids,7,0.085269033908844,3,0.42857142857142855,Glycerophospholipids and lysophospholipids
+Epithelial,1_Linoleoylglycerophosphocholine_Delta_9_12,Glycerophospholipids and lysophospholipids,7,0.085269033908844,3,0.42857142857142855,Glycerophospholipids and lysophospholipids
+Epithelial,1_Myristoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,7,0.085269033908844,3,0.42857142857142855,Glycerophospholipids and lysophospholipids
+Epithelial,1_Nonadecanoylglycerophosphocholine_Sn1_Lpc_19_0,Glycerophospholipids and lysophospholipids,7,0.085269033908844,3,0.42857142857142855,Glycerophospholipids and lysophospholipids
+Epithelial,1_Octadeca_Trienoylglycerophosphocholine_Sn1_Lpc_18_3_Delta_6_9_12,Glycerophospholipids and lysophospholipids,7,0.085269033908844,3,0.42857142857142855,Glycerophospholipids and lysophospholipids
+Epithelial,1_Octadeca_Trienoylglycerophosphocholine_Sn1_Lpc_18_3_Delta_9_12_15,Glycerophospholipids and lysophospholipids,7,0.085269033908844,3,0.42857142857142855,Glycerophospholipids and lysophospholipids
+Epithelial,1_Oleoylglycerophosphocholine_Delta_9,Glycerophospholipids and lysophospholipids,7,0.085269033908844,3,0.42857142857142855,Glycerophospholipids and lysophospholipids
+Epithelial,1_Palmitoleoylglycerophosphocholine_Delta_9,Glycerophospholipids and lysophospholipids,7,0.085269033908844,3,0.42857142857142855,Glycerophospholipids and lysophospholipids
+Epithelial,1_Palmitoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,7,0.085269033908844,3,0.42857142857142855,Glycerophospholipids and lysophospholipids
+Epithelial,1_Pentadecanoylglycerophosphocholine_Sn1_Lpc_15_0,Glycerophospholipids and lysophospholipids,7,0.085269033908844,3,0.42857142857142855,Glycerophospholipids and lysophospholipids
+Epithelial,1_Stearoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,7,0.085269033908844,3,0.42857142857142855,Glycerophospholipids and lysophospholipids
+Epithelial,2_Linoleoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,7,0.085269033908844,3,0.42857142857142855,Glycerophospholipids and lysophospholipids
+Epithelial,2_Oleoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,7,0.085269033908844,3,0.42857142857142855,Glycerophospholipids and lysophospholipids
+Epithelial,2_Stearoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,7,0.085269033908844,3,0.42857142857142855,Glycerophospholipids and lysophospholipids
+Epithelial,2_alpha_hydroxyethyl_thiamine_diphosphate,"Vitamins, cofactors, retinoids and isoprenoids",7,-0.06848371028900146,4,0.5714285714285714,"Vitamins, cofactors, retinoids and isoprenoids"
+Epithelial,G_5_pppR_RNA,"Nucleotides, nucleic acids and RNA modification",7,0.2277248501777649,3,0.42857142857142855,"Nucleotides, nucleic acids and RNA modification"
+Epithelial,N1_N12_diacetylspermine,Polyamines,7,0.15513676404953003,3,0.42857142857142855,Other families
+Epithelial,N1_acetylspermidine,Polyamines,7,-0.03234344720840454,4,0.5714285714285714,Other families
+Epithelial,N1_acetylspermine,Polyamines,7,0.010729193687438965,3,0.42857142857142855,Other families
+Epithelial,S_acetyldihydrolipoamide,Carbohydrates and central carbon metabolites,7,-0.01777040958404541,4,0.5714285714285714,Other families
+Epithelial,acetamidopropanal,Polyamines,7,0.18195194005966187,3,0.42857142857142855,Other families
+Epithelial,m7G_5_pppAm,"Nucleotides, nucleic acids and RNA modification",7,0.27897608280181885,3,0.42857142857142855,"Nucleotides, nucleic acids and RNA modification"
+Epithelial,m7G_5_pppR_RNA,"Nucleotides, nucleic acids and RNA modification",7,0.00439077615737915,3,0.42857142857142855,"Nucleotides, nucleic acids and RNA modification"
+Epithelial,m7G_5_pppRm_RNA_mRNA_containing_a_2_O_methylpurine_cap,"Nucleotides, nucleic acids and RNA modification",7,-0.003016948699951172,4,0.5714285714285714,"Nucleotides, nucleic acids and RNA modification"
+Epithelial,m7G_5_pppm6Am_mRNA_containing_an_N6_2_O_dimethyladenosine_cap,"Nucleotides, nucleic acids and RNA modification",7,0.27897608280181885,3,0.42857142857142855,"Nucleotides, nucleic acids and RNA modification"
+Epithelial,polynucleotide,"Nucleotides, nucleic acids and RNA modification",7,0.22613948583602905,3,0.42857142857142855,"Nucleotides, nucleic acids and RNA modification"
+Epithelial,tRNA_containing_6_isopentenyladenosine,"Nucleotides, nucleic acids and RNA modification",7,0.11734068393707275,3,0.42857142857142855,"Nucleotides, nucleic acids and RNA modification"
+T cells,1_Gamma_Linolenoyl_Cholesterol_Cholesterol_Ester_18_3_Delta_6_9_12,Sterols and cholesterol esters,7,-0.0904097706079483,6,0.8571428571428571,Other families
+T cells,1_Linoleoyl_Cholesterol_Cholesterol_Ester_18_2_Delta_9_12,Sterols and cholesterol esters,7,-0.09102841466665268,6,0.8571428571428571,Other families
+T cells,1_Timnodnoyl_Cholesterol_Cholesterol_Ester_20_5_Delta_5_8_11_14_17,Sterols and cholesterol esters,7,-0.0907956063747406,6,0.8571428571428571,Other families
+T cells,1_Vaccenoyl_Cholesterol_Cholesterol_Ester_18_1_Delta_11,Sterols and cholesterol esters,7,-0.0904005840420723,6,0.8571428571428571,Other families
+T cells,1_methylnitrosoamino_4_3_pyridinyl_1_4_butanediol,"Xenobiotics, pharmaceuticals and environmental chemicals",7,-0.10455463826656342,6,0.8571428571428571,"Xenobiotics, pharmaceuticals and environmental chemicals"
+T cells,2_aminomuconate,Aromatic amino acids and biogenic amines,7,-0.11467576771974564,6,0.8571428571428571,Aromatic amino acids and biogenic amines
+T cells,2_hydroxy_R_ibuprofen,"Xenobiotics, pharmaceuticals and environmental chemicals",7,-0.10912837833166122,6,0.8571428571428571,"Xenobiotics, pharmaceuticals and environmental chemicals"
+T cells,2_methylacetoacetyl_CoA,Fatty acids and beta-oxidation intermediates,7,-0.09543215483427048,5,0.7142857142857143,Fatty acids and beta-oxidation intermediates
+T cells,3_hydroxy_R_ibuprofen,"Xenobiotics, pharmaceuticals and environmental chemicals",7,-0.1100800484418869,6,0.8571428571428571,"Xenobiotics, pharmaceuticals and environmental chemicals"
+T cells,3_hydroxy_acetaminophen,"Xenobiotics, pharmaceuticals and environmental chemicals",7,-0.11111938208341599,6,0.8571428571428571,"Xenobiotics, pharmaceuticals and environmental chemicals"
+T cells,3_methoxy_4_hydroxy_5_all_trans_decaprenylbenzoate,"Vitamins, cofactors, retinoids and isoprenoids",7,-0.10378990322351456,6,0.8571428571428571,"Vitamins, cofactors, retinoids and isoprenoids"
+T cells,3_oxo_2S_methylisocapryloyl_CoA,Fatty acids and beta-oxidation intermediates,7,-0.09043225646018982,5,0.7142857142857143,Fatty acids and beta-oxidation intermediates
+T cells,3_oxo_4_R_8_dimethyl_nonanoyl_CoA,Fatty acids and beta-oxidation intermediates,7,-0.0893186628818512,5,0.7142857142857143,Fatty acids and beta-oxidation intermediates
+T cells,3_oxo_4_methyl_pentanoyl_CoA,Fatty acids and beta-oxidation intermediates,7,-0.09055086225271225,5,0.7142857142857143,Fatty acids and beta-oxidation intermediates
+T cells,3_oxo_6_R_hydroxy_tetradec_8_cis_enoate,Fatty acids and beta-oxidation intermediates,7,-0.08858352154493332,5,0.7142857142857143,Fatty acids and beta-oxidation intermediates
+T cells,3_oxo_6_S_hydroxy_tetradec_8Z_enoate,Fatty acids and beta-oxidation intermediates,7,-0.08858352154493332,5,0.7142857142857143,Fatty acids and beta-oxidation intermediates
+T cells,3_oxo_8_R_hydroxy_hexadeca_6E_10Z_dienoate,Fatty acids and beta-oxidation intermediates,7,-0.08911546319723129,5,0.7142857142857143,Fatty acids and beta-oxidation intermediates
+T cells,3_oxo_8_S_hydroxy_hexadeca_6E_10Z_dienoate,Fatty acids and beta-oxidation intermediates,7,-0.08911546319723129,5,0.7142857142857143,Fatty acids and beta-oxidation intermediates
+T cells,3_oxoheptadecanoyl_CoA,Fatty acids and beta-oxidation intermediates,7,-0.09716901183128357,5,0.7142857142857143,Fatty acids and beta-oxidation intermediates
+T cells,3_oxoheptanoyl_CoA,Fatty acids and beta-oxidation intermediates,7,-0.09428799152374268,5,0.7142857142857143,Fatty acids and beta-oxidation intermediates
+T cells,3_oxononanoyl_CoA,Fatty acids and beta-oxidation intermediates,7,-0.0945749431848526,5,0.7142857142857143,Fatty acids and beta-oxidation intermediates
+T cells,3_oxopentadecanoyl_CoA,Fatty acids and beta-oxidation intermediates,7,-0.09724461287260056,5,0.7142857142857143,Fatty acids and beta-oxidation intermediates
+T cells,3_oxopentanoyl_CoA,Fatty acids and beta-oxidation intermediates,7,-0.09507589042186737,5,0.7142857142857143,Fatty acids and beta-oxidation intermediates
+T cells,3_oxotridecanoyl_CoA,Fatty acids and beta-oxidation intermediates,7,-0.09891942888498306,5,0.7142857142857143,Fatty acids and beta-oxidation intermediates
+T cells,3_oxoundecanoyl_CoA,Fatty acids and beta-oxidation intermediates,7,-0.09458965808153152,5,0.7142857142857143,Fatty acids and beta-oxidation intermediates
+T cells,4_bromophenol_2_3_epoxide,"Xenobiotics, pharmaceuticals and environmental chemicals",7,-0.10315196216106415,6,0.8571428571428571,"Xenobiotics, pharmaceuticals and environmental chemicals"
+T cells,4_hydroxyretinoic_acid,"Vitamins, cofactors, retinoids and isoprenoids",7,-0.11035434901714325,6,0.8571428571428571,"Vitamins, cofactors, retinoids and isoprenoids"
+T cells,6_beta_hydroxy_lovastatin_lactone_form,"Xenobiotics, pharmaceuticals and environmental chemicals",7,-0.1089765653014183,6,0.8571428571428571,"Xenobiotics, pharmaceuticals and environmental chemicals"
+T cells,6_exomethylene_lovastatin_lactone_form,"Xenobiotics, pharmaceuticals and environmental chemicals",7,-0.1089947521686554,6,0.8571428571428571,"Xenobiotics, pharmaceuticals and environmental chemicals"
+T cells,6_methylmercaptopurine,"Xenobiotics, pharmaceuticals and environmental chemicals",7,-0.09585828334093094,6,0.8571428571428571,"Xenobiotics, pharmaceuticals and environmental chemicals"
+T cells,7_beta_OH_gliclazide,"Xenobiotics, pharmaceuticals and environmental chemicals",7,-0.11059284210205078,6,0.8571428571428571,"Xenobiotics, pharmaceuticals and environmental chemicals"
+T cells,A2PE_H2,"Vitamins, cofactors, retinoids and isoprenoids",7,-0.11157262325286865,6,0.8571428571428571,"Vitamins, cofactors, retinoids and isoprenoids"
+T cells,AM1_cyclosporine,"Xenobiotics, pharmaceuticals and environmental chemicals",7,-0.10932303965091705,6,0.8571428571428571,"Xenobiotics, pharmaceuticals and environmental chemicals"
+T cells,AM9_cyclosporine,"Xenobiotics, pharmaceuticals and environmental chemicals",7,-0.11038845032453537,6,0.8571428571428571,"Xenobiotics, pharmaceuticals and environmental chemicals"
+T cells,APE,"Vitamins, cofactors, retinoids and isoprenoids",7,-0.10303722321987152,6,0.8571428571428571,"Vitamins, cofactors, retinoids and isoprenoids"
+T cells,Cholesteryl_Arachidonate_Cholesterol_Ester_20_4_Delta_5_8_11_14,Sterols and cholesterol esters,7,-0.09116827696561813,6,0.8571428571428571,Other families
+T cells,Cholesteryl_Docosahexanoate_Cholesterol_Ester_22_6_Delta_4_7_10_13_16_19,Sterols and cholesterol esters,7,-0.09056240320205688,6,0.8571428571428571,Other families
+T cells,Diazepam,"Xenobiotics, pharmaceuticals and environmental chemicals",7,-0.10375195741653442,6,0.8571428571428571,"Xenobiotics, pharmaceuticals and environmental chemicals"
+T cells,F1alpha,"Glycosaminoglycans, glycosphingolipids and glycans",7,-0.14931589365005493,6,0.8571428571428571,"Glycosaminoglycans, glycosphingolipids and glycans"
+T cells,Glycylproline,"Peptides, proteins and post-translational intermediates",7,-0.09899664670228958,6,0.8571428571428571,Other families
+T cells,L_Prolinylglycine,"Peptides, proteins and post-translational intermediates",7,-0.1062474399805069,6,0.8571428571428571,Other families
+T cells,Methyl_hydroxy_gliclazide,"Xenobiotics, pharmaceuticals and environmental chemicals",7,-0.11134716868400574,6,0.8571428571428571,"Xenobiotics, pharmaceuticals and environmental chemicals"
+T cells,Methylcobalamin,"Vitamins, cofactors, retinoids and isoprenoids",7,-0.0990917906165123,6,0.8571428571428571,"Vitamins, cofactors, retinoids and isoprenoids"
+T cells,N1_methyl_2_pyridone_5_carboxamide,"Vitamins, cofactors, retinoids and isoprenoids",7,-0.10627024620771408,6,0.8571428571428571,"Vitamins, cofactors, retinoids and isoprenoids"
+T cells,N1_methyl_4_pyridone_5_carboxamide,"Vitamins, cofactors, retinoids and isoprenoids",7,-0.10627024620771408,6,0.8571428571428571,"Vitamins, cofactors, retinoids and isoprenoids"
+T cells,N_formylmethionyl_tRNA,"Nucleotides, nucleic acids and RNA modification",7,-0.09309988468885422,6,0.8571428571428571,"Nucleotides, nucleic acids and RNA modification"
+T cells,N_methylserotonin,Aromatic amino acids and biogenic amines,7,-0.10523397475481033,6,0.8571428571428571,Aromatic amino acids and biogenic amines
+T cells,N_methyltryptamine,Aromatic amino acids and biogenic amines,7,-0.10523397475481033,6,0.8571428571428571,Aromatic amino acids and biogenic amines
+T cells,Nordazepam,"Xenobiotics, pharmaceuticals and environmental chemicals",7,-0.10375195741653442,6,0.8571428571428571,"Xenobiotics, pharmaceuticals and environmental chemicals"
+T cells,One_Carbon_Unit,"Other amino acids, sulfur and one-carbon metabolism",7,-0.09630170464515686,6,0.8571428571428571,Other families
+T cells,R_2_hydroxyglutarate,Carbohydrates and central carbon metabolites,7,-0.10797026753425598,6,0.8571428571428571,Other families
+T cells,S_3_hydroxybutanoate,Carbohydrates and central carbon metabolites,7,-0.10797026753425598,6,0.8571428571428571,Other families
+T cells,S_farnesyl_protein,"Peptides, proteins and post-translational intermediates",7,-0.10165096074342728,6,0.8571428571428571,Other families
+T cells,VI3NeuAc_nLc6Cer,"Glycosaminoglycans, glycosphingolipids and glycans",7,-0.09087856858968735,5,0.7142857142857143,"Glycosaminoglycans, glycosphingolipids and glycans"
+T cells,all_trans_4_hydroxyretinal,"Vitamins, cofactors, retinoids and isoprenoids",7,-0.11427910625934601,6,0.8571428571428571,"Vitamins, cofactors, retinoids and isoprenoids"
+T cells,all_trans_4_hydroxyretinol,"Vitamins, cofactors, retinoids and isoprenoids",7,-0.11427910625934601,6,0.8571428571428571,"Vitamins, cofactors, retinoids and isoprenoids"
+T cells,all_trans_4_oxoretinal,"Vitamins, cofactors, retinoids and isoprenoids",7,-0.10929600149393082,6,0.8571428571428571,"Vitamins, cofactors, retinoids and isoprenoids"
+T cells,alpha_3_hydroxymethyl_nitrosoamino_propyl_3_pyridinemethanol,"Xenobiotics, pharmaceuticals and environmental chemicals",7,-0.10392927378416061,6,0.8571428571428571,"Xenobiotics, pharmaceuticals and environmental chemicals"
+T cells,arsenite,"Xenobiotics, pharmaceuticals and environmental chemicals",7,-0.09585828334093094,6,0.8571428571428571,"Xenobiotics, pharmaceuticals and environmental chemicals"
+T cells,beta_carotene,"Vitamins, cofactors, retinoids and isoprenoids",7,-0.09186716377735138,6,0.8571428571428571,"Vitamins, cofactors, retinoids and isoprenoids"
+T cells,bufotenine,Aromatic amino acids and biogenic amines,7,-0.10523397475481033,6,0.8571428571428571,Aromatic amino acids and biogenic amines
+T cells,cimetidine,"Xenobiotics, pharmaceuticals and environmental chemicals",7,-0.1118495836853981,6,0.8571428571428571,"Xenobiotics, pharmaceuticals and environmental chemicals"
+T cells,coproporphyrinogen_I,Porphyrins and tetrapyrroles,7,-0.10078281909227371,6,0.8571428571428571,Other families
+T cells,coumarin,"Xenobiotics, pharmaceuticals and environmental chemicals",7,-0.1091148853302002,6,0.8571428571428571,"Xenobiotics, pharmaceuticals and environmental chemicals"
+T cells,dTDP_glucose,"Glycosaminoglycans, glycosphingolipids and glycans",7,-0.09515970945358276,6,0.8571428571428571,"Glycosaminoglycans, glycosphingolipids and glycans"
+T cells,dichloroacetyl_chloride,"Xenobiotics, pharmaceuticals and environmental chemicals",7,-0.09845319390296936,6,0.8571428571428571,"Xenobiotics, pharmaceuticals and environmental chemicals"
+T cells,gamma_L_glutamyl_L_alpha_aminobutyrate,"Other amino acids, sulfur and one-carbon metabolism",7,-0.049376171082258224,6,0.8571428571428571,Other families
+T cells,heparan_sulfate_degradation_product_1,"Glycosaminoglycans, glycosphingolipids and glycans",7,-0.11206968128681183,6,0.8571428571428571,"Glycosaminoglycans, glycosphingolipids and glycans"
+T cells,heparan_sulfate_degradation_product_12,"Glycosaminoglycans, glycosphingolipids and glycans",7,-0.11150364577770233,6,0.8571428571428571,"Glycosaminoglycans, glycosphingolipids and glycans"
+T cells,heparan_sulfate_degradation_product_6,"Glycosaminoglycans, glycosphingolipids and glycans",7,-0.10991236567497253,6,0.8571428571428571,"Glycosaminoglycans, glycosphingolipids and glycans"
+T cells,hydrogen_cyanide,"Xenobiotics, pharmaceuticals and environmental chemicals",7,-0.10811011493206024,6,0.8571428571428571,"Xenobiotics, pharmaceuticals and environmental chemicals"
+T cells,indol_3_yl_acetamide,Aromatic amino acids and biogenic amines,7,-0.10342156141996384,6,0.8571428571428571,Aromatic amino acids and biogenic amines
+T cells,keratan_sulfate_I_degradation_product_3,"Glycosaminoglycans, glycosphingolipids and glycans",7,-0.19907400012016296,6,0.8571428571428571,"Glycosaminoglycans, glycosphingolipids and glycans"
+T cells,limonene,"Xenobiotics, pharmaceuticals and environmental chemicals",7,-0.11008188873529434,6,0.8571428571428571,"Xenobiotics, pharmaceuticals and environmental chemicals"
+T cells,methylarsonate,"Xenobiotics, pharmaceuticals and environmental chemicals",7,-0.09585828334093094,6,0.8571428571428571,"Xenobiotics, pharmaceuticals and environmental chemicals"
+T cells,norlaudanosoline,Aromatic amino acids and biogenic amines,7,-0.10224565863609314,6,0.8571428571428571,Aromatic amino acids and biogenic amines
+T cells,orotate,"Nucleotides, nucleic acids and RNA modification",7,-0.10906072705984116,6,0.8571428571428571,"Nucleotides, nucleic acids and RNA modification"
+T cells,pitavastatin_M13,"Xenobiotics, pharmaceuticals and environmental chemicals",7,-0.10465116053819656,6,0.8571428571428571,"Xenobiotics, pharmaceuticals and environmental chemicals"
+T cells,protein_N_terminal,"Peptides, proteins and post-translational intermediates",7,-0.0953962504863739,6,0.8571428571428571,Other families
+T cells,thiamin_P,"Vitamins, cofactors, retinoids and isoprenoids",7,-0.11876082420349121,6,0.8571428571428571,"Vitamins, cofactors, retinoids and isoprenoids"
+T cells,thiopurine,"Xenobiotics, pharmaceuticals and environmental chemicals",7,-0.09585828334093094,6,0.8571428571428571,"Xenobiotics, pharmaceuticals and environmental chemicals"
+T cells,umbelliferone,"Xenobiotics, pharmaceuticals and environmental chemicals",7,-0.1091148853302002,6,0.8571428571428571,"Xenobiotics, pharmaceuticals and environmental chemicals"
+T cells,urate_radical,"Nucleotides, nucleic acids and RNA modification",7,-0.09551597386598587,6,0.8571428571428571,"Nucleotides, nucleic acids and RNA modification"
+T cells,uroporphyrinogen_I,Porphyrins and tetrapyrroles,7,-0.10297290980815887,6,0.8571428571428571,Other families

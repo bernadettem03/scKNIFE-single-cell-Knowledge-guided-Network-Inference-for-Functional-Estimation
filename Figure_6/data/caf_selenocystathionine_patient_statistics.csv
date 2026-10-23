@@ -1,0 +1,2 @@
+metabolite,celltype,n_patients,patients_decreased,patients_increased,median_surgery_minus_biopsy,exact_two_sided_wilcoxon_p,unit_of_replication
+selenocystathionine,CAF,7,6,1,-0.10469843447208405,0.296875,patient

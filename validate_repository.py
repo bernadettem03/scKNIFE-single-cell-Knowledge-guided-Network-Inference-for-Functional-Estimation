@@ -1,109 +1,129 @@
 #!/usr/bin/env python3
-"""Validate the review-ready figure-centric manuscript repository."""
+"""Validate the portal-aligned, plotting-only public figure package."""
 from __future__ import annotations
-import ast,hashlib,json,re,sys
+import gzip
+import hashlib
+import json
+import re
+import sys
 from pathlib import Path
 import nbformat
-ROOT=Path(__file__).resolve().parent
-EXPECTED=[*[ROOT/f"Figure_{n}"/f"Figure_{n}.ipynb" for n in range(2,8)],*[ROOT/"Supplementary"/f"Figure_S{n}"/f"Figure_S{n}.ipynb" for n in range(1,7)]]
-FORBIDDEN_CALLS={"pearsonr","spearmanr","mannwhitneyu","multipletests","permutation_test","consensus_sweep","fit","fit_transform"}
-MAIN_PANEL_SETS={2:list("ABCDEFGH"),3:list("ABCDEFGHIJ"),4:list("BCDEF"),5:list("ACEGH"),6:list("ABCDEFGH"),7:list("ABCDEFGHIJ")}
-REQUIRED_AUDITS=(2,3,4,5,7)
-def sha(path):
- h=hashlib.sha256()
- with path.open("rb") as f:
-  for b in iter(lambda:f.read(1024*1024),b""):h.update(b)
- return h.hexdigest()
-def calls(source):
- source="\n".join(line for line in source.splitlines() if not line.lstrip().startswith("%"))
- try:tree=ast.parse(source)
- except SyntaxError:return {"<syntax-error>"}
- names=set()
- for node in ast.walk(tree):
-  if isinstance(node,ast.Call):
-   fn=node.func;names.add(fn.id if isinstance(fn,ast.Name) else (fn.attr if isinstance(fn,ast.Attribute) else ""))
- return names
-def main():
- errors=[]
- for number in range(2,8):
-  plotting=ROOT/f"Figure_{number}"/"plotting.py"
-  if not plotting.is_file():errors.append(f"missing plotting module: {plotting.relative_to(ROOT)}")
- for number in range(1,7):
-  plotting=ROOT/"Supplementary"/f"Figure_S{number}"/"plotting.py"
-  if not plotting.is_file():errors.append(f"missing supplementary plotting module: {plotting.relative_to(ROOT)}")
- for number in REQUIRED_AUDITS:
-  audit=ROOT/f"Figure_{number}"/"NOTEBOOK_AUDIT.md"
-  if not audit.is_file():errors.append(f"missing notebook audit: {audit.relative_to(ROOT)}")
- for p in EXPECTED:
-  if not p.is_file():errors.append(f"missing notebook: {p.relative_to(ROOT)}");continue
-  nb=nbformat.read(p,4);code="\n".join(c.source for c in nb.cells if c.cell_type=="code")
-  outputs=[o for c in nb.cells if c.cell_type=="code" for o in c.get("outputs",[])]
-  displays=[o for o in outputs if o.output_type in {"display_data","execute_result"} and any(k.startswith("image/") for k in o.get("data",{}))]
-  if not displays:errors.append(f"no inline generated figure output: {p.relative_to(ROOT)}")
-  if any(o.output_type=="error" for o in outputs):errors.append(f"stored execution error: {p.relative_to(ROOT)}")
-  if "approved_preview" in code or "reproduced_preview" in code:errors.append(f"preview wrapper in {p.relative_to(ROOT)}")
-  if "/storage/" in p.read_text():errors.append(f"absolute storage path in notebook: {p.relative_to(ROOT)}")
-  bad=calls(code)&FORBIDDEN_CALLS
-  if bad:errors.append(f"analysis calls {sorted(bad)} in {p.relative_to(ROOT)}")
- for p in [*ROOT.glob("Figure_*/plotting.py"),*ROOT.glob("Supplementary/Figure_*/plotting.py")]:
-  module_text=p.read_text()
-  bad=calls(module_text)&FORBIDDEN_CALLS
-  if bad:errors.append(f"analysis calls {sorted(bad)} in {p.relative_to(ROOT)}")
-  if "/storage/" in module_text:errors.append(f"absolute storage path in plotting module: {p.relative_to(ROOT)}")
- s4_manifest_path=ROOT/"Supplementary/Figure_S4/outputs/Figure_S4_manifest.json"
- if not s4_manifest_path.is_file():errors.append("missing Supplementary Figure S4 output manifest")
- else:
-  s4_manifest=json.loads(s4_manifest_path.read_text())
-  if s4_manifest.get("panel_order")!=list("abcdef"):errors.append("incorrect Supplementary Figure S4 panel order")
-  expected_legacy={"a":"T","b":"R","c":"S","d":"Q","e":"N","f":"M"}
-  if s4_manifest.get("legacy_panel_mapping")!=expected_legacy:errors.append("incorrect Supplementary Figure S4 legacy panel mapping")
-  for section in ("individual_outputs","compiled_outputs"):
-   def check_paths(value):
-    if isinstance(value,dict):
-     for nested in value.values():check_paths(nested)
-    elif isinstance(value,str) and not (ROOT/"Supplementary/Figure_S4"/value).is_file():errors.append(f"missing S4 output: {value}")
-   check_paths(s4_manifest.get(section,{}))
-  s4_panel_dir=ROOT/"Supplementary/Figure_S4/outputs/panels"
-  expected_s4_assets={f"S4_{label}_{stem}.{ext}" for label,stem in {
-   "a":"patient_site_composition","b":"overall_composition","c":"canonical_marker_expression",
-   "d":"celltype_umap","e":"cnv_clusters","f":"cnv_shortlist"}.items() for ext in ("png","pdf")}
-  actual_s4_assets={p.name for p in s4_panel_dir.iterdir() if p.is_file()}
-  if actual_s4_assets!=expected_s4_assets:errors.append(f"incorrect Supplementary Figure S4 panel assets: {sorted(actual_s4_assets^expected_s4_assets)}")
- s1=ROOT/"Supplementary/Figure_S1"
- s2=ROOT/"Supplementary/Figure_S2"
- if not (s1/"data/pooled_w").is_dir():errors.append("S1 pooled-W data directory is missing")
- if (s2/"data/pooled_w").exists():errors.append("pooled-W content remains assigned to S2")
- if not (s2/"data/no_match_umaps").is_dir():errors.append("S2 no-match UMAP directory is missing")
- s1_text=(s1/"plotting.py").read_text() if (s1/"plotting.py").is_file() else ""
- s2_text=(s2/"plotting.py").read_text() if (s2/"plotting.py").is_file() else ""
- for title in ("Cross-dataset W concordance","t-SNE node kinds across independently normalized W blocks","t-SNE pooled clusters across independently normalized W blocks"):
-  if title not in s1_text:errors.append(f"S1 panel title missing: {title}")
- if "POOLED_ROOT" in s2_text or "concordance" in s2_text.lower():errors.append("S2 plotting module still contains pooled-W rendering")
- for number,labels in MAIN_PANEL_SETS.items():
-  panel_dir=ROOT/f"Figure_{number}"/"outputs"/"panels"
-  manifest_path=panel_dir/f"Figure_{number}_panel_export_manifest.json"
-  if not manifest_path.is_file():errors.append(f"missing panel manifest: {manifest_path.relative_to(ROOT)}");continue
-  manifest=json.loads(manifest_path.read_text())
-  if manifest.get("panel_order")!=labels:errors.append(f"incorrect panel order: {manifest_path.relative_to(ROOT)}")
-  expected={f"Figure_{number}_{label}.{ext}" for label in labels for ext in ("png","pdf")}
-  actual={q.name for q in panel_dir.iterdir() if q.suffix in {".png",".pdf"} and q.name!= "Figure_3_A_D.png" and q.name!= "Figure_3_A_D.pdf"}
-  for name in sorted(expected-actual):errors.append(f"missing panel export: Figure_{number}/outputs/panels/{name}")
-  for name in sorted(actual-expected):errors.append(f"unexpected panel export: Figure_{number}/outputs/panels/{name}")
-  for label in labels:
-   for ext in ("png","pdf"):
-    item=manifest.get("panels",{}).get(label,{}).get(ext,{})
-    q=ROOT/item.get("path","")
-    if not q.is_file():errors.append(f"manifest path missing: Figure {number} panel {label} {ext}");continue
-    if q.stat().st_size!=item.get("bytes") or sha(q)!=item.get("sha256"):errors.append(f"panel manifest mismatch: {q.relative_to(ROOT)}")
-    if ext=="png" and q.read_bytes()[:8]!=b"\x89PNG\r\n\x1a\n":errors.append(f"invalid PNG: {q.relative_to(ROOT)}")
-    if ext=="pdf" and q.read_bytes()[:5]!=b"%PDF-":errors.append(f"invalid PDF: {q.relative_to(ROOT)}")
- with (ROOT/"checksums.sha256").open() as f:
-  for line in f:
-   digest,rel=line.rstrip().split("  ",1);p=ROOT/rel
-   if not p.is_file() or sha(p)!=digest:errors.append(f"checksum mismatch: {rel}")
- for p in ROOT.rglob("*"):
-  if p.is_file() and ".git" not in p.parts and p.stat().st_size>=100_000_000:errors.append(f"GitHub-size file: {p.relative_to(ROOT)}")
- if errors:print("VALIDATION FAILED\n"+"\n".join(f"- {e}" for e in errors));return 1
- print(f"VALIDATION PASSED: {len(EXPECTED)} executed live plotting notebooks")
- return 0
-if __name__=="__main__":sys.exit(main())
+
+ROOT = Path(__file__).resolve().parent
+MAIN = range(2, 8)
+SUPP = range(1, 7)
+PRIVATE = ROOT / "Figure_4/data/fig4_plot_data.h5"
+ORIGINAL_ID = re.compile(rb"(?:CF|CN|CV)/[0-9]{5}|11F2023/[0-9]{5}")
+
+
+def digest(path: Path) -> str:
+    h = hashlib.sha256()
+    with path.open("rb") as stream:
+        for block in iter(lambda: stream.read(1024 * 1024), b""):
+            h.update(block)
+    return h.hexdigest()
+
+
+def order(path: str, key: str, expected: str, errors: list[str]) -> None:
+    file = ROOT / path
+    if not file.is_file():
+        errors.append(f"missing manifest: {path}")
+        return
+    observed = json.loads(file.read_text()).get(key)
+    if observed != list(expected):
+        errors.append(f"panel order in {path}: {observed!r}; expected {list(expected)!r}")
+
+
+def main() -> int:
+    errors: list[str] = []
+    for n in MAIN:
+        for relative in (f"Figure_{n}/Figure_{n}.ipynb", f"Figure_{n}/LEGEND.txt", f"Figure_{n}/outputs/Figure_{n}.pdf"):
+            if not (ROOT / relative).is_file():
+                errors.append(f"missing main figure file: {relative}")
+    for n in SUPP:
+        for relative in (f"Supplementary/Figure_S{n}/Figure_S{n}.ipynb", f"Supplementary/Figure_S{n}/LEGEND.txt"):
+            if not (ROOT / relative).is_file():
+                errors.append(f"missing supplementary figure file: {relative}")
+        if n != 3 and not (ROOT / f"Supplementary/Figure_S{n}/outputs/Figure_S{n}.pdf").is_file():
+            errors.append(f"missing supplementary PDF: S{n}")
+    s3 = ROOT / "Supplementary/Figure_S3/outputs"
+    expected_s3 = {f"Figure_3_S3_{letter}_final.{ext}" for letter in "AB" for ext in ("pdf", "png")}
+    if not s3.is_dir() or {p.name for p in s3.iterdir() if p.is_file()} != expected_s3:
+        errors.append("S3 must contain exactly the approved A and B PDF/PNG pages")
+    order("Figure_6/outputs/panels/Figure_6_panel_export_manifest.json", "panel_order", "ABCDEFGHIJKLMNOPQRST", errors)
+    order("Figure_7/outputs/Figure_7_main_export_manifest.json", "active_panels", "ABCDEFGHIJKLMNO", errors)
+    order("Supplementary/Figure_S4/outputs/Figure_S4_manifest.json", "panel_order", "abcdefg", errors)
+    order("Supplementary/Figure_S6/outputs/Figure_S6_export_manifest.json", "panel_order", "ABCDE", errors)
+    for directory, stem, labels in (
+        (ROOT / "Figure_6/outputs/panels", "Figure_6", "ABCDEFGHIJKLMNOPQRST"),
+        (ROOT / "Supplementary/Figure_S6/outputs/panels", "Figure_S6", "ABCDE"),
+    ):
+        for label in labels:
+            for ext in ("pdf", "png"):
+                if not (directory / f"{stem}_{label}.{ext}").is_file():
+                    errors.append(f"missing {stem} panel {label}.{ext}")
+    for n in MAIN:
+        p = ROOT / f"Figure_{n}/Figure_{n}.ipynb"
+        if p.is_file():
+            nb = nbformat.read(p, 4)
+            outputs = [o for c in nb.cells if c.cell_type == "code" for o in c.get("outputs", [])]
+            if any(o.output_type == "error" for o in outputs):
+                errors.append(f"saved notebook error: Figure {n}")
+            if not any(any(k.startswith("image/") for k in o.get("data", {})) for o in outputs):
+                errors.append(f"no inline image: Figure {n}")
+    for n in SUPP:
+        p = ROOT / f"Supplementary/Figure_S{n}/Figure_S{n}.ipynb"
+        if p.is_file() and n != 3:
+            nb = nbformat.read(p, 4)
+            outputs = [o for c in nb.cells if c.cell_type == "code" for o in c.get("outputs", [])]
+            if any(o.output_type == "error" for o in outputs):
+                errors.append(f"saved notebook error: S{n}")
+            if not any(any(k.startswith("image/") for k in o.get("data", {})) for o in outputs):
+                errors.append(f"no inline image: S{n}")
+    checksum_file = ROOT / "checksums.sha256"
+    listed: set[str] = set()
+    if checksum_file.is_file():
+        for line in checksum_file.read_text().splitlines():
+            hash_value, rel = line.split("  ", 1)
+            listed.add(rel)
+            p = ROOT / rel
+            if not p.is_file() or digest(p) != hash_value:
+                errors.append(f"checksum mismatch: {rel}")
+    else:
+        errors.append("missing checksums.sha256")
+    for p in ROOT.rglob("*"):
+        if not p.is_file() or p == PRIVATE:
+            continue
+        if any(part in {".git", "__pycache__", ".ipynb_checkpoints"} for part in p.relative_to(ROOT).parts):
+            continue
+        rel = p.relative_to(ROOT).as_posix()
+        if rel not in {"checksums.sha256", "data_manifest.tsv"} and rel not in listed:
+            errors.append(f"unlisted public file: {rel}")
+        if p.stat().st_size >= 100_000_000:
+            errors.append(f"file exceeds GitHub 100 MB limit: {rel}")
+        if p.suffix in {".csv", ".tsv", ".json", ".md", ".txt", ".py", ".ipynb", ".yml", ".yaml", ".R", ".sh", ".gz"}:
+            data = p.read_bytes()
+            if p.suffix == ".gz":
+                try:
+                    data = gzip.decompress(data)
+                except OSError:
+                    pass
+            if ORIGINAL_ID.search(data):
+                errors.append(f"original specimen ID in {rel}")
+            local_roots = (b"/" + b"storage/bernadettem/", b"/" + b"home/bernadettem/")
+            if any(root in data for root in local_roots):
+                errors.append(f"local absolute path in {rel}")
+        if any(part in {"analysis", "review", "__pycache__"} or part.startswith("archive_legacy") or "pre_adduct" in part for part in p.relative_to(ROOT).parts):
+            errors.append(f"historical or analysis-core file present: {rel}")
+    if errors:
+        print("VALIDATION FAILED")
+        for error in errors[:100]:
+            print("-", error)
+        if len(errors) > 100:
+            print(f"... {len(errors)-100} additional errors")
+        return 1
+    print("VALIDATION PASSED: portal-aligned Figures 2–7 and S1–S6; public files checksummed")
+    return 0
+
+if __name__ == "__main__":
+    sys.exit(main())

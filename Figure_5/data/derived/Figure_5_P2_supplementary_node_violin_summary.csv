@@ -1,0 +1,5 @@
+node_name,Site,cells,mean_z,median_z,q25_z,q75_z,node_kind,display_label,mechanistic_arm,current_program,selection_rationale,decay_selected
+MYC,Bx,495,0.4395433014336512,0.4787802911165269,-0.0416953815304657,0.9505657437495987,gene,MYC,MYC-associated biosynthesis (NG7),7,Prespecified descriptive display from current K=9 NG7,True
+MYC,Surgery,3526,1.3794409243647445,1.5031920050868588,0.9098142301246783,1.9655455351156756,gene,MYC,MYC-associated biosynthesis (NG7),7,Prespecified descriptive display from current K=9 NG7,True
+Synthesis of spermidine from ornithine,Bx,495,-0.27813692811627094,-0.3399326454480187,-0.7637761786104936,0.08695276588752403,task,Synthesis of spermidine from ornithine,Polyamine synthesis (NG7),7,Prespecified descriptive display from current K=9 NG7,True
+Synthesis of spermidine from ornithine,Surgery,3526,0.2801848745585494,0.2796769719623036,-0.19782830765109483,0.7718626918157886,task,Synthesis of spermidine from ornithine,Polyamine synthesis (NG7),7,Prespecified descriptive display from current K=9 NG7,True

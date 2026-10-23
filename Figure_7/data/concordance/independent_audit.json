@@ -1,0 +1,22 @@
+{
+  "checks": {
+    "ranks_reproduced_by_independent_tie_counting": true,
+    "complete_unselected_pathway_family": true,
+    "pooled_formula_LR_totals_and_percentages": true,
+    "coverage_from_original_cell_annotations_and_z_scores": true,
+    "all_98_specimen_connection_scores_independently_reconstructed": true,
+    "all_measured_expression_values_and_zero_detection_preserved": true,
+    "all_preparation_sources_still_unchanged": true,
+    "original_activity_annotations_and_weights_unchanged": true
+  },
+  "eligible_specimens": {
+    "COLLAGEN: myCAF \u2192 basal": 11,
+    "COLLAGEN: myCAF \u2192 myCAF": 14,
+    "FN1: myCAF \u2192 basal": 11,
+    "SPP1: macrophage \u2192 basal": 11,
+    "SPP1: macrophage \u2192 endo-RGS5": 13,
+    "SPP1: macrophage \u2192 myCAF": 13,
+    "THBS: myCAF \u2192 basal": 11
+  },
+  "CellChat_zero_SPP1_to_endo_RGS5": true
+}

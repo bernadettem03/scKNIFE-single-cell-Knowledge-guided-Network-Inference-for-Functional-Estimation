@@ -1,17 +1,11 @@
 {
-  "authority": "Figure_3_version_2 canonical S3B compositor output",
-  "layout": [
-    "Bassez A metabolic tasks",
-    "Bassez A GO biological processes",
-    "Bassez B metabolic tasks",
-    "Bassez B GO biological processes"
-  ],
-  "selection": "top 25 global-BH-significant terms by mean log2FC separately for E and NE; raw log2FC; independently clustered by cohort",
-  "s3b_pixels": [
-    4800,
-    6600
+  "authority": "Approved submission-on-portal supplementary Figure S3 pages",
+  "page_pixels": [
+    3507,
+    2480
   ],
   "sha256": {
-    "outputs/Figure_S3_B.png": "0a3825f279ced301b88f1e37349527ebd4a6c97bd3f332319e0e63c572cca5db"
+    "outputs/Figure_3_S3_A_final.png": "469433e66d23a166c1f660a9ee36d3d4d1a4a13724ff593c7c95e7ec50cc6987",
+    "outputs/Figure_3_S3_B_final.png": "8f86fa690fe3ee943f45c498619bde4397ccb2c0f707ee87639debed40995c2f"
   }
 }

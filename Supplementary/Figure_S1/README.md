@@ -1,14 +1,3 @@
-# Supplementary Figure 1
+# Supplementary Figure S1
 
-Submission legend: [LEGEND.txt](LEGEND.txt).
-
-Supplementary Figure 1 contains cross-dataset W concordance and pooled W-space structure. The notebook consumes frozen, checksummed inputs and performs no embedding or statistical inference.
-
-## Caption
-
-**Supplementary Figure 1 | Cross-dataset W concordance and pooled W-space structure.** **A,** Cross-dataset linear CKA with within-dataset factor diagnostics. **B,** t-SNE node kinds across independently normalized W blocks. **C,** t-SNE pooled clusters across independently normalized W blocks.
-
-- `Figure_S1.ipynb`: plotting-only entrypoint.
-- `plotting.py`: validation and A4 rendering.
-- `data/pooled_w/`: frozen concordance and t-SNE inputs.
-- `outputs/`: compiled PDF and 300-DPI PNG preview.
+This directory contains the portal-aligned supplementary legend, plotting notebook and code, plot-ready inputs, and approved exports. Open `LEGEND.txt` for panel definitions. The root notebook uses packaged inputs; upstream analysis derivations are outside this public figure package.

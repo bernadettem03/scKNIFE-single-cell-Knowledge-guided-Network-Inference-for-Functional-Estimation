@@ -1,5 +1,5 @@
 {
-  "analysis": "Pooled matched cell–feature score concordance; two separate blocks",
+  "analysis": "Pooled matched cell\u2013feature score concordance; two separate blocks",
   "x": "MEIA activity score",
   "y": "Direct scKNIFE activity score",
   "normalization": "Existing separate task/pathway per-cell compositional normalization; no additional transformation",
@@ -8,6 +8,7 @@
   "n_matched_cells": 69390,
   "pearson": "scipy.stats.pearsonr on flattened float64 cell-by-feature values",
   "spearman": "scipy.stats.spearmanr on the same full values; average ranks for ties",
+  "linear_fit": "OLS with intercept, scKNIFE on MEIA, all unbinned pairs per block; independently verified with scipy.stats.linregress; descriptive only, no P value or confidence band",
   "density": {
     "bins_per_axis": 160,
     "axis_scale": "linear",
@@ -419,25 +420,5 @@
       "path": "meia_vs_scknife_pooled_density.csv.gz",
       "sha256": "3d9b8eef3a19fcc3ed2f0dca31a61444f91b2b5a279e443cce3abe46a784a139"
     }
-  ],
-  "linear_fit": {
-    "method": "OLS with intercept: scKNIFE = intercept + slope * MEIA",
-    "observations": "all matched unbinned cell-feature score pairs, separately per block",
-    "independent_validation": "scipy.stats.linregress",
-    "inference": "descriptive only; no P value or confidence band",
-    "coefficients": {
-      "Task": {
-        "ols_slope": 0.18527864416788242,
-        "ols_intercept": 0.003737253928030095,
-        "n_pairs": 15127020,
-        "independent_scipy_check": "PASS"
-      },
-      "Pathway": {
-        "ols_slope": 0.31426717700450196,
-        "ols_intercept": 0.004969078427634391,
-        "n_pairs": 9575820,
-        "independent_scipy_check": "PASS"
-      }
-    }
-  }
+  ]
 }

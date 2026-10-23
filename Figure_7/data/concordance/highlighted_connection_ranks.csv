@@ -1,0 +1,15 @@
+source,target,score,status,percentile_rank,strict_p_lt_005_percentile_rank,method,pathway,connection_id,connection,raw_unfiltered_score,strict_p_lt_005_score
+CAFs myCAF-like,CAFs myCAF-like,0.341632220165822,retained_positive,92.26190476190476,92.26190476190476,CellChat,COLLAGEN,0,COLLAGEN: myCAF → myCAF,0.440246090093754,0.341632220165822
+CAFs myCAF-like,CAFs myCAF-like,11516.880164255293,retained_positive,100.0,,scKNIFE,COLLAGEN,0,COLLAGEN: myCAF → myCAF,,
+CAFs myCAF-like,Cancer Basal SC,1.29302980056128,retained_positive,100.0,100.0,CellChat,COLLAGEN,1,COLLAGEN: myCAF → basal,1.29361000613304,1.29302980056128
+CAFs myCAF-like,Cancer Basal SC,7039.273289296151,retained_positive,99.76190476190476,,scKNIFE,COLLAGEN,1,COLLAGEN: myCAF → basal,,
+CAFs myCAF-like,Cancer Basal SC,0.2183004331388,retained_positive,100.0,100.0,CellChat,FN1,2,FN1: myCAF → basal,0.2183004331388,0.2183004331388
+CAFs myCAF-like,Cancer Basal SC,1626.4767396784948,retained_positive,100.0,,scKNIFE,FN1,2,FN1: myCAF → basal,,
+CAFs myCAF-like,Cancer Basal SC,0.191612673242864,retained_positive,100.0,100.0,CellChat,THBS,3,THBS: myCAF → basal,0.191612673242864,0.191612673242864
+CAFs myCAF-like,Cancer Basal SC,2216.978887152926,retained_positive,100.0,,scKNIFE,THBS,3,THBS: myCAF → basal,,
+Macrophage,CAFs myCAF-like,0.0366225736229036,retained_positive,98.69047619047619,98.69047619047619,CellChat,SPP1,4,SPP1: macrophage → myCAF,0.0366225736229036,0.0366225736229036
+Macrophage,CAFs myCAF-like,538.103340773728,retained_positive,100.0,,scKNIFE,SPP1,4,SPP1: macrophage → myCAF,,
+Macrophage,Cancer Basal SC,0.0543075739878334,retained_positive,99.76190476190476,99.76190476190476,CellChat,SPP1,5,SPP1: macrophage → basal,0.0543075739878334,0.0543075739878334
+Macrophage,Cancer Basal SC,530.8537956154665,retained_positive,99.88095238095238,,scKNIFE,SPP1,5,SPP1: macrophage → basal,,
+Macrophage,Endothelial RGS5,0.0,explicit_zero,40.11904761904762,40.11904761904762,CellChat,SPP1,6,SPP1: macrophage → endo-RGS5,0.0,0.0
+Macrophage,Endothelial RGS5,508.1580371489971,retained_positive,99.76190476190476,,scKNIFE,SPP1,6,SPP1: macrophage → endo-RGS5,,

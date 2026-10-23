@@ -1,0 +1,9 @@
+{
+  "source_h5ad": "PRIVATE_SOURCE_ROOT/May_2026_clean_version_redo/inhouse_rerun/scknife_run/epithelial_only/scknife_final_rerun/data/pipeline/scKNIFE_results_inhouse_epithelial.h5ad",
+  "datasets": [
+    "obs/_index",
+    "obs/total_counts"
+  ],
+  "cells": 36963,
+  "sha256": "9eb51c01d0ea0fdf9676e6c82b521b3152efce84e689724951aa094bb6ba495a"
+}

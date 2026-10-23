@@ -1,0 +1,20 @@
+{
+  "checks": {
+    "joins_unique_and_ineligible_missing": true,
+    "major_filtered_pooled_matches_original_records": true,
+    "major_complete_family_exact_tests_and_BH": true,
+    "minor_filtered_pooled_matches_original_records": true,
+    "minor_complete_family_exact_tests_and_BH": true,
+    "LR_factorization_and_all_retained_denominators": true,
+    "frozen_data_packages_identical": true
+  },
+  "n_tested": {
+    "major": 2080,
+    "minor": 2829
+  },
+  "n_significant": 0,
+  "min_q": {
+    "major": 0.5603448275862069,
+    "minor": 0.712953629032258
+  }
+}

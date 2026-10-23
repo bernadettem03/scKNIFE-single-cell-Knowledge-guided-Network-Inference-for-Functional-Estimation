@@ -1,0 +1,68 @@
+{
+  "cell_order_sha256": "3a1171a725e774e6f471078b41a55ceee0e06f71f944a72e233dbea3ca990128",
+  "cluster_counts": {
+    "0": 4551,
+    "1": 3566,
+    "10": 391,
+    "11": 2307,
+    "12": 787,
+    "13": 670,
+    "14": 32,
+    "15": 1976,
+    "16": 273,
+    "17": 36,
+    "18": 1809,
+    "19": 1595,
+    "2": 362,
+    "20": 1722,
+    "3": 3632,
+    "4": 3266,
+    "5": 3115,
+    "6": 52,
+    "7": 3276,
+    "8": 2857,
+    "9": 688
+  },
+  "excluded_node_kind_counts": {
+    "cell_state": 83,
+    "cell_type": 95
+  },
+  "fit_audit": "PRIVATE_SOURCE_ROOT/May_2026_clean_version_redo/inhouse_rerun/scknife_run/epithelial_only/scknife_final_rerun/fit_validation_summary.json",
+  "input_hashes": {
+    "epithelial_H_cell_metadata.parquet": "db5d83733552b9ef6fcb10a4a57643878a14896f690411c8c36e90d7d5d5d647",
+    "inhouse_epithelial_W_graph.parquet": "315571220a7f86f87cc3e5830a83f31b01be4ffe6eb843c10b4a89fda3b1c8a5",
+    "node_metadata.csv": "42dc12f7bee1a3ca59d04c75ba42bc38485ac8a616452a7abcfa1ecf2550d9fe"
+  },
+  "minor_counts": {
+    "Cancer Basal SC \u2014 Interferon Alpha Response": 10243,
+    "Cancer Cycling \u2014 E2F Targets": 8281,
+    "Cancer Her2 SC": 2439,
+    "Cancer LumA SC": 715,
+    "Cancer LumB SC": 217,
+    "Epithelial": 2400,
+    "Luminal Progenitors": 8024,
+    "Mature Luminal": 991,
+    "Myoepithelial": 3653
+  },
+  "minor_order": [
+    "Cancer Basal SC \u2014 Interferon Alpha Response",
+    "Cancer Cycling \u2014 E2F Targets",
+    "Luminal Progenitors",
+    "Myoepithelial",
+    "Cancer Her2 SC",
+    "Epithelial",
+    "Mature Luminal",
+    "Cancer LumA SC",
+    "Cancer LumB SC"
+  ],
+  "n_cells": 36963,
+  "n_eligible_w": 39035,
+  "n_factors": 50,
+  "n_nodes": 39247,
+  "n_nonzero_w": 39207,
+  "source_hashes": {
+    "inhouse_epithelial_W_graph.parquet": "315571220a7f86f87cc3e5830a83f31b01be4ffe6eb843c10b4a89fda3b1c8a5",
+    "node_metadata.csv": "42dc12f7bee1a3ca59d04c75ba42bc38485ac8a616452a7abcfa1ecf2550d9fe"
+  },
+  "state_review_status": "provisional"
+}

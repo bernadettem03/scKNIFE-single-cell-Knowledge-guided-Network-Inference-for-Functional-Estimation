@@ -1,0 +1,305 @@
+{
+  "revision": "figure5_s5b_ng7_tasks_20261005",
+  "renderer": "Matplotlib fallback (Python 3.9; cnsplots unavailable)",
+  "vector_text": {
+    "font_family": "DejaVu Sans",
+    "pdf_font_type": 42,
+    "pdf_text_mode": "editable_truetype",
+    "svg_font_type": "none",
+    "svg_text_mode": "editable_text"
+  },
+  "patient_id_metadata": {
+    "source": "data/patient_id_mapping.csv",
+    "visual_labels": "P1-P7",
+    "mapping": [
+      {
+        "display_id": "P1",
+        "patient_id": "P1"
+      },
+      {
+        "display_id": "P2",
+        "patient_id": "P2"
+      },
+      {
+        "display_id": "P3",
+        "patient_id": "P3"
+      },
+      {
+        "display_id": "P4",
+        "patient_id": "P4"
+      },
+      {
+        "display_id": "P5",
+        "patient_id": "P5"
+      },
+      {
+        "display_id": "P6",
+        "patient_id": "P6"
+      },
+      {
+        "display_id": "P7",
+        "patient_id": "P7"
+      }
+    ]
+  },
+  "canvas_mm": {
+    "width": 210,
+    "height": 297
+  },
+  "pages": [
+    {
+      "page": 1,
+      "panels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ]
+    }
+  ],
+  "display_groups": {
+    "A": [
+      "A",
+      "B",
+      "C"
+    ],
+    "B": [
+      "D",
+      "E"
+    ],
+    "C": [
+      "F"
+    ],
+    "D": [
+      "G"
+    ],
+    "E": [
+      "H",
+      "I"
+    ],
+    "F": [
+      "J",
+      "K"
+    ]
+  },
+  "font": {
+    "family": "Carlito",
+    "size_pt": 6
+  },
+  "panel_order": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K"
+  ],
+  "grouped_export_order": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F"
+  ],
+  "violin_presentation": {
+    "panel": "D\u2013E",
+    "grouping": "celltype_minor with patient means",
+    "program": "NG7",
+    "tasks": [
+      "Synthesis of spermidine from ornithine",
+      "S-adenosyl-L-methionine synthesis"
+    ],
+    "score": "global node-wise z-score of log1p non-negative H-by-W reconstruction",
+    "display_xlim_quantiles": [
+      0.01,
+      0.99
+    ],
+    "summary_table": "Figure_5_S5B_NG7_task_patient_celltype_summary.csv",
+    "interpretation": "descriptive cell-level distributions with patient means and equal-patient medians",
+    "inferential_tests": false
+  },
+  "patient_program_panel": {
+    "panel": "F",
+    "grouping": "P1-P7",
+    "programs": [
+      "NG1",
+      "NG2",
+      "NG3",
+      "NG4",
+      "NG5",
+      "NG6",
+      "NG7",
+      "NG8",
+      "NG9"
+    ],
+    "scale": "column z-score",
+    "cell_weighted": true,
+    "inferential_tests": false
+  },
+  "association_flow_panel": {
+    "panel": "Supplementary G",
+    "layers": [
+      "NG",
+      "CC",
+      "epithelial cell type"
+    ],
+    "association_edge_count": 162,
+    "interpretation": "signed model associations only; no patient cell-count layer",
+    "inferential_tests": false
+  },
+  "panels": {
+    "A": {
+      "revision": "figure5_s5b_ng7_tasks_20261005",
+      "grouping": null,
+      "content": "P1\u2013P7 representation and equal-patient sensitivity",
+      "formats": [
+        "png",
+        "pdf",
+        "svg"
+      ],
+      "mode": "standalone_data_driven_figure",
+      "renderer": "matplotlib_fallback",
+      "matplotlib_version": "3.9.2",
+      "font_family": "DejaVu Sans",
+      "pdf_font_type": 42,
+      "pdf_text_mode": "editable_truetype",
+      "svg_font_type": "none",
+      "svg_text_mode": "editable_text",
+      "svg_raster_images": null,
+      "saved_in_individual_notebook_cell": true,
+      "compiled_canvas_crop": false,
+      "fixed_canvas_export": false,
+      "export_bounds": "content_aware_tight"
+    },
+    "B": {
+      "revision": "figure5_s5b_ng7_tasks_20261005",
+      "grouping": "celltype_minor",
+      "content": "Two decay-selected NG7 metabolic tasks with cell distributions, patient means and equal-patient medians",
+      "formats": [
+        "png",
+        "pdf",
+        "svg"
+      ],
+      "mode": "standalone_data_driven_figure",
+      "renderer": "matplotlib_fallback",
+      "matplotlib_version": "3.9.2",
+      "font_family": "DejaVu Sans",
+      "pdf_font_type": 42,
+      "pdf_text_mode": "editable_truetype",
+      "svg_font_type": "none",
+      "svg_text_mode": "editable_text",
+      "svg_raster_images": null,
+      "saved_in_individual_notebook_cell": true,
+      "compiled_canvas_crop": false,
+      "fixed_canvas_export": false,
+      "export_bounds": "content_aware_tight"
+    },
+    "C": {
+      "revision": "figure5_s5b_ng7_tasks_20261005",
+      "grouping": "patient",
+      "content": "Patient H-factor mean activity, column-z across seven patients",
+      "formats": [
+        "png",
+        "pdf",
+        "svg"
+      ],
+      "mode": "standalone_data_driven_figure",
+      "renderer": "matplotlib_fallback",
+      "matplotlib_version": "3.9.2",
+      "font_family": "DejaVu Sans",
+      "pdf_font_type": 42,
+      "pdf_text_mode": "editable_truetype",
+      "svg_font_type": "none",
+      "svg_text_mode": "editable_text",
+      "svg_raster_images": null,
+      "saved_in_individual_notebook_cell": true,
+      "compiled_canvas_crop": false,
+      "fixed_canvas_export": false,
+      "export_bounds": "content_aware_tight"
+    },
+    "D": {
+      "revision": "figure5_s5b_ng7_tasks_20261005",
+      "grouping": "celltype_minor",
+      "content": "NG to CC to epithelial cell type associations",
+      "formats": [
+        "png",
+        "pdf",
+        "svg"
+      ],
+      "mode": "standalone_data_driven_figure",
+      "renderer": "matplotlib_fallback",
+      "matplotlib_version": "3.9.2",
+      "font_family": "DejaVu Sans",
+      "pdf_font_type": 42,
+      "pdf_text_mode": "editable_truetype",
+      "svg_font_type": "none",
+      "svg_text_mode": "editable_text",
+      "svg_raster_images": null,
+      "saved_in_individual_notebook_cell": true,
+      "compiled_canvas_crop": false,
+      "fixed_canvas_export": false,
+      "export_bounds": "content_aware_tight"
+    },
+    "E": {
+      "revision": "figure5_s5b_ng7_tasks_20261005",
+      "grouping": "patient",
+      "content": "P2 NG7 MYC and spermidine synthesis inferred node activities",
+      "formats": [
+        "png",
+        "pdf",
+        "svg"
+      ],
+      "mode": "standalone_data_driven_figure",
+      "renderer": "matplotlib_fallback",
+      "matplotlib_version": "3.9.2",
+      "font_family": "DejaVu Sans",
+      "pdf_font_type": 42,
+      "pdf_text_mode": "editable_truetype",
+      "svg_font_type": "none",
+      "svg_text_mode": "editable_text",
+      "svg_raster_images": null,
+      "saved_in_individual_notebook_cell": true,
+      "compiled_canvas_crop": false,
+      "fixed_canvas_export": false,
+      "export_bounds": "content_aware_tight"
+    },
+    "F": {
+      "revision": "figure5_s5b_ng7_tasks_20261005",
+      "grouping": "patient",
+      "content": "All-cell versus depth-matched sensitivity for P4 and P1",
+      "formats": [
+        "png",
+        "pdf",
+        "svg"
+      ],
+      "mode": "standalone_data_driven_figure",
+      "renderer": "matplotlib_fallback",
+      "matplotlib_version": "3.9.2",
+      "font_family": "DejaVu Sans",
+      "pdf_font_type": 42,
+      "pdf_text_mode": "editable_truetype",
+      "svg_font_type": "none",
+      "svg_text_mode": "editable_text",
+      "svg_raster_images": null,
+      "saved_in_individual_notebook_cell": true,
+      "compiled_canvas_crop": false,
+      "fixed_canvas_export": false,
+      "export_bounds": "content_aware_tight"
+    }
+  },
+  "program_dictionary_panel": "main A",
+  "program_names_provisional": true
+}

@@ -1,0 +1,1107 @@
+celltype,metabolite,family,PatientID,biopsy_median,surgery_median,delta,biopsy_cells,surgery_cells
+T cells,indol_3_yl_acetamide,Aromatic amino acids and biogenic amines,P1,0.32711949944496155,0.30189982056617737,-0.02521967887878418,263,639
+T cells,indol_3_yl_acetamide,Aromatic amino acids and biogenic amines,P2,0.3118796646595001,0.5363224148750305,0.2244427502155304,525,615
+T cells,indol_3_yl_acetamide,Aromatic amino acids and biogenic amines,P3,0.2272495999932289,0.19128745794296265,-0.035962142050266266,22,425
+T cells,indol_3_yl_acetamide,Aromatic amino acids and biogenic amines,P4,0.4160401225090027,0.16675052791833878,-0.2492895945906639,3801,428
+T cells,indol_3_yl_acetamide,Aromatic amino acids and biogenic amines,P5,0.31526462733745575,0.19487673044204712,-0.12038789689540863,268,59
+T cells,indol_3_yl_acetamide,Aromatic amino acids and biogenic amines,P6,0.4400005638599396,0.10870862752199173,-0.33129193633794785,571,123
+T cells,indol_3_yl_acetamide,Aromatic amino acids and biogenic amines,P7,0.20595679432153702,0.10253523290157318,-0.10342156141996384,238,25
+CAF,myosin_light_chain,"Peptides, proteins and post-translational intermediates",P1,0.4565509557723999,0.5148041248321533,0.05825316905975342,181,565
+CAF,myosin_light_chain,"Peptides, proteins and post-translational intermediates",P2,0.554218977689743,0.6707181334495544,0.1164991557598114,386,283
+CAF,myosin_light_chain,"Peptides, proteins and post-translational intermediates",P3,0.4979935586452484,0.44394317269325256,-0.05405038595199585,154,317
+CAF,myosin_light_chain,"Peptides, proteins and post-translational intermediates",P4,0.9806807935237885,0.37553463876247406,-0.6051461547613144,2728,298
+CAF,myosin_light_chain,"Peptides, proteins and post-translational intermediates",P5,0.6134731471538544,0.6253569722175598,0.011883825063705444,638,151
+CAF,myosin_light_chain,"Peptides, proteins and post-translational intermediates",P6,0.5710309147834778,0.30413515865802765,-0.26689575612545013,316,66
+CAF,myosin_light_chain,"Peptides, proteins and post-translational intermediates",P7,0.5973947048187256,0.41031739115715027,-0.18707731366157532,1424,205
+CAF,myosin_light_chain_phosphate,"Peptides, proteins and post-translational intermediates",P1,0.4565509557723999,0.5148041248321533,0.05825316905975342,181,565
+CAF,myosin_light_chain_phosphate,"Peptides, proteins and post-translational intermediates",P2,0.554218977689743,0.6707181334495544,0.1164991557598114,386,283
+CAF,myosin_light_chain_phosphate,"Peptides, proteins and post-translational intermediates",P3,0.4979935586452484,0.44394317269325256,-0.05405038595199585,154,317
+CAF,myosin_light_chain_phosphate,"Peptides, proteins and post-translational intermediates",P4,0.9806807935237885,0.37553463876247406,-0.6051461547613144,2728,298
+CAF,myosin_light_chain_phosphate,"Peptides, proteins and post-translational intermediates",P5,0.6134731471538544,0.6253569722175598,0.011883825063705444,638,151
+CAF,myosin_light_chain_phosphate,"Peptides, proteins and post-translational intermediates",P6,0.5710309147834778,0.30413515865802765,-0.26689575612545013,316,66
+CAF,myosin_light_chain_phosphate,"Peptides, proteins and post-translational intermediates",P7,0.5973947048187256,0.41031739115715027,-0.18707731366157532,1424,205
+T cells,1_methylnitrosoamino_4_3_pyridinyl_1_4_butanediol,"Xenobiotics, pharmaceuticals and environmental chemicals",P1,0.3109995722770691,0.2879871726036072,-0.023012399673461914,263,639
+T cells,1_methylnitrosoamino_4_3_pyridinyl_1_4_butanediol,"Xenobiotics, pharmaceuticals and environmental chemicals",P2,0.2841046452522278,0.45597347617149353,0.17186883091926575,525,615
+T cells,1_methylnitrosoamino_4_3_pyridinyl_1_4_butanediol,"Xenobiotics, pharmaceuticals and environmental chemicals",P3,0.22172748297452927,0.1696275919675827,-0.052099891006946564,22,425
+T cells,1_methylnitrosoamino_4_3_pyridinyl_1_4_butanediol,"Xenobiotics, pharmaceuticals and environmental chemicals",P4,0.4250428378582001,0.17757268249988556,-0.24747015535831451,3801,428
+T cells,1_methylnitrosoamino_4_3_pyridinyl_1_4_butanediol,"Xenobiotics, pharmaceuticals and environmental chemicals",P5,0.283495232462883,0.16843365132808685,-0.11506158113479614,268,59
+T cells,1_methylnitrosoamino_4_3_pyridinyl_1_4_butanediol,"Xenobiotics, pharmaceuticals and environmental chemicals",P6,0.4073280990123749,0.10167218744754791,-0.30565591156482697,571,123
+T cells,1_methylnitrosoamino_4_3_pyridinyl_1_4_butanediol,"Xenobiotics, pharmaceuticals and environmental chemicals",P7,0.1884128749370575,0.08385823667049408,-0.10455463826656342,238,25
+Epithelial,2_alpha_hydroxyethyl_thiamine_diphosphate,"Vitamins, cofactors, retinoids and isoprenoids",P1,0.9643759429454803,1.2748308181762695,0.3104548752307892,5598,2015
+Epithelial,2_alpha_hydroxyethyl_thiamine_diphosphate,"Vitamins, cofactors, retinoids and isoprenoids",P2,1.226180911064148,1.777966022491455,0.5517851114273071,540,2955
+Epithelial,2_alpha_hydroxyethyl_thiamine_diphosphate,"Vitamins, cofactors, retinoids and isoprenoids",P3,0.6846226155757904,1.1867692470550537,0.5021466314792633,74,899
+Epithelial,2_alpha_hydroxyethyl_thiamine_diphosphate,"Vitamins, cofactors, retinoids and isoprenoids",P4,1.461158812046051,0.5499987602233887,-0.9111600518226624,5644,1089
+Epithelial,2_alpha_hydroxyethyl_thiamine_diphosphate,"Vitamins, cofactors, retinoids and isoprenoids",P5,1.5927071571350098,1.5242234468460083,-0.06848371028900146,5255,2890
+Epithelial,2_alpha_hydroxyethyl_thiamine_diphosphate,"Vitamins, cofactors, retinoids and isoprenoids",P6,1.2048441171646118,0.3155035972595215,-0.8893405199050903,4896,10
+Epithelial,2_alpha_hydroxyethyl_thiamine_diphosphate,"Vitamins, cofactors, retinoids and isoprenoids",P7,1.027748703956604,0.3587620258331299,-0.6689866781234741,2731,35
+T cells,2_aminomuconate,Aromatic amino acids and biogenic amines,P1,0.32304760813713074,0.28772780299186707,-0.03531980514526367,263,639
+T cells,2_aminomuconate,Aromatic amino acids and biogenic amines,P2,0.31229883432388306,0.5125373005867004,0.20023846626281738,525,615
+T cells,2_aminomuconate,Aromatic amino acids and biogenic amines,P3,0.2304868847131729,0.18406756222248077,-0.04641932249069214,22,425
+T cells,2_aminomuconate,Aromatic amino acids and biogenic amines,P4,0.4211076498031616,0.1634839102625847,-0.25762373954057693,3801,428
+T cells,2_aminomuconate,Aromatic amino acids and biogenic amines,P5,0.2999807298183441,0.1711166650056839,-0.12886406481266022,268,59
+T cells,2_aminomuconate,Aromatic amino acids and biogenic amines,P6,0.42143183946609497,0.10224083811044693,-0.31919100135564804,571,123
+T cells,2_aminomuconate,Aromatic amino acids and biogenic amines,P7,0.20310081541538239,0.08842504769563675,-0.11467576771974564,238,25
+T cells,2_methylacetoacetyl_CoA,Fatty acids and beta-oxidation intermediates,P1,0.2395896464586258,0.25893232226371765,0.019342675805091858,263,639
+T cells,2_methylacetoacetyl_CoA,Fatty acids and beta-oxidation intermediates,P2,0.2868654727935791,0.46226993203163147,0.17540445923805237,525,615
+T cells,2_methylacetoacetyl_CoA,Fatty acids and beta-oxidation intermediates,P3,0.2035367488861084,0.15804529190063477,-0.04549145698547363,22,425
+T cells,2_methylacetoacetyl_CoA,Fatty acids and beta-oxidation intermediates,P4,0.4584774374961853,0.16384246945381165,-0.29463496804237366,3801,428
+T cells,2_methylacetoacetyl_CoA,Fatty acids and beta-oxidation intermediates,P5,0.38242362439632416,0.16372555494308472,-0.21869806945323944,268,59
+T cells,2_methylacetoacetyl_CoA,Fatty acids and beta-oxidation intermediates,P6,0.24246862530708313,0.07491917908191681,-0.16754944622516632,571,123
+T cells,2_methylacetoacetyl_CoA,Fatty acids and beta-oxidation intermediates,P7,0.17924240231513977,0.0838102474808693,-0.09543215483427048,238,25
+CAF,2_phosphoglycolate,Carbohydrates and central carbon metabolites,P1,0.8796917200088501,0.6230974793434143,-0.2565942406654358,181,565
+CAF,2_phosphoglycolate,Carbohydrates and central carbon metabolites,P2,0.7347494959831238,0.95916348695755,0.22441399097442627,386,283
+CAF,2_phosphoglycolate,Carbohydrates and central carbon metabolites,P3,0.5954706966876984,0.4721710979938507,-0.12329959869384766,154,317
+CAF,2_phosphoglycolate,Carbohydrates and central carbon metabolites,P4,1.9823137521743774,0.683742493391037,-1.2985712587833405,2728,298
+CAF,2_phosphoglycolate,Carbohydrates and central carbon metabolites,P5,0.6581259667873383,0.5314322113990784,-0.1266937553882599,638,151
+CAF,2_phosphoglycolate,Carbohydrates and central carbon metabolites,P6,0.5476962327957153,0.18424702435731888,-0.36344920843839645,316,66
+CAF,2_phosphoglycolate,Carbohydrates and central carbon metabolites,P7,0.6651918590068817,0.3637343645095825,-0.3014574944972992,1424,205
+T cells,3_methoxy_4_hydroxy_5_all_trans_decaprenylbenzoate,"Vitamins, cofactors, retinoids and isoprenoids",P1,0.3297988176345825,0.2917311489582062,-0.03806766867637634,263,639
+T cells,3_methoxy_4_hydroxy_5_all_trans_decaprenylbenzoate,"Vitamins, cofactors, retinoids and isoprenoids",P2,0.3219101130962372,0.5401283502578735,0.21821823716163635,525,615
+T cells,3_methoxy_4_hydroxy_5_all_trans_decaprenylbenzoate,"Vitamins, cofactors, retinoids and isoprenoids",P3,0.2364591583609581,0.1945626586675644,-0.04189649969339371,22,425
+T cells,3_methoxy_4_hydroxy_5_all_trans_decaprenylbenzoate,"Vitamins, cofactors, retinoids and isoprenoids",P4,0.42554476857185364,0.1650468334555626,-0.26049793511629105,3801,428
+T cells,3_methoxy_4_hydroxy_5_all_trans_decaprenylbenzoate,"Vitamins, cofactors, retinoids and isoprenoids",P5,0.32333236932754517,0.18842127919197083,-0.13491109013557434,268,59
+T cells,3_methoxy_4_hydroxy_5_all_trans_decaprenylbenzoate,"Vitamins, cofactors, retinoids and isoprenoids",P6,0.40645578503608704,0.10547813028097153,-0.3009776547551155,571,123
+T cells,3_methoxy_4_hydroxy_5_all_trans_decaprenylbenzoate,"Vitamins, cofactors, retinoids and isoprenoids",P7,0.20788300782442093,0.10409310460090637,-0.10378990322351456,238,25
+T cells,3_oxo_2S_methylisocapryloyl_CoA,Fatty acids and beta-oxidation intermediates,P1,0.22971928119659424,0.2565048933029175,0.026785612106323242,263,639
+T cells,3_oxo_2S_methylisocapryloyl_CoA,Fatty acids and beta-oxidation intermediates,P2,0.28364819288253784,0.46002477407455444,0.1763765811920166,525,615
+T cells,3_oxo_2S_methylisocapryloyl_CoA,Fatty acids and beta-oxidation intermediates,P3,0.20105629414319992,0.15291407704353333,-0.048142217099666595,22,425
+T cells,3_oxo_2S_methylisocapryloyl_CoA,Fatty acids and beta-oxidation intermediates,P4,0.4659598767757416,0.16281135380268097,-0.3031485229730606,3801,428
+T cells,3_oxo_2S_methylisocapryloyl_CoA,Fatty acids and beta-oxidation intermediates,P5,0.3741792142391205,0.16279464960098267,-0.21138456463813782,268,59
+T cells,3_oxo_2S_methylisocapryloyl_CoA,Fatty acids and beta-oxidation intermediates,P6,0.23269957304000854,0.07024122029542923,-0.16245835274457932,571,123
+T cells,3_oxo_2S_methylisocapryloyl_CoA,Fatty acids and beta-oxidation intermediates,P7,0.17396581918001175,0.08353356271982193,-0.09043225646018982,238,25
+CAF,3_methoxy_4_hydroxyphenylacetaldehyde,Aromatic amino acids and biogenic amines,P1,0.3667665719985962,0.33463749289512634,-0.03212907910346985,181,565
+CAF,3_methoxy_4_hydroxyphenylacetaldehyde,Aromatic amino acids and biogenic amines,P2,0.4065384268760681,0.734065055847168,0.32752662897109985,386,283
+CAF,3_methoxy_4_hydroxyphenylacetaldehyde,Aromatic amino acids and biogenic amines,P3,0.34093426167964935,0.24801887571811676,-0.09291538596153259,154,317
+CAF,3_methoxy_4_hydroxyphenylacetaldehyde,Aromatic amino acids and biogenic amines,P4,1.1178154349327087,0.24354328215122223,-0.8742721527814865,2728,298
+CAF,3_methoxy_4_hydroxyphenylacetaldehyde,Aromatic amino acids and biogenic amines,P5,0.32496801018714905,0.27953216433525085,-0.04543584585189819,638,151
+CAF,3_methoxy_4_hydroxyphenylacetaldehyde,Aromatic amino acids and biogenic amines,P6,0.25809259712696075,0.13003922253847122,-0.12805337458848953,316,66
+CAF,3_methoxy_4_hydroxyphenylacetaldehyde,Aromatic amino acids and biogenic amines,P7,0.3385017067193985,0.2062777280807495,-0.132223978638649,1424,205
+CAF,3_methoxy_4_hydroxyphenylglycolaldehyde,Aromatic amino acids and biogenic amines,P1,0.3677597641944885,0.34039586782455444,-0.027363896369934082,181,565
+CAF,3_methoxy_4_hydroxyphenylglycolaldehyde,Aromatic amino acids and biogenic amines,P2,0.40928173065185547,0.7301065921783447,0.32082486152648926,386,283
+CAF,3_methoxy_4_hydroxyphenylglycolaldehyde,Aromatic amino acids and biogenic amines,P3,0.34026363492012024,0.2515961825847626,-0.08866745233535767,154,317
+CAF,3_methoxy_4_hydroxyphenylglycolaldehyde,Aromatic amino acids and biogenic amines,P4,1.1293659210205078,0.2449808567762375,-0.8843850642442703,2728,298
+CAF,3_methoxy_4_hydroxyphenylglycolaldehyde,Aromatic amino acids and biogenic amines,P5,0.32798880338668823,0.28101086616516113,-0.0469779372215271,638,151
+CAF,3_methoxy_4_hydroxyphenylglycolaldehyde,Aromatic amino acids and biogenic amines,P6,0.25922366976737976,0.1297030821442604,-0.12952058762311935,316,66
+CAF,3_methoxy_4_hydroxyphenylglycolaldehyde,Aromatic amino acids and biogenic amines,P7,0.34268295764923096,0.2040107548236847,-0.13867220282554626,1424,205
+T cells,3_oxo_4_R_8_dimethyl_nonanoyl_CoA,Fatty acids and beta-oxidation intermediates,P1,0.2295682430267334,0.2564097046852112,0.026841461658477783,263,639
+T cells,3_oxo_4_R_8_dimethyl_nonanoyl_CoA,Fatty acids and beta-oxidation intermediates,P2,0.2829895317554474,0.459660142660141,0.1766706109046936,525,615
+T cells,3_oxo_4_R_8_dimethyl_nonanoyl_CoA,Fatty acids and beta-oxidation intermediates,P3,0.20112216472625732,0.1518852561712265,-0.04923690855503082,22,425
+T cells,3_oxo_4_R_8_dimethyl_nonanoyl_CoA,Fatty acids and beta-oxidation intermediates,P4,0.46665406227111816,0.1633174791932106,-0.30333658307790756,3801,428
+T cells,3_oxo_4_R_8_dimethyl_nonanoyl_CoA,Fatty acids and beta-oxidation intermediates,P5,0.3743066191673279,0.16296778619289398,-0.2113388329744339,268,59
+T cells,3_oxo_4_R_8_dimethyl_nonanoyl_CoA,Fatty acids and beta-oxidation intermediates,P6,0.23128561675548553,0.0697440356016159,-0.16154158115386963,571,123
+T cells,3_oxo_4_R_8_dimethyl_nonanoyl_CoA,Fatty acids and beta-oxidation intermediates,P7,0.17313681542873383,0.08381815254688263,-0.0893186628818512,238,25
+T cells,3_oxo_4_methyl_pentanoyl_CoA,Fatty acids and beta-oxidation intermediates,P1,0.2317497581243515,0.2573634386062622,0.025613680481910706,263,639
+T cells,3_oxo_4_methyl_pentanoyl_CoA,Fatty acids and beta-oxidation intermediates,P2,0.2847740054130554,0.46104487776756287,0.17627087235450745,525,615
+T cells,3_oxo_4_methyl_pentanoyl_CoA,Fatty acids and beta-oxidation intermediates,P3,0.20182497799396515,0.1533200442790985,-0.04850493371486664,22,425
+T cells,3_oxo_4_methyl_pentanoyl_CoA,Fatty acids and beta-oxidation intermediates,P4,0.4660167992115021,0.16344910115003586,-0.3025676980614662,3801,428
+T cells,3_oxo_4_methyl_pentanoyl_CoA,Fatty acids and beta-oxidation intermediates,P5,0.37552857398986816,0.16318319737911224,-0.21234537661075592,268,59
+T cells,3_oxo_4_methyl_pentanoyl_CoA,Fatty acids and beta-oxidation intermediates,P6,0.23403091728687286,0.07060995697975159,-0.16342096030712128,571,123
+T cells,3_oxo_4_methyl_pentanoyl_CoA,Fatty acids and beta-oxidation intermediates,P7,0.17457354068756104,0.08402267843484879,-0.09055086225271225,238,25
+T cells,3_oxo_6_R_hydroxy_tetradec_8_cis_enoate,Fatty acids and beta-oxidation intermediates,P1,0.23201356828212738,0.2588199973106384,0.026806429028511047,263,639
+T cells,3_oxo_6_R_hydroxy_tetradec_8_cis_enoate,Fatty acids and beta-oxidation intermediates,P2,0.2830173075199127,0.4549586772918701,0.1719413697719574,525,615
+T cells,3_oxo_6_R_hydroxy_tetradec_8_cis_enoate,Fatty acids and beta-oxidation intermediates,P3,0.2028939500451088,0.15177854895591736,-0.05111540108919144,22,425
+T cells,3_oxo_6_R_hydroxy_tetradec_8_cis_enoate,Fatty acids and beta-oxidation intermediates,P4,0.46806252002716064,0.16347455978393555,-0.3045879602432251,3801,428
+T cells,3_oxo_6_R_hydroxy_tetradec_8_cis_enoate,Fatty acids and beta-oxidation intermediates,P5,0.3684450387954712,0.16378208994865417,-0.20466294884681702,268,59
+T cells,3_oxo_6_R_hydroxy_tetradec_8_cis_enoate,Fatty acids and beta-oxidation intermediates,P6,0.2293248474597931,0.06792334467172623,-0.16140150278806686,571,123
+T cells,3_oxo_6_R_hydroxy_tetradec_8_cis_enoate,Fatty acids and beta-oxidation intermediates,P7,0.17196989059448242,0.0833863690495491,-0.08858352154493332,238,25
+T cells,3_oxo_6_S_hydroxy_tetradec_8Z_enoate,Fatty acids and beta-oxidation intermediates,P1,0.23201356828212738,0.2588199973106384,0.026806429028511047,263,639
+T cells,3_oxo_6_S_hydroxy_tetradec_8Z_enoate,Fatty acids and beta-oxidation intermediates,P2,0.2830173075199127,0.4549586772918701,0.1719413697719574,525,615
+T cells,3_oxo_6_S_hydroxy_tetradec_8Z_enoate,Fatty acids and beta-oxidation intermediates,P3,0.2028939500451088,0.15177854895591736,-0.05111540108919144,22,425
+T cells,3_oxo_6_S_hydroxy_tetradec_8Z_enoate,Fatty acids and beta-oxidation intermediates,P4,0.46806252002716064,0.16347455978393555,-0.3045879602432251,3801,428
+T cells,3_oxo_6_S_hydroxy_tetradec_8Z_enoate,Fatty acids and beta-oxidation intermediates,P5,0.3684450387954712,0.16378208994865417,-0.20466294884681702,268,59
+T cells,3_oxo_6_S_hydroxy_tetradec_8Z_enoate,Fatty acids and beta-oxidation intermediates,P6,0.2293248474597931,0.06792334467172623,-0.16140150278806686,571,123
+T cells,3_oxo_6_S_hydroxy_tetradec_8Z_enoate,Fatty acids and beta-oxidation intermediates,P7,0.17196989059448242,0.0833863690495491,-0.08858352154493332,238,25
+T cells,3_oxo_8_R_hydroxy_hexadeca_6E_10Z_dienoate,Fatty acids and beta-oxidation intermediates,P1,0.2349461317062378,0.2589028477668762,0.023956716060638428,263,639
+T cells,3_oxo_8_R_hydroxy_hexadeca_6E_10Z_dienoate,Fatty acids and beta-oxidation intermediates,P2,0.2833764851093292,0.4547187387943268,0.17134225368499756,525,615
+T cells,3_oxo_8_R_hydroxy_hexadeca_6E_10Z_dienoate,Fatty acids and beta-oxidation intermediates,P3,0.20313244313001633,0.15191033482551575,-0.05122210830450058,22,425
+T cells,3_oxo_8_R_hydroxy_hexadeca_6E_10Z_dienoate,Fatty acids and beta-oxidation intermediates,P4,0.4664159119129181,0.1633760705590248,-0.3030398413538933,3801,428
+T cells,3_oxo_8_R_hydroxy_hexadeca_6E_10Z_dienoate,Fatty acids and beta-oxidation intermediates,P5,0.36913010478019714,0.16310156881809235,-0.2060285359621048,268,59
+T cells,3_oxo_8_R_hydroxy_hexadeca_6E_10Z_dienoate,Fatty acids and beta-oxidation intermediates,P6,0.22958365082740784,0.06932377070188522,-0.1602598801255226,571,123
+T cells,3_oxo_8_R_hydroxy_hexadeca_6E_10Z_dienoate,Fatty acids and beta-oxidation intermediates,P7,0.17295502871274948,0.08383956551551819,-0.08911546319723129,238,25
+T cells,3_oxo_8_S_hydroxy_hexadeca_6E_10Z_dienoate,Fatty acids and beta-oxidation intermediates,P1,0.2349461317062378,0.2589028477668762,0.023956716060638428,263,639
+T cells,3_oxo_8_S_hydroxy_hexadeca_6E_10Z_dienoate,Fatty acids and beta-oxidation intermediates,P2,0.2833764851093292,0.4547187387943268,0.17134225368499756,525,615
+T cells,3_oxo_8_S_hydroxy_hexadeca_6E_10Z_dienoate,Fatty acids and beta-oxidation intermediates,P3,0.20313244313001633,0.15191033482551575,-0.05122210830450058,22,425
+T cells,3_oxo_8_S_hydroxy_hexadeca_6E_10Z_dienoate,Fatty acids and beta-oxidation intermediates,P4,0.4664159119129181,0.1633760705590248,-0.3030398413538933,3801,428
+T cells,3_oxo_8_S_hydroxy_hexadeca_6E_10Z_dienoate,Fatty acids and beta-oxidation intermediates,P5,0.36913010478019714,0.16310156881809235,-0.2060285359621048,268,59
+T cells,3_oxo_8_S_hydroxy_hexadeca_6E_10Z_dienoate,Fatty acids and beta-oxidation intermediates,P6,0.22958365082740784,0.06932377070188522,-0.1602598801255226,571,123
+T cells,3_oxo_8_S_hydroxy_hexadeca_6E_10Z_dienoate,Fatty acids and beta-oxidation intermediates,P7,0.17295502871274948,0.08383956551551819,-0.08911546319723129,238,25
+T cells,3_oxoheptadecanoyl_CoA,Fatty acids and beta-oxidation intermediates,P1,0.239999458193779,0.263690710067749,0.023691251873970032,263,639
+T cells,3_oxoheptadecanoyl_CoA,Fatty acids and beta-oxidation intermediates,P2,0.29183724522590637,0.46948352456092834,0.17764627933502197,525,615
+T cells,3_oxoheptadecanoyl_CoA,Fatty acids and beta-oxidation intermediates,P3,0.20495618134737015,0.16359718143939972,-0.04135899990797043,22,425
+T cells,3_oxoheptadecanoyl_CoA,Fatty acids and beta-oxidation intermediates,P4,0.47170618176460266,0.1693722829222679,-0.30233389884233475,3801,428
+T cells,3_oxoheptadecanoyl_CoA,Fatty acids and beta-oxidation intermediates,P5,0.3829941302537918,0.16936929523944855,-0.21362483501434326,268,59
+T cells,3_oxoheptadecanoyl_CoA,Fatty acids and beta-oxidation intermediates,P6,0.24484595656394958,0.07485843449831009,-0.1699875220656395,571,123
+T cells,3_oxoheptadecanoyl_CoA,Fatty acids and beta-oxidation intermediates,P7,0.18301203101873398,0.08584301918745041,-0.09716901183128357,238,25
+T cells,3_oxoheptanoyl_CoA,Fatty acids and beta-oxidation intermediates,P1,0.2357953041791916,0.2614976465702057,0.0257023423910141,263,639
+T cells,3_oxoheptanoyl_CoA,Fatty acids and beta-oxidation intermediates,P2,0.2895981967449188,0.4659740626811981,0.1763758659362793,525,615
+T cells,3_oxoheptanoyl_CoA,Fatty acids and beta-oxidation intermediates,P3,0.20275942236185074,0.15875974297523499,-0.04399967938661575,22,425
+T cells,3_oxoheptanoyl_CoA,Fatty acids and beta-oxidation intermediates,P4,0.46888452768325806,0.16633044928312302,-0.30255407840013504,3801,428
+T cells,3_oxoheptanoyl_CoA,Fatty acids and beta-oxidation intermediates,P5,0.38298681378364563,0.16393302381038666,-0.21905378997325897,268,59
+T cells,3_oxoheptanoyl_CoA,Fatty acids and beta-oxidation intermediates,P6,0.23966388404369354,0.07206310331821442,-0.16760078072547913,571,123
+T cells,3_oxoheptanoyl_CoA,Fatty acids and beta-oxidation intermediates,P7,0.1796358823776245,0.08534789085388184,-0.09428799152374268,238,25
+T cells,3_oxononanoyl_CoA,Fatty acids and beta-oxidation intermediates,P1,0.23688164353370667,0.26170966029167175,0.024828016757965088,263,639
+T cells,3_oxononanoyl_CoA,Fatty acids and beta-oxidation intermediates,P2,0.2897976040840149,0.46662455797195435,0.17682695388793945,525,615
+T cells,3_oxononanoyl_CoA,Fatty acids and beta-oxidation intermediates,P3,0.20287468284368515,0.15869982540607452,-0.044174857437610626,22,425
+T cells,3_oxononanoyl_CoA,Fatty acids and beta-oxidation intermediates,P4,0.469034343957901,0.16668131947517395,-0.30235302448272705,3801,428
+T cells,3_oxononanoyl_CoA,Fatty acids and beta-oxidation intermediates,P5,0.38376307487487793,0.16416773200035095,-0.21959534287452698,268,59
+T cells,3_oxononanoyl_CoA,Fatty acids and beta-oxidation intermediates,P6,0.24181491136550903,0.07240680605173111,-0.16940810531377792,571,123
+T cells,3_oxononanoyl_CoA,Fatty acids and beta-oxidation intermediates,P7,0.18010373413562775,0.08552879095077515,-0.0945749431848526,238,25
+T cells,3_oxopentadecanoyl_CoA,Fatty acids and beta-oxidation intermediates,P1,0.2401496022939682,0.2636488080024719,0.023499205708503723,263,639
+T cells,3_oxopentadecanoyl_CoA,Fatty acids and beta-oxidation intermediates,P2,0.29184776544570923,0.46971309185028076,0.17786532640457153,525,615
+T cells,3_oxopentadecanoyl_CoA,Fatty acids and beta-oxidation intermediates,P3,0.204962819814682,0.16379229724407196,-0.041170522570610046,22,425
+T cells,3_oxopentadecanoyl_CoA,Fatty acids and beta-oxidation intermediates,P4,0.47165191173553467,0.16936343163251877,-0.3022884801030159,3801,428
+T cells,3_oxopentadecanoyl_CoA,Fatty acids and beta-oxidation intermediates,P5,0.38300706446170807,0.16953179240226746,-0.2134752720594406,268,59
+T cells,3_oxopentadecanoyl_CoA,Fatty acids and beta-oxidation intermediates,P6,0.24498578906059265,0.0748591497540474,-0.17012663930654526,571,123
+T cells,3_oxopentadecanoyl_CoA,Fatty acids and beta-oxidation intermediates,P7,0.18309006839990616,0.0858454555273056,-0.09724461287260056,238,25
+T cells,3_oxopentanoyl_CoA,Fatty acids and beta-oxidation intermediates,P1,0.23870672285556793,0.26173341274261475,0.023026689887046814,263,639
+T cells,3_oxopentanoyl_CoA,Fatty acids and beta-oxidation intermediates,P2,0.2899734079837799,0.465687096118927,0.1757136881351471,525,615
+T cells,3_oxopentanoyl_CoA,Fatty acids and beta-oxidation intermediates,P3,0.20342113822698593,0.1593935340642929,-0.044027604162693024,22,425
+T cells,3_oxopentanoyl_CoA,Fatty acids and beta-oxidation intermediates,P4,0.4672008454799652,0.16565728187561035,-0.30154356360435486,3801,428
+T cells,3_oxopentanoyl_CoA,Fatty acids and beta-oxidation intermediates,P5,0.38321200013160706,0.16390950977802277,-0.2193024903535843,268,59
+T cells,3_oxopentanoyl_CoA,Fatty acids and beta-oxidation intermediates,P6,0.2420729547739029,0.07280679792165756,-0.16926615685224533,571,123
+T cells,3_oxopentanoyl_CoA,Fatty acids and beta-oxidation intermediates,P7,0.18030819296836853,0.08523230254650116,-0.09507589042186737,238,25
+T cells,3_oxotridecanoyl_CoA,Fatty acids and beta-oxidation intermediates,P1,0.24201422929763794,0.26452532410621643,0.02251109480857849,263,639
+T cells,3_oxotridecanoyl_CoA,Fatty acids and beta-oxidation intermediates,P2,0.290762335062027,0.4699265658855438,0.17916423082351685,525,615
+T cells,3_oxotridecanoyl_CoA,Fatty acids and beta-oxidation intermediates,P3,0.20342908799648285,0.164296954870224,-0.03913213312625885,22,425
+T cells,3_oxotridecanoyl_CoA,Fatty acids and beta-oxidation intermediates,P4,0.47215086221694946,0.16901863366365433,-0.30313222855329514,3801,428
+T cells,3_oxotridecanoyl_CoA,Fatty acids and beta-oxidation intermediates,P5,0.38347160816192627,0.17141421139240265,-0.21205739676952362,268,59
+T cells,3_oxotridecanoyl_CoA,Fatty acids and beta-oxidation intermediates,P6,0.2453410029411316,0.07441387325525284,-0.17092712968587875,571,123
+T cells,3_oxotridecanoyl_CoA,Fatty acids and beta-oxidation intermediates,P7,0.184489868581295,0.08557043969631195,-0.09891942888498306,238,25
+T cells,3_oxoundecanoyl_CoA,Fatty acids and beta-oxidation intermediates,P1,0.23688389360904694,0.26171228289604187,0.024828389286994934,263,639
+T cells,3_oxoundecanoyl_CoA,Fatty acids and beta-oxidation intermediates,P2,0.2897965908050537,0.4666273593902588,0.17683076858520508,525,615
+T cells,3_oxoundecanoyl_CoA,Fatty acids and beta-oxidation intermediates,P3,0.20287636667490005,0.15872953832149506,-0.044146828353405,22,425
+T cells,3_oxoundecanoyl_CoA,Fatty acids and beta-oxidation intermediates,P4,0.46903374791145325,0.16669802367687225,-0.302335724234581,3801,428
+T cells,3_oxoundecanoyl_CoA,Fatty acids and beta-oxidation intermediates,P5,0.38379067182540894,0.16416776180267334,-0.2196229100227356,268,59
+T cells,3_oxoundecanoyl_CoA,Fatty acids and beta-oxidation intermediates,P6,0.24181902408599854,0.07240733504295349,-0.16941168904304504,571,123
+T cells,3_oxoundecanoyl_CoA,Fatty acids and beta-oxidation intermediates,P7,0.18012022972106934,0.08553057163953781,-0.09458965808153152,238,25
+T cells,4_bromophenol_2_3_epoxide,"Xenobiotics, pharmaceuticals and environmental chemicals",P1,0.3088626563549042,0.28599268198013306,-0.022869974374771118,263,639
+T cells,4_bromophenol_2_3_epoxide,"Xenobiotics, pharmaceuticals and environmental chemicals",P2,0.28192391991615295,0.4498690068721771,0.16794508695602417,525,615
+T cells,4_bromophenol_2_3_epoxide,"Xenobiotics, pharmaceuticals and environmental chemicals",P3,0.218422032892704,0.16758999228477478,-0.05083204060792923,22,425
+T cells,4_bromophenol_2_3_epoxide,"Xenobiotics, pharmaceuticals and environmental chemicals",P4,0.42098259925842285,0.1719207763671875,-0.24906182289123535,3801,428
+T cells,4_bromophenol_2_3_epoxide,"Xenobiotics, pharmaceuticals and environmental chemicals",P5,0.2807120829820633,0.16482818126678467,-0.11588390171527863,268,59
+T cells,4_bromophenol_2_3_epoxide,"Xenobiotics, pharmaceuticals and environmental chemicals",P6,0.3960001766681671,0.09981188923120499,-0.2961882874369621,571,123
+T cells,4_bromophenol_2_3_epoxide,"Xenobiotics, pharmaceuticals and environmental chemicals",P7,0.18843302875757217,0.08528106659650803,-0.10315196216106415,238,25
+T cells,4_hydroxyretinoic_acid,"Vitamins, cofactors, retinoids and isoprenoids",P1,0.3184691071510315,0.3053249418735504,-0.013144165277481079,263,639
+T cells,4_hydroxyretinoic_acid,"Vitamins, cofactors, retinoids and isoprenoids",P2,0.30837106704711914,0.48046934604644775,0.1720982789993286,525,615
+T cells,4_hydroxyretinoic_acid,"Vitamins, cofactors, retinoids and isoprenoids",P3,0.23493340611457825,0.18805742263793945,-0.046875983476638794,22,425
+T cells,4_hydroxyretinoic_acid,"Vitamins, cofactors, retinoids and isoprenoids",P4,0.4424034655094147,0.17634133994579315,-0.2660621255636215,3801,428
+T cells,4_hydroxyretinoic_acid,"Vitamins, cofactors, retinoids and isoprenoids",P5,0.29353585839271545,0.1831815093755722,-0.11035434901714325,268,59
+T cells,4_hydroxyretinoic_acid,"Vitamins, cofactors, retinoids and isoprenoids",P6,0.3977277874946594,0.1115688905119896,-0.28615889698266983,571,123
+T cells,4_hydroxyretinoic_acid,"Vitamins, cofactors, retinoids and isoprenoids",P7,0.20605380088090897,0.09471219778060913,-0.11134160310029984,238,25
+CAF,4_hydroxyphenylacetate,Aromatic amino acids and biogenic amines,P1,0.3035303056240082,0.2841451168060303,-0.019385188817977905,181,565
+CAF,4_hydroxyphenylacetate,Aromatic amino acids and biogenic amines,P2,0.35967203974723816,0.6813307404518127,0.3216587007045746,386,283
+CAF,4_hydroxyphenylacetate,Aromatic amino acids and biogenic amines,P3,0.2997588962316513,0.2048451155424118,-0.0949137806892395,154,317
+CAF,4_hydroxyphenylacetate,Aromatic amino acids and biogenic amines,P4,0.9743205904960632,0.20730482786893845,-0.7670157626271248,2728,298
+CAF,4_hydroxyphenylacetate,Aromatic amino acids and biogenic amines,P5,0.2913028746843338,0.2532418966293335,-0.038060978055000305,638,151
+CAF,4_hydroxyphenylacetate,Aromatic amino acids and biogenic amines,P6,0.22571995109319687,0.11868816241621971,-0.10703178867697716,316,66
+CAF,4_hydroxyphenylacetate,Aromatic amino acids and biogenic amines,P7,0.29303935170173645,0.1757226288318634,-0.11731672286987305,1424,205
+Endothelial,6_R_hydroxy_tetradeca_2E_4E_8Z_trienoate,Fatty acids and beta-oxidation intermediates,P1,0.46410685777664185,0.4439860135316849,-0.02012084424495697,179,866
+Endothelial,6_R_hydroxy_tetradeca_2E_4E_8Z_trienoate,Fatty acids and beta-oxidation intermediates,P2,0.5285646319389343,0.4440348744392395,-0.08452975749969482,436,74
+Endothelial,6_R_hydroxy_tetradeca_2E_4E_8Z_trienoate,Fatty acids and beta-oxidation intermediates,P3,0.45347052812576294,0.4021148085594177,-0.051355719566345215,75,285
+Endothelial,6_R_hydroxy_tetradeca_2E_4E_8Z_trienoate,Fatty acids and beta-oxidation intermediates,P4,0.47353413701057434,0.35872891545295715,-0.11480522155761719,399,16
+Endothelial,6_R_hydroxy_tetradeca_2E_4E_8Z_trienoate,Fatty acids and beta-oxidation intermediates,P5,0.5561863780021667,0.4501447081565857,-0.10604166984558105,281,175
+Endothelial,6_R_hydroxy_tetradeca_2E_4E_8Z_trienoate,Fatty acids and beta-oxidation intermediates,P6,0.49588410556316376,0.2587674856185913,-0.23711661994457245,152,37
+Endothelial,6_R_hydroxy_tetradeca_2E_4E_8Z_trienoate,Fatty acids and beta-oxidation intermediates,P7,0.4496738910675049,0.3386811912059784,-0.11099269986152649,621,237
+Endothelial,6_S_hydroxy_tetradeca_2E_4E_8Z_trienoate,Fatty acids and beta-oxidation intermediates,P1,0.46410685777664185,0.4439860135316849,-0.02012084424495697,179,866
+Endothelial,6_S_hydroxy_tetradeca_2E_4E_8Z_trienoate,Fatty acids and beta-oxidation intermediates,P2,0.5285646319389343,0.4440348744392395,-0.08452975749969482,436,74
+Endothelial,6_S_hydroxy_tetradeca_2E_4E_8Z_trienoate,Fatty acids and beta-oxidation intermediates,P3,0.45347052812576294,0.4021148085594177,-0.051355719566345215,75,285
+Endothelial,6_S_hydroxy_tetradeca_2E_4E_8Z_trienoate,Fatty acids and beta-oxidation intermediates,P4,0.47353413701057434,0.35872891545295715,-0.11480522155761719,399,16
+Endothelial,6_S_hydroxy_tetradeca_2E_4E_8Z_trienoate,Fatty acids and beta-oxidation intermediates,P5,0.5561863780021667,0.4501447081565857,-0.10604166984558105,281,175
+Endothelial,6_S_hydroxy_tetradeca_2E_4E_8Z_trienoate,Fatty acids and beta-oxidation intermediates,P6,0.49588410556316376,0.2587674856185913,-0.23711661994457245,152,37
+Endothelial,6_S_hydroxy_tetradeca_2E_4E_8Z_trienoate,Fatty acids and beta-oxidation intermediates,P7,0.4496738910675049,0.3386811912059784,-0.11099269986152649,621,237
+CAF,5_methyltetrahydropteroyltri_L_glutamate,"Vitamins, cofactors, retinoids and isoprenoids",P1,0.5854971408843994,0.6499568223953247,0.06445968151092529,181,565
+CAF,5_methyltetrahydropteroyltri_L_glutamate,"Vitamins, cofactors, retinoids and isoprenoids",P2,0.9223002195358276,1.7829557657241821,0.8606555461883545,386,283
+CAF,5_methyltetrahydropteroyltri_L_glutamate,"Vitamins, cofactors, retinoids and isoprenoids",P3,0.672940194606781,0.5467755198478699,-0.12616467475891113,154,317
+CAF,5_methyltetrahydropteroyltri_L_glutamate,"Vitamins, cofactors, retinoids and isoprenoids",P4,1.522803544998169,0.5948879718780518,-0.9279155731201172,2728,298
+CAF,5_methyltetrahydropteroyltri_L_glutamate,"Vitamins, cofactors, retinoids and isoprenoids",P5,0.80254265666008,0.7292156219482422,-0.07332703471183777,638,151
+CAF,5_methyltetrahydropteroyltri_L_glutamate,"Vitamins, cofactors, retinoids and isoprenoids",P6,0.5059471130371094,0.25585298240184784,-0.25009413063526154,316,66
+CAF,5_methyltetrahydropteroyltri_L_glutamate,"Vitamins, cofactors, retinoids and isoprenoids",P7,0.8501584231853485,0.5701872706413269,-0.2799711525440216,1424,205
+Endothelial,8_R_hydroxy_hexadeca_2E_4E_6E_10Z_tetraenoate,Fatty acids and beta-oxidation intermediates,P1,0.46414780616760254,0.44403961300849915,-0.020108193159103394,179,866
+Endothelial,8_R_hydroxy_hexadeca_2E_4E_6E_10Z_tetraenoate,Fatty acids and beta-oxidation intermediates,P2,0.5286169350147247,0.44409623742103577,-0.08452069759368896,436,74
+Endothelial,8_R_hydroxy_hexadeca_2E_4E_6E_10Z_tetraenoate,Fatty acids and beta-oxidation intermediates,P3,0.45352110266685486,0.4021584093570709,-0.051362693309783936,75,285
+Endothelial,8_R_hydroxy_hexadeca_2E_4E_6E_10Z_tetraenoate,Fatty acids and beta-oxidation intermediates,P4,0.4735960066318512,0.35878676176071167,-0.11480924487113953,399,16
+Endothelial,8_R_hydroxy_hexadeca_2E_4E_6E_10Z_tetraenoate,Fatty acids and beta-oxidation intermediates,P5,0.5562549233436584,0.45017164945602417,-0.10608327388763428,281,175
+Endothelial,8_R_hydroxy_hexadeca_2E_4E_6E_10Z_tetraenoate,Fatty acids and beta-oxidation intermediates,P6,0.49595852196216583,0.2587914764881134,-0.23716704547405243,152,37
+Endothelial,8_R_hydroxy_hexadeca_2E_4E_6E_10Z_tetraenoate,Fatty acids and beta-oxidation intermediates,P7,0.4497188329696655,0.3387012183666229,-0.1110176146030426,621,237
+Endothelial,8_S_hydroxy_hexadeca_2E_4E_6E_10Z_tetraenoate,Fatty acids and beta-oxidation intermediates,P1,0.46414780616760254,0.44403961300849915,-0.020108193159103394,179,866
+Endothelial,8_S_hydroxy_hexadeca_2E_4E_6E_10Z_tetraenoate,Fatty acids and beta-oxidation intermediates,P2,0.5286169350147247,0.44409623742103577,-0.08452069759368896,436,74
+Endothelial,8_S_hydroxy_hexadeca_2E_4E_6E_10Z_tetraenoate,Fatty acids and beta-oxidation intermediates,P3,0.45352110266685486,0.4021584093570709,-0.051362693309783936,75,285
+Endothelial,8_S_hydroxy_hexadeca_2E_4E_6E_10Z_tetraenoate,Fatty acids and beta-oxidation intermediates,P4,0.4735960066318512,0.35878676176071167,-0.11480924487113953,399,16
+Endothelial,8_S_hydroxy_hexadeca_2E_4E_6E_10Z_tetraenoate,Fatty acids and beta-oxidation intermediates,P5,0.5562549233436584,0.45017164945602417,-0.10608327388763428,281,175
+Endothelial,8_S_hydroxy_hexadeca_2E_4E_6E_10Z_tetraenoate,Fatty acids and beta-oxidation intermediates,P6,0.49595852196216583,0.2587914764881134,-0.23716704547405243,152,37
+Endothelial,8_S_hydroxy_hexadeca_2E_4E_6E_10Z_tetraenoate,Fatty acids and beta-oxidation intermediates,P7,0.4497188329696655,0.3387012183666229,-0.1110176146030426,621,237
+T cells,6_methylmercaptopurine,"Xenobiotics, pharmaceuticals and environmental chemicals",P1,0.3422446548938751,0.29704976081848145,-0.04519489407539368,263,639
+T cells,6_methylmercaptopurine,"Xenobiotics, pharmaceuticals and environmental chemicals",P2,0.3222392797470093,0.5406022667884827,0.2183629870414734,525,615
+T cells,6_methylmercaptopurine,"Xenobiotics, pharmaceuticals and environmental chemicals",P3,0.2388259619474411,0.18475235998630524,-0.054073601961135864,22,425
+T cells,6_methylmercaptopurine,"Xenobiotics, pharmaceuticals and environmental chemicals",P4,0.42091989517211914,0.1631339266896248,-0.25778596848249435,3801,428
+T cells,6_methylmercaptopurine,"Xenobiotics, pharmaceuticals and environmental chemicals",P5,0.3291068524122238,0.18390537798404694,-0.14520147442817688,268,59
+T cells,6_methylmercaptopurine,"Xenobiotics, pharmaceuticals and environmental chemicals",P6,0.43770861625671387,0.11291439831256866,-0.3247942179441452,571,123
+T cells,6_methylmercaptopurine,"Xenobiotics, pharmaceuticals and environmental chemicals",P7,0.20546211302280426,0.10960382968187332,-0.09585828334093094,238,25
+Epithelial,acetamidopropanal,Polyamines,P1,0.4281933009624481,0.6126917600631714,0.18449845910072327,5598,2015
+Epithelial,acetamidopropanal,Polyamines,P2,0.6575786471366882,0.9206109642982483,0.26303231716156006,540,2955
+Epithelial,acetamidopropanal,Polyamines,P3,0.3098517805337906,0.8551031351089478,0.5452513545751572,74,899
+Epithelial,acetamidopropanal,Polyamines,P4,0.9788244366645813,0.2538509964942932,-0.7249734401702881,5644,1089
+Epithelial,acetamidopropanal,Polyamines,P5,1.242181420326233,1.4241333603858948,0.18195194005966187,5255,2890
+Epithelial,acetamidopropanal,Polyamines,P6,0.4170188158750534,0.17148064076900482,-0.24553817510604858,4896,10
+Epithelial,acetamidopropanal,Polyamines,P7,0.48673015832901,0.17500180006027222,-0.3117283582687378,2731,35
+T cells,A2PE_H2,"Vitamins, cofactors, retinoids and isoprenoids",P1,0.32120874524116516,0.275326669216156,-0.045882076025009155,263,639
+T cells,A2PE_H2,"Vitamins, cofactors, retinoids and isoprenoids",P2,0.29118406772613525,0.4692748785018921,0.17809081077575684,525,615
+T cells,A2PE_H2,"Vitamins, cofactors, retinoids and isoprenoids",P3,0.22212401777505875,0.17015427350997925,-0.0519697442650795,22,425
+T cells,A2PE_H2,"Vitamins, cofactors, retinoids and isoprenoids",P4,0.3819757401943207,0.15807029604911804,-0.22390544414520264,3801,428
+T cells,A2PE_H2,"Vitamins, cofactors, retinoids and isoprenoids",P5,0.3115696609020233,0.19999703764915466,-0.11157262325286865,268,59
+T cells,A2PE_H2,"Vitamins, cofactors, retinoids and isoprenoids",P6,0.4188774526119232,0.09721086174249649,-0.3216665908694267,571,123
+T cells,A2PE_H2,"Vitamins, cofactors, retinoids and isoprenoids",P7,0.20059752464294434,0.07711560279130936,-0.12348192185163498,238,25
+CAF,activated_methyl_group,"Other amino acids, sulfur and one-carbon metabolism",P1,0.31075015664100647,0.28479239344596863,-0.025957763195037842,181,565
+CAF,activated_methyl_group,"Other amino acids, sulfur and one-carbon metabolism",P2,0.3824753165245056,0.7626041173934937,0.38012880086898804,386,283
+CAF,activated_methyl_group,"Other amino acids, sulfur and one-carbon metabolism",P3,0.32982106506824493,0.21537457406520844,-0.1144464910030365,154,317
+CAF,activated_methyl_group,"Other amino acids, sulfur and one-carbon metabolism",P4,0.9959542453289032,0.2234887182712555,-0.7724655270576477,2728,298
+CAF,activated_methyl_group,"Other amino acids, sulfur and one-carbon metabolism",P5,0.3197178244590759,0.2723987400531769,-0.04731908440589905,638,151
+CAF,activated_methyl_group,"Other amino acids, sulfur and one-carbon metabolism",P6,0.24559953063726425,0.13266167789697647,-0.11293785274028778,316,66
+CAF,activated_methyl_group,"Other amino acids, sulfur and one-carbon metabolism",P7,0.3128354847431183,0.19867676496505737,-0.11415871977806091,1424,205
+T cells,alpha_3_hydroxymethyl_nitrosoamino_propyl_3_pyridinemethanol,"Xenobiotics, pharmaceuticals and environmental chemicals",P1,0.3107464909553528,0.29243049025535583,-0.018316000699996948,263,639
+T cells,alpha_3_hydroxymethyl_nitrosoamino_propyl_3_pyridinemethanol,"Xenobiotics, pharmaceuticals and environmental chemicals",P2,0.290314644575119,0.4732985198497772,0.1829838752746582,525,615
+T cells,alpha_3_hydroxymethyl_nitrosoamino_propyl_3_pyridinemethanol,"Xenobiotics, pharmaceuticals and environmental chemicals",P3,0.22509277611970901,0.17623865604400635,-0.04885412007570267,22,425
+T cells,alpha_3_hydroxymethyl_nitrosoamino_propyl_3_pyridinemethanol,"Xenobiotics, pharmaceuticals and environmental chemicals",P4,0.4259912371635437,0.17730604112148285,-0.24868519604206085,3801,428
+T cells,alpha_3_hydroxymethyl_nitrosoamino_propyl_3_pyridinemethanol,"Xenobiotics, pharmaceuticals and environmental chemicals",P5,0.289477214217186,0.1733696609735489,-0.11610755324363708,268,59
+T cells,alpha_3_hydroxymethyl_nitrosoamino_propyl_3_pyridinemethanol,"Xenobiotics, pharmaceuticals and environmental chemicals",P6,0.40448522567749023,0.10330960154533386,-0.30117562413215637,571,123
+T cells,alpha_3_hydroxymethyl_nitrosoamino_propyl_3_pyridinemethanol,"Xenobiotics, pharmaceuticals and environmental chemicals",P7,0.1922987550497055,0.08836948126554489,-0.10392927378416061,238,25
+T cells,APE,"Vitamins, cofactors, retinoids and isoprenoids",P1,0.2967713475227356,0.27509647607803345,-0.02167487144470215,263,639
+T cells,APE,"Vitamins, cofactors, retinoids and isoprenoids",P2,0.28431954979896545,0.48217499256134033,0.19785544276237488,525,615
+T cells,APE,"Vitamins, cofactors, retinoids and isoprenoids",P3,0.20699167251586914,0.16373829543590546,-0.043253377079963684,22,425
+T cells,APE,"Vitamins, cofactors, retinoids and isoprenoids",P4,0.39736220240592957,0.15038244426250458,-0.246979758143425,3801,428
+T cells,APE,"Vitamins, cofactors, retinoids and isoprenoids",P5,0.2758006602525711,0.1685887724161148,-0.1072118878364563,268,59
+T cells,APE,"Vitamins, cofactors, retinoids and isoprenoids",P6,0.40981027483940125,0.09698819369077682,-0.3128220811486244,571,123
+T cells,APE,"Vitamins, cofactors, retinoids and isoprenoids",P7,0.19209573417901993,0.08905851095914841,-0.10303722321987152,238,25
+T cells,arsenite,"Xenobiotics, pharmaceuticals and environmental chemicals",P1,0.3422446548938751,0.29704976081848145,-0.04519489407539368,263,639
+T cells,arsenite,"Xenobiotics, pharmaceuticals and environmental chemicals",P2,0.3222392797470093,0.5406022667884827,0.2183629870414734,525,615
+T cells,arsenite,"Xenobiotics, pharmaceuticals and environmental chemicals",P3,0.2388259619474411,0.18475235998630524,-0.054073601961135864,22,425
+T cells,arsenite,"Xenobiotics, pharmaceuticals and environmental chemicals",P4,0.42091989517211914,0.1631339266896248,-0.25778596848249435,3801,428
+T cells,arsenite,"Xenobiotics, pharmaceuticals and environmental chemicals",P5,0.3291068524122238,0.18390537798404694,-0.14520147442817688,268,59
+T cells,arsenite,"Xenobiotics, pharmaceuticals and environmental chemicals",P6,0.43770861625671387,0.11291439831256866,-0.3247942179441452,571,123
+T cells,arsenite,"Xenobiotics, pharmaceuticals and environmental chemicals",P7,0.20546211302280426,0.10960382968187332,-0.09585828334093094,238,25
+T cells,beta_carotene,"Vitamins, cofactors, retinoids and isoprenoids",P1,0.2626131772994995,0.2539507746696472,-0.008662402629852295,263,639
+T cells,beta_carotene,"Vitamins, cofactors, retinoids and isoprenoids",P2,0.2493070363998413,0.4485008120536804,0.1991937756538391,525,615
+T cells,beta_carotene,"Vitamins, cofactors, retinoids and isoprenoids",P3,0.19293002784252167,0.1326153576374054,-0.06031467020511627,22,425
+T cells,beta_carotene,"Vitamins, cofactors, retinoids and isoprenoids",P4,0.36821407079696655,0.1271015927195549,-0.24111247807741165,3801,428
+T cells,beta_carotene,"Vitamins, cofactors, retinoids and isoprenoids",P5,0.24578236043453217,0.15194940567016602,-0.09383295476436615,268,59
+T cells,beta_carotene,"Vitamins, cofactors, retinoids and isoprenoids",P6,0.3873867094516754,0.09128089994192123,-0.2961058095097542,571,123
+T cells,beta_carotene,"Vitamins, cofactors, retinoids and isoprenoids",P7,0.16557519137859344,0.07370802760124207,-0.09186716377735138,238,25
+T cells,bufotenine,Aromatic amino acids and biogenic amines,P1,0.34811684489250183,0.30754995346069336,-0.04056689143180847,263,639
+T cells,bufotenine,Aromatic amino acids and biogenic amines,P2,0.31323274970054626,0.49960166215896606,0.1863689124584198,525,615
+T cells,bufotenine,Aromatic amino acids and biogenic amines,P3,0.2289242073893547,0.18452337384223938,-0.044400833547115326,22,425
+T cells,bufotenine,Aromatic amino acids and biogenic amines,P4,0.43560591340065,0.16013815999031067,-0.27546775341033936,3801,428
+T cells,bufotenine,Aromatic amino acids and biogenic amines,P5,0.32765665650367737,0.17173433303833008,-0.1559223234653473,268,59
+T cells,bufotenine,Aromatic amino acids and biogenic amines,P6,0.428013414144516,0.11672917008399963,-0.31128424406051636,571,123
+T cells,bufotenine,Aromatic amino acids and biogenic amines,P7,0.2055312767624855,0.10029730200767517,-0.10523397475481033,238,25
+T cells,cimetidine,"Xenobiotics, pharmaceuticals and environmental chemicals",P1,0.3214302062988281,0.29980403184890747,-0.021626174449920654,263,639
+T cells,cimetidine,"Xenobiotics, pharmaceuticals and environmental chemicals",P2,0.30509740114212036,0.5022873878479004,0.19718998670578003,525,615
+T cells,cimetidine,"Xenobiotics, pharmaceuticals and environmental chemicals",P3,0.2238154634833336,0.18242086470127106,-0.04139459878206253,22,425
+T cells,cimetidine,"Xenobiotics, pharmaceuticals and environmental chemicals",P4,0.4280945658683777,0.15153679251670837,-0.2765577733516693,3801,428
+T cells,cimetidine,"Xenobiotics, pharmaceuticals and environmental chemicals",P5,0.30778102576732635,0.181051105260849,-0.12672992050647736,268,59
+T cells,cimetidine,"Xenobiotics, pharmaceuticals and environmental chemicals",P6,0.3884040117263794,0.10871050506830215,-0.27969350665807724,571,123
+T cells,cimetidine,"Xenobiotics, pharmaceuticals and environmental chemicals",P7,0.19925719499588013,0.08740761131048203,-0.1118495836853981,238,25
+T cells,coproporphyrinogen_I,Porphyrins and tetrapyrroles,P1,0.3196679949760437,0.24374286830425262,-0.07592512667179108,263,639
+T cells,coproporphyrinogen_I,Porphyrins and tetrapyrroles,P2,0.2643544375896454,0.46460258960723877,0.20024815201759338,525,615
+T cells,coproporphyrinogen_I,Porphyrins and tetrapyrroles,P3,0.17507444322109222,0.14843307435512543,-0.026641368865966797,22,425
+T cells,coproporphyrinogen_I,Porphyrins and tetrapyrroles,P4,0.31737521290779114,0.11940155550837517,-0.19797365739941597,3801,428
+T cells,coproporphyrinogen_I,Porphyrins and tetrapyrroles,P5,0.27146077156066895,0.1476282775402069,-0.12383249402046204,268,59
+T cells,coproporphyrinogen_I,Porphyrins and tetrapyrroles,P6,0.29027774930000305,0.0889240950345993,-0.20135365426540375,571,123
+T cells,coproporphyrinogen_I,Porphyrins and tetrapyrroles,P7,0.175505630671978,0.07472281157970428,-0.10078281909227371,238,25
+T cells,coumarin,"Xenobiotics, pharmaceuticals and environmental chemicals",P1,0.32455629110336304,0.3041365146636963,-0.020419776439666748,263,639
+T cells,coumarin,"Xenobiotics, pharmaceuticals and environmental chemicals",P2,0.30777642130851746,0.4829731285572052,0.17519670724868774,525,615
+T cells,coumarin,"Xenobiotics, pharmaceuticals and environmental chemicals",P3,0.23569536209106445,0.1878909468650818,-0.047804415225982666,22,425
+T cells,coumarin,"Xenobiotics, pharmaceuticals and environmental chemicals",P4,0.4405234158039093,0.18675684928894043,-0.25376656651496887,3801,428
+T cells,coumarin,"Xenobiotics, pharmaceuticals and environmental chemicals",P5,0.2970411032438278,0.18792621791362762,-0.1091148853302002,268,59
+T cells,coumarin,"Xenobiotics, pharmaceuticals and environmental chemicals",P6,0.402352511882782,0.11040764302015305,-0.29194486886262894,571,123
+T cells,coumarin,"Xenobiotics, pharmaceuticals and environmental chemicals",P7,0.20514484494924545,0.09465934336185455,-0.1104855015873909,238,25
+T cells,dichloroacetyl_chloride,"Xenobiotics, pharmaceuticals and environmental chemicals",P1,0.2835155129432678,0.2684847116470337,-0.01503080129623413,263,639
+T cells,dichloroacetyl_chloride,"Xenobiotics, pharmaceuticals and environmental chemicals",P2,0.25378361344337463,0.41171789169311523,0.1579342782497406,525,615
+T cells,dichloroacetyl_chloride,"Xenobiotics, pharmaceuticals and environmental chemicals",P3,0.1919904127717018,0.13444288074970245,-0.05754753202199936,22,425
+T cells,dichloroacetyl_chloride,"Xenobiotics, pharmaceuticals and environmental chemicals",P4,0.3960019052028656,0.1523011550307274,-0.24370075017213821,3801,428
+T cells,dichloroacetyl_chloride,"Xenobiotics, pharmaceuticals and environmental chemicals",P5,0.2556412070989609,0.14718367159366608,-0.1084575355052948,268,59
+T cells,dichloroacetyl_chloride,"Xenobiotics, pharmaceuticals and environmental chemicals",P6,0.37213581800460815,0.09497205168008804,-0.2771637663245201,571,123
+T cells,dichloroacetyl_chloride,"Xenobiotics, pharmaceuticals and environmental chemicals",P7,0.1665647029876709,0.06811150908470154,-0.09845319390296936,238,25
+T cells,dTDP_glucose,"Glycosaminoglycans, glycosphingolipids and glycans",P1,0.4257100522518158,0.2358592301607132,-0.1898508220911026,263,639
+T cells,dTDP_glucose,"Glycosaminoglycans, glycosphingolipids and glycans",P2,0.2569715678691864,0.39215296506881714,0.13518139719963074,525,615
+T cells,dTDP_glucose,"Glycosaminoglycans, glycosphingolipids and glycans",P3,0.1866442710161209,0.15759599208831787,-0.02904827892780304,22,425
+T cells,dTDP_glucose,"Glycosaminoglycans, glycosphingolipids and glycans",P4,0.3040025234222412,0.16329950094223022,-0.140703022480011,3801,428
+T cells,dTDP_glucose,"Glycosaminoglycans, glycosphingolipids and glycans",P5,0.2668226957321167,0.17394718527793884,-0.09287551045417786,268,59
+T cells,dTDP_glucose,"Glycosaminoglycans, glycosphingolipids and glycans",P6,0.33592379093170166,0.08569544553756714,-0.2502283453941345,571,123
+T cells,dTDP_glucose,"Glycosaminoglycans, glycosphingolipids and glycans",P7,0.18076221644878387,0.08560250699520111,-0.09515970945358276,238,25
+T cells,F1alpha,"Glycosaminoglycans, glycosphingolipids and glycans",P1,0.5257617831230164,0.5243098735809326,-0.0014519095420837402,263,639
+T cells,F1alpha,"Glycosaminoglycans, glycosphingolipids and glycans",P2,0.4918968081474304,0.5397959351539612,0.04789912700653076,525,615
+T cells,F1alpha,"Glycosaminoglycans, glycosphingolipids and glycans",P3,0.40388767421245575,0.3107284605503082,-0.09315921366214752,22,425
+T cells,F1alpha,"Glycosaminoglycans, glycosphingolipids and glycans",P4,0.7456619739532471,0.26848776638507843,-0.47717420756816864,3801,428
+T cells,F1alpha,"Glycosaminoglycans, glycosphingolipids and glycans",P5,0.4935384690761566,0.3442225754261017,-0.14931589365005493,268,59
+T cells,F1alpha,"Glycosaminoglycans, glycosphingolipids and glycans",P6,0.4062432646751404,0.20587660372257233,-0.20036666095256805,571,123
+T cells,F1alpha,"Glycosaminoglycans, glycosphingolipids and glycans",P7,0.3317330479621887,0.16001127660274506,-0.17172177135944366,238,25
+Epithelial,G_5_pppR_RNA,"Nucleotides, nucleic acids and RNA modification",P1,0.8209761381149292,1.7029377222061157,0.8819615840911865,5598,2015
+Epithelial,G_5_pppR_RNA,"Nucleotides, nucleic acids and RNA modification",P2,0.7667561769485474,1.2486724853515625,0.48191630840301514,540,2955
+Epithelial,G_5_pppR_RNA,"Nucleotides, nucleic acids and RNA modification",P3,0.5259289741516113,1.2528702020645142,0.7269412279129028,74,899
+Epithelial,G_5_pppR_RNA,"Nucleotides, nucleic acids and RNA modification",P4,1.2908080220222473,0.43429461121559143,-0.8565134108066559,5644,1089
+Epithelial,G_5_pppR_RNA,"Nucleotides, nucleic acids and RNA modification",P5,1.191270351409912,1.418995201587677,0.2277248501777649,5255,2890
+Epithelial,G_5_pppR_RNA,"Nucleotides, nucleic acids and RNA modification",P6,0.8324118256568909,0.16361478716135025,-0.6687970384955406,4896,10
+Epithelial,G_5_pppR_RNA,"Nucleotides, nucleic acids and RNA modification",P7,1.230561375617981,0.23874559998512268,-0.9918157756328583,2731,35
+T cells,gamma_L_glutamyl_L_alpha_aminobutyrate,"Other amino acids, sulfur and one-carbon metabolism",P1,0.12342138588428497,0.11325713247060776,-0.010164253413677216,263,639
+T cells,gamma_L_glutamyl_L_alpha_aminobutyrate,"Other amino acids, sulfur and one-carbon metabolism",P2,0.11452528089284897,0.22316482663154602,0.10863954573869705,525,615
+T cells,gamma_L_glutamyl_L_alpha_aminobutyrate,"Other amino acids, sulfur and one-carbon metabolism",P3,0.0834297463297844,0.05889645591378212,-0.024533290416002274,22,425
+T cells,gamma_L_glutamyl_L_alpha_aminobutyrate,"Other amino acids, sulfur and one-carbon metabolism",P4,0.23017330467700958,0.11400701478123665,-0.11616628989577293,3801,428
+T cells,gamma_L_glutamyl_L_alpha_aminobutyrate,"Other amino acids, sulfur and one-carbon metabolism",P5,0.45012474060058594,0.07394863665103912,-0.3761761039495468,268,59
+T cells,gamma_L_glutamyl_L_alpha_aminobutyrate,"Other amino acids, sulfur and one-carbon metabolism",P6,0.12184315919876099,0.03182119503617287,-0.09002196416258812,571,123
+T cells,gamma_L_glutamyl_L_alpha_aminobutyrate,"Other amino acids, sulfur and one-carbon metabolism",P7,0.06440968811511993,0.01503351703286171,-0.049376171082258224,238,25
+T cells,heparan_sulfate_degradation_product_1,"Glycosaminoglycans, glycosphingolipids and glycans",P1,0.49298131465911865,0.42851248383522034,-0.06446883082389832,263,639
+T cells,heparan_sulfate_degradation_product_1,"Glycosaminoglycans, glycosphingolipids and glycans",P2,0.38254156708717346,0.4364068806171417,0.05386531352996826,525,615
+T cells,heparan_sulfate_degradation_product_1,"Glycosaminoglycans, glycosphingolipids and glycans",P3,0.3068840354681015,0.24709552526474,-0.05978851020336151,22,425
+T cells,heparan_sulfate_degradation_product_1,"Glycosaminoglycans, glycosphingolipids and glycans",P4,0.529424786567688,0.2371983826160431,-0.2922264039516449,3801,428
+T cells,heparan_sulfate_degradation_product_1,"Glycosaminoglycans, glycosphingolipids and glycans",P5,0.4818740338087082,0.36980435252189636,-0.11206968128681183,268,59
+T cells,heparan_sulfate_degradation_product_1,"Glycosaminoglycans, glycosphingolipids and glycans",P6,0.30890515446662903,0.1667080670595169,-0.14219708740711212,571,123
+T cells,heparan_sulfate_degradation_product_1,"Glycosaminoglycans, glycosphingolipids and glycans",P7,0.30732910335063934,0.19337955117225647,-0.11394955217838287,238,25
+T cells,heparan_sulfate_degradation_product_12,"Glycosaminoglycans, glycosphingolipids and glycans",P1,0.48978880047798157,0.4260397255420685,-0.06374907493591309,263,639
+T cells,heparan_sulfate_degradation_product_12,"Glycosaminoglycans, glycosphingolipids and glycans",P2,0.37909531593322754,0.4318317770957947,0.05273646116256714,525,615
+T cells,heparan_sulfate_degradation_product_12,"Glycosaminoglycans, glycosphingolipids and glycans",P3,0.30447252094745636,0.24318145215511322,-0.06129106879234314,22,425
+T cells,heparan_sulfate_degradation_product_12,"Glycosaminoglycans, glycosphingolipids and glycans",P4,0.5266438126564026,0.23471172899007797,-0.2919320836663246,3801,428
+T cells,heparan_sulfate_degradation_product_12,"Glycosaminoglycans, glycosphingolipids and glycans",P5,0.4816092997789383,0.37010565400123596,-0.11150364577770233,268,59
+T cells,heparan_sulfate_degradation_product_12,"Glycosaminoglycans, glycosphingolipids and glycans",P6,0.30393022298812866,0.16524937748908997,-0.1386808454990387,571,123
+T cells,heparan_sulfate_degradation_product_12,"Glycosaminoglycans, glycosphingolipids and glycans",P7,0.30599457025527954,0.1928434818983078,-0.11315108835697174,238,25
+T cells,heparan_sulfate_degradation_product_6,"Glycosaminoglycans, glycosphingolipids and glycans",P1,0.49893346428871155,0.42899972200393677,-0.06993374228477478,263,639
+T cells,heparan_sulfate_degradation_product_6,"Glycosaminoglycans, glycosphingolipids and glycans",P2,0.3847705125808716,0.4387813210487366,0.05401080846786499,525,615
+T cells,heparan_sulfate_degradation_product_6,"Glycosaminoglycans, glycosphingolipids and glycans",P3,0.310250386595726,0.24900449812412262,-0.061245888471603394,22,425
+T cells,heparan_sulfate_degradation_product_6,"Glycosaminoglycans, glycosphingolipids and glycans",P4,0.5293205976486206,0.2409910261631012,-0.2883295714855194,3801,428
+T cells,heparan_sulfate_degradation_product_6,"Glycosaminoglycans, glycosphingolipids and glycans",P5,0.4852117598056793,0.3752993941307068,-0.10991236567497253,268,59
+T cells,heparan_sulfate_degradation_product_6,"Glycosaminoglycans, glycosphingolipids and glycans",P6,0.31524309515953064,0.16981743276119232,-0.14542566239833832,571,123
+T cells,heparan_sulfate_degradation_product_6,"Glycosaminoglycans, glycosphingolipids and glycans",P7,0.3138846307992935,0.1943245232105255,-0.119560107588768,238,25
+CAF,H2S,"Other amino acids, sulfur and one-carbon metabolism",P1,0.4138391613960266,0.30516791343688965,-0.10867124795913696,181,565
+CAF,H2S,"Other amino acids, sulfur and one-carbon metabolism",P2,0.39476849138736725,0.8468190431594849,0.4520505517721176,386,283
+CAF,H2S,"Other amino acids, sulfur and one-carbon metabolism",P3,0.29770712554454803,0.21565420925617218,-0.08205291628837585,154,317
+CAF,H2S,"Other amino acids, sulfur and one-carbon metabolism",P4,0.8866510391235352,0.22476113587617874,-0.6618899032473564,2728,298
+CAF,H2S,"Other amino acids, sulfur and one-carbon metabolism",P5,0.2645688056945801,0.2266252189874649,-0.03794358670711517,638,151
+CAF,H2S,"Other amino acids, sulfur and one-carbon metabolism",P6,0.2904833108186722,0.12657224014401436,-0.16391107067465782,316,66
+CAF,H2S,"Other amino acids, sulfur and one-carbon metabolism",P7,0.3075290322303772,0.22249431908130646,-0.08503471314907074,1424,205
+Endothelial,homocysteine_thiolactone,"Other amino acids, sulfur and one-carbon metabolism",P1,0.3565119802951813,0.3502505123615265,-0.006261467933654785,179,866
+Endothelial,homocysteine_thiolactone,"Other amino acids, sulfur and one-carbon metabolism",P2,0.37485194206237793,0.4595050811767578,0.08465313911437988,436,74
+Endothelial,homocysteine_thiolactone,"Other amino acids, sulfur and one-carbon metabolism",P3,0.33319196105003357,0.2706870138645172,-0.06250494718551636,75,285
+Endothelial,homocysteine_thiolactone,"Other amino acids, sulfur and one-carbon metabolism",P4,0.3560022711753845,0.29472967982292175,-0.06127259135246277,399,16
+Endothelial,homocysteine_thiolactone,"Other amino acids, sulfur and one-carbon metabolism",P5,0.34528905153274536,0.3100131154060364,-0.035275936126708984,281,175
+Endothelial,homocysteine_thiolactone,"Other amino acids, sulfur and one-carbon metabolism",P6,0.4136960804462433,0.15041811764240265,-0.26327796280384064,152,37
+Endothelial,homocysteine_thiolactone,"Other amino acids, sulfur and one-carbon metabolism",P7,0.30433389544487,0.15158456563949585,-0.15274932980537415,621,237
+CAF,heparan_sulfate_precursor_1,"Glycosaminoglycans, glycosphingolipids and glycans",P1,0.665656328201294,0.9253444671630859,0.259688138961792,181,565
+CAF,heparan_sulfate_precursor_1,"Glycosaminoglycans, glycosphingolipids and glycans",P2,0.8586905300617218,1.3160730600357056,0.45738252997398376,386,283
+CAF,heparan_sulfate_precursor_1,"Glycosaminoglycans, glycosphingolipids and glycans",P3,0.6765273809432983,0.5624797940254211,-0.1140475869178772,154,317
+CAF,heparan_sulfate_precursor_1,"Glycosaminoglycans, glycosphingolipids and glycans",P4,2.159977912902832,0.7574470639228821,-1.40253084897995,2728,298
+CAF,heparan_sulfate_precursor_1,"Glycosaminoglycans, glycosphingolipids and glycans",P5,0.8832840025424957,0.8647605180740356,-0.018523484468460083,638,151
+CAF,heparan_sulfate_precursor_1,"Glycosaminoglycans, glycosphingolipids and glycans",P6,0.6547987759113312,0.3801671862602234,-0.2746315896511078,316,66
+CAF,heparan_sulfate_precursor_1,"Glycosaminoglycans, glycosphingolipids and glycans",P7,0.8525840640068054,0.4500705897808075,-0.4025134742259979,1424,205
+CAF,heparan_sulfate_precursor_2,"Glycosaminoglycans, glycosphingolipids and glycans",P1,0.710442841053009,1.0130786895751953,0.3026358485221863,181,565
+CAF,heparan_sulfate_precursor_2,"Glycosaminoglycans, glycosphingolipids and glycans",P2,0.9286158680915833,1.4065314531326294,0.47791558504104614,386,283
+CAF,heparan_sulfate_precursor_2,"Glycosaminoglycans, glycosphingolipids and glycans",P3,0.7366906106472015,0.5966318845748901,-0.1400587260723114,154,317
+CAF,heparan_sulfate_precursor_2,"Glycosaminoglycans, glycosphingolipids and glycans",P4,2.3216521739959717,0.8522405326366425,-1.4694116413593292,2728,298
+CAF,heparan_sulfate_precursor_2,"Glycosaminoglycans, glycosphingolipids and glycans",P5,0.9764940738677979,0.9544047713279724,-0.02208930253982544,638,151
+CAF,heparan_sulfate_precursor_2,"Glycosaminoglycans, glycosphingolipids and glycans",P6,0.7057150304317474,0.4230581521987915,-0.28265687823295593,316,66
+CAF,heparan_sulfate_precursor_2,"Glycosaminoglycans, glycosphingolipids and glycans",P7,0.9315437972545624,0.4872908890247345,-0.4442529082298279,1424,205
+CAF,heparan_sulfate_precursor_3,"Glycosaminoglycans, glycosphingolipids and glycans",P1,0.7114139199256897,1.0154509544372559,0.30403703451156616,181,565
+CAF,heparan_sulfate_precursor_3,"Glycosaminoglycans, glycosphingolipids and glycans",P2,0.9304358959197998,1.4084080457687378,0.477972149848938,386,283
+CAF,heparan_sulfate_precursor_3,"Glycosaminoglycans, glycosphingolipids and glycans",P3,0.7379810214042664,0.5969701409339905,-0.14101088047027588,154,317
+CAF,heparan_sulfate_precursor_3,"Glycosaminoglycans, glycosphingolipids and glycans",P4,2.32529616355896,0.8544258773326874,-1.4708702862262726,2728,298
+CAF,heparan_sulfate_precursor_3,"Glycosaminoglycans, glycosphingolipids and glycans",P5,0.9787496030330658,0.9566115140914917,-0.022138088941574097,638,151
+CAF,heparan_sulfate_precursor_3,"Glycosaminoglycans, glycosphingolipids and glycans",P6,0.7067856788635254,0.4240514189004898,-0.2827342599630356,316,66
+CAF,heparan_sulfate_precursor_3,"Glycosaminoglycans, glycosphingolipids and glycans",P7,0.9333196580410004,0.4880343973636627,-0.44528526067733765,1424,205
+CAF,heparan_sulfate_precursor_4,"Glycosaminoglycans, glycosphingolipids and glycans",P1,0.7114284038543701,1.0154918432235718,0.30406343936920166,181,565
+CAF,heparan_sulfate_precursor_4,"Glycosaminoglycans, glycosphingolipids and glycans",P2,0.9304699599742889,1.4084408283233643,0.4779708683490753,386,283
+CAF,heparan_sulfate_precursor_4,"Glycosaminoglycans, glycosphingolipids and glycans",P3,0.7379975318908691,0.5969481468200684,-0.14104938507080078,154,317
+CAF,heparan_sulfate_precursor_4,"Glycosaminoglycans, glycosphingolipids and glycans",P4,2.3253660202026367,0.8544644713401794,-1.4709015488624573,2728,298
+CAF,heparan_sulfate_precursor_4,"Glycosaminoglycans, glycosphingolipids and glycans",P5,0.9787884652614594,0.9566495418548584,-0.022138923406600952,638,151
+CAF,heparan_sulfate_precursor_4,"Glycosaminoglycans, glycosphingolipids and glycans",P6,0.7067963778972626,0.4240669012069702,-0.28272947669029236,316,66
+CAF,heparan_sulfate_precursor_4,"Glycosaminoglycans, glycosphingolipids and glycans",P7,0.9333355128765106,0.48804721236228943,-0.4452883005142212,1424,205
+CAF,heparan_sulfate_precursor_5,"Glycosaminoglycans, glycosphingolipids and glycans",P1,0.7114285826683044,1.0154926776885986,0.3040640950202942,181,565
+CAF,heparan_sulfate_precursor_5,"Glycosaminoglycans, glycosphingolipids and glycans",P2,0.9304707050323486,1.4084415435791016,0.47797083854675293,386,283
+CAF,heparan_sulfate_precursor_5,"Glycosaminoglycans, glycosphingolipids and glycans",P3,0.7379975914955139,0.5969473123550415,-0.1410502791404724,154,317
+CAF,heparan_sulfate_precursor_5,"Glycosaminoglycans, glycosphingolipids and glycans",P4,2.3253673315048218,0.8544652760028839,-1.4709020555019379,2728,298
+CAF,heparan_sulfate_precursor_5,"Glycosaminoglycans, glycosphingolipids and glycans",P5,0.9787892997264862,0.9566503763198853,-0.022138923406600952,638,151
+CAF,heparan_sulfate_precursor_5,"Glycosaminoglycans, glycosphingolipids and glycans",P6,0.7067962884902954,0.4240671545267105,-0.2827291339635849,316,66
+CAF,heparan_sulfate_precursor_5,"Glycosaminoglycans, glycosphingolipids and glycans",P7,0.9333354532718658,0.4880475103855133,-0.44528794288635254,1424,205
+CAF,heparan_sulfate_precursor_6,"Glycosaminoglycans, glycosphingolipids and glycans",P1,0.7114285230636597,1.015492558479309,0.3040640354156494,181,565
+CAF,heparan_sulfate_precursor_6,"Glycosaminoglycans, glycosphingolipids and glycans",P2,0.9304694533348083,1.4084409475326538,0.47797149419784546,386,283
+CAF,heparan_sulfate_precursor_6,"Glycosaminoglycans, glycosphingolipids and glycans",P3,0.7379980087280273,0.5969482660293579,-0.14104974269866943,154,317
+CAF,heparan_sulfate_precursor_6,"Glycosaminoglycans, glycosphingolipids and glycans",P4,2.32536518573761,0.8544635474681854,-1.4709016382694244,2728,298
+CAF,heparan_sulfate_precursor_6,"Glycosaminoglycans, glycosphingolipids and glycans",P5,0.9787877202033997,0.9566488862037659,-0.02213883399963379,638,151
+CAF,heparan_sulfate_precursor_6,"Glycosaminoglycans, glycosphingolipids and glycans",P6,0.7067967355251312,0.42406660318374634,-0.2827301323413849,316,66
+CAF,heparan_sulfate_precursor_6,"Glycosaminoglycans, glycosphingolipids and glycans",P7,0.9333361089229584,0.48804718255996704,-0.44528892636299133,1424,205
+CAF,heparan_sulfate_precursor_7,"Glycosaminoglycans, glycosphingolipids and glycans",P1,0.7114130258560181,1.0154880285263062,0.3040750026702881,181,565
+CAF,heparan_sulfate_precursor_7,"Glycosaminoglycans, glycosphingolipids and glycans",P2,0.9303972721099854,1.408408284187317,0.47801101207733154,386,283
+CAF,heparan_sulfate_precursor_7,"Glycosaminoglycans, glycosphingolipids and glycans",P3,0.7379952073097229,0.5969700217247009,-0.14102518558502197,154,317
+CAF,heparan_sulfate_precursor_7,"Glycosaminoglycans, glycosphingolipids and glycans",P4,2.3252294063568115,0.854361355304718,-1.4708680510520935,2728,298
+CAF,heparan_sulfate_precursor_7,"Glycosaminoglycans, glycosphingolipids and glycans",P5,0.978695809841156,0.9565610885620117,-0.022134721279144287,638,151
+CAF,heparan_sulfate_precursor_7,"Glycosaminoglycans, glycosphingolipids and glycans",P6,0.706790566444397,0.42402827739715576,-0.2827622890472412,316,66
+CAF,heparan_sulfate_precursor_7,"Glycosaminoglycans, glycosphingolipids and glycans",P7,0.9333353638648987,0.4880284070968628,-0.4453069567680359,1424,205
+CAF,heparan_sulfate_precursor_8,"Glycosaminoglycans, glycosphingolipids and glycans",P1,0.7105264067649841,1.0133241415023804,0.30279773473739624,181,565
+CAF,heparan_sulfate_precursor_8,"Glycosaminoglycans, glycosphingolipids and glycans",P2,0.9274980425834656,1.4069631099700928,0.4794650673866272,386,283
+CAF,heparan_sulfate_precursor_8,"Glycosaminoglycans, glycosphingolipids and glycans",P3,0.7374988794326782,0.5958951711654663,-0.14160370826721191,154,317
+CAF,heparan_sulfate_precursor_8,"Glycosaminoglycans, glycosphingolipids and glycans",P4,2.319915533065796,0.849809318780899,-1.4701062142848969,2728,298
+CAF,heparan_sulfate_precursor_8,"Glycosaminoglycans, glycosphingolipids and glycans",P5,0.9745799899101257,0.9525221586227417,-0.022057831287384033,638,151
+CAF,heparan_sulfate_precursor_8,"Glycosaminoglycans, glycosphingolipids and glycans",P6,0.705763578414917,0.4221372753381729,-0.2836263030767441,316,66
+CAF,heparan_sulfate_precursor_8,"Glycosaminoglycans, glycosphingolipids and glycans",P7,0.9320674240589142,0.48716455698013306,-0.44490286707878113,1424,205
+T cells,hydrogen_cyanide,"Xenobiotics, pharmaceuticals and environmental chemicals",P1,0.36666855216026306,0.30879464745521545,-0.05787390470504761,263,639
+T cells,hydrogen_cyanide,"Xenobiotics, pharmaceuticals and environmental chemicals",P2,0.31639882922172546,0.5420180559158325,0.22561922669410706,525,615
+T cells,hydrogen_cyanide,"Xenobiotics, pharmaceuticals and environmental chemicals",P3,0.22498323768377304,0.19130553305149078,-0.03367770463228226,22,425
+T cells,hydrogen_cyanide,"Xenobiotics, pharmaceuticals and environmental chemicals",P4,0.42564722895622253,0.1586960181593895,-0.26695121079683304,3801,428
+T cells,hydrogen_cyanide,"Xenobiotics, pharmaceuticals and environmental chemicals",P5,0.30578741431236267,0.19551829993724823,-0.11026911437511444,268,59
+T cells,hydrogen_cyanide,"Xenobiotics, pharmaceuticals and environmental chemicals",P6,0.5155423879623413,0.11325298249721527,-0.40228940546512604,571,123
+T cells,hydrogen_cyanide,"Xenobiotics, pharmaceuticals and environmental chemicals",P7,0.20815684646368027,0.10004673153162003,-0.10811011493206024,238,25
+T cells,keratan_sulfate_I_degradation_product_3,"Glycosaminoglycans, glycosphingolipids and glycans",P1,0.8760807514190674,0.6996920108795166,-0.17638874053955078,263,639
+T cells,keratan_sulfate_I_degradation_product_3,"Glycosaminoglycans, glycosphingolipids and glycans",P2,0.7037791609764099,0.8189368844032288,0.11515772342681885,525,615
+T cells,keratan_sulfate_I_degradation_product_3,"Glycosaminoglycans, glycosphingolipids and glycans",P3,0.5669248104095459,0.43316951394081116,-0.13375529646873474,22,425
+T cells,keratan_sulfate_I_degradation_product_3,"Glycosaminoglycans, glycosphingolipids and glycans",P4,0.9231916666030884,0.36218278110027313,-0.5610088855028152,3801,428
+T cells,keratan_sulfate_I_degradation_product_3,"Glycosaminoglycans, glycosphingolipids and glycans",P5,0.6633112132549286,0.4642372131347656,-0.19907400012016296,268,59
+T cells,keratan_sulfate_I_degradation_product_3,"Glycosaminoglycans, glycosphingolipids and glycans",P6,0.471335768699646,0.2540307343006134,-0.2173050343990326,571,123
+T cells,keratan_sulfate_I_degradation_product_3,"Glycosaminoglycans, glycosphingolipids and glycans",P7,0.4656580090522766,0.21103054285049438,-0.2546274662017822,238,25
+T cells,limonene,"Xenobiotics, pharmaceuticals and environmental chemicals",P1,0.3199304938316345,0.3011510372161865,-0.018779456615447998,263,639
+T cells,limonene,"Xenobiotics, pharmaceuticals and environmental chemicals",P2,0.30536913871765137,0.47750407457351685,0.17213493585586548,525,615
+T cells,limonene,"Xenobiotics, pharmaceuticals and environmental chemicals",P3,0.23587732762098312,0.18668332695960999,-0.04919400066137314,22,425
+T cells,limonene,"Xenobiotics, pharmaceuticals and environmental chemicals",P4,0.439657598733902,0.1773916855454445,-0.2622659131884575,3801,428
+T cells,limonene,"Xenobiotics, pharmaceuticals and environmental chemicals",P5,0.29297885298728943,0.1792978197336197,-0.11368103325366974,268,59
+T cells,limonene,"Xenobiotics, pharmaceuticals and environmental chemicals",P6,0.40307557582855225,0.1101050078868866,-0.29297056794166565,571,123
+T cells,limonene,"Xenobiotics, pharmaceuticals and environmental chemicals",P7,0.20325487852096558,0.09317298978567123,-0.11008188873529434,238,25
+Epithelial,m7G_5_pppAm,"Nucleotides, nucleic acids and RNA modification",P1,1.2119985818862915,1.4909746646881104,0.27897608280181885,5598,2015
+Epithelial,m7G_5_pppAm,"Nucleotides, nucleic acids and RNA modification",P2,0.7260119318962097,1.1280914545059204,0.4020795226097107,540,2955
+Epithelial,m7G_5_pppAm,"Nucleotides, nucleic acids and RNA modification",P3,0.6177988946437836,1.1983728408813477,0.5805739462375641,74,899
+Epithelial,m7G_5_pppAm,"Nucleotides, nucleic acids and RNA modification",P4,1.3392949104309082,0.3404734432697296,-0.9988214671611786,5644,1089
+Epithelial,m7G_5_pppAm,"Nucleotides, nucleic acids and RNA modification",P5,1.1679714918136597,1.6488832235336304,0.4809117317199707,5255,2890
+Epithelial,m7G_5_pppAm,"Nucleotides, nucleic acids and RNA modification",P6,0.7159263789653778,0.19834011793136597,-0.5175862610340118,4896,10
+Epithelial,m7G_5_pppAm,"Nucleotides, nucleic acids and RNA modification",P7,0.7193732857704163,0.24422655999660492,-0.47514672577381134,2731,35
+Epithelial,m7G_5_pppm6Am_mRNA_containing_an_N6_2_O_dimethyladenosine_cap,"Nucleotides, nucleic acids and RNA modification",P1,1.2119985818862915,1.4909746646881104,0.27897608280181885,5598,2015
+Epithelial,m7G_5_pppm6Am_mRNA_containing_an_N6_2_O_dimethyladenosine_cap,"Nucleotides, nucleic acids and RNA modification",P2,0.7260119318962097,1.1280914545059204,0.4020795226097107,540,2955
+Epithelial,m7G_5_pppm6Am_mRNA_containing_an_N6_2_O_dimethyladenosine_cap,"Nucleotides, nucleic acids and RNA modification",P3,0.6177988946437836,1.1983728408813477,0.5805739462375641,74,899
+Epithelial,m7G_5_pppm6Am_mRNA_containing_an_N6_2_O_dimethyladenosine_cap,"Nucleotides, nucleic acids and RNA modification",P4,1.3392949104309082,0.3404734432697296,-0.9988214671611786,5644,1089
+Epithelial,m7G_5_pppm6Am_mRNA_containing_an_N6_2_O_dimethyladenosine_cap,"Nucleotides, nucleic acids and RNA modification",P5,1.1679714918136597,1.6488832235336304,0.4809117317199707,5255,2890
+Epithelial,m7G_5_pppm6Am_mRNA_containing_an_N6_2_O_dimethyladenosine_cap,"Nucleotides, nucleic acids and RNA modification",P6,0.7159263789653778,0.19834011793136597,-0.5175862610340118,4896,10
+Epithelial,m7G_5_pppm6Am_mRNA_containing_an_N6_2_O_dimethyladenosine_cap,"Nucleotides, nucleic acids and RNA modification",P7,0.7193732857704163,0.24422655999660492,-0.47514672577381134,2731,35
+Epithelial,m7G_5_pppRm_RNA_mRNA_containing_a_2_O_methylpurine_cap,"Nucleotides, nucleic acids and RNA modification",P1,1.0001434087753296,1.44240403175354,0.44226062297821045,5598,2015
+Epithelial,m7G_5_pppRm_RNA_mRNA_containing_a_2_O_methylpurine_cap,"Nucleotides, nucleic acids and RNA modification",P2,1.2739372253417969,1.9091994762420654,0.6352622509002686,540,2955
+Epithelial,m7G_5_pppRm_RNA_mRNA_containing_a_2_O_methylpurine_cap,"Nucleotides, nucleic acids and RNA modification",P3,0.46029306948184967,0.6179276704788208,0.15763460099697113,74,899
+Epithelial,m7G_5_pppRm_RNA_mRNA_containing_a_2_O_methylpurine_cap,"Nucleotides, nucleic acids and RNA modification",P4,1.3332627415657043,0.3587087094783783,-0.974554032087326,5644,1089
+Epithelial,m7G_5_pppRm_RNA_mRNA_containing_a_2_O_methylpurine_cap,"Nucleotides, nucleic acids and RNA modification",P5,1.1088539361953735,1.1058369874954224,-0.003016948699951172,5255,2890
+Epithelial,m7G_5_pppRm_RNA_mRNA_containing_a_2_O_methylpurine_cap,"Nucleotides, nucleic acids and RNA modification",P6,0.5180880725383759,0.21149608492851257,-0.3065919876098633,4896,10
+Epithelial,m7G_5_pppRm_RNA_mRNA_containing_a_2_O_methylpurine_cap,"Nucleotides, nucleic acids and RNA modification",P7,1.4727070331573486,0.24557970464229584,-1.2271273285150528,2731,35
+Epithelial,m7G_5_pppR_RNA,"Nucleotides, nucleic acids and RNA modification",P1,0.8596118092536926,1.4504609107971191,0.5908491015434265,5598,2015
+Epithelial,m7G_5_pppR_RNA,"Nucleotides, nucleic acids and RNA modification",P2,0.9885249137878418,1.492205262184143,0.5036803483963013,540,2955
+Epithelial,m7G_5_pppR_RNA,"Nucleotides, nucleic acids and RNA modification",P3,0.5315439701080322,1.0761867761611938,0.5446428060531616,74,899
+Epithelial,m7G_5_pppR_RNA,"Nucleotides, nucleic acids and RNA modification",P4,1.3537141680717468,0.48632383346557617,-0.8673903346061707,5644,1089
+Epithelial,m7G_5_pppR_RNA,"Nucleotides, nucleic acids and RNA modification",P5,1.2848762273788452,1.2892670035362244,0.00439077615737915,5255,2890
+Epithelial,m7G_5_pppR_RNA,"Nucleotides, nucleic acids and RNA modification",P6,0.8125298023223877,0.18630460649728775,-0.6262251958251,4896,10
+Epithelial,m7G_5_pppR_RNA,"Nucleotides, nucleic acids and RNA modification",P7,1.3548673391342163,0.26761287450790405,-1.0872544646263123,2731,35
+Epithelial,N1_N12_diacetylspermine,Polyamines,P1,0.4294416755437851,0.6282740831375122,0.1988324075937271,5598,2015
+Epithelial,N1_N12_diacetylspermine,Polyamines,P2,0.6690392196178436,0.9401722550392151,0.27113303542137146,540,2955
+Epithelial,N1_N12_diacetylspermine,Polyamines,P3,0.3159680664539337,0.8299195766448975,0.5139515101909637,74,899
+Epithelial,N1_N12_diacetylspermine,Polyamines,P4,0.971203476190567,0.2576739192008972,-0.7135295569896698,5644,1089
+Epithelial,N1_N12_diacetylspermine,Polyamines,P5,1.2043132781982422,1.3594500422477722,0.15513676404953003,5255,2890
+Epithelial,N1_N12_diacetylspermine,Polyamines,P6,0.43665772676467896,0.19935357570648193,-0.23730415105819702,4896,10
+Epithelial,N1_N12_diacetylspermine,Polyamines,P7,0.5076162219047546,0.17275561392307281,-0.3348606079816818,2731,35
+Epithelial,N1_acetylspermidine,Polyamines,P1,0.7190467417240143,1.376623511314392,0.6575767695903778,5598,2015
+Epithelial,N1_acetylspermidine,Polyamines,P2,1.39400714635849,1.8785771131515503,0.4845699667930603,540,2955
+Epithelial,N1_acetylspermidine,Polyamines,P3,0.4990134984254837,1.1288816928863525,0.6298681944608688,74,899
+Epithelial,N1_acetylspermidine,Polyamines,P4,1.4688840508460999,0.3914128243923187,-1.0774712264537811,5644,1089
+Epithelial,N1_acetylspermidine,Polyamines,P5,1.1176623106002808,1.0853188633918762,-0.03234344720840454,5255,2890
+Epithelial,N1_acetylspermidine,Polyamines,P6,0.631244033575058,0.3696451634168625,-0.2615988701581955,4896,10
+Epithelial,N1_acetylspermidine,Polyamines,P7,0.8880417943000793,0.2653551399707794,-0.6226866543292999,2731,35
+Epithelial,N1_acetylspermine,Polyamines,P1,0.5350434184074402,1.3951600790023804,0.8601166605949402,5598,2015
+Epithelial,N1_acetylspermine,Polyamines,P2,1.6480819582939148,2.2253124713897705,0.5772305130958557,540,2955
+Epithelial,N1_acetylspermine,Polyamines,P3,0.40246354043483734,0.8868431448936462,0.4843796044588089,74,899
+Epithelial,N1_acetylspermine,Polyamines,P4,1.1440380811691284,0.35714948177337646,-0.786888599395752,5644,1089
+Epithelial,N1_acetylspermine,Polyamines,P5,1.1265368461608887,1.1372660398483276,0.010729193687438965,5255,2890
+Epithelial,N1_acetylspermine,Polyamines,P6,0.5512504875659943,0.33528169989585876,-0.2159687876701355,4896,10
+Epithelial,N1_acetylspermine,Polyamines,P7,0.6925671100616455,0.255974680185318,-0.4365924298763275,2731,35
+T cells,methylarsonate,"Xenobiotics, pharmaceuticals and environmental chemicals",P1,0.3422446548938751,0.29704976081848145,-0.04519489407539368,263,639
+T cells,methylarsonate,"Xenobiotics, pharmaceuticals and environmental chemicals",P2,0.3222392797470093,0.5406022667884827,0.2183629870414734,525,615
+T cells,methylarsonate,"Xenobiotics, pharmaceuticals and environmental chemicals",P3,0.2388259619474411,0.18475235998630524,-0.054073601961135864,22,425
+T cells,methylarsonate,"Xenobiotics, pharmaceuticals and environmental chemicals",P4,0.42091989517211914,0.1631339266896248,-0.25778596848249435,3801,428
+T cells,methylarsonate,"Xenobiotics, pharmaceuticals and environmental chemicals",P5,0.3291068524122238,0.18390537798404694,-0.14520147442817688,268,59
+T cells,methylarsonate,"Xenobiotics, pharmaceuticals and environmental chemicals",P6,0.43770861625671387,0.11291439831256866,-0.3247942179441452,571,123
+T cells,methylarsonate,"Xenobiotics, pharmaceuticals and environmental chemicals",P7,0.20546211302280426,0.10960382968187332,-0.09585828334093094,238,25
+T cells,N1_methyl_2_pyridone_5_carboxamide,"Vitamins, cofactors, retinoids and isoprenoids",P1,0.31798410415649414,0.2911869287490845,-0.026797175407409668,263,639
+T cells,N1_methyl_2_pyridone_5_carboxamide,"Vitamins, cofactors, retinoids and isoprenoids",P2,0.30520716309547424,0.49860984086990356,0.19340267777442932,525,615
+T cells,N1_methyl_2_pyridone_5_carboxamide,"Vitamins, cofactors, retinoids and isoprenoids",P3,0.2235942929983139,0.18405118584632874,-0.03954310715198517,22,425
+T cells,N1_methyl_2_pyridone_5_carboxamide,"Vitamins, cofactors, retinoids and isoprenoids",P4,0.4074978828430176,0.1920359805226326,-0.21546190232038498,3801,428
+T cells,N1_methyl_2_pyridone_5_carboxamide,"Vitamins, cofactors, retinoids and isoprenoids",P5,0.3141725957393646,0.1916978657245636,-0.12247473001480103,268,59
+T cells,N1_methyl_2_pyridone_5_carboxamide,"Vitamins, cofactors, retinoids and isoprenoids",P6,0.4514285624027252,0.11010725796222687,-0.34132130444049835,571,123
+T cells,N1_methyl_2_pyridone_5_carboxamide,"Vitamins, cofactors, retinoids and isoprenoids",P7,0.20410066843032837,0.09783042222261429,-0.10627024620771408,238,25
+T cells,N1_methyl_4_pyridone_5_carboxamide,"Vitamins, cofactors, retinoids and isoprenoids",P1,0.31798410415649414,0.2911869287490845,-0.026797175407409668,263,639
+T cells,N1_methyl_4_pyridone_5_carboxamide,"Vitamins, cofactors, retinoids and isoprenoids",P2,0.30520716309547424,0.49860984086990356,0.19340267777442932,525,615
+T cells,N1_methyl_4_pyridone_5_carboxamide,"Vitamins, cofactors, retinoids and isoprenoids",P3,0.2235942929983139,0.18405118584632874,-0.03954310715198517,22,425
+T cells,N1_methyl_4_pyridone_5_carboxamide,"Vitamins, cofactors, retinoids and isoprenoids",P4,0.4074978828430176,0.1920359805226326,-0.21546190232038498,3801,428
+T cells,N1_methyl_4_pyridone_5_carboxamide,"Vitamins, cofactors, retinoids and isoprenoids",P5,0.3141725957393646,0.1916978657245636,-0.12247473001480103,268,59
+T cells,N1_methyl_4_pyridone_5_carboxamide,"Vitamins, cofactors, retinoids and isoprenoids",P6,0.4514285624027252,0.11010725796222687,-0.34132130444049835,571,123
+T cells,N1_methyl_4_pyridone_5_carboxamide,"Vitamins, cofactors, retinoids and isoprenoids",P7,0.20410066843032837,0.09783042222261429,-0.10627024620771408,238,25
+CAF,methylimidazoleacetic_acid,Aromatic amino acids and biogenic amines,P1,0.29552409052848816,0.2681218385696411,-0.027402251958847046,181,565
+CAF,methylimidazoleacetic_acid,Aromatic amino acids and biogenic amines,P2,0.3583085834980011,0.6873412728309631,0.32903268933296204,386,283
+CAF,methylimidazoleacetic_acid,Aromatic amino acids and biogenic amines,P3,0.2960795760154724,0.1968969702720642,-0.0991826057434082,154,317
+CAF,methylimidazoleacetic_acid,Aromatic amino acids and biogenic amines,P4,0.9394991993904114,0.19838140904903412,-0.7411177903413773,2728,298
+CAF,methylimidazoleacetic_acid,Aromatic amino acids and biogenic amines,P5,0.2923257350921631,0.24883535504341125,-0.04349038004875183,638,151
+CAF,methylimidazoleacetic_acid,Aromatic amino acids and biogenic amines,P6,0.22409599274396896,0.11909818649291992,-0.10499780625104904,316,66
+CAF,methylimidazoleacetic_acid,Aromatic amino acids and biogenic amines,P7,0.2875709980726242,0.17485567927360535,-0.11271531879901886,1424,205
+CAF,N_acetyl_D_mannosamine,"Glycosaminoglycans, glycosphingolipids and glycans",P1,0.31228768825531006,0.27796846628189087,-0.03431922197341919,181,565
+CAF,N_acetyl_D_mannosamine,"Glycosaminoglycans, glycosphingolipids and glycans",P2,0.41051241755485535,0.6059860587120056,0.19547364115715027,386,283
+CAF,N_acetyl_D_mannosamine,"Glycosaminoglycans, glycosphingolipids and glycans",P3,0.29576027393341064,0.23243778944015503,-0.06332248449325562,154,317
+CAF,N_acetyl_D_mannosamine,"Glycosaminoglycans, glycosphingolipids and glycans",P4,0.857550323009491,0.2121579349040985,-0.6453923881053925,2728,298
+CAF,N_acetyl_D_mannosamine,"Glycosaminoglycans, glycosphingolipids and glycans",P5,0.24797805398702621,0.22456230223178864,-0.02341575175523758,638,151
+CAF,N_acetyl_D_mannosamine,"Glycosaminoglycans, glycosphingolipids and glycans",P6,0.26285894215106964,0.13281114399433136,-0.13004779815673828,316,66
+CAF,N_acetyl_D_mannosamine,"Glycosaminoglycans, glycosphingolipids and glycans",P7,0.2880729138851166,0.15418477356433868,-0.1338881403207779,1424,205
+T cells,N_formylmethionyl_tRNA,"Nucleotides, nucleic acids and RNA modification",P1,0.31153297424316406,0.28783679008483887,-0.023696184158325195,263,639
+T cells,N_formylmethionyl_tRNA,"Nucleotides, nucleic acids and RNA modification",P2,0.31782475113868713,0.6536352038383484,0.33581045269966125,525,615
+T cells,N_formylmethionyl_tRNA,"Nucleotides, nucleic acids and RNA modification",P3,0.22265133261680603,0.1737266629934311,-0.04892466962337494,22,425
+T cells,N_formylmethionyl_tRNA,"Nucleotides, nucleic acids and RNA modification",P4,0.40136635303497314,0.1617930606007576,-0.23957329243421555,3801,428
+T cells,N_formylmethionyl_tRNA,"Nucleotides, nucleic acids and RNA modification",P5,0.3205869048833847,0.20033007860183716,-0.12025682628154755,268,59
+T cells,N_formylmethionyl_tRNA,"Nucleotides, nucleic acids and RNA modification",P6,0.4541371762752533,0.10232460498809814,-0.35181257128715515,571,123
+T cells,N_formylmethionyl_tRNA,"Nucleotides, nucleic acids and RNA modification",P7,0.19033479690551758,0.09723491221666336,-0.09309988468885422,238,25
+T cells,N_methylserotonin,Aromatic amino acids and biogenic amines,P1,0.34811684489250183,0.30754995346069336,-0.04056689143180847,263,639
+T cells,N_methylserotonin,Aromatic amino acids and biogenic amines,P2,0.31323274970054626,0.49960166215896606,0.1863689124584198,525,615
+T cells,N_methylserotonin,Aromatic amino acids and biogenic amines,P3,0.2289242073893547,0.18452337384223938,-0.044400833547115326,22,425
+T cells,N_methylserotonin,Aromatic amino acids and biogenic amines,P4,0.43560591340065,0.16013815999031067,-0.27546775341033936,3801,428
+T cells,N_methylserotonin,Aromatic amino acids and biogenic amines,P5,0.32765665650367737,0.17173433303833008,-0.1559223234653473,268,59
+T cells,N_methylserotonin,Aromatic amino acids and biogenic amines,P6,0.428013414144516,0.11672917008399963,-0.31128424406051636,571,123
+T cells,N_methylserotonin,Aromatic amino acids and biogenic amines,P7,0.2055312767624855,0.10029730200767517,-0.10523397475481033,238,25
+T cells,N_methyltryptamine,Aromatic amino acids and biogenic amines,P1,0.34811684489250183,0.30754995346069336,-0.04056689143180847,263,639
+T cells,N_methyltryptamine,Aromatic amino acids and biogenic amines,P2,0.31323274970054626,0.49960166215896606,0.1863689124584198,525,615
+T cells,N_methyltryptamine,Aromatic amino acids and biogenic amines,P3,0.2289242073893547,0.18452337384223938,-0.044400833547115326,22,425
+T cells,N_methyltryptamine,Aromatic amino acids and biogenic amines,P4,0.43560591340065,0.16013815999031067,-0.27546775341033936,3801,428
+T cells,N_methyltryptamine,Aromatic amino acids and biogenic amines,P5,0.32765665650367737,0.17173433303833008,-0.1559223234653473,268,59
+T cells,N_methyltryptamine,Aromatic amino acids and biogenic amines,P6,0.428013414144516,0.11672917008399963,-0.31128424406051636,571,123
+T cells,N_methyltryptamine,Aromatic amino acids and biogenic amines,P7,0.2055312767624855,0.10029730200767517,-0.10523397475481033,238,25
+T cells,norlaudanosoline,Aromatic amino acids and biogenic amines,P1,0.26024553179740906,0.24163399636745453,-0.01861153542995453,263,639
+T cells,norlaudanosoline,Aromatic amino acids and biogenic amines,P2,0.23724816739559174,0.4052511751651764,0.16800300776958466,525,615
+T cells,norlaudanosoline,Aromatic amino acids and biogenic amines,P3,0.18547949194908142,0.11195319890975952,-0.0735262930393219,22,425
+T cells,norlaudanosoline,Aromatic amino acids and biogenic amines,P4,0.341706246137619,0.09062011167407036,-0.25108613446354866,3801,428
+T cells,norlaudanosoline,Aromatic amino acids and biogenic amines,P5,0.2439328283071518,0.12599578499794006,-0.11793704330921173,268,59
+T cells,norlaudanosoline,Aromatic amino acids and biogenic amines,P6,0.3233207166194916,0.08705593645572662,-0.23626478016376495,571,123
+T cells,norlaudanosoline,Aromatic amino acids and biogenic amines,P7,0.15512509644031525,0.05287943780422211,-0.10224565863609314,238,25
+T cells,orotate,"Nucleotides, nucleic acids and RNA modification",P1,0.31070515513420105,0.2676324248313904,-0.04307273030281067,263,639
+T cells,orotate,"Nucleotides, nucleic acids and RNA modification",P2,0.31850603222846985,0.61665940284729,0.2981533706188202,525,615
+T cells,orotate,"Nucleotides, nucleic acids and RNA modification",P3,0.2239435315132141,0.18171602487564087,-0.04222750663757324,22,425
+T cells,orotate,"Nucleotides, nucleic acids and RNA modification",P4,0.38708925247192383,0.1870095133781433,-0.20007973909378052,3801,428
+T cells,orotate,"Nucleotides, nucleic acids and RNA modification",P5,0.3312715142965317,0.18107189238071442,-0.15019962191581726,268,59
+T cells,orotate,"Nucleotides, nucleic acids and RNA modification",P6,0.4187983572483063,0.0975160151720047,-0.3212823420763016,571,123
+T cells,orotate,"Nucleotides, nucleic acids and RNA modification",P7,0.1974344179034233,0.08837369084358215,-0.10906072705984116,238,25
+CAF,peptidylamidoglycolate,"Peptides, proteins and post-translational intermediates",P1,0.4347588121891022,0.5720039010047913,0.1372450888156891,181,565
+CAF,peptidylamidoglycolate,"Peptides, proteins and post-translational intermediates",P2,0.4729578197002411,0.44726574420928955,-0.025692075490951538,386,283
+CAF,peptidylamidoglycolate,"Peptides, proteins and post-translational intermediates",P3,0.450163871049881,0.3623106777667999,-0.08785319328308105,154,317
+CAF,peptidylamidoglycolate,"Peptides, proteins and post-translational intermediates",P4,0.8989929556846619,0.22812754660844803,-0.6708654090762138,2728,298
+CAF,peptidylamidoglycolate,"Peptides, proteins and post-translational intermediates",P5,0.47649791836738586,0.4934985637664795,0.017000645399093628,638,151
+CAF,peptidylamidoglycolate,"Peptides, proteins and post-translational intermediates",P6,0.3089350312948227,0.21741820126771927,-0.09151683002710342,316,66
+CAF,peptidylamidoglycolate,"Peptides, proteins and post-translational intermediates",P7,0.48432599008083344,0.24690766632556915,-0.23741832375526428,1424,205
+CAF,peptidylglycine,"Peptides, proteins and post-translational intermediates",P1,0.4347588121891022,0.5720039010047913,0.1372450888156891,181,565
+CAF,peptidylglycine,"Peptides, proteins and post-translational intermediates",P2,0.4729578197002411,0.44726574420928955,-0.025692075490951538,386,283
+CAF,peptidylglycine,"Peptides, proteins and post-translational intermediates",P3,0.450163871049881,0.3623106777667999,-0.08785319328308105,154,317
+CAF,peptidylglycine,"Peptides, proteins and post-translational intermediates",P4,0.8989929556846619,0.22812754660844803,-0.6708654090762138,2728,298
+CAF,peptidylglycine,"Peptides, proteins and post-translational intermediates",P5,0.47649791836738586,0.4934985637664795,0.017000645399093628,638,151
+CAF,peptidylglycine,"Peptides, proteins and post-translational intermediates",P6,0.3089350312948227,0.21741820126771927,-0.09151683002710342,316,66
+CAF,peptidylglycine,"Peptides, proteins and post-translational intermediates",P7,0.48432599008083344,0.24690766632556915,-0.23741832375526428,1424,205
+CAF,phenylacetate,Aromatic amino acids and biogenic amines,P1,0.3404098153114319,0.3158152401447296,-0.02459457516670227,181,565
+CAF,phenylacetate,Aromatic amino acids and biogenic amines,P2,0.38541746139526367,0.6988567113876343,0.3134392499923706,386,283
+CAF,phenylacetate,Aromatic amino acids and biogenic amines,P3,0.31297533214092255,0.22927027940750122,-0.08370505273342133,154,317
+CAF,phenylacetate,Aromatic amino acids and biogenic amines,P4,1.0676878690719604,0.22652942687273026,-0.8411584421992302,2728,298
+CAF,phenylacetate,Aromatic amino acids and biogenic amines,P5,0.30963581800460815,0.26536980271339417,-0.04426601529121399,638,151
+CAF,phenylacetate,Aromatic amino acids and biogenic amines,P6,0.24245856702327728,0.12060310691595078,-0.12185546010732651,316,66
+CAF,phenylacetate,Aromatic amino acids and biogenic amines,P7,0.3218299299478531,0.19011922180652618,-0.1317107081413269,1424,205
+Epithelial,polynucleotide,"Nucleotides, nucleic acids and RNA modification",P1,0.7863894999027252,1.5071929693222046,0.7208034694194794,5598,2015
+Epithelial,polynucleotide,"Nucleotides, nucleic acids and RNA modification",P2,0.7666491866111755,1.1406689882278442,0.3740198016166687,540,2955
+Epithelial,polynucleotide,"Nucleotides, nucleic acids and RNA modification",P3,0.49042004346847534,0.878896176815033,0.3884761333465576,74,899
+Epithelial,polynucleotide,"Nucleotides, nucleic acids and RNA modification",P4,1.2184075117111206,0.28324243426322937,-0.9351650774478912,5644,1089
+Epithelial,polynucleotide,"Nucleotides, nucleic acids and RNA modification",P5,0.8825821876525879,1.108721673488617,0.22613948583602905,5255,2890
+Epithelial,polynucleotide,"Nucleotides, nucleic acids and RNA modification",P6,0.6244856715202332,0.19051042944192886,-0.4339752420783043,4896,10
+Epithelial,polynucleotide,"Nucleotides, nucleic acids and RNA modification",P7,1.024698257446289,0.17588594555854797,-0.8488123118877411,2731,35
+CAF,ribitol,Carbohydrates and central carbon metabolites,P1,0.28995782136917114,0.2650805115699768,-0.024877309799194336,181,565
+CAF,ribitol,Carbohydrates and central carbon metabolites,P2,0.3568250387907028,0.6857333779335022,0.3289083391427994,386,283
+CAF,ribitol,Carbohydrates and central carbon metabolites,P3,0.2950754016637802,0.1941400021314621,-0.10093539953231812,154,317
+CAF,ribitol,Carbohydrates and central carbon metabolites,P4,0.9331128001213074,0.19713770598173141,-0.735975094139576,2728,298
+CAF,ribitol,Carbohydrates and central carbon metabolites,P5,0.2910866439342499,0.24577564001083374,-0.04531100392341614,638,151
+CAF,ribitol,Carbohydrates and central carbon metabolites,P6,0.22213449329137802,0.11853134632110596,-0.10360314697027206,316,66
+CAF,ribitol,Carbohydrates and central carbon metabolites,P7,0.28478313982486725,0.17360201478004456,-0.11118112504482269,1424,205
+CAF,ribose,Carbohydrates and central carbon metabolites,P1,0.305522620677948,0.2867049276828766,-0.01881769299507141,181,565
+CAF,ribose,Carbohydrates and central carbon metabolites,P2,0.36048734188079834,0.6667651534080505,0.3062778115272522,386,283
+CAF,ribose,Carbohydrates and central carbon metabolites,P3,0.2881713807582855,0.21081115305423737,-0.07736022770404816,154,317
+CAF,ribose,Carbohydrates and central carbon metabolites,P4,0.9886770248413086,0.2055041342973709,-0.7831728905439377,2728,298
+CAF,ribose,Carbohydrates and central carbon metabolites,P5,0.28638896346092224,0.24679571390151978,-0.039593249559402466,638,151
+CAF,ribose,Carbohydrates and central carbon metabolites,P6,0.2250816449522972,0.11484049260616302,-0.11024115234613419,316,66
+CAF,ribose,Carbohydrates and central carbon metabolites,P7,0.29614996910095215,0.173030287027359,-0.12311968207359314,1424,205
+Epithelial,S_acetyldihydrolipoamide,Carbohydrates and central carbon metabolites,P1,0.8504059016704559,1.2315278053283691,0.3811219036579132,5598,2015
+Epithelial,S_acetyldihydrolipoamide,Carbohydrates and central carbon metabolites,P2,1.0318767428398132,1.4950565099716187,0.4631797671318054,540,2955
+Epithelial,S_acetyldihydrolipoamide,Carbohydrates and central carbon metabolites,P3,0.6197518706321716,1.0110576152801514,0.39130574464797974,74,899
+Epithelial,S_acetyldihydrolipoamide,Carbohydrates and central carbon metabolites,P4,1.3728466629981995,0.4751332700252533,-0.8977133929729462,5644,1089
+Epithelial,S_acetyldihydrolipoamide,Carbohydrates and central carbon metabolites,P5,1.3709042072296143,1.3531337976455688,-0.01777040958404541,5255,2890
+Epithelial,S_acetyldihydrolipoamide,Carbohydrates and central carbon metabolites,P6,1.0140467882156372,0.26001328229904175,-0.7540335059165955,4896,10
+Epithelial,S_acetyldihydrolipoamide,Carbohydrates and central carbon metabolites,P7,0.996301531791687,0.3308671712875366,-0.6654343605041504,2731,35
+T cells,S_farnesyl_protein,"Peptides, proteins and post-translational intermediates",P1,0.3289652168750763,0.2993658781051636,-0.02959933876991272,263,639
+T cells,S_farnesyl_protein,"Peptides, proteins and post-translational intermediates",P2,0.3046809434890747,0.4885125160217285,0.1838315725326538,525,615
+T cells,S_farnesyl_protein,"Peptides, proteins and post-translational intermediates",P3,0.2164229080080986,0.17345114052295685,-0.042971767485141754,22,425
+T cells,S_farnesyl_protein,"Peptides, proteins and post-translational intermediates",P4,0.4044264853000641,0.1631562039256096,-0.2412702813744545,3801,428
+T cells,S_farnesyl_protein,"Peptides, proteins and post-translational intermediates",P5,0.3101119101047516,0.1826278418302536,-0.12748406827449799,268,59
+T cells,S_farnesyl_protein,"Peptides, proteins and post-translational intermediates",P6,0.3649386167526245,0.08273454755544662,-0.2822040691971779,571,123
+T cells,S_farnesyl_protein,"Peptides, proteins and post-translational intermediates",P7,0.2059294581413269,0.10427849739789963,-0.10165096074342728,238,25
+CAF,selenocystathionine,"Other amino acids, sulfur and one-carbon metabolism",P1,0.4703327715396881,0.3011338412761688,-0.1691989302635193,181,565
+CAF,selenocystathionine,"Other amino acids, sulfur and one-carbon metabolism",P2,0.40229809284210205,1.0675805807113647,0.6652824878692627,386,283
+CAF,selenocystathionine,"Other amino acids, sulfur and one-carbon metabolism",P3,0.3368944674730301,0.23219603300094604,-0.10469843447208405,154,317
+CAF,selenocystathionine,"Other amino acids, sulfur and one-carbon metabolism",P4,0.890110969543457,0.27835366129875183,-0.6117573082447052,2728,298
+CAF,selenocystathionine,"Other amino acids, sulfur and one-carbon metabolism",P5,0.2764882743358612,0.23099133372306824,-0.04549694061279297,638,151
+CAF,selenocystathionine,"Other amino acids, sulfur and one-carbon metabolism",P6,0.34085068106651306,0.14068665355443954,-0.20016402751207352,316,66
+CAF,selenocystathionine,"Other amino acids, sulfur and one-carbon metabolism",P7,0.324262410402298,0.27079373598098755,-0.053468674421310425,1424,205
+T cells,thiamin_P,"Vitamins, cofactors, retinoids and isoprenoids",P1,0.39109134674072266,0.27233052253723145,-0.11876082420349121,263,639
+T cells,thiamin_P,"Vitamins, cofactors, retinoids and isoprenoids",P2,0.325341135263443,0.7752318978309631,0.44989076256752014,525,615
+T cells,thiamin_P,"Vitamins, cofactors, retinoids and isoprenoids",P3,0.2144007757306099,0.17750193178653717,-0.03689884394407272,22,425
+T cells,thiamin_P,"Vitamins, cofactors, retinoids and isoprenoids",P4,0.38157767057418823,0.19359932839870453,-0.1879783421754837,3801,428
+T cells,thiamin_P,"Vitamins, cofactors, retinoids and isoprenoids",P5,0.318323478102684,0.18205173313617706,-0.13627174496650696,268,59
+T cells,thiamin_P,"Vitamins, cofactors, retinoids and isoprenoids",P6,0.5717040300369263,0.08668238669633865,-0.4850216433405876,571,123
+T cells,thiamin_P,"Vitamins, cofactors, retinoids and isoprenoids",P7,0.20043955743312836,0.08498911559581757,-0.11545044183731079,238,25
+T cells,thiopurine,"Xenobiotics, pharmaceuticals and environmental chemicals",P1,0.3422446548938751,0.29704976081848145,-0.04519489407539368,263,639
+T cells,thiopurine,"Xenobiotics, pharmaceuticals and environmental chemicals",P2,0.3222392797470093,0.5406022667884827,0.2183629870414734,525,615
+T cells,thiopurine,"Xenobiotics, pharmaceuticals and environmental chemicals",P3,0.2388259619474411,0.18475235998630524,-0.054073601961135864,22,425
+T cells,thiopurine,"Xenobiotics, pharmaceuticals and environmental chemicals",P4,0.42091989517211914,0.1631339266896248,-0.25778596848249435,3801,428
+T cells,thiopurine,"Xenobiotics, pharmaceuticals and environmental chemicals",P5,0.3291068524122238,0.18390537798404694,-0.14520147442817688,268,59
+T cells,thiopurine,"Xenobiotics, pharmaceuticals and environmental chemicals",P6,0.43770861625671387,0.11291439831256866,-0.3247942179441452,571,123
+T cells,thiopurine,"Xenobiotics, pharmaceuticals and environmental chemicals",P7,0.20546211302280426,0.10960382968187332,-0.09585828334093094,238,25
+CAF,tetrahydropteroyltri_L_glutamate,"Vitamins, cofactors, retinoids and isoprenoids",P1,0.5854971408843994,0.6499568223953247,0.06445968151092529,181,565
+CAF,tetrahydropteroyltri_L_glutamate,"Vitamins, cofactors, retinoids and isoprenoids",P2,0.9223002195358276,1.7829557657241821,0.8606555461883545,386,283
+CAF,tetrahydropteroyltri_L_glutamate,"Vitamins, cofactors, retinoids and isoprenoids",P3,0.672940194606781,0.5467755198478699,-0.12616467475891113,154,317
+CAF,tetrahydropteroyltri_L_glutamate,"Vitamins, cofactors, retinoids and isoprenoids",P4,1.522803544998169,0.5948879718780518,-0.9279155731201172,2728,298
+CAF,tetrahydropteroyltri_L_glutamate,"Vitamins, cofactors, retinoids and isoprenoids",P5,0.80254265666008,0.7292156219482422,-0.07332703471183777,638,151
+CAF,tetrahydropteroyltri_L_glutamate,"Vitamins, cofactors, retinoids and isoprenoids",P6,0.5059471130371094,0.25585298240184784,-0.25009413063526154,316,66
+CAF,tetrahydropteroyltri_L_glutamate,"Vitamins, cofactors, retinoids and isoprenoids",P7,0.8501584231853485,0.5701872706413269,-0.2799711525440216,1424,205
+Endothelial,triphosphate,Other or ambiguous small molecules,P1,0.28471651673316956,0.3116616904735565,0.026945173740386963,179,866
+Endothelial,triphosphate,Other or ambiguous small molecules,P2,0.3440309017896652,0.5382848680019379,0.19425396621227264,436,74
+Endothelial,triphosphate,Other or ambiguous small molecules,P3,0.30123716592788696,0.2527486979961395,-0.048488467931747437,75,285
+Endothelial,triphosphate,Other or ambiguous small molecules,P4,0.3101870119571686,0.2105075791478157,-0.09967943280935287,399,16
+Endothelial,triphosphate,Other or ambiguous small molecules,P5,0.3622834384441376,0.29947158694267273,-0.06281185150146484,281,175
+Endothelial,triphosphate,Other or ambiguous small molecules,P6,0.34872399270534515,0.1523316502571106,-0.19639234244823456,152,37
+Endothelial,triphosphate,Other or ambiguous small molecules,P7,0.28538867831230164,0.1856786161661148,-0.09971006214618683,621,237
+Epithelial,tRNA_containing_6_isopentenyladenosine,"Nucleotides, nucleic acids and RNA modification",P1,1.127060055732727,1.4169541597366333,0.28989410400390625,5598,2015
+Epithelial,tRNA_containing_6_isopentenyladenosine,"Nucleotides, nucleic acids and RNA modification",P2,1.178609013557434,1.7564157247543335,0.5778067111968994,540,2955
+Epithelial,tRNA_containing_6_isopentenyladenosine,"Nucleotides, nucleic acids and RNA modification",P3,0.5766454637050629,0.7586377263069153,0.18199226260185242,74,899
+Epithelial,tRNA_containing_6_isopentenyladenosine,"Nucleotides, nucleic acids and RNA modification",P4,0.9988124966621399,0.5829628109931946,-0.4158496856689453,5644,1089
+Epithelial,tRNA_containing_6_isopentenyladenosine,"Nucleotides, nucleic acids and RNA modification",P5,1.1875413656234741,1.3048820495605469,0.11734068393707275,5255,2890
+Epithelial,tRNA_containing_6_isopentenyladenosine,"Nucleotides, nucleic acids and RNA modification",P6,1.1882240176200867,0.23262127488851547,-0.9556027427315712,4896,10
+Epithelial,tRNA_containing_6_isopentenyladenosine,"Nucleotides, nucleic acids and RNA modification",P7,1.0257588624954224,0.3469436764717102,-0.6788151860237122,2731,35
+T cells,umbelliferone,"Xenobiotics, pharmaceuticals and environmental chemicals",P1,0.32455629110336304,0.3041365146636963,-0.020419776439666748,263,639
+T cells,umbelliferone,"Xenobiotics, pharmaceuticals and environmental chemicals",P2,0.30777642130851746,0.4829731285572052,0.17519670724868774,525,615
+T cells,umbelliferone,"Xenobiotics, pharmaceuticals and environmental chemicals",P3,0.23569536209106445,0.1878909468650818,-0.047804415225982666,22,425
+T cells,umbelliferone,"Xenobiotics, pharmaceuticals and environmental chemicals",P4,0.4405234158039093,0.18675684928894043,-0.25376656651496887,3801,428
+T cells,umbelliferone,"Xenobiotics, pharmaceuticals and environmental chemicals",P5,0.2970411032438278,0.18792621791362762,-0.1091148853302002,268,59
+T cells,umbelliferone,"Xenobiotics, pharmaceuticals and environmental chemicals",P6,0.402352511882782,0.11040764302015305,-0.29194486886262894,571,123
+T cells,umbelliferone,"Xenobiotics, pharmaceuticals and environmental chemicals",P7,0.20514484494924545,0.09465934336185455,-0.1104855015873909,238,25
+T cells,urate_radical,"Nucleotides, nucleic acids and RNA modification",P1,0.2985617220401764,0.2817550599575043,-0.01680666208267212,263,639
+T cells,urate_radical,"Nucleotides, nucleic acids and RNA modification",P2,0.3051844835281372,0.5386280417442322,0.23344355821609497,525,615
+T cells,urate_radical,"Nucleotides, nucleic acids and RNA modification",P3,0.2164669781923294,0.17785026133060455,-0.038616716861724854,22,425
+T cells,urate_radical,"Nucleotides, nucleic acids and RNA modification",P4,0.4002094268798828,0.1622590720653534,-0.23795035481452942,3801,428
+T cells,urate_radical,"Nucleotides, nucleic acids and RNA modification",P5,0.3169494867324829,0.19700051844120026,-0.11994896829128265,268,59
+T cells,urate_radical,"Nucleotides, nucleic acids and RNA modification",P6,0.3914797604084015,0.10345306247472763,-0.28802669793367386,571,123
+T cells,urate_radical,"Nucleotides, nucleic acids and RNA modification",P7,0.20060031116008759,0.10508433729410172,-0.09551597386598587,238,25
+CAF,tRNA_containing_6_isopentenyladenosine,"Nucleotides, nucleic acids and RNA modification",P1,0.44156473875045776,0.32637277245521545,-0.11519196629524231,181,565
+CAF,tRNA_containing_6_isopentenyladenosine,"Nucleotides, nucleic acids and RNA modification",P2,0.5126179158687592,1.5855638980865479,1.0729459822177887,386,283
+CAF,tRNA_containing_6_isopentenyladenosine,"Nucleotides, nucleic acids and RNA modification",P3,0.36405228078365326,0.2679848372936249,-0.09606744349002838,154,317
+CAF,tRNA_containing_6_isopentenyladenosine,"Nucleotides, nucleic acids and RNA modification",P4,1.0991657972335815,0.47817277908325195,-0.6209930181503296,2728,298
+CAF,tRNA_containing_6_isopentenyladenosine,"Nucleotides, nucleic acids and RNA modification",P5,0.428665891289711,0.3654020428657532,-0.06326384842395782,638,151
+CAF,tRNA_containing_6_isopentenyladenosine,"Nucleotides, nucleic acids and RNA modification",P6,0.3712305575609207,0.14928673207759857,-0.22194382548332214,316,66
+CAF,tRNA_containing_6_isopentenyladenosine,"Nucleotides, nucleic acids and RNA modification",P7,0.43058136105537415,0.32495614886283875,-0.1056252121925354,1424,205
+T cells,uroporphyrinogen_I,Porphyrins and tetrapyrroles,P1,0.3164944648742676,0.23946382105350494,-0.07703064382076263,263,639
+T cells,uroporphyrinogen_I,Porphyrins and tetrapyrroles,P2,0.2642557621002197,0.4657418727874756,0.20148611068725586,525,615
+T cells,uroporphyrinogen_I,Porphyrins and tetrapyrroles,P3,0.17230327427387238,0.1484486162662506,-0.023854658007621765,22,425
+T cells,uroporphyrinogen_I,Porphyrins and tetrapyrroles,P4,0.31254568696022034,0.11914514750242233,-0.193400539457798,3801,428
+T cells,uroporphyrinogen_I,Porphyrins and tetrapyrroles,P5,0.26961803436279297,0.14454665780067444,-0.12507137656211853,268,59
+T cells,uroporphyrinogen_I,Porphyrins and tetrapyrroles,P6,0.28249678015708923,0.08868037909269333,-0.1938164010643959,571,123
+T cells,uroporphyrinogen_I,Porphyrins and tetrapyrroles,P7,0.17613481730222702,0.07316190749406815,-0.10297290980815887,238,25
+T cells,VI3NeuAc_nLc6Cer,"Glycosaminoglycans, glycosphingolipids and glycans",P1,0.28160813450813293,0.35179463028907776,0.07018649578094482,263,639
+T cells,VI3NeuAc_nLc6Cer,"Glycosaminoglycans, glycosphingolipids and glycans",P2,0.27060219645500183,0.3608231246471405,0.09022092819213867,525,615
+T cells,VI3NeuAc_nLc6Cer,"Glycosaminoglycans, glycosphingolipids and glycans",P3,0.22319776564836502,0.1775503009557724,-0.04564746469259262,22,425
+T cells,VI3NeuAc_nLc6Cer,"Glycosaminoglycans, glycosphingolipids and glycans",P4,0.3368624150753021,0.11034854128956795,-0.22651387378573418,3801,428
+T cells,VI3NeuAc_nLc6Cer,"Glycosaminoglycans, glycosphingolipids and glycans",P5,0.3934260457754135,0.2635706067085266,-0.1298554390668869,268,59
+T cells,VI3NeuAc_nLc6Cer,"Glycosaminoglycans, glycosphingolipids and glycans",P6,0.28452953696250916,0.09555549919605255,-0.1889740377664566,571,123
+T cells,VI3NeuAc_nLc6Cer,"Glycosaminoglycans, glycosphingolipids and glycans",P7,0.2216316983103752,0.13075312972068787,-0.09087856858968735,238,25
+CAF,XTP,"Nucleotides, nucleic acids and RNA modification",P1,0.49075618386268616,0.4076518416404724,-0.08310434222221375,181,565
+CAF,XTP,"Nucleotides, nucleic acids and RNA modification",P2,0.6586038768291473,0.8600071668624878,0.20140329003334045,386,283
+CAF,XTP,"Nucleotides, nucleic acids and RNA modification",P3,0.47069819271564484,0.39018145203590393,-0.0805167406797409,154,317
+CAF,XTP,"Nucleotides, nucleic acids and RNA modification",P4,1.92551589012146,0.8800910115242004,-1.0454248785972595,2728,298
+CAF,XTP,"Nucleotides, nucleic acids and RNA modification",P5,0.47924841940402985,0.3984874486923218,-0.08076097071170807,638,151
+CAF,XTP,"Nucleotides, nucleic acids and RNA modification",P6,0.410362645983696,0.22316104173660278,-0.1872016042470932,316,66
+CAF,XTP,"Nucleotides, nucleic acids and RNA modification",P7,0.49423401057720184,0.3136565387248993,-0.18057747185230255,1424,205
+T cells,Diazepam,"Xenobiotics, pharmaceuticals and environmental chemicals",P1,0.313474178314209,0.28868168592453003,-0.024792492389678955,263,639
+T cells,Diazepam,"Xenobiotics, pharmaceuticals and environmental chemicals",P2,0.28678783774375916,0.46904894709587097,0.18226110935211182,525,615
+T cells,Diazepam,"Xenobiotics, pharmaceuticals and environmental chemicals",P3,0.21787714213132858,0.1718779057264328,-0.04599923640489578,22,425
+T cells,Diazepam,"Xenobiotics, pharmaceuticals and environmental chemicals",P4,0.4163314998149872,0.16955012828111649,-0.2467813715338707,3801,428
+T cells,Diazepam,"Xenobiotics, pharmaceuticals and environmental chemicals",P5,0.2870809733867645,0.17121049761772156,-0.11587047576904297,268,59
+T cells,Diazepam,"Xenobiotics, pharmaceuticals and environmental chemicals",P6,0.39274880290031433,0.10224048793315887,-0.29050831496715546,571,123
+T cells,Diazepam,"Xenobiotics, pharmaceuticals and environmental chemicals",P7,0.19163426011800766,0.08788230270147324,-0.10375195741653442,238,25
+T cells,Nordazepam,"Xenobiotics, pharmaceuticals and environmental chemicals",P1,0.313474178314209,0.28868168592453003,-0.024792492389678955,263,639
+T cells,Nordazepam,"Xenobiotics, pharmaceuticals and environmental chemicals",P2,0.28678783774375916,0.46904894709587097,0.18226110935211182,525,615
+T cells,Nordazepam,"Xenobiotics, pharmaceuticals and environmental chemicals",P3,0.21787714213132858,0.1718779057264328,-0.04599923640489578,22,425
+T cells,Nordazepam,"Xenobiotics, pharmaceuticals and environmental chemicals",P4,0.4163314998149872,0.16955012828111649,-0.2467813715338707,3801,428
+T cells,Nordazepam,"Xenobiotics, pharmaceuticals and environmental chemicals",P5,0.2870809733867645,0.17121049761772156,-0.11587047576904297,268,59
+T cells,Nordazepam,"Xenobiotics, pharmaceuticals and environmental chemicals",P6,0.39274880290031433,0.10224048793315887,-0.29050831496715546,571,123
+T cells,Nordazepam,"Xenobiotics, pharmaceuticals and environmental chemicals",P7,0.19163426011800766,0.08788230270147324,-0.10375195741653442,238,25
+T cells,Methylcobalamin,"Vitamins, cofactors, retinoids and isoprenoids",P1,0.32362404465675354,0.2610277533531189,-0.06259629130363464,263,639
+T cells,Methylcobalamin,"Vitamins, cofactors, retinoids and isoprenoids",P2,0.2812768816947937,0.535605788230896,0.2543289065361023,525,615
+T cells,Methylcobalamin,"Vitamins, cofactors, retinoids and isoprenoids",P3,0.2025473415851593,0.14925824105739594,-0.05328910052776337,22,425
+T cells,Methylcobalamin,"Vitamins, cofactors, retinoids and isoprenoids",P4,0.3732761740684509,0.1498313993215561,-0.22344477474689484,3801,428
+T cells,Methylcobalamin,"Vitamins, cofactors, retinoids and isoprenoids",P5,0.2985300272703171,0.14955440163612366,-0.14897562563419342,268,59
+T cells,Methylcobalamin,"Vitamins, cofactors, retinoids and isoprenoids",P6,0.47564566135406494,0.09154922515153885,-0.3840964362025261,571,123
+T cells,Methylcobalamin,"Vitamins, cofactors, retinoids and isoprenoids",P7,0.17440080642700195,0.07530901581048965,-0.0990917906165123,238,25
+T cells,One_Carbon_Unit,"Other amino acids, sulfur and one-carbon metabolism",P1,0.2808859050273895,0.24782434105873108,-0.03306156396865845,263,639
+T cells,One_Carbon_Unit,"Other amino acids, sulfur and one-carbon metabolism",P2,0.276944100856781,0.498240202665329,0.22129610180854797,525,615
+T cells,One_Carbon_Unit,"Other amino acids, sulfur and one-carbon metabolism",P3,0.19696125388145447,0.15522263944149017,-0.041738614439964294,22,425
+T cells,One_Carbon_Unit,"Other amino acids, sulfur and one-carbon metabolism",P4,0.3934159576892853,0.15074099600315094,-0.24267496168613434,3801,428
+T cells,One_Carbon_Unit,"Other amino acids, sulfur and one-carbon metabolism",P5,0.27691853046417236,0.15096928179264069,-0.12594924867153168,268,59
+T cells,One_Carbon_Unit,"Other amino acids, sulfur and one-carbon metabolism",P6,0.4583691954612732,0.08431034535169601,-0.3740588501095772,571,123
+T cells,One_Carbon_Unit,"Other amino acids, sulfur and one-carbon metabolism",P7,0.17539966106414795,0.07909795641899109,-0.09630170464515686,238,25
+Epithelial,1_Myristoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P1,0.3226821720600128,0.5849582552909851,0.2622760832309723,5598,2015
+Epithelial,1_Myristoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P2,0.4413394182920456,0.570452094078064,0.12911267578601837,540,2955
+Epithelial,1_Myristoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P3,0.27098697423934937,0.6938814520835876,0.4228944778442383,74,899
+Epithelial,1_Myristoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P4,0.7578824162483215,0.2121117115020752,-0.5457707047462463,5644,1089
+Epithelial,1_Myristoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P5,0.6692584753036499,0.7545275092124939,0.085269033908844,5255,2890
+Epithelial,1_Myristoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P6,0.41300448775291443,0.26190920919179916,-0.15109527856111526,4896,10
+Epithelial,1_Myristoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P7,0.3457905054092407,0.15959642827510834,-0.18619407713413239,2731,35
+Epithelial,1_Oleoylglycerophosphocholine_Delta_9,Glycerophospholipids and lysophospholipids,P1,0.3226821720600128,0.5849582552909851,0.2622760832309723,5598,2015
+Epithelial,1_Oleoylglycerophosphocholine_Delta_9,Glycerophospholipids and lysophospholipids,P2,0.4413394182920456,0.570452094078064,0.12911267578601837,540,2955
+Epithelial,1_Oleoylglycerophosphocholine_Delta_9,Glycerophospholipids and lysophospholipids,P3,0.27098697423934937,0.6938814520835876,0.4228944778442383,74,899
+Epithelial,1_Oleoylglycerophosphocholine_Delta_9,Glycerophospholipids and lysophospholipids,P4,0.7578824162483215,0.2121117115020752,-0.5457707047462463,5644,1089
+Epithelial,1_Oleoylglycerophosphocholine_Delta_9,Glycerophospholipids and lysophospholipids,P5,0.6692584753036499,0.7545275092124939,0.085269033908844,5255,2890
+Epithelial,1_Oleoylglycerophosphocholine_Delta_9,Glycerophospholipids and lysophospholipids,P6,0.41300448775291443,0.26190920919179916,-0.15109527856111526,4896,10
+Epithelial,1_Oleoylglycerophosphocholine_Delta_9,Glycerophospholipids and lysophospholipids,P7,0.3457905054092407,0.15959642827510834,-0.18619407713413239,2731,35
+Epithelial,1_Palmitoleoylglycerophosphocholine_Delta_9,Glycerophospholipids and lysophospholipids,P1,0.3226821720600128,0.5849582552909851,0.2622760832309723,5598,2015
+Epithelial,1_Palmitoleoylglycerophosphocholine_Delta_9,Glycerophospholipids and lysophospholipids,P2,0.4413394182920456,0.570452094078064,0.12911267578601837,540,2955
+Epithelial,1_Palmitoleoylglycerophosphocholine_Delta_9,Glycerophospholipids and lysophospholipids,P3,0.27098697423934937,0.6938814520835876,0.4228944778442383,74,899
+Epithelial,1_Palmitoleoylglycerophosphocholine_Delta_9,Glycerophospholipids and lysophospholipids,P4,0.7578824162483215,0.2121117115020752,-0.5457707047462463,5644,1089
+Epithelial,1_Palmitoleoylglycerophosphocholine_Delta_9,Glycerophospholipids and lysophospholipids,P5,0.6692584753036499,0.7545275092124939,0.085269033908844,5255,2890
+Epithelial,1_Palmitoleoylglycerophosphocholine_Delta_9,Glycerophospholipids and lysophospholipids,P6,0.41300448775291443,0.26190920919179916,-0.15109527856111526,4896,10
+Epithelial,1_Palmitoleoylglycerophosphocholine_Delta_9,Glycerophospholipids and lysophospholipids,P7,0.3457905054092407,0.15959642827510834,-0.18619407713413239,2731,35
+Epithelial,1_Palmitoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P1,0.3226821720600128,0.5849582552909851,0.2622760832309723,5598,2015
+Epithelial,1_Palmitoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P2,0.4413394182920456,0.570452094078064,0.12911267578601837,540,2955
+Epithelial,1_Palmitoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P3,0.27098697423934937,0.6938814520835876,0.4228944778442383,74,899
+Epithelial,1_Palmitoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P4,0.7578824162483215,0.2121117115020752,-0.5457707047462463,5644,1089
+Epithelial,1_Palmitoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P5,0.6692584753036499,0.7545275092124939,0.085269033908844,5255,2890
+Epithelial,1_Palmitoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P6,0.41300448775291443,0.26190920919179916,-0.15109527856111526,4896,10
+Epithelial,1_Palmitoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P7,0.3457905054092407,0.15959642827510834,-0.18619407713413239,2731,35
+Epithelial,1_Stearoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P1,0.3226821720600128,0.5849582552909851,0.2622760832309723,5598,2015
+Epithelial,1_Stearoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P2,0.4413394182920456,0.570452094078064,0.12911267578601837,540,2955
+Epithelial,1_Stearoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P3,0.27098697423934937,0.6938814520835876,0.4228944778442383,74,899
+Epithelial,1_Stearoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P4,0.7578824162483215,0.2121117115020752,-0.5457707047462463,5644,1089
+Epithelial,1_Stearoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P5,0.6692584753036499,0.7545275092124939,0.085269033908844,5255,2890
+Epithelial,1_Stearoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P6,0.41300448775291443,0.26190920919179916,-0.15109527856111526,4896,10
+Epithelial,1_Stearoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P7,0.3457905054092407,0.15959642827510834,-0.18619407713413239,2731,35
+T cells,Glycylproline,"Peptides, proteins and post-translational intermediates",P1,0.3295223116874695,0.2625061571598053,-0.06701615452766418,263,639
+T cells,Glycylproline,"Peptides, proteins and post-translational intermediates",P2,0.2699907720088959,0.38386476039886475,0.11387398838996887,525,615
+T cells,Glycylproline,"Peptides, proteins and post-translational intermediates",P3,0.19796022027730942,0.14356547594070435,-0.05439474433660507,22,425
+T cells,Glycylproline,"Peptides, proteins and post-translational intermediates",P4,0.36308935284614563,0.10762244462966919,-0.25546690821647644,3801,428
+T cells,Glycylproline,"Peptides, proteins and post-translational intermediates",P5,0.25008466094732285,0.14921241998672485,-0.10087224096059799,268,59
+T cells,Glycylproline,"Peptides, proteins and post-translational intermediates",P6,0.27330565452575684,0.10094241052865982,-0.17236324399709702,571,123
+T cells,Glycylproline,"Peptides, proteins and post-translational intermediates",P7,0.17249524593353271,0.07349859923124313,-0.09899664670228958,238,25
+T cells,L_Prolinylglycine,"Peptides, proteins and post-translational intermediates",P1,0.33658698201179504,0.283274382352829,-0.053312599658966064,263,639
+T cells,L_Prolinylglycine,"Peptides, proteins and post-translational intermediates",P2,0.28911861777305603,0.40853846073150635,0.11941984295845032,525,615
+T cells,L_Prolinylglycine,"Peptides, proteins and post-translational intermediates",P3,0.21166083216667175,0.15891526639461517,-0.05274556577205658,22,425
+T cells,L_Prolinylglycine,"Peptides, proteins and post-translational intermediates",P4,0.3908272087574005,0.11880838498473167,-0.27201882377266884,3801,428
+T cells,L_Prolinylglycine,"Peptides, proteins and post-translational intermediates",P5,0.2657695710659027,0.1595221310853958,-0.1062474399805069,268,59
+T cells,L_Prolinylglycine,"Peptides, proteins and post-translational intermediates",P6,0.2943652868270874,0.10831760615110397,-0.18604768067598343,571,123
+T cells,L_Prolinylglycine,"Peptides, proteins and post-translational intermediates",P7,0.18863540887832642,0.08142741769552231,-0.10720799118280411,238,25
+Epithelial,2_Linoleoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P1,0.3226821720600128,0.5849582552909851,0.2622760832309723,5598,2015
+Epithelial,2_Linoleoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P2,0.4413394182920456,0.570452094078064,0.12911267578601837,540,2955
+Epithelial,2_Linoleoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P3,0.27098697423934937,0.6938814520835876,0.4228944778442383,74,899
+Epithelial,2_Linoleoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P4,0.7578824162483215,0.2121117115020752,-0.5457707047462463,5644,1089
+Epithelial,2_Linoleoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P5,0.6692584753036499,0.7545275092124939,0.085269033908844,5255,2890
+Epithelial,2_Linoleoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P6,0.41300448775291443,0.26190920919179916,-0.15109527856111526,4896,10
+Epithelial,2_Linoleoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P7,0.3457905054092407,0.15959642827510834,-0.18619407713413239,2731,35
+Epithelial,2_Oleoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P1,0.3226821720600128,0.5849582552909851,0.2622760832309723,5598,2015
+Epithelial,2_Oleoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P2,0.4413394182920456,0.570452094078064,0.12911267578601837,540,2955
+Epithelial,2_Oleoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P3,0.27098697423934937,0.6938814520835876,0.4228944778442383,74,899
+Epithelial,2_Oleoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P4,0.7578824162483215,0.2121117115020752,-0.5457707047462463,5644,1089
+Epithelial,2_Oleoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P5,0.6692584753036499,0.7545275092124939,0.085269033908844,5255,2890
+Epithelial,2_Oleoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P6,0.41300448775291443,0.26190920919179916,-0.15109527856111526,4896,10
+Epithelial,2_Oleoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P7,0.3457905054092407,0.15959642827510834,-0.18619407713413239,2731,35
+Epithelial,2_Stearoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P1,0.3226821720600128,0.5849582552909851,0.2622760832309723,5598,2015
+Epithelial,2_Stearoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P2,0.4413394182920456,0.570452094078064,0.12911267578601837,540,2955
+Epithelial,2_Stearoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P3,0.27098697423934937,0.6938814520835876,0.4228944778442383,74,899
+Epithelial,2_Stearoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P4,0.7578824162483215,0.2121117115020752,-0.5457707047462463,5644,1089
+Epithelial,2_Stearoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P5,0.6692584753036499,0.7545275092124939,0.085269033908844,5255,2890
+Epithelial,2_Stearoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P6,0.41300448775291443,0.26190920919179916,-0.15109527856111526,4896,10
+Epithelial,2_Stearoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P7,0.3457905054092407,0.15959642827510834,-0.18619407713413239,2731,35
+Epithelial,1_Pentadecanoylglycerophosphocholine_Sn1_Lpc_15_0,Glycerophospholipids and lysophospholipids,P1,0.3226821720600128,0.5849582552909851,0.2622760832309723,5598,2015
+Epithelial,1_Pentadecanoylglycerophosphocholine_Sn1_Lpc_15_0,Glycerophospholipids and lysophospholipids,P2,0.4413394182920456,0.570452094078064,0.12911267578601837,540,2955
+Epithelial,1_Pentadecanoylglycerophosphocholine_Sn1_Lpc_15_0,Glycerophospholipids and lysophospholipids,P3,0.27098697423934937,0.6938814520835876,0.4228944778442383,74,899
+Epithelial,1_Pentadecanoylglycerophosphocholine_Sn1_Lpc_15_0,Glycerophospholipids and lysophospholipids,P4,0.7578824162483215,0.2121117115020752,-0.5457707047462463,5644,1089
+Epithelial,1_Pentadecanoylglycerophosphocholine_Sn1_Lpc_15_0,Glycerophospholipids and lysophospholipids,P5,0.6692584753036499,0.7545275092124939,0.085269033908844,5255,2890
+Epithelial,1_Pentadecanoylglycerophosphocholine_Sn1_Lpc_15_0,Glycerophospholipids and lysophospholipids,P6,0.41300448775291443,0.26190920919179916,-0.15109527856111526,4896,10
+Epithelial,1_Pentadecanoylglycerophosphocholine_Sn1_Lpc_15_0,Glycerophospholipids and lysophospholipids,P7,0.3457905054092407,0.15959642827510834,-0.18619407713413239,2731,35
+Epithelial,1_Arachidonoyl_Glycero_3_Phosphocholine,Glycerophospholipids and lysophospholipids,P1,0.3226821720600128,0.5849582552909851,0.2622760832309723,5598,2015
+Epithelial,1_Arachidonoyl_Glycero_3_Phosphocholine,Glycerophospholipids and lysophospholipids,P2,0.4413394182920456,0.570452094078064,0.12911267578601837,540,2955
+Epithelial,1_Arachidonoyl_Glycero_3_Phosphocholine,Glycerophospholipids and lysophospholipids,P3,0.27098697423934937,0.6938814520835876,0.4228944778442383,74,899
+Epithelial,1_Arachidonoyl_Glycero_3_Phosphocholine,Glycerophospholipids and lysophospholipids,P4,0.7578824162483215,0.2121117115020752,-0.5457707047462463,5644,1089
+Epithelial,1_Arachidonoyl_Glycero_3_Phosphocholine,Glycerophospholipids and lysophospholipids,P5,0.6692584753036499,0.7545275092124939,0.085269033908844,5255,2890
+Epithelial,1_Arachidonoyl_Glycero_3_Phosphocholine,Glycerophospholipids and lysophospholipids,P6,0.41300448775291443,0.26190920919179916,-0.15109527856111526,4896,10
+Epithelial,1_Arachidonoyl_Glycero_3_Phosphocholine,Glycerophospholipids and lysophospholipids,P7,0.3457905054092407,0.15959642827510834,-0.18619407713413239,2731,35
+Epithelial,1_Octadeca_Trienoylglycerophosphocholine_Sn1_Lpc_18_3_Delta_9_12_15,Glycerophospholipids and lysophospholipids,P1,0.3226821720600128,0.5849582552909851,0.2622760832309723,5598,2015
+Epithelial,1_Octadeca_Trienoylglycerophosphocholine_Sn1_Lpc_18_3_Delta_9_12_15,Glycerophospholipids and lysophospholipids,P2,0.4413394182920456,0.570452094078064,0.12911267578601837,540,2955
+Epithelial,1_Octadeca_Trienoylglycerophosphocholine_Sn1_Lpc_18_3_Delta_9_12_15,Glycerophospholipids and lysophospholipids,P3,0.27098697423934937,0.6938814520835876,0.4228944778442383,74,899
+Epithelial,1_Octadeca_Trienoylglycerophosphocholine_Sn1_Lpc_18_3_Delta_9_12_15,Glycerophospholipids and lysophospholipids,P4,0.7578824162483215,0.2121117115020752,-0.5457707047462463,5644,1089
+Epithelial,1_Octadeca_Trienoylglycerophosphocholine_Sn1_Lpc_18_3_Delta_9_12_15,Glycerophospholipids and lysophospholipids,P5,0.6692584753036499,0.7545275092124939,0.085269033908844,5255,2890
+Epithelial,1_Octadeca_Trienoylglycerophosphocholine_Sn1_Lpc_18_3_Delta_9_12_15,Glycerophospholipids and lysophospholipids,P6,0.41300448775291443,0.26190920919179916,-0.15109527856111526,4896,10
+Epithelial,1_Octadeca_Trienoylglycerophosphocholine_Sn1_Lpc_18_3_Delta_9_12_15,Glycerophospholipids and lysophospholipids,P7,0.3457905054092407,0.15959642827510834,-0.18619407713413239,2731,35
+Epithelial,1_Octadeca_Trienoylglycerophosphocholine_Sn1_Lpc_18_3_Delta_6_9_12,Glycerophospholipids and lysophospholipids,P1,0.3226821720600128,0.5849582552909851,0.2622760832309723,5598,2015
+Epithelial,1_Octadeca_Trienoylglycerophosphocholine_Sn1_Lpc_18_3_Delta_6_9_12,Glycerophospholipids and lysophospholipids,P2,0.4413394182920456,0.570452094078064,0.12911267578601837,540,2955
+Epithelial,1_Octadeca_Trienoylglycerophosphocholine_Sn1_Lpc_18_3_Delta_6_9_12,Glycerophospholipids and lysophospholipids,P3,0.27098697423934937,0.6938814520835876,0.4228944778442383,74,899
+Epithelial,1_Octadeca_Trienoylglycerophosphocholine_Sn1_Lpc_18_3_Delta_6_9_12,Glycerophospholipids and lysophospholipids,P4,0.7578824162483215,0.2121117115020752,-0.5457707047462463,5644,1089
+Epithelial,1_Octadeca_Trienoylglycerophosphocholine_Sn1_Lpc_18_3_Delta_6_9_12,Glycerophospholipids and lysophospholipids,P5,0.6692584753036499,0.7545275092124939,0.085269033908844,5255,2890
+Epithelial,1_Octadeca_Trienoylglycerophosphocholine_Sn1_Lpc_18_3_Delta_6_9_12,Glycerophospholipids and lysophospholipids,P6,0.41300448775291443,0.26190920919179916,-0.15109527856111526,4896,10
+Epithelial,1_Octadeca_Trienoylglycerophosphocholine_Sn1_Lpc_18_3_Delta_6_9_12,Glycerophospholipids and lysophospholipids,P7,0.3457905054092407,0.15959642827510834,-0.18619407713413239,2731,35
+Epithelial,1_Nonadecanoylglycerophosphocholine_Sn1_Lpc_19_0,Glycerophospholipids and lysophospholipids,P1,0.3226821720600128,0.5849582552909851,0.2622760832309723,5598,2015
+Epithelial,1_Nonadecanoylglycerophosphocholine_Sn1_Lpc_19_0,Glycerophospholipids and lysophospholipids,P2,0.4413394182920456,0.570452094078064,0.12911267578601837,540,2955
+Epithelial,1_Nonadecanoylglycerophosphocholine_Sn1_Lpc_19_0,Glycerophospholipids and lysophospholipids,P3,0.27098697423934937,0.6938814520835876,0.4228944778442383,74,899
+Epithelial,1_Nonadecanoylglycerophosphocholine_Sn1_Lpc_19_0,Glycerophospholipids and lysophospholipids,P4,0.7578824162483215,0.2121117115020752,-0.5457707047462463,5644,1089
+Epithelial,1_Nonadecanoylglycerophosphocholine_Sn1_Lpc_19_0,Glycerophospholipids and lysophospholipids,P5,0.6692584753036499,0.7545275092124939,0.085269033908844,5255,2890
+Epithelial,1_Nonadecanoylglycerophosphocholine_Sn1_Lpc_19_0,Glycerophospholipids and lysophospholipids,P6,0.41300448775291443,0.26190920919179916,-0.15109527856111526,4896,10
+Epithelial,1_Nonadecanoylglycerophosphocholine_Sn1_Lpc_19_0,Glycerophospholipids and lysophospholipids,P7,0.3457905054092407,0.15959642827510834,-0.18619407713413239,2731,35
+Epithelial,1_Eicosenoylglycerophosphocholine_Delta_11_Sn1_Lpc_20_1,Glycerophospholipids and lysophospholipids,P1,0.3226821720600128,0.5849582552909851,0.2622760832309723,5598,2015
+Epithelial,1_Eicosenoylglycerophosphocholine_Delta_11_Sn1_Lpc_20_1,Glycerophospholipids and lysophospholipids,P2,0.4413394182920456,0.570452094078064,0.12911267578601837,540,2955
+Epithelial,1_Eicosenoylglycerophosphocholine_Delta_11_Sn1_Lpc_20_1,Glycerophospholipids and lysophospholipids,P3,0.27098697423934937,0.6938814520835876,0.4228944778442383,74,899
+Epithelial,1_Eicosenoylglycerophosphocholine_Delta_11_Sn1_Lpc_20_1,Glycerophospholipids and lysophospholipids,P4,0.7578824162483215,0.2121117115020752,-0.5457707047462463,5644,1089
+Epithelial,1_Eicosenoylglycerophosphocholine_Delta_11_Sn1_Lpc_20_1,Glycerophospholipids and lysophospholipids,P5,0.6692584753036499,0.7545275092124939,0.085269033908844,5255,2890
+Epithelial,1_Eicosenoylglycerophosphocholine_Delta_11_Sn1_Lpc_20_1,Glycerophospholipids and lysophospholipids,P6,0.41300448775291443,0.26190920919179916,-0.15109527856111526,4896,10
+Epithelial,1_Eicosenoylglycerophosphocholine_Delta_11_Sn1_Lpc_20_1,Glycerophospholipids and lysophospholipids,P7,0.3457905054092407,0.15959642827510834,-0.18619407713413239,2731,35
+Epithelial,1_Eicosatetraenoylglycerophosphocholine_Delta_8_11_14_17_Sn1_Lpc_20_4,Glycerophospholipids and lysophospholipids,P1,0.3226821720600128,0.5849582552909851,0.2622760832309723,5598,2015
+Epithelial,1_Eicosatetraenoylglycerophosphocholine_Delta_8_11_14_17_Sn1_Lpc_20_4,Glycerophospholipids and lysophospholipids,P2,0.4413394182920456,0.570452094078064,0.12911267578601837,540,2955
+Epithelial,1_Eicosatetraenoylglycerophosphocholine_Delta_8_11_14_17_Sn1_Lpc_20_4,Glycerophospholipids and lysophospholipids,P3,0.27098697423934937,0.6938814520835876,0.4228944778442383,74,899
+Epithelial,1_Eicosatetraenoylglycerophosphocholine_Delta_8_11_14_17_Sn1_Lpc_20_4,Glycerophospholipids and lysophospholipids,P4,0.7578824162483215,0.2121117115020752,-0.5457707047462463,5644,1089
+Epithelial,1_Eicosatetraenoylglycerophosphocholine_Delta_8_11_14_17_Sn1_Lpc_20_4,Glycerophospholipids and lysophospholipids,P5,0.6692584753036499,0.7545275092124939,0.085269033908844,5255,2890
+Epithelial,1_Eicosatetraenoylglycerophosphocholine_Delta_8_11_14_17_Sn1_Lpc_20_4,Glycerophospholipids and lysophospholipids,P6,0.41300448775291443,0.26190920919179916,-0.15109527856111526,4896,10
+Epithelial,1_Eicosatetraenoylglycerophosphocholine_Delta_8_11_14_17_Sn1_Lpc_20_4,Glycerophospholipids and lysophospholipids,P7,0.3457905054092407,0.15959642827510834,-0.18619407713413239,2731,35
+Epithelial,1_Eicosapentenoylglycerophosphocholine_Delta_5_8_11_14_17_Sn1_Lpc_20_5,Glycerophospholipids and lysophospholipids,P1,0.3226821720600128,0.5849582552909851,0.2622760832309723,5598,2015
+Epithelial,1_Eicosapentenoylglycerophosphocholine_Delta_5_8_11_14_17_Sn1_Lpc_20_5,Glycerophospholipids and lysophospholipids,P2,0.4413394182920456,0.570452094078064,0.12911267578601837,540,2955
+Epithelial,1_Eicosapentenoylglycerophosphocholine_Delta_5_8_11_14_17_Sn1_Lpc_20_5,Glycerophospholipids and lysophospholipids,P3,0.27098697423934937,0.6938814520835876,0.4228944778442383,74,899
+Epithelial,1_Eicosapentenoylglycerophosphocholine_Delta_5_8_11_14_17_Sn1_Lpc_20_5,Glycerophospholipids and lysophospholipids,P4,0.7578824162483215,0.2121117115020752,-0.5457707047462463,5644,1089
+Epithelial,1_Eicosapentenoylglycerophosphocholine_Delta_5_8_11_14_17_Sn1_Lpc_20_5,Glycerophospholipids and lysophospholipids,P5,0.6692584753036499,0.7545275092124939,0.085269033908844,5255,2890
+Epithelial,1_Eicosapentenoylglycerophosphocholine_Delta_5_8_11_14_17_Sn1_Lpc_20_5,Glycerophospholipids and lysophospholipids,P6,0.41300448775291443,0.26190920919179916,-0.15109527856111526,4896,10
+Epithelial,1_Eicosapentenoylglycerophosphocholine_Delta_5_8_11_14_17_Sn1_Lpc_20_5,Glycerophospholipids and lysophospholipids,P7,0.3457905054092407,0.15959642827510834,-0.18619407713413239,2731,35
+Epithelial,1_Docosatetraenoylglycerophosphocholine_Delta_7_10_13_16_Sn1_Lpc_22_4,Glycerophospholipids and lysophospholipids,P1,0.3226821720600128,0.5849582552909851,0.2622760832309723,5598,2015
+Epithelial,1_Docosatetraenoylglycerophosphocholine_Delta_7_10_13_16_Sn1_Lpc_22_4,Glycerophospholipids and lysophospholipids,P2,0.4413394182920456,0.570452094078064,0.12911267578601837,540,2955
+Epithelial,1_Docosatetraenoylglycerophosphocholine_Delta_7_10_13_16_Sn1_Lpc_22_4,Glycerophospholipids and lysophospholipids,P3,0.27098697423934937,0.6938814520835876,0.4228944778442383,74,899
+Epithelial,1_Docosatetraenoylglycerophosphocholine_Delta_7_10_13_16_Sn1_Lpc_22_4,Glycerophospholipids and lysophospholipids,P4,0.7578824162483215,0.2121117115020752,-0.5457707047462463,5644,1089
+Epithelial,1_Docosatetraenoylglycerophosphocholine_Delta_7_10_13_16_Sn1_Lpc_22_4,Glycerophospholipids and lysophospholipids,P5,0.6692584753036499,0.7545275092124939,0.085269033908844,5255,2890
+Epithelial,1_Docosatetraenoylglycerophosphocholine_Delta_7_10_13_16_Sn1_Lpc_22_4,Glycerophospholipids and lysophospholipids,P6,0.41300448775291443,0.26190920919179916,-0.15109527856111526,4896,10
+Epithelial,1_Docosatetraenoylglycerophosphocholine_Delta_7_10_13_16_Sn1_Lpc_22_4,Glycerophospholipids and lysophospholipids,P7,0.3457905054092407,0.15959642827510834,-0.18619407713413239,2731,35
+Epithelial,1_Docosapentenoylglycerophosphocholine_Delta_7_10_13_16_19_Sn1_Lpc_22_5_W3,Glycerophospholipids and lysophospholipids,P1,0.3226821720600128,0.5849582552909851,0.2622760832309723,5598,2015
+Epithelial,1_Docosapentenoylglycerophosphocholine_Delta_7_10_13_16_19_Sn1_Lpc_22_5_W3,Glycerophospholipids and lysophospholipids,P2,0.4413394182920456,0.570452094078064,0.12911267578601837,540,2955
+Epithelial,1_Docosapentenoylglycerophosphocholine_Delta_7_10_13_16_19_Sn1_Lpc_22_5_W3,Glycerophospholipids and lysophospholipids,P3,0.27098697423934937,0.6938814520835876,0.4228944778442383,74,899
+Epithelial,1_Docosapentenoylglycerophosphocholine_Delta_7_10_13_16_19_Sn1_Lpc_22_5_W3,Glycerophospholipids and lysophospholipids,P4,0.7578824162483215,0.2121117115020752,-0.5457707047462463,5644,1089
+Epithelial,1_Docosapentenoylglycerophosphocholine_Delta_7_10_13_16_19_Sn1_Lpc_22_5_W3,Glycerophospholipids and lysophospholipids,P5,0.6692584753036499,0.7545275092124939,0.085269033908844,5255,2890
+Epithelial,1_Docosapentenoylglycerophosphocholine_Delta_7_10_13_16_19_Sn1_Lpc_22_5_W3,Glycerophospholipids and lysophospholipids,P6,0.41300448775291443,0.26190920919179916,-0.15109527856111526,4896,10
+Epithelial,1_Docosapentenoylglycerophosphocholine_Delta_7_10_13_16_19_Sn1_Lpc_22_5_W3,Glycerophospholipids and lysophospholipids,P7,0.3457905054092407,0.15959642827510834,-0.18619407713413239,2731,35
+Epithelial,1_Docosapentenoylglycerophosphocholine_Delta_4_7_10_13_16_Sn1_Lpc_22_5_W6,Glycerophospholipids and lysophospholipids,P1,0.3226821720600128,0.5849582552909851,0.2622760832309723,5598,2015
+Epithelial,1_Docosapentenoylglycerophosphocholine_Delta_4_7_10_13_16_Sn1_Lpc_22_5_W6,Glycerophospholipids and lysophospholipids,P2,0.4413394182920456,0.570452094078064,0.12911267578601837,540,2955
+Epithelial,1_Docosapentenoylglycerophosphocholine_Delta_4_7_10_13_16_Sn1_Lpc_22_5_W6,Glycerophospholipids and lysophospholipids,P3,0.27098697423934937,0.6938814520835876,0.4228944778442383,74,899
+Epithelial,1_Docosapentenoylglycerophosphocholine_Delta_4_7_10_13_16_Sn1_Lpc_22_5_W6,Glycerophospholipids and lysophospholipids,P4,0.7578824162483215,0.2121117115020752,-0.5457707047462463,5644,1089
+Epithelial,1_Docosapentenoylglycerophosphocholine_Delta_4_7_10_13_16_Sn1_Lpc_22_5_W6,Glycerophospholipids and lysophospholipids,P5,0.6692584753036499,0.7545275092124939,0.085269033908844,5255,2890
+Epithelial,1_Docosapentenoylglycerophosphocholine_Delta_4_7_10_13_16_Sn1_Lpc_22_5_W6,Glycerophospholipids and lysophospholipids,P6,0.41300448775291443,0.26190920919179916,-0.15109527856111526,4896,10
+Epithelial,1_Docosapentenoylglycerophosphocholine_Delta_4_7_10_13_16_Sn1_Lpc_22_5_W6,Glycerophospholipids and lysophospholipids,P7,0.3457905054092407,0.15959642827510834,-0.18619407713413239,2731,35
+Epithelial,1_Docosahexenoylglycerophosphocholine_Delta_4_7_10_13_16_19_Sn1_Lpc_22_6,Glycerophospholipids and lysophospholipids,P1,0.3226821720600128,0.5849582552909851,0.2622760832309723,5598,2015
+Epithelial,1_Docosahexenoylglycerophosphocholine_Delta_4_7_10_13_16_19_Sn1_Lpc_22_6,Glycerophospholipids and lysophospholipids,P2,0.4413394182920456,0.570452094078064,0.12911267578601837,540,2955
+Epithelial,1_Docosahexenoylglycerophosphocholine_Delta_4_7_10_13_16_19_Sn1_Lpc_22_6,Glycerophospholipids and lysophospholipids,P3,0.27098697423934937,0.6938814520835876,0.4228944778442383,74,899
+Epithelial,1_Docosahexenoylglycerophosphocholine_Delta_4_7_10_13_16_19_Sn1_Lpc_22_6,Glycerophospholipids and lysophospholipids,P4,0.7578824162483215,0.2121117115020752,-0.5457707047462463,5644,1089
+Epithelial,1_Docosahexenoylglycerophosphocholine_Delta_4_7_10_13_16_19_Sn1_Lpc_22_6,Glycerophospholipids and lysophospholipids,P5,0.6692584753036499,0.7545275092124939,0.085269033908844,5255,2890
+Epithelial,1_Docosahexenoylglycerophosphocholine_Delta_4_7_10_13_16_19_Sn1_Lpc_22_6,Glycerophospholipids and lysophospholipids,P6,0.41300448775291443,0.26190920919179916,-0.15109527856111526,4896,10
+Epithelial,1_Docosahexenoylglycerophosphocholine_Delta_4_7_10_13_16_19_Sn1_Lpc_22_6,Glycerophospholipids and lysophospholipids,P7,0.3457905054092407,0.15959642827510834,-0.18619407713413239,2731,35
+Epithelial,1_Dihomo_Linolenoylglycerophosphocholine_20_3_Delta_8_11_14_Lysopc_A_C20_3,Glycerophospholipids and lysophospholipids,P1,0.3226821720600128,0.5849582552909851,0.2622760832309723,5598,2015
+Epithelial,1_Dihomo_Linolenoylglycerophosphocholine_20_3_Delta_8_11_14_Lysopc_A_C20_3,Glycerophospholipids and lysophospholipids,P2,0.4413394182920456,0.570452094078064,0.12911267578601837,540,2955
+Epithelial,1_Dihomo_Linolenoylglycerophosphocholine_20_3_Delta_8_11_14_Lysopc_A_C20_3,Glycerophospholipids and lysophospholipids,P3,0.27098697423934937,0.6938814520835876,0.4228944778442383,74,899
+Epithelial,1_Dihomo_Linolenoylglycerophosphocholine_20_3_Delta_8_11_14_Lysopc_A_C20_3,Glycerophospholipids and lysophospholipids,P4,0.7578824162483215,0.2121117115020752,-0.5457707047462463,5644,1089
+Epithelial,1_Dihomo_Linolenoylglycerophosphocholine_20_3_Delta_8_11_14_Lysopc_A_C20_3,Glycerophospholipids and lysophospholipids,P5,0.6692584753036499,0.7545275092124939,0.085269033908844,5255,2890
+Epithelial,1_Dihomo_Linolenoylglycerophosphocholine_20_3_Delta_8_11_14_Lysopc_A_C20_3,Glycerophospholipids and lysophospholipids,P6,0.41300448775291443,0.26190920919179916,-0.15109527856111526,4896,10
+Epithelial,1_Dihomo_Linolenoylglycerophosphocholine_20_3_Delta_8_11_14_Lysopc_A_C20_3,Glycerophospholipids and lysophospholipids,P7,0.3457905054092407,0.15959642827510834,-0.18619407713413239,2731,35
+Epithelial,1_Lignocericylglycerophosphocholine_24_0_Lysopc_A_C24,Glycerophospholipids and lysophospholipids,P1,0.3226821720600128,0.5849582552909851,0.2622760832309723,5598,2015
+Epithelial,1_Lignocericylglycerophosphocholine_24_0_Lysopc_A_C24,Glycerophospholipids and lysophospholipids,P2,0.4413394182920456,0.570452094078064,0.12911267578601837,540,2955
+Epithelial,1_Lignocericylglycerophosphocholine_24_0_Lysopc_A_C24,Glycerophospholipids and lysophospholipids,P3,0.27098697423934937,0.6938814520835876,0.4228944778442383,74,899
+Epithelial,1_Lignocericylglycerophosphocholine_24_0_Lysopc_A_C24,Glycerophospholipids and lysophospholipids,P4,0.7578824162483215,0.2121117115020752,-0.5457707047462463,5644,1089
+Epithelial,1_Lignocericylglycerophosphocholine_24_0_Lysopc_A_C24,Glycerophospholipids and lysophospholipids,P5,0.6692584753036499,0.7545275092124939,0.085269033908844,5255,2890
+Epithelial,1_Lignocericylglycerophosphocholine_24_0_Lysopc_A_C24,Glycerophospholipids and lysophospholipids,P6,0.41300448775291443,0.26190920919179916,-0.15109527856111526,4896,10
+Epithelial,1_Lignocericylglycerophosphocholine_24_0_Lysopc_A_C24,Glycerophospholipids and lysophospholipids,P7,0.3457905054092407,0.15959642827510834,-0.18619407713413239,2731,35
+Epithelial,1_Docosahexaenoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P1,0.3226821720600128,0.5849582552909851,0.2622760832309723,5598,2015
+Epithelial,1_Docosahexaenoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P2,0.4413394182920456,0.570452094078064,0.12911267578601837,540,2955
+Epithelial,1_Docosahexaenoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P3,0.27098697423934937,0.6938814520835876,0.4228944778442383,74,899
+Epithelial,1_Docosahexaenoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P4,0.7578824162483215,0.2121117115020752,-0.5457707047462463,5644,1089
+Epithelial,1_Docosahexaenoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P5,0.6692584753036499,0.7545275092124939,0.085269033908844,5255,2890
+Epithelial,1_Docosahexaenoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P6,0.41300448775291443,0.26190920919179916,-0.15109527856111526,4896,10
+Epithelial,1_Docosahexaenoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P7,0.3457905054092407,0.15959642827510834,-0.18619407713413239,2731,35
+Epithelial,1_Eicosadienoylglycerophosphocholine_Delta_11_14,Glycerophospholipids and lysophospholipids,P1,0.3226821720600128,0.5849582552909851,0.2622760832309723,5598,2015
+Epithelial,1_Eicosadienoylglycerophosphocholine_Delta_11_14,Glycerophospholipids and lysophospholipids,P2,0.4413394182920456,0.570452094078064,0.12911267578601837,540,2955
+Epithelial,1_Eicosadienoylglycerophosphocholine_Delta_11_14,Glycerophospholipids and lysophospholipids,P3,0.27098697423934937,0.6938814520835876,0.4228944778442383,74,899
+Epithelial,1_Eicosadienoylglycerophosphocholine_Delta_11_14,Glycerophospholipids and lysophospholipids,P4,0.7578824162483215,0.2121117115020752,-0.5457707047462463,5644,1089
+Epithelial,1_Eicosadienoylglycerophosphocholine_Delta_11_14,Glycerophospholipids and lysophospholipids,P5,0.6692584753036499,0.7545275092124939,0.085269033908844,5255,2890
+Epithelial,1_Eicosadienoylglycerophosphocholine_Delta_11_14,Glycerophospholipids and lysophospholipids,P6,0.41300448775291443,0.26190920919179916,-0.15109527856111526,4896,10
+Epithelial,1_Eicosadienoylglycerophosphocholine_Delta_11_14,Glycerophospholipids and lysophospholipids,P7,0.3457905054092407,0.15959642827510834,-0.18619407713413239,2731,35
+Epithelial,1_Eicosatrienoylglycerophosphocholine_Delta_11_14_17,Glycerophospholipids and lysophospholipids,P1,0.3226821720600128,0.5849582552909851,0.2622760832309723,5598,2015
+Epithelial,1_Eicosatrienoylglycerophosphocholine_Delta_11_14_17,Glycerophospholipids and lysophospholipids,P2,0.4413394182920456,0.570452094078064,0.12911267578601837,540,2955
+Epithelial,1_Eicosatrienoylglycerophosphocholine_Delta_11_14_17,Glycerophospholipids and lysophospholipids,P3,0.27098697423934937,0.6938814520835876,0.4228944778442383,74,899
+Epithelial,1_Eicosatrienoylglycerophosphocholine_Delta_11_14_17,Glycerophospholipids and lysophospholipids,P4,0.7578824162483215,0.2121117115020752,-0.5457707047462463,5644,1089
+Epithelial,1_Eicosatrienoylglycerophosphocholine_Delta_11_14_17,Glycerophospholipids and lysophospholipids,P5,0.6692584753036499,0.7545275092124939,0.085269033908844,5255,2890
+Epithelial,1_Eicosatrienoylglycerophosphocholine_Delta_11_14_17,Glycerophospholipids and lysophospholipids,P6,0.41300448775291443,0.26190920919179916,-0.15109527856111526,4896,10
+Epithelial,1_Eicosatrienoylglycerophosphocholine_Delta_11_14_17,Glycerophospholipids and lysophospholipids,P7,0.3457905054092407,0.15959642827510834,-0.18619407713413239,2731,35
+Epithelial,1_Heptadecanoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P1,0.3226821720600128,0.5849582552909851,0.2622760832309723,5598,2015
+Epithelial,1_Heptadecanoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P2,0.4413394182920456,0.570452094078064,0.12911267578601837,540,2955
+Epithelial,1_Heptadecanoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P3,0.27098697423934937,0.6938814520835876,0.4228944778442383,74,899
+Epithelial,1_Heptadecanoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P4,0.7578824162483215,0.2121117115020752,-0.5457707047462463,5644,1089
+Epithelial,1_Heptadecanoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P5,0.6692584753036499,0.7545275092124939,0.085269033908844,5255,2890
+Epithelial,1_Heptadecanoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P6,0.41300448775291443,0.26190920919179916,-0.15109527856111526,4896,10
+Epithelial,1_Heptadecanoylglycerophosphocholine,Glycerophospholipids and lysophospholipids,P7,0.3457905054092407,0.15959642827510834,-0.18619407713413239,2731,35
+Epithelial,1_Linoleoylglycerophosphocholine_Delta_9_12,Glycerophospholipids and lysophospholipids,P1,0.3226821720600128,0.5849582552909851,0.2622760832309723,5598,2015
+Epithelial,1_Linoleoylglycerophosphocholine_Delta_9_12,Glycerophospholipids and lysophospholipids,P2,0.4413394182920456,0.570452094078064,0.12911267578601837,540,2955
+Epithelial,1_Linoleoylglycerophosphocholine_Delta_9_12,Glycerophospholipids and lysophospholipids,P3,0.27098697423934937,0.6938814520835876,0.4228944778442383,74,899
+Epithelial,1_Linoleoylglycerophosphocholine_Delta_9_12,Glycerophospholipids and lysophospholipids,P4,0.7578824162483215,0.2121117115020752,-0.5457707047462463,5644,1089
+Epithelial,1_Linoleoylglycerophosphocholine_Delta_9_12,Glycerophospholipids and lysophospholipids,P5,0.6692584753036499,0.7545275092124939,0.085269033908844,5255,2890
+Epithelial,1_Linoleoylglycerophosphocholine_Delta_9_12,Glycerophospholipids and lysophospholipids,P6,0.41300448775291443,0.26190920919179916,-0.15109527856111526,4896,10
+Epithelial,1_Linoleoylglycerophosphocholine_Delta_9_12,Glycerophospholipids and lysophospholipids,P7,0.3457905054092407,0.15959642827510834,-0.18619407713413239,2731,35
+T cells,1_Gamma_Linolenoyl_Cholesterol_Cholesterol_Ester_18_3_Delta_6_9_12,Sterols and cholesterol esters,P1,0.2627478837966919,0.22301748394966125,-0.03973039984703064,263,639
+T cells,1_Gamma_Linolenoyl_Cholesterol_Cholesterol_Ester_18_3_Delta_6_9_12,Sterols and cholesterol esters,P2,0.2825646996498108,0.6568137407302856,0.37424904108047485,525,615
+T cells,1_Gamma_Linolenoyl_Cholesterol_Cholesterol_Ester_18_3_Delta_6_9_12,Sterols and cholesterol esters,P3,0.1812099888920784,0.14598916471004486,-0.03522082418203354,22,425
+T cells,1_Gamma_Linolenoyl_Cholesterol_Cholesterol_Ester_18_3_Delta_6_9_12,Sterols and cholesterol esters,P4,0.3100529611110687,0.1339341253042221,-0.17611883580684662,3801,428
+T cells,1_Gamma_Linolenoyl_Cholesterol_Cholesterol_Ester_18_3_Delta_6_9_12,Sterols and cholesterol esters,P5,0.41438764333724976,0.15712781250476837,-0.2572598308324814,268,59
+T cells,1_Gamma_Linolenoyl_Cholesterol_Cholesterol_Ester_18_3_Delta_6_9_12,Sterols and cholesterol esters,P6,0.3648851811885834,0.10895757377147675,-0.25592760741710663,571,123
+T cells,1_Gamma_Linolenoyl_Cholesterol_Cholesterol_Ester_18_3_Delta_6_9_12,Sterols and cholesterol esters,P7,0.17557158321142197,0.08516181260347366,-0.0904097706079483,238,25
+T cells,1_Vaccenoyl_Cholesterol_Cholesterol_Ester_18_1_Delta_11,Sterols and cholesterol esters,P1,0.2627793252468109,0.22297713160514832,-0.0398021936416626,263,639
+T cells,1_Vaccenoyl_Cholesterol_Cholesterol_Ester_18_1_Delta_11,Sterols and cholesterol esters,P2,0.28255003690719604,0.6568670868873596,0.3743170499801636,525,615
+T cells,1_Vaccenoyl_Cholesterol_Cholesterol_Ester_18_1_Delta_11,Sterols and cholesterol esters,P3,0.18120671063661575,0.14601801335811615,-0.0351886972784996,22,425
+T cells,1_Vaccenoyl_Cholesterol_Cholesterol_Ester_18_1_Delta_11,Sterols and cholesterol esters,P4,0.310072124004364,0.13396745175123215,-0.17610467225313187,3801,428
+T cells,1_Vaccenoyl_Cholesterol_Cholesterol_Ester_18_1_Delta_11,Sterols and cholesterol esters,P5,0.41438208520412445,0.15712958574295044,-0.257252499461174,268,59
+T cells,1_Vaccenoyl_Cholesterol_Cholesterol_Ester_18_1_Delta_11,Sterols and cholesterol esters,P6,0.36494603753089905,0.10897205024957657,-0.2559739872813225,571,123
+T cells,1_Vaccenoyl_Cholesterol_Cholesterol_Ester_18_1_Delta_11,Sterols and cholesterol esters,P7,0.1755799725651741,0.0851793885231018,-0.0904005840420723,238,25
+T cells,1_Timnodnoyl_Cholesterol_Cholesterol_Ester_20_5_Delta_5_8_11_14_17,Sterols and cholesterol esters,P1,0.26292744278907776,0.22327013313770294,-0.03965730965137482,263,639
+T cells,1_Timnodnoyl_Cholesterol_Cholesterol_Ester_20_5_Delta_5_8_11_14_17,Sterols and cholesterol esters,P2,0.28386422991752625,0.6568840742111206,0.37301984429359436,525,615
+T cells,1_Timnodnoyl_Cholesterol_Cholesterol_Ester_20_5_Delta_5_8_11_14_17,Sterols and cholesterol esters,P3,0.18123599886894226,0.1457308530807495,-0.03550514578819275,22,425
+T cells,1_Timnodnoyl_Cholesterol_Cholesterol_Ester_20_5_Delta_5_8_11_14_17,Sterols and cholesterol esters,P4,0.3102591037750244,0.13381098210811615,-0.17644812166690826,3801,428
+T cells,1_Timnodnoyl_Cholesterol_Cholesterol_Ester_20_5_Delta_5_8_11_14_17,Sterols and cholesterol esters,P5,0.4151962548494339,0.157430499792099,-0.2577657550573349,268,59
+T cells,1_Timnodnoyl_Cholesterol_Cholesterol_Ester_20_5_Delta_5_8_11_14_17,Sterols and cholesterol esters,P6,0.36536020040512085,0.10873638838529587,-0.256623812019825,571,123
+T cells,1_Timnodnoyl_Cholesterol_Cholesterol_Ester_20_5_Delta_5_8_11_14_17,Sterols and cholesterol esters,P7,0.17571914196014404,0.08492353558540344,-0.0907956063747406,238,25
+T cells,Cholesteryl_Arachidonate_Cholesterol_Ester_20_4_Delta_5_8_11_14,Sterols and cholesterol esters,P1,0.26231101155281067,0.22253446280956268,-0.039776548743247986,263,639
+T cells,Cholesteryl_Arachidonate_Cholesterol_Ester_20_4_Delta_5_8_11_14,Sterols and cholesterol esters,P2,0.28317058086395264,0.6547431945800781,0.3715726137161255,525,615
+T cells,Cholesteryl_Arachidonate_Cholesterol_Ester_20_4_Delta_5_8_11_14,Sterols and cholesterol esters,P3,0.18046985566616058,0.1451149433851242,-0.03535491228103638,22,425
+T cells,Cholesteryl_Arachidonate_Cholesterol_Ester_20_4_Delta_5_8_11_14,Sterols and cholesterol esters,P4,0.3104950785636902,0.13388042896986008,-0.1766146495938301,3801,428
+T cells,Cholesteryl_Arachidonate_Cholesterol_Ester_20_4_Delta_5_8_11_14,Sterols and cholesterol esters,P5,0.41333337128162384,0.15676546096801758,-0.25656791031360626,268,59
+T cells,Cholesteryl_Arachidonate_Cholesterol_Ester_20_4_Delta_5_8_11_14,Sterols and cholesterol esters,P6,0.3634699583053589,0.10828755795955658,-0.2551824003458023,571,123
+T cells,Cholesteryl_Arachidonate_Cholesterol_Ester_20_4_Delta_5_8_11_14,Sterols and cholesterol esters,P7,0.17522237449884415,0.08405409753322601,-0.09116827696561813,238,25
+T cells,Cholesteryl_Docosahexanoate_Cholesterol_Ester_22_6_Delta_4_7_10_13_16_19,Sterols and cholesterol esters,P1,0.26223358511924744,0.2227533757686615,-0.03948020935058594,263,639
+T cells,Cholesteryl_Docosahexanoate_Cholesterol_Ester_22_6_Delta_4_7_10_13_16_19,Sterols and cholesterol esters,P2,0.28233933448791504,0.6558960676193237,0.3735567331314087,525,615
+T cells,Cholesteryl_Docosahexanoate_Cholesterol_Ester_22_6_Delta_4_7_10_13_16_19,Sterols and cholesterol esters,P3,0.1810043305158615,0.14546199142932892,-0.03554233908653259,22,425
+T cells,Cholesteryl_Docosahexanoate_Cholesterol_Ester_22_6_Delta_4_7_10_13_16_19,Sterols and cholesterol esters,P4,0.3099909722805023,0.13374502956867218,-0.17624594271183014,3801,428
+T cells,Cholesteryl_Docosahexanoate_Cholesterol_Ester_22_6_Delta_4_7_10_13_16_19,Sterols and cholesterol esters,P5,0.4136577844619751,0.1570056825876236,-0.2566521018743515,268,59
+T cells,Cholesteryl_Docosahexanoate_Cholesterol_Ester_22_6_Delta_4_7_10_13_16_19,Sterols and cholesterol esters,P6,0.3641190528869629,0.1085919514298439,-0.255527101457119,571,123
+T cells,Cholesteryl_Docosahexanoate_Cholesterol_Ester_22_6_Delta_4_7_10_13_16_19,Sterols and cholesterol esters,P7,0.17528963088989258,0.0847272276878357,-0.09056240320205688,238,25
+T cells,1_Linoleoyl_Cholesterol_Cholesterol_Ester_18_2_Delta_9_12,Sterols and cholesterol esters,P1,0.2618708610534668,0.22270922362804413,-0.03916163742542267,263,639
+T cells,1_Linoleoyl_Cholesterol_Cholesterol_Ester_18_2_Delta_9_12,Sterols and cholesterol esters,P2,0.2827334403991699,0.6550580859184265,0.3723246455192566,525,615
+T cells,1_Linoleoyl_Cholesterol_Cholesterol_Ester_18_2_Delta_9_12,Sterols and cholesterol esters,P3,0.1807454600930214,0.1454285830259323,-0.03531687706708908,22,425
+T cells,1_Linoleoyl_Cholesterol_Cholesterol_Ester_18_2_Delta_9_12,Sterols and cholesterol esters,P4,0.3106698989868164,0.1341027170419693,-0.1765671819448471,3801,428
+T cells,1_Linoleoyl_Cholesterol_Cholesterol_Ester_18_2_Delta_9_12,Sterols and cholesterol esters,P5,0.41339707374572754,0.15689483284950256,-0.256502240896225,268,59
+T cells,1_Linoleoyl_Cholesterol_Cholesterol_Ester_18_2_Delta_9_12,Sterols and cholesterol esters,P6,0.3639046847820282,0.10859301686286926,-0.25531166791915894,571,123
+T cells,1_Linoleoyl_Cholesterol_Cholesterol_Ester_18_2_Delta_9_12,Sterols and cholesterol esters,P7,0.175350159406662,0.08432174474000931,-0.09102841466665268,238,25
+T cells,2_hydroxy_R_ibuprofen,"Xenobiotics, pharmaceuticals and environmental chemicals",P1,0.3145333528518677,0.2921595573425293,-0.02237379550933838,263,639
+T cells,2_hydroxy_R_ibuprofen,"Xenobiotics, pharmaceuticals and environmental chemicals",P2,0.2994731068611145,0.47495654225349426,0.17548343539237976,525,615
+T cells,2_hydroxy_R_ibuprofen,"Xenobiotics, pharmaceuticals and environmental chemicals",P3,0.23086601495742798,0.18236714601516724,-0.04849886894226074,22,425
+T cells,2_hydroxy_R_ibuprofen,"Xenobiotics, pharmaceuticals and environmental chemicals",P4,0.42967483401298523,0.18256526440382004,-0.2471095696091652,3801,428
+T cells,2_hydroxy_R_ibuprofen,"Xenobiotics, pharmaceuticals and environmental chemicals",P5,0.2895548492670059,0.1780228167772293,-0.11153203248977661,268,59
+T cells,2_hydroxy_R_ibuprofen,"Xenobiotics, pharmaceuticals and environmental chemicals",P6,0.40320155024528503,0.10925329476594925,-0.2939482554793358,571,123
+T cells,2_hydroxy_R_ibuprofen,"Xenobiotics, pharmaceuticals and environmental chemicals",P7,0.19942297786474228,0.09029459953308105,-0.10912837833166122,238,25
+T cells,3_hydroxy_R_ibuprofen,"Xenobiotics, pharmaceuticals and environmental chemicals",P1,0.31966766715049744,0.2957157492637634,-0.02395191788673401,263,639
+T cells,3_hydroxy_R_ibuprofen,"Xenobiotics, pharmaceuticals and environmental chemicals",P2,0.3033895492553711,0.48108696937561035,0.17769742012023926,525,615
+T cells,3_hydroxy_R_ibuprofen,"Xenobiotics, pharmaceuticals and environmental chemicals",P3,0.2343483790755272,0.1873195469379425,-0.047028832137584686,22,425
+T cells,3_hydroxy_R_ibuprofen,"Xenobiotics, pharmaceuticals and environmental chemicals",P4,0.4338085353374481,0.18392907083034515,-0.24987946450710297,3801,428
+T cells,3_hydroxy_R_ibuprofen,"Xenobiotics, pharmaceuticals and environmental chemicals",P5,0.29322007298469543,0.18095386028289795,-0.11226621270179749,268,59
+T cells,3_hydroxy_R_ibuprofen,"Xenobiotics, pharmaceuticals and environmental chemicals",P6,0.40770474076271057,0.11073018610477448,-0.2969745546579361,571,123
+T cells,3_hydroxy_R_ibuprofen,"Xenobiotics, pharmaceuticals and environmental chemicals",P7,0.2029757797718048,0.09289573132991791,-0.1100800484418869,238,25
+T cells,3_hydroxy_acetaminophen,"Xenobiotics, pharmaceuticals and environmental chemicals",P1,0.33270296454429626,0.3031705319881439,-0.029532432556152344,263,639
+T cells,3_hydroxy_acetaminophen,"Xenobiotics, pharmaceuticals and environmental chemicals",P2,0.3160996735095978,0.5000829100608826,0.1839832365512848,525,615
+T cells,3_hydroxy_acetaminophen,"Xenobiotics, pharmaceuticals and environmental chemicals",P3,0.23620346188545227,0.19308875501155853,-0.04311470687389374,22,425
+T cells,3_hydroxy_acetaminophen,"Xenobiotics, pharmaceuticals and environmental chemicals",P4,0.4351363778114319,0.1770743504166603,-0.2580620273947716,3801,428
+T cells,3_hydroxy_acetaminophen,"Xenobiotics, pharmaceuticals and environmental chemicals",P5,0.3048725724220276,0.1923200786113739,-0.11255249381065369,268,59
+T cells,3_hydroxy_acetaminophen,"Xenobiotics, pharmaceuticals and environmental chemicals",P6,0.4051381051540375,0.11306704580783844,-0.29207105934619904,571,123
+T cells,3_hydroxy_acetaminophen,"Xenobiotics, pharmaceuticals and environmental chemicals",P7,0.21081623435020447,0.09969685226678848,-0.11111938208341599,238,25
+T cells,6_beta_hydroxy_lovastatin_lactone_form,"Xenobiotics, pharmaceuticals and environmental chemicals",P1,0.3199499249458313,0.29594117403030396,-0.024008750915527344,263,639
+T cells,6_beta_hydroxy_lovastatin_lactone_form,"Xenobiotics, pharmaceuticals and environmental chemicals",P2,0.3030245006084442,0.4811369776725769,0.1781124770641327,525,615
+T cells,6_beta_hydroxy_lovastatin_lactone_form,"Xenobiotics, pharmaceuticals and environmental chemicals",P3,0.23093000799417496,0.18479153513908386,-0.046138472855091095,22,425
+T cells,6_beta_hydroxy_lovastatin_lactone_form,"Xenobiotics, pharmaceuticals and environmental chemicals",P4,0.4286353290081024,0.17665033042430878,-0.25198499858379364,3801,428
+T cells,6_beta_hydroxy_lovastatin_lactone_form,"Xenobiotics, pharmaceuticals and environmental chemicals",P5,0.29136233031749725,0.17995300889015198,-0.11140932142734528,268,59
+T cells,6_beta_hydroxy_lovastatin_lactone_form,"Xenobiotics, pharmaceuticals and environmental chemicals",P6,0.4024066627025604,0.11100372672080994,-0.2914029359817505,571,123
+T cells,6_beta_hydroxy_lovastatin_lactone_form,"Xenobiotics, pharmaceuticals and environmental chemicals",P7,0.2023962363600731,0.09341967105865479,-0.1089765653014183,238,25
+T cells,6_exomethylene_lovastatin_lactone_form,"Xenobiotics, pharmaceuticals and environmental chemicals",P1,0.3205481767654419,0.2964792251586914,-0.02406895160675049,263,639
+T cells,6_exomethylene_lovastatin_lactone_form,"Xenobiotics, pharmaceuticals and environmental chemicals",P2,0.3035188615322113,0.4819672405719757,0.1784483790397644,525,615
+T cells,6_exomethylene_lovastatin_lactone_form,"Xenobiotics, pharmaceuticals and environmental chemicals",P3,0.2312365174293518,0.18532907962799072,-0.045907437801361084,22,425
+T cells,6_exomethylene_lovastatin_lactone_form,"Xenobiotics, pharmaceuticals and environmental chemicals",P4,0.429142564535141,0.176845945417881,-0.25229661911726,3801,428
+T cells,6_exomethylene_lovastatin_lactone_form,"Xenobiotics, pharmaceuticals and environmental chemicals",P5,0.29164642095565796,0.18023987114429474,-0.11140654981136322,268,59
+T cells,6_exomethylene_lovastatin_lactone_form,"Xenobiotics, pharmaceuticals and environmental chemicals",P6,0.40244945883750916,0.11117501556873322,-0.29127444326877594,571,123
+T cells,6_exomethylene_lovastatin_lactone_form,"Xenobiotics, pharmaceuticals and environmental chemicals",P7,0.2026255801320076,0.0936308279633522,-0.1089947521686554,238,25
+T cells,7_beta_OH_gliclazide,"Xenobiotics, pharmaceuticals and environmental chemicals",P1,0.3235683739185333,0.3007368743419647,-0.022831499576568604,263,639
+T cells,7_beta_OH_gliclazide,"Xenobiotics, pharmaceuticals and environmental chemicals",P2,0.31053218245506287,0.4883570373058319,0.17782485485076904,525,615
+T cells,7_beta_OH_gliclazide,"Xenobiotics, pharmaceuticals and environmental chemicals",P3,0.23644354194402695,0.18968269228935242,-0.04676084965467453,22,425
+T cells,7_beta_OH_gliclazide,"Xenobiotics, pharmaceuticals and environmental chemicals",P4,0.4358930289745331,0.17884042114019394,-0.25705260783433914,3801,428
+T cells,7_beta_OH_gliclazide,"Xenobiotics, pharmaceuticals and environmental chemicals",P5,0.2952571213245392,0.1829533725976944,-0.11230374872684479,268,59
+T cells,7_beta_OH_gliclazide,"Xenobiotics, pharmaceuticals and environmental chemicals",P6,0.4028283357620239,0.1124599501490593,-0.29036838561296463,571,123
+T cells,7_beta_OH_gliclazide,"Xenobiotics, pharmaceuticals and environmental chemicals",P7,0.20582088828086853,0.09522804617881775,-0.11059284210205078,238,25
+T cells,AM1_cyclosporine,"Xenobiotics, pharmaceuticals and environmental chemicals",P1,0.3244249224662781,0.2956657409667969,-0.0287591814994812,263,639
+T cells,AM1_cyclosporine,"Xenobiotics, pharmaceuticals and environmental chemicals",P2,0.3066650331020355,0.4851619005203247,0.17849686741828918,525,615
+T cells,AM1_cyclosporine,"Xenobiotics, pharmaceuticals and environmental chemicals",P3,0.23198865354061127,0.18447309732437134,-0.04751555621623993,22,425
+T cells,AM1_cyclosporine,"Xenobiotics, pharmaceuticals and environmental chemicals",P4,0.43017372488975525,0.171391062438488,-0.25878266245126724,3801,428
+T cells,AM1_cyclosporine,"Xenobiotics, pharmaceuticals and environmental chemicals",P5,0.29323433339595795,0.18227674067020416,-0.11095759272575378,268,59
+T cells,AM1_cyclosporine,"Xenobiotics, pharmaceuticals and environmental chemicals",P6,0.3998315930366516,0.10889516025781631,-0.2909364327788353,571,123
+T cells,AM1_cyclosporine,"Xenobiotics, pharmaceuticals and environmental chemicals",P7,0.20394238829612732,0.09461934864521027,-0.10932303965091705,238,25
+T cells,AM9_cyclosporine,"Xenobiotics, pharmaceuticals and environmental chemicals",P1,0.32742926478385925,0.2975272834300995,-0.029901981353759766,263,639
+T cells,AM9_cyclosporine,"Xenobiotics, pharmaceuticals and environmental chemicals",P2,0.31002476811408997,0.4929547905921936,0.18293002247810364,525,615
+T cells,AM9_cyclosporine,"Xenobiotics, pharmaceuticals and environmental chemicals",P3,0.23321987688541412,0.18721160292625427,-0.04600827395915985,22,425
+T cells,AM9_cyclosporine,"Xenobiotics, pharmaceuticals and environmental chemicals",P4,0.4317546784877777,0.1720031052827835,-0.2597515732049942,3801,428
+T cells,AM9_cyclosporine,"Xenobiotics, pharmaceuticals and environmental chemicals",P5,0.29764455556869507,0.1834503561258316,-0.11419419944286346,268,59
+T cells,AM9_cyclosporine,"Xenobiotics, pharmaceuticals and environmental chemicals",P6,0.40253946185112,0.11045505106449127,-0.2920844107866287,571,123
+T cells,AM9_cyclosporine,"Xenobiotics, pharmaceuticals and environmental chemicals",P7,0.20586863160133362,0.09548018127679825,-0.11038845032453537,238,25
+T cells,Methyl_hydroxy_gliclazide,"Xenobiotics, pharmaceuticals and environmental chemicals",P1,0.3263014853000641,0.3009478747844696,-0.025353610515594482,263,639
+T cells,Methyl_hydroxy_gliclazide,"Xenobiotics, pharmaceuticals and environmental chemicals",P2,0.30921515822410583,0.48643720149993896,0.17722204327583313,525,615
+T cells,Methyl_hydroxy_gliclazide,"Xenobiotics, pharmaceuticals and environmental chemicals",P3,0.2367478534579277,0.18918465077877045,-0.04756320267915726,22,425
+T cells,Methyl_hydroxy_gliclazide,"Xenobiotics, pharmaceuticals and environmental chemicals",P4,0.4365575909614563,0.18110857158899307,-0.2554490193724632,3801,428
+T cells,Methyl_hydroxy_gliclazide,"Xenobiotics, pharmaceuticals and environmental chemicals",P5,0.29629723727703094,0.18367308378219604,-0.1126241534948349,268,59
+T cells,Methyl_hydroxy_gliclazide,"Xenobiotics, pharmaceuticals and environmental chemicals",P6,0.40399450063705444,0.11279207468032837,-0.2912024259567261,571,123
+T cells,Methyl_hydroxy_gliclazide,"Xenobiotics, pharmaceuticals and environmental chemicals",P7,0.2063099667429924,0.09496279805898666,-0.11134716868400574,238,25
+T cells,pitavastatin_M13,"Xenobiotics, pharmaceuticals and environmental chemicals",P1,0.3043263256549835,0.2821766436100006,-0.02214968204498291,263,639
+T cells,pitavastatin_M13,"Xenobiotics, pharmaceuticals and environmental chemicals",P2,0.2819390296936035,0.4503370225429535,0.16839799284934998,525,615
+T cells,pitavastatin_M13,"Xenobiotics, pharmaceuticals and environmental chemicals",P3,0.21791841089725494,0.16464826464653015,-0.05327014625072479,22,425
+T cells,pitavastatin_M13,"Xenobiotics, pharmaceuticals and environmental chemicals",P4,0.4138556122779846,0.169155515730381,-0.2447000965476036,3801,428
+T cells,pitavastatin_M13,"Xenobiotics, pharmaceuticals and environmental chemicals",P5,0.2753540426492691,0.16713635623455048,-0.10821768641471863,268,59
+T cells,pitavastatin_M13,"Xenobiotics, pharmaceuticals and environmental chemicals",P6,0.3887845277786255,0.10047981142997742,-0.28830471634864807,571,123
+T cells,pitavastatin_M13,"Xenobiotics, pharmaceuticals and environmental chemicals",P7,0.18669166415929794,0.08204050362110138,-0.10465116053819656,238,25
+T cells,protein_N_terminal,"Peptides, proteins and post-translational intermediates",P1,0.2768993675708771,0.18150311708450317,-0.0953962504863739,263,639
+T cells,protein_N_terminal,"Peptides, proteins and post-translational intermediates",P2,0.20021894574165344,0.3801249563694,0.17990601062774658,525,615
+T cells,protein_N_terminal,"Peptides, proteins and post-translational intermediates",P3,0.13139110803604126,0.09265788644552231,-0.03873322159051895,22,425
+T cells,protein_N_terminal,"Peptides, proteins and post-translational intermediates",P4,0.26596692204475403,0.09196487441658974,-0.1740020476281643,3801,428
+T cells,protein_N_terminal,"Peptides, proteins and post-translational intermediates",P5,0.2051929607987404,0.09564463049173355,-0.10954833030700684,268,59
+T cells,protein_N_terminal,"Peptides, proteins and post-translational intermediates",P6,0.21495380997657776,0.04179548844695091,-0.17315832152962685,571,123
+T cells,protein_N_terminal,"Peptides, proteins and post-translational intermediates",P7,0.11466469615697861,0.04084257036447525,-0.07382212579250336,238,25
+T cells,S_3_hydroxybutanoate,Carbohydrates and central carbon metabolites,P1,0.312799334526062,0.28222763538360596,-0.030571699142456055,263,639
+T cells,S_3_hydroxybutanoate,Carbohydrates and central carbon metabolites,P2,0.29716020822525024,0.5034147500991821,0.20625454187393188,525,615
+T cells,S_3_hydroxybutanoate,Carbohydrates and central carbon metabolites,P3,0.21373184025287628,0.17228123545646667,-0.04145060479640961,22,425
+T cells,S_3_hydroxybutanoate,Carbohydrates and central carbon metabolites,P4,0.4024822413921356,0.1593635380268097,-0.24311870336532593,3801,428
+T cells,S_3_hydroxybutanoate,Carbohydrates and central carbon metabolites,P5,0.3004654496908188,0.16471807658672333,-0.13574737310409546,268,59
+T cells,S_3_hydroxybutanoate,Carbohydrates and central carbon metabolites,P6,0.4204275608062744,0.10061712563037872,-0.3198104351758957,571,123
+T cells,S_3_hydroxybutanoate,Carbohydrates and central carbon metabolites,P7,0.1924610659480095,0.08449079841375351,-0.10797026753425598,238,25
+T cells,R_2_hydroxyglutarate,Carbohydrates and central carbon metabolites,P1,0.312799334526062,0.28222763538360596,-0.030571699142456055,263,639
+T cells,R_2_hydroxyglutarate,Carbohydrates and central carbon metabolites,P2,0.29716020822525024,0.5034147500991821,0.20625454187393188,525,615
+T cells,R_2_hydroxyglutarate,Carbohydrates and central carbon metabolites,P3,0.21373184025287628,0.17228123545646667,-0.04145060479640961,22,425
+T cells,R_2_hydroxyglutarate,Carbohydrates and central carbon metabolites,P4,0.4024822413921356,0.1593635380268097,-0.24311870336532593,3801,428
+T cells,R_2_hydroxyglutarate,Carbohydrates and central carbon metabolites,P5,0.3004654496908188,0.16471807658672333,-0.13574737310409546,268,59
+T cells,R_2_hydroxyglutarate,Carbohydrates and central carbon metabolites,P6,0.4204275608062744,0.10061712563037872,-0.3198104351758957,571,123
+T cells,R_2_hydroxyglutarate,Carbohydrates and central carbon metabolites,P7,0.1924610659480095,0.08449079841375351,-0.10797026753425598,238,25
+T cells,all_trans_4_hydroxyretinol,"Vitamins, cofactors, retinoids and isoprenoids",P1,0.32359206676483154,0.28669875860214233,-0.03689330816268921,263,639
+T cells,all_trans_4_hydroxyretinol,"Vitamins, cofactors, retinoids and isoprenoids",P2,0.309088796377182,0.5169786810874939,0.2078898847103119,525,615
+T cells,all_trans_4_hydroxyretinol,"Vitamins, cofactors, retinoids and isoprenoids",P3,0.22607764601707458,0.18612200021743774,-0.03995564579963684,22,425
+T cells,all_trans_4_hydroxyretinol,"Vitamins, cofactors, retinoids and isoprenoids",P4,0.40592876076698303,0.16976279765367508,-0.23616596311330795,3801,428
+T cells,all_trans_4_hydroxyretinol,"Vitamins, cofactors, retinoids and isoprenoids",P5,0.3083219826221466,0.18308952450752258,-0.12523245811462402,268,59
+T cells,all_trans_4_hydroxyretinol,"Vitamins, cofactors, retinoids and isoprenoids",P6,0.4426107108592987,0.10553725063800812,-0.3370734602212906,571,123
+T cells,all_trans_4_hydroxyretinol,"Vitamins, cofactors, retinoids and isoprenoids",P7,0.20679199695587158,0.09251289069652557,-0.11427910625934601,238,25
+T cells,all_trans_4_hydroxyretinal,"Vitamins, cofactors, retinoids and isoprenoids",P1,0.32359206676483154,0.28669875860214233,-0.03689330816268921,263,639
+T cells,all_trans_4_hydroxyretinal,"Vitamins, cofactors, retinoids and isoprenoids",P2,0.309088796377182,0.5169786810874939,0.2078898847103119,525,615
+T cells,all_trans_4_hydroxyretinal,"Vitamins, cofactors, retinoids and isoprenoids",P3,0.22607764601707458,0.18612200021743774,-0.03995564579963684,22,425
+T cells,all_trans_4_hydroxyretinal,"Vitamins, cofactors, retinoids and isoprenoids",P4,0.40592876076698303,0.16976279765367508,-0.23616596311330795,3801,428
+T cells,all_trans_4_hydroxyretinal,"Vitamins, cofactors, retinoids and isoprenoids",P5,0.3083219826221466,0.18308952450752258,-0.12523245811462402,268,59
+T cells,all_trans_4_hydroxyretinal,"Vitamins, cofactors, retinoids and isoprenoids",P6,0.4426107108592987,0.10553725063800812,-0.3370734602212906,571,123
+T cells,all_trans_4_hydroxyretinal,"Vitamins, cofactors, retinoids and isoprenoids",P7,0.20679199695587158,0.09251289069652557,-0.11427910625934601,238,25
+T cells,all_trans_4_oxoretinal,"Vitamins, cofactors, retinoids and isoprenoids",P1,0.3153623044490814,0.28158020973205566,-0.03378209471702576,263,639
+T cells,all_trans_4_oxoretinal,"Vitamins, cofactors, retinoids and isoprenoids",P2,0.30165088176727295,0.5088562369346619,0.20720535516738892,525,615
+T cells,all_trans_4_oxoretinal,"Vitamins, cofactors, retinoids and isoprenoids",P3,0.22285659611225128,0.1782648265361786,-0.04459176957607269,22,425
+T cells,all_trans_4_oxoretinal,"Vitamins, cofactors, retinoids and isoprenoids",P4,0.3987364172935486,0.1655273661017418,-0.2332090511918068,3801,428
+T cells,all_trans_4_oxoretinal,"Vitamins, cofactors, retinoids and isoprenoids",P5,0.29890070855617523,0.17431838810443878,-0.12458232045173645,268,59
+T cells,all_trans_4_oxoretinal,"Vitamins, cofactors, retinoids and isoprenoids",P6,0.4324530363082886,0.10281326621770859,-0.32963977009058,571,123
+T cells,all_trans_4_oxoretinal,"Vitamins, cofactors, retinoids and isoprenoids",P7,0.19907844066619873,0.08978243917226791,-0.10929600149393082,238,25

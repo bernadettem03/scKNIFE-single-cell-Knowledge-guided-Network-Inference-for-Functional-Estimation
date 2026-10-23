@@ -1,130 +1,226 @@
 edge_type,source,target,raw_value,sign,cell_count,plot_width
-NG_to_CC_association,NG1,CC1,2.104960194298519,positive,,1.3108305239169016
-NG_to_CC_association,NG1,CC2,-0.5880976090341495,negative,,0.4527020557335516
-NG_to_CC_association,NG1,CC3,-0.10080790484285643,negative,,0.17702964382135933
-NG_to_CC_association,NG1,CC4,-1.0865151204258,negative,,0.7346697565135999
-NG_to_CC_association,NG1,CC5,-0.6288798077094935,negative,,0.47577360223907933
-NG_to_CC_association,NG1,CC6,-0.27782024055617477,negative,,0.27717010873285475
-NG_to_CC_association,NG1,CC7,0.45547563146727643,positive,,0.37767436663205506
-NG_to_CC_association,NG1,CC8,0.1216848568026786,positive,,0.18884027649148827
-NG_to_CC_association,NG2,CC1,-0.2278149536961839,negative,,0.24888082226017522
-NG_to_CC_association,NG2,CC2,2.00518494251782,positive,,1.2543850786900639
-NG_to_CC_association,NG2,CC3,-0.0372925172998424,negative,,0.1410973433296447
-NG_to_CC_association,NG2,CC4,-1.3843353831508893,negative,,0.9031543960115818
-NG_to_CC_association,NG2,CC5,-0.3354148980299386,negative,,0.3097528988112927
-NG_to_CC_association,NG2,CC6,-0.2892000592294385,negative,,0.2836079670208486
-NG_to_CC_association,NG2,CC7,0.08120165655992485,positive,,0.16593788114667896
-NG_to_CC_association,NG2,CC8,0.18767121232854805,positive,,0.2261704675968001
-NG_to_CC_association,NG3,CC1,-0.1096841777240674,negative,,0.18205118138496365
-NG_to_CC_association,NG3,CC2,-0.2864572825882323,negative,,0.28205630720633934
-NG_to_CC_association,NG3,CC3,2.3863145974424986,positive,,1.4700000000000002
-NG_to_CC_association,NG3,CC4,-1.0012207435320832,negative,,0.6864165174268823
-NG_to_CC_association,NG3,CC5,-0.6190763619164821,negative,,0.4702275389351254
-NG_to_CC_association,NG3,CC6,-0.207979062161442,negative,,0.23765914444761815
-NG_to_CC_association,NG3,CC7,-0.04837059179042179,negative,,0.14736449711494626
-NG_to_CC_association,NG3,CC8,-0.11352637772976973,negative,,0.18422481348412495
-NG_to_CC_association,NG4,CC1,0.24593506131573334,positive,,0.25913183665392225
-NG_to_CC_association,NG4,CC2,-0.5002775263619386,negative,,0.4030199594439229
-NG_to_CC_association,NG4,CC3,-0.5446434766607895,negative,,0.4281189271021015
-NG_to_CC_association,NG4,CC4,1.8287874971959774,positive,,1.154592473205562
-NG_to_CC_association,NG4,CC5,-0.3699166561259127,negative,,0.32927143734744535
-NG_to_CC_association,NG4,CC6,-0.38199566510367666,negative,,0.33610484570754084
-NG_to_CC_association,NG4,CC7,-0.2063186055896343,negative,,0.23671978114055764
-NG_to_CC_association,NG4,CC8,-0.07157062866975918,negative,,0.16048935911791617
-NG_to_CC_association,NG5*,CC1,-0.09658519192569019,negative,,0.1746407457086444
-NG_to_CC_association,NG5*,CC2,-0.6172508741264109,negative,,0.46919481319173967
-NG_to_CC_association,NG5*,CC3,-0.2878011991694301,negative,,0.28281659563878725
-NG_to_CC_association,NG5*,CC4,-1.0267574524268976,negative,,0.7008632953349364
-NG_to_CC_association,NG5*,CC5,2.201906767285772,positive,,1.3656757122558818
-NG_to_CC_association,NG5*,CC6,-0.023189898585937462,negative,,0.13311912650769842
-NG_to_CC_association,NG5*,CC7,-0.07850014690155212,negative,,0.1644095671336348
-NG_to_CC_association,NG5*,CC8,-0.0718220041498539,negative,,0.16063156874044104
-NG_to_CC_association,NG6,CC1,-0.030845940269162653,negative,,0.1374503476649721
-NG_to_CC_association,NG6,CC2,-0.561625685428494,negative,,0.43772620263105805
-NG_to_CC_association,NG6,CC3,-0.1933336625266928,negative,,0.2293738623946562
-NG_to_CC_association,NG6,CC4,-0.8898052301127942,negative,,0.6233858745781811
-NG_to_CC_association,NG6,CC5,-0.318309602701793,negative,,0.3000759900257766
-NG_to_CC_association,NG6,CC6,2.342353497814412,positive,,1.4451300668564313
-NG_to_CC_association,NG6,CC7,-0.18528518616927414,negative,,0.22482063077374584
-NG_to_CC_association,NG6,CC8,-0.16314819060620137,negative,,0.21229715878804162
-NG_to_CC_association,NG7,CC1,0.007337916830405485,positive,,0.12415124968504329
-NG_to_CC_association,NG7,CC2,-0.41359354417269545,negative,,0.3539805846352131
-NG_to_CC_association,NG7,CC3,-0.3026329845805799,negative,,0.2912073209549344
-NG_to_CC_association,NG7,CC4,-0.9675395380090619,negative,,0.6673621867427342
-NG_to_CC_association,NG7,CC5,-0.3227898317986001,negative,,0.3026105717138624
-NG_to_CC_association,NG7,CC6,-0.09418731990614708,negative,,0.17328420737549566
-NG_to_CC_association,NG7,CC7,2.302190770567914,positive,,1.4224089713894372
-NG_to_CC_association,NG7,CC8,-0.20878546893123523,negative,,0.23811534965224107
-NG_to_CC_association,NG8,CC1,-0.16464543568642603,negative,,0.21314418912531127
-NG_to_CC_association,NG8,CC2,-0.6253038853877037,negative,,0.4737506103252764
-NG_to_CC_association,NG8,CC3,-0.2818336263571505,negative,,0.27944058507202807
-NG_to_CC_association,NG8,CC4,-1.1750517092415895,negative,,0.7847571988941707
-NG_to_CC_association,NG8,CC5,-0.24203598257654751,negative,,0.2569260267814343
-NG_to_CC_association,NG8,CC6,-0.20494425579229159,negative,,0.23594227584917604
-NG_to_CC_association,NG8,CC7,0.8725253223132231,positive,,0.6136101829931644
-NG_to_CC_association,NG8,CC8,1.8212895727284857,positive,,1.1503507030542321
-CC_to_celltype_association,CC1,Epithelial progenitor,-0.39741774474439057,negative,,0.38904247593604835
-CC_to_celltype_association,CC1,Epithelial luminal,-0.6542533996107315,negative,,0.562914179974679
-CC_to_celltype_association,CC1,Epithelial basal,-0.23026249276593874,negative,,0.27588229762815336
-CC_to_celltype_association,CC1,Epithelial cycling,-0.6893177157955758,negative,,0.5866518982022396
-CC_to_celltype_association,CC1,IFN-response epithelial,1.9712513529166362,positive,,1.4544908517411201
-CC_to_celltype_association,CC2,Epithelial progenitor,-0.6695768211400366,negative,,0.5732877763290833
-CC_to_celltype_association,CC2,Epithelial luminal,-1.039698087839498,negative,,0.8238511779543829
-CC_to_celltype_association,CC2,Epithelial basal,0.13298796334222449,positive,,0.21002972665525277
-CC_to_celltype_association,CC2,Epithelial cycling,-0.2632053515131395,negative,,0.2981838390136768
-CC_to_celltype_association,CC2,IFN-response epithelial,1.8394922971504466,positive,,1.3652930666418883
-CC_to_celltype_association,CC3,Epithelial progenitor,-0.3826679594497205,negative,,0.3790572178350154
-CC_to_celltype_association,CC3,Epithelial luminal,-1.4367486713144788,negative,,1.0926450943374266
-CC_to_celltype_association,CC3,Epithelial basal,0.026063712142874798,positive,,0.13764452075866312
-CC_to_celltype_association,CC3,Epithelial cycling,0.12837253968243556,positive,,0.20690519327609508
-CC_to_celltype_association,CC3,IFN-response epithelial,1.6649803789388875,positive,,1.2471525981376828
-CC_to_celltype_association,CC4,Epithelial progenitor,-0.8916223269577007,negative,,0.723607366849833
-CC_to_celltype_association,CC4,Epithelial luminal,-0.8766130868928631,negative,,0.7134464639652381
-CC_to_celltype_association,CC4,Epithelial basal,1.761088469435549,positive,,1.312215517362234
-CC_to_celltype_association,CC4,Epithelial cycling,0.41290279278729425,positive,,0.399525489642774
-CC_to_celltype_association,CC4,IFN-response epithelial,-0.4057558483722811,negative,,0.39468717618993826
-CC_to_celltype_association,CC5,Epithelial progenitor,1.3890542221057784,positive,,1.0603570727953389
-CC_to_celltype_association,CC5,Epithelial luminal,0.9496291183692319,positive,,0.7628766017766776
-CC_to_celltype_association,CC5,Epithelial basal,-0.6315679930426061,negative,,0.5475566927174609
-CC_to_celltype_association,CC5,Epithelial cycling,-0.458125396935527,negative,,0.4301401301544647
-CC_to_celltype_association,CC5,IFN-response epithelial,-1.2489899504968751,negative,,0.9655368517000893
-CC_to_celltype_association,CC6,Epithelial progenitor,0.11300211528964438,positive,,0.1964997770874342
-CC_to_celltype_association,CC6,Epithelial luminal,-0.7963203438613939,negative,,0.6590901633959786
-CC_to_celltype_association,CC6,Epithelial basal,-0.5471174373249489,negative,,0.49038565064668677
-CC_to_celltype_association,CC6,Epithelial cycling,1.899114436595269,positive,,1.4056558542349697
-CC_to_celltype_association,CC6,IFN-response epithelial,-0.6686787706985704,negative,,0.5726798172797386
-CC_to_celltype_association,CC7,Epithelial progenitor,1.99416078646428,positive,,1.4700000000000002
-CC_to_celltype_association,CC7,Epithelial luminal,-0.5550330432918354,negative,,0.4957443299105809
-CC_to_celltype_association,CC7,Epithelial basal,-0.3792061716572,negative,,0.3767136688335386
-CC_to_celltype_association,CC7,Epithelial cycling,-0.5997708461994634,negative,,0.5260307713726969
-CC_to_celltype_association,CC7,IFN-response epithelial,-0.46015072531578083,negative,,0.4315112298831834
-CC_to_celltype_association,CC8,Epithelial progenitor,0.13110020248643142,positive,,0.20875175690847064
-CC_to_celltype_association,CC8,Epithelial luminal,1.8993479532148327,positive,,1.4058139394999851
-CC_to_celltype_association,CC8,Epithelial basal,-0.6855459444115924,negative,,0.5840984975923492
-CC_to_celltype_association,CC8,Epithelial cycling,-0.6508193158259918,negative,,0.5605893859355693
-CC_to_celltype_association,CC8,IFN-response epithelial,-0.6940828954636811,negative,,0.589877812880538
-celltype_to_patient_count,Epithelial progenitor,P1,7972.0,observed_count,7972.0,3.0
-celltype_to_patient_count,Epithelial progenitor,P2,4336.0,observed_count,4336.0,2.810230052472316
-celltype_to_patient_count,Epithelial progenitor,P3,3762.0,observed_count,3762.0,2.765983177413931
-celltype_to_patient_count,Epithelial progenitor,P4,1857.0,observed_count,1857.0,2.5460316095423354
-celltype_to_patient_count,Epithelial progenitor,P5,6144.0,observed_count,6144.0,2.918833840288446
-celltype_to_patient_count,Epithelial progenitor,P6,106.0,observed_count,106.0,1.6563878615330134
-celltype_to_patient_count,Epithelial progenitor,P7,3173.0,observed_count,3173.0,2.712929231891101
-celltype_to_patient_count,Epithelial luminal,P1,1.0,observed_count,1.0,0.41603426442209557
-celltype_to_patient_count,Epithelial luminal,P2,21.0,observed_count,21.0,1.1633900294729436
-celltype_to_patient_count,Epithelial luminal,P3,813.0,observed_count,813.0,2.288810455357804
-celltype_to_patient_count,Epithelial luminal,P4,11.0,observed_count,11.0,0.9744747368240914
-celltype_to_patient_count,Epithelial luminal,P5,4.0,observed_count,4.0,0.7016160280199892
-celltype_to_patient_count,Epithelial luminal,P6,5242.0,observed_count,5242.0,2.8693575726499416
-celltype_to_patient_count,Epithelial luminal,P7,101.0,observed_count,101.0,1.6414725006641615
-celltype_to_patient_count,Epithelial basal,P1,2.0,observed_count,2.0,0.5424062079799001
-celltype_to_patient_count,Epithelial basal,P3,765.0,observed_count,765.0,2.2698676199967123
-celltype_to_patient_count,Epithelial basal,P5,3.0,observed_count,3.0,0.6320685288441912
-celltype_to_patient_count,Epithelial basal,P7,2.0,observed_count,2.0,0.5424062079799001
-celltype_to_patient_count,Epithelial cycling,P3,14.0,observed_count,14.0,1.0440222359998892
-celltype_to_patient_count,Epithelial cycling,P5,2162.0,observed_count,2162.0,2.593404286486345
-celltype_to_patient_count,Epithelial cycling,P7,1.0,observed_count,1.0,0.41603426442209557
-celltype_to_patient_count,IFN-response epithelial,P2,1.0,observed_count,1.0,0.41603426442209557
-celltype_to_patient_count,IFN-response epithelial,P3,1.0,observed_count,1.0,0.41603426442209557
-celltype_to_patient_count,IFN-response epithelial,P4,7079.0,observed_count,7079.0,2.9629774932928146
-celltype_to_patient_count,IFN-response epithelial,P5,1.0,observed_count,1.0,0.41603426442209557
+NG_to_CC_association,NG1,CC1,2.300729821071911,positive,,1.3826890226895925
+NG_to_CC_association,NG1,CC2,-0.6754317844198156,negative,,0.49069120065788363
+NG_to_CC_association,NG1,CC3,-0.14902350267700773,negative,,0.2017872395226929
+NG_to_CC_association,NG1,CC4,-0.5449331566065431,negative,,0.41907080294464705
+NG_to_CC_association,NG1,CC5,0.2005629609595471,positive,,0.23007318062394339
+NG_to_CC_association,NG1,CC6,0.14588245690505,positive,,0.2000633673932098
+NG_to_CC_association,NG1,CC7,-0.055599448221751044,negative,,0.1505141491600674
+NG_to_CC_association,NG1,CC8,-0.27777787612610316,negative,,0.27245035367388193
+NG_to_CC_association,NG1,CC9,-0.9444094708852877,negative,,0.638311824747573
+NG_to_CC_association,NG2,CC1,-0.47736971046677984,negative,,0.38199055953909505
+NG_to_CC_association,NG2,CC2,2.35634116474892,positive,,1.4132097003262487
+NG_to_CC_association,NG2,CC3,-0.009746414254993382,negative,,0.12534903758696525
+NG_to_CC_association,NG2,CC4,-0.5865807916500633,negative,,0.44192790294343554
+NG_to_CC_association,NG2,CC5,-0.11931588570654114,negative,,0.18548307312500673
+NG_to_CC_association,NG2,CC6,0.1598692341065623,positive,,0.20773960554746917
+NG_to_CC_association,NG2,CC7,0.3050010835700013,positive,,0.28739102375473335
+NG_to_CC_association,NG2,CC8,-0.700086753734842,negative,,0.5042223675179405
+NG_to_CC_association,NG2,CC9,-0.9281119266122637,negative,,0.6293673889160083
+NG_to_CC_association,NG3,CC1,-0.12166021531358351,negative,,0.186769690629273
+NG_to_CC_association,NG3,CC2,-0.4845987474165474,negative,,0.38595800739737346
+NG_to_CC_association,NG3,CC3,2.3891593299631486,positive,,1.4312210011670898
+NG_to_CC_association,NG3,CC4,-0.5738496325376323,negative,,0.43494077446352924
+NG_to_CC_association,NG3,CC5,0.054681741069082336,positive,,0.15001049213041293
+NG_to_CC_association,NG3,CC6,-0.005043323821132735,negative,,0.12276788242082519
+NG_to_CC_association,NG3,CC7,-0.009329442005831528,negative,,0.12512019442730318
+NG_to_CC_association,NG3,CC8,-0.39341014955448184,negative,,0.33591178273408784
+NG_to_CC_association,NG3,CC9,-0.8559495603830216,negative,,0.5897631612251106
+NG_to_CC_association,NG4,CC1,-0.12871195524597673,negative,,0.19063983414718783
+NG_to_CC_association,NG4,CC2,-0.6480660896330955,negative,,0.47567233051981317
+NG_to_CC_association,NG4,CC3,-0.07080395349421345,negative,,0.15885870214804912
+NG_to_CC_association,NG4,CC4,2.0985289802965506,positive,,1.2717169390980034
+NG_to_CC_association,NG4,CC5,-0.15663134028986875,negative,,0.20596258116958346
+NG_to_CC_association,NG4,CC6,0.230146614235958,positive,,0.2463093131333118
+NG_to_CC_association,NG4,CC7,0.2504184583077341,positive,,0.25743492846835414
+NG_to_CC_association,NG4,CC8,-0.6956241535823245,negative,,0.5017731984874754
+NG_to_CC_association,NG4,CC9,-0.8792565605947635,negative,,0.6025545342275604
+NG_to_CC_association,NG5,CC1,-0.25192354894418256,negative,,0.2582609539353127
+NG_to_CC_association,NG5,CC2,-0.6073901008873317,negative,,0.45334849049048187
+NG_to_CC_association,NG5,CC3,-0.09051370796045277,negative,,0.16967583085933455
+NG_to_CC_association,NG5,CC4,-0.4548618194501575,negative,,0.3696377545072806
+NG_to_CC_association,NG5,CC5,2.419097163527644,positive,,1.4476515152842944
+NG_to_CC_association,NG5,CC6,-0.05147415252916006,negative,,0.14825009992722157
+NG_to_CC_association,NG5,CC7,0.3369314877189324,positive,,0.30491510260989996
+NG_to_CC_association,NG5,CC8,-0.5480055154883126,negative,,0.4207569782609498
+NG_to_CC_association,NG5,CC9,-0.7518598059869795,negative,,0.5326365099136134
+NG_to_CC_association,NG6,CC1,-0.15068879960387022,negative,,0.20270118957880523
+NG_to_CC_association,NG6,CC2,-0.4941300403195231,negative,,0.391188981851827
+NG_to_CC_association,NG6,CC3,0.1515192420792638,positive,,0.20315695391412647
+NG_to_CC_association,NG6,CC4,-0.5277294682403679,negative,,0.4096290561342279
+NG_to_CC_association,NG6,CC5,0.31094301003576336,positive,,0.2906520782484987
+NG_to_CC_association,NG6,CC6,2.3456756913420147,positive,,1.4073562637039458
+NG_to_CC_association,NG6,CC7,0.23542012777777793,positive,,0.24920352852499938
+NG_to_CC_association,NG6,CC8,-0.847850051246186,negative,,0.5853179798819612
+NG_to_CC_association,NG6,CC9,-1.0231597118248719,negative,,0.6815316169447487
+NG_to_CC_association,NG7,CC1,-0.34755889991567673,negative,,0.31074765043777774
+NG_to_CC_association,NG7,CC2,-0.4040293508417836,negative,,0.3417398242417864
+NG_to_CC_association,NG7,CC3,0.026395278444631208,positive,,0.13448628519420983
+NG_to_CC_association,NG7,CC4,-0.5500834522639411,negative,,0.4218973937640647
+NG_to_CC_association,NG7,CC5,0.05591541189936009,positive,,0.15068755668651032
+NG_to_CC_association,NG7,CC6,0.2782274258535471,positive,,0.27269707604032306
+NG_to_CC_association,NG7,CC7,2.4598180570471513,positive,,1.4700000000000002
+NG_to_CC_association,NG7,CC8,-0.588712034086703,negative,,0.4430975737169388
+NG_to_CC_association,NG7,CC9,-0.9299724361365851,negative,,0.6303884757604755
+NG_to_CC_association,NG8,CC1,-0.24406481733760638,negative,,0.25394791637609837
+NG_to_CC_association,NG8,CC2,-0.5744510213645804,negative,,0.43527082932838157
+NG_to_CC_association,NG8,CC3,-0.20037439470963375,negative,,0.22996969149121926
+NG_to_CC_association,NG8,CC4,-0.3964127302220527,negative,,0.3375596622955894
+NG_to_CC_association,NG8,CC5,0.579010362292721,positive,,0.43777309173569906
+NG_to_CC_association,NG8,CC6,-0.18012932042543878,negative,,0.21885876797987952
+NG_to_CC_association,NG8,CC7,-0.03812134720287607,negative,,0.1409217989015259
+NG_to_CC_association,NG8,CC8,2.0439527322535826,positive,,1.2417643437640007
+NG_to_CC_association,NG8,CC9,-0.9894094632841159,negative,,0.6630087691270058
+NG_to_CC_association,NG9,CC1,-0.11141907495086226,negative,,0.18114913692609777
+NG_to_CC_association,NG9,CC2,-0.5971377723879592,negative,,0.4477217965020786
+NG_to_CC_association,NG9,CC3,0.8448852154232271,positive,,0.5836908154868029
+NG_to_CC_association,NG9,CC4,-0.42586625411528445,negative,,0.3537243770564831
+NG_to_CC_association,NG9,CC5,-0.2682006747811671,negative,,0.26719418369878045
+NG_to_CC_association,NG9,CC6,-0.3015593103046851,negative,,0.2855021060378862
+NG_to_CC_association,NG9,CC7,0.19518618676202454,positive,,0.22712229360778374
+NG_to_CC_association,NG9,CC8,-0.2971702035819989,negative,,0.2830932717508743
+NG_to_CC_association,NG9,CC9,0.9612818879367057,positive,,0.647571762877614
+CC_to_celltype_association,CC1,Cancer Basal SC — Interferon Alpha Response,2.2604506100783968,positive,,1.327504044490606
+CC_to_celltype_association,CC1,Cancer Cycling — E2F Targets,0.44005469899923266,positive,,0.3550716385792835
+CC_to_celltype_association,CC1,Luminal Progenitors,0.3567617766768505,positive,,0.3105776159568515
+CC_to_celltype_association,CC1,Myoepithelial,-0.9348574091067189,negative,,0.6193889702722687
+CC_to_celltype_association,CC1,Cancer Her2 SC,-0.7094108240493663,negative,,0.498958264084927
+CC_to_celltype_association,CC1,Epithelial,0.0265984551442854,positive,,0.13420855736494622
+CC_to_celltype_association,CC1,Mature Luminal,0.46753769679615903,positive,,0.36975270740978716
+CC_to_celltype_association,CC1,Cancer LumA SC,-1.2313560053045067,negative,,0.7777747595915934
+CC_to_celltype_association,CC1,Cancer LumB SC,-0.6757789992343309,negative,,0.48099256985268446
+CC_to_celltype_association,CC2,Cancer Basal SC — Interferon Alpha Response,-0.1509812214376834,negative,,0.20065225345569998
+CC_to_celltype_association,CC2,Cancer Cycling — E2F Targets,2.5272033973958057,positive,,1.4700000000000002
+CC_to_celltype_association,CC2,Luminal Progenitors,-0.15401615933844084,negative,,0.20227347878732327
+CC_to_celltype_association,CC2,Myoepithelial,-0.2538079945959494,negative,,0.2555810114285265
+CC_to_celltype_association,CC2,Cancer Her2 SC,-0.6622404739991287,negative,,0.4737604613938414
+CC_to_celltype_association,CC2,Epithelial,0.5988270362464257,positive,,0.43988580727840093
+CC_to_celltype_association,CC2,Mature Luminal,-0.6480270462772612,negative,,0.4661678285870425
+CC_to_celltype_association,CC2,Cancer LumA SC,-0.1308635864022749,negative,,0.18990566799060143
+CC_to_celltype_association,CC2,Cancer LumB SC,-1.126093951591489,negative,,0.7215451056353638
+CC_to_celltype_association,CC3,Cancer Basal SC — Interferon Alpha Response,-1.023472168130748,negative,,0.6667258505588787
+CC_to_celltype_association,CC3,Cancer Cycling — E2F Targets,0.9518423326955323,positive,,0.628462101017711
+CC_to_celltype_association,CC3,Luminal Progenitors,0.22533178503783194,positive,,0.24036938147303
+CC_to_celltype_association,CC3,Myoepithelial,1.2362644152876956,positive,,0.7803967699466495
+CC_to_celltype_association,CC3,Cancer Her2 SC,0.8513936638487768,positive,,0.574803696204368
+CC_to_celltype_association,CC3,Epithelial,0.16815783865685086,positive,,0.20982778450704748
+CC_to_celltype_association,CC3,Mature Luminal,-1.7748908652127728,negative,,1.0681241875926344
+CC_to_celltype_association,CC3,Cancer LumA SC,-1.1427271089228879,negative,,0.7304303273078764
+CC_to_celltype_association,CC3,Cancer LumB SC,0.5081001067397214,positive,,0.3914206323105833
+CC_to_celltype_association,CC4,Cancer Basal SC — Interferon Alpha Response,0.3135866080748751,positive,,0.28751398852079746
+CC_to_celltype_association,CC4,Cancer Cycling — E2F Targets,0.1900093178545945,positive,,0.22150056753169522
+CC_to_celltype_association,CC4,Luminal Progenitors,0.4670576320674488,positive,,0.369496262920821
+CC_to_celltype_association,CC4,Myoepithelial,-0.08496438525511689,negative,,0.16538689692036823
+CC_to_celltype_association,CC4,Cancer Her2 SC,1.0310166717728202,positive,,0.6707560287104644
+CC_to_celltype_association,CC4,Epithelial,-1.225014018923168,negative,,0.7743869509080384
+CC_to_celltype_association,CC4,Mature Luminal,-0.45676870299303135,negative,,0.364000047513396
+CC_to_celltype_association,CC4,Cancer LumA SC,1.5913847324175263,positive,,0.9700975390336528
+CC_to_celltype_association,CC4,Cancer LumB SC,-1.8263078550159506,negative,,1.0955904913756291
+CC_to_celltype_association,CC5,Cancer Basal SC — Interferon Alpha Response,2.037357572848343,positive,,1.208330573700355
+CC_to_celltype_association,CC5,Cancer Cycling — E2F Targets,0.8783512453765374,positive,,0.5892040943282303
+CC_to_celltype_association,CC5,Luminal Progenitors,0.4144825696113455,positive,,0.3414113314155539
+CC_to_celltype_association,CC5,Myoepithelial,-1.4299741228915601,negative,,0.8838740387468942
+CC_to_celltype_association,CC5,Cancer Her2 SC,-0.6568229371992277,negative,,0.4708664819510301
+CC_to_celltype_association,CC5,Epithelial,0.004718305818075392,positive,,0.12252045912132183
+CC_to_celltype_association,CC5,Mature Luminal,0.2149813645267676,positive,,0.23484031812010175
+CC_to_celltype_association,CC5,Cancer LumA SC,-1.1271944263673592,negative,,0.7221329653022809
+CC_to_celltype_association,CC5,Cancer LumB SC,-0.3358995717229168,negative,,0.29943329068535474
+CC_to_celltype_association,CC6,Cancer Basal SC — Interferon Alpha Response,1.7573374157505064,positive,,1.0587473575367397
+CC_to_celltype_association,CC6,Cancer Cycling — E2F Targets,1.293168386262686,positive,,0.810794149475103
+CC_to_celltype_association,CC6,Luminal Progenitors,0.3601235333024903,positive,,0.31237342370595883
+CC_to_celltype_association,CC6,Myoepithelial,-0.31457519419937713,negative,,0.2880420786893423
+CC_to_celltype_association,CC6,Cancer Her2 SC,0.19343947902921643,positive,,0.2233329161232298
+CC_to_celltype_association,CC6,Epithelial,-0.9456658335755473,negative,,0.6251626935301412
+CC_to_celltype_association,CC6,Mature Luminal,-0.4456902683533078,negative,,0.35808208824702337
+CC_to_celltype_association,CC6,Cancer LumA SC,-1.6835851594546114,negative,,1.0193498376924497
+CC_to_celltype_association,CC6,Cancer LumB SC,-0.21455235876206016,negative,,0.23461114868207716
+CC_to_celltype_association,CC7,Cancer Basal SC — Interferon Alpha Response,0.5354789284351188,positive,,0.40604605158901336
+CC_to_celltype_association,CC7,Cancer Cycling — E2F Targets,1.1692289925483794,positive,,0.7445872973923899
+CC_to_celltype_association,CC7,Luminal Progenitors,0.6622640082512471,positive,,0.4737730330928161
+CC_to_celltype_association,CC7,Myoepithelial,-1.5446179581829533,negative,,0.9451153214243648
+CC_to_celltype_association,CC7,Cancer Her2 SC,-0.03468784972292474,negative,,0.13852980934348363
+CC_to_celltype_association,CC7,Epithelial,-0.03864734606128514,negative,,0.14064492206543341
+CC_to_celltype_association,CC7,Mature Luminal,0.7772548263120294,positive,,0.5351996695645868
+CC_to_celltype_association,CC7,Cancer LumA SC,0.4094991495543931,positive,,0.3387492516305163
+CC_to_celltype_association,CC7,Cancer LumB SC,-1.935772751134001,negative,,1.1540652504360387
+CC_to_celltype_association,CC8,Cancer Basal SC — Interferon Alpha Response,1.198614039185423,positive,,0.7602844165878164
+CC_to_celltype_association,CC8,Cancer Cycling — E2F Targets,0.9587948463855445,positive,,0.6321760456456694
+CC_to_celltype_association,CC8,Luminal Progenitors,-0.45378885839145705,negative,,0.36240825232339635
+CC_to_celltype_association,CC8,Myoepithelial,-0.870502463916476,negative,,0.5850113748257155
+CC_to_celltype_association,CC8,Cancer Her2 SC,-0.08052548817753348,negative,,0.16301569440421432
+CC_to_celltype_association,CC8,Epithelial,0.8973581858416765,positive,,0.599357360841871
+CC_to_celltype_association,CC8,Mature Luminal,-1.3842739698798598,negative,,0.8594615966659085
+CC_to_celltype_association,CC8,Cancer LumA SC,1.0748653616511503,positive,,0.6941794426694455
+CC_to_celltype_association,CC8,Cancer LumB SC,-1.3405416526984708,negative,,0.8361003475255692
+CC_to_celltype_association,CC9,Cancer Basal SC — Interferon Alpha Response,0.3208060425437414,positive,,0.2913705188432134
+CC_to_celltype_association,CC9,Cancer Cycling — E2F Targets,-0.5980076676188122,negative,,0.43944811095034986
+CC_to_celltype_association,CC9,Luminal Progenitors,-0.3283268859642912,negative,,0.2953880580045666
+CC_to_celltype_association,CC9,Myoepithelial,2.0531370555881954,positive,,1.2167597732340178
+CC_to_celltype_association,CC9,Cancer Her2 SC,-0.08275022505876754,negative,,0.16420412062774697
+CC_to_celltype_association,CC9,Epithelial,1.0203356735273839,positive,,0.6650503749248617
+CC_to_celltype_association,CC9,Mature Luminal,0.1257870588276772,positive,,0.1871938513506076
+CC_to_celltype_association,CC9,Cancer LumA SC,-1.2514775775540974,negative,,0.7885234482665687
+CC_to_celltype_association,CC9,Cancer LumB SC,-1.2595034742910045,negative,,0.7928107805034554
+celltype_to_patient_count,Cancer Basal SC — Interferon Alpha Response,P1,3004.0,observed_count,3004.0,2.961291572500951
+celltype_to_patient_count,Cancer Basal SC — Interferon Alpha Response,P2,1032.0,observed_count,1032.0,2.593094306863955
+celltype_to_patient_count,Cancer Basal SC — Interferon Alpha Response,P3,574.0,observed_count,574.0,2.3910834754938284
+celltype_to_patient_count,Cancer Basal SC — Interferon Alpha Response,P4,3361.0,observed_count,3361.0,3.0
+celltype_to_patient_count,Cancer Basal SC — Interferon Alpha Response,P5,855.0,observed_count,855.0,2.5282855654050342
+celltype_to_patient_count,Cancer Basal SC — Interferon Alpha Response,P6,1181.0,observed_count,1181.0,2.63955496032856
+celltype_to_patient_count,Cancer Basal SC — Interferon Alpha Response,P7,236.0,observed_count,236.0,2.0854703363709453
+celltype_to_patient_count,Cancer Cycling — E2F Targets,P1,1253.0,observed_count,1253.0,2.659944064442386
+celltype_to_patient_count,Cancer Cycling — E2F Targets,P2,695.0,observed_count,695.0,2.456936154175925
+celltype_to_patient_count,Cancer Cycling — E2F Targets,P3,480.0,observed_count,480.0,2.3295330041361475
+celltype_to_patient_count,Cancer Cycling — E2F Targets,P4,1695.0,observed_count,1695.0,2.7640555345556397
+celltype_to_patient_count,Cancer Cycling — E2F Targets,P5,2507.0,observed_count,2507.0,2.8989517589359632
+celltype_to_patient_count,Cancer Cycling — E2F Targets,P6,1297.0,observed_count,1297.0,2.6718354226789027
+celltype_to_patient_count,Cancer Cycling — E2F Targets,P7,354.0,observed_count,354.0,2.2247955614902244
+celltype_to_patient_count,Luminal Progenitors,P1,1351.0,observed_count,1351.0,2.6858902147714625
+celltype_to_patient_count,Luminal Progenitors,P2,1233.0,observed_count,1233.0,2.6544002920459877
+celltype_to_patient_count,Luminal Progenitors,P3,1135.0,observed_count,1135.0,2.6258676587256407
+celltype_to_patient_count,Luminal Progenitors,P4,1041.0,observed_count,1041.0,2.5960854937565365
+celltype_to_patient_count,Luminal Progenitors,P5,1047.0,observed_count,1047.0,2.5980652994762936
+celltype_to_patient_count,Luminal Progenitors,P6,1279.0,observed_count,1279.0,2.667020236687511
+celltype_to_patient_count,Luminal Progenitors,P7,938.0,observed_count,938.0,2.560196525069807
+celltype_to_patient_count,Myoepithelial,P1,268.0,observed_count,268.0,2.129141610466341
+celltype_to_patient_count,Myoepithelial,P2,183.0,observed_count,183.0,1.998189197496775
+celltype_to_patient_count,Myoepithelial,P3,1242.0,observed_count,1242.0,2.6569060252691368
+celltype_to_patient_count,Myoepithelial,P4,145.0,observed_count,145.0,1.9184233916312141
+celltype_to_patient_count,Myoepithelial,P5,572.0,observed_count,572.0,2.3898820275341315
+celltype_to_patient_count,Myoepithelial,P6,307.0,observed_count,307.0,2.175825591962023
+celltype_to_patient_count,Myoepithelial,P7,936.0,observed_count,936.0,2.559461311111992
+celltype_to_patient_count,Cancer Her2 SC,P1,192.0,observed_count,192.0,2.01465565201898
+celltype_to_patient_count,Cancer Her2 SC,P2,259.0,observed_count,259.0,2.1174076353714124
+celltype_to_patient_count,Cancer Her2 SC,P3,136.0,observed_count,136.0,1.8964842835898392
+celltype_to_patient_count,Cancer Her2 SC,P4,288.0,observed_count,288.0,2.1538701400308207
+celltype_to_patient_count,Cancer Her2 SC,P5,720.0,observed_count,720.0,2.469104502778334
+celltype_to_patient_count,Cancer Her2 SC,P6,685.0,observed_count,685.0,2.45194597713213
+celltype_to_patient_count,Cancer Her2 SC,P7,159.0,observed_count,159.0,1.949997153206779
+celltype_to_patient_count,Epithelial,P1,403.0,observed_count,403.0,2.269379164930324
+celltype_to_patient_count,Epithelial,P2,284.0,observed_count,284.0,2.1490642752590166
+celltype_to_patient_count,Epithelial,P3,578.0,observed_count,578.0,2.3934738851751183
+celltype_to_patient_count,Epithelial,P4,456.0,observed_count,456.0,2.3118840237915843
+celltype_to_patient_count,Epithelial,P5,498.0,observed_count,498.0,2.342201110221352
+celltype_to_patient_count,Epithelial,P6,69.0,observed_count,69.0,1.6649458027786541
+celltype_to_patient_count,Epithelial,P7,112.0,observed_count,112.0,1.830075249840452
+celltype_to_patient_count,Mature Luminal,P1,195.0,observed_count,195.0,2.0199742440795228
+celltype_to_patient_count,Mature Luminal,P2,205.0,observed_count,205.0,2.037132769725727
+celltype_to_patient_count,Mature Luminal,P3,75.0,observed_count,75.0,1.6933027503511402
+celltype_to_patient_count,Mature Luminal,P4,88.0,observed_count,88.0,1.7477501174902614
+celltype_to_patient_count,Mature Luminal,P5,72.0,observed_count,72.0,1.6794156971376366
+celltype_to_patient_count,Mature Luminal,P6,122.0,observed_count,122.0,1.8593143859093497
+celltype_to_patient_count,Mature Luminal,P7,234.0,observed_count,234.0,2.0825481560380914
+celltype_to_patient_count,Cancer LumA SC,P1,39.0,observed_count,39.0,1.4719817642196242
+celltype_to_patient_count,Cancer LumA SC,P2,122.0,observed_count,122.0,1.8593143859093497
+celltype_to_patient_count,Cancer LumA SC,P3,25.0,observed_count,25.0,1.3234412601389425
+celltype_to_patient_count,Cancer LumA SC,P4,83.0,observed_count,83.0,1.7278130496894768
+celltype_to_patient_count,Cancer LumA SC,P5,98.0,observed_count,98.0,1.784467241740961
+celltype_to_patient_count,Cancer LumA SC,P6,303.0,observed_count,303.0,2.1713181393382945
+celltype_to_patient_count,Cancer LumA SC,P7,45.0,observed_count,45.0,1.5201738085096206
+celltype_to_patient_count,Cancer LumB SC,P1,22.0,observed_count,22.0,1.281166114016043
+celltype_to_patient_count,Cancer LumB SC,P2,8.0,observed_count,8.0,0.9576364663122767
+celltype_to_patient_count,Cancer LumB SC,P3,12.0,observed_count,12.0,1.0844335656453652
+celltype_to_patient_count,Cancer LumB SC,P4,24.0,observed_count,24.0,1.3099173614777853
+celltype_to_patient_count,Cancer LumB SC,P5,71.0,observed_count,71.0,1.6746595497930086
+celltype_to_patient_count,Cancer LumB SC,P6,2.0,observed_count,2.0,0.5788182331561383
+celltype_to_patient_count,Cancer LumB SC,P7,78.0,observed_count,78.0,1.7066521032148068

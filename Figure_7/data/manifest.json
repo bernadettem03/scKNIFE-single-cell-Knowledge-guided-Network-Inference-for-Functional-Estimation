@@ -1,242 +1,527 @@
 {
-  "package": "Figure 7 plot-ready data",
-  "format_version": 2,
-  "created_utc": "2026-08-21T08:53:22.342342+00:00",
-  "source_description": "Current corrected SCKNIFE/CellChat signaling analysis",
-  "sources": [
-    {
-      "role": "pathway",
-      "source": "PRIVATE_ARCHIVE_ROOT/source_snapshot/inhouse_rerun/scknife_run/figures/cellsignaling/cellchatoverlap/data/pathway_overlap_all103.csv",
-      "source_sha256": "9cd9d7e9e3ac47a4d540b5cbdef1777181fb398f0226e18f33c234267e80ce77"
-    },
-    {
-      "role": "lr",
-      "source": "PRIVATE_ARCHIVE_ROOT/source_snapshot/inhouse_rerun/scknife_run/figures/cellsignaling/cellchatoverlap/data/lr_harmonized_overlap.csv",
-      "source_sha256": "aba0ada63e197def04a635a670fa8c55abf87f778c5e37c50830b493845e48f2"
-    },
-    {
-      "role": "correlation",
-      "source": "PRIVATE_ARCHIVE_ROOT/source_snapshot/inhouse_rerun/scknife_run/figures/cellsignaling/cellchatoverlap/data/correlation_results.csv",
-      "source_sha256": "c2512f2a188bdd93259f4a8fd65aa579a1e30ec61835b64a44f2ab1937d22ce8"
-    },
-    {
-      "role": "correlation_stats",
-      "source": "PRIVATE_ARCHIVE_ROOT/source_snapshot/inhouse_rerun/scknife_run/figures/cellsignaling/cellchatoverlap/data/correlation_statistics.csv",
-      "source_sha256": "1c5a9c3eb1a2984e6c80176573d062d13285e9f8a410ea2734d13277be1da4c0"
-    },
-    {
-      "role": "vegf_matrix",
-      "source": "PRIVATE_ARCHIVE_ROOT/source_snapshot/inhouse_rerun/scknife_run/data/cellsignaling/pathways/VEGF_communication_matrix.csv",
-      "source_sha256": "dc7b16bbf25507924aca7165a8c86b92f90bc0440f5920ed5667bfa20b1f10eb"
-    },
-    {
-      "role": "interaction_details",
-      "source": "PRIVATE_ARCHIVE_ROOT/source_snapshot/inhouse_rerun/scknife_run/data/cellsignaling/interaction_details.csv.gz",
-      "source_sha256": "f067481bc23e7ec485ba1860ad6f14e5131e2c819c834aaa556fb81cdbd71606"
-    },
-    {
-      "role": "final_h5ad",
-      "source": "PRIVATE_ARCHIVE_ROOT/source_snapshot/inhouse_rerun/scknife_run/data/celltype/inhouse_scknife_final_celltype.h5ad",
-      "source_sha256": "e81babab8dd5bd9c62c017ce5a8b5931d20c03a9058e2923fe785cdd941c820e"
-    },
-    {
-      "role": "full_h5ad",
-      "source": "PRIVATE_ARCHIVE_ROOT/source_snapshot/inhouse_rerun/primary_analysis/data/adata_processed_with_doublets_20th_feb_qc_done_with_metadata_harmony_integrated_scvi_clustering_annotated.h5ad",
-      "source_sha256": "e5019ced97a3a1a534719fcbbca04a493472fd34d3f3f7c92bc73d4d366f7910"
-    },
-    {
-      "role": "w_graph",
-      "source": "PRIVATE_ARCHIVE_ROOT/source_snapshot/inhouse_rerun/scknife_run/data/pipeline/inhouse_W_graph.parquet",
-      "source_sha256": "7588af177c5d455130254f9ccf8161caf5e5250b05ba2ceb4932ce4f18ad373f"
-    },
-    {
-      "role": "activity",
-      "source": "PRIVATE_ARCHIVE_ROOT/source_snapshot/inhouse_rerun/scknife_run/data/pipeline/inhouse_activity_scores.parquet",
-      "source_sha256": "665b95ff2bfdf758afb350d4a4f23c624bff6861041932c366f28b40047e6b1b"
-    }
+  "package": "Figure 7 journal layout: CellChat concordance and patient-resolved PDGF",
+  "format_version": 3,
+  "n_cells": 69319,
+  "n_major_groups": 8,
+  "model_rerun": false,
+  "embedding_recomputed": false,
+  "permutations_recomputed": false,
+  "main_panels": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I"
   ],
+  "selection": "Strongest pooled LR-filtered major connection per pathway, then >=6 eligible paired patients; PDGF is an exploratory post-screen selection",
+  "longitudinal_statistics": "Two-sided exact paired sign-flip tests; BH across all 2,080 tested major comparisons; none q<0.05",
+  "eligibility": "At least 10 sender and receiver cells at biopsy and surgery; missing eligibility is not zero",
+  "interpretation": "Patient-resolved scKNIFE application with concordant transcript patterns; not a new mechanism or established treatment effect",
   "panels": {
     "A": {
-      "title": "CellChat and SCKNIFE signaling comparison workflow",
-      "kind": "schematic",
-      "inputs": [],
-      "extractor": "extractor_scripts/extract_figure_7_data.py",
-      "extraction_mode": "schematic"
+      "title": "Analysis framework",
+      "inputs": []
     },
     "B": {
-      "title": "Pathway overlap",
-      "kind": "data",
+      "title": "Major pathway overlap",
       "inputs": [
         {
-          "path": "pathway_overlap.csv"
+          "path": "concordance/preparation_manifest.json"
         }
-      ],
-      "extractor": "extractor_scripts/extract_figure_7_data.py",
-      "extraction_mode": "derived_and_staged"
+      ]
     },
     "C": {
-      "title": "Harmonized ligand-receptor overlap",
-      "kind": "data",
+      "title": "Major LR-key overlap",
       "inputs": [
         {
-          "path": "lr_harmonized_overlap.csv"
+          "path": "concordance/preparation_manifest.json"
         }
-      ],
-      "extractor": "extractor_scripts/extract_figure_7_data.py",
-      "extraction_mode": "derived_and_staged"
+      ]
     },
     "D": {
-      "title": "CellChat-SCKNIFE signaling-strength agreement",
-      "kind": "data",
+      "title": "Major log10 score correlation",
       "inputs": [
         {
-          "path": "strength_correlation.csv.gz"
+          "path": "concordance/preparation_manifest.json"
         }
-      ],
-      "extractor": "extractor_scripts/extract_figure_7_data.py",
-      "extraction_mode": "derived_and_staged"
+      ]
     },
     "E": {
-      "title": "VEGF cell-type communication network",
-      "kind": "data",
+      "title": "PDGF activity and expression on unchanged UMAP",
       "inputs": [
         {
-          "path": "vegf_communication_matrix.csv"
+          "path": "known_new/PDGF_umap_activity_expression.parquet"
+        },
+        {
+          "path": "known_new/PDGF_umap_manifest.json"
         }
-      ],
-      "extractor": "extractor_scripts/extract_figure_7_data.py",
-      "extraction_mode": "derived_and_staged"
+      ]
     },
     "F": {
-      "title": "VEGF sender-receiver communication",
-      "kind": "data",
+      "title": "Major-cell PDGF pathway network",
       "inputs": [
         {
-          "path": "vegf_communication_matrix.csv"
+          "path": "known_new/PDGF_major_filtered_interactions.csv"
+        },
+        {
+          "path": "known_new/PDGF_umap_activity_expression.parquet"
         }
-      ],
-      "extractor": "extractor_scripts/extract_figure_7_data.py",
-      "extraction_mode": "derived_and_staged"
+      ]
     },
     "G": {
-      "title": "Aggregated VEGF ligand-receptor scores",
-      "kind": "data",
+      "title": "Complete minor PDGF matrix and endothelial-to-PVL zoom",
       "inputs": [
         {
-          "path": "vegf_top_interactions.csv.gz"
+          "path": "known_new/PDGF_minor_matrix.csv"
+        },
+        {
+          "path": "known_new/PDGF_minor_endothelial_PVL_block.csv"
         }
-      ],
-      "extractor": "extractor_scripts/extract_figure_7_data.py",
-      "extraction_mode": "derived_and_staged"
+      ]
     },
     "H": {
-      "title": "KDR activity on the H-graph UMAP",
-      "kind": "data",
+      "title": "Top minor cell-cell connections within PDGF",
       "inputs": [
         {
-          "path": "h_graph_umap_scores.parquet"
+          "path": "known_new/PDGF_minor_ranked_connections.csv"
+        },
+        {
+          "path": "known_new/PDGF_minor_top10_connections.csv"
         }
-      ],
-      "extractor": "extractor_scripts/extract_figure_7_data.py",
-      "extraction_mode": "derived_and_staged"
+      ]
     },
     "I": {
-      "title": "HALLMARK_HYPOXIA activity on the H-graph UMAP",
-      "kind": "data",
+      "title": "Patient-paired major Endothelial-to-PVL PDGF",
       "inputs": [
         {
-          "path": "h_graph_umap_scores.parquet"
-        }
-      ],
-      "extractor": "extractor_scripts/extract_figure_7_data.py",
-      "extraction_mode": "derived_and_staged"
-    },
-    "J": {
-      "title": "FLT1 activity on the H-graph UMAP",
-      "kind": "data",
-      "inputs": [
+          "path": "known_new/PDGF_major_paired.csv"
+        },
         {
-          "path": "h_graph_umap_scores.parquet"
+          "path": "known_new/PDGF_major_expression.csv"
         }
-      ],
-      "extractor": "extractor_scripts/extract_figure_7_data.py",
-      "extraction_mode": "derived_and_staged"
+      ]
     }
   },
-  "auxiliary_inputs": [],
-  "lineage_summary": {
-    "panel_count": 10,
-    "data_panel_count": 9,
-    "schematic_panel_count": 1,
-    "referenced_files": [
-      "h_graph_umap_scores.parquet",
-      "lr_harmonized_overlap.csv",
-      "pathway_overlap.csv",
-      "strength_correlation.csv.gz",
-      "vegf_communication_matrix.csv",
-      "vegf_top_interactions.csv.gz"
-    ]
-  },
-  "extraction": {
-    "n_cells": 69391,
-    "n_h_factors": 150,
-    "umap": "X_umap computed from the H-graph factor representation",
-    "KDR": "log1p_norm expression from the full 16,456-gene annotated ancestor",
-    "activities": "exact KDR, HALLMARK_HYPOXIA, and FLT1 W_graph rows multiplied by the 150 H_graph factors; verified against canonical activity parquet",
-    "VEGF_interactions": "all 1,134 VEGF rows filtered from interaction_details.csv.gz before ligand-receptor aggregation; no top-row truncation"
-  },
-  "checks": {
-    "ten_panels": true,
-    "pathway_counts_8_79_171": true,
-    "lr_counts_14_551_1710": true,
-    "correlation_4405_complete": true,
-    "vegf_matrix_9x9_ordered": true,
-    "umap_69391_unique": true,
-    "umap_columns": true,
-    "umap_scores_finite": true,
-    "nine_final_celltypes": true,
-    "kdr_expression_nonconstant": true,
-    "activity_scores_nonconstant": true,
-    "panel_lineage_valid": true,
-    "vegf_interactions_1134_complete": true,
-    "vegf_eight_lr_pair_totals": true
-  },
-  "python": "3.9.21",
   "files": [
     {
       "name": "README.md",
-      "bytes": 1419,
-      "sha256": "15e27b6ec78d2ba9dc1f3e7adcfbaa0af86752eb1f00e1271fe509eb5c90f3e8"
+      "bytes": 896,
+      "sha256": "3f035688e1b85498c59b524661c66f7617744c79efc2fa69d1da0cdc1ab99d6c"
     },
     {
-      "name": "h_graph_umap_scores.parquet",
-      "bytes": 2813179,
-      "sha256": "c10520efb1f032d3248989fefe04ef81f4a051f591ccaf3cffcdd61220a9fb54"
+      "name": "collagen_major_communication_matrix.csv",
+      "bytes": 1324,
+      "sha256": "9617fc9c57acf1557e92a9ad4c8d45eda0226dad3b63c6b544fba53015615513"
+    },
+    {
+      "name": "collagen_minor_communication_matrix.csv",
+      "bytes": 16308,
+      "sha256": "dad6d12f2850d9f0dd63ff0ae5b31c7fad8fa94a8d6c759d4ab585b26f11c66d"
+    },
+    {
+      "name": "collagen_minor_communication_matrix_lr_q05.csv",
+      "bytes": 16282,
+      "sha256": "309bbe27bc030fea99eec2b305fc12baf4b2255fd12c888ec44c00f730ea87f1"
+    },
+    {
+      "name": "collagen_minor_lr_filter_manifest.json",
+      "bytes": 1417,
+      "sha256": "b804e9ea2f23831ce4ac5b2853df844ed37ef5a04180b8db48333a0a2abd2206"
+    },
+    {
+      "name": "collagen_minor_retained_lr_keys.csv",
+      "bytes": 5492,
+      "sha256": "d824b3d19ce8a24011b765211a80110e83bccd68da39117ce80811b7827c909c"
+    },
+    {
+      "name": "collagen_top25_lr_pairs.csv",
+      "bytes": 801,
+      "sha256": "80de68b21dc67e19b8db0c20bacc8228cfe4ee49b3491382b35c7ddfa64e065c"
+    },
+    {
+      "name": "concordance/cellchat_native_pathway_scores.csv",
+      "bytes": 5667314,
+      "sha256": "4a9999d4c964d81938648a2f11abef363ff00863eb565dfb060c2063686aa324"
+    },
+    {
+      "name": "concordance/complete_method_connection_ranks.csv",
+      "bytes": 775831,
+      "sha256": "c755925db3d534c8e72be21ff6a0073f288705b319067ca12725c924085925af"
+    },
+    {
+      "name": "concordance/complete_pathway_overview.csv",
+      "bytes": 8753,
+      "sha256": "d963e05f8afcefafc27b69d6b536a2669113751e3b82ca4322288aba38ddc4d9"
+    },
+    {
+      "name": "concordance/highlighted_connection_ranks.csv",
+      "bytes": 2156,
+      "sha256": "3dc8c7c3d65db86fc6139158e8847204c217980d21289d431b1cd304dfbf1a1c"
+    },
+    {
+      "name": "concordance/highlighted_specimen_scores.csv",
+      "bytes": 23435,
+      "sha256": "0b774f0bf6b58a748794ac5399978aad38d6c259b60914a68830b16f4006a389"
+    },
+    {
+      "name": "concordance/independent_audit.json",
+      "bytes": 863,
+      "sha256": "b1d7d084cff4a7d68b57773ca3e87d20fd68d7b98fcaca9922c1239056474b0e"
+    },
+    {
+      "name": "concordance/preparation_manifest.json",
+      "bytes": 6768,
+      "sha256": "7b029dd47f13ee35bbeec33b9a2a3345b9d2f8d6dfdd0722f579599f02dcaa98"
+    },
+    {
+      "name": "concordance/representative_LR_database_contributions.csv",
+      "bytes": 42477,
+      "sha256": "4737a753ef780a6305bf109f865e399122174f82aa12f8f232dea25f538f0233"
+    },
+    {
+      "name": "concordance/representative_LR_percentages.csv",
+      "bytes": 2538,
+      "sha256": "f3b021846f9c116a1065f4b84b020aeff2836b510d56bbc0f9355bb6a3c1ea6a"
+    },
+    {
+      "name": "concordance/specimen_expression_context.csv",
+      "bytes": 19492,
+      "sha256": "e4a9c0dae3136772b98a26d982141e8ca469c779e3589f5ab31b4b035c85c3d3"
+    },
+    {
+      "name": "concordance/threshold_sensitivity.csv",
+      "bytes": 404,
+      "sha256": "8329497acf68cfca5f345271a851bfff046c13cfd3a249dcbdee740726bca0a1"
+    },
+    {
+      "name": "figure4_umap_activity_expression.parquet",
+      "bytes": 2108950,
+      "sha256": "15899345f8efb9956bd641529b7e35d239d1af9a27dc5375c602462318ea72c4"
+    },
+    {
+      "name": "fn1_minor_communication_matrix_lr_q05.csv",
+      "bytes": 16295,
+      "sha256": "8ac906091c647d1b4d858e4869e5e8a7412cccf68254a221319b051238b77647"
+    },
+    {
+      "name": "known_new/PDGF_major_LR_contributions.csv",
+      "bytes": 629,
+      "sha256": "ef40ba007a4d99ff0480161a3a970a31e556c5862d88516611f599314a3e98fb"
+    },
+    {
+      "name": "known_new/PDGF_major_expression.csv",
+      "bytes": 3651,
+      "sha256": "73c89bd1ba95c9c451e318652f22123220be5ca76a82ecf3afb0bb0a91c794d6"
+    },
+    {
+      "name": "known_new/PDGF_major_filtered_interactions.csv",
+      "bytes": 69788,
+      "sha256": "87f88ef3e1f6476641812a8be881f7cdc3e3703a39144b8d2a5840d6384869a3"
+    },
+    {
+      "name": "known_new/PDGF_major_matrix.csv",
+      "bytes": 1338,
+      "sha256": "d4e0a34b76125f61a57a825cab193410c8f57046f1320302c4b4111a76d970b7"
+    },
+    {
+      "name": "known_new/PDGF_major_paired.csv",
+      "bytes": 2955,
+      "sha256": "5c08a23c294911ab1d10c7a457d8a95373877f7570750b6f6143197d05349dc1"
+    },
+    {
+      "name": "known_new/PDGF_minor_LR_contributions.csv",
+      "bytes": 633,
+      "sha256": "a9c4c0101bb4a306e7e307cb091fb5727442d8724f8ba3afa0dfc15ca233ee8f"
+    },
+    {
+      "name": "known_new/PDGF_minor_endothelial_PVL_block.csv",
+      "bytes": 354,
+      "sha256": "e5c2ed6b35055b4ed6af645fe2e1e92b7a188272ef9004305822da48f54cd37f"
+    },
+    {
+      "name": "known_new/PDGF_minor_matrix.csv",
+      "bytes": 16550,
+      "sha256": "ed16df4887795a5775117424e1e085f1d4239f053066265b5abe6f4c2c89b35c"
+    },
+    {
+      "name": "known_new/PDGF_minor_paired.csv",
+      "bytes": 2820,
+      "sha256": "db770b7de423b0da070780b8b32530b74f3c401660f224ff7d634a419c7df00b"
+    },
+    {
+      "name": "known_new/PDGF_minor_ranked_connections.csv",
+      "bytes": 43848,
+      "sha256": "a4831ea8759519730bfe03dbade41c248ee807700c693bc49bb0661b67add69c"
+    },
+    {
+      "name": "known_new/PDGF_minor_top10_connections.csv",
+      "bytes": 555,
+      "sha256": "d363812c6116af9e0ae413a5ab4113a830bdd7706c9a49fa65d3d4e990056292"
+    },
+    {
+      "name": "known_new/PDGF_umap_activity_expression.parquet",
+      "bytes": 2513238,
+      "sha256": "90060a8c7ba782e65885206fb0fea0865c8df0692be9482095058e40dee8beb0"
+    },
+    {
+      "name": "known_new/PDGF_umap_expression_summary_audit.csv",
+      "bytes": 4865,
+      "sha256": "aed582c41180dba588cc5756f7440f590e2d272c88c450acf4526852b5a96c89"
+    },
+    {
+      "name": "known_new/PDGF_umap_manifest.json",
+      "bytes": 1330,
+      "sha256": "4d1c7c60a612277107148a84f0c11dd2fcade02eef9c94e6e79c9e788d54138e"
+    },
+    {
+      "name": "known_new/SPP1_CSF_alternatives.csv",
+      "bytes": 8889,
+      "sha256": "5d6490bb63eb50c1acea50d1e6ee386a7c79f10bfc5e30d5a92087a74d2b82a0"
+    },
+    {
+      "name": "known_new/coverage.csv",
+      "bytes": 7349,
+      "sha256": "59ee04abe4a41d16349d6537176634e67b8613b5feaa08f093ca21e0a086c227"
+    },
+    {
+      "name": "known_new/dominant_connection_selection.csv",
+      "bytes": 13705,
+      "sha256": "96a0d3f6bb8f2f0e363500fc1e9e32dfecccba069e757563429422928d3d5861"
+    },
+    {
+      "name": "known_new/label_agreement.csv",
+      "bytes": 6178,
+      "sha256": "6f4ecce0a6b5608e211054af655ac1248311308bca978b1129f1d3489fffb0e1"
+    },
+    {
+      "name": "known_new/leave_one_patient_out.csv",
+      "bytes": 3308,
+      "sha256": "e770008c5a37b4699ea44b0c6a13cd87052248bdafdf4204dd31bef51fe381fd"
+    },
+    {
+      "name": "known_new/longitudinal_screen_major_tested.csv",
+      "bytes": 211753,
+      "sha256": "afa09b63c2da081fe787ea1a820c8a72144f02509501fc01000ccd1c745053d5"
+    },
+    {
+      "name": "known_new/preparation_manifest.json",
+      "bytes": 4229,
+      "sha256": "88f724a1507c73bf7ecbbfdcc3434d01812719989020d09c46ad50fb657ff9e4"
+    },
+    {
+      "name": "known_new/threshold_sensitivity.csv",
+      "bytes": 2053,
+      "sha256": "2fa67b3b7fbaabbc5369d3b13cde2c2722b291d2ec261702a7f3f3ceb9b18f26"
     },
     {
       "name": "lr_harmonized_overlap.csv",
-      "bytes": 77900,
-      "sha256": "aba0ada63e197def04a635a670fa8c55abf87f778c5e37c50830b493845e48f2"
+      "bytes": 23191,
+      "sha256": "eaa8659f76157c9a648648e76268845bde451ff0847074bf2a71d0ffe6e59326"
+    },
+    {
+      "name": "lr_harmonized_overlap_candidates.csv",
+      "bytes": 78000,
+      "sha256": "dfff8d8790e0290e8b932b25f82d33822439057ac0977d6c5d46cba5ebceeb4f"
+    },
+    {
+      "name": "lr_pair_significance.csv",
+      "bytes": 211507,
+      "sha256": "46178a900857155cb314c0248ebb365ce68f869fb79f8d0add4baafc4d07bc0f"
+    },
+    {
+      "name": "mapping_exclusions.csv",
+      "bytes": 28,
+      "sha256": "676460949479fb6b73313e8729f5104d6ad9b36670fa6635149ebc205a217792"
+    },
+    {
+      "name": "matrix_story_lr_keys.csv",
+      "bytes": 9242,
+      "sha256": "ddff31c7b06a244d08fcaafaa5259f09e2a3a6c885a92a7838672fe881ef0ef7"
+    },
+    {
+      "name": "matrix_story_manifest.json",
+      "bytes": 5345,
+      "sha256": "ebb09bd76d9bd2f3d874bee2a1c2e90ca01502f71f3037a56b5176e6715eb4e9"
+    },
+    {
+      "name": "paired/PDGF_expression.csv",
+      "bytes": 7349,
+      "sha256": "59ee04abe4a41d16349d6537176634e67b8613b5feaa08f093ca21e0a086c227"
+    },
+    {
+      "name": "paired/SPP1_CSF_alternatives.csv",
+      "bytes": 8889,
+      "sha256": "5d6490bb63eb50c1acea50d1e6ee386a7c79f10bfc5e30d5a92087a74d2b82a0"
+    },
+    {
+      "name": "paired/coverage.csv",
+      "bytes": 7349,
+      "sha256": "59ee04abe4a41d16349d6537176634e67b8613b5feaa08f093ca21e0a086c227"
+    },
+    {
+      "name": "paired/database_contributions_major.csv",
+      "bytes": 156593,
+      "sha256": "6aa6d99f1745ccb2bd180e571c0945e9132667e821f5a7dec636df005632ce03"
+    },
+    {
+      "name": "paired/database_contributions_minor.csv",
+      "bytes": 157013,
+      "sha256": "4239bd47ec170696546c416cd57d5bbd1b12beab7ec546d5b44309559f496394"
+    },
+    {
+      "name": "paired/independent_audit.json",
+      "bytes": 563,
+      "sha256": "dd7ae8859981e8e6b560075f27f117328ed7f2213065df71c9087ad8440e5e07"
+    },
+    {
+      "name": "paired/label_agreement.csv",
+      "bytes": 6178,
+      "sha256": "6f4ecce0a6b5608e211054af655ac1248311308bca978b1129f1d3489fffb0e1"
+    },
+    {
+      "name": "paired/leave_one_patient_out.csv",
+      "bytes": 3308,
+      "sha256": "e770008c5a37b4699ea44b0c6a13cd87052248bdafdf4204dd31bef51fe381fd"
+    },
+    {
+      "name": "paired/longitudinal_screen_complete.csv",
+      "bytes": 5630870,
+      "sha256": "b57d39ee4465bc9835d0b6513504494f6ac7aa208c839f4cd3e92eb187656ea0"
+    },
+    {
+      "name": "paired/paired_pathway_scores.parquet",
+      "bytes": 27183045,
+      "sha256": "9bca758227c389c718375ddf93edd859920a97edde426bed9aa2aee91a021f7d"
+    },
+    {
+      "name": "paired/pooled_PDGF_LR_contributions.csv",
+      "bytes": 1156,
+      "sha256": "3401706bad96a91ece75c6a899a836c070bd186c25fc868a4a674ffef5d4274d"
+    },
+    {
+      "name": "paired/pooled_PDGF_major.csv",
+      "bytes": 1346,
+      "sha256": "167532a682a7cbc71e5dc93127a383d97ee0564ecfb55cd42f07dc3f01366588"
+    },
+    {
+      "name": "paired/pooled_PDGF_minor.csv",
+      "bytes": 16835,
+      "sha256": "aef37d83fbcbdc42af97fd46fd92d2f3b83e4665882fbb35dafc16c7d28d4c69"
+    },
+    {
+      "name": "paired/preparation_manifest.json",
+      "bytes": 8578,
+      "sha256": "5cf2eeff7c3641ce4be25f67442523035b599a5c02498610d6b5ae2a48da38fe"
+    },
+    {
+      "name": "paired/selected_PDGF_pairs.csv",
+      "bytes": 5374,
+      "sha256": "892e8e70fc08003b545746c91c74baf39b9340fa9a46bdec8a6b3b332fcae374"
+    },
+    {
+      "name": "paired/selected_connection_LR_contributions.csv",
+      "bytes": 4412600,
+      "sha256": "3fd91a134c71cdf56bbdc0dfba4fd2442205fd2a3c6e2dcee1dbf08263aaad73"
+    },
+    {
+      "name": "paired/specimen_pathway_scores.parquet",
+      "bytes": 32032838,
+      "sha256": "2e6a98567eb5ba179c484ab80c48b68cffc1d243f024f3618e2f9ba725e4bc39"
+    },
+    {
+      "name": "paired/specimens_major.csv",
+      "bytes": 779,
+      "sha256": "95f148cc77473a8ef48aa6e7257b27a5c5acc9fdebca4914d2fa15b537c91304"
+    },
+    {
+      "name": "paired/specimens_minor.csv",
+      "bytes": 779,
+      "sha256": "95f148cc77473a8ef48aa6e7257b27a5c5acc9fdebca4914d2fa15b537c91304"
+    },
+    {
+      "name": "paired/threshold_sensitivity.csv",
+      "bytes": 2053,
+      "sha256": "2fa67b3b7fbaabbc5369d3b13cde2c2722b291d2ec261702a7f3f3ceb9b18f26"
+    },
+    {
+      "name": "panel_lineage.json",
+      "bytes": 1886,
+      "sha256": "e84313513661e2614025cbe580d68fce14ac3a3a2c56eaf4a97a3a458698cd9a"
+    },
+    {
+      "name": "pathway_evidence_major_minor.csv",
+      "bytes": 110520,
+      "sha256": "29c31634ec42788c85d7450f935fe2e88c753d59b07787ac115a7facb773c9c9"
     },
     {
       "name": "pathway_overlap.csv",
-      "bytes": 7059,
-      "sha256": "9c89f86beb7bffd7f7593e5853619f23ea920ff8beef768bdac5dbece01e4c6a"
+      "bytes": 3083,
+      "sha256": "7faa7b6699d202277b6d414f9b7e48a6206aa8d52b28aa1045d39bc2fd94d4d6"
     },
     {
-      "name": "strength_correlation.csv.gz",
-      "bytes": 126680,
-      "sha256": "8fb8921c8d0e0eb82e3e25b688acb005a3ed1c4c4c93c816e06598d804ced78c"
+      "name": "pathway_significance.csv",
+      "bytes": 33151,
+      "sha256": "202b66fc0b7fa4eb2205f5b4a6dac3ab34fe5df6f1254ea693834e704a4a4d6a"
     },
     {
-      "name": "vegf_communication_matrix.csv",
-      "bytes": 1769,
-      "sha256": "dc7b16bbf25507924aca7165a8c86b92f90bc0440f5920ed5667bfa20b1f10eb"
+      "name": "patient_id_mapping.csv",
+      "bytes": 111,
+      "sha256": "d83cb550451db61010d5393722db8a27202a5f52267c894f19ed79a77a8ba92b"
     },
     {
-      "name": "vegf_top_interactions.csv.gz",
-      "bytes": 33147,
-      "sha256": "64728c7709c81669131561aa3491b17c10d5b0cc7bdff061a5a41e41a436541d"
+      "name": "specimen_expression_support.csv",
+      "bytes": 1437,
+      "sha256": "ff8e66e4f73529f3ee80e602806d77dfea2741bf45f7a212512be0e26ccb150d"
+    },
+    {
+      "name": "specimen_expression_support_extended.csv",
+      "bytes": 13852,
+      "sha256": "019a389161423cf7d1ed3abf0ef61720ba39462bf1478f3d4c55f8ac43cee6cd"
+    },
+    {
+      "name": "specimen_expression_support_matrix_spp1.csv",
+      "bytes": 17756,
+      "sha256": "7ea83292bfa4609327082308a66748fdbb53e528ec6b7986c670f056e78b3ab4"
+    },
+    {
+      "name": "spp1_minor_communication_matrix_lr_q05.csv",
+      "bytes": 16412,
+      "sha256": "ab68a8478a86af0fd108e7170051a111d4ac749fe6980ed49547bb7d0a94f6c4"
+    },
+    {
+      "name": "strength_correlation_filter_manifest.json",
+      "bytes": 616,
+      "sha256": "cb6374ea57a4f8bc8799e760b9679fcceb564203bd29e45f1481fc07ad3b59c5"
+    },
+    {
+      "name": "strength_correlation_filtered.csv",
+      "bytes": 249957,
+      "sha256": "c3f402dd3a3357acee322a6af78d025846e173a4619cf8364bc1048eaec0a4a6"
+    },
+    {
+      "name": "strength_correlation_statistics.csv",
+      "bytes": 195,
+      "sha256": "c18ac1b70e1e5fa791563c806eacd860fd73d6804bbbbfff543e29b131c64db5"
+    },
+    {
+      "name": "thbs_minor_communication_matrix_lr_q05.csv",
+      "bytes": 16454,
+      "sha256": "94e494377f2e041ecc31bc592f0b5a8e1843d1f4dc2897c42f46ed7f5ada6901"
     }
-  ]
+  ],
+  "checks": {
+    "same_69319_cells": true,
+    "eight_major_groups": true,
+    "frozen_outputs_only": true,
+    "no_model_embedding_or_permutation_rerun": true,
+    "main_figure_only": true
+  },
+  "main_layout": "A\u2013D concordance; E UMAP; F major PDGF network; G complete 29x29 minor matrix plus endothelial-to-PVL zoom; H top-ten minor PDGF cell-cell connections; I major paired support",
+  "umap_embedding_recomputed": false,
+  "activity_recomputed": false,
+  "n_minor_groups": 29
 }

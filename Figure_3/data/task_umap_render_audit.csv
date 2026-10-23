@@ -1,27 +1,24 @@
 render_id,figure_kind,main_panel,association_id,cohort,facet_type,condition,status,group_label,eligible_patients,overlay_cells,color_low,color_high,transformation
-E_Shiao_Base,baseline,E,RNR_TUMOR_ARACHIDONATE,Shiao,activity,Base,Both,Both,16,15237,-2.443374932791,-2.160627403598882,log10(Method 5 score + 1e-10)
-F_Shiao_Base,baseline,F,RNR_TCELL_ERAD,Shiao,activity,Base,Both,Both,15,20121,-2.6614348132491323,-1.4747754378647908,log10(Method 5 score + 1e-10)
-G_Bassez_A_Pre,baseline,G,ENE_MYELOID_GLYCOGEN,Bassez A,activity,Pre,Both,Both,12,3081,-9.997696535853533,-3.4353119031261437,log10(Method 5 score + 1e-10)
-G_Bassez_B_Pre,baseline,G,ENE_MYELOID_GLYCOGEN,Bassez B,activity,Pre,Both,Both,4,1672,-9.997696535853533,-3.4353119031261437,log10(Method 5 score + 1e-10)
-H_Bassez_A_Pre,baseline,H,ENE_TCELL_ERAD,Bassez A,activity,Pre,Both,Both,12,10363,-2.1688948800450567,-1.164201170072545,log10(Method 5 score + 1e-10)
-H_Bassez_B_Pre,baseline,H,ENE_TCELL_ERAD,Bassez B,activity,Pre,Both,Both,6,4725,-2.1688948800450567,-1.164201170072545,log10(Method 5 score + 1e-10)
-I_Bassez_A_On_E,longitudinal,I,BASSEZ_A_MYELOID_GLUTATHIONE,Bassez A,activity,On,Favorable,E,5,3598,-9.99899235779679,-3.216765604071311,log10(Method 5 score + 1e-10)
-I_Bassez_A_On_NE,longitudinal,I,BASSEZ_A_MYELOID_GLUTATHIONE,Bassez A,activity,On,Unfavorable,NE,7,1245,-9.99899235779679,-3.216765604071311,log10(Method 5 score + 1e-10)
-I_Bassez_A_Pre_E,longitudinal,I,BASSEZ_A_MYELOID_GLUTATHIONE,Bassez A,activity,Pre,Favorable,E,5,1898,-9.99899235779679,-3.216765604071311,log10(Method 5 score + 1e-10)
-I_Bassez_A_Pre_NE,longitudinal,I,BASSEZ_A_MYELOID_GLUTATHIONE,Bassez A,activity,Pre,Unfavorable,NE,7,1183,-9.99899235779679,-3.216765604071311,log10(Method 5 score + 1e-10)
-I_categorical_both_timepoints,longitudinal,I,BASSEZ_A_MYELOID_GLUTATHIONE,Bassez A,categorical,Both timepoints,Favorable/Unfavorable,E/NE,12,7924,,,categorical status; no activity scale
-J_Bassez_B_On_E,longitudinal,J,BASSEZ_B_TCELL_GLUTAMINE,Bassez B,activity,On,Favorable,E,3,5795,-3.209879492984072,-2.4443547359577553,log10(Method 5 score + 1e-10)
-J_Bassez_B_On_NE,longitudinal,J,BASSEZ_B_TCELL_GLUTAMINE,Bassez B,activity,On,Unfavorable,NE,3,1356,-3.209879492984072,-2.4443547359577553,log10(Method 5 score + 1e-10)
-J_Bassez_B_Pre_E,longitudinal,J,BASSEZ_B_TCELL_GLUTAMINE,Bassez B,activity,Pre,Favorable,E,3,3575,-3.209879492984072,-2.4443547359577553,log10(Method 5 score + 1e-10)
-J_Bassez_B_Pre_NE,longitudinal,J,BASSEZ_B_TCELL_GLUTAMINE,Bassez B,activity,Pre,Unfavorable,NE,3,1150,-3.209879492984072,-2.4443547359577553,log10(Method 5 score + 1e-10)
-J_categorical_both_timepoints,longitudinal,J,BASSEZ_B_TCELL_GLUTAMINE,Bassez B,categorical,Both timepoints,Favorable/Unfavorable,E/NE,6,11876,,,categorical status; no activity scale
-K_Shiao_Base_NR,longitudinal,K,SHIAO_RTPD1_FIBRO_ALANINE,Shiao,activity,Base,Unfavorable,NR,4,6788,-3.8582865624914957,-2.141923175597362,log10(Method 5 score + 1e-10)
-K_Shiao_Base_R,longitudinal,K,SHIAO_RTPD1_FIBRO_ALANINE,Shiao,activity,Base,Favorable,R,8,4412,-3.8582865624914957,-2.141923175597362,log10(Method 5 score + 1e-10)
-K_Shiao_RTPD1_NR,longitudinal,K,SHIAO_RTPD1_FIBRO_ALANINE,Shiao,activity,RTPD1,Unfavorable,NR,4,1215,-3.8582865624914957,-2.141923175597362,log10(Method 5 score + 1e-10)
-K_Shiao_RTPD1_R,longitudinal,K,SHIAO_RTPD1_FIBRO_ALANINE,Shiao,activity,RTPD1,Favorable,R,8,7730,-3.8582865624914957,-2.141923175597362,log10(Method 5 score + 1e-10)
-K_categorical_both_timepoints,longitudinal,K,SHIAO_RTPD1_FIBRO_ALANINE,Shiao,categorical,Both timepoints,Favorable/Unfavorable,R/NR,12,20145,,,categorical status; no activity scale
-L_Shiao_Base_NR,longitudinal,L,SHIAO_PD1_TUMOR_BILIRUBIN,Shiao,activity,Base,Unfavorable,NR,6,8242,-3.2254365634632998,-1.850678973623775,log10(Method 5 score + 1e-10)
-L_Shiao_Base_R,longitudinal,L,SHIAO_PD1_TUMOR_BILIRUBIN,Shiao,activity,Base,Favorable,R,10,6995,-3.2254365634632998,-1.850678973623775,log10(Method 5 score + 1e-10)
-L_Shiao_PD1_NR,longitudinal,L,SHIAO_PD1_TUMOR_BILIRUBIN,Shiao,activity,PD1,Unfavorable,NR,6,11172,-3.2254365634632998,-1.850678973623775,log10(Method 5 score + 1e-10)
-L_Shiao_PD1_R,longitudinal,L,SHIAO_PD1_TUMOR_BILIRUBIN,Shiao,activity,PD1,Favorable,R,10,26898,-3.2254365634632998,-1.850678973623775,log10(Method 5 score + 1e-10)
-L_categorical_both_timepoints,longitudinal,L,SHIAO_PD1_TUMOR_BILIRUBIN,Shiao,categorical,Both timepoints,Favorable/Unfavorable,R/NR,16,53307,,,categorical status; no activity scale
+E_Shiao_Base,baseline,E,RNR_TUMOR_PHOSPHATIDYLINOSITOL,Shiao,activity,Base,Both,Both,16,15237,-2.4981673188728895,-2.240213875711418,log10(Method 5 score + 1e-10)
+F_Bassez_A_Pre,baseline,F,ENE_TUMOR_GLUCO_LACTATE,Bassez A,activity,Pre,Both,Both,12,12223,-3.3662329261170485,-1.9809686753253604,log10(Method 5 score + 1e-10)
+F_Bassez_B_Pre,baseline,F,ENE_TUMOR_GLUCO_LACTATE,Bassez B,activity,Pre,Both,Both,5,6217,-3.3662329261170485,-1.9809686753253604,log10(Method 5 score + 1e-10)
+G_Bassez_A_On_E,longitudinal,G,BASSEZ_A_MYELOID_GLUTATHIONE,Bassez A,activity,On,Favorable,E,5,3598,-9.99899235779679,-3.216765604071311,log10(Method 5 score + 1e-10)
+G_Bassez_A_On_NE,longitudinal,G,BASSEZ_A_MYELOID_GLUTATHIONE,Bassez A,activity,On,Unfavorable,NE,7,1245,-9.99899235779679,-3.216765604071311,log10(Method 5 score + 1e-10)
+G_Bassez_A_Pre_E,longitudinal,G,BASSEZ_A_MYELOID_GLUTATHIONE,Bassez A,activity,Pre,Favorable,E,5,1898,-9.99899235779679,-3.216765604071311,log10(Method 5 score + 1e-10)
+G_Bassez_A_Pre_NE,longitudinal,G,BASSEZ_A_MYELOID_GLUTATHIONE,Bassez A,activity,Pre,Unfavorable,NE,7,1183,-9.99899235779679,-3.216765604071311,log10(Method 5 score + 1e-10)
+G_categorical_both_timepoints,longitudinal,G,BASSEZ_A_MYELOID_GLUTATHIONE,Bassez A,categorical,Both timepoints,Favorable/Unfavorable,E/NE,12,7924,,,categorical status; no activity scale
+H_Bassez_A_On_E,longitudinal,H,BASSEZ_A_BCELL_ENDOSOMAL_TRAFFICKING,Bassez A,activity,On,Favorable,E,5,2203,-3.0172262960661094,-1.4613446861487076,log10(Method 5 score + 1e-10)
+H_Bassez_A_On_NE,longitudinal,H,BASSEZ_A_BCELL_ENDOSOMAL_TRAFFICKING,Bassez A,activity,On,Unfavorable,NE,4,1154,-3.0172262960661094,-1.4613446861487076,log10(Method 5 score + 1e-10)
+H_Bassez_A_Pre_E,longitudinal,H,BASSEZ_A_BCELL_ENDOSOMAL_TRAFFICKING,Bassez A,activity,Pre,Favorable,E,5,1282,-3.0172262960661094,-1.4613446861487076,log10(Method 5 score + 1e-10)
+H_Bassez_A_Pre_NE,longitudinal,H,BASSEZ_A_BCELL_ENDOSOMAL_TRAFFICKING,Bassez A,activity,Pre,Unfavorable,NE,4,1585,-3.0172262960661094,-1.4613446861487076,log10(Method 5 score + 1e-10)
+H_categorical_both_timepoints,longitudinal,H,BASSEZ_A_BCELL_ENDOSOMAL_TRAFFICKING,Bassez A,categorical,Both timepoints,Favorable/Unfavorable,E/NE,9,6224,,,categorical status; no activity scale
+I_Shiao_Base_NR,longitudinal,I,SHIAO_RTPD1_FIBRO_ALANINE,Shiao,activity,Base,Unfavorable,NR,4,6788,-3.8582865624914957,-2.141923175597362,log10(Method 5 score + 1e-10)
+I_Shiao_Base_R,longitudinal,I,SHIAO_RTPD1_FIBRO_ALANINE,Shiao,activity,Base,Favorable,R,8,4412,-3.8582865624914957,-2.141923175597362,log10(Method 5 score + 1e-10)
+I_Shiao_RTPD1_NR,longitudinal,I,SHIAO_RTPD1_FIBRO_ALANINE,Shiao,activity,RTPD1,Unfavorable,NR,4,1215,-3.8582865624914957,-2.141923175597362,log10(Method 5 score + 1e-10)
+I_Shiao_RTPD1_R,longitudinal,I,SHIAO_RTPD1_FIBRO_ALANINE,Shiao,activity,RTPD1,Favorable,R,8,7730,-3.8582865624914957,-2.141923175597362,log10(Method 5 score + 1e-10)
+I_categorical_both_timepoints,longitudinal,I,SHIAO_RTPD1_FIBRO_ALANINE,Shiao,categorical,Both timepoints,Favorable/Unfavorable,R/NR,12,20145,,,categorical status; no activity scale
+J_Shiao_Base_NR,longitudinal,J,SHIAO_PD1_TUMOR_BILIRUBIN,Shiao,activity,Base,Unfavorable,NR,6,8242,-3.2254365634632998,-1.850678973623775,log10(Method 5 score + 1e-10)
+J_Shiao_Base_R,longitudinal,J,SHIAO_PD1_TUMOR_BILIRUBIN,Shiao,activity,Base,Favorable,R,10,6995,-3.2254365634632998,-1.850678973623775,log10(Method 5 score + 1e-10)
+J_Shiao_PD1_NR,longitudinal,J,SHIAO_PD1_TUMOR_BILIRUBIN,Shiao,activity,PD1,Unfavorable,NR,6,11172,-3.2254365634632998,-1.850678973623775,log10(Method 5 score + 1e-10)
+J_Shiao_PD1_R,longitudinal,J,SHIAO_PD1_TUMOR_BILIRUBIN,Shiao,activity,PD1,Favorable,R,10,26898,-3.2254365634632998,-1.850678973623775,log10(Method 5 score + 1e-10)
+J_categorical_both_timepoints,longitudinal,J,SHIAO_PD1_TUMOR_BILIRUBIN,Shiao,categorical,Both timepoints,Favorable/Unfavorable,R/NR,16,53307,,,categorical status; no activity scale

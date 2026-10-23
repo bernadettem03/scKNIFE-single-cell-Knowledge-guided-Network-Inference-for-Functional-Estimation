@@ -1,0 +1,172 @@
+{
+  "official_supplementary": [
+    "S3_A_final",
+    "S3_B_final"
+  ],
+  "font": {
+    "family": "Carlito",
+    "size_pt": 6,
+    "calibri_compatible_substitute": true
+  },
+  "S3_A_final": {
+    "pdf": "outputs/Figure_3_S3_A_final.pdf",
+    "png": "outputs/Figure_3_S3_A_final.png",
+    "pages": 1,
+    "size_mm": [
+      297,
+      210
+    ],
+    "layout": {
+      "top_row": [
+        "A",
+        "B",
+        "C: Bassez A GO",
+        "D: Bassez B GO"
+      ],
+      "bottom_row": [
+        "E: Bassez A heatmap",
+        "F: Bassez B heatmap"
+      ]
+    },
+    "heatmap_audit": {
+      "Bassez A": {
+        "rows": 21,
+        "columns": 12,
+        "row_order": [
+          "Sialylation (addition of sialic acid)",
+          "Pyridoxal-phosphate synthesis",
+          "Presence of the thioredoxin system through the thioredoxin reductase activity",
+          "N-glycan processing (ER)",
+          "Glycogen degradation",
+          "Biosynthesis of core2 (beta-D-Galactosyl-1,3-(N-acetyl-beta-D-glucosaminyl-1,6)-N-acetyl-D-galactosaminyl-R)",
+          "Biosynthesis of Tn_antigen (Glycoprotein N-acetyl-D-galactosamine)",
+          "Biosynthesis of core4 (N-Acetyl-beta-D-glucosaminyl-1,6-(N-acetyl-beta-D-glucosaminyl-1,3)-N-acetyl-D-galactosaminyl-R)",
+          "Trafficking to endosomes (Clathrin Vesicles)",
+          "AMP salvage from adenine",
+          "Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)",
+          "Conversion of carnosine to beta-alanine",
+          "Farnesyl-pyrophosphate synthesis",
+          "Fructose degradation (to glucose-3-phosphate)",
+          "Glutathionate synthesis",
+          "Conversion of glutamate to glutamine",
+          "Synthesis of fructose-6-phosphate from erythrose-4-phosphate (HMP shunt)",
+          "Synthesis of alanine from glutamine",
+          "Krebs cycle - oxidative decarboxylation of pyruvate",
+          "GMP salvage from guanine",
+          "IMP salvage from hypoxanthine"
+        ],
+        "selected_e": [
+          "Sialylation (addition of sialic acid)",
+          "Farnesyl-pyrophosphate synthesis",
+          "Synthesis of alanine from glutamine",
+          "Conversion of glutamate to glutamine",
+          "Synthesis of fructose-6-phosphate from erythrose-4-phosphate (HMP shunt)",
+          "Conversion of carnosine to beta-alanine",
+          "GMP salvage from guanine",
+          "IMP salvage from hypoxanthine",
+          "Krebs cycle - oxidative decarboxylation of pyruvate",
+          "Fructose degradation (to glucose-3-phosphate)"
+        ],
+        "selected_ne": [
+          "Sialylation (addition of sialic acid)",
+          "Pyridoxal-phosphate synthesis",
+          "Biosynthesis of core2 (beta-D-Galactosyl-1,3-(N-acetyl-beta-D-glucosaminyl-1,6)-N-acetyl-D-galactosaminyl-R)",
+          "AMP salvage from adenine",
+          "Glycogen degradation",
+          "Presence of the thioredoxin system through the thioredoxin reductase activity",
+          "Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)",
+          "Biosynthesis of Tn_antigen (Glycoprotein N-acetyl-D-galactosamine)",
+          "N-glycan processing (ER)",
+          "Biosynthesis of core4 (N-Acetyl-beta-D-glucosaminyl-1,6-(N-acetyl-beta-D-glucosaminyl-1,3)-N-acetyl-D-galactosaminyl-R)"
+        ],
+        "context_tasks": [
+          "Glutathionate synthesis",
+          "Trafficking to endosomes (Clathrin Vesicles)"
+        ]
+      },
+      "Bassez B": {
+        "rows": 21,
+        "columns": 11,
+        "row_order": [
+          "Synthesis of bilirubin",
+          "Malate to pyruvate conversion",
+          "Trafficking to endosomes (Clathrin Vesicles)",
+          "Reactive oxygen species detoxification (H2O2 to H2O)",
+          "Beta-alanine to 3-oxopropanoate",
+          "Tyrosine to acetoacetate and fumarate",
+          "Synthesis of fructose-6-phosphate from erythrose-4-phosphate (HMP shunt)",
+          "Fructose degradation (to glucose-3-phosphate)",
+          "Glutathionate synthesis",
+          "Conversion of aspartate to arginine",
+          "Conversion of GABA into succinate",
+          "Synthesis of GABA",
+          "Conversion of histidine to glutamate",
+          "Conversion of aspartate to beta-alanine",
+          "Homocysteine degradation",
+          "AMP salvage from adenine",
+          "Degradation of adenine to urate",
+          "Post translational translocation",
+          "Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)",
+          "gamma-Linolenate degradation",
+          "Linoleate degradation"
+        ],
+        "selected_e": [
+          "Malate to pyruvate conversion",
+          "Conversion of histidine to glutamate",
+          "Conversion of aspartate to beta-alanine",
+          "Conversion of GABA into succinate",
+          "Homocysteine degradation",
+          "Beta-alanine to 3-oxopropanoate",
+          "AMP salvage from adenine",
+          "Tyrosine to acetoacetate and fumarate",
+          "Conversion of aspartate to arginine",
+          "Synthesis of GABA"
+        ],
+        "selected_ne": [
+          "Synthesis of bilirubin",
+          "AMP salvage from adenine",
+          "Synthesis of fructose-6-phosphate from erythrose-4-phosphate (HMP shunt)",
+          "Fructose degradation (to glucose-3-phosphate)",
+          "Degradation of adenine to urate",
+          "Reactive oxygen species detoxification (H2O2 to H2O)",
+          "Post translational translocation",
+          "Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)",
+          "gamma-Linolenate degradation",
+          "Linoleate degradation"
+        ],
+        "context_tasks": [
+          "Glutathionate synthesis",
+          "Trafficking to endosomes (Clathrin Vesicles)"
+        ]
+      }
+    },
+    "sha256_pdf": "557b513300374fa8016a1a9d686adc2b802b0cc9a585a74540d40b81da65147d",
+    "sha256_png": "469433e66d23a166c1f660a9ee36d3d4d1a4a13724ff593c7c95e7ec50cc6987"
+  },
+  "S3_B_final": {
+    "pdf": "outputs/Figure_3_S3_B_final.pdf",
+    "size_mm": [
+      297,
+      210
+    ],
+    "png": "outputs/Figure_3_S3_B_final.png",
+    "pages": 1,
+    "panels": [
+      "A main E",
+      "B-C main F in Bassez A/B",
+      "D main G",
+      "E main H",
+      "F main I",
+      "G main J"
+    ],
+    "sha256_pdf": "783d1f464ba6dc7476e04c2f2fa04e158e4a60580aec20a5bd784eb8e2ca867d",
+    "sha256_png": "8f86fa690fe3ee943f45c498619bde4397ccb2c0f707ee87639debed40995c2f"
+  },
+  "renderer": {
+    "python": "3.9.21",
+    "matplotlib": "3.9.2",
+    "seaborn": "0.13.2",
+    "cnsplots": "unavailable; matplotlib fallback",
+    "umap_coordinates": "frozen; no embedding recomputed"
+  }
+}

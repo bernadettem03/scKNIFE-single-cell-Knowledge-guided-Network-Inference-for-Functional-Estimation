@@ -10,7 +10,8 @@
     "c",
     "d",
     "e",
-    "f"
+    "f",
+    "g"
   ],
   "environment": {
     "python": "3.9.21",
@@ -48,6 +49,9 @@
     "f": [
       "cnv_provisional/umap",
       "cnv_provisional/status"
+    ],
+    "g": [
+      "../../Figure_4/data/figure4_kl_data.npz"
     ]
   },
   "renderers": {
@@ -56,7 +60,8 @@
     "c": "matplotlib",
     "d": "scanpy",
     "e": "scanpy",
-    "f": "scanpy"
+    "f": "scanpy",
+    "g": "matplotlib"
   },
   "export": {
     "svg_text": "editable",
@@ -93,6 +98,10 @@
     "f": {
       "png": "outputs/panels/S4_f_cnv_shortlist.png",
       "pdf": "outputs/panels/S4_f_cnv_shortlist.pdf"
+    },
+    "g": {
+      "png": "outputs/panels/S4_g_minor_marker_dotplot.png",
+      "pdf": "outputs/panels/S4_g_minor_marker_dotplot.pdf"
     }
   },
   "compiled_outputs": {
@@ -105,6 +114,21 @@
     "markers": 59,
     "cnv_clusters": 26,
     "cnv_low": 27421,
-    "cnv_high": 41970
+    "cnv_high": 41970,
+    "minor_labels": 29,
+    "minor_marker_positions": 58
+  },
+  "compiled_pages": 2,
+  "page_outputs": {
+    "1": {
+      "pdf": "outputs/Figure_S4_page_1.pdf",
+      "png": "outputs/Figure_S4_page_1.png",
+      "png_dpi": 300
+    },
+    "2": {
+      "pdf": "outputs/Figure_S4_page_2.pdf",
+      "png": "outputs/Figure_S4_page_2.png",
+      "png_dpi": 300
+    }
   }
 }

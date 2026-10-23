@@ -1,0 +1,35 @@
+{
+  "pathway": "COLLAGEN",
+  "tier": "minor",
+  "filter": "pooled unique LR-key BH q<0.05",
+  "test_unit": "LR key summed across cell-type pairs; not LR/source/target significance",
+  "aggregation": "sum original retained weighted scores within each source/target pair",
+  "n_lr_keys_before": 221,
+  "n_lr_keys_retained": 100,
+  "n_records_before": 257346,
+  "n_records_retained": 109330,
+  "original_total_score": 658081.4795588504,
+  "filtered_total_score": 379866.8249488034,
+  "retained_score_fraction": 0.5772337267468002,
+  "n_groups": 29,
+  "n_positive_entries": 841,
+  "display": {
+    "scale": "linear",
+    "range": "full matrix min/max",
+    "percentile_clipping": false,
+    "row_column_normalization": false,
+    "minimum": 12.6545124322707,
+    "maximum": 11516.880164255293
+  },
+  "models_rerun": false,
+  "permutations_rerun": false,
+  "inputs_sha256": {
+    "lr_significance": "631afe9ae3aab2e3acc3ad60970d8ff61791c271383cc40dd155f2a12bb9786a",
+    "minor_interactions": "4dbaaecebbb5f959f1b82db8aecf80f457785400b78db5facc2378a211206e1b",
+    "collagen_minor_matrix": "dad6d12f2850d9f0dd63ff0ae5b31c7fad8fa94a8d6c759d4ab585b26f11c66d"
+  },
+  "outputs_sha256": {
+    "collagen_minor_communication_matrix_lr_q05.csv": "309bbe27bc030fea99eec2b305fc12baf4b2255fd12c888ec44c00f730ea87f1",
+    "collagen_minor_retained_lr_keys.csv": "d824b3d19ce8a24011b765211a80110e83bccd68da39117ce80811b7827c909c"
+  }
+}

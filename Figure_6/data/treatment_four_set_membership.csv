@@ -7,7 +7,6 @@ Biopterin metabolism,True,Biopterin_metabolism
 Glutathione Metabolism,True,Glutathione_metabolism
 "Glycine, serine, alanine and threonine metabolism",True,Glycine_serine_and_threonine_metabolism
 Glycolysis and Gluconeogenesis,True,Glycolysis_Gluconeogenesis
-Glyoxylate and Dicarboxylate Metabolism,False,
 Hexose phosphorylation,True,Glycolysis_Gluconeogenesis
 Histidine metabolism,False,
 Methionine and cysteine metabolism,True,Cysteine_and_methionine_metabolism

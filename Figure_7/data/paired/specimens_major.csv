@@ -1,0 +1,16 @@
+specimen,display_id,patient,stage,clinical_category
+library4_sample3,P3,P3,Surgery,Contralateral Ca breast
+library1_sample3,P4,P4,Bx,Lung and Bone
+library3_sample1,P6,P6,Bx,Lung and Bone
+library4_sample2,P3,P3,Bx,Contralateral Ca breast
+library4_sample1,P7,P7,Surgery,No
+library3_sample4,P2,P2,Surgery,Contralateral Ca breast
+library2_sample3,P5,P5,Bx,No
+library3_sample3,P2,P2,Bx,Contralateral Ca breast
+library2_sample1,P7,P7,Bx,No
+library2_sample4,P5,P5,Surgery,No
+library3_sample2,P6,P6,Surgery,Lung and Bone
+library1_sample1,P1,P1,Bx,No
+library1_sample4,P4,P4,Surgery,Lung and Bone
+library1_sample2,P1,P1,Surgery,No
+library4_sample4,P3,P3,Recurrence,Contralateral Ca breast

@@ -1,44 +1,22 @@
-# scKNIFE manuscript reproducibility repository
+# scKNIFE manuscript figure package
 
-This repository contains code and plot-ready data for reproducing Figures 2–7 of the scKNIFE manuscript. Workflows are organized by figure so they can be reviewed and run independently.
+This repository contains the approved plots, plotting code, legends, and plot-ready inputs for main Figures 2–7 and Supplementary Figures S1–S6 of the 23 October 2026 portal manuscript draft. It is a figure reproduction package, not the scKNIFE model implementation or the complete analysis history.
 
-## Layout
+## Organization
 
-- `Figure_2/`–`Figure_7/`: main figures, analysis provenance, inputs, and outputs.
-- `Supplementary/Figure_S1/`–`Figure_S6/`: supplementary figure workflows.
-- `data_manifest.tsv`: checksummed public-file inventory.
-- `validate_repository.py`: portability and submission checks.
+- `Figure_2/` through `Figure_7/`: main figure notebooks, plotting modules, packaged inputs, and exports.
+- `Supplementary/Figure_S1/` through `Figure_S6/`: supplementary pages and their inputs.
+- `data_manifest.tsv` and `checksums.sha256`: inventories for the public package.
+- `SOURCE_PROVENANCE.md`: the local source snapshot and portal-draft identifiers used for this release.
 
-Submission legends are stored as `LEGEND.txt` beside each main and
-supplementary plotting workflow. Their authoritative editable counterparts are
-maintained under `May_2026_clean_version_redo/Methods_section/plots description`.
-The 16 September 2026 cross-tree review is recorded in
-`CAPTION_COHERENCE_AUDIT.md`.
+The manuscript's Figure 1 is conceptual artwork and is outside this package. The final portal PDFs and raw study deposits are not copied here. The scKNIFE implementation is maintained separately at <https://github.com/bernadettem03/scKNIFE>.
 
-Root figure notebooks are plotting-only. Statistical inference, clustering, feature selection, and derived-table construction belong under each figure's `analysis/` directory.
+## Reproducing plots
 
-## Environment
+Create the environment with `conda env create -f environment.yml`, activate it, and run `python validate_repository.py`. Figure notebooks use repository-relative plot-ready inputs and save final outputs under their own `outputs/` folders. The retained notebook outputs let readers inspect the figures without rerunning them.
 
-```bash
-conda env create -f environment.yml
-conda activate tnbc-figures-py39
-python validate_repository.py
-```
+The Figure 4 plotting bundle `Figure_4/data/fig4_plot_data.h5` is an unpublished dependency held outside Git. Its compiled approved PDF and PNG are included here. The private bundle can be restored locally using `download_data.py` and `private_archive_manifest.tsv` when supplied by the authors. The validator does not require this private file.
 
-Large editable artwork and data unsuitable for Git are retained in a private, unpublished archive. No public Zenodo DOI is available. A code/data license and final manuscript citation must be approved before public release.
+Raw study data are deposited separately: single-cell data under ENA PRJEB108811 and LC–MS data under MassIVE MSV000103682. This repository contains only selected processed values required for the figures; model fitting and inferential derivations are documented in the manuscript and its supplemental tables.
 
-
-## Private unpublished data bundle
-
-The repository does not publish or create a Zenodo record. Assets marked `private_unpublished` in `data_manifest.tsv` are inventoried in `private_archive_manifest.tsv`. After receiving the private archive from the authors, restore and validate it with:
-
-```bash
-python download_data.py --archive-dir /path/to/extracted/private_bundle
-python validate_repository.py
-```
-
-Do not commit credentials, private links, or access tokens.
-
-## Current migration status
-
-All main and supplementary notebooks generate their component panels live from validated plot-ready inputs, display those panels inline, and compile the final figure last. Executed outputs are retained so GitHub reviewers can inspect the figures without first running the notebooks. Full analytical derivations remain under each figure’s `analysis/` directory.
+Patient labels in the public package use P1–P7. The original specimen-to-pseudonym crosswalk remains outside this repository. No publication license or DOI is asserted here.

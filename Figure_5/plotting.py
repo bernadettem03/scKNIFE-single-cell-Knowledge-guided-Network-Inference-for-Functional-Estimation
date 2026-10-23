@@ -11,7 +11,7 @@ from IPython.display import Image, display
 from PIL import Image as PILImage
 ROOT=Path(__file__).resolve().parent
 OUTPUT=ROOT/'outputs'; PANELS=OUTPUT/'panels'; MANIFEST=ROOT/'approved_render_manifest.json'
-PANEL_ORDER=tuple('ACEGH')
+PANEL_ORDER=tuple(json.loads(MANIFEST.read_text())['composite_order'])
 def _sha256(path):
     h=hashlib.sha256()
     with Path(path).open('rb') as stream:

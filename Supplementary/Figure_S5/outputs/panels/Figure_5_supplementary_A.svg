@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="541.832264pt" height="205.274879pt" viewBox="0 0 541.832264 205.274879" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-16T17:20:33.505475</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 205.274879 
+L 541.832264 205.274879 
+L 541.832264 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 21.992264 150.466312 
+L 159.620292 150.466312 
+L 159.620292 17.410312 
+L 21.992264 17.410312 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAOYAAADeCAYAAAApQ3x7AAAERklEQVR4nO3du66mYxjH4XstH4Y1GzNmsYiQSFBQiUZiU2gkNokTUDoMzBkoReMEyHQK3VDZVAxhJiFEKCgY1mLsj0HxfPklrusE/s37e5/y3rnvzZf/mS04e+Jw+cZTt19cvrEtr37w+FZ2dg6vWb5x/cHR8o2Zmc17J5ZvXL15K7nM7lZWgP9EmBAkTAgSJgQJE4KECUHChCBhQpAwIUiYECRMCBImBAkTgoQJQcKEIGFCkDAhSJgQJEwIEiYECROChAlBwoQgYUKQMCFImBAkTAgSJgQJE4KECUHChKCd1z57ZCsH//Z2ry7f+GtL/5lXLj+xfOPhgy+Xb8zMvP3WQ8s3rp79a/nGzMzZO39cvnHm6UvLN2a8mJAkTAgSJgQJE4KECUHChCBhQpAwIUiYECRMCBImBAkTgoQJQcKEIGFCkDAhSJgQJEwIEiYECROChAlBwoQgYUKQMCFImBAkTAgSJgQJE4KECUHChKCdFz96ditn+F44/f7yjTd+vn/5xszMB1fuWr5x5rqj5RszM98c3bR84+ML9yzfmJn588b1n/LmcGf5xowXE5KECUHChCBhQpAwIUiYECRMCBImBAkTgoQJQcKEIGFCkDAhSJgQJEwIEiYECROChAlBwoQgYUKQMCFImBAkTAgSJgQJE4KECUHChCBhQpAwIUiYECRMCNq8tP/pVobe+e34Vna24d2L9y3fOH3rleUbMzN3nPpp+cbf1y2fmJmZ3d/X36686fLyiZnxYkKSMCFImBAkTAgSJgQJE4KECUHChCBhQpAwIUiYECRMCBImBAkTgoQJQcKEIGFCkDAhSJgQJEwIEiYECROChAlBwoQgYUKQMCFImBAkTAgSJgQJE4KECUGb5796bCtDv/xx/fKNJ/c/Wb4xM3Pu0fPLN1668NzyjZmZB/a/W76x+8fyiZmZOXVp/cbet7+vHxkvJiQJE4KECUHChCBhQpAwIUiYECRMCBImBAkTgoQJQcKEIGFCkDAhSJgQJEwIEiYECROChAlBwoQgYUKQMCFImBAkTAgSJgQJE4KECUHChCBhQpAwIUiYELR58OTXWxn64tf95RvHdrZzu/Dch88s3zh+y+HyjZmZi9/ftnzjn7uPlm/MzHx/ev0N1jOvu48J/1vChCBhQpAwIUiYECRMCBImBAkTgoQJQcKEIGFCkDAhSJgQJEwIEiYECROChAlBwoQgYUKQMCFImBAkTAgSJgQJE4KECUHChCBhQpAwIUiYECRMCNq8cOrSVobOb35evnHtzp/LN2Zm9o7/tnzj6PDY8o2ZmYODH5ZvXPnlhuUbMzMnP98s3/jx3r3lGzNeTEgSJgQJE4KECUHChCBhQpAwIUiYECRMCBImBAkTgoQJQcKEIGFCkDAhSJgQJEwIEiYECROChAlBwoQgYUKQMCFImBAkTAgSJgQJE4KECUHChCBhQpAwIehfTutZ3p920j0AAAAASUVORK5CYII=" id="image5aedef6486" transform="scale(1 -1) translate(0 -133.2)" x="22.2" y="-17.4" width="138" height="133.2"/>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m884ac8f657" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m884ac8f657" x="29.638266" y="150.466312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font: 6px 'Carlito'" transform="translate(10.145984 179.221116) rotate(-45)">Basal/IFNα</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m884ac8f657" x="44.930269" y="150.466312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font: 6px 'Carlito'" transform="translate(24.239441 180.373921) rotate(-45)">Cycling/E2F</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m884ac8f657" x="60.222272" y="150.466312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font: 6px 'Carlito'" transform="translate(31.665323 188.212862) rotate(-45)">Lum. progenitor</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m884ac8f657" x="75.514275" y="150.466312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font: 6px 'Carlito'" transform="translate(51.01634 184.226769) rotate(-45)">Myoepithelial</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#m884ac8f657" x="90.806278" y="150.466312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font: 6px 'Carlito'" transform="translate(68.942757 181.592354) rotate(-45)">Her2-SC-like</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m884ac8f657" x="106.098281" y="150.466312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font: 6px 'Carlito'" transform="translate(89.424703 176.402411) rotate(-45)">Epithelial</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m884ac8f657" x="121.390284" y="150.466312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font: 6px 'Carlito'" transform="translate(94.045139 187.073978) rotate(-45)">Mature luminal</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m884ac8f657" x="136.682287" y="150.466312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font: 6px 'Carlito'" transform="translate(113.345112 183.066009) rotate(-45)">LumA-SC-like</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m884ac8f657" x="151.97429" y="150.466312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font: 6px 'Carlito'" transform="translate(128.784281 182.918842) rotate(-45)">LumB-SC-like</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_10">
+      <defs>
+       <path id="m7484307110" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m7484307110" x="21.992264" y="26.914312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font: 6px 'Carlito'; text-anchor: end" x="14.992264" y="28.997437" transform="rotate(-0 14.992264 28.997437)">P1</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#m7484307110" x="21.992264" y="45.922312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font: 6px 'Carlito'; text-anchor: end" x="14.992264" y="48.005437" transform="rotate(-0 14.992264 48.005437)">P2</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m7484307110" x="21.992264" y="64.930312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font: 6px 'Carlito'; text-anchor: end" x="14.992264" y="67.013437" transform="rotate(-0 14.992264 67.013437)">P3</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#m7484307110" x="21.992264" y="83.938312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="font: 6px 'Carlito'; text-anchor: end" x="14.992264" y="86.021437" transform="rotate(-0 14.992264 86.021437)">P4</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m7484307110" x="21.992264" y="102.946312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <text style="font: 6px 'Carlito'; text-anchor: end" x="14.992264" y="105.029437" transform="rotate(-0 14.992264 105.029437)">P5</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#m7484307110" x="21.992264" y="121.954312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <text style="font: 6px 'Carlito'; text-anchor: end" x="14.992264" y="124.037437" transform="rotate(-0 14.992264 124.037437)">P6</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#m7484307110" x="21.992264" y="140.962312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <text style="font: 6px 'Carlito'; text-anchor: end" x="14.992264" y="143.045437" transform="rotate(-0 14.992264 143.045437)">P7</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 21.992264 150.466312 
+L 21.992264 17.410312 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 21.992264 150.466312 
+L 159.620292 150.466312 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_17">
+    <text style="font: 700 6px 'Carlito'; text-anchor: start" x="21.992264" y="11.410312" transform="rotate(-0 21.992264 11.410312)">A  Patient coverage</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_5">
+    <path d="M 162.548548 142.503431 
+L 168.40506 142.503431 
+L 168.40506 25.373194 
+L 162.548548 25.373194 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAAoAAADDCAYAAAC71YDBAAABSUlEQVR4nOXZ223DQAxEUe5Dqsw1pP9CnCgtnAVIEHH8PZjLIblryR6v+fUEfPaYQ3SxY0wTjrXQ0dEoPEBjGEZzGK+R0SzsRHPDVcjb0zfrh9Gmq5hMY42t6Pw+kq4CHaaL/XCYlY9WobcHHQ+OKzpymILtaUT7KVTHvqU4QKPwo1LzjXuwj+rYhy6o0XQV6P+5FAWp22pEv+5LKhsdw07NnzgKHqZzKbDGg0euNvQzsx3xQSp2pKMj0HEUpE531BoZzZMpQBs59pw/ilZHrbERvUYbmke4tD3ecD2uBWgVbp1MAZpTax8PakR0RXvQ8XJ0do3X+E52XL6PiF7RlppvM57M0g0/mAyjeR/T2+Op34rWffTU2eip6FvR/j1TsI/anvQ7/I70S8pTZzvqa9y+9XdcdlzqeOFr3J74DuDoqehr4H+a6vgL+ut5DqwTGmIAAAAASUVORK5CYII=" id="image3cc71b3cb2" transform="scale(1 -1) translate(0 -117)" x="162.6" y="-25.2" width="6" height="117"/>
+   <g id="matplotlib.axis_3"/>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_8">
+     <g id="line2d_17">
+      <defs>
+       <path id="m9b1c9fb0c6" d="M 0 0 
+L 3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m9b1c9fb0c6" x="168.40506" y="141.624659" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_18">
+      <text style="font: 6px 'Carlito'; text-anchor: start" x="175.40506" y="143.707784" transform="rotate(-0 175.40506 143.707784)">0.5</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#m9b1c9fb0c6" x="168.40506" y="122.419684" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_19">
+      <text style="font: 6px 'Carlito'; text-anchor: start" x="175.40506" y="124.502809" transform="rotate(-0 175.40506 124.502809)">1.0</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_19">
+      <g>
+       <use xlink:href="#m9b1c9fb0c6" x="168.40506" y="103.21471" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_20">
+      <text style="font: 6px 'Carlito'; text-anchor: start" x="175.40506" y="105.297835" transform="rotate(-0 175.40506 105.297835)">1.5</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#m9b1c9fb0c6" x="168.40506" y="84.009735" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_21">
+      <text style="font: 6px 'Carlito'; text-anchor: start" x="175.40506" y="86.09286" transform="rotate(-0 175.40506 86.09286)">2.0</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_21">
+      <g>
+       <use xlink:href="#m9b1c9fb0c6" x="168.40506" y="64.80476" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_22">
+      <text style="font: 6px 'Carlito'; text-anchor: start" x="175.40506" y="66.887885" transform="rotate(-0 175.40506 66.887885)">2.5</text>
+     </g>
+    </g>
+    <g id="ytick_13">
+     <g id="line2d_22">
+      <g>
+       <use xlink:href="#m9b1c9fb0c6" x="168.40506" y="45.599786" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_23">
+      <text style="font: 6px 'Carlito'; text-anchor: start" x="175.40506" y="47.682911" transform="rotate(-0 175.40506 47.682911)">3.0</text>
+     </g>
+    </g>
+    <g id="ytick_14">
+     <g id="line2d_23">
+      <g>
+       <use xlink:href="#m9b1c9fb0c6" x="168.40506" y="26.394811" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_24">
+      <text style="font: 6px 'Carlito'; text-anchor: start" x="175.40506" y="28.477936" transform="rotate(-0 175.40506 28.477936)">3.5</text>
+     </g>
+    </g>
+    <g id="text_25">
+     <text style="font: 6px 'Carlito'; text-anchor: middle" x="191.390997" y="83.938312" transform="rotate(-90 191.390997 83.938312)">log10(cells + 1)</text>
+    </g>
+   </g>
+   <g id="LineCollection_1"/>
+   <g id="patch_6">
+    <path d="M 162.548548 142.503431 
+L 165.476804 142.503431 
+L 168.40506 142.503431 
+L 168.40506 25.373194 
+L 165.476804 25.373194 
+L 162.548548 25.373194 
+L 162.548548 142.503431 
+z
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_7">
+    <path d="M 234.388426 150.466312 
+L 351.518662 150.466312 
+L 351.518662 17.410313 
+L 234.388426 17.410313 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAMQAAADeCAYAAABi66+WAAAEVElEQVR4nO3cvavWdRjH8es+3pYdtY7aUbEHLSsSg1QqmrQImsKIgoSWgghrbxAilLaiza2lCNpbogchtwrKMSwreiAIMtPS4/HheFo/f8D3GoLX6w/48Bvu931t38nlEx8tV4Nrdz40fHN65ufhm1VVH+99oWX3se++aNmdnv6pZferpS3DN1dNZ4ZvVlXtPXCkZbfna+F/ShAQBAFBEBAEAUEQEAQBQRAQBAFBEBAEAUEQEAQBQRAQBAFBEBAEAUEQEAQBQRAQBAFBEBAEAUEQEKbHnj7UMrznlX3DNzccODh8s6pq+ZNPW3ZnFv5u2f13/faW3d9+GP+9T92xavhmVdXctvtadl0ICIKAIAgIgoAgCAiCgCAICIKAIAgIgoAgCAiCgCAICIKAIAgIgoAgCAiCgCAICIKAIAgIgoAgCAjTzbs2tQx/c/T48M3Hn31p+GZV1blLV1t2l1ZvaNk9e6Hne3duXDN889TC8Mmqqpq/fUvLrgsBQRAQBAFBEBAEAUEQEAQBQRAQBAFBEBAEAUEQEAQBQRAQBAFBEBAEAUEQEAQBQRAQBAFBEBAEAUEQEKZ/fnu6ZXhu643DNydLl4dvVlVtXzfbsjtz6XzL7pmL06bdK8M3/1oYv1lVNTe/umXXhYAgCAiCgCAICIKAIAgIgoAgCAiCgCAICIKAIAgIgoAgCAiCgCAICIKAIAgIgoAgCAiCgCAICIKAIAgI04tnF1uGN+/aNH702tXxm1V16uyFlt09s0stu7Mr17fs/npu/G9hZjJ8sqqq5tZe37LrQkAQBARBQBAEBEFAEAQEQUAQBARBQBAEBEFAEAQEQUAQBARBQBAEBEFAEAQEQUAQBARBQBAEBEFAmPz+xsHljuGbH3m0Y7bF+fufaNlde/JYy+6b/9zbsrt/x/i3tO45+eHwzaqquUNftuy6EBAEAUEQEAQBQRAQBAFBEBAEAUEQEAQBQRAQBAFBEBAEAUEQEAQBQRAQBAFBEBAEAUEQEAQBQRAQBAFhsvj5+y0PlZ048s7wzQePHh6+WVW1vLjQsjszu7Zl9/xtD7TsPvzaZ8M352+9afhmVdXhJ3e27LoQEAQBQRAQBAFBEBAEAUEQEAQBQRAQBAFBEBAEAUEQEAQBQRAQBAFBEBAEAUEQEAQBQRAQBAFBEBAEAWG6Yv6WluH3jv8yfHP31j3DN6uq/rjU879w8UrLG3B195kfW3ZffW738M1929YN36yqev7dr1t2XQgIgoAgCAiCgCAICIKAIAgIgoAgCAiCgCAICIKAIAgIgoAgCAiCgCAICIKAIAgIgoAgCAiCgCAICJOXa2vL40FvffDi8M3r9j4zfLOq6u3vV7Ts7t+xsWV38+qVLbs3TCfDN18/1vOG1F0b17TsuhAQBAFBEBAEAUEQEAQBQRAQBAFBEBAEAUEQEAQBQRAQBAFBEBAEAUEQEAQBQRAQBAFBEBAEAUEQEAQB4T9pvXMGVz7+NQAAAABJRU5ErkJggg==" id="image9291500b1f" transform="scale(1 -1) translate(0 -133.2)" x="234.6" y="-17.4" width="117.6" height="133.2"/>
+   <g id="matplotlib.axis_5">
+    <g id="xtick_10">
+     <g id="line2d_24">
+      <g>
+       <use xlink:href="#m884ac8f657" x="240.895661" y="150.466312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_26">
+      <text style="font: 6px 'Carlito'" transform="translate(221.403379 179.221116) rotate(-45)">Basal/IFNα</text>
+     </g>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_25">
+      <g>
+       <use xlink:href="#m884ac8f657" x="253.910132" y="150.466312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_27">
+      <text style="font: 6px 'Carlito'" transform="translate(233.219304 180.373921) rotate(-45)">Cycling/E2F</text>
+     </g>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_26">
+      <g>
+       <use xlink:href="#m884ac8f657" x="266.924603" y="150.466312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_28">
+      <text style="font: 6px 'Carlito'" transform="translate(238.367653 188.212862) rotate(-45)">Lum. progenitor</text>
+     </g>
+    </g>
+    <g id="xtick_13">
+     <g id="line2d_27">
+      <g>
+       <use xlink:href="#m884ac8f657" x="279.939073" y="150.466312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_29">
+      <text style="font: 6px 'Carlito'" transform="translate(255.441138 184.226769) rotate(-45)">Myoepithelial</text>
+     </g>
+    </g>
+    <g id="xtick_14">
+     <g id="line2d_28">
+      <g>
+       <use xlink:href="#m884ac8f657" x="292.953544" y="150.466312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_30">
+      <text style="font: 6px 'Carlito'" transform="translate(271.090023 181.592354) rotate(-45)">Her2-SC-like</text>
+     </g>
+    </g>
+    <g id="xtick_15">
+     <g id="line2d_29">
+      <g>
+       <use xlink:href="#m884ac8f657" x="305.968015" y="150.466312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_31">
+      <text style="font: 6px 'Carlito'" transform="translate(289.294437 176.402411) rotate(-45)">Epithelial</text>
+     </g>
+    </g>
+    <g id="xtick_16">
+     <g id="line2d_30">
+      <g>
+       <use xlink:href="#m884ac8f657" x="318.982485" y="150.466312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_32">
+      <text style="font: 6px 'Carlito'" transform="translate(291.63734 187.073978) rotate(-45)">Mature luminal</text>
+     </g>
+    </g>
+    <g id="xtick_17">
+     <g id="line2d_31">
+      <g>
+       <use xlink:href="#m884ac8f657" x="331.996956" y="150.466312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_33">
+      <text style="font: 6px 'Carlito'" transform="translate(308.659781 183.066009) rotate(-45)">LumA-SC-like</text>
+     </g>
+    </g>
+    <g id="xtick_18">
+     <g id="line2d_32">
+      <g>
+       <use xlink:href="#m884ac8f657" x="345.011427" y="150.466312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_34">
+      <text style="font: 6px 'Carlito'" transform="translate(321.821418 182.918842) rotate(-45)">LumB-SC-like</text>
+     </g>
+    </g>
+    <g id="text_35">
+     <text style="font: 6px 'Carlito'; text-anchor: middle" x="292.953544" y="197.108316" transform="rotate(-0 292.953544 197.108316)">Minor annotation</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_6">
+    <g id="ytick_15">
+     <g id="line2d_33">
+      <g>
+       <use xlink:href="#m7484307110" x="234.388426" y="24.802312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_36">
+      <text style="font: 6px 'Carlito'; text-anchor: end" x="227.388426" y="26.885437" transform="rotate(-0 227.388426 26.885437)">PG1</text>
+     </g>
+    </g>
+    <g id="ytick_16">
+     <g id="line2d_34">
+      <g>
+       <use xlink:href="#m7484307110" x="234.388426" y="39.586312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_37">
+      <text style="font: 6px 'Carlito'; text-anchor: end" x="227.388426" y="41.669437" transform="rotate(-0 227.388426 41.669437)">PG2</text>
+     </g>
+    </g>
+    <g id="ytick_17">
+     <g id="line2d_35">
+      <g>
+       <use xlink:href="#m7484307110" x="234.388426" y="54.370312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_38">
+      <text style="font: 6px 'Carlito'; text-anchor: end" x="227.388426" y="56.453437" transform="rotate(-0 227.388426 56.453437)">PG3</text>
+     </g>
+    </g>
+    <g id="ytick_18">
+     <g id="line2d_36">
+      <g>
+       <use xlink:href="#m7484307110" x="234.388426" y="69.154312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_39">
+      <text style="font: 6px 'Carlito'; text-anchor: end" x="227.388426" y="71.237437" transform="rotate(-0 227.388426 71.237437)">PG4</text>
+     </g>
+    </g>
+    <g id="ytick_19">
+     <g id="line2d_37">
+      <g>
+       <use xlink:href="#m7484307110" x="234.388426" y="83.938312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_40">
+      <text style="font: 6px 'Carlito'; text-anchor: end" x="227.388426" y="86.021437" transform="rotate(-0 227.388426 86.021437)">PG5</text>
+     </g>
+    </g>
+    <g id="ytick_20">
+     <g id="line2d_38">
+      <g>
+       <use xlink:href="#m7484307110" x="234.388426" y="98.722312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_41">
+      <text style="font: 6px 'Carlito'; text-anchor: end" x="227.388426" y="100.805437" transform="rotate(-0 227.388426 100.805437)">PG6</text>
+     </g>
+    </g>
+    <g id="ytick_21">
+     <g id="line2d_39">
+      <g>
+       <use xlink:href="#m7484307110" x="234.388426" y="113.506312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_42">
+      <text style="font: 6px 'Carlito'; text-anchor: end" x="227.388426" y="115.589437" transform="rotate(-0 227.388426 115.589437)">PG7</text>
+     </g>
+    </g>
+    <g id="ytick_22">
+     <g id="line2d_40">
+      <g>
+       <use xlink:href="#m7484307110" x="234.388426" y="128.290312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_43">
+      <text style="font: 6px 'Carlito'; text-anchor: end" x="227.388426" y="130.373437" transform="rotate(-0 227.388426 130.373437)">PG8</text>
+     </g>
+    </g>
+    <g id="ytick_23">
+     <g id="line2d_41">
+      <g>
+       <use xlink:href="#m7484307110" x="234.388426" y="143.074312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_44">
+      <text style="font: 6px 'Carlito'; text-anchor: end" x="227.388426" y="145.157437" transform="rotate(-0 227.388426 145.157437)">PG9</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_8">
+    <path d="M 234.388426 150.466312 
+L 234.388426 17.410312 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 234.388426 150.466312 
+L 351.518662 150.466312 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_45">
+    <text style="font: 6px 'Carlito'; text-anchor: middle" x="292.953544" y="11.410313" transform="rotate(-0 292.953544 11.410313)">B  PG by cell</text>
+   </g>
+  </g>
+  <g id="axes_4">
+   <g id="patch_10">
+    <path d="M 417.502028 150.466312 
+L 534.632264 150.466312 
+L 534.632264 17.410313 
+L 417.502028 17.410313 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAMQAAADeCAYAAABi66+WAAAEW0lEQVR4nO3cv2vdZRjG4eckp+2hSROa2IBSYlBLkFYRRTqJg+igQwc3Vx0cXERX0ck/oIripOCkdnIQpFuHFgdR8VcRtbZUEkwTKUlrk/Q0rrf7+w7Cdf0BN4cv58OzvYNr77y+Vx3MPvF0882JqZnmm1VVl99/t8vuoTc/6LI7+9u5LrvfzJ9svvnhV1eab1ZVnfn4bJfdiS6r8D8lCAiCgCAICIKAIAgIgoAgCAiCgCAICIKAIAgIgoAgCAiCgCAICIKAIAgIgoAgCAiCgCAICIKAIAgIgytvvNjlobKNn68233zw1Zeab1ZVDZYe7rK7d2C6y+744OEuu5/8uNZ8c3Vzu/lmVdV7H13osutCQBAEBEFAEAQEQUAQBARBQBAEBEFAEAQEQUAQBARBQBAEBEFAEAQEQUAQBARBQBAEBEFAEAQEQUAYTu7f12X4/NlLzTePvzXffLOq6rvxkS67x0ajLrvbu3e67D56z2zzzTPfrzTfrKpaemixy64LAUEQEAQBQRAQBAFBEBAEAUEQEAQBQRAQBAFBEBAEAUEQEAQBQRAQBAFBEBAEAUEQEAQBQRAQBAFBEBCGt9avdxlePHSg+eZ4fbX5ZlVVzfSZHf2z3mX3z9t9fvDNnXHzzasbN5tvVlXNdvh/VbkQ8B+CgCAICIKAIAgIgoAgCAiCgCAICIKAIAgIgoAgCAiCgCAICIKAIAgIgoAgCAiCgCAICIKAIAgIgoAwHEz0aWJq4WDzzfHffzXfrKra/0CfbzC5tdZl99ZwusvuytZ2882FmVHzzaqq31c2u+y6EBAEAUEQEAQBQRAQBAFBEBAEAUEQEAQBQRAQBAFBEBAEAUEQEAQBQRAQBAFBEBAEAUEQEAQBQRAQhr2Gl59/rPnmzlqfd5mW913vsntncrbL7uR40GX3+MJU881f128036yq+unc1112XQgIgoAgCAiCgCAICIKAIAgIgoAgCAiCgCAICIKAIAgIgoAgCAiCgCAICIKAIAgIgoAgCAiCgCAICIKAMBzN93lMa+Pi5eabS/cfbb5ZVbUzdaTL7mjtly67y3OHu+y+8Gn73/v4fXPNN6uq7n3kRJddFwKCICAIAoIgIAgCgiAgCAKCICAIAoIgIAgCgiAgCAKCICAIAoIgIAgCgiAgCAKCICAIAoIgIAgCgiAgDHb/+Havx/ArS6eab56+dr75ZlXVpdvTXXbHe10+bS3fuNhl97PN9g/BDScHzTerqr74YbXLrgsBQRAQBAFBEBAEAUEQEAQBQRAQBAFBEBAEAUEQEAQBQRAQBAFBEBAEAUEQEAQBQRAQBAFBEBAEAWFw4aknuzweNHfsruabi6eeab5ZVfX53c912X322FyX3dWt3S67R6cnm2+eeO3L5ptVVW+/fLLLrgsBQRAQBAFBEBAEAUEQEAQBQRAQBAFBEBAEAUEQEAQBQRAQBAFBEBAEAUEQEAQBQRAQBAFBEBAEAUEQEP4FNH94BDWKuUgAAAAASUVORK5CYII=" id="imagecdd2b0225d" transform="scale(1 -1) translate(0 -133.2)" x="417.6" y="-17.4" width="117.6" height="133.2"/>
+   <g id="matplotlib.axis_7">
+    <g id="xtick_19">
+     <g id="line2d_42">
+      <g>
+       <use xlink:href="#m884ac8f657" x="424.009264" y="150.466312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_46">
+      <text style="font: 6px 'Carlito'" transform="translate(404.516981 179.221116) rotate(-45)">Basal/IFNα</text>
+     </g>
+    </g>
+    <g id="xtick_20">
+     <g id="line2d_43">
+      <g>
+       <use xlink:href="#m884ac8f657" x="437.023734" y="150.466312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_47">
+      <text style="font: 6px 'Carlito'" transform="translate(416.332906 180.373921) rotate(-45)">Cycling/E2F</text>
+     </g>
+    </g>
+    <g id="xtick_21">
+     <g id="line2d_44">
+      <g>
+       <use xlink:href="#m884ac8f657" x="450.038205" y="150.466312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_48">
+      <text style="font: 6px 'Carlito'" transform="translate(421.481256 188.212862) rotate(-45)">Lum. progenitor</text>
+     </g>
+    </g>
+    <g id="xtick_22">
+     <g id="line2d_45">
+      <g>
+       <use xlink:href="#m884ac8f657" x="463.052676" y="150.466312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_49">
+      <text style="font: 6px 'Carlito'" transform="translate(438.55474 184.226769) rotate(-45)">Myoepithelial</text>
+     </g>
+    </g>
+    <g id="xtick_23">
+     <g id="line2d_46">
+      <g>
+       <use xlink:href="#m884ac8f657" x="476.067146" y="150.466312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_50">
+      <text style="font: 6px 'Carlito'" transform="translate(454.203626 181.592354) rotate(-45)">Her2-SC-like</text>
+     </g>
+    </g>
+    <g id="xtick_24">
+     <g id="line2d_47">
+      <g>
+       <use xlink:href="#m884ac8f657" x="489.081617" y="150.466312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_51">
+      <text style="font: 6px 'Carlito'" transform="translate(472.408039 176.402411) rotate(-45)">Epithelial</text>
+     </g>
+    </g>
+    <g id="xtick_25">
+     <g id="line2d_48">
+      <g>
+       <use xlink:href="#m884ac8f657" x="502.096088" y="150.466312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_52">
+      <text style="font: 6px 'Carlito'" transform="translate(474.750943 187.073978) rotate(-45)">Mature luminal</text>
+     </g>
+    </g>
+    <g id="xtick_26">
+     <g id="line2d_49">
+      <g>
+       <use xlink:href="#m884ac8f657" x="515.110558" y="150.466312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_53">
+      <text style="font: 6px 'Carlito'" transform="translate(491.773383 183.066009) rotate(-45)">LumA-SC-like</text>
+     </g>
+    </g>
+    <g id="xtick_27">
+     <g id="line2d_50">
+      <g>
+       <use xlink:href="#m884ac8f657" x="528.125029" y="150.466312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_54">
+      <text style="font: 6px 'Carlito'" transform="translate(504.93502 182.918842) rotate(-45)">LumB-SC-like</text>
+     </g>
+    </g>
+    <g id="text_55">
+     <text style="font: 6px 'Carlito'; text-anchor: middle" x="476.067146" y="197.108316" transform="rotate(-0 476.067146 197.108316)">Minor annotation</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_8">
+    <g id="ytick_24">
+     <g id="line2d_51">
+      <g>
+       <use xlink:href="#m7484307110" x="417.502028" y="24.802312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_25">
+     <g id="line2d_52">
+      <g>
+       <use xlink:href="#m7484307110" x="417.502028" y="39.586312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_26">
+     <g id="line2d_53">
+      <g>
+       <use xlink:href="#m7484307110" x="417.502028" y="54.370312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_27">
+     <g id="line2d_54">
+      <g>
+       <use xlink:href="#m7484307110" x="417.502028" y="69.154312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_28">
+     <g id="line2d_55">
+      <g>
+       <use xlink:href="#m7484307110" x="417.502028" y="83.938312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_29">
+     <g id="line2d_56">
+      <g>
+       <use xlink:href="#m7484307110" x="417.502028" y="98.722312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_30">
+     <g id="line2d_57">
+      <g>
+       <use xlink:href="#m7484307110" x="417.502028" y="113.506312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_31">
+     <g id="line2d_58">
+      <g>
+       <use xlink:href="#m7484307110" x="417.502028" y="128.290312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_32">
+     <g id="line2d_59">
+      <g>
+       <use xlink:href="#m7484307110" x="417.502028" y="143.074312" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="patch_11">
+    <path d="M 417.502028 150.466312 
+L 417.502028 17.410312 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 417.502028 150.466312 
+L 534.632264 150.466312 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_56">
+    <text style="font: 6px 'Carlito'; text-anchor: middle" x="476.067146" y="11.410313" transform="rotate(-0 476.067146 11.410313)">C  PG by patient</text>
+   </g>
+  </g>
+ </g>
+</svg>

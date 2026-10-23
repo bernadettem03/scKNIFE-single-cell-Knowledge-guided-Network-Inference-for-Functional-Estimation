@@ -280,7 +280,10 @@ def render_s4_compiled():
     fig = plt.figure(figsize=(S4_WIDTH_IN, S4_HEIGHT_IN), facecolor="white")
     grid = fig.add_gridspec(4, 12, height_ratios=[1.05, 1.45, .86, .74],
                             left=.065, right=.965, bottom=.035, top=.98, hspace=.52, wspace=1.35)
-    ax_a=fig.add_subplot(grid[0,:8]);ax_b=fig.add_subplot(grid[0,8:]);ax_c=fig.add_subplot(grid[1,:])
+    top_row = grid[0, :].subgridspec(1, 2, width_ratios=(2, 1), wspace=.5)
+    ax_a=fig.add_subplot(top_row[0,0]);ax_b=fig.add_subplot(top_row[0,1]);ax_c=fig.add_subplot(grid[1,:])
+    c_position = ax_c.get_position()
+    ax_c.set_position([.15, c_position.y0, .80, c_position.height])
     ax_d=fig.add_subplot(grid[2,0:4]);ax_e=fig.add_subplot(grid[2,4:8]);ax_f=fig.add_subplot(grid[2,8:12])
     draw_s4_a(ax_a);draw_s4_b(ax_b);draw_s4_c(ax_c);draw_s4_d(ax_d);draw_s4_e(ax_e);draw_s4_f(ax_f)
     legend_d=fig.add_subplot(grid[3,0:4]);legend_e=fig.add_subplot(grid[3,4:8]);legend_f=fig.add_subplot(grid[3,8:12])

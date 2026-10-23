@@ -1,0 +1,19 @@
+celltype,display_family,n_nodes,fraction_patients_decreased,min_patient_coverage
+CAF,Aromatic amino acids and biogenic amines,5,0.8571428571428571,7
+CAF,"Glycosaminoglycans, glycosphingolipids and glycans",9,0.7301587301587301,7
+CAF,"Nucleotides, nucleic acids and RNA modification",2,0.8571428571428571,7
+CAF,Other families,10,0.7714285714285714,7
+CAF,"Vitamins, cofactors, retinoids and isoprenoids",2,0.7142857142857143,7
+Endothelial,Fatty acids and beta-oxidation intermediates,4,1.0,7
+Endothelial,Other families,2,0.7857142857142857,7
+Epithelial,Glycerophospholipids and lysophospholipids,27,0.42857142857142855,7
+Epithelial,"Nucleotides, nucleic acids and RNA modification",7,0.4489795918367347,7
+Epithelial,Other families,5,0.48571428571428565,7
+Epithelial,"Vitamins, cofactors, retinoids and isoprenoids",1,0.5714285714285714,7
+T cells,Aromatic amino acids and biogenic amines,6,0.8571428571428571,7
+T cells,Fatty acids and beta-oxidation intermediates,15,0.7142857142857143,7
+T cells,"Glycosaminoglycans, glycosphingolipids and glycans",7,0.836734693877551,7
+T cells,"Nucleotides, nucleic acids and RNA modification",3,0.8571428571428571,7
+T cells,Other families,16,0.8571428571428571,7
+T cells,"Vitamins, cofactors, retinoids and isoprenoids",12,0.8571428571428571,7
+T cells,"Xenobiotics, pharmaceuticals and environmental chemicals",25,0.8571428571428571,7

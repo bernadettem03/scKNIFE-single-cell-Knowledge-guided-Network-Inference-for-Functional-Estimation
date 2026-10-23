@@ -1,12 +1,18 @@
 {
-  "revision": "figure5_ng_cc_celltype_patient_connection_20260822",
-  "authority": "approved archived compositor output",
+  "revision": "figure5_s5_a_to_k_20261007",
+  "authority": "current executed Figure 5 submission analysis",
   "composite_order": [
+    "A",
     "B",
+    "C",
     "D",
     "E",
     "F",
-    "G"
+    "G",
+    "H",
+    "I",
+    "J",
+    "K"
   ],
   "standalone_panels": [
     "A",
@@ -14,25 +20,86 @@
     "C",
     "D",
     "E",
-    "F",
-    "G"
+    "F"
   ],
-  "composite_pixels": [
-    2125,
-    2692
+  "display_groups": {
+    "A": [
+      "A",
+      "B",
+      "C"
+    ],
+    "B": [
+      "D",
+      "E"
+    ],
+    "C": [
+      "F"
+    ],
+    "D": [
+      "G"
+    ],
+    "E": [
+      "H",
+      "I"
+    ],
+    "F": [
+      "J",
+      "K"
+    ]
+  },
+  "pages": [
+    {
+      "page": 1,
+      "panels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "pixels": [
+        2480,
+        3507
+      ]
+    }
   ],
   "canvas_mm": [
-    180,
-    900
+    210,
+    297
   ],
+  "font": {
+    "family": "Carlito",
+    "size_pt": 6,
+    "calibri_compatible": true
+  },
   "sha256": {
-    "outputs/Figure_S5.png": "21e17b1a1e4e0f4e27a730f36120a19cde565f11f8fd683d93804196d04b80c3",
-    "outputs/panels/Figure_5_supplementary_A.png": "06b47aeedcc1c2ba7b7f0b16cb23d04863967974264802b9ece5282bb32d6960",
-    "outputs/panels/Figure_5_supplementary_B.png": "a4bdae553202fecd43f242bfb12374e8205f126773192b0224eed4bc87e1cc59",
-    "outputs/panels/Figure_5_supplementary_C.png": "671445cecd8dd048d9fcaa8f3b990e34c639399ecdda8d671f0d632dc7b442bf",
-    "outputs/panels/Figure_5_supplementary_D.png": "b0e674576501158c373e1bb690de335fce070aa7b5b9bd6c95231cb57c90737d",
-    "outputs/panels/Figure_5_supplementary_E.png": "b8cf769bbf1e9d53379ce0cbce39386c510aaeaec3740bfbbcaa26517ddccc06",
-    "outputs/panels/Figure_5_supplementary_F.png": "5aacdde3f9f920d3b671ccb7f392c6bca950b3a43f538b6d88825bdc0e6b1f1c",
-    "outputs/panels/Figure_5_supplementary_G.png": "686c47e126a6f8f662305f6637db077b3085735d7f8a7a5b600764bad27238f2"
+    "outputs/Figure_S5.pdf": "7a415e68028d6882314960371a1c2a771e225fc63bab0193dbfe8087aca442fd",
+    "outputs/Figure_S5.png": "4a77ba264fd85c6a791905ae4067e45e9510ade0f2137b52ec42fbce0e118c5b",
+    "outputs/Figure_S5.svg": "7e84b4b38ca243c4413e5fd599f935d928d673b86d461a700809791586a5191a",
+    "outputs/Figure_S5_preview.png": "7a0d871357b1bb5fab017634cede0d0c7ddeeabab0d03e2df991b78be8484702",
+    "outputs/panels/Figure_5_supplementary_A.pdf": "6eb0836389b70fda3aa9161001328a7671bb00a73a71d9afe21f41b0fafe8784",
+    "outputs/panels/Figure_5_supplementary_A.png": "fd9b4b5c8735cdb3662b4d355a712b31594c04dfd2a2b0e40553e6f9ecbc0e72",
+    "outputs/panels/Figure_5_supplementary_A.svg": "c506e9c2135714f38557467da5216503de70e5ca738edfc825a7c1a1265eb0d6",
+    "outputs/panels/Figure_5_supplementary_B.pdf": "aaf92999e38532cbcae656ba4ce25744462832243c967cb2cbfc651d299ddae9",
+    "outputs/panels/Figure_5_supplementary_B.png": "227e51d8e74257800e92c213d69e38c26fa270665e47f2158ffd53d6914afded",
+    "outputs/panels/Figure_5_supplementary_B.svg": "f124a0ac07ee54bc47c233c0de2f4c0101d42ca7bca6387fed7e1b86cb634ff0",
+    "outputs/panels/Figure_5_supplementary_C.pdf": "cfe230189d5535b96d93b48a2704530ec5e5acd6904bb3a610cc69674f1ece28",
+    "outputs/panels/Figure_5_supplementary_C.png": "daf3b4eb52f736b5553f82f8d655234f76c1c00d487915619dd7b9edd2c71ff6",
+    "outputs/panels/Figure_5_supplementary_C.svg": "a0f1c441a6f787e806d75f5caf6cb79f14715188219cebad8b46fd869bc59d30",
+    "outputs/panels/Figure_5_supplementary_D.pdf": "9fbb54f5e392b965b98f817821173b2643e00e38b4ec19d94e486f8035c216b0",
+    "outputs/panels/Figure_5_supplementary_D.png": "59dc7baa58a779eedfbe697e5db5e789c0d538e1246ab78aff0919ba41a980cd",
+    "outputs/panels/Figure_5_supplementary_D.svg": "4a06dde362950e031dd13bf9c229a5f451b73a8ba2008cb2303e143e3cdd3b99",
+    "outputs/panels/Figure_5_supplementary_E.pdf": "8330e460f25525b12ca51374dfe69aa3b091b8018cebc6cf34191566e7470e36",
+    "outputs/panels/Figure_5_supplementary_E.png": "ab5a97f6235128473e2f55070427a55a0a338f926fe1795257120b71a5ad1ff6",
+    "outputs/panels/Figure_5_supplementary_E.svg": "453b766089d7affe3dbeb6293032875f2acd7de22f2c03ab27d1a1b81568bb12",
+    "outputs/panels/Figure_5_supplementary_F.pdf": "ff1f5c62914cf49393aedf561b4c22d1f51723879df77f4bc561875dd07c6007",
+    "outputs/panels/Figure_5_supplementary_F.png": "1a91606b33ef7129f724934c3afd2e187a4a79fd685f06c0d61bb0ada771cd49",
+    "outputs/panels/Figure_5_supplementary_F.svg": "a7f6c345c41a2f4e7163dbb18bb362762f3b0f77d8c0d40e3252c2c051de6d43"
   }
 }

@@ -1,0 +1,22 @@
+panel,score_family,celltype,score_name,PatientID,biopsy_median,surgery_median,recurrence_median
+H,task,PVL,Heme synthesis,P1,0.0033277482725679874,0.00243676092941314,
+H,task,PVL,Heme synthesis,P2,0.0031845138873904943,0.0028355224058032036,
+H,task,PVL,Heme synthesis,P3,0.002926537534222007,0.0023884004913270473,0.0022544418461620808
+H,task,PVL,Heme synthesis,P4,0.002482232404872775,0.0013009876711294055,
+H,task,PVL,Heme synthesis,P5,0.004192529246211052,0.003457772545516491,
+H,task,PVL,Heme synthesis,P6,0.002647933317348361,0.002381086000241339,
+H,task,PVL,Heme synthesis,P7,0.003309567691758275,0.0024848775938153267,
+I,task,PVL,Inositol as input for glucuronate-xylulose pathway,P1,0.0117130596190691,0.0038046790286898613,
+I,task,PVL,Inositol as input for glucuronate-xylulose pathway,P2,0.0041274395771324635,0.003430955344811082,
+I,task,PVL,Inositol as input for glucuronate-xylulose pathway,P3,0.004307383205741644,0.003660350339487195,0.003131228033453226
+I,task,PVL,Inositol as input for glucuronate-xylulose pathway,P4,0.004204691853374243,0.002599460771307349,
+I,task,PVL,Inositol as input for glucuronate-xylulose pathway,P5,0.004001465626060963,0.003054634784348309,
+I,task,PVL,Inositol as input for glucuronate-xylulose pathway,P6,0.002535050269216299,0.000886713998625055,
+I,task,PVL,Inositol as input for glucuronate-xylulose pathway,P7,0.004244260489940643,0.0021468549966812134,
+J,pathway,Myeloid,Carnitine_shuttle_peroxisomal,P1,0.005389563273638487,0.005261446349322796,
+J,pathway,Myeloid,Carnitine_shuttle_peroxisomal,P2,0.005553102819249034,0.004450154025107622,
+J,pathway,Myeloid,Carnitine_shuttle_peroxisomal,P3,0.00584380654618144,0.0045951001811772585,0.005847040098160505
+J,pathway,Myeloid,Carnitine_shuttle_peroxisomal,P4,0.004146246239542961,0.0045882887206971645,
+J,pathway,Myeloid,Carnitine_shuttle_peroxisomal,P5,0.005418225657194853,0.00489888247102499,
+J,pathway,Myeloid,Carnitine_shuttle_peroxisomal,P6,0.005835788790136576,0.0036882773274555802,
+J,pathway,Myeloid,Carnitine_shuttle_peroxisomal,P7,0.006293111015111208,0.005419681314378977,

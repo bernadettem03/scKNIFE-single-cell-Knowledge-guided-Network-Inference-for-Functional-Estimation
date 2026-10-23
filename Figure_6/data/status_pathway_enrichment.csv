@@ -1,0 +1,34 @@
+candidate_pathway,permutation_adjusted_gamma_p,pathway_BH_FDR_gamma,Hits.total,Hits.sig,Expected,contrast,interpretation
+Hexose phosphorylation,0.0018135,0.0598455,6,5,1.1048,metastatic_vs_nonmetastatic,Candidate pathway enrichment; exploratory
+Pentose phosphate pathway,0.0021495,0.068784,6,6,1.381,metastatic_vs_nonmetastatic,Candidate pathway enrichment; exploratory
+Tryptophan metabolism,0.0025949,0.0804419,8,4,2.4857,metastatic_vs_nonmetastatic,Candidate pathway enrichment; exploratory
+Glycolysis and Gluconeogenesis,0.002618,0.0804419,9,8,0.82857,metastatic_vs_nonmetastatic,Candidate pathway enrichment; exploratory
+Carbon fixation,0.0037538,0.1088602,1,1,0.27619,metastatic_vs_nonmetastatic,Candidate pathway enrichment; exploratory
+Fructose and mannose metabolism,0.0037538,0.1088602,7,7,0.27619,metastatic_vs_nonmetastatic,Candidate pathway enrichment; exploratory
+Glycosylphosphatidylinositol(GPI)-anchor biosynthesis,0.0037538,0.1088602,1,1,0.27619,metastatic_vs_nonmetastatic,Candidate pathway enrichment; exploratory
+Nucleotide Sugar Metabolism,0.0037538,0.1088602,1,1,0.27619,metastatic_vs_nonmetastatic,Candidate pathway enrichment; exploratory
+Starch and Sucrose Metabolism,0.0037538,0.1088602,1,1,0.27619,metastatic_vs_nonmetastatic,Candidate pathway enrichment; exploratory
+Galactose metabolism,0.0038121,0.1088602,5,4,1.1048,metastatic_vs_nonmetastatic,Candidate pathway enrichment; exploratory
+Pyrimidine metabolism,0.0038121,0.1088602,3,2,1.1048,metastatic_vs_nonmetastatic,Candidate pathway enrichment; exploratory
+Sialic acid metabolism,0.0038121,0.1088602,5,4,1.1048,metastatic_vs_nonmetastatic,Candidate pathway enrichment; exploratory
+Vitamin B3 (nicotinate and nicotinamide) metabolism,0.0038121,0.1088602,4,2,1.1048,metastatic_vs_nonmetastatic,Candidate pathway enrichment; exploratory
+Phosphatidylinositol phosphate metabolism,0.0056617,0.113234,6,6,1.381,metastatic_vs_nonmetastatic,Candidate pathway enrichment; exploratory
+Glutathione Metabolism,0.0076746,0.1458174,2,1,0.55238,metastatic_vs_nonmetastatic,Candidate pathway enrichment; exploratory
+N-Glycan biosynthesis,0.0076746,0.1458174,2,1,0.55238,metastatic_vs_nonmetastatic,Candidate pathway enrichment; exploratory
+Pentose and Glucuronate Interconversions,0.0083789,0.1458174,3,3,1.6571,metastatic_vs_nonmetastatic,Candidate pathway enrichment; exploratory
+Ascorbate (Vitamin C) and Aldarate Metabolism,0.0084885,0.1458174,6,3,2.7619,metastatic_vs_nonmetastatic,Candidate pathway enrichment; exploratory
+Drug metabolism - cytochrome P450,0.013758,0.20637,2,1,0.82857,metastatic_vs_nonmetastatic,Candidate pathway enrichment; exploratory
+Glycerophospholipid metabolism,0.013758,0.20637,3,1,0.82857,metastatic_vs_nonmetastatic,Candidate pathway enrichment; exploratory
+Aspartate and asparagine metabolism,0.017285,0.224705,8,2,2.2095,metastatic_vs_nonmetastatic,Candidate pathway enrichment; exploratory
+Aminosugars metabolism,0.022236,0.266832,5,2,1.1048,metastatic_vs_nonmetastatic,Candidate pathway enrichment; exploratory
+Biopterin metabolism,0.022236,0.266832,3,1,1.1048,metastatic_vs_nonmetastatic,Candidate pathway enrichment; exploratory
+Chondroitin sulfate degradation,0.022236,0.266832,2,2,1.1048,metastatic_vs_nonmetastatic,Candidate pathway enrichment; exploratory
+Heparan sulfate degradation,0.022236,0.266832,2,2,1.1048,metastatic_vs_nonmetastatic,Candidate pathway enrichment; exploratory
+Hyaluronan Metabolism,0.022236,0.266832,1,1,1.1048,metastatic_vs_nonmetastatic,Candidate pathway enrichment; exploratory
+Lysine metabolism,0.022236,0.266832,4,1,1.1048,metastatic_vs_nonmetastatic,Candidate pathway enrichment; exploratory
+Porphyrin metabolism,0.022236,0.266832,1,1,1.1048,metastatic_vs_nonmetastatic,Candidate pathway enrichment; exploratory
+Purine metabolism,0.022236,0.266832,5,1,1.1048,metastatic_vs_nonmetastatic,Candidate pathway enrichment; exploratory
+Xenobiotics metabolism,0.03192,0.266832,11,2,2.7619,metastatic_vs_nonmetastatic,Candidate pathway enrichment; exploratory
+"Glycine, serine, alanine and threonine metabolism",0.046219,0.266832,5,1,1.6571,metastatic_vs_nonmetastatic,Candidate pathway enrichment; exploratory
+Methionine and cysteine metabolism,0.061247,0.266832,9,1,1.9333,metastatic_vs_nonmetastatic,Candidate pathway enrichment; exploratory
+Selenoamino acid metabolism,0.061247,0.266832,6,1,1.9333,metastatic_vs_nonmetastatic,Candidate pathway enrichment; exploratory

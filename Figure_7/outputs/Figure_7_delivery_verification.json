@@ -1,0 +1,16 @@
+{
+  "figure": "Figure 7 A\u2013O",
+  "checks": {
+    "code_native_all_panels": true,
+    "current_notebooks": true,
+    "mirrored_pdf_png_svg": true,
+    "300_dpi_png": true,
+    "vector_pdf_p_q": true,
+    "six_smooth_nonnegative_violin_tails": true,
+    "seven_patient_violins": true,
+    "saved_selected_test": true,
+    "current_captions": true
+  },
+  "selected_p_exact": 0.109375,
+  "selected_q_bh": 0.6318347509113001
+}
