@@ -10,6 +10,6 @@ The approved main Figure 4 has panels a–k. `../plot_figure4_one_page.py` recon
 | h–j | `figure4_hij_expression.npz` for cell-aligned, saved log1p-normalized EPCAM, DCN, and C1QA values. |
 | k | Reviewer-only `fig4_plot_data.h5` for the seven-patient subtype-correlation matrix. |
 
-The two small plot-ready files for panels e and h–j were extracted without changing values from the frozen full-Wu SingleR minor predictions and final expression matrix. Their cell IDs are checked against `fig4_plot_data.h5` during rendering. The HDF5 file is intentionally absent from public Git; editors and reviewers receive it in the separate reviewer-only bundle. Its expected size and SHA-256 are recorded in `../../private_archive_manifest.tsv`.
+The two small plot-ready files for panels e and h–j were extracted without changing values from the frozen full-Wu SingleR minor predictions and final expression matrix. Their cell IDs are checked against `fig4_plot_data.h5` during rendering. The HDF5 file is intentionally absent from public Git; a separate reviewer-only bundle has been prepared for submission. Its expected size and SHA-256 are recorded in `../../private_archive_manifest.tsv`.
 
 Other files in this directory support the saved broad-label Figure 4 views and Supplementary Figure S4. The approved final page is `../outputs/Figure_4.pdf`.
