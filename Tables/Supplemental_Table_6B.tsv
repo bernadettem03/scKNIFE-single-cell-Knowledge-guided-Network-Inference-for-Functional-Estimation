@@ -1,0 +1,359 @@
+resolution	comparison	n_features	n_cells	n_pairs	pearson	spearman	bins_per_axis	axis_min	x_axis_max	y_axis_max	meia_min	meia_max	scknife_min	scknife_max	ols_slope	ols_intercept	record_type	feature	entity
+Task	MEIA-task vs scKNIFE-task	218.0	69390	15127020.0	0.8980780951601088	0.9169521421174492	160.0	0.0	0.83816659450531	0.2181901037693023	4.0366770614226914e-19	0.83816659450531	0.0	0.2181901037693023	0.1852786441678824	0.00373725392803	pooled		
+Pathway	MEIA-pathway vs scKNIFE-pathway	138.0	69390	9575820.0	0.8934074542534873	0.9684032386517092	160.0	0.0	0.3673244416713714	0.0791048407554626	4.891650196015007e-09	0.3673244416713714	1.197901067229168e-08	0.0791048407554626	0.3142671770045019	0.0049690784276343	pooled		
+Task	MEIA vs direct scKNIFE		69390		0.7464799636347832	0.7095729590928669											entity	scCellFie::(R)-3-Hydroxybutanoate synthesis	(R)-3-Hydroxybutanoate synthesis
+Task	MEIA vs direct scKNIFE		69390		0.9522243352846472	0.9811072234559872											entity	scCellFie::3'-Phospho-5'-adenylyl sulfate synthesis	3'-Phospho-5'-adenylyl sulfate synthesis
+Task	MEIA vs direct scKNIFE		69390		0.9355483514367328	0.9703293201291574											entity	scCellFie::AMP salvage from adenine	AMP salvage from adenine
+Task	MEIA vs direct scKNIFE		69390		0.7837114316847077	0.7810714464846108											entity	scCellFie::ATP generation from glucose (hypoxic conditions) - glycolysis	ATP generation from glucose (hypoxic conditions) - glycolysis
+Task	MEIA vs direct scKNIFE		69390		0.675503115801674	0.6848560242405745											entity	scCellFie::ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle	ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle
+Task	MEIA vs direct scKNIFE		69390		0.7735796285479573	0.7714561711920238											entity	scCellFie::Acetoacetate synthesis	Acetoacetate synthesis
+Task	MEIA vs direct scKNIFE		69390		0.7923428646181304	0.7567638644813475											entity	scCellFie::Alanine degradation	Alanine degradation
+Task	MEIA vs direct scKNIFE		69390		0.8589542176060154	0.8068610456635055											entity	scCellFie::Alanine synthesis	Alanine synthesis
+Task	MEIA vs direct scKNIFE		69390		0.5212654492676239	0.6145410401439827											entity	scCellFie::Arachidonate degradation	Arachidonate degradation
+Task	MEIA vs direct scKNIFE		69390		0.4602889699176268	0.4443027061920728											entity	scCellFie::Arachidonate synthesis	Arachidonate synthesis
+Task	MEIA vs direct scKNIFE		69390		0.7538798985800579	0.7752597343824882											entity	scCellFie::Arginine degradation	Arginine degradation
+Task	MEIA vs direct scKNIFE		69390		0.7794576263397692	0.7386059956130485											entity	scCellFie::Arginine synthesis	Arginine synthesis
+Task	MEIA vs direct scKNIFE		69390		0.8048416322437896	0.8043407284160067											entity	scCellFie::Asparagine degradation	Asparagine degradation
+Task	MEIA vs direct scKNIFE		69390		0.8113286409334304	0.8091911587892836											entity	scCellFie::Asparagine synthesis	Asparagine synthesis
+Task	MEIA vs direct scKNIFE		69390		0.7735514776653387	0.7647606385662683											entity	scCellFie::Aspartate degradation	Aspartate degradation
+Task	MEIA vs direct scKNIFE		69390		0.8076098397136136	0.8151982960602034											entity	scCellFie::Aspartate synthesis	Aspartate synthesis
+Task	MEIA vs direct scKNIFE		69390		0.9278679148846024	0.9428318105946168											entity	scCellFie::Beta-alanine to 3-oxopropanoate	Beta-alanine to 3-oxopropanoate
+Task	MEIA vs direct scKNIFE		69390		0.9711983633123216	0.9615008795025876											entity	scCellFie::Biosynthesis of Tn_antigen (Glycoprotein N-acetyl-D-galactosamine)	Biosynthesis of Tn_antigen (Glycoprotein N-acetyl-D-galactosamine)
+Task	MEIA vs direct scKNIFE		69390		0.9530960861915674	0.9568073405806506											entity	scCellFie::Biosynthesis of core2 (beta-D-Galactosyl-1,3-(N-acetyl-beta-D-glucosaminyl-1,6)-N-acetyl-D-galactosaminyl-R)	Biosynthesis of core2 (beta-D-Galactosyl-1,3-(N-acetyl-beta-D-glucosaminyl-1,6)-N-acetyl-D-galactosaminyl-R)
+Task	MEIA vs direct scKNIFE		69390		0.9560095871650226	0.9537653291236337											entity	scCellFie::Biosynthesis of core4 (N-Acetyl-beta-D-glucosaminyl-1,6-(N-acetyl-beta-D-glucosaminyl-1,3)-N-acetyl-D-galactosaminyl-R)	Biosynthesis of core4 (N-Acetyl-beta-D-glucosaminyl-1,6-(N-acetyl-beta-D-glucosaminyl-1,3)-N-acetyl-D-galactosaminyl-R)
+Task	MEIA vs direct scKNIFE		69390		0.877944447052356	0.932677112750796											entity	scCellFie::Branching (N-acetylglucosaminyltransferases)	Branching (N-acetylglucosaminyltransferases)
+Task	MEIA vs direct scKNIFE		69390		0.7457037081909601	0.7562658274813977											entity	scCellFie::CMP-N-acetylneuraminate synthesis	CMP-N-acetylneuraminate synthesis
+Task	MEIA vs direct scKNIFE		69390		0.94550634106274	0.9608621208679908											entity	scCellFie::Calnexin/calreticulin cycle	Calnexin/calreticulin cycle
+Task	MEIA vs direct scKNIFE		69390		0.6695704888296038	0.6469927339325051											entity	scCellFie::Cardiolipin synthesis	Cardiolipin synthesis
+Task	MEIA vs direct scKNIFE		69390		0.5979222082488787	0.5691795227398578											entity	scCellFie::Ceramide synthesis	Ceramide synthesis
+Task	MEIA vs direct scKNIFE		69390		0.8287570750480675	0.8064658382308739											entity	scCellFie::Cholesterol synthesis	Cholesterol synthesis
+Task	MEIA vs direct scKNIFE		69390		0.961451217595626	0.8961448391259912											entity	scCellFie::Co-translational translocation	Co-translational translocation
+Task	MEIA vs direct scKNIFE		69390		0.9575079771191476	0.9295010851768564											entity	scCellFie::Conversion of 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate to 1D-myo-inositol 1,4,5-trisphosphate	Conversion of 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate to 1D-myo-inositol 1,4,5-trisphosphate
+Task	MEIA vs direct scKNIFE		69390		0.9025839430178232	0.9158819519824292											entity	scCellFie::Conversion of GABA into succinate	Conversion of GABA into succinate
+Task	MEIA vs direct scKNIFE		69390		0.9289695688324916	0.9409980268258696											entity	scCellFie::Conversion of asparate to asparagine	Conversion of asparate to asparagine
+Task	MEIA vs direct scKNIFE		69390		0.8996313207030389	0.8939389198180455											entity	scCellFie::Conversion of aspartate to arginine	Conversion of aspartate to arginine
+Task	MEIA vs direct scKNIFE		69390		0.9197627240873908	0.9329975411590976											entity	scCellFie::Conversion of aspartate to beta-alanine	Conversion of aspartate to beta-alanine
+Task	MEIA vs direct scKNIFE		69390		0.923977984048986	0.9644537516934693											entity	scCellFie::Conversion of carnosine to beta-alanine	Conversion of carnosine to beta-alanine
+Task	MEIA vs direct scKNIFE		69390		0.8567394138640857	0.83904574036248											entity	scCellFie::Conversion of estrone (E1) to estradiol-17beta (E2)	Conversion of estrone (E1) to estradiol-17beta (E2)
+Task	MEIA vs direct scKNIFE		69390		0.9381074672946196	0.9514710781108596											entity	scCellFie::Conversion of estrone (E1) to estrone sulfate (E1S)	Conversion of estrone (E1) to estrone sulfate (E1S)
+Task	MEIA vs direct scKNIFE		69390		0.8315217121718586	0.8932148087988353											entity	scCellFie::Conversion of glutamate to glutamine	Conversion of glutamate to glutamine
+Task	MEIA vs direct scKNIFE		69390		0.9338148187615506	0.97314616894455											entity	scCellFie::Conversion of glutamate to proline	Conversion of glutamate to proline
+Task	MEIA vs direct scKNIFE		69390		0.8196135236942209	0.8669303990550219											entity	scCellFie::Conversion of glycine to pyruvate	Conversion of glycine to pyruvate
+Task	MEIA vs direct scKNIFE		69390		0.8939483321576475	0.9069801399742616											entity	scCellFie::Conversion of histidine to glutamate	Conversion of histidine to glutamate
+Task	MEIA vs direct scKNIFE		69390		0.9317043067933016	0.9439347569383524											entity	scCellFie::Conversion of histidine to histamine	Conversion of histidine to histamine
+Task	MEIA vs direct scKNIFE		69390		0.8721973149035985	0.8511529982414614											entity	scCellFie::Conversion of leucine to acetyl-coA	Conversion of leucine to acetyl-coA
+Task	MEIA vs direct scKNIFE		69390		0.9537864112578792	0.9670569052304852											entity	scCellFie::Conversion of lysine to L-2-Aminoadipate	Conversion of lysine to L-2-Aminoadipate
+Task	MEIA vs direct scKNIFE		69390		0.9372661146931108	0.9455874939425426											entity	scCellFie::Conversion of lysine to L-Saccharopine	Conversion of lysine to L-Saccharopine
+Task	MEIA vs direct scKNIFE		69390		0.7927131038801767	0.777878995647629											entity	scCellFie::Cysteine degradation	Cysteine degradation
+Task	MEIA vs direct scKNIFE		69390		0.8807746005005221	0.9035551029367156											entity	scCellFie::Cysteine synthesis (need serine and methionine)	Cysteine synthesis (need serine and methionine)
+Task	MEIA vs direct scKNIFE		69390		0.8904857709902336	0.884368379770405											entity	scCellFie::Cytidine triphosphate synthesis (CTP)	Cytidine triphosphate synthesis (CTP)
+Task	MEIA vs direct scKNIFE		69390		0.958160998862932	0.9808457918717222											entity	scCellFie::Degradation of adenine to urate	Degradation of adenine to urate
+Task	MEIA vs direct scKNIFE		69390		0.9639117426475609	0.9863726652036112											entity	scCellFie::Degradation of cytosine	Degradation of cytosine
+Task	MEIA vs direct scKNIFE		69390		0.9435853809509293	0.9747749588326124											entity	scCellFie::Degradation of guanine to urate	Degradation of guanine to urate
+Task	MEIA vs direct scKNIFE		69390		0.9577517835349578	0.9800255566842344											entity	scCellFie::Degradation of n2m2nmasn	Degradation of n2m2nmasn
+Task	MEIA vs direct scKNIFE		69390		0.9504983136291344	0.9663208143986434											entity	scCellFie::Degradation of s2l2fn2m2masn	Degradation of s2l2fn2m2masn
+Task	MEIA vs direct scKNIFE		69390		0.9639117426475609	0.9863726652036112											entity	scCellFie::Degradation of uracil	Degradation of uracil
+Task	MEIA vs direct scKNIFE		69390		0.8355320830029355	0.8134965098988485											entity	scCellFie::Deoxyadenosine triphosphate synthesis (dATP)	Deoxyadenosine triphosphate synthesis (dATP)
+Task	MEIA vs direct scKNIFE		69390		0.9028059577981228	0.8974016234207393											entity	scCellFie::Deoxycytidine triphosphate synthesis (dCTP)	Deoxycytidine triphosphate synthesis (dCTP)
+Task	MEIA vs direct scKNIFE		69390		0.8427374903324742	0.8314809019810414											entity	scCellFie::Deoxyguanosine triphosphate synthesis (dGTP)	Deoxyguanosine triphosphate synthesis (dGTP)
+Task	MEIA vs direct scKNIFE		69390		0.9268014487074464	0.9169424955667276											entity	scCellFie::Deoxythymidine triphosphate synthesis (dTTP)	Deoxythymidine triphosphate synthesis (dTTP)
+Task	MEIA vs direct scKNIFE		69390		0.8700384712308343	0.8615994724873315											entity	scCellFie::Deoxyuridine triphosphate synthesis (dUTP)	Deoxyuridine triphosphate synthesis (dUTP)
+Task	MEIA vs direct scKNIFE		69390		0.9431404853582372	0.9702624576195984											entity	scCellFie::Disulfide bond formation	Disulfide bond formation
+Task	MEIA vs direct scKNIFE		69390		0.4067555119696249	0.5099899754584354											entity	scCellFie::Elaidate degradation	Elaidate degradation
+Task	MEIA vs direct scKNIFE		69390		0.5625328081731175	0.5412512682510574											entity	scCellFie::Elaidate synthesis	Elaidate synthesis
+Task	MEIA vs direct scKNIFE		69390		0.841637446487426	0.8206536814764044											entity	scCellFie::Ethanol to acetaldehyde	Ethanol to acetaldehyde
+Task	MEIA vs direct scKNIFE		69390		0.9446883010048304	0.9779822211849224											entity	scCellFie::FAD synthesis	FAD synthesis
+Task	MEIA vs direct scKNIFE		69390		0.9146770682667084	0.928224454235011											entity	scCellFie::Farnesyl-pyrophosphate synthesis	Farnesyl-pyrophosphate synthesis
+Task	MEIA vs direct scKNIFE		69390		0.8990924840186416	0.9132363345459428											entity	scCellFie::Fructose degradation (to glucose-3-phosphate)	Fructose degradation (to glucose-3-phosphate)
+Task	MEIA vs direct scKNIFE		69390		0.9190338527497316	0.8988407784358302											entity	scCellFie::Fructose to glucose conversion (via fructose-6-phosphate)	Fructose to glucose conversion (via fructose-6-phosphate)
+Task	MEIA vs direct scKNIFE		69390		0.9366823208375784	0.9303189249715996											entity	scCellFie::Fucosylation (addition of fucose)	Fucosylation (addition of fucose)
+Task	MEIA vs direct scKNIFE		69390		0.8882797406453017	0.9298795080519277											entity	scCellFie::GDP-L-fucose synthesis	GDP-L-fucose synthesis
+Task	MEIA vs direct scKNIFE		69390		0.9358541319811492	0.891641921024973											entity	scCellFie::GDP-mannose synthesis	GDP-mannose synthesis
+Task	MEIA vs direct scKNIFE		69390		0.9451998948075612	0.9819587816235223											entity	scCellFie::GMP salvage from guanine	GMP salvage from guanine
+Task	MEIA vs direct scKNIFE		69390		0.8782535286708371	0.932379503588422											entity	scCellFie::GPI-anchor	GPI-anchor
+Task	MEIA vs direct scKNIFE		69390		0.9571699261698864	0.9505088795050274											entity	scCellFie::Galactosylation (addition of galactose)	Galactosylation (addition of galactose)
+Task	MEIA vs direct scKNIFE		69390		0.8368338032791759	0.7789106924964797											entity	scCellFie::Gluconeogenesis from Alanine	Gluconeogenesis from Alanine
+Task	MEIA vs direct scKNIFE		69390		0.9127236409531616	0.9308553267108964											entity	scCellFie::Gluconeogenesis from Glutamine	Gluconeogenesis from Glutamine
+Task	MEIA vs direct scKNIFE		69390		0.7975184559887164	0.7983148181669649											entity	scCellFie::Gluconeogenesis from Glycerol	Gluconeogenesis from Glycerol
+Task	MEIA vs direct scKNIFE		69390		0.774737501580672	0.7602790682540997											entity	scCellFie::Gluconeogenesis from Lactate	Gluconeogenesis from Lactate
+Task	MEIA vs direct scKNIFE		69390		0.7732050270646709	0.7578419934534042											entity	scCellFie::Gluconeogenesis from pyruvate	Gluconeogenesis from pyruvate
+Task	MEIA vs direct scKNIFE		69390		0.7773964789979846	0.7805497562883584											entity	scCellFie::Glucose to lactate conversion	Glucose to lactate conversion
+Task	MEIA vs direct scKNIFE		69390		0.9021397734082072	0.8871733880552938											entity	scCellFie::Glucuronate synthesis (via inositol)	Glucuronate synthesis (via inositol)
+Task	MEIA vs direct scKNIFE		69390		0.8994479428697622	0.8790556948390316											entity	scCellFie::Glucuronate synthesis (via udp-glucose)	Glucuronate synthesis (via udp-glucose)
+Task	MEIA vs direct scKNIFE		69390		0.7913534824067295	0.7861797414586974											entity	scCellFie::Glutamate degradation	Glutamate degradation
+Task	MEIA vs direct scKNIFE		69390		0.80328816500955	0.806872698516867											entity	scCellFie::Glutamate synthesis	Glutamate synthesis
+Task	MEIA vs direct scKNIFE		69390		0.7836653835374752	0.7723460455660099											entity	scCellFie::Glutamine degradation	Glutamine degradation
+Task	MEIA vs direct scKNIFE		69390		0.7985370356805715	0.8144442183950049											entity	scCellFie::Glutamine synthesis	Glutamine synthesis
+Task	MEIA vs direct scKNIFE		69390		0.9018432703251434	0.9243346154419864											entity	scCellFie::Glutaminolysis (glutamine to lactate)	Glutaminolysis (glutamine to lactate)
+Task	MEIA vs direct scKNIFE		69390		0.914033100135926	0.9260038965711852											entity	scCellFie::Glutathionate synthesis	Glutathionate synthesis
+Task	MEIA vs direct scKNIFE		69390		0.904748800389631	0.9201251315370116											entity	scCellFie::Glycerol-3-phosphate synthesis	Glycerol-3-phosphate synthesis
+Task	MEIA vs direct scKNIFE		69390		0.7824645472844766	0.7983957050899662											entity	scCellFie::Glycine degradation	Glycine degradation
+Task	MEIA vs direct scKNIFE		69390		0.7317448792201899	0.7251025347197111											entity	scCellFie::Glycine synthesis	Glycine synthesis
+Task	MEIA vs direct scKNIFE		69390		0.5104876477426885	0.6135482861938986											entity	scCellFie::Glycochenodeoxycholate synthesis	Glycochenodeoxycholate synthesis
+Task	MEIA vs direct scKNIFE		69390		0.8818692529998079	0.8984388011229878											entity	scCellFie::Glycogen biosynthesis	Glycogen biosynthesis
+Task	MEIA vs direct scKNIFE		69390		0.933968812674784	0.9470753754568924											entity	scCellFie::Glycogen degradation	Glycogen degradation
+Task	MEIA vs direct scKNIFE		69390		0.8162414591740226	0.8061300498242013											entity	scCellFie::Guanosine triphosphate synthesis (GTP)	Guanosine triphosphate synthesis (GTP)
+Task	MEIA vs direct scKNIFE		69390		0.8377311974982554	0.8294558382735567											entity	scCellFie::Heme synthesis	Heme synthesis
+Task	MEIA vs direct scKNIFE		69390		0.7946262882438007	0.7936836375102121											entity	scCellFie::Histidine degradation	Histidine degradation
+Task	MEIA vs direct scKNIFE		69390		0.9665196250546012	0.9751610004989992											entity	scCellFie::Homocysteine degradation	Homocysteine degradation
+Task	MEIA vs direct scKNIFE		69390		0.78176971912736	0.7659836563806804											entity	scCellFie::Homocysteine synthesis (need methionine)	Homocysteine synthesis (need methionine)
+Task	MEIA vs direct scKNIFE		69390		0.7806319384336204	0.7800329065118338											entity	scCellFie::Hydroxymethylglutaryl-CoA synthesis	Hydroxymethylglutaryl-CoA synthesis
+Task	MEIA vs direct scKNIFE		69390		0.9451998948075612	0.9819587816235223											entity	scCellFie::IMP salvage from hypoxanthine	IMP salvage from hypoxanthine
+Task	MEIA vs direct scKNIFE		69390		0.848103803128941	0.8400040190195589											entity	scCellFie::Inosine monophosphate synthesis (IMP)	Inosine monophosphate synthesis (IMP)
+Task	MEIA vs direct scKNIFE		69390		0.9309589445669598	0.9188073302308204											entity	scCellFie::Inositol as input for glucuronate-xylulose pathway	Inositol as input for glucuronate-xylulose pathway
+Task	MEIA vs direct scKNIFE		69390		0.7608035583589828	0.7581744163442466											entity	scCellFie::Isoleucine degradation	Isoleucine degradation
+Task	MEIA vs direct scKNIFE		69390		0.8624658818469343	0.8711668823714478											entity	scCellFie::Keratan sulfate biosynthesis from N-glycan	Keratan sulfate biosynthesis from N-glycan
+Task	MEIA vs direct scKNIFE		69390		0.8860496054794461	0.886723265009526											entity	scCellFie::Keratan sulfate biosynthesis from O-glycan (core 2-linked)	Keratan sulfate biosynthesis from O-glycan (core 2-linked)
+Task	MEIA vs direct scKNIFE		69390		0.8860496054794461	0.886723265009526											entity	scCellFie::Keratan sulfate biosynthesis from O-glycan (core 4-linked)	Keratan sulfate biosynthesis from O-glycan (core 4-linked)
+Task	MEIA vs direct scKNIFE		69390		0.9455348902473386	0.9430418138606363											entity	scCellFie::Keratan sulfate degradation	Keratan sulfate degradation
+Task	MEIA vs direct scKNIFE		69390		0.8244644648207727	0.8144864482820192											entity	scCellFie::Krebs cycle - NADH generation	Krebs cycle - NADH generation
+Task	MEIA vs direct scKNIFE		69390		0.8690160072829104	0.8583602689559231											entity	scCellFie::Krebs cycle - oxidative decarboxylation of pyruvate	Krebs cycle - oxidative decarboxylation of pyruvate
+Task	MEIA vs direct scKNIFE		69390		0.7174254541652525	0.7087997265163161											entity	scCellFie::Leucine degradation	Leucine degradation
+Task	MEIA vs direct scKNIFE		69390		0.9024339936677503	0.7973863587017692											entity	scCellFie::Link between glyoxylate metabolism and pentose phosphate pathway (Xylulose to glycolate)	Link between glyoxylate metabolism and pentose phosphate pathway (Xylulose to glycolate)
+Task	MEIA vs direct scKNIFE		69390		0.4167273627299137	0.4510536692010777											entity	scCellFie::Linoleate degradation	Linoleate degradation
+Task	MEIA vs direct scKNIFE		69390		0.3619861862665339	0.4490223913422854											entity	scCellFie::Linolenate degradation	Linolenate degradation
+Task	MEIA vs direct scKNIFE		69390		0.7801950026605864	0.7756402350992597											entity	scCellFie::Lysine degradation	Lysine degradation
+Task	MEIA vs direct scKNIFE		69390		0.939359372459866	0.9754768219909852											entity	scCellFie::Malate to pyruvate conversion	Malate to pyruvate conversion
+Task	MEIA vs direct scKNIFE		69390		0.9461587366617265	0.9149357686092926											entity	scCellFie::Mannose degradation (to fructose-6-phosphate)	Mannose degradation (to fructose-6-phosphate)
+Task	MEIA vs direct scKNIFE		69390		0.9448277296958728	0.96209764697854											entity	scCellFie::Mannose trimming (mannosidase)	Mannose trimming (mannosidase)
+Task	MEIA vs direct scKNIFE		69390		0.5428186423404046	0.5414271053198966											entity	scCellFie::Methionine degradation	Methionine degradation
+Task	MEIA vs direct scKNIFE		69390		0.9408875870197396	0.9836275988792206											entity	scCellFie::Mevalonate synthesis	Mevalonate synthesis
+Task	MEIA vs direct scKNIFE		69390		0.8970851473657554	0.873880213761659											entity	scCellFie::N-Acetylglucosamine synthesis	N-Acetylglucosamine synthesis
+Task	MEIA vs direct scKNIFE		69390		0.9444847464184905	0.9542639056811686											entity	scCellFie::N-glycan processing (ER)	N-glycan processing (ER)
+Task	MEIA vs direct scKNIFE		69390		0.9528707447564502	0.9597142041094552											entity	scCellFie::N-linked glycosylation	N-linked glycosylation
+Task	MEIA vs direct scKNIFE		69390		0.9347371188652048	0.8926411670429497											entity	scCellFie::NAD synthesis from nicotinamide	NAD synthesis from nicotinamide
+Task	MEIA vs direct scKNIFE		69390		0.9555999693905756	0.9587461799291112											entity	scCellFie::O-linked glycosylation	O-linked glycosylation
+Task	MEIA vs direct scKNIFE		69390		0.7599803977893587	0.7645709540763275											entity	scCellFie::Ornithine degradation	Ornithine degradation
+Task	MEIA vs direct scKNIFE		69390		0.8520846371537973	0.8295980766785939											entity	scCellFie::Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)	Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I)
+Task	MEIA vs direct scKNIFE		69390		0.8939076814901046	0.910987312385684											entity	scCellFie::Oxidative phosphorylation via succinate-coenzyme Q oxidoreductase (COMPLEX II)	Oxidative phosphorylation via succinate-coenzyme Q oxidoreductase (COMPLEX II)
+Task	MEIA vs direct scKNIFE		69390		0.4793626239846854	0.5877367863839841											entity	scCellFie::Palmitate degradation	Palmitate degradation
+Task	MEIA vs direct scKNIFE		69390		0.7097450116233678	0.6779323874884062											entity	scCellFie::Palmitate synthesis	Palmitate synthesis
+Task	MEIA vs direct scKNIFE		69390		0.4676223697612348	0.5810355156512118											entity	scCellFie::Palmitolate degradation	Palmitolate degradation
+Task	MEIA vs direct scKNIFE		69390		0.6041088622697102	0.5874022831346813											entity	scCellFie::Palmitolate synthesis	Palmitolate synthesis
+Task	MEIA vs direct scKNIFE		69390		0.7877134954578753	0.7848686976899136											entity	scCellFie::Phenylalanine degradation	Phenylalanine degradation
+Task	MEIA vs direct scKNIFE		69390		0.869166143060785	0.8497713436528386											entity	scCellFie::Phenylalanine to phenylacetaldehyde	Phenylalanine to phenylacetaldehyde
+Task	MEIA vs direct scKNIFE		69390		0.9324246928037938	0.8861723865798999											entity	scCellFie::Phenylalanine to phenylacetate (via phenylacetaldehyde)	Phenylalanine to phenylacetate (via phenylacetaldehyde)
+Task	MEIA vs direct scKNIFE		69390		0.9649248565751458	0.9686671019586456											entity	scCellFie::Phenylalanine to tyrosine	Phenylalanine to tyrosine
+Task	MEIA vs direct scKNIFE		69390		0.6329974650049691	0.6170260355019289											entity	scCellFie::Phosphatidyl-choline synthesis	Phosphatidyl-choline synthesis
+Task	MEIA vs direct scKNIFE		69390		0.631953391368894	0.6139726292593194											entity	scCellFie::Phosphatidyl-ethanolamine synthesis	Phosphatidyl-ethanolamine synthesis
+Task	MEIA vs direct scKNIFE		69390		0.6400232838152168	0.6234490492183219											entity	scCellFie::Phosphatidyl-inositol synthesis	Phosphatidyl-inositol synthesis
+Task	MEIA vs direct scKNIFE		69390		0.933300477067909	0.9218695953108944											entity	scCellFie::Phosphatidyl-inositol to glucosaminyl-acylphosphatidylinositol	Phosphatidyl-inositol to glucosaminyl-acylphosphatidylinositol
+Task	MEIA vs direct scKNIFE		69390		0.6283860318625284	0.6122653161031539											entity	scCellFie::Phosphatidyl-serine synthesis	Phosphatidyl-serine synthesis
+Task	MEIA vs direct scKNIFE		69390		0.9680688219240112	0.934328223032528											entity	scCellFie::Post translational translocation	Post translational translocation
+Task	MEIA vs direct scKNIFE		69390		0.9334353877749052	0.9531957485296956											entity	scCellFie::Presence of the thioredoxin system through the thioredoxin reductase activity	Presence of the thioredoxin system through the thioredoxin reductase activity
+Task	MEIA vs direct scKNIFE		69390		0.7835728859865353	0.7686162927402765											entity	scCellFie::Proline degradation	Proline degradation
+Task	MEIA vs direct scKNIFE		69390		0.8127107470047441	0.8066122254594681											entity	scCellFie::Proline synthesis	Proline synthesis
+Task	MEIA vs direct scKNIFE		69390		0.8787264298068386	0.8532485840529707											entity	scCellFie::Proteasome degradation	Proteasome degradation
+Task	MEIA vs direct scKNIFE		69390		0.9834359021425204	0.9929481156267											entity	scCellFie::Pyridoxal-phosphate synthesis	Pyridoxal-phosphate synthesis
+Task	MEIA vs direct scKNIFE		69390		0.7375385615699157	0.7577706579948809											entity	scCellFie::Reactive oxygen species detoxification (H2O2 to H2O)	Reactive oxygen species detoxification (H2O2 to H2O)
+Task	MEIA vs direct scKNIFE		69390		0.9461200051993528	0.876781938174965											entity	scCellFie::Recognition of misfolded protein	Recognition of misfolded protein
+Task	MEIA vs direct scKNIFE		69390		0.9398878734991936	0.8407028046749743											entity	scCellFie::Retro-translocation & substrate ubiquitination	Retro-translocation & substrate ubiquitination
+Task	MEIA vs direct scKNIFE		69390		0.8286216577761185	0.8841331786626269											entity	scCellFie::S-adenosyl-L-methionine synthesis	S-adenosyl-L-methionine synthesis
+Task	MEIA vs direct scKNIFE		69390		0.7816812078844344	0.7850447770399447											entity	scCellFie::Serine degradation	Serine degradation
+Task	MEIA vs direct scKNIFE		69390		0.7148031481495793	0.7073703245968704											entity	scCellFie::Serine synthesis	Serine synthesis
+Task	MEIA vs direct scKNIFE		69390		0.9657042319432518	0.9791629702878344											entity	scCellFie::Sialylation (addition of sialic acid)	Sialylation (addition of sialic acid)
+Task	MEIA vs direct scKNIFE		69390		0.5892600607047225	0.5776774745037931											entity	scCellFie::Sphingomyelin synthesis	Sphingomyelin synthesis
+Task	MEIA vs direct scKNIFE		69390		0.9183112260332804	0.921428687693184											entity	scCellFie::Starch degradation	Starch degradation
+Task	MEIA vs direct scKNIFE		69390		0.8831916857699977	0.894143071453898											entity	scCellFie::Synthesis of GABA	Synthesis of GABA
+Task	MEIA vs direct scKNIFE		69390		0.9173605797135224	0.9419266166780236											entity	scCellFie::Synthesis of L-kynurenine from tryptophan	Synthesis of L-kynurenine from tryptophan
+Task	MEIA vs direct scKNIFE		69390		0.9292493616996548	0.9419597876206308											entity	scCellFie::Synthesis of N-formylanthranilate from tryptophan	Synthesis of N-formylanthranilate from tryptophan
+Task	MEIA vs direct scKNIFE		69390		0.7735796285479573	0.7714561711920238											entity	scCellFie::Synthesis of acetone	Synthesis of acetone
+Task	MEIA vs direct scKNIFE		69390		0.9312468440961532	0.9709714632080702											entity	scCellFie::Synthesis of alanine from glutamine	Synthesis of alanine from glutamine
+Task	MEIA vs direct scKNIFE		69390		0.8359281719632824	0.837954281950117											entity	scCellFie::Synthesis of androstenedione from cholesterol	Synthesis of androstenedione from cholesterol
+Task	MEIA vs direct scKNIFE		69390		0.9368952547785898	0.9523628364366198											entity	scCellFie::Synthesis of anthranilate from tryptophan	Synthesis of anthranilate from tryptophan
+Task	MEIA vs direct scKNIFE		69390		0.9116503943849916	0.9193900902855806											entity	scCellFie::Synthesis of arginine from glutamine	Synthesis of arginine from glutamine
+Task	MEIA vs direct scKNIFE		69390		0.9095449860480757	0.8964660104962038											entity	scCellFie::Synthesis of aspartate from glutamine	Synthesis of aspartate from glutamine
+Task	MEIA vs direct scKNIFE		69390		0.9659645784627512	0.97942548326941											entity	scCellFie::Synthesis of bilirubin	Synthesis of bilirubin
+Task	MEIA vs direct scKNIFE		69390		0.9698293470682204	0.9622066045110438											entity	scCellFie::Synthesis of coenzyme A	Synthesis of coenzyme A
+Task	MEIA vs direct scKNIFE		69390		0.927841565552249	0.9173538833618112											entity	scCellFie::Synthesis of creatine from arginine	Synthesis of creatine from arginine
+Task	MEIA vs direct scKNIFE		69390		0.8256876779575943	0.789994074103721											entity	scCellFie::Synthesis of estradiol-17beta (E2) from androstenedione	Synthesis of estradiol-17beta (E2) from androstenedione
+Task	MEIA vs direct scKNIFE		69390		0.8806767105401525	0.8399978272948014											entity	scCellFie::Synthesis of estrone (E1) from androstenedione	Synthesis of estrone (E1) from androstenedione
+Task	MEIA vs direct scKNIFE		69390		0.8986499838786792	0.9161406475577566											entity	scCellFie::Synthesis of fructose-6-phosphate from erythrose-4-phosphate (HMP shunt)	Synthesis of fructose-6-phosphate from erythrose-4-phosphate (HMP shunt)
+Task	MEIA vs direct scKNIFE		69390		0.5933206285054282	0.5787681332433523											entity	scCellFie::Synthesis of galactosyl glucosyl ceramide (link with ganglioside metabolism)	Synthesis of galactosyl glucosyl ceramide (link with ganglioside metabolism)
+Task	MEIA vs direct scKNIFE		69390		0.5540715304059203	0.5310458882498438											entity	scCellFie::Synthesis of globoside (link with globoside metabolism)	Synthesis of globoside (link with globoside metabolism)
+Task	MEIA vs direct scKNIFE		69390		0.5362080429367087	0.5170400993454761											entity	scCellFie::Synthesis of glucocerebroside	Synthesis of glucocerebroside
+Task	MEIA vs direct scKNIFE		69390		0.9078779819374106	0.9002582002043651											entity	scCellFie::Synthesis of inositol	Synthesis of inositol
+Task	MEIA vs direct scKNIFE		69390		0.9210597235329828	0.9428204271092347											entity	scCellFie::Synthesis of kynate from tryptophan	Synthesis of kynate from tryptophan
+Task	MEIA vs direct scKNIFE		69390		0.9648289660265066	0.9643342507417306											entity	scCellFie::Synthesis of lactose	Synthesis of lactose
+Task	MEIA vs direct scKNIFE		69390		0.7234823738235369	0.7048316073689355											entity	scCellFie::Synthesis of malonyl-coa	Synthesis of malonyl-coa
+Task	MEIA vs direct scKNIFE		69390		0.7720190359235319	0.7329958695587889											entity	scCellFie::Synthesis of methylglyoxal	Synthesis of methylglyoxal
+Task	MEIA vs direct scKNIFE		69390		0.875788944673285	0.7314366656689841											entity	scCellFie::Synthesis of nitric oxide from arginine	Synthesis of nitric oxide from arginine
+Task	MEIA vs direct scKNIFE		69390		0.9332087218630434	0.9338882202150438											entity	scCellFie::Synthesis of ornithine from glutamine	Synthesis of ornithine from glutamine
+Task	MEIA vs direct scKNIFE		69390		0.7049659393291954	0.6838460354481183											entity	scCellFie::Synthesis of palmitoyl-CoA	Synthesis of palmitoyl-CoA
+Task	MEIA vs direct scKNIFE		69390		0.9603844623783356	0.9763788024321506											entity	scCellFie::Synthesis of phosphatidylinositol from inositol	Synthesis of phosphatidylinositol from inositol
+Task	MEIA vs direct scKNIFE		69390		0.8797907120534023	0.892972735107897											entity	scCellFie::Synthesis of progesterone from cholesterol	Synthesis of progesterone from cholesterol
+Task	MEIA vs direct scKNIFE		69390		0.9532180343859736	0.937961865831151											entity	scCellFie::Synthesis of proline from glutamine	Synthesis of proline from glutamine
+Task	MEIA vs direct scKNIFE		69390		0.90083415326454	0.9109229561968876											entity	scCellFie::Synthesis of quinolinate from tryptophan	Synthesis of quinolinate from tryptophan
+Task	MEIA vs direct scKNIFE		69390		0.7372380658904829	0.6954082734506317											entity	scCellFie::Synthesis of ribose-5-phosphate	Synthesis of ribose-5-phosphate
+Task	MEIA vs direct scKNIFE		69390		0.9291931710894704	0.927263406325438											entity	scCellFie::Synthesis of serotonin from tryptophan	Synthesis of serotonin from tryptophan
+Task	MEIA vs direct scKNIFE		69390		0.8441890207409651	0.8609320703870396											entity	scCellFie::Synthesis of spermidine from ornithine	Synthesis of spermidine from ornithine
+Task	MEIA vs direct scKNIFE		69390		0.9167403161531964	0.9176750882786854											entity	scCellFie::Synthesis of taurine from cysteine	Synthesis of taurine from cysteine
+Task	MEIA vs direct scKNIFE		69390		0.8610058625768384	0.8589144070896293											entity	scCellFie::Synthesis of testosterone from androstenedione	Synthesis of testosterone from androstenedione
+Task	MEIA vs direct scKNIFE		69390		0.929098854222306	0.9336803693637168											entity	scCellFie::Synthesis of thromboxane from arachidonate	Synthesis of thromboxane from arachidonate
+Task	MEIA vs direct scKNIFE		69390		0.9399625364169596	0.9607689949153752											entity	scCellFie::Synthesis of ubiquinone from tyrosine	Synthesis of ubiquinone from tyrosine
+Task	MEIA vs direct scKNIFE		69390		0.6413530349236385	0.749705208930334											entity	scCellFie::Taurochenodeoxycholate synthesis	Taurochenodeoxycholate synthesis
+Task	MEIA vs direct scKNIFE		69390		0.7104434136739006	0.6072481204351513											entity	scCellFie::Tetrahydrofolate synthesis	Tetrahydrofolate synthesis
+Task	MEIA vs direct scKNIFE		69390		0.7695761661848031	0.7655650506524733											entity	scCellFie::Threonine degradation	Threonine degradation
+Task	MEIA vs direct scKNIFE		69390		0.883763439374078	0.8846673185558462											entity	scCellFie::Trafficking to endosomes (Clathrin Vesicles)	Trafficking to endosomes (Clathrin Vesicles)
+Task	MEIA vs direct scKNIFE		69390		0.6314162931525177	0.5996449241223376											entity	scCellFie::Triacylglycerol synthesis	Triacylglycerol synthesis
+Task	MEIA vs direct scKNIFE		69390		0.7868571424922356	0.7872190781084691											entity	scCellFie::Tryptophan degradation	Tryptophan degradation
+Task	MEIA vs direct scKNIFE		69390		0.7491569492277248	0.7541119860349834											entity	scCellFie::Tyrosine degradation	Tyrosine degradation
+Task	MEIA vs direct scKNIFE		69390		0.8987618422506288	0.9303843605495254											entity	scCellFie::Tyrosine synthesis (need phenylalanine)	Tyrosine synthesis (need phenylalanine)
+Task	MEIA vs direct scKNIFE		69390		0.882577743491977	0.9070545254373068											entity	scCellFie::Tyrosine to acetoacetate and fumarate	Tyrosine to acetoacetate and fumarate
+Task	MEIA vs direct scKNIFE		69390		0.9031393355934388	0.8817333160339419											entity	scCellFie::Tyrosine to adrenaline	Tyrosine to adrenaline
+Task	MEIA vs direct scKNIFE		69390		0.931605801489842	0.9207220623247276											entity	scCellFie::Tyrosine to dopamine	Tyrosine to dopamine
+Task	MEIA vs direct scKNIFE		69390		0.8885842676579185	0.8833208408189528											entity	scCellFie::Tyrosine to melanin	Tyrosine to melanin
+Task	MEIA vs direct scKNIFE		69390		0.8370592148238293	0.8151438036534563											entity	scCellFie::UDP-N-acetyl D-galactosamine synthesis	UDP-N-acetyl D-galactosamine synthesis
+Task	MEIA vs direct scKNIFE		69390		0.9397298710958346	0.958674239003554											entity	scCellFie::UDP-galactose synthesis	UDP-galactose synthesis
+Task	MEIA vs direct scKNIFE		69390		0.9014218325205454	0.8596366386908237											entity	scCellFie::UDP-glucose synthesis	UDP-glucose synthesis
+Task	MEIA vs direct scKNIFE		69390		0.8994479428697622	0.8790556948390316											entity	scCellFie::UDP-glucuronate synthesis	UDP-glucuronate synthesis
+Task	MEIA vs direct scKNIFE		69390		0.8586911411136335	0.8475509865101714											entity	scCellFie::Uridine triphosphate synthesis (UTP)	Uridine triphosphate synthesis (UTP)
+Task	MEIA vs direct scKNIFE		69390		0.7767637899019135	0.7535659784204147											entity	scCellFie::Valine degradation	Valine degradation
+Task	MEIA vs direct scKNIFE		69390		0.964948340013818	0.9207628806955582											entity	scCellFie::Valine to succinyl-coA	Valine to succinyl-coA
+Task	MEIA vs direct scKNIFE		69390		0.7572751180025972	0.8108105879462683											entity	scCellFie::Vesicle secretion	Vesicle secretion
+Task	MEIA vs direct scKNIFE		69390		0.7482271342575963	0.7311884443994047											entity	scCellFie::beta-Alanine degradation	beta-Alanine degradation
+Task	MEIA vs direct scKNIFE		69390		0.8027225036967125	0.8035436163872128											entity	scCellFie::beta-Alanine synthesis	beta-Alanine synthesis
+Task	MEIA vs direct scKNIFE		69390		0.3482944324578359	0.3777993425534217											entity	scCellFie::cis-vaccenic acid degradation	cis-vaccenic acid degradation
+Task	MEIA vs direct scKNIFE		69390		0.5684868471470244	0.5558659912732457											entity	scCellFie::cis-vaccenic acid synthesis	cis-vaccenic acid synthesis
+Task	MEIA vs direct scKNIFE		69390		0.4182287127107602	0.45098584870988											entity	scCellFie::gamma-Linolenate degradation	gamma-Linolenate degradation
+Task	MEIA vs direct scKNIFE		69390		0.8300328642034047	0.8514537043843439											entity	scCellFie::gamma-Linolenate synthesis	gamma-Linolenate synthesis
+Task	MEIA vs direct scKNIFE		69390		0.908346133218337	0.9524663315351722											entity	scCellFie::glyco-cholate synthesis	glyco-cholate synthesis
+Task	MEIA vs direct scKNIFE		69390		0.908346133218337	0.9524663315351722											entity	scCellFie::tauro-cholate synthesis	tauro-cholate synthesis
+Pathway	MEIA vs direct scKNIFE		69390		0.9597576904186732	0.930686823496874											entity	HumanGEM::Glycolysis_Gluconeogenesis	Glycolysis_Gluconeogenesis
+Pathway	MEIA vs direct scKNIFE		69390		0.9771791801523716	0.9783524260000044											entity	HumanGEM::Starch_and_sucrose_metabolism	Starch_and_sucrose_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9688840718124212	0.9643366503154256											entity	HumanGEM::Galactose_metabolism	Galactose_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9762181785932348	0.9720061537139342											entity	HumanGEM::Fructose_and_mannose_metabolism	Fructose_and_mannose_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9722970957244096	0.9758845638503308											entity	HumanGEM::Pentose_and_glucuronate_interconversions	Pentose_and_glucuronate_interconversions
+Pathway	MEIA vs direct scKNIFE		69390		0.9050361817086896	0.8988054762102857											entity	HumanGEM::Pyruvate_metabolism	Pyruvate_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.950060009264318	0.9580371225529904											entity	HumanGEM::Propanoate_metabolism	Propanoate_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9797020880971488	0.981599128617868											entity	HumanGEM::Butanoate_metabolism	Butanoate_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.963472513224354	0.970760103246105											entity	HumanGEM::Pentose_phosphate_pathway	Pentose_phosphate_pathway
+Pathway	MEIA vs direct scKNIFE		69390		0.9443525749167878	0.939038236235736											entity	HumanGEM::Purine_metabolism	Purine_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9587956894045372	0.9568320437868676											entity	HumanGEM::Pyrimidine_metabolism	Pyrimidine_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9582996865033752	0.9553992849106914											entity	HumanGEM::Nucleotide_metabolism	Nucleotide_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9448139617576646	0.9194692582928083											entity	HumanGEM::Alanine_aspartate_and_glutamate_metabolism	Alanine_aspartate_and_glutamate_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9830353652468286	0.9703503314482492											entity	HumanGEM::Arginine_and_proline_metabolism	Arginine_and_proline_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9566297554004488	0.9598435289343904											entity	HumanGEM::Histidine_metabolism	Histidine_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.8646749565997073	0.831360792002618											entity	HumanGEM::Glycine_serine_and_threonine_metabolism	Glycine_serine_and_threonine_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9764852176469804	0.9772057398345616											entity	HumanGEM::Lysine_metabolism	Lysine_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9616766402287016	0.9606161770419878											entity	HumanGEM::Tryptophan_metabolism	Tryptophan_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9575385350460164	0.9383365108914709											entity	HumanGEM::Tyrosine_metabolism	Tyrosine_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9538679378205728	0.947981521505906											entity	HumanGEM::Valine_leucine_and_isoleucine_metabolism	Valine_leucine_and_isoleucine_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9304924676099596	0.9129126363707588											entity	HumanGEM::Phenylalanine_tyrosine_and_tryptophan_biosynthesis	Phenylalanine_tyrosine_and_tryptophan_biosynthesis
+Pathway	MEIA vs direct scKNIFE		69390		0.9501338812518252	0.9402687265847742											entity	HumanGEM::Cysteine_and_methionine_metabolism	Cysteine_and_methionine_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9698243371689408	0.9513707217977456											entity	HumanGEM::Glutathione_metabolism	Glutathione_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9836095397465296	0.9789691630881922											entity	HumanGEM::Transport_reactions	Transport_reactions
+Pathway	MEIA vs direct scKNIFE		69390		0.9526172244223317	0.95302471078828											entity	HumanGEM::Beta_alanine_metabolism	Beta_alanine_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9742551473697452	0.9772570359330718											entity	HumanGEM::Metabolism_of_other_amino_acids	Metabolism_of_other_amino_acids
+Pathway	MEIA vs direct scKNIFE		69390		0.9810897869897018	0.9717297546554852											entity	HumanGEM::Amino_sugar_and_nucleotide_sugar_metabolism	Amino_sugar_and_nucleotide_sugar_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9383817833820228	0.9522918808885809											entity	HumanGEM::Aminoacyl_tRNA_biosynthesis	Aminoacyl_tRNA_biosynthesis
+Pathway	MEIA vs direct scKNIFE		69390		0.9737639238868894	0.978498569071048											entity	HumanGEM::O_glycan_metabolism	O_glycan_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9678562452903808	0.9559099809780428											entity	HumanGEM::N_glycan_metabolism	N_glycan_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9776196046291168	0.983339525760583											entity	HumanGEM::Protein_assembly	Protein_assembly
+Pathway	MEIA vs direct scKNIFE		69390		0.9113971415636208	0.9175518511494436											entity	HumanGEM::Protein_modification	Protein_modification
+Pathway	MEIA vs direct scKNIFE		69390		0.9781443625676568	0.985822973356482											entity	HumanGEM::Protein_degradation	Protein_degradation
+Pathway	MEIA vs direct scKNIFE		69390		0.9222645137797432	0.9247724530167446											entity	HumanGEM::Miscellaneous	Miscellaneous
+Pathway	MEIA vs direct scKNIFE		69390		0.946146648749944	0.9270444964550554											entity	HumanGEM::Sulfur_metabolism	Sulfur_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9651160726249232	0.9609119322525236											entity	HumanGEM::C5_branched_dibasic_acid_metabolism	C5_branched_dibasic_acid_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9634175256642188	0.9586598285471014											entity	HumanGEM::Tricarboxylic_acid_cycle_and_glyoxylate_dicarboxylate_metabolism	Tricarboxylic_acid_cycle_and_glyoxylate_dicarboxylate_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.965705975485757	0.9944821680308162											entity	HumanGEM::Oxidative_phosphorylation	Oxidative_phosphorylation
+Pathway	MEIA vs direct scKNIFE		69390		0.8076202089436965	0.8410913624020534											entity	HumanGEM::ROS_detoxification	ROS_detoxification
+Pathway	MEIA vs direct scKNIFE		69390		0.9782002818722786	0.9747420423669616											entity	HumanGEM::Fatty_acid_activation_cytosolic	Fatty_acid_activation_cytosolic
+Pathway	MEIA vs direct scKNIFE		69390		0.9798999091809036	0.9773534003193818											entity	HumanGEM::Fatty_acid_activation_endoplasmic_reticular	Fatty_acid_activation_endoplasmic_reticular
+Pathway	MEIA vs direct scKNIFE		69390		0.9857087534261892	0.9943945683750556											entity	HumanGEM::Fatty_acid_biosynthesis_even_chain	Fatty_acid_biosynthesis_even_chain
+Pathway	MEIA vs direct scKNIFE		69390		0.9736051491187908	0.9968361264415644											entity	HumanGEM::Fatty_acid_biosynthesis_odd_chain	Fatty_acid_biosynthesis_odd_chain
+Pathway	MEIA vs direct scKNIFE		69390		0.9517539411976388	0.9404152221396856											entity	HumanGEM::Fatty_acid_biosynthesis_unsaturated	Fatty_acid_biosynthesis_unsaturated
+Pathway	MEIA vs direct scKNIFE		69390		0.9440022673967922	0.932514347709262											entity	HumanGEM::Fatty_acid_elongation_even_chain	Fatty_acid_elongation_even_chain
+Pathway	MEIA vs direct scKNIFE		69390		0.960384855280252	0.9547460044685856											entity	HumanGEM::Fatty_acid_elongation_odd_chain	Fatty_acid_elongation_odd_chain
+Pathway	MEIA vs direct scKNIFE		69390		0.8516226233727582	0.8554377342713286											entity	HumanGEM::Fatty_acid_desaturation_even_chain	Fatty_acid_desaturation_even_chain
+Pathway	MEIA vs direct scKNIFE		69390		0.8873485349824966	0.9070474480805882											entity	HumanGEM::Fatty_acid_desaturation_odd_chain	Fatty_acid_desaturation_odd_chain
+Pathway	MEIA vs direct scKNIFE		69390		0.943283858627008	0.9438751178082698											entity	HumanGEM::Fatty_acid_biosynthesis	Fatty_acid_biosynthesis
+Pathway	MEIA vs direct scKNIFE		69390		0.982505212240217	0.9852649499275916											entity	HumanGEM::Linoleate_metabolism	Linoleate_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9120053610031628	0.9112180761445264											entity	HumanGEM::Lipoic_acid_metabolism	Lipoic_acid_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9441337083613118	0.944277969812666											entity	HumanGEM::Omega_3_fatty_acid_metabolism	Omega_3_fatty_acid_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9832036495557788	0.9781895869653092											entity	HumanGEM::Omega_6_fatty_acid_metabolism	Omega_6_fatty_acid_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9635126748522624	0.9671786538427882											entity	HumanGEM::Arachidonic_acid_metabolism	Arachidonic_acid_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.8372521697191929	0.8538404053194851											entity	HumanGEM::Leukotriene_metabolism	Leukotriene_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9685272687828442	0.9614039463803246											entity	HumanGEM::Eicosanoid_metabolism	Eicosanoid_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.900842790762692	0.8997453328007682											entity	HumanGEM::Acyl_CoA_hydrolysis	Acyl_CoA_hydrolysis
+Pathway	MEIA vs direct scKNIFE		69390		0.9808080901768552	0.9874579815118066											entity	HumanGEM::Carnitine_shuttle_cytosolic	Carnitine_shuttle_cytosolic
+Pathway	MEIA vs direct scKNIFE		69390		0.9559492714380854	0.9658088120019306											entity	HumanGEM::Carnitine_shuttle_mitochondrial	Carnitine_shuttle_mitochondrial
+Pathway	MEIA vs direct scKNIFE		69390		0.9767310622151636	0.986290649864238											entity	HumanGEM::Carnitine_shuttle_peroxisomal	Carnitine_shuttle_peroxisomal
+Pathway	MEIA vs direct scKNIFE		69390		0.9727551966742324	0.9768323906357396											entity	HumanGEM::Carnitine_shuttle_endoplasmic_reticular	Carnitine_shuttle_endoplasmic_reticular
+Pathway	MEIA vs direct scKNIFE		69390		0.962235138229454	0.9535885996336192											entity	HumanGEM::Acylglycerides_metabolism	Acylglycerides_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9662084608571267	0.9574718166073432											entity	HumanGEM::Beta_oxidation_of_even_chain_fatty_acids_peroxisomal	Beta_oxidation_of_even_chain_fatty_acids_peroxisomal
+Pathway	MEIA vs direct scKNIFE		69390		0.9718382281726632	0.9682619890080156											entity	HumanGEM::Beta_oxidation_of_unsaturated_fatty_acids_n_9_peroxisomal	Beta_oxidation_of_unsaturated_fatty_acids_n_9_peroxisomal
+Pathway	MEIA vs direct scKNIFE		69390		0.9758943402802795	0.9703854984941964											entity	HumanGEM::Beta_oxidation_of_phytanic_acid_peroxisomal	Beta_oxidation_of_phytanic_acid_peroxisomal
+Pathway	MEIA vs direct scKNIFE		69390		0.9723388667093764	0.9689585395184424											entity	HumanGEM::Beta_oxidation_of_di_unsaturated_fatty_acids_n_6_peroxisomal	Beta_oxidation_of_di_unsaturated_fatty_acids_n_6_peroxisomal
+Pathway	MEIA vs direct scKNIFE		69390		0.9818895206650132	0.9865139698984764											entity	HumanGEM::Beta_oxidation_of_even_chain_fatty_acids_mitochondrial	Beta_oxidation_of_even_chain_fatty_acids_mitochondrial
+Pathway	MEIA vs direct scKNIFE		69390		0.973455324462752	0.9824276281300748											entity	HumanGEM::Beta_oxidation_of_odd_chain_fatty_acids_mitochondrial	Beta_oxidation_of_odd_chain_fatty_acids_mitochondrial
+Pathway	MEIA vs direct scKNIFE		69390		0.9845818036456202	0.9943809274531632											entity	HumanGEM::Beta_oxidation_of_unsaturated_fatty_acids_n_7_mitochondrial	Beta_oxidation_of_unsaturated_fatty_acids_n_7_mitochondrial
+Pathway	MEIA vs direct scKNIFE		69390		0.9694466638418224	0.9660809591477992											entity	HumanGEM::Beta_oxidation_of_unsaturated_fatty_acids_n_7_peroxisomal	Beta_oxidation_of_unsaturated_fatty_acids_n_7_peroxisomal
+Pathway	MEIA vs direct scKNIFE		69390		0.9846307202203732	0.9940953041135988											entity	HumanGEM::Beta_oxidation_of_unsaturated_fatty_acids_n_9_mitochondrial	Beta_oxidation_of_unsaturated_fatty_acids_n_9_mitochondrial
+Pathway	MEIA vs direct scKNIFE		69390		0.9850464217685432	0.9936684869393404											entity	HumanGEM::Beta_oxidation_of_di_unsaturated_fatty_acids_n_6_mitochondrial	Beta_oxidation_of_di_unsaturated_fatty_acids_n_6_mitochondrial
+Pathway	MEIA vs direct scKNIFE		69390		0.9828534913781286	0.9902894598963902											entity	HumanGEM::Beta_oxidation_of_poly_unsaturated_fatty_acids_mitochondrial	Beta_oxidation_of_poly_unsaturated_fatty_acids_mitochondrial
+Pathway	MEIA vs direct scKNIFE		69390		0.9808475596663472	0.9898430635321545											entity	HumanGEM::Beta_oxidation_of_branched_chain_fatty_acids_mitochondrial	Beta_oxidation_of_branched_chain_fatty_acids_mitochondrial
+Pathway	MEIA vs direct scKNIFE		69390		0.9704917165863154	0.9696525609964584											entity	HumanGEM::Terpenoid_backbone_biosynthesis	Terpenoid_backbone_biosynthesis
+Pathway	MEIA vs direct scKNIFE		69390		0.9524357137811216	0.9472839398251138											entity	HumanGEM::Steroid_metabolism	Steroid_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9617135307165052	0.9571477192986038											entity	HumanGEM::Androgen_metabolism	Androgen_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9710782235986616	0.9756453816928812											entity	HumanGEM::Cholesterol_biosynthesis_1_Bloch_pathway	Cholesterol_biosynthesis_1_Bloch_pathway
+Pathway	MEIA vs direct scKNIFE		69390		0.9568529463830212	0.9746028400691308											entity	HumanGEM::Cholesterol_biosynthesis_2	Cholesterol_biosynthesis_2
+Pathway	MEIA vs direct scKNIFE		69390		0.959194799008428	0.9726064901574664											entity	HumanGEM::Cholesterol_biosynthesis_3_Kandustch_Russell_pathway	Cholesterol_biosynthesis_3_Kandustch_Russell_pathway
+Pathway	MEIA vs direct scKNIFE		69390		0.9831921911053374	0.985215571904114											entity	HumanGEM::Cholesterol_metabolism	Cholesterol_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9299388301838352	0.940043370327578											entity	HumanGEM::Estrogen_metabolism	Estrogen_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9800280895477088	0.985501544664185											entity	HumanGEM::Formation_and_hydrolysis_of_cholesterol_esters	Formation_and_hydrolysis_of_cholesterol_esters
+Pathway	MEIA vs direct scKNIFE		69390		0.959995166434102	0.966073406798226											entity	HumanGEM::Sphingolipid_metabolism	Sphingolipid_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9627268852470818	0.9616357710278164											entity	HumanGEM::Glycerolipid_metabolism	Glycerolipid_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.94748036029455	0.9472924932863408											entity	HumanGEM::Glycerophospholipid_metabolism	Glycerophospholipid_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9765755208531812	0.9804280201874772											entity	HumanGEM::Glycosphingolipid_biosynthesis_ganglio_series	Glycosphingolipid_biosynthesis_ganglio_series
+Pathway	MEIA vs direct scKNIFE		69390		0.9880217315175872	0.9927035850835592											entity	HumanGEM::Glycosphingolipid_biosynthesis_globo_series	Glycosphingolipid_biosynthesis_globo_series
+Pathway	MEIA vs direct scKNIFE		69390		0.9748075642566482	0.9780631051707188											entity	HumanGEM::Glycosphingolipid_biosynthesis_lacto_and_neolacto_series	Glycosphingolipid_biosynthesis_lacto_and_neolacto_series
+Pathway	MEIA vs direct scKNIFE		69390		0.9481639785691752	0.9643597710986134											entity	HumanGEM::Glycosphingolipid_metabolism	Glycosphingolipid_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9742993640746462	0.9680813763503832											entity	HumanGEM::Glycosylphosphatidylinositol_GPI_anchor_biosynthesis	Glycosylphosphatidylinositol_GPI_anchor_biosynthesis
+Pathway	MEIA vs direct scKNIFE		69390		0.9611053697204432	0.9575656616456152											entity	HumanGEM::Glucocorticoid_biosynthesis	Glucocorticoid_biosynthesis
+Pathway	MEIA vs direct scKNIFE		69390		0.9812769388042668	0.9811171305908128											entity	HumanGEM::Prostaglandin_biosynthesis	Prostaglandin_biosynthesis
+Pathway	MEIA vs direct scKNIFE		69390		0.967264198644396	0.954079039043271											entity	HumanGEM::Ether_lipid_metabolism	Ether_lipid_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9780314636184184	0.982407560274695											entity	HumanGEM::Chondroitin_heparan_sulfate_biosynthesis	Chondroitin_heparan_sulfate_biosynthesis
+Pathway	MEIA vs direct scKNIFE		69390		0.9920993421092752	0.9887874771360048											entity	HumanGEM::Chondroitin_sulfate_degradation	Chondroitin_sulfate_degradation
+Pathway	MEIA vs direct scKNIFE		69390		0.98249302196913	0.977522228103318											entity	HumanGEM::Heparan_sulfate_degradation	Heparan_sulfate_degradation
+Pathway	MEIA vs direct scKNIFE		69390		0.9774263146303688	0.982364657340877											entity	HumanGEM::Keratan_sulfate_biosynthesis	Keratan_sulfate_biosynthesis
+Pathway	MEIA vs direct scKNIFE		69390		0.9851754733003188	0.9861914350891164											entity	HumanGEM::Keratan_sulfate_degradation	Keratan_sulfate_degradation
+Pathway	MEIA vs direct scKNIFE		69390		0.9130970212937904	0.8979155437678733											entity	HumanGEM::Isolated	Isolated
+Pathway	MEIA vs direct scKNIFE		69390		0.8699045979133372	0.8436870585435665											entity	HumanGEM::Bile_acid_biosynthesis	Bile_acid_biosynthesis
+Pathway	MEIA vs direct scKNIFE		69390		0.9846112179687092	0.9869874665502204											entity	HumanGEM::Bile_acid_recycling	Bile_acid_recycling
+Pathway	MEIA vs direct scKNIFE		69390		0.9713433814187644	0.975006362816677											entity	HumanGEM::Blood_group_biosynthesis	Blood_group_biosynthesis
+Pathway	MEIA vs direct scKNIFE		69390		0.952777240902122	0.9379848904946017											entity	HumanGEM::Nicotinate_and_nicotinamide_metabolism	Nicotinate_and_nicotinamide_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9519224160337844	0.94992084069083											entity	HumanGEM::Pantothenate_and_CoA_metabolism	Pantothenate_and_CoA_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9646917668238004	0.9545738353322736											entity	HumanGEM::Inositol_phosphate_metabolism	Inositol_phosphate_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.92924192039053	0.923218463927511											entity	HumanGEM::Folate_metabolism	Folate_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9703593981780012	0.98653470613988											entity	HumanGEM::Biotin_metabolism	Biotin_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.958137455301235	0.9637590824810088											entity	HumanGEM::Biopterin_metabolism	Biopterin_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9061942652432756	0.8935313106387052											entity	HumanGEM::Ascorbate_and_aldarate_metabolism	Ascorbate_and_aldarate_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9551373260317394	0.9561237450631952											entity	HumanGEM::Porphyrin_metabolism	Porphyrin_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9717319080446564	0.970090754067619											entity	HumanGEM::Retinol_metabolism	Retinol_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.854260031500706	0.8314230942062206											entity	HumanGEM::Riboflavin_metabolism	Riboflavin_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9703730724841364	0.9704720293355804											entity	HumanGEM::Serotonin_and_melatonin_biosynthesis	Serotonin_and_melatonin_biosynthesis
+Pathway	MEIA vs direct scKNIFE		69390		0.9470360741919092	0.9521330419603792											entity	HumanGEM::Thiamine_metabolism	Thiamine_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.8921852285691166	0.8917948555315846											entity	HumanGEM::Vitamin_B12_metabolism	Vitamin_B12_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.982818309670916	0.9837345652715712											entity	HumanGEM::Vitamin_B6_metabolism	Vitamin_B6_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.978363631972867	0.9777271417383274											entity	HumanGEM::Vitamin_D_metabolism	Vitamin_D_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.827445132748203	0.8551642594589638											entity	HumanGEM::Vitamin_E_metabolism	Vitamin_E_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9548427681878286	0.9488561922074248											entity	HumanGEM::Xenobiotics_metabolism	Xenobiotics_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9491763837348072	0.9498164394862542											entity	HumanGEM::Glyoxylate_and_dicarboxylate_metabolism	Glyoxylate_and_dicarboxylate_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9158847258042996	0.899592280888919											entity	HumanGEM::Pool_reactions	Pool_reactions
+Pathway	MEIA vs direct scKNIFE		69390		0.9178979960264958	0.9129743352684078											entity	HumanGEM::Ubiquinone_synthesis	Ubiquinone_synthesis
+Pathway	MEIA vs direct scKNIFE		69390		0.983419239890526	0.9720273461405884											entity	HumanGEM::Fatty_acid_oxidation	Fatty_acid_oxidation
+Pathway	MEIA vs direct scKNIFE		69390		0.9085660696216704	0.954647122004669											entity	HumanGEM::Vitamin_C_metabolism	Vitamin_C_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9698553554043052	0.974284690447738											entity	HumanGEM::Phosphatidylinositol_phosphate_metabolism	Phosphatidylinositol_phosphate_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.8374796584751875	0.9093103671438392											entity	HumanGEM::Heme_degradation	Heme_degradation
+Pathway	MEIA vs direct scKNIFE		69390		0.9458216797383884	0.9519793381168276											entity	HumanGEM::Vitamin_A_metabolism	Vitamin_A_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9789344186874922	0.9832646822833596											entity	HumanGEM::Phenylalanine_metabolism	Phenylalanine_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9263259739999516	0.9214062754615342											entity	HumanGEM::Vitamin_B2_metabolism	Vitamin_B2_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9559648504122428	0.9558308667495932											entity	HumanGEM::Drug_metabolism	Drug_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.8840459396270584	0.8801363215168374											entity	HumanGEM::Fatty_acid_metabolism	Fatty_acid_metabolism
+Pathway	MEIA vs direct scKNIFE		69390		0.9419747781012988	0.9666639307229044											entity	HumanGEM::octane_oxidation	octane_oxidation
+Pathway	MEIA vs direct scKNIFE		69390		0.9471932506979728	0.9682081382580712											entity	HumanGEM::Toluene_degradation	Toluene_degradation
+Pathway	MEIA vs direct scKNIFE		69390		0.9305333983470956	0.9271048851877596											entity	HumanGEM::Insect_hormone_biosynthesis	Insect_hormone_biosynthesis
+Pathway	MEIA vs direct scKNIFE		69390		0.9718275391731552	0.9769649503820732											entity	HumanGEM::Fatty_acid_degradation	Fatty_acid_degradation
+Pathway	MEIA vs direct scKNIFE		69390		0.9564956814697986	0.9737681685005434											entity	HumanGEM::Pentose_Phosphate_Pathway	Pentose_Phosphate_Pathway
+Pathway	MEIA vs direct scKNIFE		69390		0.9643602615315184	0.9745455758563152											entity	HumanGEM::Ubiquinone_and_other_terpenoid_quinone_biosynthesis	Ubiquinone_and_other_terpenoid_quinone_biosynthesis

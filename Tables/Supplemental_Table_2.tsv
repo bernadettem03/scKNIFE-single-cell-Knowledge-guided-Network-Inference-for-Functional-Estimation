@@ -1,0 +1,23 @@
+section	metric	version_1	version_2	change_v2_minus_v1	definition
+Graph totals	nodes	22951	39247	16296	Graph topology count
+Graph totals	edges	216079	336225	120146	Graph topology count
+Graph totals	connected_components	33	33	0	Graph topology count
+Node categories	gene	14525	14665	140	Graph node kind; absence from version 1 is zero
+Node categories	GO_term	6036	6036	0	Graph node kind; absence from version 1 is zero
+Node categories	cellchat_entity	1157	1157	0	Graph node kind; absence from version 1 is zero
+Node categories	reaction	787	12666	11879	Graph node kind; absence from version 1 is zero
+Node categories	task	218	218	0	Graph node kind; absence from version 1 is zero
+Node categories	cell_type	95	95	0	Graph node kind; absence from version 1 is zero
+Node categories	cell_state	83	83	0	Graph node kind; absence from version 1 is zero
+Node categories	geneset	50	50	0	Graph node kind; absence from version 1 is zero
+Node categories	metabolite	0	4130	4130	Graph node kind; absence from version 1 is zero
+Node categories	pathway	0	147	147	Graph node kind; absence from version 1 is zero
+Biological-program memberships	hallmark_gene_sets	50	50	0	Biological-program category membership
+Biological-program memberships	metabolic_tasks	218	218	0	Biological-program category membership
+Biological-program memberships	reaction_associated_programs	787	787	0	787 original reaction-associated program memberships; not all reaction nodes in version 2
+Biological-program memberships	cell_type_marker_sets	95	95	0	Biological-program category membership
+Biological-program memberships	cell_state_programs	83	83	0	Biological-program category membership
+Biological-program memberships	go_biological_processes	6036	6036	0	Biological-program category membership
+Biological-program memberships	human_gem_pathways	0	147	147	Biological-program category membership
+Biological-program memberships	cellchat_pathways	252	252	0	Pathway labels stored on edges, not CellChat entity node count
+Biological-program memberships	total	7521	7668	147	Sum of category memberships; not a deduplicated node count

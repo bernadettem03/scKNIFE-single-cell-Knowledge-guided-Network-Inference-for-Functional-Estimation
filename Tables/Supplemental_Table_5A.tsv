@@ -1,0 +1,10 @@
+program	component_cluster	factor_indices_zero_based	n_factors	n_selected_nodes	n_node_kinds	interpretation	representative_nodes
+PG1	CC1	0, 18, 19, 27, 31, 38, 39, 42	8	20	7	Interferon and antigen presentation	TAP1; CD74; antigen processing and presentation of endogenous peptide antigen via MHC class I (GO:0019885); bromobenzene_2_3_dihydrodiol; HALLMARK_INTERFERON_ALPHA_RESPONSE
+PG2	CC2	1, 10, 41	3	20	6	Cell cycle and DNA replication	ZWINT; kinetochore organization (GO:0051383); TMDS; HALLMARK_E2F_TARGETS; 2_phosphoglycolate
+PG3	CC3	2, 8, 17	3	20	8	Mixed current W-derived program; see selected nodes	KANK4; THBS2; XAO2x; salivary gland morphogenesis (GO:0007435); Glycogen degradation
+PG4	CC4	3, 9, 14, 37, 45	5	20	5	Mixed current W-derived program; see selected nodes	EMP1; KLK5; bundle of His cell-Purkinje myocyte adhesion involved in cell communication (GO:0086073); 2_hydroxy_3_oxopropanoate; FACOAL161
+PG5	CC5	4, 48	2	20	8	Mixed current W-derived program; see selected nodes	MCF2L; PLXNA3; leucine transport (GO:0015820); 3_hydroxynonanoyl_ACP; MAR02238
+PG6	CC6	5, 11, 47, 49	4	20	8	Mixed current W-derived program; see selected nodes	BLZF1; histone H3-K36 methylation (GO:0010452); DSG2; G_5_pppR_RNA; MAR04312
+PG7	CC7	6, 46	2	20	8	MYC-associated biosynthesis and polyamine metabolism	MYC; ADMDC; positive regulation of kidney development (GO:0090184); ADGRE5; tRNA_containing_6_isopentenyladenosine
+PG8	CC8	7, 44	2	20	4	Signaling and matrix-associated features	MLLT6; COL6A1; postsynaptic endocytosis (GO:0140239); ACACT7p; meiotic sister chromatid segregation (GO:0045144)
+PG9	CC9	12, 13, 15, 16, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 32, 33, 34, 35, 36, 40, 43	21	20	2	Contractile and myoepithelial features	ELN; ADM; MYL9; CNTFR; NDRG1

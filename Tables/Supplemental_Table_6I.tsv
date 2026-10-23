@@ -1,0 +1,4 @@
+panel	pathway	celltype	node	label	biopsy_median	surgery_median	recurrence_median	biopsy_cells	surgery_cells	recurrence_cells	patient
+I	Aspartate and asparagine metabolism	Myeloid	3_sulfinoalanine	3-sulfinoalanine	0.4484033286571502	0.4454519152641296	0.3806847333908081	25	152	227	P3
+J	Aspartate and asparagine metabolism	Myeloid	S_2_aminobutanoate	(S)-2-aminobutanoate	0.1540788561105728	0.1240672692656517	0.1211556419730186	25	152	227	P3
+K	Glycolysis and Gluconeogenesis	Myeloid	methylglyoxal	Methylglyoxal	0.4441506862640381	0.4434860348701477	0.3658336699008941	25	152	227	P3

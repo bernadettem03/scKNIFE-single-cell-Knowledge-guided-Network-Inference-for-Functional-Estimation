@@ -1,0 +1,906 @@
+tier	source	target	score	rank_positive_within_tier	top10_minor_display
+major	Epithelial	Epithelial	1.07400333869	30	False
+major	Endothelial	Epithelial	12.8959121946	10	False
+major	CAFs	Epithelial	0.995508562912	31	False
+major	PVL	Epithelial	5.80894134014	20	False
+major	T-cells	Epithelial	0.220989291418	52	False
+major	B-cells	Epithelial	0.393494332383	46	False
+major	Plasmablasts	Epithelial	0.305756600179	49	False
+major	Myeloid	Epithelial	1.34251994723	29	False
+major	Epithelial	Endothelial	0.844927710384	33	False
+major	Endothelial	Endothelial	7.92337676778	13	False
+major	CAFs	Endothelial	0.735161049178	35	False
+major	PVL	Endothelial	3.65770915586	24	False
+major	T-cells	Endothelial	0.221222411733	51	False
+major	B-cells	Endothelial	0.307117455369	48	False
+major	Plasmablasts	Endothelial	0.28505091618	50	False
+major	Myeloid	Endothelial	0.923257365312	32	False
+major	Epithelial	CAFs	15.468362611	8	False
+major	Endothelial	CAFs	81.542040941	2	False
+major	CAFs	CAFs	12.0863588787	11	False
+major	PVL	CAFs	40.8868774348	4	False
+major	T-cells	CAFs	5.40399656811	22	False
+major	B-cells	CAFs	5.55252419117	21	False
+major	Plasmablasts	CAFs	6.49081122184	18	False
+major	Myeloid	CAFs	13.1030413195	9	False
+major	Epithelial	PVL	21.1802455093	5	False
+major	Endothelial	PVL	109.335300059	1	False
+major	CAFs	PVL	16.4993242015	7	False
+major	PVL	PVL	55.0335421513	3	False
+major	T-cells	PVL	7.44888624626	15	False
+major	B-cells	PVL	7.6003091413	14	False
+major	Plasmablasts	PVL	8.93403942001	12	False
+major	Myeloid	PVL	17.8028912906	6	False
+major	Epithelial	T-cells	0.516403793522	42	False
+major	Endothelial	T-cells	6.11210811906	19	False
+major	CAFs	T-cells	0.476748940668	44	False
+major	PVL	T-cells	2.75671986109	27	False
+major	T-cells	T-cells	0.10814353263	63	False
+major	B-cells	T-cells	0.189102971597	55	False
+major	Plasmablasts	T-cells	0.148787579585	58	False
+major	Myeloid	T-cells	0.640217002353	37	False
+major	Epithelial	B-cells	0.395330153222	45	False
+major	Endothelial	B-cells	4.67332532959	23	False
+major	CAFs	B-cells	0.364847990486	47	False
+major	PVL	B-cells	2.1080247293	28	False
+major	T-cells	B-cells	0.0829116278063	64	False
+major	B-cells	B-cells	0.144760412507	59	False
+major	Plasmablasts	B-cells	0.114019041247	62	False
+major	Myeloid	B-cells	0.489769760089	43	False
+major	Epithelial	Plasmablasts	0.57093125069	39	False
+major	Endothelial	Plasmablasts	6.77875394521	17	False
+major	CAFs	Plasmablasts	0.527548703172	41	False
+major	PVL	Plasmablasts	3.05653394149	26	False
+major	T-cells	Plasmablasts	0.119109178828	61	False
+major	B-cells	Plasmablasts	0.209093920256	54	False
+major	Plasmablasts	Plasmablasts	0.164072217839	57	False
+major	Myeloid	Plasmablasts	0.709089967527	36	False
+major	Epithelial	Myeloid	0.591060592464	38	False
+major	Endothelial	Myeloid	7.12717431316	16	False
+major	CAFs	Myeloid	0.548512999281	40	False
+major	PVL	Myeloid	3.2092219993	25	False
+major	T-cells	Myeloid	0.120975929484	60	False
+major	B-cells	Myeloid	0.21658650204	53	False
+major	Plasmablasts	Myeloid	0.16766500929	56	False
+major	Myeloid	Myeloid	0.740635863802	34	False
+minor	Cancer Basal SC	Cancer Basal SC	1.45183144161	291	False
+minor	Cancer Cycling	Cancer Basal SC	1.14046898182	329	False
+minor	Cancer Her2 SC	Cancer Basal SC	1.26330036372	310	False
+minor	Cancer LumA SC	Cancer Basal SC	0.958339698988	355	False
+minor	Cancer LumB SC	Cancer Basal SC	0.465765637622	516	False
+minor	Luminal Progenitors	Cancer Basal SC	1.33096114046	305	False
+minor	Mature Luminal	Cancer Basal SC	0.608927138749	445	False
+minor	Myoepithelial	Cancer Basal SC	3.66613626912	207	False
+minor	CAFs MSC iCAF-like	Cancer Basal SC	0.504749934106	495	False
+minor	CAFs myCAF-like	Cancer Basal SC	1.70321585498	273	False
+minor	Cycling PVL	Cancer Basal SC	2.26187894349	245	False
+minor	PVL Differentiated	Cancer Basal SC	6.98493737016	142	False
+minor	PVL Immature	Cancer Basal SC	16.2307565475	69	False
+minor	Endothelial ACKR1	Cancer Basal SC	12.641409998	87	False
+minor	Endothelial CXCL12	Cancer Basal SC	16.1734992526	70	False
+minor	Endothelial Lymphatic LYVE1	Cancer Basal SC	5.21871786239	180	False
+minor	Endothelial RGS5	Cancer Basal SC	22.0219245955	55	False
+minor	B cells Memory	Cancer Basal SC	0.498254786552	501	False
+minor	B cells Naive	Cancer Basal SC	0.406145259301	553	False
+minor	Cycling T-cells	Cancer Basal SC	0.429981248448	540	False
+minor	NK cells	Cancer Basal SC	0.275329834019	632	False
+minor	NKT cells	Cancer Basal SC	0.350683126387	585	False
+minor	T cells CD4+	Cancer Basal SC	0.257460000622	644	False
+minor	T cells CD8+	Cancer Basal SC	0.334164198536	596	False
+minor	Cycling_Myeloid	Cancer Basal SC	1.09097619471	332	False
+minor	DCs	Cancer Basal SC	0.907400885434	363	False
+minor	Macrophage	Cancer Basal SC	2.12497003181	254	False
+minor	Monocyte	Cancer Basal SC	1.33825344804	303	False
+minor	Plasmablasts	Cancer Basal SC	0.339323988614	592	False
+minor	Cancer Basal SC	Cancer Cycling	1.33986160195	301	False
+minor	Cancer Cycling	Cancer Cycling	1.04494539704	339	False
+minor	Cancer Her2 SC	Cancer Cycling	1.1748246292	323	False
+minor	Cancer LumA SC	Cancer Cycling	0.891082058305	370	False
+minor	Cancer LumB SC	Cancer Cycling	0.426881486001	542	False
+minor	Luminal Progenitors	Cancer Cycling	1.23725880538	318	False
+minor	Mature Luminal	Cancer Cycling	0.559197721356	465	False
+minor	Myoepithelial	Cancer Cycling	3.46216644531	212	False
+minor	CAFs MSC iCAF-like	Cancer Cycling	0.467719734377	515	False
+minor	CAFs myCAF-like	Cancer Cycling	1.59582682842	282	False
+minor	Cycling PVL	Cancer Cycling	2.12567082012	253	False
+minor	PVL Differentiated	Cancer Cycling	6.61583026206	151	False
+minor	PVL Immature	Cancer Cycling	15.3919639366	73	False
+minor	Endothelial ACKR1	Cancer Cycling	11.9945793435	89	False
+minor	Endothelial CXCL12	Cancer Cycling	15.3492996991	74	False
+minor	Endothelial Lymphatic LYVE1	Cancer Cycling	4.94394636846	186	False
+minor	Endothelial RGS5	Cancer Cycling	20.9023906004	57	False
+minor	B cells Memory	Cancer Cycling	0.464080437071	518	False
+minor	B cells Naive	Cancer Cycling	0.375972977117	569	False
+minor	Cycling T-cells	Cancer Cycling	0.388168351128	559	False
+minor	NK cells	Cancer Cycling	0.249546739243	651	False
+minor	NKT cells	Cancer Cycling	0.317870322193	606	False
+minor	T cells CD4+	Cancer Cycling	0.232747766672	663	False
+minor	T cells CD8+	Cancer Cycling	0.301959267378	619	False
+minor	Cycling_Myeloid	Cancer Cycling	1.02013589064	343	False
+minor	DCs	Cancer Cycling	0.850971361638	377	False
+minor	Macrophage	Cancer Cycling	1.9996876335	260	False
+minor	Monocyte	Cancer Cycling	1.25616435814	311	False
+minor	Plasmablasts	Cancer Cycling	0.308148338378	613	False
+minor	Cancer Basal SC	Cancer Her2 SC	0.892037502641	369	False
+minor	Cancer Cycling	Cancer Her2 SC	0.696806162388	415	False
+minor	Cancer Her2 SC	Cancer Her2 SC	0.780842266127	396	False
+minor	Cancer LumA SC	Cancer Her2 SC	0.592274411061	451	False
+minor	Cancer LumB SC	Cancer Her2 SC	0.284640596389	627	False
+minor	Luminal Progenitors	Cancer Her2 SC	0.822410202478	387	False
+minor	Mature Luminal	Cancer Her2 SC	0.372703723629	571	False
+minor	Myoepithelial	Cancer Her2 SC	2.29339829871	243	False
+minor	CAFs MSC iCAF-like	Cancer Her2 SC	0.311113499888	610	False
+minor	CAFs myCAF-like	Cancer Her2 SC	1.05892074853	337	False
+minor	Cycling PVL	Cancer Her2 SC	1.4095727723	294	False
+minor	PVL Differentiated	Cancer Her2 SC	4.37963119345	194	False
+minor	PVL Immature	Cancer Her2 SC	10.1866558553	106	False
+minor	Endothelial ACKR1	Cancer Her2 SC	7.93728361656	128	False
+minor	Endothelial CXCL12	Cancer Her2 SC	10.1567523519	107	False
+minor	Endothelial Lymphatic LYVE1	Cancer Her2 SC	3.27271238708	217	False
+minor	Endothelial RGS5	Cancer Her2 SC	13.8308894763	82	False
+minor	B cells Memory	Cancer Her2 SC	0.308343713148	612	False
+minor	B cells Naive	Cancer Her2 SC	0.250141403531	650	False
+minor	Cycling T-cells	Cancer Her2 SC	0.259704483724	643	False
+minor	NK cells	Cancer Her2 SC	0.166810323397	729	False
+minor	NKT cells	Cancer Her2 SC	0.212477438065	680	False
+minor	T cells CD4+	Cancer Her2 SC	0.155671363347	745	False
+minor	T cells CD8+	Cancer Her2 SC	0.201982473625	692	False
+minor	Cycling_Myeloid	Cancer Her2 SC	0.677215380854	419	False
+minor	DCs	Cancer Her2 SC	0.564553739143	463	False
+minor	Macrophage	Cancer Her2 SC	1.32564311155	306	False
+minor	Monocyte	Cancer Her2 SC	0.833203565685	383	False
+minor	Plasmablasts	Cancer Her2 SC	0.205892745652	687	False
+minor	Cancer Basal SC	Cancer LumA SC	0.65209334733	426	False
+minor	Cancer Cycling	Cancer LumA SC	0.508876191698	492	False
+minor	Cancer Her2 SC	Cancer LumA SC	0.571399535608	459	False
+minor	Cancer LumA SC	Cancer LumA SC	0.433401418669	535	False
+minor	Cancer LumB SC	Cancer LumA SC	0.207880950165	684	False
+minor	Luminal Progenitors	Cancer LumA SC	0.60178579215	448	False
+minor	Mature Luminal	Cancer LumA SC	0.272269409488	634	False
+minor	Myoepithelial	Cancer LumA SC	1.68171505404	277	False
+minor	CAFs MSC iCAF-like	Cancer LumA SC	0.227554220905	667	False
+minor	CAFs myCAF-like	Cancer LumA SC	0.775671338415	397	False
+minor	Cycling PVL	Cancer LumA SC	1.03294613424	340	False
+minor	PVL Differentiated	Cancer LumA SC	3.21278484289	219	False
+minor	PVL Immature	Cancer LumA SC	7.4738922119	135	False
+minor	Endothelial ACKR1	Cancer LumA SC	5.82395878386	169	False
+minor	Endothelial CXCL12	Cancer LumA SC	7.45270475095	136	False
+minor	Endothelial Lymphatic LYVE1	Cancer LumA SC	2.40084259317	240	False
+minor	Endothelial RGS5	Cancer LumA SC	10.1488453599	108	False
+minor	B cells Memory	Cancer LumA SC	0.225685067231	668	False
+minor	B cells Naive	Cancer LumA SC	0.182933321496	710	False
+minor	Cycling T-cells	Cancer LumA SC	0.189276386239	704	False
+minor	NK cells	Cancer LumA SC	0.121640386768	791	False
+minor	NKT cells	Cancer LumA SC	0.154943265583	747	False
+minor	T cells CD4+	Cancer LumA SC	0.113477326723	807	False
+minor	T cells CD8+	Cancer LumA SC	0.147227268247	759	False
+minor	Cycling_Myeloid	Cancer LumA SC	0.495933779819	503	False
+minor	DCs	Cancer LumA SC	0.413593068717	548	False
+minor	Macrophage	Cancer LumA SC	0.971616482992	351	False
+minor	Monocyte	Cancer LumA SC	0.610480426229	442	False
+minor	Plasmablasts	Cancer LumA SC	0.150180043026	751	False
+minor	Cancer Basal SC	Cancer LumB SC	0.568525856345	462	False
+minor	Cancer Cycling	Cancer LumB SC	0.443657693748	526	False
+minor	Cancer Her2 SC	Cancer LumB SC	0.498178690665	502	False
+minor	Cancer LumA SC	Cancer LumB SC	0.377863979362	567	False
+minor	Cancer LumB SC	Cancer LumB SC	0.181238628767	716	False
+minor	Luminal Progenitors	Cancer LumB SC	0.524670862715	484	False
+minor	Mature Luminal	Cancer LumB SC	0.237375657065	659	False
+minor	Myoepithelial	Cancer LumB SC	1.46624737672	288	False
+minor	CAFs MSC iCAF-like	Cancer LumB SC	0.198393714259	694	False
+minor	CAFs myCAF-like	Cancer LumB SC	0.676281776903	421	False
+minor	Cycling PVL	Cancer LumB SC	0.900594921204	366	False
+minor	PVL Differentiated	Cancer LumB SC	2.80116250408	227	False
+minor	PVL Immature	Cancer LumB SC	6.51634771432	154	False
+minor	Endothelial ACKR1	Cancer LumB SC	5.07780531218	183	False
+minor	Endothelial CXCL12	Cancer LumB SC	6.49788175693	156	False
+minor	Endothelial Lymphatic LYVE1	Cancer LumB SC	2.09324698619	255	False
+minor	Endothelial RGS5	Cancer LumB SC	8.84860079886	116	False
+minor	B cells Memory	Cancer LumB SC	0.196765549404	697	False
+minor	B cells Naive	Cancer LumB SC	0.15949064099	741	False
+minor	Cycling T-cells	Cancer LumB SC	0.165014782009	732	False
+minor	NK cells	Cancer LumB SC	0.106049044422	815	False
+minor	NKT cells	Cancer LumB SC	0.135083319999	772	False
+minor	T cells CD4+	Cancer LumB SC	0.0989319126978	820	False
+minor	T cells CD8+	Cancer LumB SC	0.12835573751	782	False
+minor	Cycling_Myeloid	Cancer LumB SC	0.432386750382	537	False
+minor	DCs	Cancer LumB SC	0.360598375567	575	False
+minor	Macrophage	Cancer LumB SC	0.847125053509	380	False
+minor	Monocyte	Cancer LumB SC	0.53225876273	478	False
+minor	Plasmablasts	Cancer LumB SC	0.130930986261	779	False
+minor	Cancer Basal SC	Luminal Progenitors	0.974507809164	349	False
+minor	Cancer Cycling	Luminal Progenitors	0.762231886894	399	False
+minor	Cancer Her2 SC	Luminal Progenitors	0.851843336419	376	False
+minor	Cancer LumA SC	Luminal Progenitors	0.646147701485	430	False
+minor	Cancer LumB SC	Luminal Progenitors	0.311349531818	609	False
+minor	Luminal Progenitors	Luminal Progenitors	0.897255409341	367	False
+minor	Mature Luminal	Luminal Progenitors	0.407528235393	551	False
+minor	Myoepithelial	Luminal Progenitors	2.49496574484	238	False
+minor	CAFs MSC iCAF-like	Luminal Progenitors	0.339624435504	591	False
+minor	CAFs myCAF-like	Luminal Progenitors	1.15363676809	326	False
+minor	Cycling PVL	Luminal Progenitors	1.53481256252	284	False
+minor	PVL Differentiated	Luminal Progenitors	4.7620137845	189	False
+minor	PVL Immature	Luminal Progenitors	11.0735870948	97	False
+minor	Endothelial ACKR1	Luminal Progenitors	8.62752583572	118	False
+minor	Endothelial CXCL12	Luminal Progenitors	11.0395674703	98	False
+minor	Endothelial Lymphatic LYVE1	Luminal Progenitors	3.55832016882	208	False
+minor	Endothelial RGS5	Luminal Progenitors	15.0327061666	76	False
+minor	B cells Memory	Luminal Progenitors	0.336285852256	595	False
+minor	B cells Naive	Luminal Progenitors	0.27311454107	633	False
+minor	Cycling T-cells	Luminal Progenitors	0.284863454026	626	False
+minor	NK cells	Luminal Progenitors	0.182836269036	711	False
+minor	NKT cells	Luminal Progenitors	0.232887157932	661	False
+minor	T cells CD4+	Luminal Progenitors	0.17070830477	721	False
+minor	T cells CD8+	Luminal Progenitors	0.221510375254	673	False
+minor	Cycling_Myeloid	Luminal Progenitors	0.738058945834	405	False
+minor	DCs	Luminal Progenitors	0.614947973224	440	False
+minor	Macrophage	Luminal Progenitors	1.44307474941	292	False
+minor	Monocyte	Luminal Progenitors	0.907429754595	362	False
+minor	Plasmablasts	Luminal Progenitors	0.225592628623	669	False
+minor	Cancer Basal SC	Mature Luminal	0.694415548449	416	False
+minor	Cancer Cycling	Mature Luminal	0.544380253051	474	False
+minor	Cancer Her2 SC	Mature Luminal	0.60555358366	447	False
+minor	Cancer LumA SC	Mature Luminal	0.45935244714	519	False
+minor	Cancer LumB SC	Mature Luminal	0.222342691229	672	False
+minor	Luminal Progenitors	Mature Luminal	0.637914716234	432	False
+minor	Mature Luminal	Mature Luminal	0.290846001007	623	False
+minor	Myoepithelial	Mature Luminal	1.76507623212	270	False
+minor	CAFs MSC iCAF-like	Mature Luminal	0.241701769417	655	False
+minor	CAFs myCAF-like	Mature Luminal	0.818168307335	389	False
+minor	Cycling PVL	Mature Luminal	1.08747074795	333	False
+minor	PVL Differentiated	Mature Luminal	3.36578727193	215	False
+minor	PVL Immature	Mature Luminal	7.82378194366	131	False
+minor	Endothelial ACKR1	Mature Luminal	6.09454206331	164	False
+minor	Endothelial CXCL12	Mature Luminal	7.79788801697	132	False
+minor	Endothelial Lymphatic LYVE1	Mature Luminal	2.51485737706	237	False
+minor	Endothelial RGS5	Mature Luminal	10.6180427839	102	False
+minor	B cells Memory	Mature Luminal	0.238940453809	656	False
+minor	B cells Naive	Mature Luminal	0.194429331691	701	False
+minor	Cycling T-cells	Mature Luminal	0.204392717093	689	False
+minor	NK cells	Mature Luminal	0.131024077106	778	False
+minor	NKT cells	Mature Luminal	0.166887149476	728	False
+minor	T cells CD4+	Mature Luminal	0.122431813503	790	False
+minor	T cells CD8+	Mature Luminal	0.15888841237	742	False
+minor	Cycling_Myeloid	Mature Luminal	0.523767592404	487	False
+minor	DCs	Mature Luminal	0.436000025974	533	False
+minor	Macrophage	Mature Luminal	1.02204058448	342	False
+minor	Monocyte	Mature Luminal	0.643188128075	431	False
+minor	Plasmablasts	Mature Luminal	0.161565648558	738	False
+minor	Cancer Basal SC	Myoepithelial	0.889359861995	371	False
+minor	Cancer Cycling	Myoepithelial	0.709133341614	411	False
+minor	Cancer Her2 SC	Myoepithelial	0.761436731551	400	False
+minor	Cancer LumA SC	Myoepithelial	0.577820253244	457	False
+minor	Cancer LumB SC	Myoepithelial	0.289431807082	624	False
+minor	Luminal Progenitors	Myoepithelial	0.802895874422	390	False
+minor	Mature Luminal	Myoepithelial	0.376857495579	568	False
+minor	Myoepithelial	Myoepithelial	2.13641131086	251	False
+minor	CAFs MSC iCAF-like	Myoepithelial	0.306563566231	615	False
+minor	CAFs myCAF-like	Myoepithelial	1.01007086167	344	False
+minor	Cycling PVL	Myoepithelial	1.33248525315	304	False
+minor	PVL Differentiated	Myoepithelial	4.04332762987	199	False
+minor	PVL Immature	Myoepithelial	9.36916244143	110	False
+minor	Endothelial ACKR1	Myoepithelial	7.28824104089	139	False
+minor	Endothelial CXCL12	Myoepithelial	9.31995623985	111	False
+minor	Endothelial Lymphatic LYVE1	Myoepithelial	3.0195346469	222	False
+minor	Endothelial RGS5	Myoepithelial	12.6863531844	86	False
+minor	B cells Memory	Myoepithelial	0.299314828228	620	False
+minor	B cells Naive	Myoepithelial	0.247197480496	654	False
+minor	Cycling T-cells	Myoepithelial	0.275409977948	631	False
+minor	NK cells	Myoepithelial	0.174977236723	720	False
+minor	NKT cells	Myoepithelial	0.222828577421	671	False
+minor	T cells CD4+	Myoepithelial	0.164457300313	733	False
+minor	T cells CD8+	Myoepithelial	0.213634393705	679	False
+minor	Cycling_Myeloid	Myoepithelial	0.649841118438	428	False
+minor	DCs	Myoepithelial	0.537035813629	475	False
+minor	Macrophage	Myoepithelial	1.24810844929	313	False
+minor	Monocyte	Myoepithelial	0.790456353734	394	False
+minor	Plasmablasts	Myoepithelial	0.214813385505	677	False
+minor	Cancer Basal SC	CAFs MSC iCAF-like	3.82325716597	202	False
+minor	Cancer Cycling	CAFs MSC iCAF-like	3.42602005431	214	False
+minor	Cancer Her2 SC	CAFs MSC iCAF-like	2.82659373155	226	False
+minor	Cancer LumA SC	CAFs MSC iCAF-like	2.15207169207	249	False
+minor	Cancer LumB SC	CAFs MSC iCAF-like	1.39205731909	296	False
+minor	Luminal Progenitors	CAFs MSC iCAF-like	3.00524033869	223	False
+minor	Mature Luminal	CAFs MSC iCAF-like	1.75812136518	271	False
+minor	Myoepithelial	CAFs MSC iCAF-like	5.25395248002	177	False
+minor	CAFs MSC iCAF-like	CAFs MSC iCAF-like	1.22320042611	319	False
+minor	CAFs myCAF-like	CAFs MSC iCAF-like	3.14633949889	220	False
+minor	Cycling PVL	CAFs MSC iCAF-like	3.820558518	203	False
+minor	PVL Differentiated	CAFs MSC iCAF-like	8.92038010389	115	False
+minor	PVL Immature	CAFs MSC iCAF-like	19.6726516539	62	False
+minor	Endothelial ACKR1	CAFs MSC iCAF-like	14.9608694462	78	False
+minor	Endothelial CXCL12	CAFs MSC iCAF-like	18.9533548377	63	False
+minor	Endothelial Lymphatic LYVE1	CAFs MSC iCAF-like	6.60874665744	152	False
+minor	Endothelial RGS5	CAFs MSC iCAF-like	25.6561308724	51	False
+minor	B cells Memory	CAFs MSC iCAF-like	1.07454604088	334	False
+minor	B cells Naive	CAFs MSC iCAF-like	1.0052513938	345	False
+minor	Cycling T-cells	CAFs MSC iCAF-like	1.61559472325	281	False
+minor	NK cells	CAFs MSC iCAF-like	0.979157285455	348	False
+minor	NKT cells	CAFs MSC iCAF-like	1.2456449715	314	False
+minor	T cells CD4+	CAFs MSC iCAF-like	0.949266081467	357	False
+minor	T cells CD8+	CAFs MSC iCAF-like	1.23935451648	317	False
+minor	Cycling_Myeloid	CAFs MSC iCAF-like	2.13006202025	252	False
+minor	DCs	CAFs MSC iCAF-like	1.63250846483	279	False
+minor	Macrophage	CAFs MSC iCAF-like	3.4395278673	213	False
+minor	Monocyte	CAFs MSC iCAF-like	2.34429139596	241	False
+minor	Plasmablasts	CAFs MSC iCAF-like	1.17321537642	325	False
+minor	Cancer Basal SC	CAFs myCAF-like	42.5910247568	33	False
+minor	Cancer Cycling	CAFs myCAF-like	38.6669246164	36	False
+minor	Cancer Her2 SC	CAFs myCAF-like	30.8952433079	45	False
+minor	Cancer LumA SC	CAFs myCAF-like	23.5334881736	53	False
+minor	Cancer LumB SC	CAFs myCAF-like	15.7037062524	72	False
+minor	Luminal Progenitors	CAFs myCAF-like	32.8859191317	44	False
+minor	Mature Luminal	CAFs myCAF-like	19.7686871958	61	False
+minor	Myoepithelial	CAFs myCAF-like	53.3122276883	28	False
+minor	CAFs MSC iCAF-like	CAFs myCAF-like	13.5007598768	83	False
+minor	CAFs myCAF-like	CAFs myCAF-like	33.4628980253	42	False
+minor	Cycling PVL	CAFs myCAF-like	40.028888959	34	False
+minor	PVL Differentiated	CAFs myCAF-like	88.1417921633	18	False
+minor	PVL Immature	CAFs myCAF-like	191.804313556	7	True
+minor	Endothelial ACKR1	CAFs myCAF-like	144.934865214	10	True
+minor	Endothelial CXCL12	CAFs myCAF-like	183.117386902	8	True
+minor	Endothelial Lymphatic LYVE1	CAFs myCAF-like	65.1637354484	24	False
+minor	Endothelial RGS5	CAFs myCAF-like	247.474206199	5	True
+minor	B cells Memory	CAFs myCAF-like	11.6888005819	92	False
+minor	B cells Naive	CAFs myCAF-like	11.1222661026	96	False
+minor	Cycling T-cells	CAFs myCAF-like	18.5706263405	65	False
+minor	NK cells	CAFs myCAF-like	11.2090342144	95	False
+minor	NKT cells	CAFs myCAF-like	14.2583782077	80	False
+minor	T cells CD4+	CAFs myCAF-like	10.8963983631	99	False
+minor	T cells CD8+	CAFs myCAF-like	14.2324155043	81	False
+minor	Cycling_Myeloid	CAFs myCAF-like	22.848132798	54	False
+minor	DCs	CAFs myCAF-like	17.2886479595	67	False
+minor	Macrophage	CAFs myCAF-like	35.7599176027	37	False
+minor	Monocyte	CAFs myCAF-like	24.7166416037	52	False
+minor	Plasmablasts	CAFs myCAF-like	13.4011107125	84	False
+minor	Cancer Basal SC	Cycling PVL	2.16459398351	248	False
+minor	Cancer Cycling	Cycling PVL	1.86353895709	266	False
+minor	Cancer Her2 SC	Cycling PVL	1.69042990736	275	False
+minor	Cancer LumA SC	Cycling PVL	1.28537783848	308	False
+minor	Cancer LumB SC	Cycling PVL	0.758316455138	401	False
+minor	Luminal Progenitors	Cycling PVL	1.79148893752	268	False
+minor	Mature Luminal	Cycling PVL	0.96753959852	353	False
+minor	Myoepithelial	Cycling PVL	3.76737664264	204	False
+minor	CAFs MSC iCAF-like	Cycling PVL	0.711631478623	408	False
+minor	CAFs myCAF-like	Cycling PVL	2.02256148989	258	False
+minor	Cycling PVL	Cycling PVL	2.54785949653	236	False
+minor	PVL Differentiated	Cycling PVL	6.757171223	146	False
+minor	PVL Immature	Cycling PVL	15.2940873544	75	False
+minor	Endothelial ACKR1	Cycling PVL	11.7724238108	91	False
+minor	Endothelial CXCL12	Cycling PVL	14.9892686625	77	False
+minor	Endothelial Lymphatic LYVE1	Cycling PVL	5.02692245709	185	False
+minor	Endothelial RGS5	Cycling PVL	20.3512365205	59	False
+minor	B cells Memory	Cycling PVL	0.651168223763	427	False
+minor	B cells Naive	Cycling PVL	0.580720820381	455	False
+minor	Cycling T-cells	Cycling PVL	0.827626667478	386	False
+minor	NK cells	Cycling PVL	0.508586107138	493	False
+minor	NKT cells	Cycling PVL	0.647202027651	429	False
+minor	T cells CD4+	Cycling PVL	0.488569956309	506	False
+minor	T cells CD8+	Cycling PVL	0.636936860252	434	False
+minor	Cycling_Myeloid	Cycling PVL	1.3398080671	302	False
+minor	DCs	Cycling PVL	1.0606555709	336	False
+minor	Macrophage	Cycling PVL	2.33582551116	242	False
+minor	Monocyte	Cycling PVL	1.53981697431	283	False
+minor	Plasmablasts	Cycling PVL	0.613854555144	441	False
+minor	Cancer Basal SC	PVL Differentiated	21.9985490486	56	False
+minor	Cancer Cycling	PVL Differentiated	19.9389031923	60	False
+minor	Cancer Her2 SC	PVL Differentiated	15.9964376887	71	False
+minor	Cancer LumA SC	PVL Differentiated	12.1840594465	88	False
+minor	Cancer LumB SC	PVL Differentiated	8.09821799101	127	False
+minor	Luminal Progenitors	PVL Differentiated	17.0245986821	68	False
+minor	Mature Luminal	PVL Differentiated	10.1986571211	105	False
+minor	Myoepithelial	PVL Differentiated	27.877805384	48	False
+minor	CAFs MSC iCAF-like	PVL Differentiated	6.9814640806	143	False
+minor	CAFs myCAF-like	PVL Differentiated	17.3877734407	66	False
+minor	Cycling PVL	PVL Differentiated	20.8410338042	58	False
+minor	PVL Differentiated	PVL Differentiated	46.2614366454	31	False
+minor	PVL Immature	PVL Differentiated	100.859489195	14	False
+minor	Endothelial ACKR1	PVL Differentiated	76.2830261118	23	False
+minor	Endothelial CXCL12	PVL Differentiated	96.4167770952	16	False
+minor	Endothelial Lymphatic LYVE1	PVL Differentiated	34.2114585366	40	False
+minor	Endothelial RGS5	PVL Differentiated	130.332917161	12	False
+minor	B cells Memory	PVL Differentiated	6.05578947752	165	False
+minor	B cells Naive	PVL Differentiated	5.74971695213	171	False
+minor	Cycling T-cells	PVL Differentiated	9.55432728187	109	False
+minor	NK cells	PVL Differentiated	5.76981074659	170	False
+minor	NKT cells	PVL Differentiated	7.33953325414	137	False
+minor	T cells CD4+	PVL Differentiated	5.60699924954	173	False
+minor	T cells CD8+	PVL Differentiated	7.32323405166	138	False
+minor	Cycling_Myeloid	PVL Differentiated	11.8588988158	90	False
+minor	DCs	PVL Differentiated	8.98848455444	114	False
+minor	Macrophage	PVL Differentiated	18.6376728825	64	False
+minor	Monocyte	PVL Differentiated	12.8579241318	85	False
+minor	Plasmablasts	PVL Differentiated	6.9000501396	144	False
+minor	Cancer Basal SC	PVL Immature	105.735984292	13	False
+minor	Cancer Cycling	PVL Immature	96.1508030853	17	False
+minor	Cancer Her2 SC	PVL Immature	76.5146982509	22	False
+minor	Cancer LumA SC	PVL Immature	58.2861627213	26	False
+minor	Cancer LumB SC	PVL Immature	39.047211692	35	False
+minor	Luminal Progenitors	PVL Immature	81.4569007053	21	False
+minor	Mature Luminal	PVL Immature	49.1348303634	29	False
+minor	Myoepithelial	PVL Immature	130.72057486	11	False
+minor	CAFs MSC iCAF-like	PVL Immature	33.4775203569	41	False
+minor	CAFs myCAF-like	PVL Immature	82.5781173912	20	False
+minor	Cycling PVL	PVL Immature	98.5832458794	15	False
+minor	PVL Differentiated	PVL Immature	215.306802984	6	True
+minor	PVL Immature	PVL Immature	467.616730895	2	True
+minor	Endothelial ACKR1	PVL Immature	353.0169836	4	True
+minor	Endothelial CXCL12	PVL Immature	445.839855253	3	True
+minor	Endothelial Lymphatic LYVE1	PVL Immature	159.129272911	9	True
+minor	Endothelial RGS5	PVL Immature	602.385847123	1	True
+minor	B cells Memory	PVL Immature	28.9303908944	46	False
+minor	B cells Naive	PVL Immature	27.5881683764	49	False
+minor	Cycling T-cells	PVL Immature	46.2824279525	30	False
+minor	NK cells	PVL Immature	27.9216427714	47	False
+minor	NKT cells	PVL Immature	35.5171433485	38	False
+minor	T cells CD4+	PVL Immature	27.1518624588	50	False
+minor	T cells CD8+	PVL Immature	35.4664867528	39	False
+minor	Cycling_Myeloid	PVL Immature	56.4470268001	27	False
+minor	DCs	PVL Immature	42.6398761782	32	False
+minor	Macrophage	PVL Immature	87.9775475428	19	False
+minor	Monocyte	PVL Immature	60.9237383647	25	False
+minor	Plasmablasts	PVL Immature	33.3731354128	43	False
+minor	Cancer Basal SC	Endothelial ACKR1	0.58591347341	453	False
+minor	Cancer Cycling	Endothelial ACKR1	0.46535279357	517	False
+minor	Cancer Her2 SC	Endothelial ACKR1	0.503798897473	496	False
+minor	Cancer LumA SC	Endothelial ACKR1	0.382276096154	563	False
+minor	Cancer LumB SC	Endothelial ACKR1	0.189963438291	702	False
+minor	Luminal Progenitors	Endothelial ACKR1	0.531110305006	479	False
+minor	Mature Luminal	Endothelial ACKR1	0.247607066095	653	False
+minor	Myoepithelial	Endothelial ACKR1	1.42649285404	293	False
+minor	CAFs MSC iCAF-like	Endothelial ACKR1	0.202423318894	691	False
+minor	CAFs myCAF-like	Endothelial ACKR1	0.671224677608	423	False
+minor	Cycling PVL	Endothelial ACKR1	0.887076672676	372	False
+minor	PVL Differentiated	Endothelial ACKR1	2.70470143386	231	False
+minor	PVL Immature	Endothelial ACKR1	6.27213684991	158	False
+minor	Endothelial ACKR1	Endothelial ACKR1	4.88073178308	187	False
+minor	Endothelial CXCL12	Endothelial ACKR1	6.24217657091	159	False
+minor	Endothelial Lymphatic LYVE1	Endothelial ACKR1	2.02011220968	259	False
+minor	Endothelial RGS5	Endothelial ACKR1	8.4975630779	121	False
+minor	B cells Memory	Endothelial ACKR1	0.198216341976	695	False
+minor	B cells Naive	Endothelial ACKR1	0.163132441393	736	False
+minor	Cycling T-cells	Endothelial ACKR1	0.179352496164	718	False
+minor	NK cells	Endothelial ACKR1	0.114177479987	805	False
+minor	NKT cells	Endothelial ACKR1	0.145408015516	760	False
+minor	T cells CD4+	Endothelial ACKR1	0.107172716565	812	False
+minor	T cells CD8+	Endothelial ACKR1	0.139190042052	767	False
+minor	Cycling_Myeloid	Endothelial ACKR1	0.431328320697	539	False
+minor	DCs	Endothelial ACKR1	0.35707282771	579	False
+minor	Macrophage	Endothelial ACKR1	0.831577501035	384	False
+minor	Monocyte	Endothelial ACKR1	0.525854508395	482	False
+minor	Plasmablasts	Endothelial ACKR1	0.140311320759	765	False
+minor	Cancer Basal SC	Endothelial CXCL12	0.973733824788	350	False
+minor	Cancer Cycling	Endothelial CXCL12	0.818949457044	388	False
+minor	Cancer Her2 SC	Endothelial CXCL12	0.783336860172	395	False
+minor	Cancer LumA SC	Endothelial CXCL12	0.595238874982	449	False
+minor	Cancer LumB SC	Endothelial CXCL12	0.333546823403	599	False
+minor	Luminal Progenitors	Endothelial CXCL12	0.828776401193	385	False
+minor	Mature Luminal	Endothelial CXCL12	0.428165858521	541	False
+minor	Myoepithelial	Endothelial CXCL12	1.8962392653	265	False
+minor	CAFs MSC iCAF-like	Endothelial CXCL12	0.324978783808	601	False
+minor	CAFs myCAF-like	Endothelial CXCL12	0.971150882759	352	False
+minor	Cycling PVL	Endothelial CXCL12	1.24394768214	315	False
+minor	PVL Differentiated	Endothelial CXCL12	3.47349672265	211	False
+minor	PVL Immature	Endothelial CXCL12	7.93635008947	129	False
+minor	Endothelial ACKR1	Endothelial CXCL12	6.13507722913	162	False
+minor	Endothelial CXCL12	Endothelial CXCL12	7.82526134362	130	False
+minor	Endothelial Lymphatic LYVE1	Endothelial CXCL12	2.58802245202	235	False
+minor	Endothelial RGS5	Endothelial CXCL12	10.6356304267	101	False
+minor	B cells Memory	Endothelial CXCL12	0.303803400935	617	False
+minor	B cells Naive	Endothelial CXCL12	0.264178913812	641	False
+minor	Cycling T-cells	Endothelial CXCL12	0.350174737213	587	False
+minor	NK cells	Endothelial CXCL12	0.217149851178	675	False
+minor	NKT cells	Endothelial CXCL12	0.276389508091	630	False
+minor	T cells CD4+	Endothelial CXCL12	0.207359565904	685	False
+minor	T cells CD8+	Endothelial CXCL12	0.270067868019	635	False
+minor	Cycling_Myeloid	Endothelial CXCL12	0.636725946607	435	False
+minor	DCs	Endothelial CXCL12	0.511797158374	490	False
+minor	Macrophage	Endothelial CXCL12	1.14950350287	328	False
+minor	Monocyte	Endothelial CXCL12	0.746707441691	402	False
+minor	Plasmablasts	Endothelial CXCL12	0.263335138441	642	False
+minor	Cancer Basal SC	Endothelial Lymphatic LYVE1	1.15296480361	327	False
+minor	Cancer Cycling	Endothelial Lymphatic LYVE1	0.986567074235	347	False
+minor	Cancer Her2 SC	Endothelial Lymphatic LYVE1	0.907551686611	361	False
+minor	Cancer LumA SC	Endothelial Lymphatic LYVE1	0.689964349806	418	False
+minor	Cancer LumB SC	Endothelial Lymphatic LYVE1	0.401549518418	555	False
+minor	Luminal Progenitors	Endothelial Lymphatic LYVE1	0.961373793976	354	False
+minor	Mature Luminal	Endothelial Lymphatic LYVE1	0.513147960536	488	False
+minor	Myoepithelial	Endothelial Lymphatic LYVE1	2.06957713078	257	False
+minor	CAFs MSC iCAF-like	Endothelial Lymphatic LYVE1	0.380563643061	564	False
+minor	CAFs myCAF-like	Endothelial Lymphatic LYVE1	1.09644837385	331	False
+minor	Cycling PVL	Endothelial Lymphatic LYVE1	1.38763769714	297	False
+minor	PVL Differentiated	Endothelial Lymphatic LYVE1	3.73459429751	205	False
+minor	PVL Immature	Endothelial Lymphatic LYVE1	8.4760782522	122	False
+minor	Endothelial ACKR1	Endothelial Lymphatic LYVE1	6.53252065101	153	False
+minor	Endothelial CXCL12	Endothelial Lymphatic LYVE1	8.3218430966	124	False
+minor	Endothelial Lymphatic LYVE1	Endothelial Lymphatic LYVE1	2.77954384331	229	False
+minor	Endothelial RGS5	Endothelial Lymphatic LYVE1	11.3022052752	94	False
+minor	B cells Memory	Endothelial Lymphatic LYVE1	0.350238275681	586	False
+minor	B cells Naive	Endothelial Lymphatic LYVE1	0.310238206679	611	False
+minor	Cycling T-cells	Endothelial Lymphatic LYVE1	0.433925565819	534	False
+minor	NK cells	Endothelial Lymphatic LYVE1	0.267265106935	637	False
+minor	NKT cells	Endothelial Lymphatic LYVE1	0.340125829016	589	False
+minor	T cells CD4+	Endothelial Lymphatic LYVE1	0.256358193798	645	False
+minor	T cells CD8+	Endothelial Lymphatic LYVE1	0.334126275789	597	False
+minor	Cycling_Myeloid	Endothelial Lymphatic LYVE1	0.724263284467	407	False
+minor	DCs	Endothelial Lymphatic LYVE1	0.575775401171	458	False
+minor	Macrophage	Endothelial Lymphatic LYVE1	1.27499132071	309	False
+minor	Monocyte	Endothelial Lymphatic LYVE1	0.837042695402	382	False
+minor	Plasmablasts	Endothelial Lymphatic LYVE1	0.322971069658	604	False
+minor	Cancer Basal SC	Endothelial RGS5	1.49963943519	287	False
+minor	Cancer Cycling	Endothelial RGS5	1.28898839101	307	False
+minor	Cancer Her2 SC	Endothelial RGS5	1.17359661252	324	False
+minor	Cancer LumA SC	Endothelial RGS5	0.892342624825	368	False
+minor	Cancer LumB SC	Endothelial RGS5	0.52455070782	485	False
+minor	Luminal Progenitors	Endothelial RGS5	1.24360841165	316	False
+minor	Mature Luminal	Endothelial RGS5	0.669555138264	424	False
+minor	Myoepithelial	Endothelial RGS5	2.63169562724	233	False
+minor	CAFs MSC iCAF-like	Endothelial RGS5	0.493542521676	505	False
+minor	CAFs myCAF-like	Endothelial RGS5	1.40782366376	295	False
+minor	Cycling PVL	Endothelial RGS5	1.77567179761	269	False
+minor	PVL Differentiated	Endothelial RGS5	4.72798841807	190	False
+minor	PVL Immature	Endothelial RGS5	10.7092632994	100	False
+minor	Endothelial ACKR1	Endothelial RGS5	8.24612677971	125	False
+minor	Endothelial CXCL12	Endothelial RGS5	10.5008796959	103	False
+minor	Endothelial Lymphatic LYVE1	Endothelial RGS5	3.51775903873	210	False
+minor	Endothelial RGS5	Endothelial RGS5	14.2584526466	79	False
+minor	B cells Memory	Endothelial RGS5	0.452300311219	522	False
+minor	B cells Naive	Endothelial RGS5	0.402641922672	554	False
+minor	Cycling T-cells	Endothelial RGS5	0.571006267421	460	False
+minor	NK cells	Endothelial RGS5	0.351100801385	583	False
+minor	NKT cells	Endothelial RGS5	0.446799782733	524	False
+minor	T cells CD4+	Endothelial RGS5	0.337149101098	594	False
+minor	T cells CD8+	Endothelial RGS5	0.43950502827	531	False
+minor	Cycling_Myeloid	Endothelial RGS5	0.931878172279	360	False
+minor	DCs	Endothelial RGS5	0.738549669997	404	False
+minor	Macrophage	Endothelial RGS5	1.62887459115	280	False
+minor	Monocyte	Endothelial RGS5	1.07259411895	335	False
+minor	Plasmablasts	Endothelial RGS5	0.423905619306	543	False
+minor	Cancer Basal SC	B cells Memory	0.354281615759	581	False
+minor	Cancer Cycling	B cells Memory	0.279450352785	629	False
+minor	Cancer Her2 SC	B cells Memory	0.306916355741	614	False
+minor	Cancer LumA SC	B cells Memory	0.232848000858	662	False
+minor	Cancer LumB SC	B cells Memory	0.114107702776	806	False
+minor	Luminal Progenitors	B cells Memory	0.323428477586	602	False
+minor	Mature Luminal	B cells Memory	0.149012813332	753	False
+minor	Myoepithelial	B cells Memory	0.882667503547	374	False
+minor	CAFs MSC iCAF-like	B cells Memory	0.122883000907	789	False
+minor	CAFs myCAF-like	B cells Memory	0.411987164664	549	False
+minor	Cycling PVL	B cells Memory	0.546148712647	473	False
+minor	PVL Differentiated	B cells Memory	1.67874855846	278	False
+minor	PVL Immature	B cells Memory	3.89800578637	200	False
+minor	Endothelial ACKR1	B cells Memory	3.03500057193	221	False
+minor	Endothelial CXCL12	B cells Memory	3.88248879579	201	False
+minor	Endothelial Lymphatic LYVE1	B cells Memory	1.25410600397	312	False
+minor	Endothelial RGS5	B cells Memory	5.28600793599	174	False
+minor	B cells Memory	B cells Memory	0.120940565333	792	False
+minor	B cells Naive	B cells Memory	0.0989344586237	819	False
+minor	Cycling T-cells	B cells Memory	0.106238945361	814	False
+minor	NK cells	B cells Memory	0.0678775484362	840	False
+minor	NKT cells	B cells Memory	0.0864504747061	833	False
+minor	T cells CD4+	B cells Memory	0.0635635304751	841	False
+minor	T cells CD8+	B cells Memory	0.0825205740925	835	False
+minor	Cycling_Myeloid	B cells Memory	0.26420555101	640	False
+minor	DCs	B cells Memory	0.219370397999	674	False
+minor	Macrophage	B cells Memory	0.512683972089	489	False
+minor	Monocyte	B cells Memory	0.323359780154	603	False
+minor	Plasmablasts	B cells Memory	0.0835630423819	834	False
+minor	Cancer Basal SC	B cells Naive	0.386339455062	560	False
+minor	Cancer Cycling	B cells Naive	0.305396420595	616	False
+minor	Cancer Her2 SC	B cells Naive	0.333907905911	598	False
+minor	Cancer LumA SC	B cells Naive	0.253337910411	648	False
+minor	Cancer LumB SC	B cells Naive	0.124691168488	787	False
+minor	Luminal Progenitors	B cells Naive	0.351914889155	582	False
+minor	Mature Luminal	B cells Naive	0.162737669208	737	False
+minor	Myoepithelial	B cells Naive	0.95567203857	356	False
+minor	CAFs MSC iCAF-like	B cells Naive	0.133836911944	774	False
+minor	CAFs myCAF-like	B cells Naive	0.447177717778	523	False
+minor	Cycling PVL	B cells Naive	0.592235754745	452	False
+minor	PVL Differentiated	B cells Naive	1.81587295424	267	False
+minor	PVL Immature	B cells Naive	4.21473278557	195	False
+minor	Endothelial ACKR1	B cells Naive	3.28103258504	216	False
+minor	Endothelial CXCL12	B cells Naive	4.19692475252	196	False
+minor	Endothelial Lymphatic LYVE1	B cells Naive	1.35645579826	300	False
+minor	Endothelial RGS5	B cells Naive	5.71387319023	172	False
+minor	B cells Memory	B cells Naive	0.131513476121	777	False
+minor	B cells Naive	B cells Naive	0.10778642439	811	False
+minor	Cycling T-cells	B cells Naive	0.116606157884	798	False
+minor	NK cells	B cells Naive	0.0744160100697	837	False
+minor	NKT cells	B cells Naive	0.0947757127578	823	False
+minor	T cells CD4+	B cells Naive	0.0697384132548	839	False
+minor	T cells CD8+	B cells Naive	0.0905482610003	830	False
+minor	Cycling_Myeloid	B cells Naive	0.286953638684	625	False
+minor	DCs	B cells Naive	0.238039454308	658	False
+minor	Macrophage	B cells Naive	0.555710920278	469	False
+minor	Monocyte	B cells Naive	0.350778848438	584	False
+minor	Plasmablasts	B cells Naive	0.0915606745128	828	False
+minor	Cancer Basal SC	Cycling T-cells	0.775271960884	398	False
+minor	Cancer Cycling	Cycling T-cells	0.610452092028	443	False
+minor	Cancer Her2 SC	Cycling T-cells	0.672885641506	422	False
+minor	Cancer LumA SC	Cycling T-cells	0.510477820401	491	False
+minor	Cancer LumB SC	Cycling T-cells	0.249283245214	652	False
+minor	Luminal Progenitors	Cycling T-cells	0.709017818472	412	False
+minor	Mature Luminal	Cycling T-cells	0.325693465701	600	False
+minor	Myoepithelial	Cycling T-cells	1.94264428048	263	False
+minor	CAFs MSC iCAF-like	Cycling T-cells	0.269171631055	636	False
+minor	CAFs myCAF-like	Cycling T-cells	0.90492876922	364	False
+minor	Cycling PVL	Cycling T-cells	1.20052552307	320	False
+minor	PVL Differentiated	Cycling T-cells	3.6975106967	206	False
+minor	PVL Immature	Cycling T-cells	8.58821872053	119	False
+minor	Endothelial ACKR1	Cycling T-cells	6.68774306101	148	False
+minor	Endothelial CXCL12	Cycling T-cells	8.55569824774	120	False
+minor	Endothelial Lymphatic LYVE1	Cycling T-cells	2.76236210655	230	False
+minor	Endothelial RGS5	Cycling T-cells	11.6489690872	93	False
+minor	B cells Memory	Cycling T-cells	0.265253118347	639	False
+minor	B cells Naive	Cycling T-cells	0.21665988851	676	False
+minor	Cycling T-cells	Cycling T-cells	0.231261865585	664	False
+minor	NK cells	Cycling T-cells	0.147894463675	755	False
+minor	NKT cells	Cycling T-cells	0.188365665929	705	False
+minor	T cells CD4+	Cycling T-cells	0.138410788884	768	False
+minor	T cells CD8+	Cycling T-cells	0.179671952075	717	False
+minor	Cycling_Myeloid	Cycling T-cells	0.580034680987	456	False
+minor	DCs	Cycling T-cells	0.481957893254	509	False
+minor	Macrophage	Cycling T-cells	1.1273466064	330	False
+minor	Monocyte	Cycling T-cells	0.710584571009	410	False
+minor	Plasmablasts	Cycling T-cells	0.182154453163	713	False
+minor	Cancer Basal SC	NK cells	0.486857706036	507	False
+minor	Cancer Cycling	NK cells	0.385494000489	561	False
+minor	Cancer Her2 SC	NK cells	0.420028114607	545	False
+minor	Cancer LumA SC	NK cells	0.318689725232	605	False
+minor	Cancer LumB SC	NK cells	0.157383731693	743	False
+minor	Luminal Progenitors	NK cells	0.442720884258	528	False
+minor	Mature Luminal	NK cells	0.205312676054	688	False
+minor	Myoepithelial	NK cells	1.19766587562	321	False
+minor	CAFs MSC iCAF-like	NK cells	0.168498456875	725	False
+minor	CAFs myCAF-like	NK cells	0.561500338688	464	False
+minor	Cycling PVL	NK cells	0.743094636118	403	False
+minor	PVL Differentiated	NK cells	2.27400340716	244	False
+minor	PVL Immature	NK cells	5.27644305403	175	False
+minor	Endothelial ACKR1	NK cells	4.10697972356	197	False
+minor	Endothelial CXCL12	NK cells	5.25314204213	178	False
+minor	Endothelial Lymphatic LYVE1	NK cells	1.69859221769	274	False
+minor	Endothelial RGS5	NK cells	7.15161873512	140	False
+minor	B cells Memory	NK cells	0.165371587197	731	False
+minor	B cells Naive	NK cells	0.135733203887	770	False
+minor	Cycling T-cells	NK cells	0.147675663524	757	False
+minor	NK cells	NK cells	0.0941618889116	824	False
+minor	NKT cells	NK cells	0.11992170587	794	False
+minor	T cells CD4+	NK cells	0.0882932284787	831	False
+minor	T cells CD8+	NK cells	0.114650617615	803	False
+minor	Cycling_Myeloid	NK cells	0.36049018994	576	False
+minor	DCs	NK cells	0.298828095982	621	False
+minor	Macrophage	NK cells	0.69703573763	414	False
+minor	Monocyte	NK cells	0.440260794111	529	False
+minor	Plasmablasts	NK cells	0.115805885256	801	False
+minor	Cancer Basal SC	NKT cells	0.607616739684	446	False
+minor	Cancer Cycling	NKT cells	0.479448494449	510	False
+minor	Cancer Her2 SC	NKT cells	0.52617815158	481	False
+minor	Cancer LumA SC	NKT cells	0.399198385009	558	False
+minor	Cancer LumB SC	NKT cells	0.195769864791	699	False
+minor	Luminal Progenitors	NKT cells	0.554497739415	470	False
+minor	Mature Luminal	NKT cells	0.2556300104	647	False
+minor	Myoepithelial	NKT cells	1.51203935558	286	False
+minor	CAFs MSC iCAF-like	NKT cells	0.210709357101	682	False
+minor	CAFs myCAF-like	NKT cells	0.706039580988	413	False
+minor	Cycling PVL	NKT cells	0.935810611682	359	False
+minor	PVL Differentiated	NKT cells	2.87530273512	225	False
+minor	PVL Immature	NKT cells	6.67593306647	149	False
+minor	Endothelial ACKR1	NKT cells	5.19775449775	182	False
+minor	Endothelial CXCL12	NKT cells	6.6490885302	150	False
+minor	Endothelial Lymphatic LYVE1	NKT cells	2.1479663923	250	False
+minor	Endothelial RGS5	NKT cells	9.05267053284	113	False
+minor	B cells Memory	NKT cells	0.207324299997	686	False
+minor	B cells Naive	NKT cells	0.169653013661	724	False
+minor	Cycling T-cells	NKT cells	0.182404014243	712	False
+minor	NK cells	NKT cells	0.116518179702	799	False
+minor	NKT cells	NKT cells	0.148399747854	754	False
+minor	T cells CD4+	NKT cells	0.109126350763	809	False
+minor	T cells CD8+	NKT cells	0.141674880141	763	False
+minor	Cycling_Myeloid	NKT cells	0.452827262828	521	False
+minor	DCs	NKT cells	0.375926206542	570	False
+minor	Macrophage	NKT cells	0.878407978329	375	False
+minor	Monocyte	NKT cells	0.554102533539	471	False
+minor	Plasmablasts	NKT cells	0.143430268324	761	False
+minor	Cancer Basal SC	T cells CD4+	0.484175885433	508	False
+minor	Cancer Cycling	T cells CD4+	0.383748226922	562	False
+minor	Cancer Her2 SC	T cells CD4+	0.417267498864	546	False
+minor	Cancer LumA SC	T cells CD4+	0.316602196559	607	False
+minor	Cancer LumB SC	T cells CD4+	0.156664678679	744	False
+minor	Luminal Progenitors	T cells CD4+	0.439835685655	530	False
+minor	Mature Luminal	T cells CD4+	0.204319836791	690	False
+minor	Myoepithelial	T cells CD4+	1.18713675687	322	False
+minor	CAFs MSC iCAF-like	T cells CD4+	0.167475574541	726	False
+minor	CAFs myCAF-like	T cells CD4+	0.557211019483	468	False
+minor	Cycling PVL	T cells CD4+	0.7370929196	406	False
+minor	PVL Differentiated	T cells CD4+	2.2530122977	246	False
+minor	PVL Immature	T cells CD4+	5.22676531284	179	False
+minor	Endothelial ACKR1	T cells CD4+	4.06797950041	198	False
+minor	Endothelial CXCL12	T cells CD4+	5.20308467798	181	False
+minor	Endothelial Lymphatic LYVE1	T cells CD4+	1.68286111978	276	False
+minor	Endothelial RGS5	T cells CD4+	7.08333155385	141	False
+minor	B cells Memory	T cells CD4+	0.164248387534	734	False
+minor	B cells Naive	T cells CD4+	0.134928081031	773	False
+minor	Cycling T-cells	T cells CD4+	0.147294019718	758	False
+minor	NK cells	T cells CD4+	0.0938702487648	825	False
+minor	NKT cells	T cells CD4+	0.11954897496	795	False
+minor	T cells CD4+	T cells CD4+	0.0880492545746	832	False
+minor	T cells CD8+	T cells CD4+	0.114340170155	804	False
+minor	Cycling_Myeloid	T cells CD4+	0.357840650094	578	False
+minor	DCs	T cells CD4+	0.296505595776	622	False
+minor	Macrophage	T cells CD4+	0.691269421327	417	False
+minor	Monocyte	T cells CD4+	0.436781422697	532	False
+minor	Plasmablasts	T cells CD4+	0.115417837151	802	False
+minor	Cancer Basal SC	T cells CD8+	0.6090239829	444	False
+minor	Cancer Cycling	T cells CD8+	0.479331037377	511	False
+minor	Cancer Her2 SC	T cells CD8+	0.528849704483	480	False
+minor	Cancer LumA SC	T cells CD8+	0.401202408607	556	False
+minor	Cancer LumB SC	T cells CD8+	0.195742504248	700	False
+minor	Luminal Progenitors	T cells CD8+	0.557233519675	467	False
+minor	Mature Luminal	T cells CD8+	0.25577305821	646	False
+minor	Myoepithelial	T cells CD8+	1.52832356594	285	False
+minor	CAFs MSC iCAF-like	T cells CD8+	0.21150529405	681	False
+minor	CAFs myCAF-like	T cells CD8+	0.711564006964	409	False
+minor	Cycling PVL	T cells CD8+	0.944182189824	358	False
+minor	PVL Differentiated	T cells CD8+	2.90948106729	224	False
+minor	PVL Immature	T cells CD8+	6.75840601936	145	False
+minor	Endothelial ACKR1	T cells CD8+	5.26303418029	176	False
+minor	Endothelial CXCL12	T cells CD8+	6.73315071608	147	False
+minor	Endothelial Lymphatic LYVE1	T cells CD8+	2.17366440588	247	False
+minor	Endothelial RGS5	T cells CD8+	9.16756650572	112	False
+minor	B cells Memory	T cells CD8+	0.20849451951	683	False
+minor	B cells Naive	T cells CD8+	0.170232686278	723	False
+minor	Cycling T-cells	T cells CD8+	0.181422644016	715	False
+minor	NK cells	T cells CD8+	0.116049926371	800	False
+minor	NKT cells	T cells CD8+	0.1478076568	756	False
+minor	T cells CD4+	T cells CD8+	0.108591110991	810	False
+minor	T cells CD8+	T cells CD8+	0.140959126279	764	False
+minor	Cycling_Myeloid	T cells CD8+	0.456034017048	520	False
+minor	DCs	T cells CD8+	0.378995889726	565	False
+minor	Macrophage	T cells CD8+	0.886706142957	373	False
+minor	Monocyte	T cells CD8+	0.558813083856	466	False
+minor	Plasmablasts	T cells CD8+	0.142950168239	762	False
+minor	Cancer Basal SC	Cycling_Myeloid	0.570012876813	461	False
+minor	Cancer Cycling	Cycling_Myeloid	0.445190913488	525	False
+minor	Cancer Her2 SC	Cycling_Myeloid	0.499040579859	498	False
+minor	Cancer LumA SC	Cycling_Myeloid	0.378524560911	566	False
+minor	Cancer LumB SC	Cycling_Myeloid	0.181858640231	714	False
+minor	Luminal Progenitors	Cycling_Myeloid	0.525602457305	483	False
+minor	Mature Luminal	Cycling_Myeloid	0.238132852441	657	False
+minor	Myoepithelial	Cycling_Myeloid	1.46620151062	289	False
+minor	CAFs MSC iCAF-like	Cycling_Myeloid	0.198819133338	693	False
+minor	CAFs myCAF-like	Cycling_Myeloid	0.676869799137	420	False
+minor	Cycling PVL	Cycling_Myeloid	0.901066774659	365	False
+minor	PVL Differentiated	Cycling_Myeloid	2.80013384847	228	False
+minor	PVL Immature	Cycling_Myeloid	6.51304580913	155	False
+minor	Endothelial ACKR1	Cycling_Myeloid	5.07492155464	184	False
+minor	Endothelial CXCL12	Cycling_Myeloid	6.49403015645	157	False
+minor	Endothelial Lymphatic LYVE1	Cycling_Myeloid	2.09243005465	256	False
+minor	Endothelial RGS5	Cycling_Myeloid	8.84322613446	117	False
+minor	B cells Memory	Cycling_Myeloid	0.197070690681	696	False
+minor	B cells Naive	Cycling_Myeloid	0.159851097981	740	False
+minor	Cycling T-cells	Cycling_Myeloid	0.165872614705	730	False
+minor	NK cells	Cycling_Myeloid	0.106550526816	813	False
+minor	NKT cells	Cycling_Myeloid	0.135720761499	771	False
+minor	T cells CD4+	Cycling_Myeloid	0.0994299202158	818	False
+minor	T cells CD8+	Cycling_Myeloid	0.129008399986	781	False
+minor	Cycling_Myeloid	Cycling_Myeloid	0.432862480338	536	False
+minor	DCs	Cycling_Myeloid	0.360873879736	574	False
+minor	Macrophage	Cycling_Myeloid	0.847438977903	379	False
+minor	Monocyte	Cycling_Myeloid	0.532610350445	477	False
+minor	Plasmablasts	Cycling_Myeloid	0.13152007012	776	False
+minor	Cancer Basal SC	DCs	0.399992802674	557	False
+minor	Cancer Cycling	DCs	0.312778097704	608	False
+minor	Cancer Her2 SC	DCs	0.349744665906	588	False
+minor	Cancer LumA SC	DCs	0.265289840933	638	False
+minor	Cancer LumB SC	DCs	0.127762179766	783	False
+minor	Luminal Progenitors	DCs	0.368384240297	573	False
+minor	Mature Luminal	DCs	0.167241520422	727	False
+minor	Myoepithelial	DCs	1.02495629438	341	False
+minor	CAFs MSC iCAF-like	DCs	0.139422215089	766	False
+minor	CAFs myCAF-like	DCs	0.473785780877	512	False
+minor	Cycling PVL	DCs	0.630401510044	437	False
+minor	PVL Differentiated	DCs	1.95649721724	262	False
+minor	PVL Immature	DCs	4.54984702274	192	False
+minor	Endothelial ACKR1	DCs	3.54489573706	209	False
+minor	Endothelial CXCL12	DCs	4.53599741285	193	False
+minor	Endothelial Lymphatic LYVE1	DCs	1.46196472044	290	False
+minor	Endothelial RGS5	DCs	6.17674965481	160	False
+minor	B cells Memory	DCs	0.138078241554	769	False
+minor	B cells Naive	DCs	0.112114452486	808	False
+minor	Cycling T-cells	DCs	0.116827107747	797	False
+minor	NK cells	DCs	0.0749953518574	836	False
+minor	NKT cells	DCs	0.0955254102695	822	False
+minor	T cells CD4+	DCs	0.070013912231	838	False
+minor	T cells CD8+	DCs	0.0908482802012	829	False
+minor	Cycling_Myeloid	DCs	0.303089808729	618	False
+minor	DCs	DCs	0.252560974355	649	False
+minor	Macrophage	DCs	0.592751261028	450	False
+minor	Monocyte	DCs	0.372696697983	572	False
+minor	Plasmablasts	DCs	0.092539847531	827	False
+minor	Cancer Basal SC	Macrophage	0.669370397823	425	False
+minor	Cancer Cycling	Macrophage	0.523834240187	486	False
+minor	Cancer Her2 SC	Macrophage	0.584792672385	454	False
+minor	Cancer LumA SC	Macrophage	0.443587090528	527	False
+minor	Cancer LumB SC	Macrophage	0.213966430491	678	False
+minor	Luminal Progenitors	Macrophage	0.61598564063	439	False
+minor	Mature Luminal	Macrophage	0.280022666135	628	False
+minor	Myoepithelial	Macrophage	1.71091137931	272	False
+minor	CAFs MSC iCAF-like	Macrophage	0.233213175269	660	False
+minor	CAFs myCAF-like	Macrophage	0.791548929791	392	False
+minor	Cycling PVL	Macrophage	1.05285825958	338	False
+minor	PVL Differentiated	Macrophage	3.2648375228	218	False
+minor	PVL Immature	Macrophage	7.5913845952	133	False
+minor	Endothelial ACKR1	Macrophage	5.91428352802	168	False
+minor	Endothelial CXCL12	Macrophage	7.56765131255	134	False
+minor	Endothelial Lymphatic LYVE1	Macrophage	2.43954946744	239	False
+minor	Endothelial RGS5	Macrophage	10.3048624766	104	False
+minor	B cells Memory	Macrophage	0.23083530892	665	False
+minor	B cells Naive	Macrophage	0.187555673374	706	False
+minor	Cycling T-cells	Macrophage	0.195978161858	698	False
+minor	NK cells	Macrophage	0.125750192591	786	False
+minor	NKT cells	Macrophage	0.160172966235	739	False
+minor	T cells CD4+	Macrophage	0.117430778545	796	False
+minor	T cells CD8+	Macrophage	0.152382422956	750	False
+minor	Cycling_Myeloid	Macrophage	0.506480184873	494	False
+minor	DCs	Macrophage	0.421908569524	544	False
+minor	Macrophage	Macrophage	0.989832156835	346	False
+minor	Monocyte	Macrophage	0.622536489585	438	False
+minor	Plasmablasts	Macrophage	0.155135135081	746	False
+minor	Cancer Basal SC	Monocyte	0.534945835984	476	False
+minor	Cancer Cycling	Monocyte	0.417161808996	547	False
+minor	Cancer Her2 SC	Monocyte	0.469098319327	514	False
+minor	Cancer LumA SC	Monocyte	0.35580143565	580	False
+minor	Cancer LumB SC	Monocyte	0.170419733562	722	False
+minor	Luminal Progenitors	Monocyte	0.494025406567	504	False
+minor	Mature Luminal	Monocyte	0.22324855961	670	False
+minor	Myoepithelial	Monocyte	1.3826749462	298	False
+minor	CAFs MSC iCAF-like	Monocyte	0.186748607656	707	False
+minor	CAFs myCAF-like	Monocyte	0.637259553055	433	False
+minor	Cycling PVL	Monocyte	0.848872673016	378	False
+minor	PVL Differentiated	Monocyte	2.64223833402	232	False
+minor	PVL Immature	Monocyte	6.14735224082	161	False
+minor	Endothelial ACKR1	Monocyte	4.79051167241	188	False
+minor	Endothelial CXCL12	Monocyte	6.13036863934	163	False
+minor	Endothelial Lymphatic LYVE1	Monocyte	1.97452413978	261	False
+minor	Endothelial RGS5	Monocyte	8.34823487199	123	False
+minor	B cells Memory	Monocyte	0.185307238222	709	False
+minor	B cells Naive	Monocyte	0.150114607557	752	False
+minor	Cycling T-cells	Monocyte	0.154935229203	748	False
+minor	NK cells	Monocyte	0.0996101929026	817	False
+minor	NKT cells	Monocyte	0.12688267431	785	False
+minor	T cells CD4+	Monocyte	0.0929016081608	826	False
+minor	T cells CD8+	Monocyte	0.120526821796	793	False
+minor	Cycling_Myeloid	Monocyte	0.407359608676	552	False
+minor	DCs	Monocyte	0.33982115093	590	False
+minor	Macrophage	Monocyte	0.798575125874	391	False
+minor	Monocyte	Monocyte	0.501633698904	497	False
+minor	Plasmablasts	Monocyte	0.123004888959	788	False
+minor	Cancer Basal SC	Plasmablasts	0.546776681739	472	False
+minor	Cancer Cycling	Plasmablasts	0.431398803344	538	False
+minor	Cancer Her2 SC	Plasmablasts	0.47354333002	513	False
+minor	Cancer LumA SC	Plasmablasts	0.359264845244	577	False
+minor	Cancer LumB SC	Plasmablasts	0.17615079032	719	False
+minor	Luminal Progenitors	Plasmablasts	0.499027258127	499	False
+minor	Mature Luminal	Plasmablasts	0.230018311716	666	False
+minor	Myoepithelial	Plasmablasts	1.36108791655	299	False
+minor	CAFs MSC iCAF-like	Plasmablasts	0.189622021192	703	False
+minor	CAFs myCAF-like	Plasmablasts	0.635480717673	436	False
+minor	Cycling PVL	Plasmablasts	0.842326060485	381	False
+minor	PVL Differentiated	Plasmablasts	2.58836508011	234	False
+minor	PVL Immature	Plasmablasts	6.00982485134	166	False
+minor	Endothelial ACKR1	Plasmablasts	4.6791726997	191	False
+minor	Endothelial CXCL12	Plasmablasts	5.98572605308	167	False
+minor	Endothelial Lymphatic LYVE1	Plasmablasts	1.9336182551	264	False
+minor	Endothelial RGS5	Plasmablasts	8.14952447542	126	False
+minor	B cells Memory	Plasmablasts	0.186589285902	708	False
+minor	B cells Naive	Plasmablasts	0.152672365613	749	False
+minor	Cycling T-cells	Plasmablasts	0.164090929736	735	False
+minor	NK cells	Plasmablasts	0.104825486838	816	False
+minor	NKT cells	Plasmablasts	0.133507864074	775	False
+minor	T cells CD4+	Plasmablasts	0.0981720483424	821	False
+minor	T cells CD8+	Plasmablasts	0.127452566122	784	False
+minor	Cycling_Myeloid	Plasmablasts	0.407561679944	550	False
+minor	DCs	Plasmablasts	0.33836208638	593	False
+minor	Macrophage	Plasmablasts	0.790673179935	393	False
+minor	Monocyte	Plasmablasts	0.498740799383	500	False
+minor	Plasmablasts	Plasmablasts	0.129040297743	780	False

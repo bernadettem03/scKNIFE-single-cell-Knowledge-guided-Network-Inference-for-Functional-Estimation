@@ -76,7 +76,9 @@ def main() -> None:
         writer = csv.writer(stream, delimiter="\t")
         writer.writerow(("path", "bytes", "sha256", "storage"))
         for p in files:
-            if "data" in p.relative_to(ROOT).parts:
+            if "data" in p.relative_to(ROOT).parts or (
+                p.relative_to(ROOT).parts[0] == "Tables" and p.suffix in {".xlsx", ".tsv"}
+            ):
                 writer.writerow((p.relative_to(ROOT).as_posix(), p.stat().st_size, sha(p), "git"))
     files = sorted(p for p in ROOT.rglob("*") if p.is_file() and not excluded(p) and p.name != "checksums.sha256")
     (ROOT / "checksums.sha256").write_text("".join(f"{sha(p)}  {p.relative_to(ROOT).as_posix()}\n" for p in files))
