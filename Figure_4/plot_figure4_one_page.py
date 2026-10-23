@@ -1,8 +1,9 @@
-"""Render the final A4 Figure 4a–k from saved, validated figure inputs.
+"""Reconstruct Figure 4a–k data panels from saved, validated figure inputs.
 
 Panels a–d are high-resolution crops of the approved compiled artwork. The
 remaining panels are redrawn from the same saved cell-level inputs; no
-inferential analysis is performed here.
+inferential analysis is performed here. The submitted PDF remains the approved
+layout reference; this reconstruction can have different spacing or labels.
 """
 from pathlib import Path
 import subprocess
@@ -17,14 +18,12 @@ from matplotlib.ticker import FormatStrFormatter
 import numpy as np
 import pandas as pd
 from PIL import Image
-import anndata as ad
 
 ROOT = Path(__file__).resolve().parent
-WORKSPACE = ROOT.parents[2]
 DATA = ROOT / "data"
 OUT = ROOT / "outputs"
-SINGLER = WORKSPACE / "May_2026_clean_version_redo/inhouse_rerun/scknife_run/figures/celltype/singleR/data"
-EXPRESSION = WORKSPACE / "May_2026_clean_version_redo/inhouse_rerun/primary_analysis/data/adata_final_infercnv.h5ad"
+MINOR_PREDICTIONS = DATA / "singler_minor_predictions.csv.gz"
+EXPRESSION = DATA / "figure4_hij_expression.npz"
 SOURCE = DATA / "Figure_4_compiled_aj_source.pdf"
 
 # A4 portrait. All positions are millimetres from the bottom-left corner.
@@ -136,21 +135,17 @@ def load_data():
     z = np.load(DATA / "figure4_kl_data.npz", allow_pickle=True)
     assert len(z["labels"]) == 29 and len(z["genes"]) == 58
     assert z["marker_detection"].shape == z["marker_scaled"].shape == (29, 58)
-    pred = pd.read_csv(SINGLER / "singler_full_minor_predictions.csv.gz",
+    pred = pd.read_csv(MINOR_PREDICTIONS,
                        usecols=["cell_id", "pruned_label"]).set_index("cell_id")
     assert pred.index.is_unique and len(pred) == len(cell_ids)
     missing = pd.Index(cell_ids).difference(pred.index)
     assert missing.empty
     minor = pred.pruned_label.reindex(cell_ids).fillna("Ambiguous").to_numpy(dtype=str)
     assert sum(minor == "Ambiguous") == 72
-    a = ad.read_h5ad(EXPRESSION, backed="r")
-    try:
-        genes = ["EPCAM", "DCN", "C1QA"]
-        assert pd.Index(cell_ids).difference(a.obs_names).empty
-        expression = a[cell_ids, genes].layers["log1p_norm"][:]
-        expression = expression.toarray() if hasattr(expression, "toarray") else np.asarray(expression)
-    finally:
-        a.file.close()
+    with np.load(EXPRESSION, allow_pickle=False) as bundle:
+        assert list(bundle["genes"]) == ["EPCAM", "DCN", "C1QA"]
+        assert np.array_equal(bundle["cell_id"], cell_ids)
+        expression = bundle["expression"]
     assert expression.shape == (69_391, 3) and np.isfinite(expression).all()
     return xy, score, status, subtype, subtype_names, patients, z, minor, expression
 

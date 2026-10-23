@@ -8,6 +8,7 @@ import re
 import sys
 from pathlib import Path
 import nbformat
+import numpy as np
 
 ROOT = Path(__file__).resolve().parent
 MAIN = range(2, 8)
@@ -50,6 +51,22 @@ def main() -> int:
     expected_s3 = {f"Figure_3_S3_{letter}_final.{ext}" for letter in "AB" for ext in ("pdf", "png")}
     if not s3.is_dir() or {p.name for p in s3.iterdir() if p.is_file()} != expected_s3:
         errors.append("S3 must contain exactly the approved A and B PDF/PNG pages")
+    s3_notebook = ROOT / "Supplementary/Figure_S3/Figure_S3.ipynb"
+    if s3_notebook.is_file():
+        s3_text = "\n".join(c.source for c in nbformat.read(s3_notebook, 4).cells if c.cell_type == "markdown")
+        if "A–D across the top" not in s3_text or "heatmaps E–F below" not in s3_text:
+            errors.append("S3 notebook description does not match approved panel layout")
+    if (ROOT / "Figure_4/FIGURE4_CD_UPDATE.md").exists():
+        errors.append("obsolete Figure 4 update note remains in public package")
+    expression_input = ROOT / "Figure_4/data/figure4_hij_expression.npz"
+    if expression_input.is_file():
+        with np.load(expression_input, allow_pickle=False) as values:
+            if (list(values["genes"]) != ["EPCAM", "DCN", "C1QA"]
+                    or values["cell_id"].shape != (69391,)
+                    or values["expression"].shape != (69391, 3)):
+                errors.append("invalid Figure 4 plot-ready expression input")
+    else:
+        errors.append("missing Figure 4 plot-ready expression input")
     order("Figure_6/outputs/panels/Figure_6_panel_export_manifest.json", "panel_order", "ABCDEFGHIJKLMNOPQRST", errors)
     order("Figure_7/outputs/Figure_7_main_export_manifest.json", "active_panels", "ABCDEFGHIJKLMNO", errors)
     order("Supplementary/Figure_S4/outputs/Figure_S4_manifest.json", "panel_order", "abcdefg", errors)
