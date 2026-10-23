@@ -16,7 +16,7 @@ The manuscript's Figure 1 is conceptual artwork and is outside this package. The
 
 Create the environment with `conda env create -f environment.yml`, activate it, and run `python validate_repository.py`. Figure notebooks use repository-relative plot-ready inputs and save final outputs under their own `outputs/` folders. The retained notebook outputs let readers inspect the figures without rerunning them.
 
-The Figure 4 plotting bundle `Figure_4/data/fig4_plot_data.h5` is a reviewer-only input held outside Git. Its approved PDF and PNG are included here. A separate bundle has been prepared for delivery through the submission materials; `download_data.py` and `private_archive_manifest.tsv` document restoration and checksum verification. The Figure 4 reconstruction script reads its other inputs from this repository. The submitted PDF remains the layout reference, and the public validator does not require the private bundle.
+The Figure 4 plotting bundle `Figure_4/data/fig4_plot_data.h5` is included for public reproduction. Run `python Figure_4/plot_figure4_one_page.py` from the repository root, or execute `Figure_4/Figure_4.ipynb`. Panels e–k are rendered from saved numerical inputs; panels a–d use the included approved source artwork. This reproduces the figure composition from saved results, not the upstream inference. The submitted PDF remains the layout reference.
 
 Raw study data are deposited separately: single-cell data under ENA PRJEB108811 and LC–MS data under MassIVE MSV000103682. This repository contains selected processed values for the figures and supplemental tables; model fitting and inferential derivations are documented in the manuscript and its supplemental tables.
 

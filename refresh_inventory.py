@@ -7,7 +7,6 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-PRIVATE = ROOT / "Figure_4/data/fig4_plot_data.h5"
 
 
 def sha(path: Path) -> str:
@@ -19,8 +18,6 @@ def sha(path: Path) -> str:
 
 
 def excluded(path: Path) -> bool:
-    if path == PRIVATE:
-        return True
     rel = path.relative_to(ROOT)
     return any(part == ".git" or part == "__pycache__" or part == "analysis" or part == "review" or part.startswith("archive_legacy") or "pre_adduct" in part for part in rel.parts)
 
