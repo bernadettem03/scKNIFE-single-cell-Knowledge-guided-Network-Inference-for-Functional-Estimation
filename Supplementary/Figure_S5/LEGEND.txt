@@ -1,5 +1,0 @@
-Supplementary Figure S5 | K=9 epithelial scKNIFE supporting analyses.
-
-One A4 portrait page with plots A–K. The compact F heatmap sits beside G; H–K occupy the bottom row. Plot text uses 6 pt Carlito (Calibri-compatible).
-
-(A) Patient coverage by epithelial/state group. (B) Cell-weighted and (C) equal-patient program-by-annotation heatmaps. (D) PG7 spermidine synthesis from ornithine and (E) PG7 S-adenosyl-L-methionine synthesis across epithelial/state groups. Light violins show cell-level inferred activity, hollow circles show patient means, and black diamonds show equal-patient medians. (F) Patient mean assigned H-factor activity, column-z standardized across seven patients. (G) PG-to-component-to-epithelial-label model associations. (H) P2 MYC and (I) P2 spermidine-synthesis inferred activities in biopsy and surgery. (J) P4 and (K) P1 surgery-minus-biopsy inferred activity contrasting all epithelial cells (open circles) with within-cell-type, RNA-depth-matched cells (filled circles). P4 PG8 changes direction between the estimators. These descriptive cell-level distributions and activity summaries are not patient-level inferential tests.
