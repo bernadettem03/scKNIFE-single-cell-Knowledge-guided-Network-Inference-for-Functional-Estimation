@@ -1,0 +1,1151 @@
+patient_id	timepoint	cell_type
+All patients	All timepoints	B_cells
+All patients	All timepoints	Basal_Myoepithelial
+All patients	All timepoints	CAFs
+All patients	All timepoints	Endothelial
+All patients	All timepoints	Epithelial
+All patients	All timepoints	Epithelial_Luminal_Mature
+All patients	All timepoints	Epithelial_Luminal_Progenitor
+All patients	All timepoints	Epithelial_cycling
+All patients	All timepoints	Macrophages
+All patients	All timepoints	Plasma_cells
+All patients	All timepoints	T_cells
+All patients	All timepoints	pDC
+P1	All timepoints	B_cells
+P1	All timepoints	Basal_Myoepithelial
+P1	All timepoints	CAFs
+P1	All timepoints	Endothelial
+P1	All timepoints	Epithelial
+P1	All timepoints	Epithelial_Luminal_Mature
+P1	All timepoints	Epithelial_Luminal_Progenitor
+P1	All timepoints	Epithelial_cycling
+P1	All timepoints	Macrophages
+P1	All timepoints	Plasma_cells
+P1	All timepoints	T_cells
+P1	All timepoints	pDC
+P2	All timepoints	B_cells
+P2	All timepoints	Basal_Myoepithelial
+P2	All timepoints	CAFs
+P2	All timepoints	Endothelial
+P2	All timepoints	Epithelial
+P2	All timepoints	Epithelial_Luminal_Mature
+P2	All timepoints	Epithelial_Luminal_Progenitor
+P2	All timepoints	Epithelial_cycling
+P2	All timepoints	Macrophages
+P2	All timepoints	Plasma_cells
+P2	All timepoints	T_cells
+P2	All timepoints	pDC
+P3	All timepoints	B_cells
+P3	All timepoints	Basal_Myoepithelial
+P3	All timepoints	CAFs
+P3	All timepoints	Endothelial
+P3	All timepoints	Epithelial
+P3	All timepoints	Epithelial_Luminal_Mature
+P3	All timepoints	Epithelial_Luminal_Progenitor
+P3	All timepoints	Epithelial_cycling
+P3	All timepoints	Macrophages
+P3	All timepoints	Plasma_cells
+P3	All timepoints	T_cells
+P3	All timepoints	pDC
+P4	All timepoints	B_cells
+P4	All timepoints	Basal_Myoepithelial
+P4	All timepoints	CAFs
+P4	All timepoints	Endothelial
+P4	All timepoints	Epithelial
+P4	All timepoints	Epithelial_Luminal_Mature
+P4	All timepoints	Epithelial_Luminal_Progenitor
+P4	All timepoints	Epithelial_cycling
+P4	All timepoints	Macrophages
+P4	All timepoints	Plasma_cells
+P4	All timepoints	T_cells
+P4	All timepoints	pDC
+P5	All timepoints	B_cells
+P5	All timepoints	Basal_Myoepithelial
+P5	All timepoints	CAFs
+P5	All timepoints	Endothelial
+P5	All timepoints	Epithelial
+P5	All timepoints	Epithelial_Luminal_Mature
+P5	All timepoints	Epithelial_Luminal_Progenitor
+P5	All timepoints	Epithelial_cycling
+P5	All timepoints	Macrophages
+P5	All timepoints	Plasma_cells
+P5	All timepoints	T_cells
+P5	All timepoints	pDC
+P6	All timepoints	B_cells
+P6	All timepoints	Basal_Myoepithelial
+P6	All timepoints	CAFs
+P6	All timepoints	Endothelial
+P6	All timepoints	Epithelial
+P6	All timepoints	Epithelial_Luminal_Mature
+P6	All timepoints	Epithelial_Luminal_Progenitor
+P6	All timepoints	Epithelial_cycling
+P6	All timepoints	Macrophages
+P6	All timepoints	Plasma_cells
+P6	All timepoints	T_cells
+P6	All timepoints	pDC
+P7	All timepoints	B_cells
+P7	All timepoints	Basal_Myoepithelial
+P7	All timepoints	CAFs
+P7	All timepoints	Endothelial
+P7	All timepoints	Epithelial
+P7	All timepoints	Epithelial_Luminal_Mature
+P7	All timepoints	Epithelial_Luminal_Progenitor
+P7	All timepoints	Epithelial_cycling
+P7	All timepoints	Macrophages
+P7	All timepoints	Plasma_cells
+P7	All timepoints	T_cells
+P7	All timepoints	pDC
+P3	Surgery	B_cells
+P3	Surgery	Basal_Myoepithelial
+P3	Surgery	CAFs
+P3	Surgery	Endothelial
+P3	Surgery	Epithelial
+P3	Surgery	Epithelial_Luminal_Mature
+P3	Surgery	Epithelial_Luminal_Progenitor
+P3	Surgery	Epithelial_cycling
+P3	Surgery	Macrophages
+P3	Surgery	Plasma_cells
+P3	Surgery	T_cells
+P3	Surgery	pDC
+P4	Bx	B_cells
+P4	Bx	Basal_Myoepithelial
+P4	Bx	CAFs
+P4	Bx	Endothelial
+P4	Bx	Epithelial
+P4	Bx	Epithelial_Luminal_Mature
+P4	Bx	Epithelial_Luminal_Progenitor
+P4	Bx	Epithelial_cycling
+P4	Bx	Macrophages
+P4	Bx	Plasma_cells
+P4	Bx	T_cells
+P4	Bx	pDC
+P6	Bx	B_cells
+P6	Bx	Basal_Myoepithelial
+P6	Bx	CAFs
+P6	Bx	Endothelial
+P6	Bx	Epithelial
+P6	Bx	Epithelial_Luminal_Mature
+P6	Bx	Epithelial_Luminal_Progenitor
+P6	Bx	Epithelial_cycling
+P6	Bx	Macrophages
+P6	Bx	Plasma_cells
+P6	Bx	T_cells
+P6	Bx	pDC
+P3	Bx	B_cells
+P3	Bx	Basal_Myoepithelial
+P3	Bx	CAFs
+P3	Bx	Endothelial
+P3	Bx	Epithelial
+P3	Bx	Epithelial_Luminal_Mature
+P3	Bx	Epithelial_Luminal_Progenitor
+P3	Bx	Epithelial_cycling
+P3	Bx	Macrophages
+P3	Bx	Plasma_cells
+P3	Bx	T_cells
+P3	Bx	pDC
+P7	Surgery	B_cells
+P7	Surgery	Basal_Myoepithelial
+P7	Surgery	CAFs
+P7	Surgery	Endothelial
+P7	Surgery	Epithelial
+P7	Surgery	Epithelial_Luminal_Mature
+P7	Surgery	Epithelial_Luminal_Progenitor
+P7	Surgery	Epithelial_cycling
+P7	Surgery	Macrophages
+P7	Surgery	Plasma_cells
+P7	Surgery	T_cells
+P7	Surgery	pDC
+P2	Surgery	B_cells
+P2	Surgery	Basal_Myoepithelial
+P2	Surgery	CAFs
+P2	Surgery	Endothelial
+P2	Surgery	Epithelial
+P2	Surgery	Epithelial_Luminal_Mature
+P2	Surgery	Epithelial_Luminal_Progenitor
+P2	Surgery	Epithelial_cycling
+P2	Surgery	Macrophages
+P2	Surgery	Plasma_cells
+P2	Surgery	T_cells
+P2	Surgery	pDC
+P5	Bx	B_cells
+P5	Bx	Basal_Myoepithelial
+P5	Bx	CAFs
+P5	Bx	Endothelial
+P5	Bx	Epithelial
+P5	Bx	Epithelial_Luminal_Mature
+P5	Bx	Epithelial_Luminal_Progenitor
+P5	Bx	Epithelial_cycling
+P5	Bx	Macrophages
+P5	Bx	Plasma_cells
+P5	Bx	T_cells
+P5	Bx	pDC
+P2	Bx	B_cells
+P2	Bx	Basal_Myoepithelial
+P2	Bx	CAFs
+P2	Bx	Endothelial
+P2	Bx	Epithelial
+P2	Bx	Epithelial_Luminal_Mature
+P2	Bx	Epithelial_Luminal_Progenitor
+P2	Bx	Epithelial_cycling
+P2	Bx	Macrophages
+P2	Bx	Plasma_cells
+P2	Bx	T_cells
+P2	Bx	pDC
+P7	Bx	B_cells
+P7	Bx	Basal_Myoepithelial
+P7	Bx	CAFs
+P7	Bx	Endothelial
+P7	Bx	Epithelial
+P7	Bx	Epithelial_Luminal_Mature
+P7	Bx	Epithelial_Luminal_Progenitor
+P7	Bx	Epithelial_cycling
+P7	Bx	Macrophages
+P7	Bx	Plasma_cells
+P7	Bx	T_cells
+P7	Bx	pDC
+P5	Surgery	B_cells
+P5	Surgery	Basal_Myoepithelial
+P5	Surgery	CAFs
+P5	Surgery	Endothelial
+P5	Surgery	Epithelial
+P5	Surgery	Epithelial_Luminal_Mature
+P5	Surgery	Epithelial_Luminal_Progenitor
+P5	Surgery	Epithelial_cycling
+P5	Surgery	Macrophages
+P5	Surgery	Plasma_cells
+P5	Surgery	T_cells
+P5	Surgery	pDC
+P6	Surgery	B_cells
+P6	Surgery	Basal_Myoepithelial
+P6	Surgery	CAFs
+P6	Surgery	Endothelial
+P6	Surgery	Epithelial
+P6	Surgery	Epithelial_Luminal_Mature
+P6	Surgery	Epithelial_Luminal_Progenitor
+P6	Surgery	Epithelial_cycling
+P6	Surgery	Macrophages
+P6	Surgery	Plasma_cells
+P6	Surgery	T_cells
+P6	Surgery	pDC
+P1	Bx	B_cells
+P1	Bx	Basal_Myoepithelial
+P1	Bx	CAFs
+P1	Bx	Endothelial
+P1	Bx	Epithelial
+P1	Bx	Epithelial_Luminal_Mature
+P1	Bx	Epithelial_Luminal_Progenitor
+P1	Bx	Epithelial_cycling
+P1	Bx	Macrophages
+P1	Bx	Plasma_cells
+P1	Bx	T_cells
+P1	Bx	pDC
+P4	Surgery	B_cells
+P4	Surgery	Basal_Myoepithelial
+P4	Surgery	CAFs
+P4	Surgery	Endothelial
+P4	Surgery	Epithelial
+P4	Surgery	Epithelial_Luminal_Mature
+P4	Surgery	Epithelial_Luminal_Progenitor
+P4	Surgery	Epithelial_cycling
+P4	Surgery	Macrophages
+P4	Surgery	Plasma_cells
+P4	Surgery	T_cells
+P4	Surgery	pDC
+P1	Surgery	B_cells
+P1	Surgery	Basal_Myoepithelial
+P1	Surgery	CAFs
+P1	Surgery	Endothelial
+P1	Surgery	Epithelial
+P1	Surgery	Epithelial_Luminal_Mature
+P1	Surgery	Epithelial_Luminal_Progenitor
+P1	Surgery	Epithelial_cycling
+P1	Surgery	Macrophages
+P1	Surgery	Plasma_cells
+P1	Surgery	T_cells
+P1	Surgery	pDC
+P3	Recurrence	B_cells
+P3	Recurrence	Basal_Myoepithelial
+P3	Recurrence	CAFs
+P3	Recurrence	Endothelial
+P3	Recurrence	Epithelial
+P3	Recurrence	Epithelial_Luminal_Mature
+P3	Recurrence	Epithelial_Luminal_Progenitor
+P3	Recurrence	Epithelial_cycling
+P3	Recurrence	Macrophages
+P3	Recurrence	Plasma_cells
+P3	Recurrence	T_cells
+P3	Recurrence	pDC
+All patients	All timepoints	B-cells
+All patients	All timepoints	CAFs
+All patients	All timepoints	Endothelial
+All patients	All timepoints	Epithelial
+All patients	All timepoints	Myeloid
+All patients	All timepoints	PVL
+All patients	All timepoints	Plasmablasts
+All patients	All timepoints	T-cells
+P1	All timepoints	B-cells
+P1	All timepoints	CAFs
+P1	All timepoints	Endothelial
+P1	All timepoints	Epithelial
+P1	All timepoints	Myeloid
+P1	All timepoints	PVL
+P1	All timepoints	Plasmablasts
+P1	All timepoints	T-cells
+P2	All timepoints	B-cells
+P2	All timepoints	CAFs
+P2	All timepoints	Endothelial
+P2	All timepoints	Epithelial
+P2	All timepoints	Myeloid
+P2	All timepoints	PVL
+P2	All timepoints	Plasmablasts
+P2	All timepoints	T-cells
+P3	All timepoints	B-cells
+P3	All timepoints	CAFs
+P3	All timepoints	Endothelial
+P3	All timepoints	Epithelial
+P3	All timepoints	Myeloid
+P3	All timepoints	PVL
+P3	All timepoints	Plasmablasts
+P3	All timepoints	T-cells
+P4	All timepoints	B-cells
+P4	All timepoints	CAFs
+P4	All timepoints	Endothelial
+P4	All timepoints	Epithelial
+P4	All timepoints	Myeloid
+P4	All timepoints	PVL
+P4	All timepoints	Plasmablasts
+P4	All timepoints	T-cells
+P5	All timepoints	B-cells
+P5	All timepoints	CAFs
+P5	All timepoints	Endothelial
+P5	All timepoints	Epithelial
+P5	All timepoints	Myeloid
+P5	All timepoints	PVL
+P5	All timepoints	Plasmablasts
+P5	All timepoints	T-cells
+P6	All timepoints	B-cells
+P6	All timepoints	CAFs
+P6	All timepoints	Endothelial
+P6	All timepoints	Epithelial
+P6	All timepoints	Myeloid
+P6	All timepoints	PVL
+P6	All timepoints	Plasmablasts
+P6	All timepoints	T-cells
+P7	All timepoints	B-cells
+P7	All timepoints	CAFs
+P7	All timepoints	Endothelial
+P7	All timepoints	Epithelial
+P7	All timepoints	Myeloid
+P7	All timepoints	PVL
+P7	All timepoints	Plasmablasts
+P7	All timepoints	T-cells
+P3	Surgery	B-cells
+P3	Surgery	CAFs
+P3	Surgery	Endothelial
+P3	Surgery	Epithelial
+P3	Surgery	Myeloid
+P3	Surgery	PVL
+P3	Surgery	Plasmablasts
+P3	Surgery	T-cells
+P4	Bx	B-cells
+P4	Bx	CAFs
+P4	Bx	Endothelial
+P4	Bx	Epithelial
+P4	Bx	Myeloid
+P4	Bx	PVL
+P4	Bx	Plasmablasts
+P4	Bx	T-cells
+P6	Bx	B-cells
+P6	Bx	CAFs
+P6	Bx	Endothelial
+P6	Bx	Epithelial
+P6	Bx	Myeloid
+P6	Bx	PVL
+P6	Bx	Plasmablasts
+P6	Bx	T-cells
+P3	Bx	B-cells
+P3	Bx	CAFs
+P3	Bx	Endothelial
+P3	Bx	Epithelial
+P3	Bx	Myeloid
+P3	Bx	PVL
+P3	Bx	Plasmablasts
+P3	Bx	T-cells
+P7	Surgery	B-cells
+P7	Surgery	CAFs
+P7	Surgery	Endothelial
+P7	Surgery	Epithelial
+P7	Surgery	Myeloid
+P7	Surgery	PVL
+P7	Surgery	Plasmablasts
+P7	Surgery	T-cells
+P2	Surgery	B-cells
+P2	Surgery	CAFs
+P2	Surgery	Endothelial
+P2	Surgery	Epithelial
+P2	Surgery	Myeloid
+P2	Surgery	PVL
+P2	Surgery	Plasmablasts
+P2	Surgery	T-cells
+P5	Bx	B-cells
+P5	Bx	CAFs
+P5	Bx	Endothelial
+P5	Bx	Epithelial
+P5	Bx	Myeloid
+P5	Bx	PVL
+P5	Bx	Plasmablasts
+P5	Bx	T-cells
+P2	Bx	B-cells
+P2	Bx	CAFs
+P2	Bx	Endothelial
+P2	Bx	Epithelial
+P2	Bx	Myeloid
+P2	Bx	PVL
+P2	Bx	Plasmablasts
+P2	Bx	T-cells
+P7	Bx	B-cells
+P7	Bx	CAFs
+P7	Bx	Endothelial
+P7	Bx	Epithelial
+P7	Bx	Myeloid
+P7	Bx	PVL
+P7	Bx	Plasmablasts
+P7	Bx	T-cells
+P5	Surgery	B-cells
+P5	Surgery	CAFs
+P5	Surgery	Endothelial
+P5	Surgery	Epithelial
+P5	Surgery	Myeloid
+P5	Surgery	PVL
+P5	Surgery	Plasmablasts
+P5	Surgery	T-cells
+P6	Surgery	B-cells
+P6	Surgery	CAFs
+P6	Surgery	Endothelial
+P6	Surgery	Epithelial
+P6	Surgery	Myeloid
+P6	Surgery	PVL
+P6	Surgery	Plasmablasts
+P6	Surgery	T-cells
+P1	Bx	B-cells
+P1	Bx	CAFs
+P1	Bx	Endothelial
+P1	Bx	Epithelial
+P1	Bx	Myeloid
+P1	Bx	PVL
+P1	Bx	Plasmablasts
+P1	Bx	T-cells
+P4	Surgery	B-cells
+P4	Surgery	CAFs
+P4	Surgery	Endothelial
+P4	Surgery	Epithelial
+P4	Surgery	Myeloid
+P4	Surgery	PVL
+P4	Surgery	Plasmablasts
+P4	Surgery	T-cells
+P1	Surgery	B-cells
+P1	Surgery	CAFs
+P1	Surgery	Endothelial
+P1	Surgery	Epithelial
+P1	Surgery	Myeloid
+P1	Surgery	PVL
+P1	Surgery	Plasmablasts
+P1	Surgery	T-cells
+P3	Recurrence	B-cells
+P3	Recurrence	CAFs
+P3	Recurrence	Endothelial
+P3	Recurrence	Epithelial
+P3	Recurrence	Myeloid
+P3	Recurrence	PVL
+P3	Recurrence	Plasmablasts
+P3	Recurrence	T-cells
+All patients	All timepoints	Ambiguous
+All patients	All timepoints	B cells Memory
+All patients	All timepoints	B cells Naive
+All patients	All timepoints	CAFs MSC iCAF-like
+All patients	All timepoints	CAFs myCAF-like
+All patients	All timepoints	Cancer Basal SC
+All patients	All timepoints	Cancer Cycling
+All patients	All timepoints	Cancer Her2 SC
+All patients	All timepoints	Cancer LumA SC
+All patients	All timepoints	Cancer LumB SC
+All patients	All timepoints	Cycling PVL
+All patients	All timepoints	Cycling T-cells
+All patients	All timepoints	Cycling_Myeloid
+All patients	All timepoints	DCs
+All patients	All timepoints	Endothelial ACKR1
+All patients	All timepoints	Endothelial CXCL12
+All patients	All timepoints	Endothelial Lymphatic LYVE1
+All patients	All timepoints	Endothelial RGS5
+All patients	All timepoints	Luminal Progenitors
+All patients	All timepoints	Macrophage
+All patients	All timepoints	Mature Luminal
+All patients	All timepoints	Monocyte
+All patients	All timepoints	Myoepithelial
+All patients	All timepoints	NK cells
+All patients	All timepoints	NKT cells
+All patients	All timepoints	PVL Differentiated
+All patients	All timepoints	PVL Immature
+All patients	All timepoints	Plasmablasts
+All patients	All timepoints	T cells CD4+
+All patients	All timepoints	T cells CD8+
+P1	All timepoints	Ambiguous
+P1	All timepoints	B cells Memory
+P1	All timepoints	B cells Naive
+P1	All timepoints	CAFs MSC iCAF-like
+P1	All timepoints	CAFs myCAF-like
+P1	All timepoints	Cancer Basal SC
+P1	All timepoints	Cancer Cycling
+P1	All timepoints	Cancer Her2 SC
+P1	All timepoints	Cancer LumA SC
+P1	All timepoints	Cancer LumB SC
+P1	All timepoints	Cycling PVL
+P1	All timepoints	Cycling T-cells
+P1	All timepoints	Cycling_Myeloid
+P1	All timepoints	DCs
+P1	All timepoints	Endothelial ACKR1
+P1	All timepoints	Endothelial CXCL12
+P1	All timepoints	Endothelial Lymphatic LYVE1
+P1	All timepoints	Endothelial RGS5
+P1	All timepoints	Luminal Progenitors
+P1	All timepoints	Macrophage
+P1	All timepoints	Mature Luminal
+P1	All timepoints	Monocyte
+P1	All timepoints	Myoepithelial
+P1	All timepoints	NK cells
+P1	All timepoints	NKT cells
+P1	All timepoints	PVL Differentiated
+P1	All timepoints	PVL Immature
+P1	All timepoints	Plasmablasts
+P1	All timepoints	T cells CD4+
+P1	All timepoints	T cells CD8+
+P2	All timepoints	Ambiguous
+P2	All timepoints	B cells Memory
+P2	All timepoints	B cells Naive
+P2	All timepoints	CAFs MSC iCAF-like
+P2	All timepoints	CAFs myCAF-like
+P2	All timepoints	Cancer Basal SC
+P2	All timepoints	Cancer Cycling
+P2	All timepoints	Cancer Her2 SC
+P2	All timepoints	Cancer LumA SC
+P2	All timepoints	Cancer LumB SC
+P2	All timepoints	Cycling PVL
+P2	All timepoints	Cycling T-cells
+P2	All timepoints	Cycling_Myeloid
+P2	All timepoints	DCs
+P2	All timepoints	Endothelial ACKR1
+P2	All timepoints	Endothelial CXCL12
+P2	All timepoints	Endothelial Lymphatic LYVE1
+P2	All timepoints	Endothelial RGS5
+P2	All timepoints	Luminal Progenitors
+P2	All timepoints	Macrophage
+P2	All timepoints	Mature Luminal
+P2	All timepoints	Monocyte
+P2	All timepoints	Myoepithelial
+P2	All timepoints	NK cells
+P2	All timepoints	NKT cells
+P2	All timepoints	PVL Differentiated
+P2	All timepoints	PVL Immature
+P2	All timepoints	Plasmablasts
+P2	All timepoints	T cells CD4+
+P2	All timepoints	T cells CD8+
+P3	All timepoints	Ambiguous
+P3	All timepoints	B cells Memory
+P3	All timepoints	B cells Naive
+P3	All timepoints	CAFs MSC iCAF-like
+P3	All timepoints	CAFs myCAF-like
+P3	All timepoints	Cancer Basal SC
+P3	All timepoints	Cancer Cycling
+P3	All timepoints	Cancer Her2 SC
+P3	All timepoints	Cancer LumA SC
+P3	All timepoints	Cancer LumB SC
+P3	All timepoints	Cycling PVL
+P3	All timepoints	Cycling T-cells
+P3	All timepoints	Cycling_Myeloid
+P3	All timepoints	DCs
+P3	All timepoints	Endothelial ACKR1
+P3	All timepoints	Endothelial CXCL12
+P3	All timepoints	Endothelial Lymphatic LYVE1
+P3	All timepoints	Endothelial RGS5
+P3	All timepoints	Luminal Progenitors
+P3	All timepoints	Macrophage
+P3	All timepoints	Mature Luminal
+P3	All timepoints	Monocyte
+P3	All timepoints	Myoepithelial
+P3	All timepoints	NK cells
+P3	All timepoints	NKT cells
+P3	All timepoints	PVL Differentiated
+P3	All timepoints	PVL Immature
+P3	All timepoints	Plasmablasts
+P3	All timepoints	T cells CD4+
+P3	All timepoints	T cells CD8+
+P4	All timepoints	Ambiguous
+P4	All timepoints	B cells Memory
+P4	All timepoints	B cells Naive
+P4	All timepoints	CAFs MSC iCAF-like
+P4	All timepoints	CAFs myCAF-like
+P4	All timepoints	Cancer Basal SC
+P4	All timepoints	Cancer Cycling
+P4	All timepoints	Cancer Her2 SC
+P4	All timepoints	Cancer LumA SC
+P4	All timepoints	Cancer LumB SC
+P4	All timepoints	Cycling PVL
+P4	All timepoints	Cycling T-cells
+P4	All timepoints	Cycling_Myeloid
+P4	All timepoints	DCs
+P4	All timepoints	Endothelial ACKR1
+P4	All timepoints	Endothelial CXCL12
+P4	All timepoints	Endothelial Lymphatic LYVE1
+P4	All timepoints	Endothelial RGS5
+P4	All timepoints	Luminal Progenitors
+P4	All timepoints	Macrophage
+P4	All timepoints	Mature Luminal
+P4	All timepoints	Monocyte
+P4	All timepoints	Myoepithelial
+P4	All timepoints	NK cells
+P4	All timepoints	NKT cells
+P4	All timepoints	PVL Differentiated
+P4	All timepoints	PVL Immature
+P4	All timepoints	Plasmablasts
+P4	All timepoints	T cells CD4+
+P4	All timepoints	T cells CD8+
+P5	All timepoints	Ambiguous
+P5	All timepoints	B cells Memory
+P5	All timepoints	B cells Naive
+P5	All timepoints	CAFs MSC iCAF-like
+P5	All timepoints	CAFs myCAF-like
+P5	All timepoints	Cancer Basal SC
+P5	All timepoints	Cancer Cycling
+P5	All timepoints	Cancer Her2 SC
+P5	All timepoints	Cancer LumA SC
+P5	All timepoints	Cancer LumB SC
+P5	All timepoints	Cycling PVL
+P5	All timepoints	Cycling T-cells
+P5	All timepoints	Cycling_Myeloid
+P5	All timepoints	DCs
+P5	All timepoints	Endothelial ACKR1
+P5	All timepoints	Endothelial CXCL12
+P5	All timepoints	Endothelial Lymphatic LYVE1
+P5	All timepoints	Endothelial RGS5
+P5	All timepoints	Luminal Progenitors
+P5	All timepoints	Macrophage
+P5	All timepoints	Mature Luminal
+P5	All timepoints	Monocyte
+P5	All timepoints	Myoepithelial
+P5	All timepoints	NK cells
+P5	All timepoints	NKT cells
+P5	All timepoints	PVL Differentiated
+P5	All timepoints	PVL Immature
+P5	All timepoints	Plasmablasts
+P5	All timepoints	T cells CD4+
+P5	All timepoints	T cells CD8+
+P6	All timepoints	Ambiguous
+P6	All timepoints	B cells Memory
+P6	All timepoints	B cells Naive
+P6	All timepoints	CAFs MSC iCAF-like
+P6	All timepoints	CAFs myCAF-like
+P6	All timepoints	Cancer Basal SC
+P6	All timepoints	Cancer Cycling
+P6	All timepoints	Cancer Her2 SC
+P6	All timepoints	Cancer LumA SC
+P6	All timepoints	Cancer LumB SC
+P6	All timepoints	Cycling PVL
+P6	All timepoints	Cycling T-cells
+P6	All timepoints	Cycling_Myeloid
+P6	All timepoints	DCs
+P6	All timepoints	Endothelial ACKR1
+P6	All timepoints	Endothelial CXCL12
+P6	All timepoints	Endothelial Lymphatic LYVE1
+P6	All timepoints	Endothelial RGS5
+P6	All timepoints	Luminal Progenitors
+P6	All timepoints	Macrophage
+P6	All timepoints	Mature Luminal
+P6	All timepoints	Monocyte
+P6	All timepoints	Myoepithelial
+P6	All timepoints	NK cells
+P6	All timepoints	NKT cells
+P6	All timepoints	PVL Differentiated
+P6	All timepoints	PVL Immature
+P6	All timepoints	Plasmablasts
+P6	All timepoints	T cells CD4+
+P6	All timepoints	T cells CD8+
+P7	All timepoints	Ambiguous
+P7	All timepoints	B cells Memory
+P7	All timepoints	B cells Naive
+P7	All timepoints	CAFs MSC iCAF-like
+P7	All timepoints	CAFs myCAF-like
+P7	All timepoints	Cancer Basal SC
+P7	All timepoints	Cancer Cycling
+P7	All timepoints	Cancer Her2 SC
+P7	All timepoints	Cancer LumA SC
+P7	All timepoints	Cancer LumB SC
+P7	All timepoints	Cycling PVL
+P7	All timepoints	Cycling T-cells
+P7	All timepoints	Cycling_Myeloid
+P7	All timepoints	DCs
+P7	All timepoints	Endothelial ACKR1
+P7	All timepoints	Endothelial CXCL12
+P7	All timepoints	Endothelial Lymphatic LYVE1
+P7	All timepoints	Endothelial RGS5
+P7	All timepoints	Luminal Progenitors
+P7	All timepoints	Macrophage
+P7	All timepoints	Mature Luminal
+P7	All timepoints	Monocyte
+P7	All timepoints	Myoepithelial
+P7	All timepoints	NK cells
+P7	All timepoints	NKT cells
+P7	All timepoints	PVL Differentiated
+P7	All timepoints	PVL Immature
+P7	All timepoints	Plasmablasts
+P7	All timepoints	T cells CD4+
+P7	All timepoints	T cells CD8+
+P3	Surgery	Ambiguous
+P3	Surgery	B cells Memory
+P3	Surgery	B cells Naive
+P3	Surgery	CAFs MSC iCAF-like
+P3	Surgery	CAFs myCAF-like
+P3	Surgery	Cancer Basal SC
+P3	Surgery	Cancer Cycling
+P3	Surgery	Cancer Her2 SC
+P3	Surgery	Cancer LumA SC
+P3	Surgery	Cancer LumB SC
+P3	Surgery	Cycling PVL
+P3	Surgery	Cycling T-cells
+P3	Surgery	Cycling_Myeloid
+P3	Surgery	DCs
+P3	Surgery	Endothelial ACKR1
+P3	Surgery	Endothelial CXCL12
+P3	Surgery	Endothelial Lymphatic LYVE1
+P3	Surgery	Endothelial RGS5
+P3	Surgery	Luminal Progenitors
+P3	Surgery	Macrophage
+P3	Surgery	Mature Luminal
+P3	Surgery	Monocyte
+P3	Surgery	Myoepithelial
+P3	Surgery	NK cells
+P3	Surgery	NKT cells
+P3	Surgery	PVL Differentiated
+P3	Surgery	PVL Immature
+P3	Surgery	Plasmablasts
+P3	Surgery	T cells CD4+
+P3	Surgery	T cells CD8+
+P4	Bx	Ambiguous
+P4	Bx	B cells Memory
+P4	Bx	B cells Naive
+P4	Bx	CAFs MSC iCAF-like
+P4	Bx	CAFs myCAF-like
+P4	Bx	Cancer Basal SC
+P4	Bx	Cancer Cycling
+P4	Bx	Cancer Her2 SC
+P4	Bx	Cancer LumA SC
+P4	Bx	Cancer LumB SC
+P4	Bx	Cycling PVL
+P4	Bx	Cycling T-cells
+P4	Bx	Cycling_Myeloid
+P4	Bx	DCs
+P4	Bx	Endothelial ACKR1
+P4	Bx	Endothelial CXCL12
+P4	Bx	Endothelial Lymphatic LYVE1
+P4	Bx	Endothelial RGS5
+P4	Bx	Luminal Progenitors
+P4	Bx	Macrophage
+P4	Bx	Mature Luminal
+P4	Bx	Monocyte
+P4	Bx	Myoepithelial
+P4	Bx	NK cells
+P4	Bx	NKT cells
+P4	Bx	PVL Differentiated
+P4	Bx	PVL Immature
+P4	Bx	Plasmablasts
+P4	Bx	T cells CD4+
+P4	Bx	T cells CD8+
+P6	Bx	Ambiguous
+P6	Bx	B cells Memory
+P6	Bx	B cells Naive
+P6	Bx	CAFs MSC iCAF-like
+P6	Bx	CAFs myCAF-like
+P6	Bx	Cancer Basal SC
+P6	Bx	Cancer Cycling
+P6	Bx	Cancer Her2 SC
+P6	Bx	Cancer LumA SC
+P6	Bx	Cancer LumB SC
+P6	Bx	Cycling PVL
+P6	Bx	Cycling T-cells
+P6	Bx	Cycling_Myeloid
+P6	Bx	DCs
+P6	Bx	Endothelial ACKR1
+P6	Bx	Endothelial CXCL12
+P6	Bx	Endothelial Lymphatic LYVE1
+P6	Bx	Endothelial RGS5
+P6	Bx	Luminal Progenitors
+P6	Bx	Macrophage
+P6	Bx	Mature Luminal
+P6	Bx	Monocyte
+P6	Bx	Myoepithelial
+P6	Bx	NK cells
+P6	Bx	NKT cells
+P6	Bx	PVL Differentiated
+P6	Bx	PVL Immature
+P6	Bx	Plasmablasts
+P6	Bx	T cells CD4+
+P6	Bx	T cells CD8+
+P3	Bx	Ambiguous
+P3	Bx	B cells Memory
+P3	Bx	B cells Naive
+P3	Bx	CAFs MSC iCAF-like
+P3	Bx	CAFs myCAF-like
+P3	Bx	Cancer Basal SC
+P3	Bx	Cancer Cycling
+P3	Bx	Cancer Her2 SC
+P3	Bx	Cancer LumA SC
+P3	Bx	Cancer LumB SC
+P3	Bx	Cycling PVL
+P3	Bx	Cycling T-cells
+P3	Bx	Cycling_Myeloid
+P3	Bx	DCs
+P3	Bx	Endothelial ACKR1
+P3	Bx	Endothelial CXCL12
+P3	Bx	Endothelial Lymphatic LYVE1
+P3	Bx	Endothelial RGS5
+P3	Bx	Luminal Progenitors
+P3	Bx	Macrophage
+P3	Bx	Mature Luminal
+P3	Bx	Monocyte
+P3	Bx	Myoepithelial
+P3	Bx	NK cells
+P3	Bx	NKT cells
+P3	Bx	PVL Differentiated
+P3	Bx	PVL Immature
+P3	Bx	Plasmablasts
+P3	Bx	T cells CD4+
+P3	Bx	T cells CD8+
+P7	Surgery	Ambiguous
+P7	Surgery	B cells Memory
+P7	Surgery	B cells Naive
+P7	Surgery	CAFs MSC iCAF-like
+P7	Surgery	CAFs myCAF-like
+P7	Surgery	Cancer Basal SC
+P7	Surgery	Cancer Cycling
+P7	Surgery	Cancer Her2 SC
+P7	Surgery	Cancer LumA SC
+P7	Surgery	Cancer LumB SC
+P7	Surgery	Cycling PVL
+P7	Surgery	Cycling T-cells
+P7	Surgery	Cycling_Myeloid
+P7	Surgery	DCs
+P7	Surgery	Endothelial ACKR1
+P7	Surgery	Endothelial CXCL12
+P7	Surgery	Endothelial Lymphatic LYVE1
+P7	Surgery	Endothelial RGS5
+P7	Surgery	Luminal Progenitors
+P7	Surgery	Macrophage
+P7	Surgery	Mature Luminal
+P7	Surgery	Monocyte
+P7	Surgery	Myoepithelial
+P7	Surgery	NK cells
+P7	Surgery	NKT cells
+P7	Surgery	PVL Differentiated
+P7	Surgery	PVL Immature
+P7	Surgery	Plasmablasts
+P7	Surgery	T cells CD4+
+P7	Surgery	T cells CD8+
+P2	Surgery	Ambiguous
+P2	Surgery	B cells Memory
+P2	Surgery	B cells Naive
+P2	Surgery	CAFs MSC iCAF-like
+P2	Surgery	CAFs myCAF-like
+P2	Surgery	Cancer Basal SC
+P2	Surgery	Cancer Cycling
+P2	Surgery	Cancer Her2 SC
+P2	Surgery	Cancer LumA SC
+P2	Surgery	Cancer LumB SC
+P2	Surgery	Cycling PVL
+P2	Surgery	Cycling T-cells
+P2	Surgery	Cycling_Myeloid
+P2	Surgery	DCs
+P2	Surgery	Endothelial ACKR1
+P2	Surgery	Endothelial CXCL12
+P2	Surgery	Endothelial Lymphatic LYVE1
+P2	Surgery	Endothelial RGS5
+P2	Surgery	Luminal Progenitors
+P2	Surgery	Macrophage
+P2	Surgery	Mature Luminal
+P2	Surgery	Monocyte
+P2	Surgery	Myoepithelial
+P2	Surgery	NK cells
+P2	Surgery	NKT cells
+P2	Surgery	PVL Differentiated
+P2	Surgery	PVL Immature
+P2	Surgery	Plasmablasts
+P2	Surgery	T cells CD4+
+P2	Surgery	T cells CD8+
+P5	Bx	Ambiguous
+P5	Bx	B cells Memory
+P5	Bx	B cells Naive
+P5	Bx	CAFs MSC iCAF-like
+P5	Bx	CAFs myCAF-like
+P5	Bx	Cancer Basal SC
+P5	Bx	Cancer Cycling
+P5	Bx	Cancer Her2 SC
+P5	Bx	Cancer LumA SC
+P5	Bx	Cancer LumB SC
+P5	Bx	Cycling PVL
+P5	Bx	Cycling T-cells
+P5	Bx	Cycling_Myeloid
+P5	Bx	DCs
+P5	Bx	Endothelial ACKR1
+P5	Bx	Endothelial CXCL12
+P5	Bx	Endothelial Lymphatic LYVE1
+P5	Bx	Endothelial RGS5
+P5	Bx	Luminal Progenitors
+P5	Bx	Macrophage
+P5	Bx	Mature Luminal
+P5	Bx	Monocyte
+P5	Bx	Myoepithelial
+P5	Bx	NK cells
+P5	Bx	NKT cells
+P5	Bx	PVL Differentiated
+P5	Bx	PVL Immature
+P5	Bx	Plasmablasts
+P5	Bx	T cells CD4+
+P5	Bx	T cells CD8+
+P2	Bx	Ambiguous
+P2	Bx	B cells Memory
+P2	Bx	B cells Naive
+P2	Bx	CAFs MSC iCAF-like
+P2	Bx	CAFs myCAF-like
+P2	Bx	Cancer Basal SC
+P2	Bx	Cancer Cycling
+P2	Bx	Cancer Her2 SC
+P2	Bx	Cancer LumA SC
+P2	Bx	Cancer LumB SC
+P2	Bx	Cycling PVL
+P2	Bx	Cycling T-cells
+P2	Bx	Cycling_Myeloid
+P2	Bx	DCs
+P2	Bx	Endothelial ACKR1
+P2	Bx	Endothelial CXCL12
+P2	Bx	Endothelial Lymphatic LYVE1
+P2	Bx	Endothelial RGS5
+P2	Bx	Luminal Progenitors
+P2	Bx	Macrophage
+P2	Bx	Mature Luminal
+P2	Bx	Monocyte
+P2	Bx	Myoepithelial
+P2	Bx	NK cells
+P2	Bx	NKT cells
+P2	Bx	PVL Differentiated
+P2	Bx	PVL Immature
+P2	Bx	Plasmablasts
+P2	Bx	T cells CD4+
+P2	Bx	T cells CD8+
+P7	Bx	Ambiguous
+P7	Bx	B cells Memory
+P7	Bx	B cells Naive
+P7	Bx	CAFs MSC iCAF-like
+P7	Bx	CAFs myCAF-like
+P7	Bx	Cancer Basal SC
+P7	Bx	Cancer Cycling
+P7	Bx	Cancer Her2 SC
+P7	Bx	Cancer LumA SC
+P7	Bx	Cancer LumB SC
+P7	Bx	Cycling PVL
+P7	Bx	Cycling T-cells
+P7	Bx	Cycling_Myeloid
+P7	Bx	DCs
+P7	Bx	Endothelial ACKR1
+P7	Bx	Endothelial CXCL12
+P7	Bx	Endothelial Lymphatic LYVE1
+P7	Bx	Endothelial RGS5
+P7	Bx	Luminal Progenitors
+P7	Bx	Macrophage
+P7	Bx	Mature Luminal
+P7	Bx	Monocyte
+P7	Bx	Myoepithelial
+P7	Bx	NK cells
+P7	Bx	NKT cells
+P7	Bx	PVL Differentiated
+P7	Bx	PVL Immature
+P7	Bx	Plasmablasts
+P7	Bx	T cells CD4+
+P7	Bx	T cells CD8+
+P5	Surgery	Ambiguous
+P5	Surgery	B cells Memory
+P5	Surgery	B cells Naive
+P5	Surgery	CAFs MSC iCAF-like
+P5	Surgery	CAFs myCAF-like
+P5	Surgery	Cancer Basal SC
+P5	Surgery	Cancer Cycling
+P5	Surgery	Cancer Her2 SC
+P5	Surgery	Cancer LumA SC
+P5	Surgery	Cancer LumB SC
+P5	Surgery	Cycling PVL
+P5	Surgery	Cycling T-cells
+P5	Surgery	Cycling_Myeloid
+P5	Surgery	DCs
+P5	Surgery	Endothelial ACKR1
+P5	Surgery	Endothelial CXCL12
+P5	Surgery	Endothelial Lymphatic LYVE1
+P5	Surgery	Endothelial RGS5
+P5	Surgery	Luminal Progenitors
+P5	Surgery	Macrophage
+P5	Surgery	Mature Luminal
+P5	Surgery	Monocyte
+P5	Surgery	Myoepithelial
+P5	Surgery	NK cells
+P5	Surgery	NKT cells
+P5	Surgery	PVL Differentiated
+P5	Surgery	PVL Immature
+P5	Surgery	Plasmablasts
+P5	Surgery	T cells CD4+
+P5	Surgery	T cells CD8+
+P6	Surgery	Ambiguous
+P6	Surgery	B cells Memory
+P6	Surgery	B cells Naive
+P6	Surgery	CAFs MSC iCAF-like
+P6	Surgery	CAFs myCAF-like
+P6	Surgery	Cancer Basal SC
+P6	Surgery	Cancer Cycling
+P6	Surgery	Cancer Her2 SC
+P6	Surgery	Cancer LumA SC
+P6	Surgery	Cancer LumB SC
+P6	Surgery	Cycling PVL
+P6	Surgery	Cycling T-cells
+P6	Surgery	Cycling_Myeloid
+P6	Surgery	DCs
+P6	Surgery	Endothelial ACKR1
+P6	Surgery	Endothelial CXCL12
+P6	Surgery	Endothelial Lymphatic LYVE1
+P6	Surgery	Endothelial RGS5
+P6	Surgery	Luminal Progenitors
+P6	Surgery	Macrophage
+P6	Surgery	Mature Luminal
+P6	Surgery	Monocyte
+P6	Surgery	Myoepithelial
+P6	Surgery	NK cells
+P6	Surgery	NKT cells
+P6	Surgery	PVL Differentiated
+P6	Surgery	PVL Immature
+P6	Surgery	Plasmablasts
+P6	Surgery	T cells CD4+
+P6	Surgery	T cells CD8+
+P1	Bx	Ambiguous
+P1	Bx	B cells Memory
+P1	Bx	B cells Naive
+P1	Bx	CAFs MSC iCAF-like
+P1	Bx	CAFs myCAF-like
+P1	Bx	Cancer Basal SC
+P1	Bx	Cancer Cycling
+P1	Bx	Cancer Her2 SC
+P1	Bx	Cancer LumA SC
+P1	Bx	Cancer LumB SC
+P1	Bx	Cycling PVL
+P1	Bx	Cycling T-cells
+P1	Bx	Cycling_Myeloid
+P1	Bx	DCs
+P1	Bx	Endothelial ACKR1
+P1	Bx	Endothelial CXCL12
+P1	Bx	Endothelial Lymphatic LYVE1
+P1	Bx	Endothelial RGS5
+P1	Bx	Luminal Progenitors
+P1	Bx	Macrophage
+P1	Bx	Mature Luminal
+P1	Bx	Monocyte
+P1	Bx	Myoepithelial
+P1	Bx	NK cells
+P1	Bx	NKT cells
+P1	Bx	PVL Differentiated
+P1	Bx	PVL Immature
+P1	Bx	Plasmablasts
+P1	Bx	T cells CD4+
+P1	Bx	T cells CD8+
+P4	Surgery	Ambiguous
+P4	Surgery	B cells Memory
+P4	Surgery	B cells Naive
+P4	Surgery	CAFs MSC iCAF-like
+P4	Surgery	CAFs myCAF-like
+P4	Surgery	Cancer Basal SC
+P4	Surgery	Cancer Cycling
+P4	Surgery	Cancer Her2 SC
+P4	Surgery	Cancer LumA SC
+P4	Surgery	Cancer LumB SC
+P4	Surgery	Cycling PVL
+P4	Surgery	Cycling T-cells
+P4	Surgery	Cycling_Myeloid
+P4	Surgery	DCs
+P4	Surgery	Endothelial ACKR1
+P4	Surgery	Endothelial CXCL12
+P4	Surgery	Endothelial Lymphatic LYVE1
+P4	Surgery	Endothelial RGS5
+P4	Surgery	Luminal Progenitors
+P4	Surgery	Macrophage
+P4	Surgery	Mature Luminal
+P4	Surgery	Monocyte
+P4	Surgery	Myoepithelial
+P4	Surgery	NK cells
+P4	Surgery	NKT cells
+P4	Surgery	PVL Differentiated
+P4	Surgery	PVL Immature
+P4	Surgery	Plasmablasts
+P4	Surgery	T cells CD4+
+P4	Surgery	T cells CD8+
+P1	Surgery	Ambiguous
+P1	Surgery	B cells Memory
+P1	Surgery	B cells Naive
+P1	Surgery	CAFs MSC iCAF-like
+P1	Surgery	CAFs myCAF-like
+P1	Surgery	Cancer Basal SC
+P1	Surgery	Cancer Cycling
+P1	Surgery	Cancer Her2 SC
+P1	Surgery	Cancer LumA SC
+P1	Surgery	Cancer LumB SC
+P1	Surgery	Cycling PVL
+P1	Surgery	Cycling T-cells
+P1	Surgery	Cycling_Myeloid
+P1	Surgery	DCs
+P1	Surgery	Endothelial ACKR1
+P1	Surgery	Endothelial CXCL12
+P1	Surgery	Endothelial Lymphatic LYVE1
+P1	Surgery	Endothelial RGS5
+P1	Surgery	Luminal Progenitors
+P1	Surgery	Macrophage
+P1	Surgery	Mature Luminal
+P1	Surgery	Monocyte
+P1	Surgery	Myoepithelial
+P1	Surgery	NK cells
+P1	Surgery	NKT cells
+P1	Surgery	PVL Differentiated
+P1	Surgery	PVL Immature
+P1	Surgery	Plasmablasts
+P1	Surgery	T cells CD4+
+P1	Surgery	T cells CD8+
+P3	Recurrence	Ambiguous
+P3	Recurrence	B cells Memory
+P3	Recurrence	B cells Naive
+P3	Recurrence	CAFs MSC iCAF-like
+P3	Recurrence	CAFs myCAF-like
+P3	Recurrence	Cancer Basal SC
+P3	Recurrence	Cancer Cycling
+P3	Recurrence	Cancer Her2 SC
+P3	Recurrence	Cancer LumA SC
+P3	Recurrence	Cancer LumB SC
+P3	Recurrence	Cycling PVL
+P3	Recurrence	Cycling T-cells
+P3	Recurrence	Cycling_Myeloid
+P3	Recurrence	DCs
+P3	Recurrence	Endothelial ACKR1
+P3	Recurrence	Endothelial CXCL12
+P3	Recurrence	Endothelial Lymphatic LYVE1
+P3	Recurrence	Endothelial RGS5
+P3	Recurrence	Luminal Progenitors
+P3	Recurrence	Macrophage
+P3	Recurrence	Mature Luminal
+P3	Recurrence	Monocyte
+P3	Recurrence	Myoepithelial
+P3	Recurrence	NK cells
+P3	Recurrence	NKT cells
+P3	Recurrence	PVL Differentiated
+P3	Recurrence	PVL Immature
+P3	Recurrence	Plasmablasts
+P3	Recurrence	T cells CD4+
+P3	Recurrence	T cells CD8+

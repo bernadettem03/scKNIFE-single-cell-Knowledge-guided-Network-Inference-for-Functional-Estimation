@@ -1,0 +1,61 @@
+celltype	node	paired_wilcoxon_two_sided_nominal_p	focused_60_test_BH_q
+CAF	CoA	0.296875	0.5238970588235294
+CAF	L_carnitine	0.375	0.5625
+CAF	L_octanoylcarnitine	0.375	0.5625
+CAF	O_acetylcarnitine	0.375	0.5625
+CAF	O_propanoylcarnitine	0.375	0.5625
+CAF	acetyl_CoA	0.296875	0.5238970588235294
+CAF	malonyl_CoA	0.296875	0.5238970588235294
+CAF	malonyl_carnitine	0.375	0.5625
+CAF	octanoyl_CoA	0.21875	0.4525862068965517
+CAF	propanoyl_CoA	0.375	0.5625
+Endothelial	CoA	0.21875	0.4525862068965517
+Endothelial	L_carnitine	0.296875	0.5238970588235294
+Endothelial	L_octanoylcarnitine	0.296875	0.5238970588235294
+Endothelial	O_acetylcarnitine	0.21875	0.4525862068965517
+Endothelial	O_propanoylcarnitine	0.21875	0.4525862068965517
+Endothelial	acetyl_CoA	0.21875	0.4525862068965517
+Endothelial	malonyl_CoA	0.109375	0.328125
+Endothelial	malonyl_carnitine	0.21875	0.4525862068965517
+Endothelial	octanoyl_CoA	0.109375	0.328125
+Endothelial	propanoyl_CoA	0.15625	0.4076086956521739
+Epithelial	CoA	0.46875	0.5859375
+Epithelial	L_carnitine	0.46875	0.5859375
+Epithelial	L_octanoylcarnitine	0.46875	0.5859375
+Epithelial	O_acetylcarnitine	0.46875	0.5859375
+Epithelial	O_propanoylcarnitine	0.46875	0.5859375
+Epithelial	acetyl_CoA	0.578125	0.69375
+Epithelial	malonyl_CoA	0.46875	0.5859375
+Epithelial	malonyl_carnitine	0.46875	0.5859375
+Epithelial	octanoyl_CoA	0.578125	0.69375
+Epithelial	propanoyl_CoA	0.46875	0.5859375
+Myeloid	CoA	0.15625	0.4076086956521739
+Myeloid	L_carnitine	0.03125	0.1442307692307692
+Myeloid	L_octanoylcarnitine	0.015625	0.1442307692307692
+Myeloid	O_acetylcarnitine	0.015625	0.1442307692307692
+Myeloid	O_propanoylcarnitine	0.015625	0.1442307692307692
+Myeloid	acetyl_CoA	0.109375	0.328125
+Myeloid	malonyl_CoA	0.078125	0.2757352941176471
+Myeloid	malonyl_carnitine	0.015625	0.1442307692307692
+Myeloid	octanoyl_CoA	0.078125	0.2757352941176471
+Myeloid	propanoyl_CoA	0.15625	0.4076086956521739
+PVL	CoA	0.8125	0.8863636363636364
+PVL	L_carnitine	0.9375	0.9375
+PVL	L_octanoylcarnitine	0.9375	0.9375
+PVL	O_acetylcarnitine	0.9375	0.9375
+PVL	O_propanoylcarnitine	0.9375	0.9375
+PVL	acetyl_CoA	0.6875	0.7638888888888888
+PVL	malonyl_CoA	0.6875	0.7638888888888888
+PVL	malonyl_carnitine	0.9375	0.9375
+PVL	octanoyl_CoA	0.6875	0.7638888888888888
+PVL	propanoyl_CoA	0.6875	0.7638888888888888
+T cells	CoA	0.03125	0.1442307692307692
+T cells	L_carnitine	0.03125	0.1442307692307692
+T cells	L_octanoylcarnitine	0.046875	0.1875
+T cells	O_acetylcarnitine	0.046875	0.1875
+T cells	O_propanoylcarnitine	0.03125	0.1442307692307692
+T cells	acetyl_CoA	0.03125	0.1442307692307692
+T cells	malonyl_CoA	0.03125	0.1442307692307692
+T cells	malonyl_carnitine	0.03125	0.1442307692307692
+T cells	octanoyl_CoA	0.03125	0.1442307692307692
+T cells	propanoyl_CoA	0.03125	0.1442307692307692

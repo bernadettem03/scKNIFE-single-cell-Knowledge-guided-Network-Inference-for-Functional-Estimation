@@ -1,0 +1,181 @@
+node_group	program	program_id	program_name	factor_count	singleton	singleton_factor	cluster_rank	node_kind	node_name	enrichment_delta_z	decay_weight	selection_reason	decay_tau	decay_cumulative_mass	maximum_per_cluster_kind	program_node_budget
+PG1	0	P1	Current W program 1	8	False		1	gene	TAP1	2.4029933434609583	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG1	0	P1	Current W program 1	8	False		2	cellchat_entity	CD74	2.395246485707712	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG1	0	P1	Current W program 1	8	False		3	GO_term	antigen processing and presentation of endogenous peptide antigen via MHC class I (GO:0019885)	1.90075739911763	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG1	0	P1	Current W program 1	8	False		4	metabolite	bromobenzene_2_3_dihydrodiol	1.587185876905485	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG1	0	P1	Current W program 1	8	False		5	geneset	HALLMARK_INTERFERON_ALPHA_RESPONSE	1.4872214448981955	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG1	0	P1	Current W program 1	8	False		6	reaction	bromobenzene_2_3_oxide_hydrolase	1.3519263758310145	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG1	0	P1	Current W program 1	8	False		7	task	Mevalonate synthesis	0.8742273813254345	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG1	0	P1	Current W program 1	8	False		8	gene	C1S	2.264986905307484	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG1	0	P1	Current W program 1	8	False		9	cellchat_entity	CLSTN3	1.8716546984097309	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG1	0	P1	Current W program 1	8	False		10	GO_term	peptide transport (GO:0015833)	1.7690957060209729	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG1	0	P1	Current W program 1	8	False		11	metabolite	1a_11b_dihydro_4_9_dimethylbenz_a_anthra_3_4_b_oxirene	1.5545110298247864	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG1	0	P1	Current W program 1	8	False		12	geneset	HALLMARK_INTERFERON_GAMMA_RESPONSE	1.3804587748026995	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG1	0	P1	Current W program 1	8	False		13	reaction	microsomal_epoxide_hydrolase	1.3457422423246812	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG1	0	P1	Current W program 1	8	False		14	gene	APOL6	2.2334443262698658	0.6703200460356392	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG1	0	P1	Current W program 1	8	False		15	cellchat_entity	SDC4	1.8111141406218516	0.6703200460356392	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG1	0	P1	Current W program 1	8	False		16	GO_term	vesicle fusion with endoplasmic reticulum-Golgi intermediate compartment (ERGIC) membrane (GO:1990668)	1.7306592854568987	0.6703200460356392	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG1	0	P1	Current W program 1	8	False		17	metabolite	trans_5_6_dihydro_5_6_dihydroxy_7_12_dimethylbenz_a_anthracene	1.4751522238162025	0.6703200460356392	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG1	0	P1	Current W program 1	8	False		18	reaction	bromobenzene_3_4_oxide_hydrolase	1.3004404751235965	0.6703200460356392	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG1	0	P1	Current W program 1	8	False		19	gene	IFI27	2.1708334617246026	0.5488116360940265	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG1	0	P1	Current W program 1	8	False		20	cellchat_entity	PSAP	1.8086444181641044	0.5488116360940265	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG2	1	P2	Current W program 2	3	False		1	gene	ZWINT	3.854067602154344	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG2	1	P2	Current W program 2	3	False		2	GO_term	kinetochore organization (GO:0051383)	3.406217867219702	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG2	1	P2	Current W program 2	3	False		3	reaction	TMDS	3.132793163988631	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG2	1	P2	Current W program 2	3	False		4	geneset	HALLMARK_E2F_TARGETS	2.941035252373747	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG2	1	P2	Current W program 2	3	False		5	metabolite	2_phosphoglycolate	2.514397358495025	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG2	1	P2	Current W program 2	3	False		6	cellchat_entity	PLAUR	1.5939068777907048	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG2	1	P2	Current W program 2	3	False		7	gene	NCAPG2	3.829441147608055	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG2	1	P2	Current W program 2	3	False		8	GO_term	attachment of mitotic spindle microtubules to kinetochore (GO:0051315)	3.297085263383824	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG2	1	P2	Current W program 2	3	False		9	reaction	RNDR4	2.7732068616711465	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG2	1	P2	Current W program 2	3	False		10	geneset	HALLMARK_G2M_CHECKPOINT	2.657140446472311	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG2	1	P2	Current W program 2	3	False		11	metabolite	DNA	1.823005714486321	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG2	1	P2	Current W program 2	3	False		12	gene	LMNB1	3.795261372212344	0.6703200460356392	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG2	1	P2	Current W program 2	3	False		13	GO_term	centromere complex assembly (GO:0034508)	3.2948874142393585	0.6703200460356392	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG2	1	P2	Current W program 2	3	False		14	reaction	r0474	2.70998502887329	0.6703200460356392	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG2	1	P2	Current W program 2	3	False		15	metabolite	dUMP	1.6113986439238843	0.6703200460356392	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG2	1	P2	Current W program 2	3	False		16	geneset	HALLMARK_MITOTIC_SPINDLE	1.4758959948418446	0.6703200460356392	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG2	1	P2	Current W program 2	3	False		17	gene	FANCI	3.785959433758325	0.5488116360940265	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG2	1	P2	Current W program 2	3	False		18	GO_term	double-strand break repair via synthesis-dependent strand annealing (GO:0045003)	3.213752887377713	0.5488116360940265	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG2	1	P2	Current W program 2	3	False		19	reaction	RNDR1	2.663176113971801	0.5488116360940265	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG2	1	P2	Current W program 2	3	False		20	metabolite	dihydrofolate	1.560227027586779	0.5488116360940265	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG3	2	P3	Current W program 3	3	False		1	gene	KANK4	3.8372473986370887	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG3	2	P3	Current W program 3	3	False		2	cellchat_entity	THBS2	3.4060845445334325	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG3	2	P3	Current W program 3	3	False		3	reaction	XAO2x	2.8066208871229144	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG3	2	P3	Current W program 3	3	False		4	GO_term	salivary gland morphogenesis (GO:0007435)	2.8045935656096823	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG3	2	P3	Current W program 3	3	False		5	task	Glycogen degradation	2.507444425124212	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG3	2	P3	Current W program 3	3	False		6	metabolite	glycogenin_G7	2.263379079913172	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG3	2	P3	Current W program 3	3	False		7	geneset	HALLMARK_KRAS_SIGNALING_DN	1.1332238193408126	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG3	2	P3	Current W program 3	3	False		8	pathway	Formation_and_hydrolysis_of_cholesterol_esters	1.1177529122821657	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG3	2	P3	Current W program 3	3	False		9	gene	CTHRC1	3.455328118448606	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG3	2	P3	Current W program 3	3	False		10	cellchat_entity	FGFR2	3.2670669415700555	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG3	2	P3	Current W program 3	3	False		11	reaction	XAOx	2.8066208871229144	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG3	2	P3	Current W program 3	3	False		12	GO_term	embryonic camera-type eye development (GO:0031076)	2.746013484738409	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG3	2	P3	Current W program 3	3	False		13	task	Degradation of guanine to urate	2.434249252179641	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG3	2	P3	Current W program 3	3	False		14	metabolite	N_acetyl_seryl_aspartate	2.2366888377951017	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG3	2	P3	Current W program 3	3	False		15	geneset	HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION	1.076032846545947	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG3	2	P3	Current W program 3	3	False		16	gene	TLE2	3.3367839261561048	0.6703200460356392	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG3	2	P3	Current W program 3	3	False		17	cellchat_entity	NFASC	3.2488965063045105	0.6703200460356392	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG3	2	P3	Current W program 3	3	False		18	GO_term	bone morphogenesis (GO:0060349)	2.69644628327402	0.6703200460356392	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG3	2	P3	Current W program 3	3	False		19	reaction	XANDp	2.644909596393955	0.6703200460356392	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG3	2	P3	Current W program 3	3	False		20	task	Degradation of adenine to urate	2.3744380797023794	0.6703200460356392	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG4	3	P4	Current W program 4	5	False		1	gene	EMP1	2.9614101011293523	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG4	3	P4	Current W program 4	5	False		2	cellchat_entity	KLK5	2.2708885815703543	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG4	3	P4	Current W program 4	5	False		3	GO_term	bundle of His cell-Purkinje myocyte adhesion involved in cell communication (GO:0086073)	1.2516271561627077	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG4	3	P4	Current W program 4	5	False		4	metabolite	2_hydroxy_3_oxopropanoate	1.004085003620304	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG4	3	P4	Current W program 4	5	False		5	reaction	FACOAL161	0.9638684854952936	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG4	3	P4	Current W program 4	5	False		6	gene	MYO5B	2.663703267714037	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG4	3	P4	Current W program 4	5	False		7	cellchat_entity	CLDN1	2.2393518301028195	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG4	3	P4	Current W program 4	5	False		8	GO_term	cardiac muscle cell-cardiac muscle cell adhesion (GO:0086042)	1.1494770645549774	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG4	3	P4	Current W program 4	5	False		9	gene	RCSD1	2.636831448918972	0.6703200460356392	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG4	3	P4	Current W program 4	5	False		10	cellchat_entity	PTPRM	1.992622887613707	0.6703200460356392	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG4	3	P4	Current W program 4	5	False		11	GO_term	glomerular epithelial cell differentiation (GO:0072311)	1.046320925051035	0.6703200460356392	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG4	3	P4	Current W program 4	5	False		12	gene	ANXA11	2.576913551943818	0.5488116360940265	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG4	3	P4	Current W program 4	5	False		13	cellchat_entity	OCLN	1.8654127641529168	0.5488116360940265	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG4	3	P4	Current W program 4	5	False		14	GO_term	renal filtration cell differentiation (GO:0061318)	1.046320925051035	0.5488116360940265	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG4	3	P4	Current W program 4	5	False		15	gene	CAPG	2.4326984420726387	0.4493289641172215	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG4	3	P4	Current W program 4	5	False		16	cellchat_entity	CCL28	1.8384352071812848	0.4493289641172215	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG4	3	P4	Current W program 4	5	False		17	GO_term	positive regulation of epithelial cell differentiation involved in kidney development (GO:2000698)	1.0159686377956785	0.4493289641172215	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG4	3	P4	Current W program 4	5	False		18	gene	PTPRU	2.3887468089371366	0.3678794411714424	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG4	3	P4	Current W program 4	5	False		19	cellchat_entity	ANXA1	1.6555023166430738	0.3678794411714424	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG4	3	P4	Current W program 4	5	False		20	GO_term	establishment of skin barrier (GO:0061436)	1.0053445068277855	0.3678794411714424	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG5	4	P5	Current W program 5	2	False		1	gene	MCF2L	4.149002962905574	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG5	4	P5	Current W program 5	2	False		2	cellchat_entity	PLXNA3	4.052003361742155	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG5	4	P5	Current W program 5	2	False		3	GO_term	leucine transport (GO:0015820)	3.401063340679752	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG5	4	P5	Current W program 5	2	False		4	metabolite	3_hydroxynonanoyl_ACP	3.232348176148709	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG5	4	P5	Current W program 5	2	False		5	reaction	MAR02238	3.207936266339404	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG5	4	P5	Current W program 5	2	False		6	pathway	Fatty_acid_biosynthesis_odd_chain	3.1267190997868948	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG5	4	P5	Current W program 5	2	False		7	task	Conversion of 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate to 1D-myo-inositol 1,4,5-trisphosphate	2.8354161362631816	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG5	4	P5	Current W program 5	2	False		8	geneset	HALLMARK_APICAL_JUNCTION	1.5736722664243232	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG5	4	P5	Current W program 5	2	False		9	cellchat_entity	AGRN	4.044059413867144	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG5	4	P5	Current W program 5	2	False		10	gene	LLGL2	4.038816852286237	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG5	4	P5	Current W program 5	2	False		11	GO_term	semaphorin-plexin signaling pathway involved in axon guidance (GO:1902287)	3.2736837473369	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG5	4	P5	Current W program 5	2	False		12	metabolite	2E_nonenoyl_ACP	3.2323481761485686	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG5	4	P5	Current W program 5	2	False		13	reaction	MAR02234	3.2079362663245727	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG5	4	P5	Current W program 5	2	False		14	pathway	Fatty_acid_biosynthesis_even_chain	2.915277392640597	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG5	4	P5	Current W program 5	2	False		15	task	Pyridoxal-phosphate synthesis	2.211872824900173	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG5	4	P5	Current W program 5	2	False		16	geneset	HALLMARK_MYOGENESIS	1.5159511336086335	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG5	4	P5	Current W program 5	2	False		17	gene	PLCG1	3.990339770595511	0.6703200460356392	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG5	4	P5	Current W program 5	2	False		18	cellchat_entity	PLXNB2	3.388399048233039	0.6703200460356392	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG5	4	P5	Current W program 5	2	False		19	GO_term	regulation of sodium:proton antiporter activity (GO:0032415)	3.24441221695406	0.6703200460356392	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG5	4	P5	Current W program 5	2	False		20	metabolite	2E_heptenoyl_ACP	3.232348176145743	0.6703200460356392	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG6	5	P6	Current W program 6	4	False		1	gene	BLZF1	3.116918815988565	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG6	5	P6	Current W program 6	4	False		2	GO_term	histone H3-K36 methylation (GO:0010452)	2.5768278928128505	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG6	5	P6	Current W program 6	4	False		3	cellchat_entity	DSG2	2.3237601011906706	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG6	5	P6	Current W program 6	4	False		4	metabolite	G_5_pppR_RNA	2.271853259247644	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG6	5	P6	Current W program 6	4	False		5	reaction	MAR04312	2.199098259474136	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG6	5	P6	Current W program 6	4	False		6	geneset	HALLMARK_PROTEIN_SECRETION	1.861586094789188	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG6	5	P6	Current W program 6	4	False		7	task	GDP-L-fucose synthesis	1.8173700490650535	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG6	5	P6	Current W program 6	4	False		8	pathway	Glycerolipid_metabolism	1.5010387206020914	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG6	5	P6	Current W program 6	4	False		9	gene	ASH1L	2.9360875661058725	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG6	5	P6	Current W program 6	4	False		10	GO_term	positive regulation of attachment of spindle microtubules to kinetochore (GO:0051987)	2.479746896288874	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG6	5	P6	Current W program 6	4	False		11	cellchat_entity	IFNAR1	2.2015784145531407	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG6	5	P6	Current W program 6	4	False		12	reaction	MAR04313	2.199098259474136	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG6	5	P6	Current W program 6	4	False		13	metabolite	1_hexadecylglycerol_3_phosphate	2.1958222705875388	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG6	5	P6	Current W program 6	4	False		14	task	Retro-translocation & substrate ubiquitination	1.7508466794905129	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG6	5	P6	Current W program 6	4	False		15	geneset	HALLMARK_HEME_METABOLISM	1.5354864971350175	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG6	5	P6	Current W program 6	4	False		16	pathway	C5_branched_dibasic_acid_metabolism	1.4610856959095222	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG6	5	P6	Current W program 6	4	False		17	gene	THRAP3	2.9278886464210885	0.6703200460356392	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG6	5	P6	Current W program 6	4	False		18	GO_term	dosage compensation (GO:0007549)	2.4716988729032425	0.6703200460356392	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG6	5	P6	Current W program 6	4	False		19	reaction	MAR04314	2.199098259474136	0.6703200460356392	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG6	5	P6	Current W program 6	4	False		20	metabolite	N_acetylglucosamine_1_phosphate	2.161795514754726	0.6703200460356392	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG7	6	P7	Current W program 7	2	False		1	gene	MYC	4.442568163926994	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG7	6	P7	Current W program 7	2	False		2	reaction	ADMDC	3.5136964459187188	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG7	6	P7	Current W program 7	2	False		3	GO_term	positive regulation of kidney development (GO:0090184)	3.441378518888229	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG7	6	P7	Current W program 7	2	False		4	cellchat_entity	ADGRE5	3.316552619008269	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG7	6	P7	Current W program 7	2	False		5	metabolite	tRNA_containing_6_isopentenyladenosine	3.2076814002964293	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG7	6	P7	Current W program 7	2	False		6	geneset	HALLMARK_MYC_TARGETS_V2	3.191123153255839	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG7	6	P7	Current W program 7	2	False		7	task	Synthesis of spermidine from ornithine	2.895127712953997	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG7	6	P7	Current W program 7	2	False		8	pathway	Keratan_sulfate_biosynthesis	1.6077947163987023	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG7	6	P7	Current W program 7	2	False		9	gene	TCOF1	4.37651830767237	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG7	6	P7	Current W program 7	2	False		10	GO_term	oxygen transport (GO:0015671)	3.310246088073948	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG7	6	P7	Current W program 7	2	False		11	reaction	MAR04942	3.121769726194249	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG7	6	P7	Current W program 7	2	False		12	metabolite	tRNA_containing_N2_methylguanine	3.0493688380364894	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG7	6	P7	Current W program 7	2	False		13	cellchat_entity	NCL	2.91445625059337	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG7	6	P7	Current W program 7	2	False		14	task	S-adenosyl-L-methionine synthesis	2.6418566224704465	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG7	6	P7	Current W program 7	2	False		15	geneset	HALLMARK_MYC_TARGETS_V1	1.9843376173612683	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG7	6	P7	Current W program 7	2	False		16	pathway	N_glycan_metabolism	1.5180669513290623	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG7	6	P7	Current W program 7	2	False		17	gene	DDX21	4.348785511063164	0.6703200460356392	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG7	6	P7	Current W program 7	2	False		18	GO_term	positive regulation of rRNA processing (GO:2000234)	3.2388814347676536	0.6703200460356392	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG7	6	P7	Current W program 7	2	False		19	reaction	MAR04944	3.121769726194249	0.6703200460356392	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG7	6	P7	Current W program 7	2	False		20	metabolite	N_formyl_GAR	2.959657684480116	0.6703200460356392	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG8	7	P8	Current W program 8	2	False		1	gene	MLLT6	3.1184290656735216	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG8	7	P8	Current W program 8	2	False		2	cellchat_entity	COL6A1	2.699413444788068	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG8	7	P8	Current W program 8	2	False		3	GO_term	postsynaptic endocytosis (GO:0140239)	1.5380915573277685	1.0	cluster_local_decay_prefix	5.0	0.95	20	20
+PG8	7	P8	Current W program 8	2	False		4	reaction	ACACT7p	1.5156585606165045	1.0	cluster_local_decay_prefix	5.0	0.95	20	20
+PG8	7	P8	Current W program 8	2	False		5	GO_term	meiotic sister chromatid segregation (GO:0045144)	0.8484825831572995	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG8	7	P8	Current W program 8	2	False		6	gene	DDRGK1	2.750261091436116	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG8	7	P8	Current W program 8	2	False		7	cellchat_entity	COL6A2	2.591307865011529	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG8	7	P8	Current W program 8	2	False		8	gene	NFKB2	2.6278466673073773	0.6703200460356392	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG8	7	P8	Current W program 8	2	False		9	gene	RBM17	2.57631701144772	0.5488116360940265	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG8	7	P8	Current W program 8	2	False		10	gene	ZNF316	2.501199346382766	0.4493289641172215	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG8	7	P8	Current W program 8	2	False		11	gene	ACAA1	2.432175541294142	0.3678794411714424	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG8	7	P8	Current W program 8	2	False		12	gene	REC8	2.3700686475858306	0.3011942119122021	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG8	7	P8	Current W program 8	2	False		13	gene	MYO6	2.2455113840381125	0.2465969639416065	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG8	7	P8	Current W program 8	2	False		14	gene	MICALL2	2.1107514747123326	0.2018965179946553	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG8	7	P8	Current W program 8	2	False		15	gene	SMAD2	2.090648202345325	0.1652988882215865	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG8	7	P8	Current W program 8	2	False		16	gene	IQCE	2.0879355926468	0.1353352832366126	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG8	7	P8	Current W program 8	2	False		17	gene	VPS28	2.0857951756949635	0.1108031583623338	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG8	7	P8	Current W program 8	2	False		18	gene	KIFC2	2.016528614644315	0.0907179532894125	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG8	7	P8	Current W program 8	2	False		19	gene	CAPN2	1.979748211566946	0.0742735782143338	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG8	7	P8	Current W program 8	2	False		20	gene	IFI44	1.958544959084325	0.0608100626252179	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG9	8	P9	Current W program 9	21	False		1	gene	ELN	0.4542459536652869	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG9	8	P9	Current W program 9	21	False		2	cellchat_entity	ADM	0.411904423564977	1.0	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG9	8	P9	Current W program 9	21	False		3	gene	MYL9	0.3905017728664149	0.8187307530779818	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG9	8	P9	Current W program 9	21	False		4	cellchat_entity	CNTFR	0.1596628409659664	0.8187307530779818	cluster_local_decay_prefix	5.0	0.95	20	20
+PG9	8	P9	Current W program 9	21	False		5	gene	NDRG1	0.3764357914832204	0.6703200460356392	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG9	8	P9	Current W program 9	21	False		6	cellchat_entity	VEGFA	0.084729983569842	0.6703200460356392	cluster_local_decay_prefix	5.0	0.95	20	20
+PG9	8	P9	Current W program 9	21	False		7	gene	MBD2	0.3401360544217686	0.5488116360940265	strongest_cluster_decay_prefix	5.0	0.95	20	20
+PG9	8	P9	Current W program 9	21	False		8	gene	FOS	0.2791547691441076	0.4493289641172215	cluster_local_decay_prefix	5.0	0.95	20	20
+PG9	8	P9	Current W program 9	21	False		9	gene	MT-ND6	0.2758044499692818	0.3678794411714424	cluster_local_decay_prefix	5.0	0.95	20	20
+PG9	8	P9	Current W program 9	21	False		10	gene	ACTA2	0.263406951283354	0.3011942119122021	cluster_local_decay_prefix	5.0	0.95	20	20
+PG9	8	P9	Current W program 9	21	False		11	gene	STAC2	0.2528998344394733	0.2465969639416065	cluster_local_decay_prefix	5.0	0.95	20	20
+PG9	8	P9	Current W program 9	21	False		12	gene	RENBP	0.2304594749349009	0.2018965179946553	cluster_local_decay_prefix	5.0	0.95	20	20
+PG9	8	P9	Current W program 9	21	False		13	gene	CP	0.2028370684340829	0.1652988882215865	cluster_local_decay_prefix	5.0	0.95	20	20
+PG9	8	P9	Current W program 9	21	False		14	gene	TPM2	0.1680313995808397	0.1353352832366126	cluster_local_decay_prefix	5.0	0.95	20	20
+PG9	8	P9	Current W program 9	21	False		15	gene	INSIG1	0.1642916243695561	0.1108031583623338	cluster_local_decay_prefix	5.0	0.95	20	20
+PG9	8	P9	Current W program 9	21	False		16	gene	MT-ND3	0.1379580561557577	0.0907179532894125	cluster_local_decay_prefix	5.0	0.95	20	20
+PG9	8	P9	Current W program 9	21	False		17	gene	VIM	0.1317359311198333	0.0742735782143338	cluster_local_decay_prefix	5.0	0.95	20	20
+PG9	8	P9	Current W program 9	21	False		18	gene	LDLR	0.121954627094869	0.0608100626252179	cluster_local_decay_prefix	5.0	0.95	20	20
+PG9	8	P9	Current W program 9	21	False		19	gene	PFKFB3	0.1208269619273534	0.0497870683678639	budget_backfill	5.0	0.95	20	20
+PG9	8	P9	Current W program 9	21	False		20	gene	SORBS1	0.1165635535223837	0.0407622039783662	budget_backfill	5.0	0.95	20	20

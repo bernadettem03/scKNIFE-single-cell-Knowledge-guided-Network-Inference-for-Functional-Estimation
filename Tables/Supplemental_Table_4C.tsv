@@ -1,0 +1,337 @@
+source_label	target_label	n_cells
+B_cells	B-cells	417
+B_cells	CAFs	15
+B_cells	Endothelial	2
+B_cells	Epithelial	34
+B_cells	Myeloid	74
+B_cells	PVL	3
+B_cells	Plasmablasts	26
+B_cells	T-cells	54
+Basal_Myoepithelial	B-cells	4
+Basal_Myoepithelial	CAFs	122
+Basal_Myoepithelial	Endothelial	5
+Basal_Myoepithelial	Epithelial	653
+Basal_Myoepithelial	Myeloid	3
+Basal_Myoepithelial	PVL	442
+Basal_Myoepithelial	Plasmablasts	14
+Basal_Myoepithelial	T-cells	4
+CAFs	B-cells	3
+CAFs	CAFs	5637
+CAFs	Endothelial	13
+CAFs	Epithelial	22
+CAFs	Myeloid	4
+CAFs	PVL	1620
+CAFs	Plasmablasts	3
+CAFs	T-cells	5
+Endothelial	B-cells	7
+Endothelial	CAFs	114
+Endothelial	Endothelial	3193
+Endothelial	Epithelial	75
+Endothelial	Myeloid	10
+Endothelial	PVL	96
+Endothelial	Plasmablasts	8
+Endothelial	T-cells	10
+Epithelial	B-cells	127
+Epithelial	CAFs	1937
+Epithelial	Endothelial	161
+Epithelial	Epithelial	18574
+Epithelial	Myeloid	182
+Epithelial	PVL	568
+Epithelial	Plasmablasts	598
+Epithelial	T-cells	177
+Epithelial_Luminal_Mature	B-cells	6
+Epithelial_Luminal_Mature	CAFs	197
+Epithelial_Luminal_Mature	Endothelial	5
+Epithelial_Luminal_Mature	Epithelial	7595
+Epithelial_Luminal_Mature	Myeloid	2
+Epithelial_Luminal_Mature	PVL	267
+Epithelial_Luminal_Mature	Plasmablasts	34
+Epithelial_Luminal_Mature	T-cells	4
+Epithelial_Luminal_Progenitor	B-cells	105
+Epithelial_Luminal_Progenitor	CAFs	896
+Epithelial_Luminal_Progenitor	Endothelial	50
+Epithelial_Luminal_Progenitor	Epithelial	7704
+Epithelial_Luminal_Progenitor	Myeloid	29
+Epithelial_Luminal_Progenitor	PVL	633
+Epithelial_Luminal_Progenitor	Plasmablasts	264
+Epithelial_Luminal_Progenitor	T-cells	59
+Epithelial_cycling	B-cells	43
+Epithelial_cycling	CAFs	158
+Epithelial_cycling	Endothelial	6
+Epithelial_cycling	Epithelial	1868
+Epithelial_cycling	Myeloid	8
+Epithelial_cycling	PVL	87
+Epithelial_cycling	Plasmablasts	52
+Epithelial_cycling	T-cells	29
+Macrophages	B-cells	383
+Macrophages	CAFs	155
+Macrophages	Endothelial	26
+Macrophages	Epithelial	106
+Macrophages	Myeloid	5641
+Macrophages	PVL	23
+Macrophages	Plasmablasts	144
+Macrophages	T-cells	182
+Plasma_cells	B-cells	13
+Plasma_cells	CAFs	20
+Plasma_cells	Endothelial	1
+Plasma_cells	Epithelial	33
+Plasma_cells	Myeloid	0
+Plasma_cells	PVL	3
+Plasma_cells	Plasmablasts	1781
+Plasma_cells	T-cells	9
+T_cells	B-cells	224
+T_cells	CAFs	181
+T_cells	Endothelial	30
+T_cells	Epithelial	292
+T_cells	Myeloid	238
+T_cells	PVL	25
+T_cells	Plasmablasts	204
+T_cells	T-cells	4381
+pDC	B-cells	47
+pDC	CAFs	4
+pDC	Endothelial	1
+pDC	Epithelial	7
+pDC	Myeloid	50
+pDC	PVL	0
+pDC	Plasmablasts	63
+pDC	T-cells	7
+B-cells	Ambiguous	1
+B-cells	B cells Memory	239
+B-cells	B cells Naive	300
+B-cells	CAFs MSC iCAF-like	4
+B-cells	CAFs myCAF-like	15
+B-cells	Cancer Basal SC	37
+B-cells	Cancer Cycling	84
+B-cells	Cancer Her2 SC	21
+B-cells	Cancer LumA SC	6
+B-cells	Cancer LumB SC	8
+B-cells	Cycling PVL	20
+B-cells	Cycling T-cells	32
+B-cells	Cycling_Myeloid	10
+B-cells	DCs	171
+B-cells	Endothelial ACKR1	0
+B-cells	Endothelial CXCL12	2
+B-cells	Endothelial Lymphatic LYVE1	6
+B-cells	Endothelial RGS5	4
+B-cells	Luminal Progenitors	37
+B-cells	Macrophage	144
+B-cells	Mature Luminal	5
+B-cells	Monocyte	48
+B-cells	Myoepithelial	13
+B-cells	NK cells	40
+B-cells	NKT cells	44
+B-cells	PVL Differentiated	4
+B-cells	PVL Immature	10
+B-cells	Plasmablasts	20
+B-cells	T cells CD4+	19
+B-cells	T cells CD8+	35
+CAFs	Ambiguous	4
+CAFs	B cells Memory	6
+CAFs	B cells Naive	8
+CAFs	CAFs MSC iCAF-like	299
+CAFs	CAFs myCAF-like	6458
+CAFs	Cancer Basal SC	531
+CAFs	Cancer Cycling	356
+CAFs	Cancer Her2 SC	79
+CAFs	Cancer LumA SC	20
+CAFs	Cancer LumB SC	28
+CAFs	Cycling PVL	694
+CAFs	Cycling T-cells	26
+CAFs	Cycling_Myeloid	11
+CAFs	DCs	14
+CAFs	Endothelial ACKR1	4
+CAFs	Endothelial CXCL12	11
+CAFs	Endothelial Lymphatic LYVE1	14
+CAFs	Endothelial RGS5	18
+CAFs	Luminal Progenitors	229
+CAFs	Macrophage	52
+CAFs	Mature Luminal	20
+CAFs	Monocyte	9
+CAFs	Myoepithelial	139
+CAFs	NK cells	7
+CAFs	NKT cells	20
+CAFs	PVL Differentiated	71
+CAFs	PVL Immature	258
+CAFs	Plasmablasts	20
+CAFs	T cells CD4+	14
+CAFs	T cells CD8+	16
+Endothelial	Ambiguous	10
+Endothelial	B cells Memory	1
+Endothelial	B cells Naive	1
+Endothelial	CAFs MSC iCAF-like	4
+Endothelial	CAFs myCAF-like	17
+Endothelial	Cancer Basal SC	39
+Endothelial	Cancer Cycling	25
+Endothelial	Cancer Her2 SC	10
+Endothelial	Cancer LumA SC	0
+Endothelial	Cancer LumB SC	6
+Endothelial	Cycling PVL	35
+Endothelial	Cycling T-cells	7
+Endothelial	Cycling_Myeloid	6
+Endothelial	DCs	5
+Endothelial	Endothelial ACKR1	636
+Endothelial	Endothelial CXCL12	555
+Endothelial	Endothelial Lymphatic LYVE1	62
+Endothelial	Endothelial RGS5	1968
+Endothelial	Luminal Progenitors	30
+Endothelial	Macrophage	15
+Endothelial	Mature Luminal	5
+Endothelial	Monocyte	0
+Endothelial	Myoepithelial	10
+Endothelial	NK cells	2
+Endothelial	NKT cells	4
+Endothelial	PVL Differentiated	10
+Endothelial	PVL Immature	18
+Endothelial	Plasmablasts	1
+Endothelial	T cells CD4+	5
+Endothelial	T cells CD8+	6
+Epithelial	Ambiguous	38
+Epithelial	B cells Memory	10
+Epithelial	B cells Naive	25
+Epithelial	CAFs MSC iCAF-like	71
+Epithelial	CAFs myCAF-like	327
+Epithelial	Cancer Basal SC	10243
+Epithelial	Cancer Cycling	8281
+Epithelial	Cancer Her2 SC	2439
+Epithelial	Cancer LumA SC	715
+Epithelial	Cancer LumB SC	217
+Epithelial	Cycling PVL	1118
+Epithelial	Cycling T-cells	83
+Epithelial	Cycling_Myeloid	20
+Epithelial	DCs	15
+Epithelial	Endothelial ACKR1	12
+Epithelial	Endothelial CXCL12	21
+Epithelial	Endothelial Lymphatic LYVE1	15
+Epithelial	Endothelial RGS5	36
+Epithelial	Luminal Progenitors	8024
+Epithelial	Macrophage	54
+Epithelial	Mature Luminal	991
+Epithelial	Monocyte	12
+Epithelial	Myoepithelial	3653
+Epithelial	NK cells	11
+Epithelial	NKT cells	26
+Epithelial	PVL Differentiated	210
+Epithelial	PVL Immature	139
+Epithelial	Plasmablasts	94
+Epithelial	T cells CD4+	27
+Epithelial	T cells CD8+	36
+Myeloid	Ambiguous	2
+Myeloid	B cells Memory	42
+Myeloid	B cells Naive	11
+Myeloid	CAFs MSC iCAF-like	12
+Myeloid	CAFs myCAF-like	20
+Myeloid	Cancer Basal SC	50
+Myeloid	Cancer Cycling	22
+Myeloid	Cancer Her2 SC	7
+Myeloid	Cancer LumA SC	1
+Myeloid	Cancer LumB SC	2
+Myeloid	Cycling PVL	14
+Myeloid	Cycling T-cells	27
+Myeloid	Cycling_Myeloid	179
+Myeloid	DCs	471
+Myeloid	Endothelial ACKR1	4
+Myeloid	Endothelial CXCL12	4
+Myeloid	Endothelial Lymphatic LYVE1	4
+Myeloid	Endothelial RGS5	2
+Myeloid	Luminal Progenitors	18
+Myeloid	Macrophage	4340
+Myeloid	Mature Luminal	3
+Myeloid	Monocyte	795
+Myeloid	Myoepithelial	8
+Myeloid	NK cells	48
+Myeloid	NKT cells	87
+Myeloid	PVL Differentiated	4
+Myeloid	PVL Immature	6
+Myeloid	Plasmablasts	13
+Myeloid	T cells CD4+	21
+Myeloid	T cells CD8+	24
+PVL	Ambiguous	10
+PVL	B cells Memory	1
+PVL	B cells Naive	3
+PVL	CAFs MSC iCAF-like	14
+PVL	CAFs myCAF-like	347
+PVL	Cancer Basal SC	179
+PVL	Cancer Cycling	99
+PVL	Cancer Her2 SC	30
+PVL	Cancer LumA SC	11
+PVL	Cancer LumB SC	6
+PVL	Cycling PVL	576
+PVL	Cycling T-cells	8
+PVL	Cycling_Myeloid	2
+PVL	DCs	3
+PVL	Endothelial ACKR1	4
+PVL	Endothelial CXCL12	27
+PVL	Endothelial Lymphatic LYVE1	8
+PVL	Endothelial RGS5	37
+PVL	Luminal Progenitors	111
+PVL	Macrophage	6
+PVL	Mature Luminal	14
+PVL	Monocyte	2
+PVL	Myoepithelial	564
+PVL	NK cells	1
+PVL	NKT cells	0
+PVL	PVL Differentiated	698
+PVL	PVL Immature	998
+PVL	Plasmablasts	3
+PVL	T cells CD4+	5
+PVL	T cells CD8+	0
+Plasmablasts	Ambiguous	2
+Plasmablasts	B cells Memory	5
+Plasmablasts	B cells Naive	19
+Plasmablasts	CAFs MSC iCAF-like	7
+Plasmablasts	CAFs myCAF-like	33
+Plasmablasts	Cancer Basal SC	160
+Plasmablasts	Cancer Cycling	205
+Plasmablasts	Cancer Her2 SC	65
+Plasmablasts	Cancer LumA SC	12
+Plasmablasts	Cancer LumB SC	14
+Plasmablasts	Cycling PVL	55
+Plasmablasts	Cycling T-cells	21
+Plasmablasts	Cycling_Myeloid	5
+Plasmablasts	DCs	60
+Plasmablasts	Endothelial ACKR1	1
+Plasmablasts	Endothelial CXCL12	4
+Plasmablasts	Endothelial Lymphatic LYVE1	1
+Plasmablasts	Endothelial RGS5	3
+Plasmablasts	Luminal Progenitors	143
+Plasmablasts	Macrophage	60
+Plasmablasts	Mature Luminal	15
+Plasmablasts	Monocyte	7
+Plasmablasts	Myoepithelial	29
+Plasmablasts	NK cells	21
+Plasmablasts	NKT cells	39
+Plasmablasts	PVL Differentiated	8
+Plasmablasts	PVL Immature	5
+Plasmablasts	Plasmablasts	2148
+Plasmablasts	T cells CD4+	10
+Plasmablasts	T cells CD8+	34
+T-cells	Ambiguous	5
+T-cells	B cells Memory	36
+T-cells	B cells Naive	58
+T-cells	CAFs MSC iCAF-like	4
+T-cells	CAFs myCAF-like	14
+T-cells	Cancer Basal SC	53
+T-cells	Cancer Cycling	48
+T-cells	Cancer Her2 SC	12
+T-cells	Cancer LumA SC	6
+T-cells	Cancer LumB SC	1
+T-cells	Cycling PVL	27
+T-cells	Cycling T-cells	622
+T-cells	Cycling_Myeloid	6
+T-cells	DCs	52
+T-cells	Endothelial ACKR1	2
+T-cells	Endothelial CXCL12	6
+T-cells	Endothelial Lymphatic LYVE1	4
+T-cells	Endothelial RGS5	6
+T-cells	Luminal Progenitors	35
+T-cells	Macrophage	87
+T-cells	Mature Luminal	2
+T-cells	Monocyte	28
+T-cells	Myoepithelial	14
+T-cells	NK cells	223
+T-cells	NKT cells	775
+T-cells	PVL Differentiated	7
+T-cells	PVL Immature	3
+T-cells	Plasmablasts	47
+T-cells	T cells CD4+	1514
+T-cells	T cells CD8+	1224

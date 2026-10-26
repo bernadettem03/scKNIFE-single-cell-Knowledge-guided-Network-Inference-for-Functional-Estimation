@@ -1,0 +1,98 @@
+cell_type	cnv_status	n_cells
+Cluster 0	normal	4961
+Cluster 1	tumor	4470
+Cluster 2	tumor	4354
+Cluster 3	normal	4314
+Cluster 4	tumor	4149
+Cluster 5	tumor	3985
+Cluster 6	normal	3749
+Cluster 7	tumor	3709
+Cluster 8	normal	3705
+Cluster 9	normal	3105
+Cluster 10	tumor	3056
+Cluster 11	tumor	2838
+Cluster 12	tumor	2744
+Cluster 13	tumor	2739
+Cluster 14	tumor	2727
+Cluster 15	normal	2707
+Cluster 16	tumor	2670
+Cluster 17	tumor	2636
+Cluster 18	tumor	2487
+Cluster 19	tumor	2419
+Cluster 20	normal	1867
+B-cells	normal	1076
+B-cells	tumor	303
+CAFs	normal	6199
+CAFs	tumor	3237
+Endothelial	normal	3158
+Endothelial	tumor	335
+Epithelial	normal	2341
+Epithelial	tumor	34622
+Myeloid	normal	5877
+Myeloid	tumor	364
+PVL	normal	2082
+PVL	tumor	1685
+Plasmablasts	normal	2104
+Plasmablasts	tumor	1087
+T-cells	normal	4584
+T-cells	tumor	337
+Ambiguous	normal	10
+Ambiguous	tumor	62
+B cells Memory	normal	308
+B cells Memory	tumor	32
+B cells Naive	normal	380
+B cells Naive	tumor	45
+CAFs MSC iCAF-like	normal	215
+CAFs MSC iCAF-like	tumor	200
+CAFs myCAF-like	normal	5804
+CAFs myCAF-like	tumor	1427
+Cancer Basal SC	normal	402
+Cancer Basal SC	tumor	10890
+Cancer Cycling	normal	165
+Cancer Cycling	tumor	8955
+Cancer Her2 SC	normal	106
+Cancer Her2 SC	tumor	2557
+Cancer LumA SC	normal	46
+Cancer LumA SC	tumor	725
+Cancer LumB SC	normal	99
+Cancer LumB SC	tumor	183
+Cycling PVL	normal	304
+Cycling PVL	tumor	2235
+Cycling T-cells	normal	695
+Cycling T-cells	tumor	131
+Cycling_Myeloid	normal	177
+Cycling_Myeloid	tumor	62
+DCs	normal	766
+DCs	tumor	25
+Endothelial ACKR1	normal	619
+Endothelial ACKR1	tumor	44
+Endothelial CXCL12	normal	581
+Endothelial CXCL12	tumor	49
+Endothelial Lymphatic LYVE1	normal	78
+Endothelial Lymphatic LYVE1	tumor	36
+Endothelial RGS5	normal	1951
+Endothelial RGS5	tumor	123
+Luminal Progenitors	normal	595
+Luminal Progenitors	tumor	8032
+Macrophage	normal	4525
+Macrophage	tumor	233
+Mature Luminal	normal	312
+Mature Luminal	tumor	743
+Monocyte	normal	869
+Monocyte	tumor	32
+Myoepithelial	normal	799
+Myoepithelial	tumor	3631
+NK cells	normal	337
+NK cells	tumor	16
+NKT cells	normal	971
+NKT cells	tumor	24
+PVL Differentiated	normal	468
+PVL Differentiated	tumor	544
+PVL Immature	normal	1055
+PVL Immature	tumor	382
+Plasmablasts	normal	1869
+Plasmablasts	tumor	477
+T cells CD4+	normal	1561
+T cells CD4+	tumor	54
+T cells CD8+	normal	1354
+T cells CD8+	tumor	21

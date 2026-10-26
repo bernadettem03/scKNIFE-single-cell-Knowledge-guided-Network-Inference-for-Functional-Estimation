@@ -1,0 +1,6 @@
+dataset	k	lambda_reg	beta_W	beta_H	n_iter
+Bassez C1	40	0.1	0.01	0.05	500
+Bassez C2	40	0.01	0.001	0.05	500
+Wu TNBC	30	0.1	0.01	0.01	500
+Shiao	80	1.0	0.01	0.05	500
+Tahoe	60	0.001	0.0001	0.01	500

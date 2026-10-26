@@ -1,0 +1,22 @@
+panel	celltype	score_name	biopsy_median	surgery_median	recurrence_median	patient	score_family	patients_in_treatment_direction	paired_wilcoxon_two_sided_p
+L	Epithelial	Fatty_acid_activation_cytosolic	0.0047322451137006	0.0051694558933377		P1	pathway	7	0.015625
+L	Epithelial	Fatty_acid_activation_cytosolic	0.0073126410134136	0.0078017574269324		P2	pathway	7	0.015625
+L	Epithelial	Fatty_acid_activation_cytosolic	0.0073222178034484	0.0077470475807785	0.0093776145949959	P3	pathway	7	0.015625
+L	Epithelial	Fatty_acid_activation_cytosolic	0.0060030799359083	0.0070505263283848		P4	pathway	7	0.015625
+L	Epithelial	Fatty_acid_activation_cytosolic	0.0066800296772271	0.0071133913006633		P5	pathway	7	0.015625
+L	Epithelial	Fatty_acid_activation_cytosolic	0.0087646935135126	0.0118380663916468		P6	pathway	7	0.015625
+L	Epithelial	Fatty_acid_activation_cytosolic	0.0069672893732786	0.008684211410582		P7	pathway	7	0.015625
+M	Epithelial	Fatty_acid_activation_endoplasmic_reticular	0.0044940924271941	0.0049408252816647		P1	pathway	7	0.015625
+M	Epithelial	Fatty_acid_activation_endoplasmic_reticular	0.0073233288712799	0.0078965937718749		P2	pathway	7	0.015625
+M	Epithelial	Fatty_acid_activation_endoplasmic_reticular	0.0074786264449357	0.0078789303079247	0.0097873993217945	P3	pathway	7	0.015625
+M	Epithelial	Fatty_acid_activation_endoplasmic_reticular	0.0058170084375888	0.0070516858249902		P4	pathway	7	0.015625
+M	Epithelial	Fatty_acid_activation_endoplasmic_reticular	0.0064504798501729	0.0069000620860606		P5	pathway	7	0.015625
+M	Epithelial	Fatty_acid_activation_endoplasmic_reticular	0.0090144099667668	0.0129429316148161		P6	pathway	7	0.015625
+M	Epithelial	Fatty_acid_activation_endoplasmic_reticular	0.0068003102205693	0.0089887119829654		P7	pathway	7	0.015625
+N	Myeloid	Carnitine_shuttle_peroxisomal	0.0053895632736384	0.0052614463493227		P1	pathway	6	0.046875
+N	Myeloid	Carnitine_shuttle_peroxisomal	0.005553102819249	0.0044501540251076		P2	pathway	6	0.046875
+N	Myeloid	Carnitine_shuttle_peroxisomal	0.0058438065461814	0.0045951001811772	0.0058470400981605	P3	pathway	6	0.046875
+N	Myeloid	Carnitine_shuttle_peroxisomal	0.0041462462395429	0.0045882887206971		P4	pathway	6	0.046875
+N	Myeloid	Carnitine_shuttle_peroxisomal	0.0054182256571948	0.0048988824710249		P5	pathway	6	0.046875
+N	Myeloid	Carnitine_shuttle_peroxisomal	0.0058357887901365	0.0036882773274555		P6	pathway	6	0.046875
+N	Myeloid	Carnitine_shuttle_peroxisomal	0.0062931110151112	0.0054196813143789		P7	pathway	6	0.046875

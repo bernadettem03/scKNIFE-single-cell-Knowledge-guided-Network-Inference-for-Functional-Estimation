@@ -1,0 +1,619 @@
+celltype	mean_pathway_z	pathways_averaged	timepoint	patient	record_type	pathway	biopsy_median	surgery_median	paired_log2_ratio	median_paired_log2_ratio	patients_in_median_direction	patients	paired_wilcoxon_two_sided_nominal_p	screen_wide_pathway_BH_q
+CAF	-0.4423941163007169	10.0	Surgery	P1	surgery_tile									
+Endothelial	0.7588892252011828	10.0	Surgery	P1	surgery_tile									
+Epithelial	0.3142210658136358	10.0	Surgery	P1	surgery_tile									
+Myeloid	-0.5477078066102667	10.0	Surgery	P1	surgery_tile									
+PVL	-0.35221063482174	10.0	Surgery	P1	surgery_tile									
+T cells	0.2692022667179037	10.0	Surgery	P1	surgery_tile									
+CAF	-0.4182532209443318	10.0	Surgery	P2	surgery_tile									
+Endothelial	0.8352579050428643	10.0	Surgery	P2	surgery_tile									
+Epithelial	-0.0054003531356579	10.0	Surgery	P2	surgery_tile									
+Myeloid	-0.3502823065138253	10.0	Surgery	P2	surgery_tile									
+PVL	-0.0107678147009061	10.0	Surgery	P2	surgery_tile									
+T cells	-0.050554209748144	10.0	Surgery	P2	surgery_tile									
+CAF	-0.5705697850867265	10.0	Surgery	P3	surgery_tile									
+Endothelial	0.9475782134394466	10.0	Surgery	P3	surgery_tile									
+Epithelial	0.1067990806140058	10.0	Surgery	P3	surgery_tile									
+Myeloid	-0.6166543662522781	10.0	Surgery	P3	surgery_tile									
+PVL	-0.0476183306714434	10.0	Surgery	P3	surgery_tile									
+T cells	0.1804651879569945	10.0	Surgery	P3	surgery_tile									
+CAF	-0.3454028189366439	10.0	Surgery	P4	surgery_tile									
+Endothelial	1.0177356076671296	10.0	Surgery	P4	surgery_tile									
+Epithelial	0.0801474711550425	10.0	Surgery	P4	surgery_tile									
+Myeloid	-0.4893303307751432	10.0	Surgery	P4	surgery_tile									
+PVL	0.0013083280271961	10.0	Surgery	P4	surgery_tile									
+T cells	-0.2644582571375817	10.0	Surgery	P4	surgery_tile									
+CAF	-0.1913612598087163	10.0	Surgery	P5	surgery_tile									
+Endothelial	0.9914105093899072	10.0	Surgery	P5	surgery_tile									
+Epithelial	0.0020074363556172	10.0	Surgery	P5	surgery_tile									
+Myeloid	-0.6348310197641898	10.0	Surgery	P5	surgery_tile									
+PVL	0.0023236145319208	10.0	Surgery	P5	surgery_tile									
+T cells	-0.169549280704539	10.0	Surgery	P5	surgery_tile									
+CAF	-0.5670807000576319	10.0	Surgery	P6	surgery_tile									
+Endothelial	1.2292956066364105	10.0	Surgery	P6	surgery_tile									
+Epithelial	-0.2707914494733175	10.0	Surgery	P6	surgery_tile									
+Myeloid	-0.609262178608126	10.0	Surgery	P6	surgery_tile									
+PVL	0.0158855668247064	10.0	Surgery	P6	surgery_tile									
+T cells	0.2019531546779581	10.0	Surgery	P6	surgery_tile									
+CAF	-0.5597502851458196	10.0	Surgery	P7	surgery_tile									
+Endothelial	0.7996598650296217	10.0	Surgery	P7	surgery_tile									
+Epithelial	0.2930839492046525	10.0	Surgery	P7	surgery_tile									
+Myeloid	-0.8174034227773059	10.0	Surgery	P7	surgery_tile									
+PVL	-0.1684856413324544	10.0	Surgery	P7	surgery_tile									
+T cells	0.4528955350213065	10.0	Surgery	P7	surgery_tile									
+CAF				P1	paired_pathway_patient_value	Fatty_acid_metabolism	0.0044467831030488	0.0051543451845645	0.2130271198803209					
+CAF				P2	paired_pathway_patient_value	Fatty_acid_metabolism	0.0051798690110445	0.0050731636583805	-0.0300299133543236					
+CAF				P3	paired_pathway_patient_value	Fatty_acid_metabolism	0.0056528709828853	0.0047913109883666	-0.2385633131832543					
+CAF				P4	paired_pathway_patient_value	Fatty_acid_metabolism	0.0050045680254697	0.004147850908339	-0.2708815083043709					
+CAF				P5	paired_pathway_patient_value	Fatty_acid_metabolism	0.0058337859809398	0.0054080099798738	-0.1093346463479394					
+CAF				P6	paired_pathway_patient_value	Fatty_acid_metabolism	0.0051828734576702	0.0051176194101572	-0.0182793098100331					
+CAF				P7	paired_pathway_patient_value	Fatty_acid_metabolism	0.0058341682888567	0.0056882938370108	-0.0365310105642543					
+Endothelial				P1	paired_pathway_patient_value	Fatty_acid_metabolism	0.0051930332556366	0.0054592662490904	0.0721295948937622					
+Endothelial				P2	paired_pathway_patient_value	Fatty_acid_metabolism	0.0053238165564835	0.005106059834361	-0.0602504171716434					
+Endothelial				P3	paired_pathway_patient_value	Fatty_acid_metabolism	0.0061580776236951	0.0051038470119237	-0.2708949680393085					
+Endothelial				P4	paired_pathway_patient_value	Fatty_acid_metabolism	0.0048955976963043	0.0046368003822863	-0.0783553881401706					
+Endothelial				P5	paired_pathway_patient_value	Fatty_acid_metabolism	0.0056041982024908	0.0055736126378178	-0.0078952405320141					
+Endothelial				P6	paired_pathway_patient_value	Fatty_acid_metabolism	0.0052909846417605	0.0055626686662435	0.0722409457193306					
+Endothelial				P7	paired_pathway_patient_value	Fatty_acid_metabolism	0.0057914573699235	0.0059694526717066	0.0436722238896847					
+Epithelial				P1	paired_pathway_patient_value	Fatty_acid_metabolism	0.0043197516351938	0.0055614113807678	0.3645026912709972					
+Epithelial				P2	paired_pathway_patient_value	Fatty_acid_metabolism	0.0050347582437098	0.0052138688042759	0.0504317756846073					
+Epithelial				P3	paired_pathway_patient_value	Fatty_acid_metabolism	0.0050502978265285	0.0043152463622391	-0.226925542261173					
+Epithelial				P4	paired_pathway_patient_value	Fatty_acid_metabolism	0.0050793974660336	0.0040919249877333	-0.311877672004327					
+Epithelial				P5	paired_pathway_patient_value	Fatty_acid_metabolism	0.0064448164775967	0.0054709445685148	-0.2363493385891609					
+Epithelial				P6	paired_pathway_patient_value	Fatty_acid_metabolism	0.0057688541710376	0.0051708621904253	-0.1578799386380338					
+Epithelial				P7	paired_pathway_patient_value	Fatty_acid_metabolism	0.0039272266440093	0.0058073657564818	0.5643730402499934					
+Myeloid				P1	paired_pathway_patient_value	Fatty_acid_metabolism	0.0055927657522261	0.0060992967337369	0.1250809997693619					
+Myeloid				P2	paired_pathway_patient_value	Fatty_acid_metabolism	0.0059031834825873	0.005531433969736	-0.0938396508738486					
+Myeloid				P3	paired_pathway_patient_value	Fatty_acid_metabolism	0.0060827583074569	0.0057962085120379	-0.0696161861018972					
+Myeloid				P4	paired_pathway_patient_value	Fatty_acid_metabolism	0.0054479148238897	0.0052568237297236	-0.0515127878364992					
+Myeloid				P5	paired_pathway_patient_value	Fatty_acid_metabolism	0.0062073217704892	0.0060596135444939	-0.0347451453144253					
+Myeloid				P6	paired_pathway_patient_value	Fatty_acid_metabolism	0.0059037348255515	0.0057898676022887	-0.0280975639196036					
+Myeloid				P7	paired_pathway_patient_value	Fatty_acid_metabolism	0.0064473929814994	0.0058537269942462	-0.1393604583210946					
+PVL				P1	paired_pathway_patient_value	Fatty_acid_metabolism	0.0041511110030114	0.0041610244661569	0.003441260300018					
+PVL				P2	paired_pathway_patient_value	Fatty_acid_metabolism	0.0047260071150958	0.0050483015365898	0.095176284189844					
+PVL				P3	paired_pathway_patient_value	Fatty_acid_metabolism	0.0054814363829791	0.0042000245302915	-0.3841562397519671					
+PVL				P4	paired_pathway_patient_value	Fatty_acid_metabolism	0.0046522505581378	0.004091961774975	-0.1851361304901003					
+PVL				P5	paired_pathway_patient_value	Fatty_acid_metabolism	0.0061604203656315	0.0053735575638711	-0.1971512579651654					
+PVL				P6	paired_pathway_patient_value	Fatty_acid_metabolism	0.0043786214664578	0.0051535069942474	0.2350777960060503					
+PVL				P7	paired_pathway_patient_value	Fatty_acid_metabolism	0.0044120168313384	0.0055048768408596	0.3192719924636166					
+T cells				P1	paired_pathway_patient_value	Fatty_acid_metabolism	0.0045523038133978	0.0055702538229525	0.2911462251835008					
+T cells				P2	paired_pathway_patient_value	Fatty_acid_metabolism	0.0053418669849634	0.0052860872820019	-0.01514380617947					
+T cells				P3	paired_pathway_patient_value	Fatty_acid_metabolism	0.005572875496	0.0054738512262701	-0.0258656981792179					
+T cells				P4	paired_pathway_patient_value	Fatty_acid_metabolism	0.0051956330426037	0.0045168567448854	-0.2019803811872558					
+T cells				P5	paired_pathway_patient_value	Fatty_acid_metabolism	0.0063540078699588	0.0057092299684882	-0.1543707015104983					
+T cells				P6	paired_pathway_patient_value	Fatty_acid_metabolism	0.0055536059662699	0.0055826208554208	0.0075177584077845					
+T cells				P7	paired_pathway_patient_value	Fatty_acid_metabolism	0.0057248333469033	0.0068323025479912	0.2551381656260517					
+CAF				P1	paired_pathway_patient_value	Fatty_acid_biosynthesis	0.0103045338764786	0.0078927855938673	-0.3846727820197714					
+CAF				P2	paired_pathway_patient_value	Fatty_acid_biosynthesis	0.0072700129821896	0.0072304853238165	-0.0078654535534942					
+CAF				P3	paired_pathway_patient_value	Fatty_acid_biosynthesis	0.0080706449225544	0.007797859609127	-0.0496057823716406					
+CAF				P4	paired_pathway_patient_value	Fatty_acid_biosynthesis	0.0085986191406846	0.0073637524619698	-0.223663864600118					
+CAF				P5	paired_pathway_patient_value	Fatty_acid_biosynthesis	0.0076709217391908	0.0082128001376986	0.0984742472373362					
+CAF				P6	paired_pathway_patient_value	Fatty_acid_biosynthesis	0.0062201567925512	0.005124058574438	-0.279663979479992					
+CAF				P7	paired_pathway_patient_value	Fatty_acid_biosynthesis	0.0073705781251192	0.0067318519577383	-0.130774333991042					
+Endothelial				P1	paired_pathway_patient_value	Fatty_acid_biosynthesis	0.0104110008105635	0.0096657872200012	-0.1071496205908821					
+Endothelial				P2	paired_pathway_patient_value	Fatty_acid_biosynthesis	0.0098223453387618	0.0088853631168603	-0.1446368105239414					
+Endothelial				P3	paired_pathway_patient_value	Fatty_acid_biosynthesis	0.0097882933914661	0.0098171364516019	0.0042449229806353					
+Endothelial				P4	paired_pathway_patient_value	Fatty_acid_biosynthesis	0.009790320880711	0.0089770397171378	-0.1251163673832336					
+Endothelial				P5	paired_pathway_patient_value	Fatty_acid_biosynthesis	0.0093385223299264	0.0090052364394068	-0.0524301291483837					
+Endothelial				P6	paired_pathway_patient_value	Fatty_acid_biosynthesis	0.0090689295902848	0.0075915977358818	-0.2565287301199322					
+Endothelial				P7	paired_pathway_patient_value	Fatty_acid_biosynthesis	0.0092564672231674	0.0081572886556386	-0.1823719822644807					
+Epithelial				P1	paired_pathway_patient_value	Fatty_acid_biosynthesis	0.0108636682853102	0.0092290695756673	-0.2352542179714007					
+Epithelial				P2	paired_pathway_patient_value	Fatty_acid_biosynthesis	0.0087256617844104	0.0082498602569103	-0.0808948724801592					
+Epithelial				P3	paired_pathway_patient_value	Fatty_acid_biosynthesis	0.0100863268598914	0.0099747506901621	-0.0160481954363366					
+Epithelial				P4	paired_pathway_patient_value	Fatty_acid_biosynthesis	0.008849523961544	0.0078998981043696	-0.1637658060105596					
+Epithelial				P5	paired_pathway_patient_value	Fatty_acid_biosynthesis	0.0088641308248043	0.009042851626873	0.0287986183310103					
+Epithelial				P6	paired_pathway_patient_value	Fatty_acid_biosynthesis	0.0075783506035804	0.0056075532920658	-0.434512459794685					
+Epithelial				P7	paired_pathway_patient_value	Fatty_acid_biosynthesis	0.0086805308237671	0.0088636968284845	0.03012526895977					
+Myeloid				P1	paired_pathway_patient_value	Fatty_acid_biosynthesis	0.0070382128469645	0.0064947800710797	-0.1159284708177287					
+Myeloid				P2	paired_pathway_patient_value	Fatty_acid_biosynthesis	0.0063038151711225	0.0063374177552759	0.007669884097945					
+Myeloid				P3	paired_pathway_patient_value	Fatty_acid_biosynthesis	0.0059632956981658	0.0059509500861167	-0.0029898593628401					
+Myeloid				P4	paired_pathway_patient_value	Fatty_acid_biosynthesis	0.0073997499421238	0.0058162431232631	-0.3473889426996966					
+Myeloid				P5	paired_pathway_patient_value	Fatty_acid_biosynthesis	0.0060898633673787	0.0054682726040482	-0.1553246941862573					
+Myeloid				P6	paired_pathway_patient_value	Fatty_acid_biosynthesis	0.0053510987199842	0.0043388325721025	-0.302528228637529					
+Myeloid				P7	paired_pathway_patient_value	Fatty_acid_biosynthesis	0.0058387168683111	0.0054593933746218	-0.0969106998020434					
+PVL				P1	paired_pathway_patient_value	Fatty_acid_biosynthesis	0.0108988378196954	0.0094257872551679	-0.2094892792342003					
+PVL				P2	paired_pathway_patient_value	Fatty_acid_biosynthesis	0.0087624611333012	0.0077792406082153	-0.1717068104569968					
+PVL				P3	paired_pathway_patient_value	Fatty_acid_biosynthesis	0.0089420359581708	0.0099819190800189	0.158713861123792					
+PVL				P4	paired_pathway_patient_value	Fatty_acid_biosynthesis	0.0093900291249156	0.0078693572431802	-0.2548838292068188					
+PVL				P5	paired_pathway_patient_value	Fatty_acid_biosynthesis	0.0087193492799997	0.0089092664420604	0.0310861786349733					
+PVL				P6	paired_pathway_patient_value	Fatty_acid_biosynthesis	0.0073513421230018	0.0061119715683162	-0.2663698323092023					
+PVL				P7	paired_pathway_patient_value	Fatty_acid_biosynthesis	0.0085066743195056	0.0075355335138738	-0.1748855632734203					
+T cells				P1	paired_pathway_patient_value	Fatty_acid_biosynthesis	0.0094289444386959	0.0069794603623449	-0.4339807771054301					
+T cells				P2	paired_pathway_patient_value	Fatty_acid_biosynthesis	0.0072581684216856	0.0067848730832338	-0.0972837050560845					
+T cells				P3	paired_pathway_patient_value	Fatty_acid_biosynthesis	0.007157904561609	0.0068746204487979	-0.0582572442013039					
+T cells				P4	paired_pathway_patient_value	Fatty_acid_biosynthesis	0.0078379465267062	0.0073635675944387	-0.0900708195718721					
+T cells				P5	paired_pathway_patient_value	Fatty_acid_biosynthesis	0.0080401059240102	0.007173937279731	-0.1644493760873081					
+T cells				P6	paired_pathway_patient_value	Fatty_acid_biosynthesis	0.0060508497990667	0.0055627701804041	-0.1213342694341999					
+T cells				P7	paired_pathway_patient_value	Fatty_acid_biosynthesis	0.0068345377221703	0.0066216085106134	-0.0456620426217638					
+CAF				P1	paired_pathway_patient_value	Fatty_acid_elongation_even_chain	0.0054625049233436	0.005160195287317	-0.0821370095126612					
+CAF				P2	paired_pathway_patient_value	Fatty_acid_elongation_even_chain	0.005219011567533	0.0052044307813048	-0.0040362177868503					
+CAF				P3	paired_pathway_patient_value	Fatty_acid_elongation_even_chain	0.0052706748247146	0.0051549114286899	-0.0320400479422019					
+CAF				P4	paired_pathway_patient_value	Fatty_acid_elongation_even_chain	0.0057522957213222	0.0051553244702517	-0.1580746135481715					
+CAF				P5	paired_pathway_patient_value	Fatty_acid_elongation_even_chain	0.0057926713488996	0.0060097812674939	0.0530836683822841					
+CAF				P6	paired_pathway_patient_value	Fatty_acid_elongation_even_chain	0.0047054709866642	0.0035378714092075	-0.4114575230216858					
+CAF				P7	paired_pathway_patient_value	Fatty_acid_elongation_even_chain	0.0058529339730739	0.0051341196522116	-0.1890430849730884					
+Endothelial				P1	paired_pathway_patient_value	Fatty_acid_elongation_even_chain	0.0070712054148316	0.0070790983736515	0.0016094543125788					
+Endothelial				P2	paired_pathway_patient_value	Fatty_acid_elongation_even_chain	0.0077456356957554	0.0075361728668212	-0.0395515897167599					
+Endothelial				P3	paired_pathway_patient_value	Fatty_acid_elongation_even_chain	0.0073266131803393	0.0075284782797098	0.0392118361144876					
+Endothelial				P4	paired_pathway_patient_value	Fatty_acid_elongation_even_chain	0.006363573949784	0.0070749898441135	0.1528908285681437					
+Endothelial				P5	paired_pathway_patient_value	Fatty_acid_elongation_even_chain	0.0082324631512165	0.0080159474164247	-0.0384511046114431					
+Endothelial				P6	paired_pathway_patient_value	Fatty_acid_elongation_even_chain	0.0077904118224978	0.0069906585849821	-0.1562712178336382					
+Endothelial				P7	paired_pathway_patient_value	Fatty_acid_elongation_even_chain	0.0080677755177021	0.0074005015194416	-0.1245478991040739					
+Epithelial				P1	paired_pathway_patient_value	Fatty_acid_elongation_even_chain	0.0059107090346515	0.0065131178125739	0.1400171200462391					
+Epithelial				P2	paired_pathway_patient_value	Fatty_acid_elongation_even_chain	0.0066735506989061	0.0067814560607075	0.0231405112928452					
+Epithelial				P3	paired_pathway_patient_value	Fatty_acid_elongation_even_chain	0.0066247335635125	0.0078296596184372	0.2410871573099117					
+Epithelial				P4	paired_pathway_patient_value	Fatty_acid_elongation_even_chain	0.0066284942440688	0.0055027524940669	-0.2685277392673216					
+Epithelial				P5	paired_pathway_patient_value	Fatty_acid_elongation_even_chain	0.0064702676609158	0.0065985908731818	0.0283325757193911					
+Epithelial				P6	paired_pathway_patient_value	Fatty_acid_elongation_even_chain	0.0074987253174185	0.0046400027349591	-0.6925197219495134					
+Epithelial				P7	paired_pathway_patient_value	Fatty_acid_elongation_even_chain	0.0087029598653316	0.0068533886224031	-0.3446886455717544					
+Myeloid				P1	paired_pathway_patient_value	Fatty_acid_elongation_even_chain	0.0047644334845244	0.0047787739895284	0.0043358569080192					
+Myeloid				P2	paired_pathway_patient_value	Fatty_acid_elongation_even_chain	0.0049590244889259	0.0044124363921582	-0.1684808685204812					
+Myeloid				P3	paired_pathway_patient_value	Fatty_acid_elongation_even_chain	0.0048135318793356	0.0044526788406074	-0.112422287200438					
+Myeloid				P4	paired_pathway_patient_value	Fatty_acid_elongation_even_chain	0.0050900531932711	0.0041423691436648	-0.2972246093553809					
+Myeloid				P5	paired_pathway_patient_value	Fatty_acid_elongation_even_chain	0.0048093581572175	0.0043429378420114	-0.1471730645390531					
+Myeloid				P6	paired_pathway_patient_value	Fatty_acid_elongation_even_chain	0.0040184636600315	0.002963421633467	-0.4393801288090777					
+Myeloid				P7	paired_pathway_patient_value	Fatty_acid_elongation_even_chain	0.0048189824447035	0.0045019211247563	-0.0981877649380037					
+PVL				P1	paired_pathway_patient_value	Fatty_acid_elongation_even_chain	0.0057690171524882	0.005816432647407	0.0118090333133484					
+PVL				P2	paired_pathway_patient_value	Fatty_acid_elongation_even_chain	0.0063201189041137	0.0061969491653144	-0.0283935672560846					
+PVL				P3	paired_pathway_patient_value	Fatty_acid_elongation_even_chain	0.0067517799325287	0.0076499599963426	0.1801843219737269					
+PVL				P4	paired_pathway_patient_value	Fatty_acid_elongation_even_chain	0.0059283222071826	0.0055750925093889	-0.0886281165921489					
+PVL				P5	paired_pathway_patient_value	Fatty_acid_elongation_even_chain	0.0064359880052506	0.0065152766183018	0.0176647951070312					
+PVL				P6	paired_pathway_patient_value	Fatty_acid_elongation_even_chain	0.0058483611792325	0.0045969644561409	-0.3473508998114699					
+PVL				P7	paired_pathway_patient_value	Fatty_acid_elongation_even_chain	0.0070596314035356	0.0062883719801902	-0.1669062988695731					
+T cells				P1	paired_pathway_patient_value	Fatty_acid_elongation_even_chain	0.0060775415040552	0.0063097542151808	0.0540959682056306					
+T cells				P2	paired_pathway_patient_value	Fatty_acid_elongation_even_chain	0.0067407828755676	0.006196055561304	-0.1215660748348805					
+T cells				P3	paired_pathway_patient_value	Fatty_acid_elongation_even_chain	0.0063297823071479	0.0065862475894391	0.057300863002041					
+T cells				P4	paired_pathway_patient_value	Fatty_acid_elongation_even_chain	0.0062576392665505	0.0050463788211345	-0.3103699836044351					
+T cells				P5	paired_pathway_patient_value	Fatty_acid_elongation_even_chain	0.0064395391382277	0.0062221717089414	-0.0495392334722765					
+T cells				P6	paired_pathway_patient_value	Fatty_acid_elongation_even_chain	0.0054443981498479	0.0052840705029666	-0.0431228593145726					
+T cells				P7	paired_pathway_patient_value	Fatty_acid_elongation_even_chain	0.006601383909583	0.0068451631814241	0.0523164324374719					
+CAF				P1	paired_pathway_patient_value	Fatty_acid_oxidation	0.0080149881541728	0.00803102273494	0.0028833356795526					
+CAF				P2	paired_pathway_patient_value	Fatty_acid_oxidation	0.0087857386097311	0.0083589032292366	-0.071849918635367					
+CAF				P3	paired_pathway_patient_value	Fatty_acid_oxidation	0.0102763213217258	0.008250436745584	-0.3167815094069142					
+CAF				P4	paired_pathway_patient_value	Fatty_acid_oxidation	0.0076929097995162	0.0081446878612041	0.0823300170153075					
+CAF				P5	paired_pathway_patient_value	Fatty_acid_oxidation	0.0093130255118012	0.0101762441918253	0.1278833597295408					
+CAF				P6	paired_pathway_patient_value	Fatty_acid_oxidation	0.0078459605574607	0.0072564096190035	-0.1126941855980355					
+CAF				P7	paired_pathway_patient_value	Fatty_acid_oxidation	0.0107859540730714	0.0082906298339366	-0.3796001843014072					
+Endothelial				P1	paired_pathway_patient_value	Fatty_acid_oxidation	0.0093562100082635	0.0075737847946584	-0.3049098162574767					
+Endothelial				P2	paired_pathway_patient_value	Fatty_acid_oxidation	0.010698040947318	0.0084936507046222	-0.3328899455941961					
+Endothelial				P3	paired_pathway_patient_value	Fatty_acid_oxidation	0.0080909514799714	0.0090941153466701	0.168623932122961					
+Endothelial				P4	paired_pathway_patient_value	Fatty_acid_oxidation	0.00790711119771	0.0080165602266788	0.0198326194715417					
+Endothelial				P5	paired_pathway_patient_value	Fatty_acid_oxidation	0.010115192271769	0.0111590418964624	0.1416894209965633					
+Endothelial				P6	paired_pathway_patient_value	Fatty_acid_oxidation	0.0088703958317637	0.0084611400961875	-0.0681464122958032					
+Endothelial				P7	paired_pathway_patient_value	Fatty_acid_oxidation	0.0111811775714159	0.008822226896882	-0.3418573665556559					
+Epithelial				P1	paired_pathway_patient_value	Fatty_acid_oxidation	0.0079471757635474	0.0074675884097814	-0.0897998392189928					
+Epithelial				P2	paired_pathway_patient_value	Fatty_acid_oxidation	0.0074604442343115	0.0080188494175672	0.1041337080912236					
+Epithelial				P3	paired_pathway_patient_value	Fatty_acid_oxidation	0.009789421223104	0.0085873370990157	-0.1890127399417793					
+Epithelial				P4	paired_pathway_patient_value	Fatty_acid_oxidation	0.008344454690814	0.0086902370676398	0.0585777612527801					
+Epithelial				P5	paired_pathway_patient_value	Fatty_acid_oxidation	0.0087459590286016	0.0096261389553546	0.1383406590888015					
+Epithelial				P6	paired_pathway_patient_value	Fatty_acid_oxidation	0.0096761835739016	0.009460624307394	-0.0325027497190307					
+Epithelial				P7	paired_pathway_patient_value	Fatty_acid_oxidation	0.0102929593995213	0.014451646246016	0.4895760043244423					
+Myeloid				P1	paired_pathway_patient_value	Fatty_acid_oxidation	0.0100169228389859	0.007590489462018	-0.4001745621931027					
+Myeloid				P2	paired_pathway_patient_value	Fatty_acid_oxidation	0.0099872909486293	0.0091643836349248	-0.1240555469425004					
+Myeloid				P3	paired_pathway_patient_value	Fatty_acid_oxidation	0.0095508219674229	0.0080939661711454	-0.2387780811502966					
+Myeloid				P4	paired_pathway_patient_value	Fatty_acid_oxidation	0.0081305429339408	0.0077461046166718	-0.0698807083595306					
+Myeloid				P5	paired_pathway_patient_value	Fatty_acid_oxidation	0.0085902661085128	0.0101151345297694	0.2357407788015385					
+Myeloid				P6	paired_pathway_patient_value	Fatty_acid_oxidation	0.0079389531165361	0.006936009041965	-0.1948429971954043					
+Myeloid				P7	paired_pathway_patient_value	Fatty_acid_oxidation	0.0101173250004649	0.0073227789252996	-0.4663647482574464					
+PVL				P1	paired_pathway_patient_value	Fatty_acid_oxidation	0.0081232050433754	0.0091015249490737	0.1640592264132513					
+PVL				P2	paired_pathway_patient_value	Fatty_acid_oxidation	0.0092122796922922	0.0081787006929516	-0.1716865451712239					
+PVL				P3	paired_pathway_patient_value	Fatty_acid_oxidation	0.0127166332677006	0.0085358014330267	-0.5751182467662419					
+PVL				P4	paired_pathway_patient_value	Fatty_acid_oxidation	0.008060616441071	0.0087053002789616	0.1110038887341209					
+PVL				P5	paired_pathway_patient_value	Fatty_acid_oxidation	0.0095457695424556	0.0102055948227643	0.0964268590023107					
+PVL				P6	paired_pathway_patient_value	Fatty_acid_oxidation	0.0101656792685389	0.0086288843303918	-0.2364606753287333					
+PVL				P7	paired_pathway_patient_value	Fatty_acid_oxidation	0.012142464518547	0.010327648371458	-0.233549483950561					
+T cells				P1	paired_pathway_patient_value	Fatty_acid_oxidation	0.0084115248173475	0.007579568773508	-0.1502515807653027					
+T cells				P2	paired_pathway_patient_value	Fatty_acid_oxidation	0.0084291500970721	0.0077282250858843	-0.1252500594493113					
+T cells				P3	paired_pathway_patient_value	Fatty_acid_oxidation	0.0074934219010174	0.0084751890972256	0.177620876213943					
+T cells				P4	paired_pathway_patient_value	Fatty_acid_oxidation	0.0073412107303738	0.0075920047238469	0.0484628745486921					
+T cells				P5	paired_pathway_patient_value	Fatty_acid_oxidation	0.0083832265809178	0.0088935028761625	0.0852461410520469					
+T cells				P6	paired_pathway_patient_value	Fatty_acid_oxidation	0.0085767619311809	0.0081146145239472	-0.0799105130260482					
+T cells				P7	paired_pathway_patient_value	Fatty_acid_oxidation	0.00836943089962	0.0092097036540508	0.1380252081783143					
+CAF				P1	paired_pathway_patient_value	Carnitine_shuttle_peroxisomal	0.0051232674159109	0.0049729635939002	-0.0429583276983246					
+CAF				P2	paired_pathway_patient_value	Carnitine_shuttle_peroxisomal	0.0055194781161844	0.006051184143871	0.1326856259103673					
+CAF				P3	paired_pathway_patient_value	Carnitine_shuttle_peroxisomal	0.0050869188271462	0.0050752134993672	-0.0033235595177765					
+CAF				P4	paired_pathway_patient_value	Carnitine_shuttle_peroxisomal	0.0057091899216175	0.0054261768236756	-0.0733499940347014					
+CAF				P5	paired_pathway_patient_value	Carnitine_shuttle_peroxisomal	0.0057701058685779	0.0070269112475216	0.2842928875558124					
+CAF				P6	paired_pathway_patient_value	Carnitine_shuttle_peroxisomal	0.0060759214684367	0.0059420280158519	-0.0321478157612288					
+CAF				P7	paired_pathway_patient_value	Carnitine_shuttle_peroxisomal	0.0053109158761799	0.0047298022545874	-0.1671808095476463					
+Endothelial				P1	paired_pathway_patient_value	Carnitine_shuttle_peroxisomal	0.0052162455394864	0.0043292879126966	-0.2688820338361006					
+Endothelial				P2	paired_pathway_patient_value	Carnitine_shuttle_peroxisomal	0.0058966409415006	0.0059338295832276	0.009070145706134					
+Endothelial				P3	paired_pathway_patient_value	Carnitine_shuttle_peroxisomal	0.0035549781750887	0.0045074713416397	0.3424776162756396					
+Endothelial				P4	paired_pathway_patient_value	Carnitine_shuttle_peroxisomal	0.0048461249098181	0.0049166297540068	0.0208381263211351					
+Endothelial				P5	paired_pathway_patient_value	Carnitine_shuttle_peroxisomal	0.0049060555174946	0.005098367575556	0.0554718309908518					
+Endothelial				P6	paired_pathway_patient_value	Carnitine_shuttle_peroxisomal	0.006099862512201	0.0061126397922635	0.0030188285494003					
+Endothelial				P7	paired_pathway_patient_value	Carnitine_shuttle_peroxisomal	0.0052997814491391	0.0050324164330959	-0.074681557105988					
+Epithelial				P1	paired_pathway_patient_value	Carnitine_shuttle_peroxisomal	0.0054148412309587	0.0069593591615557	0.3620354274852627					
+Epithelial				P2	paired_pathway_patient_value	Carnitine_shuttle_peroxisomal	0.0084011610597372	0.0093912221491336	0.1607241932273513					
+Epithelial				P3	paired_pathway_patient_value	Carnitine_shuttle_peroxisomal	0.0072858491912484	0.007546464446932	0.0507037602530414					
+Epithelial				P4	paired_pathway_patient_value	Carnitine_shuttle_peroxisomal	0.0086519457399845	0.006119115743786	-0.4997014294014603					
+Epithelial				P5	paired_pathway_patient_value	Carnitine_shuttle_peroxisomal	0.0077767567709088	0.0077344672754406	-0.0078666901309045					
+Epithelial				P6	paired_pathway_patient_value	Carnitine_shuttle_peroxisomal	0.0081837084144353	0.0068546528927981	-0.2556711303772624					
+Epithelial				P7	paired_pathway_patient_value	Carnitine_shuttle_peroxisomal	0.01378701813519	0.0082898484542965	-0.7338928302703929					
+Myeloid				P1	paired_pathway_patient_value	Carnitine_shuttle_peroxisomal	0.0053895632736384	0.0052614463493227	-0.0347089286487375					
+Myeloid				P2	paired_pathway_patient_value	Carnitine_shuttle_peroxisomal	0.0055531030520796	0.0044501540251076	-0.3194388987581216					
+Myeloid				P3	paired_pathway_patient_value	Carnitine_shuttle_peroxisomal	0.0058438065461814	0.0045950999483466	-0.3468121778267103					
+Myeloid				P4	paired_pathway_patient_value	Carnitine_shuttle_peroxisomal	0.0041462462395429	0.0045882887206971	0.1461503780673317					
+Myeloid				P5	paired_pathway_patient_value	Carnitine_shuttle_peroxisomal	0.0054182256571948	0.0048988824710249	-0.1453677994971477					
+Myeloid				P6	paired_pathway_patient_value	Carnitine_shuttle_peroxisomal	0.0058357887901365	0.0036882772110402	-0.6619805770850573					
+Myeloid				P7	paired_pathway_patient_value	Carnitine_shuttle_peroxisomal	0.0062931110151112	0.0054196813143789	-0.2155653719575942					
+PVL				P1	paired_pathway_patient_value	Carnitine_shuttle_peroxisomal	0.005237391218543	0.0055574448779225	0.0855733596915584					
+PVL				P2	paired_pathway_patient_value	Carnitine_shuttle_peroxisomal	0.0077795162796974	0.0090918382629752	0.2248915668340696					
+PVL				P3	paired_pathway_patient_value	Carnitine_shuttle_peroxisomal	0.0069485385902225	0.0071267583407461	0.0365364217110643					
+PVL				P4	paired_pathway_patient_value	Carnitine_shuttle_peroxisomal	0.0046778316609561	0.0060409591533243	0.3689376866497008					
+PVL				P5	paired_pathway_patient_value	Carnitine_shuttle_peroxisomal	0.0072139888070523	0.0076108761131763	0.0772653519992165					
+PVL				P6	paired_pathway_patient_value	Carnitine_shuttle_peroxisomal	0.0078519396483898	0.0063974885269999	-0.2955434290028018					
+PVL				P7	paired_pathway_patient_value	Carnitine_shuttle_peroxisomal	0.0077996426261961	0.0063366019167006	-0.2996986380937617					
+T cells				P1	paired_pathway_patient_value	Carnitine_shuttle_peroxisomal	0.0062270909547805	0.0073437839746475	0.2379652691293494					
+T cells				P2	paired_pathway_patient_value	Carnitine_shuttle_peroxisomal	0.0084057049825787	0.0084439665079116	0.0065520337013457					
+T cells				P3	paired_pathway_patient_value	Carnitine_shuttle_peroxisomal	0.0070344205014407	0.0084019526839256	0.2562930827035453					
+T cells				P4	paired_pathway_patient_value	Carnitine_shuttle_peroxisomal	0.0065713170915842	0.0045636687427759	-0.5259884830902661					
+T cells				P5	paired_pathway_patient_value	Carnitine_shuttle_peroxisomal	0.0078380433842539	0.0075871874578297	-0.0469283753499892					
+T cells				P6	paired_pathway_patient_value	Carnitine_shuttle_peroxisomal	0.0087007768452167	0.0076291859149932	-0.1896150970423252					
+T cells				P7	paired_pathway_patient_value	Carnitine_shuttle_peroxisomal	0.0083696581423282	0.0066169872879981	-0.3389941893025638					
+CAF				P1	paired_pathway_patient_value	Glycerolipid_metabolism	0.0072848489508032	0.0075639593414962	0.054242549655517					
+CAF				P2	paired_pathway_patient_value	Glycerolipid_metabolism	0.0088761560618877	0.009702923707664	0.1284844956162108					
+CAF				P3	paired_pathway_patient_value	Glycerolipid_metabolism	0.0081490762531757	0.0080632073804736	-0.0152827026801843					
+CAF				P4	paired_pathway_patient_value	Glycerolipid_metabolism	0.0076276222243905	0.0090119186788797	0.2406009025259628					
+CAF				P5	paired_pathway_patient_value	Glycerolipid_metabolism	0.0086441421881318	0.0091699920594692	0.0851976811646835					
+CAF				P6	paired_pathway_patient_value	Glycerolipid_metabolism	0.0080855851992964	0.0077916961163282	-0.0534147814176336					
+CAF				P7	paired_pathway_patient_value	Glycerolipid_metabolism	0.008652301505208	0.008785355836153	0.0220167818554398					
+Endothelial				P1	paired_pathway_patient_value	Glycerolipid_metabolism	0.0102198980748653	0.0110922334715724	0.1181690798920299					
+Endothelial				P2	paired_pathway_patient_value	Glycerolipid_metabolism	0.012108632363379	0.0123543972149491	0.0289886958477273					
+Endothelial				P3	paired_pathway_patient_value	Glycerolipid_metabolism	0.0098991747945547	0.0113994246348738	0.2035808380648029					
+Endothelial				P4	paired_pathway_patient_value	Glycerolipid_metabolism	0.0090677877888083	0.0116164842620491	0.3573509684805486					
+Endothelial				P5	paired_pathway_patient_value	Glycerolipid_metabolism	0.0125258145853877	0.0136938439682126	0.1286230505570166					
+Endothelial				P6	paired_pathway_patient_value	Glycerolipid_metabolism	0.0127837127074599	0.0118755176663398	-0.1063164881744945					
+Endothelial				P7	paired_pathway_patient_value	Glycerolipid_metabolism	0.0125582367181777	0.0129550108686089	0.0448763139092173					
+Epithelial				P1	paired_pathway_patient_value	Glycerolipid_metabolism	0.0072499425150454	0.0082728723064064	0.1904187579987381					
+Epithelial				P2	paired_pathway_patient_value	Glycerolipid_metabolism	0.0088835302740335	0.0092770429328084	0.0625319071757322					
+Epithelial				P3	paired_pathway_patient_value	Glycerolipid_metabolism	0.0081639699637889	0.0081951413303613	0.0054979551870003					
+Epithelial				P4	paired_pathway_patient_value	Glycerolipid_metabolism	0.0088133569806814	0.0096811680123209	0.1354894741377718					
+Epithelial				P5	paired_pathway_patient_value	Glycerolipid_metabolism	0.0094415266066789	0.0094796437770128	0.0058126982516645					
+Epithelial				P6	paired_pathway_patient_value	Glycerolipid_metabolism	0.0100740529596805	0.0094958581030368	-0.0852739384239919					
+Epithelial				P7	paired_pathway_patient_value	Glycerolipid_metabolism	0.0095775062218308	0.0093900691717863	-0.0285142723598582					
+Myeloid				P1	paired_pathway_patient_value	Glycerolipid_metabolism	0.0078650005161762	0.0076314541511237	-0.0434888757772258					
+Myeloid				P2	paired_pathway_patient_value	Glycerolipid_metabolism	0.0083649335429072	0.0086591811850667	0.0498765312041848					
+Myeloid				P3	paired_pathway_patient_value	Glycerolipid_metabolism	0.0079372329637408	0.007783549837768	-0.0282078761370873					
+Myeloid				P4	paired_pathway_patient_value	Glycerolipid_metabolism	0.0075912149623036	0.0082905478775501	0.1271366395503998					
+Myeloid				P5	paired_pathway_patient_value	Glycerolipid_metabolism	0.0077824424952268	0.0077766310423612	-0.0010777190041805					
+Myeloid				P6	paired_pathway_patient_value	Glycerolipid_metabolism	0.0073505286127328	0.0064494591206312	-0.1886698299886333					
+Myeloid				P7	paired_pathway_patient_value	Glycerolipid_metabolism	0.0076298918575048	0.0067800232209265	-0.1703723946627591					
+PVL				P1	paired_pathway_patient_value	Glycerolipid_metabolism	0.0071623949334025	0.0086879171431064	0.2785682733435214					
+PVL				P2	paired_pathway_patient_value	Glycerolipid_metabolism	0.0098836636170744	0.0102865556254982	0.0576421720935732					
+PVL				P3	paired_pathway_patient_value	Glycerolipid_metabolism	0.0086843827739357	0.0079501643776893	-0.1274386258761154					
+PVL				P4	paired_pathway_patient_value	Glycerolipid_metabolism	0.007503692060709	0.0094350976869463	0.3304368317321961					
+PVL				P5	paired_pathway_patient_value	Glycerolipid_metabolism	0.0096483621746301	0.0093749482184648	-0.0414733413607733					
+PVL				P6	paired_pathway_patient_value	Glycerolipid_metabolism	0.0100591825321316	0.0100468825548887	-0.0017651507948781					
+PVL				P7	paired_pathway_patient_value	Glycerolipid_metabolism	0.0096252271905541	0.009739726781845	0.0170607085171897					
+T cells				P1	paired_pathway_patient_value	Glycerolipid_metabolism	0.0079028280451893	0.0082447621971368	0.0611088653276999					
+T cells				P2	paired_pathway_patient_value	Glycerolipid_metabolism	0.0089325960725545	0.0088283559307456	-0.0169347298942641					
+T cells				P3	paired_pathway_patient_value	Glycerolipid_metabolism	0.0077415886335074	0.009017976000905	0.2201740217431181					
+T cells				P4	paired_pathway_patient_value	Glycerolipid_metabolism	0.0075414236634969	0.0087768230587244	0.2188619228705365					
+T cells				P5	paired_pathway_patient_value	Glycerolipid_metabolism	0.0092202574014663	0.0094147725030779	0.0301192073667728					
+T cells				P6	paired_pathway_patient_value	Glycerolipid_metabolism	0.0088762138038873	0.0077069760300219	-0.2037795146141978					
+T cells				P7	paired_pathway_patient_value	Glycerolipid_metabolism	0.0084739187732338	0.009934501722455	0.2294183092766255					
+CAF				P1	paired_pathway_patient_value	Glycerophospholipid_metabolism	0.0090406481176614	0.0085862558335065	-0.0743970425983541					
+CAF				P2	paired_pathway_patient_value	Glycerophospholipid_metabolism	0.0090609770268201	0.0090855611488223	0.0039090004112422					
+CAF				P3	paired_pathway_patient_value	Glycerophospholipid_metabolism	0.0090532023459672	0.0092534134164452	0.0315574477640835					
+CAF				P4	paired_pathway_patient_value	Glycerophospholipid_metabolism	0.0072933970950543	0.007857546210289	0.1074879065951257					
+CAF				P5	paired_pathway_patient_value	Glycerophospholipid_metabolism	0.008936308324337	0.0094053652137517	0.0738050020471377					
+CAF				P6	paired_pathway_patient_value	Glycerophospholipid_metabolism	0.0090641286224126	0.0097096413373947	0.0992496716567083					
+CAF				P7	paired_pathway_patient_value	Glycerophospholipid_metabolism	0.0093335043638944	0.0101209487766027	0.116853776979858					
+Endothelial				P1	paired_pathway_patient_value	Glycerophospholipid_metabolism	0.0103859771043062	0.0117927528917789	0.1832635891812717					
+Endothelial				P2	paired_pathway_patient_value	Glycerophospholipid_metabolism	0.0115779023617506	0.0111428815871477	-0.0552515284788635					
+Endothelial				P3	paired_pathway_patient_value	Glycerophospholipid_metabolism	0.010952454060316	0.0114732012152671	0.0670138202569814					
+Endothelial				P4	paired_pathway_patient_value	Glycerophospholipid_metabolism	0.0085232341662049	0.0100313406437635	0.2350415542502017					
+Endothelial				P5	paired_pathway_patient_value	Glycerophospholipid_metabolism	0.0118599254637956	0.012008192948997	0.0179241206529411					
+Endothelial				P6	paired_pathway_patient_value	Glycerophospholipid_metabolism	0.0119897592812776	0.0128586487844586	0.1009363549972199					
+Endothelial				P7	paired_pathway_patient_value	Glycerophospholipid_metabolism	0.0120194079354405	0.0140036260709166	0.2204346120924707					
+Epithelial				P1	paired_pathway_patient_value	Glycerophospholipid_metabolism	0.0093879848718643	0.0094701293855905	0.0125686195889575					
+Epithelial				P2	paired_pathway_patient_value	Glycerophospholipid_metabolism	0.0086345737800002	0.0083892093971371	-0.0415901083286409					
+Epithelial				P3	paired_pathway_patient_value	Glycerophospholipid_metabolism	0.0080313300713896	0.0096531063318252	0.2653543379495014					
+Epithelial				P4	paired_pathway_patient_value	Glycerophospholipid_metabolism	0.0074184518307447	0.0077534364536404	0.0637177390842935					
+Epithelial				P5	paired_pathway_patient_value	Glycerophospholipid_metabolism	0.0087459692731499	0.0093300817534327	0.0932714426623524					
+Epithelial				P6	paired_pathway_patient_value	Glycerophospholipid_metabolism	0.0081243570894002	0.0098220743238925	0.2737740877656517					
+Epithelial				P7	paired_pathway_patient_value	Glycerophospholipid_metabolism	0.0092934919521212	0.0087222997099161	-0.0915122149007268					
+Myeloid				P1	paired_pathway_patient_value	Glycerophospholipid_metabolism	0.0091873547062277	0.0091363536193966	-0.0080310386685284					
+Myeloid				P2	paired_pathway_patient_value	Glycerophospholipid_metabolism	0.0095989909023046	0.0092611368745565	-0.0516934438429628					
+Myeloid				P3	paired_pathway_patient_value	Glycerophospholipid_metabolism	0.0093608573079109	0.0098991747945547	0.0806676015260978					
+Myeloid				P4	paired_pathway_patient_value	Glycerophospholipid_metabolism	0.0076829437166452	0.0090950522571802	0.2434227422855321					
+Myeloid				P5	paired_pathway_patient_value	Glycerophospholipid_metabolism	0.0095102321356534	0.0099029475823044	0.0583774465947375					
+Myeloid				P6	paired_pathway_patient_value	Glycerophospholipid_metabolism	0.0100545408204197	0.0108754318207502	0.1132254889748386					
+Myeloid				P7	paired_pathway_patient_value	Glycerophospholipid_metabolism	0.0097653046250343	0.0102692078799009	0.0725879487384334					
+PVL				P1	paired_pathway_patient_value	Glycerophospholipid_metabolism	0.0093336571007967	0.0086630759760737	-0.1075630967238788					
+PVL				P2	paired_pathway_patient_value	Glycerophospholipid_metabolism	0.0092577598989009	0.0092089520767331	-0.0076261509957464					
+PVL				P3	paired_pathway_patient_value	Glycerophospholipid_metabolism	0.0086280750110745	0.0094908960163593	0.1375055764985367					
+PVL				P4	paired_pathway_patient_value	Glycerophospholipid_metabolism	0.007156572304666	0.0077261496335268	0.1104808557057892					
+PVL				P5	paired_pathway_patient_value	Glycerophospholipid_metabolism	0.0090164011344313	0.0095031298696994	0.0758510438260039					
+PVL				P6	paired_pathway_patient_value	Glycerophospholipid_metabolism	0.0089621124789118	0.0108843129128217	0.2803396000499219					
+PVL				P7	paired_pathway_patient_value	Glycerophospholipid_metabolism	0.0094430921599268	0.0110341412946581	0.2246431042181225					
+T cells				P1	paired_pathway_patient_value	Glycerophospholipid_metabolism	0.0093475989997386	0.0098483897745609	0.0752920155605495					
+T cells				P2	paired_pathway_patient_value	Glycerophospholipid_metabolism	0.0095522915944457	0.0096895601600408	0.0205843014455739					
+T cells				P3	paired_pathway_patient_value	Glycerophospholipid_metabolism	0.0097431614995002	0.0099788531661033	0.0344840416534909					
+T cells				P4	paired_pathway_patient_value	Glycerophospholipid_metabolism	0.0081940609961748	0.00848139077425	0.0497222243969755					
+T cells				P5	paired_pathway_patient_value	Glycerophospholipid_metabolism	0.0089857876300811	0.0097733018919825	0.1212010907616488					
+T cells				P6	paired_pathway_patient_value	Glycerophospholipid_metabolism	0.00972346868366	0.0104150613769888	0.0991283734318149					
+T cells				P7	paired_pathway_patient_value	Glycerophospholipid_metabolism	0.0101099479943513	0.0102110020816326	0.0143488795396142					
+CAF				P1	paired_pathway_patient_value	Sphingolipid_metabolism	0.0081411823630332	0.0092405602335929	0.1827419858281923					
+CAF				P2	paired_pathway_patient_value	Sphingolipid_metabolism	0.00901969242841	0.0087930215522646	-0.0367192335142104					
+CAF				P3	paired_pathway_patient_value	Sphingolipid_metabolism	0.0081933885812759	0.0090008433908224	0.1355999522034972					
+CAF				P4	paired_pathway_patient_value	Sphingolipid_metabolism	0.008677870966494	0.0064465831965208	-0.4288064253745053					
+CAF				P5	paired_pathway_patient_value	Sphingolipid_metabolism	0.0077217551879584	0.0072193760424852	-0.0970546625209207					
+CAF				P6	paired_pathway_patient_value	Sphingolipid_metabolism	0.008812197484076	0.0088438168168067	0.0051673160789989					
+CAF				P7	paired_pathway_patient_value	Sphingolipid_metabolism	0.0083356294780969	0.0074849561788141	-0.1552972807459295					
+Endothelial				P1	paired_pathway_patient_value	Sphingolipid_metabolism	0.0082373023033142	0.0092200711369514	0.1626059461270843					
+Endothelial				P2	paired_pathway_patient_value	Sphingolipid_metabolism	0.0087990183383226	0.0087185045704245	-0.013261878659383					
+Endothelial				P3	paired_pathway_patient_value	Sphingolipid_metabolism	0.0088766971603035	0.0090678194537758	0.0307326876261599					
+Endothelial				P4	paired_pathway_patient_value	Sphingolipid_metabolism	0.008934661746025	0.0074352636002004	-0.2650292212307353					
+Endothelial				P5	paired_pathway_patient_value	Sphingolipid_metabolism	0.0088679157197475	0.0084813209250569	-0.0643060838437622					
+Endothelial				P6	paired_pathway_patient_value	Sphingolipid_metabolism	0.0085571380332112	0.0086868647485971	0.0217072128998407					
+Endothelial				P7	paired_pathway_patient_value	Sphingolipid_metabolism	0.0085201477631926	0.0086341863498091	0.0191817794806388					
+Epithelial				P1	paired_pathway_patient_value	Sphingolipid_metabolism	0.0078704031184315	0.0089244153350591	0.1813201252004339					
+Epithelial				P2	paired_pathway_patient_value	Sphingolipid_metabolism	0.0078853489831089	0.0078834248706698	-0.0003520765169948					
+Epithelial				P3	paired_pathway_patient_value	Sphingolipid_metabolism	0.0061920909211039	0.0077531356364488	0.3243532488826655					
+Epithelial				P4	paired_pathway_patient_value	Sphingolipid_metabolism	0.007927531376481	0.0060797501355409	-0.3828596491318615					
+Epithelial				P5	paired_pathway_patient_value	Sphingolipid_metabolism	0.0068882778286933	0.0068208798766136	-0.0141854775781196					
+Epithelial				P6	paired_pathway_patient_value	Sphingolipid_metabolism	0.0058718025684356	0.0074201375246047	0.3376424656685898					
+Epithelial				P7	paired_pathway_patient_value	Sphingolipid_metabolism	0.0069167581386864	0.0050105061382055	-0.4651396647780701					
+Myeloid				P1	paired_pathway_patient_value	Sphingolipid_metabolism	0.008702989667654	0.0090580135583877	0.0576836154072448					
+Myeloid				P2	paired_pathway_patient_value	Sphingolipid_metabolism	0.0090299164876341	0.0095444293692708	0.0799463009786968					
+Myeloid				P3	paired_pathway_patient_value	Sphingolipid_metabolism	0.0082264095544815	0.00939183216542	0.1911437286586937					
+Myeloid				P4	paired_pathway_patient_value	Sphingolipid_metabolism	0.0095309577882289	0.0083859143778681	-0.1846531012093375					
+Myeloid				P5	paired_pathway_patient_value	Sphingolipid_metabolism	0.0083633195608854	0.0085479672998189	0.0315056998587916					
+Myeloid				P6	paired_pathway_patient_value	Sphingolipid_metabolism	0.0086962711066007	0.0101206200197339	0.2188288543382471					
+Myeloid				P7	paired_pathway_patient_value	Sphingolipid_metabolism	0.0081161605194211	0.0093794772401452	0.2087101185463822					
+PVL				P1	paired_pathway_patient_value	Sphingolipid_metabolism	0.0077275489456951	0.0080751711502671	0.0634819504877937					
+PVL				P2	paired_pathway_patient_value	Sphingolipid_metabolism	0.007972783409059	0.008212468586862	0.0427324700936507					
+PVL				P3	paired_pathway_patient_value	Sphingolipid_metabolism	0.0064247203990817	0.0078204609453678	0.2836199736107705					
+PVL				P4	paired_pathway_patient_value	Sphingolipid_metabolism	0.0085118236020207	0.0062336288392543	-0.4493959958841007					
+PVL				P5	paired_pathway_patient_value	Sphingolipid_metabolism	0.0070503926835954	0.0068582384847104	-0.0398655404497252					
+PVL				P6	paired_pathway_patient_value	Sphingolipid_metabolism	0.0069842184893786	0.0085570206865668	0.2930098863677514					
+PVL				P7	paired_pathway_patient_value	Sphingolipid_metabolism	0.0067532579414546	0.0063066920265555	-0.0987001783791199					
+T cells				P1	paired_pathway_patient_value	Sphingolipid_metabolism	0.0083393584936857	0.010058862157166	0.2704588054211477					
+T cells				P2	paired_pathway_patient_value	Sphingolipid_metabolism	0.0093482686206698	0.0100505221635103	0.1044993615515405					
+T cells				P3	paired_pathway_patient_value	Sphingolipid_metabolism	0.0103105930611491	0.0094899367541074	-0.1196569408106537					
+T cells				P4	paired_pathway_patient_value	Sphingolipid_metabolism	0.0096469959244132	0.007590340450406	-0.3459151604644084					
+T cells				P5	paired_pathway_patient_value	Sphingolipid_metabolism	0.0072204610332846	0.0078834369778633	0.1267337876473058					
+T cells				P6	paired_pathway_patient_value	Sphingolipid_metabolism	0.0090245548635721	0.0098649952560663	0.1284625843973758					
+T cells				P7	paired_pathway_patient_value	Sphingolipid_metabolism	0.009675046429038	0.0096224620938301	-0.0078625017640152					
+CAF				P1	paired_pathway_patient_value	Ether_lipid_metabolism	0.0075067151337862	0.0084555139765143	0.1717107165228277					
+CAF				P2	paired_pathway_patient_value	Ether_lipid_metabolism	0.0085646510124206	0.0097162863239645	0.1820105432154648					
+CAF				P3	paired_pathway_patient_value	Ether_lipid_metabolism	0.0088408943265676	0.0091569405049085	0.0506733319678559					
+CAF				P4	paired_pathway_patient_value	Ether_lipid_metabolism	0.0075184474699199	0.008431720547378	0.1653922707492258					
+CAF				P5	paired_pathway_patient_value	Ether_lipid_metabolism	0.0091641573235392	0.0111466310918331	0.282533611197753					
+CAF				P6	paired_pathway_patient_value	Ether_lipid_metabolism	0.0079324776306748	0.0088579021394252	0.1591935108691055					
+CAF				P7	paired_pathway_patient_value	Ether_lipid_metabolism	0.0092354221269488	0.0104327844455838	0.1758744459875005					
+Endothelial				P1	paired_pathway_patient_value	Ether_lipid_metabolism	0.0110039701685309	0.0137190893292427	0.3181605851794515					
+Endothelial				P2	paired_pathway_patient_value	Ether_lipid_metabolism	0.0125982016324996	0.0135630331933498	0.1064620476017596					
+Endothelial				P3	paired_pathway_patient_value	Ether_lipid_metabolism	0.0127738565206527	0.0131309609860181	0.0397783523804131					
+Endothelial				P4	paired_pathway_patient_value	Ether_lipid_metabolism	0.0093023125082254	0.0114587545394897	0.3007889323547739					
+Endothelial				P5	paired_pathway_patient_value	Ether_lipid_metabolism	0.0135005572810769	0.0146083766594529	0.1137769084605184					
+Endothelial				P6	paired_pathway_patient_value	Ether_lipid_metabolism	0.012848824262619	0.0139149194583296	0.1149962071481623					
+Endothelial				P7	paired_pathway_patient_value	Ether_lipid_metabolism	0.0137234199792146	0.0162355564534664	0.2425167753015869					
+Epithelial				P1	paired_pathway_patient_value	Ether_lipid_metabolism	0.0077357101254165	0.0090971738100051	0.2338846826704346					
+Epithelial				P2	paired_pathway_patient_value	Ether_lipid_metabolism	0.0088872350752353	0.0091009158641099	0.0342770879563446					
+Epithelial				P3	paired_pathway_patient_value	Ether_lipid_metabolism	0.0080980500206351	0.0099053811281919	0.2906379322037211					
+Epithelial				P4	paired_pathway_patient_value	Ether_lipid_metabolism	0.0080987429246306	0.0088975206017494	0.1357053759243723					
+Epithelial				P5	paired_pathway_patient_value	Ether_lipid_metabolism	0.0094761112704873	0.0116254109889268	0.2949146759771605					
+Epithelial				P6	paired_pathway_patient_value	Ether_lipid_metabolism	0.0078696263954043	0.0081635359674692	0.0528990323886916					
+Epithelial				P7	paired_pathway_patient_value	Ether_lipid_metabolism	0.0091528929769992	0.0092835472896695	0.0204483600787086					
+Myeloid				P1	paired_pathway_patient_value	Ether_lipid_metabolism	0.0080250930041074	0.0088280420750379	0.1375753936556082					
+Myeloid				P2	paired_pathway_patient_value	Ether_lipid_metabolism	0.0085981637239456	0.0085583562031388	-0.0066948560853232					
+Myeloid				P3	paired_pathway_patient_value	Ether_lipid_metabolism	0.0088355150073766	0.008868683129549	0.0054056716929646					
+Myeloid				P4	paired_pathway_patient_value	Ether_lipid_metabolism	0.007014075294137	0.0086803622543811	0.3075023337885445					
+Myeloid				P5	paired_pathway_patient_value	Ether_lipid_metabolism	0.008926635608077	0.009689318947494	0.118278728372647					
+Myeloid				P6	paired_pathway_patient_value	Ether_lipid_metabolism	0.0081229917705059	0.008406707085669	0.049529623479689					
+Myeloid				P7	paired_pathway_patient_value	Ether_lipid_metabolism	0.0091595808044075	0.0085732387378811	-0.0954412552297512					
+PVL				P1	paired_pathway_patient_value	Ether_lipid_metabolism	0.0077253244817256	0.0084862876683473	0.1355380531015604					
+PVL				P2	paired_pathway_patient_value	Ether_lipid_metabolism	0.0087992092594504	0.0101367719471454	0.2041525125893306					
+PVL				P3	paired_pathway_patient_value	Ether_lipid_metabolism	0.0086738904938101	0.0097095742821693	0.162728812267191					
+PVL				P4	paired_pathway_patient_value	Ether_lipid_metabolism	0.0067788977175951	0.0086842384189367	0.3573486314944864					
+PVL				P5	paired_pathway_patient_value	Ether_lipid_metabolism	0.0096461186185479	0.0119769629091024	0.3122416630130988					
+PVL				P6	paired_pathway_patient_value	Ether_lipid_metabolism	0.0079456595703959	0.0083534531295299	0.072205715670419					
+PVL				P7	paired_pathway_patient_value	Ether_lipid_metabolism	0.0093119936063885	0.0115788020193576	0.314324022306191					
+T cells				P1	paired_pathway_patient_value	Ether_lipid_metabolism	0.0079483995214104	0.009841751307249	0.3082506706538047					
+T cells				P2	paired_pathway_patient_value	Ether_lipid_metabolism	0.0091023091226816	0.0097112832590937	0.0934293650964403					
+T cells				P3	paired_pathway_patient_value	Ether_lipid_metabolism	0.0092500699684023	0.0096585685387253	0.0623451099733683					
+T cells				P4	paired_pathway_patient_value	Ether_lipid_metabolism	0.0080496752634644	0.0093785654753446	0.2204366843508311					
+T cells				P5	paired_pathway_patient_value	Ether_lipid_metabolism	0.0096898972988128	0.0109606431797146	0.1777791793226636					
+T cells				P6	paired_pathway_patient_value	Ether_lipid_metabolism	0.0087151862680912	0.0088701723143458	0.0254306318400535					
+T cells				P7	paired_pathway_patient_value	Ether_lipid_metabolism	0.0098593365401029	0.0108141982927918	0.1333642431645716					
+CAF				P1	paired_pathway_patient_value	Cholesterol_metabolism	0.005475437734276	0.0046964446082711	-0.221405312105424					
+CAF				P2	paired_pathway_patient_value	Cholesterol_metabolism	0.0046923523768782	0.0047447904944419	0.0160330285992524					
+CAF				P3	paired_pathway_patient_value	Cholesterol_metabolism	0.0045158462598919	0.0049379235133528	0.1289081188357669					
+CAF				P4	paired_pathway_patient_value	Cholesterol_metabolism	0.0059969136491417	0.0052904561161994	-0.1808280897500306					
+CAF				P5	paired_pathway_patient_value	Cholesterol_metabolism	0.0052045537158846	0.0059764920733869	0.1995244775578218					
+CAF				P6	paired_pathway_patient_value	Cholesterol_metabolism	0.0047784983180463	0.0043790591880679	-0.1259363611615017					
+CAF				P7	paired_pathway_patient_value	Cholesterol_metabolism	0.0045650033280253	0.0041312421672046	-0.144040280691139					
+Endothelial				P1	paired_pathway_patient_value	Cholesterol_metabolism	0.0052230348810553	0.0049010664224624	-0.0917926392812689					
+Endothelial				P2	paired_pathway_patient_value	Cholesterol_metabolism	0.0053495829924941	0.0058130295947194	0.1198638177017528					
+Endothelial				P3	paired_pathway_patient_value	Cholesterol_metabolism	0.0047860699705779	0.0056240577250719	0.2327699135424742					
+Endothelial				P4	paired_pathway_patient_value	Cholesterol_metabolism	0.0055315531790256	0.0056054182350635	0.0191373953793893					
+Endothelial				P5	paired_pathway_patient_value	Cholesterol_metabolism	0.005891699809581	0.0055006700567901	-0.0990765555831541					
+Endothelial				P6	paired_pathway_patient_value	Cholesterol_metabolism	0.0057129012420773	0.0051081762649118	-0.1614152823702529					
+Endothelial				P7	paired_pathway_patient_value	Cholesterol_metabolism	0.0050086546689271	0.0048011667095124	-0.0610381145685565					
+Epithelial				P1	paired_pathway_patient_value	Cholesterol_metabolism	0.0059682801365852	0.0062111080624163	0.057535414586858					
+Epithelial				P2	paired_pathway_patient_value	Cholesterol_metabolism	0.0069627733901143	0.0070841135457158	0.0249252657795874					
+Epithelial				P3	paired_pathway_patient_value	Cholesterol_metabolism	0.0061094081029295	0.0073673734441399	0.270117758759729					
+Epithelial				P4	paired_pathway_patient_value	Cholesterol_metabolism	0.0072151375934481	0.0056326542980968	-0.3572119778642051					
+Epithelial				P5	paired_pathway_patient_value	Cholesterol_metabolism	0.0071250684559345	0.0067109121009707	-0.0863950143671338					
+Epithelial				P6	paired_pathway_patient_value	Cholesterol_metabolism	0.0084354458376765	0.003975972533226	-1.085156530604712					
+Epithelial				P7	paired_pathway_patient_value	Cholesterol_metabolism	0.0062878439202904	0.0049321427941322	-0.3503508379293532					
+Myeloid				P1	paired_pathway_patient_value	Cholesterol_metabolism	0.0041234693489968	0.0039531760849058	-0.0608464655833689					
+Myeloid				P2	paired_pathway_patient_value	Cholesterol_metabolism	0.0042369975708425	0.0038505760021507	-0.1379680289394013					
+Myeloid				P3	paired_pathway_patient_value	Cholesterol_metabolism	0.0039777755737304	0.0040899263694882	0.0401129891633005					
+Myeloid				P4	paired_pathway_patient_value	Cholesterol_metabolism	0.004529002122581	0.0037500585895031	-0.2722800796190377					
+Myeloid				P5	paired_pathway_patient_value	Cholesterol_metabolism	0.0042210365645587	0.0039315856993198	-0.1024860245488287					
+Myeloid				P6	paired_pathway_patient_value	Cholesterol_metabolism	0.0040297424420714	0.0039527020417153	-0.0278484253533298					
+Myeloid				P7	paired_pathway_patient_value	Cholesterol_metabolism	0.0040336214005947	0.0037288854364305	-0.1133312041481026					
+PVL				P1	paired_pathway_patient_value	Cholesterol_metabolism	0.0056391423568129	0.0039736479520797	-0.5050117016484543					
+PVL				P2	paired_pathway_patient_value	Cholesterol_metabolism	0.0047280890867114	0.006056853570044	0.3573113142956505					
+PVL				P3	paired_pathway_patient_value	Cholesterol_metabolism	0.0046326234005391	0.0070073273964226	0.5970348971662593					
+PVL				P4	paired_pathway_patient_value	Cholesterol_metabolism	0.0057916506193578	0.0053363312035799	-0.1181263633373016					
+PVL				P5	paired_pathway_patient_value	Cholesterol_metabolism	0.0062414119020104	0.0062206275761127	-0.0048122896346051					
+PVL				P6	paired_pathway_patient_value	Cholesterol_metabolism	0.0046659666113555	0.0044052917510271	-0.0829384154924884					
+PVL				P7	paired_pathway_patient_value	Cholesterol_metabolism	0.0040914108976721	0.0038183261640369	-0.0996580893998973					
+T cells				P1	paired_pathway_patient_value	Cholesterol_metabolism	0.0053272079676389	0.0049835918471217	-0.0961936856064437					
+T cells				P2	paired_pathway_patient_value	Cholesterol_metabolism	0.0053047086112201	0.0050859986804425	-0.0607424180467536					
+T cells				P3	paired_pathway_patient_value	Cholesterol_metabolism	0.004878741223365	0.0050591216422617	0.0523779656096863					
+T cells				P4	paired_pathway_patient_value	Cholesterol_metabolism	0.0054521458223462	0.0052202260121703	-0.0627118784673557					
+T cells				P5	paired_pathway_patient_value	Cholesterol_metabolism	0.0067179906181991	0.0056392061524093	-0.2525376963177773					
+T cells				P6	paired_pathway_patient_value	Cholesterol_metabolism	0.0048865173012018	0.0043498082086443	-0.1678548084794397					
+T cells				P7	paired_pathway_patient_value	Cholesterol_metabolism	0.0049082241021096	0.0050837742164731	0.050698836173098					
+CAF				P1	paired_pathway_patient_value	Fatty_acid_activation_cytosolic	0.0051852781325578	0.007631036452949	0.5574576425898576					
+CAF				P2	paired_pathway_patient_value	Fatty_acid_activation_cytosolic	0.0086682979017496	0.009477992542088	0.1288327906526329					
+CAF				P3	paired_pathway_patient_value	Fatty_acid_activation_cytosolic	0.0083107966929674	0.0087139923125505	0.0683470566710033					
+CAF				P4	paired_pathway_patient_value	Fatty_acid_activation_cytosolic	0.0062603927217423	0.0070794569328427	0.1773855330649454					
+CAF				P5	paired_pathway_patient_value	Fatty_acid_activation_cytosolic	0.0084028784185647	0.007699925918132	-0.1260390443575597					
+CAF				P6	paired_pathway_patient_value	Fatty_acid_activation_cytosolic	0.0093069663271307	0.0092006940394639	-0.016568294904669					
+CAF				P7	paired_pathway_patient_value	Fatty_acid_activation_cytosolic	0.0088570248335599	0.0090806735679507	0.0359771508791929					
+Endothelial				P1	paired_pathway_patient_value	Fatty_acid_activation_cytosolic	0.0066080121323466	0.0070060389116406	0.0843826653553634					
+Endothelial				P2	paired_pathway_patient_value	Fatty_acid_activation_cytosolic	0.0075840479694306	0.0084305880591273	0.1526651776654866					
+Endothelial				P3	paired_pathway_patient_value	Fatty_acid_activation_cytosolic	0.0069814533926546	0.0074051171541213	0.0849951534865351					
+Endothelial				P4	paired_pathway_patient_value	Fatty_acid_activation_cytosolic	0.0064980210736393	0.0072008534334599	0.1481674801039184					
+Endothelial				P5	paired_pathway_patient_value	Fatty_acid_activation_cytosolic	0.0080676786601543	0.0089210933074355	0.1450669058972062					
+Endothelial				P6	paired_pathway_patient_value	Fatty_acid_activation_cytosolic	0.0077884965576231	0.0074477470479905	-0.0645407917197799					
+Endothelial				P7	paired_pathway_patient_value	Fatty_acid_activation_cytosolic	0.0082734674215316	0.0086037646979093	0.0564759778124933					
+Epithelial				P1	paired_pathway_patient_value	Fatty_acid_activation_cytosolic	0.0047322451137006	0.0051694558933377	0.1274876367408823					
+Epithelial				P2	paired_pathway_patient_value	Fatty_acid_activation_cytosolic	0.0073126410134136	0.0078017571941018	0.0934065594967203					
+Epithelial				P3	paired_pathway_patient_value	Fatty_acid_activation_cytosolic	0.0073222178034484	0.0077470475807785	0.0813659123888915					
+Epithelial				P4	paired_pathway_patient_value	Fatty_acid_activation_cytosolic	0.0060030799359083	0.0070505263283848	0.2320280813111731					
+Epithelial				P5	paired_pathway_patient_value	Fatty_acid_activation_cytosolic	0.0066800294443964	0.0071133915334939	0.0906831123216721					
+Epithelial				P6	paired_pathway_patient_value	Fatty_acid_activation_cytosolic	0.0087646935135126	0.0118380663916468	0.4336579046338586					
+Epithelial				P7	paired_pathway_patient_value	Fatty_acid_activation_cytosolic	0.0069672893732786	0.008684211410582	0.3177973635388883					
+Myeloid				P1	paired_pathway_patient_value	Fatty_acid_activation_cytosolic	0.0109720770269632	0.0101363994181156	-0.1142913762903063					
+Myeloid				P2	paired_pathway_patient_value	Fatty_acid_activation_cytosolic	0.0115698147565126	0.013800268061459	0.2543305249703996					
+Myeloid				P3	paired_pathway_patient_value	Fatty_acid_activation_cytosolic	0.0106218587607145	0.0121144540607929	0.1896931399465751					
+Myeloid				P4	paired_pathway_patient_value	Fatty_acid_activation_cytosolic	0.0103080496191978	0.0130073223263025	0.3355526140009781					
+Myeloid				P5	paired_pathway_patient_value	Fatty_acid_activation_cytosolic	0.0119429398328065	0.0134599497541785	0.1725150152507054					
+Myeloid				P6	paired_pathway_patient_value	Fatty_acid_activation_cytosolic	0.0136414505541324	0.0165185704827308	0.2760917808247153					
+Myeloid				P7	paired_pathway_patient_value	Fatty_acid_activation_cytosolic	0.0110419318079948	0.011816862039268	0.0978543829847978					
+PVL				P1	paired_pathway_patient_value	Fatty_acid_activation_cytosolic	0.0047532860189676	0.0062516145408153	0.3953036126645495					
+PVL				P2	paired_pathway_patient_value	Fatty_acid_activation_cytosolic	0.0072923782281577	0.0083183273673057	0.1899040728150228					
+PVL				P3	paired_pathway_patient_value	Fatty_acid_activation_cytosolic	0.0072008669376373	0.0073886848986148	0.0371469958785672					
+PVL				P4	paired_pathway_patient_value	Fatty_acid_activation_cytosolic	0.0059769037179648	0.0062700943090021	0.0690888403309923					
+PVL				P5	paired_pathway_patient_value	Fatty_acid_activation_cytosolic	0.0068618673831224	0.006923628039658	0.0129269766976104					
+PVL				P6	paired_pathway_patient_value	Fatty_acid_activation_cytosolic	0.0079231513664126	0.008934399113059	0.1732963392441497					
+PVL				P7	paired_pathway_patient_value	Fatty_acid_activation_cytosolic	0.0071946824900805	0.0077119437046349	0.100163499756185					
+T cells				P1	paired_pathway_patient_value	Fatty_acid_activation_cytosolic	0.0060091326013207	0.0076648476533591	0.3511003594938274					
+T cells				P2	paired_pathway_patient_value	Fatty_acid_activation_cytosolic	0.0074341311119496	0.0082346256822347	0.1475389389918542					
+T cells				P3	paired_pathway_patient_value	Fatty_acid_activation_cytosolic	0.0071368343196809	0.0077385758049786	0.1167837985599412					
+T cells				P4	paired_pathway_patient_value	Fatty_acid_activation_cytosolic	0.0069571468047797	0.0089958608150482	0.3707655759971895					
+T cells				P5	paired_pathway_patient_value	Fatty_acid_activation_cytosolic	0.0068775350227952	0.008305818773806	0.272230812412527					
+T cells				P6	paired_pathway_patient_value	Fatty_acid_activation_cytosolic	0.0097799431532621	0.0100416410714387	0.038097078799077					
+T cells				P7	paired_pathway_patient_value	Fatty_acid_activation_cytosolic	0.0078908009454607	0.0097770225256681	0.3092234301333068					
+CAF				P1	paired_pathway_patient_value	Fatty_acid_activation_endoplasmic_reticular	0.0049811736680567	0.0078197484835982	0.6506364937776219					
+CAF				P2	paired_pathway_patient_value	Fatty_acid_activation_endoplasmic_reticular	0.0089819878339767	0.0099381357431411	0.1459404795237789					
+CAF				P3	paired_pathway_patient_value	Fatty_acid_activation_endoplasmic_reticular	0.0084880106151103	0.0091754160821437	0.1123471215578611					
+CAF				P4	paired_pathway_patient_value	Fatty_acid_activation_endoplasmic_reticular	0.0061514154076576	0.0071037230081856	0.2076569234883488					
+CAF				P5	paired_pathway_patient_value	Fatty_acid_activation_endoplasmic_reticular	0.008632062934339	0.0076660504564642	-0.1712218895042874					
+CAF				P6	paired_pathway_patient_value	Fatty_acid_activation_endoplasmic_reticular	0.0097507061436772	0.0097779994830489	0.0040326268162401					
+CAF				P7	paired_pathway_patient_value	Fatty_acid_activation_endoplasmic_reticular	0.0090999277308583	0.0094270342960953	0.0509488888384769					
+Endothelial				P1	paired_pathway_patient_value	Fatty_acid_activation_endoplasmic_reticular	0.0063241245225071	0.0067419204860925	0.0922938375876306					
+Endothelial				P2	paired_pathway_patient_value	Fatty_acid_activation_endoplasmic_reticular	0.0072758351452648	0.0083192214369773	0.1933356635613066					
+Endothelial				P3	paired_pathway_patient_value	Fatty_acid_activation_endoplasmic_reticular	0.006713296752423	0.0072040762752294	0.1017920400202584					
+Endothelial				P4	paired_pathway_patient_value	Fatty_acid_activation_endoplasmic_reticular	0.0062903985381126	0.0069405906833708	0.1419070252866091					
+Endothelial				P5	paired_pathway_patient_value	Fatty_acid_activation_endoplasmic_reticular	0.0078070256859064	0.0088032502681016	0.1732632665368993					
+Endothelial				P6	paired_pathway_patient_value	Fatty_acid_activation_endoplasmic_reticular	0.0075430613942444	0.0070809982717037	-0.0911974040306737					
+Endothelial				P7	paired_pathway_patient_value	Fatty_acid_activation_endoplasmic_reticular	0.0080561432987451	0.0085488893091678	0.0856476484768922					
+Epithelial				P1	paired_pathway_patient_value	Fatty_acid_activation_endoplasmic_reticular	0.0044940924271941	0.0049408255144953	0.1367223120047684					
+Epithelial				P2	paired_pathway_patient_value	Fatty_acid_activation_endoplasmic_reticular	0.0073233288712799	0.0078965937718749	0.1087308901404547					
+Epithelial				P3	paired_pathway_patient_value	Fatty_acid_activation_endoplasmic_reticular	0.0074786264449357	0.0078789303079247	0.0752264506359698					
+Epithelial				P4	paired_pathway_patient_value	Fatty_acid_activation_endoplasmic_reticular	0.0058170082047581	0.0070516858249902	0.2776908603858478					
+Epithelial				P5	paired_pathway_patient_value	Fatty_acid_activation_endoplasmic_reticular	0.0064504798501729	0.0069000618532299	0.0972028081088031					
+Epithelial				P6	paired_pathway_patient_value	Fatty_acid_activation_endoplasmic_reticular	0.0090144099667668	0.0129429316148161	0.52185946026668					
+Epithelial				P7	paired_pathway_patient_value	Fatty_acid_activation_endoplasmic_reticular	0.0068003102205693	0.0089887119829654	0.4025138412668732					
+Myeloid				P1	paired_pathway_patient_value	Fatty_acid_activation_endoplasmic_reticular	0.0119123328477144	0.0108926780521869	-0.1290972747690323					
+Myeloid				P2	paired_pathway_patient_value	Fatty_acid_activation_endoplasmic_reticular	0.0125668505206704	0.0154376560822129	0.2968305934515347					
+Myeloid				P3	paired_pathway_patient_value	Fatty_acid_activation_endoplasmic_reticular	0.0115083418786525	0.0133163202553987	0.2105154875852					
+Myeloid				P4	paired_pathway_patient_value	Fatty_acid_activation_endoplasmic_reticular	0.011135496199131	0.0145647535100579	0.3873154396717891					
+Myeloid				P5	paired_pathway_patient_value	Fatty_acid_activation_endoplasmic_reticular	0.013022918254137	0.0148768359795212	0.1920149526891018					
+Myeloid				P6	paired_pathway_patient_value	Fatty_acid_activation_endoplasmic_reticular	0.015249328687787	0.0190179720520973	0.3186176819996757					
+Myeloid				P7	paired_pathway_patient_value	Fatty_acid_activation_endoplasmic_reticular	0.0119213983416557	0.0130200581625103	0.1271824240379638					
+PVL				P1	paired_pathway_patient_value	Fatty_acid_activation_endoplasmic_reticular	0.0045200539752841	0.0064269034191966	0.5077837919367258					
+PVL				P2	paired_pathway_patient_value	Fatty_acid_activation_endoplasmic_reticular	0.0073279021307826	0.0085670351982116	0.2253957805337721					
+PVL				P3	paired_pathway_patient_value	Fatty_acid_activation_endoplasmic_reticular	0.0071449079550802	0.0074326433241367	0.05695995218981					
+PVL				P4	paired_pathway_patient_value	Fatty_acid_activation_endoplasmic_reticular	0.0059028603136539	0.00613759085536	0.0562582739467341					
+PVL				P5	paired_pathway_patient_value	Fatty_acid_activation_endoplasmic_reticular	0.0067998594604432	0.0066980067640542	-0.0217730960704778					
+PVL				P6	paired_pathway_patient_value	Fatty_acid_activation_endoplasmic_reticular	0.0082477470859885	0.0094621051102876	0.198161093499249					
+PVL				P7	paired_pathway_patient_value	Fatty_acid_activation_endoplasmic_reticular	0.0072314236313104	0.0078783817589282	0.1236196319131087					
+T cells				P1	paired_pathway_patient_value	Fatty_acid_activation_endoplasmic_reticular	0.0059184464626014	0.0076719182543456	0.3743688168087256					
+T cells				P2	paired_pathway_patient_value	Fatty_acid_activation_endoplasmic_reticular	0.0073506641201674	0.0083342073485255	0.1811703926917475					
+T cells				P3	paired_pathway_patient_value	Fatty_acid_activation_endoplasmic_reticular	0.0070232888683676	0.0077990056015551	0.1511434128754593					
+T cells				P4	paired_pathway_patient_value	Fatty_acid_activation_endoplasmic_reticular	0.0069120558910071	0.0092666847631335	0.4229384112817289					
+T cells				P5	paired_pathway_patient_value	Fatty_acid_activation_endoplasmic_reticular	0.0067373933270573	0.0082261338829994	0.2880240264600286					
+T cells				P6	paired_pathway_patient_value	Fatty_acid_activation_endoplasmic_reticular	0.0102624185383319	0.0108495661988854	0.0802665900266833					
+T cells				P7	paired_pathway_patient_value	Fatty_acid_activation_endoplasmic_reticular	0.0078813461586833	0.0101273292675614	0.3617397907464649					
+CAF					paired_pathway_summary	Fatty_acid_metabolism				-0.0365310105642543	6.0	7.0	0.15625	0.6280339805825242
+Endothelial					paired_pathway_summary	Fatty_acid_metabolism				-0.0078952405320141	4.0	7.0	0.9375	0.9715269086357948
+Epithelial					paired_pathway_summary	Fatty_acid_metabolism				-0.1578799386380338	4.0	7.0	1.0	1.0
+Myeloid					paired_pathway_summary	Fatty_acid_metabolism				-0.0515127878364992	6.0	7.0	0.21875	0.6355263157894737
+PVL					paired_pathway_summary	Fatty_acid_metabolism				0.003441260300018	4.0	7.0	0.9375	0.9715269086357948
+T cells					paired_pathway_summary	Fatty_acid_metabolism				-0.01514380617947	4.0	7.0	1.0	1.0
+CAF					paired_pathway_summary	Fatty_acid_biosynthesis				-0.130774333991042	6.0	7.0	0.078125	0.5390625
+Endothelial					paired_pathway_summary	Fatty_acid_biosynthesis				-0.1251163673832336	6.0	7.0	0.03125	0.5073529411764706
+Epithelial					paired_pathway_summary	Fatty_acid_biosynthesis				-0.0808948724801592	5.0	7.0	0.15625	0.6280339805825242
+Myeloid					paired_pathway_summary	Fatty_acid_biosynthesis				-0.1159284708177287	6.0	7.0	0.046875	0.5244932432432433
+PVL					paired_pathway_summary	Fatty_acid_biosynthesis				-0.1748855632734203	5.0	7.0	0.15625	0.6280339805825242
+T cells					paired_pathway_summary	Fatty_acid_biosynthesis				-0.0972837050560845	7.0	7.0	0.015625	0.5073529411764706
+CAF					paired_pathway_summary	Fatty_acid_elongation_even_chain				-0.0821370095126612	6.0	7.0	0.078125	0.5390625
+Endothelial					paired_pathway_summary	Fatty_acid_elongation_even_chain				-0.0384511046114431	4.0	7.0	0.46875	0.7700892857142857
+Epithelial					paired_pathway_summary	Fatty_acid_elongation_even_chain				0.0231405112928452	4.0	7.0	0.6875	0.8690839694656489
+Myeloid					paired_pathway_summary	Fatty_acid_elongation_even_chain				-0.1471730645390531	6.0	7.0	0.03125	0.5073529411764706
+PVL					paired_pathway_summary	Fatty_acid_elongation_even_chain				-0.0283935672560846	4.0	7.0	0.46875	0.7700892857142857
+T cells					paired_pathway_summary	Fatty_acid_elongation_even_chain				-0.0431228593145726	4.0	7.0	0.8125	0.9178035470668484
+CAF					paired_pathway_summary	Fatty_acid_oxidation				-0.071849918635367	4.0	7.0	0.46875	0.7700892857142857
+Endothelial					paired_pathway_summary	Fatty_acid_oxidation				-0.0681464122958032	4.0	7.0	0.375	0.7105263157894737
+Epithelial					paired_pathway_summary	Fatty_acid_oxidation				0.0585777612527801	4.0	7.0	0.578125	0.8210763293310462
+Myeloid					paired_pathway_summary	Fatty_acid_oxidation				-0.1948429971954043	6.0	7.0	0.15625	0.6280339805825242
+PVL					paired_pathway_summary	Fatty_acid_oxidation				-0.1716865451712239	4.0	7.0	0.21875	0.6355263157894737
+T cells					paired_pathway_summary	Fatty_acid_oxidation				0.0484628745486921	4.0	7.0	0.6875	0.8690839694656489
+CAF					paired_pathway_summary	Carnitine_shuttle_peroxisomal				-0.0321478157612288	5.0	7.0	0.8125	0.9178035470668484
+Endothelial					paired_pathway_summary	Carnitine_shuttle_peroxisomal				0.009070145706134	5.0	7.0	0.6875	0.8690839694656489
+Epithelial					paired_pathway_summary	Carnitine_shuttle_peroxisomal				-0.0078666901309045	4.0	7.0	0.578125	0.8210763293310462
+Myeloid					paired_pathway_summary	Carnitine_shuttle_peroxisomal				-0.2155653719575942	6.0	7.0	0.046875	0.5244932432432433
+PVL					paired_pathway_summary	Carnitine_shuttle_peroxisomal				0.0772653519992165	5.0	7.0	0.9375	0.9715269086357948
+T cells					paired_pathway_summary	Carnitine_shuttle_peroxisomal				-0.0469283753499892	4.0	7.0	0.578125	0.8210763293310462
+CAF					paired_pathway_summary	Glycerolipid_metabolism				0.054242549655517	5.0	7.0	0.15625	0.6280339805825242
+Endothelial					paired_pathway_summary	Glycerolipid_metabolism				0.1181690798920299	6.0	7.0	0.109375	0.6160714285714285
+Epithelial					paired_pathway_summary	Glycerolipid_metabolism				0.0058126982516645	5.0	7.0	0.375	0.7105263157894737
+Myeloid					paired_pathway_summary	Glycerolipid_metabolism				-0.0282078761370873	5.0	7.0	0.46875	0.7700892857142857
+PVL					paired_pathway_summary	Glycerolipid_metabolism				0.0170607085171897	4.0	7.0	0.46875	0.7700892857142857
+T cells					paired_pathway_summary	Glycerolipid_metabolism				0.0611088653276999	5.0	7.0	0.15625	0.6280339805825242
+CAF					paired_pathway_summary	Glycerophospholipid_metabolism				0.0738050020471377	6.0	7.0	0.078125	0.5390625
+Endothelial					paired_pathway_summary	Glycerophospholipid_metabolism				0.1009363549972199	6.0	7.0	0.046875	0.5244932432432433
+Epithelial					paired_pathway_summary	Glycerophospholipid_metabolism				0.0637177390842935	5.0	7.0	0.21875	0.6355263157894737
+Myeloid					paired_pathway_summary	Glycerophospholipid_metabolism				0.0725879487384334	5.0	7.0	0.078125	0.5390625
+PVL					paired_pathway_summary	Glycerophospholipid_metabolism				0.1104808557057892	5.0	7.0	0.15625	0.6280339805825242
+T cells					paired_pathway_summary	Glycerophospholipid_metabolism				0.0497222243969755	7.0	7.0	0.015625	0.5073529411764706
+CAF					paired_pathway_summary	Sphingolipid_metabolism				-0.0367192335142104	4.0	7.0	0.6875	0.8690839694656489
+Endothelial					paired_pathway_summary	Sphingolipid_metabolism				0.0191817794806388	4.0	7.0	0.9375	0.9715269086357948
+Epithelial					paired_pathway_summary	Sphingolipid_metabolism				-0.0003520765169948	4.0	7.0	0.8125	0.9178035470668484
+Myeloid					paired_pathway_summary	Sphingolipid_metabolism				0.0799463009786968	6.0	7.0	0.109375	0.6160714285714285
+PVL					paired_pathway_summary	Sphingolipid_metabolism				0.0427324700936507	4.0	7.0	0.8125	0.9178035470668484
+T cells					paired_pathway_summary	Sphingolipid_metabolism				0.1044993615515405	4.0	7.0	0.8125	0.9178035470668484
+CAF					paired_pathway_summary	Ether_lipid_metabolism				0.1717107165228277	7.0	7.0	0.015625	0.5073529411764706
+Endothelial					paired_pathway_summary	Ether_lipid_metabolism				0.1149962071481623	7.0	7.0	0.015625	0.5073529411764706
+Epithelial					paired_pathway_summary	Ether_lipid_metabolism				0.1357053759243723	7.0	7.0	0.015625	0.5073529411764706
+Myeloid					paired_pathway_summary	Ether_lipid_metabolism				0.049529623479689	5.0	7.0	0.21875	0.6355263157894737
+PVL					paired_pathway_summary	Ether_lipid_metabolism				0.2041525125893306	7.0	7.0	0.015625	0.5073529411764706
+T cells					paired_pathway_summary	Ether_lipid_metabolism				0.1333642431645716	7.0	7.0	0.015625	0.5073529411764706
+CAF					paired_pathway_summary	Cholesterol_metabolism				-0.1259363611615017	4.0	7.0	0.578125	0.8210763293310462
+Endothelial					paired_pathway_summary	Cholesterol_metabolism				-0.0610381145685565	4.0	7.0	0.9375	0.9715269086357948
+Epithelial					paired_pathway_summary	Cholesterol_metabolism				-0.0863950143671338	4.0	7.0	0.296875	0.6697888283378747
+Myeloid					paired_pathway_summary	Cholesterol_metabolism				-0.1024860245488287	6.0	7.0	0.046875	0.5244932432432433
+PVL					paired_pathway_summary	Cholesterol_metabolism				-0.0829384154924884	5.0	7.0	0.8125	0.9178035470668484
+T cells					paired_pathway_summary	Cholesterol_metabolism				-0.0627118784673557	5.0	7.0	0.078125	0.5390625
+CAF					paired_pathway_summary	Fatty_acid_activation_cytosolic				0.0683470566710033	5.0	7.0	0.15625	0.6280339805825242
+Endothelial					paired_pathway_summary	Fatty_acid_activation_cytosolic				0.0849951534865351	6.0	7.0	0.046875	0.5244932432432433
+Epithelial					paired_pathway_summary	Fatty_acid_activation_cytosolic				0.1274876367408823	7.0	7.0	0.015625	0.5073529411764706
+Myeloid					paired_pathway_summary	Fatty_acid_activation_cytosolic				0.1896931399465751	6.0	7.0	0.046875	0.5244932432432433
+PVL					paired_pathway_summary	Fatty_acid_activation_cytosolic				0.100163499756185	7.0	7.0	0.015625	0.5073529411764706
+T cells					paired_pathway_summary	Fatty_acid_activation_cytosolic				0.272230812412527	7.0	7.0	0.015625	0.5073529411764706
+CAF					paired_pathway_summary	Fatty_acid_activation_endoplasmic_reticular				0.1123471215578611	6.0	7.0	0.21875	0.6355263157894737
+Endothelial					paired_pathway_summary	Fatty_acid_activation_endoplasmic_reticular				0.1017920400202584	6.0	7.0	0.046875	0.5244932432432433
+Epithelial					paired_pathway_summary	Fatty_acid_activation_endoplasmic_reticular				0.1367223120047684	7.0	7.0	0.015625	0.5073529411764706
+Myeloid					paired_pathway_summary	Fatty_acid_activation_endoplasmic_reticular				0.2105154875852	6.0	7.0	0.03125	0.5073529411764706
+PVL					paired_pathway_summary	Fatty_acid_activation_endoplasmic_reticular				0.1236196319131087	6.0	7.0	0.03125	0.5073529411764706
+T cells					paired_pathway_summary	Fatty_acid_activation_endoplasmic_reticular				0.2880240264600286	7.0	7.0	0.015625	0.5073529411764706
